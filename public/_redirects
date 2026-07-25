@@ -1,0 +1,4 @@
+# Cloudflare Pages: /api/* は Pages Functions が処理する（先に評価される）。
+# それ以外の未知パス（/terms, /about や直リンク・リロード）は SPA として index.html に返し、
+# クライアント側ルーター（src/router.tsx）が pathname を見て描画する。
+/*    /index.html   200

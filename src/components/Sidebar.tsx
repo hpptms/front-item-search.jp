@@ -9,7 +9,10 @@ import Drawer from "@mui/material/Drawer";
 import SearchIcon from "@mui/icons-material/Search";
 import HistoryIcon from "@mui/icons-material/History";
 import CloseIcon from "@mui/icons-material/Close";
+import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
+import DescriptionOutlinedIcon from "@mui/icons-material/DescriptionOutlined";
 import SiteLogo from "./SiteLogo";
+import { Link } from "../router";
 
 type NavItem = {
   label: string;
@@ -113,6 +116,47 @@ function SidebarContent({
             ))}
           </List>
         )}
+      </Box>
+
+      {/* フッターナビ: サイトの説明 / 利用規約 への導線。
+          履歴エリア（flex:1）の下に置くことで、常にサイドバー最下部に固定表示する。 */}
+      <Box
+        sx={{
+          mt: "auto",
+          px: 1,
+          py: 1,
+          borderTop: "1px solid",
+          borderColor: "divider",
+        }}
+      >
+        <List dense disablePadding>
+          <ListItemButton
+            component={Link}
+            to="/about"
+            sx={{ borderRadius: 2, py: 0.5 }}
+          >
+            <ListItemIcon sx={{ minWidth: 32 }}>
+              <InfoOutlinedIcon sx={{ fontSize: 18 }} />
+            </ListItemIcon>
+            <ListItemText
+              primary="サイトの説明"
+              primaryTypographyProps={{ fontSize: 13, color: "text.secondary" }}
+            />
+          </ListItemButton>
+          <ListItemButton
+            component={Link}
+            to="/terms"
+            sx={{ borderRadius: 2, py: 0.5 }}
+          >
+            <ListItemIcon sx={{ minWidth: 32 }}>
+              <DescriptionOutlinedIcon sx={{ fontSize: 18 }} />
+            </ListItemIcon>
+            <ListItemText
+              primary="利用規約"
+              primaryTypographyProps={{ fontSize: 13, color: "text.secondary" }}
+            />
+          </ListItemButton>
+        </List>
       </Box>
     </Box>
   );
