@@ -12,6 +12,7 @@ import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
 import SearchIcon from "@mui/icons-material/Search";
 import HistoryIcon from "@mui/icons-material/History";
 import CloseIcon from "@mui/icons-material/Close";
+import MenuIcon from "@mui/icons-material/Menu";
 import Sidebar from "./components/Sidebar";
 import SiteSection from "./components/SiteSection";
 import ProductGrid, { GridItem, Density } from "./components/ProductGrid";
@@ -53,6 +54,8 @@ export default function App() {
   const [density, setDensity] = useState<Density>("comfortable");
   const [history, setHistory] = useState<string[]>(() => loadHistory());
   const [historyOpen, setHistoryOpen] = useState(false);
+  // スマホ / タブレットのサイドバー（ドロワー）の開閉。PC では常設なので使わない。
+  const [sidebarOpen, setSidebarOpen] = useState(false);
   const abortRef = useRef<AbortController | null>(null);
 
   function recordHistory(term: string) {
@@ -77,6 +80,9 @@ export default function App() {
 
     recordHistory(term);
     setHistoryOpen(false);
+
+    // GA4: 何が検索されたかを計測する（標準の search イベント）。
+    window.gtag?.("event", "search", { search_term: term });
     abortRef.current?.abort();
     const controller = new AbortController();
     abortRef.current = controller;
@@ -86,6 +92,12 @@ export default function App() {
     try {
       const res = await searchProducts(term, 20, controller.signal);
       setData(res);
+      // GA4: 検索結果の件数も計測しておく。
+      const count = res.sites.reduce((sum, s) => sum + s.items.length, 0);
+      window.gtag?.("event", "search_results", {
+        search_term: term,
+        results_count: count,
+      });
     } catch (e) {
       if ((e as Error).name !== "AbortError") {
         setError((e as Error).message);
@@ -124,6 +136,8 @@ export default function App() {
           runSearch(term);
         }}
         onRemove={removeHistory}
+        mobileOpen={sidebarOpen}
+        onMobileClose={() => setSidebarOpen(false)}
       />
 
       <Box
@@ -139,16 +153,34 @@ export default function App() {
         {/* ヘッダー + 検索バー */}
         <Box
           sx={{
-            px: 4,
-            py: 2.5,
+            px: { xs: 2, md: 4 },
+            py: { xs: 1.5, md: 2.5 },
             borderBottom: "1px solid",
             borderColor: "divider",
             bgcolor: "background.paper",
           }}
         >
-          <Typography variant="h6" component="h1" sx={{ mb: 1.5 }}>
-            item-search — オンラインショップをまたいで一括検索
-          </Typography>
+          <Box sx={{ display: "flex", alignItems: "center", gap: 1, mb: 1.5 }}>
+            {/* スマホ / タブレットではサイドバーを開くアイコンを表示する（PC では非表示） */}
+            <IconButton
+              onClick={() => setSidebarOpen(true)}
+              aria-label="メニューを開く"
+              edge="start"
+              sx={{
+                display: { xs: "inline-flex", md: "none" },
+                "@media (pointer: coarse)": { display: "inline-flex" },
+              }}
+            >
+              <MenuIcon />
+            </IconButton>
+            <Typography
+              variant="h6"
+              component="h1"
+              sx={{ fontSize: { xs: "1rem", md: "1.25rem" } }}
+            >
+              item-search — オンラインショップをまたいで一括検索
+            </Typography>
+          </Box>
           <Box
             component="form"
             onSubmit={(e) => {
@@ -261,7 +293,7 @@ export default function App() {
         {loading && <LinearProgress />}
 
         {/* 結果エリア */}
-        <Box sx={{ flex: 1, overflow: "auto", p: 4 }}>
+        <Box sx={{ flex: 1, overflow: "auto", p: { xs: 2, md: 4 } }}>
           {error && (
             <Alert severity="error" sx={{ mb: 3 }}>
               {error}

@@ -5,6 +5,7 @@ import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import IconButton from "@mui/material/IconButton";
+import Drawer from "@mui/material/Drawer";
 import SearchIcon from "@mui/icons-material/Search";
 import HistoryIcon from "@mui/icons-material/History";
 import CloseIcon from "@mui/icons-material/Close";
@@ -20,7 +21,11 @@ const NAV_ITEMS: NavItem[] = [
   { label: "履歴", icon: <HistoryIcon fontSize="small" /> },
 ];
 
-export default function Sidebar({
+// PC はサイドバー幅を割合で、スマホ / タブレットのドロワーは固定幅で表示する。
+const SIDEBAR_WIDTH = 280;
+
+// サイドバーの中身。PC は常設、スマホ / タブレットはドロワーで共用する。
+function SidebarContent({
   history,
   onSelect,
   onRemove,
@@ -31,14 +36,8 @@ export default function Sidebar({
 }) {
   return (
     <Box
-      component="nav"
       sx={{
-        width: "20%",
-        minWidth: 180,
-        height: "100vh",
-        bgcolor: "background.paper",
-        borderRight: "1px solid",
-        borderColor: "divider",
+        height: "100%",
         display: "flex",
         flexDirection: "column",
       }}
@@ -83,11 +82,7 @@ export default function Sidebar({
             まだ履歴はありません
           </Typography>
         ) : (
-          <List
-            dense
-            disablePadding
-            sx={{ px: 1, pb: 1, overflowY: "auto" }}
-          >
+          <List dense disablePadding sx={{ px: 1, pb: 1, overflowY: "auto" }}>
             {history.map((term) => (
               <ListItemButton
                 key={term}
@@ -119,6 +114,74 @@ export default function Sidebar({
           </List>
         )}
       </Box>
+    </Box>
+  );
+}
+
+export default function Sidebar({
+  history,
+  onSelect,
+  onRemove,
+  mobileOpen,
+  onMobileClose,
+}: {
+  history: string[];
+  onSelect: (term: string) => void;
+  onRemove: (term: string) => void;
+  // スマホ / タブレット用ドロワーの開閉状態。
+  mobileOpen: boolean;
+  onMobileClose: () => void;
+}) {
+  const content = (
+    <SidebarContent history={history} onSelect={onSelect} onRemove={onRemove} />
+  );
+
+  return (
+    <Box component="nav">
+      {/* PC（md 以上・マウス操作の端末）: 常設サイドバー。
+          iPad 等のタッチ端末は画面幅が広くても常設にせず、下のドロワー扱いにする。 */}
+      <Box
+        sx={{
+          display: { xs: "none", md: "flex" },
+          "@media (pointer: coarse)": { display: "none" },
+          width: "20%",
+          minWidth: 180,
+          maxWidth: 320,
+          height: "100vh",
+          bgcolor: "background.paper",
+          borderRight: "1px solid",
+          borderColor: "divider",
+          flexDirection: "column",
+        }}
+      >
+        {content}
+      </Box>
+
+      {/* スマホ / タブレット（md 未満、またはタッチ端末）: アイコンで開閉するドロワー。
+          デフォルトは閉じた状態（open は App 側の state で制御）。 */}
+      <Drawer
+        variant="temporary"
+        open={mobileOpen}
+        onClose={onMobileClose}
+        ModalProps={{ keepMounted: true }} // モバイルでの開閉パフォーマンス向上
+        sx={{
+          display: { xs: "block", md: "none" },
+          "@media (pointer: coarse)": { display: "block" },
+          "& .MuiDrawer-paper": {
+            boxSizing: "border-box",
+            width: SIDEBAR_WIDTH,
+            maxWidth: "85vw",
+            bgcolor: "background.paper",
+          },
+        }}
+        // 履歴などを選んだら自動で閉じる。
+        onClick={(e) => {
+          const target = e.target as HTMLElement;
+          if (target.closest(".MuiListItemButton-root")) onMobileClose();
+        }}
+      >
+        {content}
+      </Drawer>
     </Box>
   );
 }
