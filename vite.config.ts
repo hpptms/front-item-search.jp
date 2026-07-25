@@ -15,6 +15,17 @@ export default defineConfig({
       "/api": {
         target: process.env.VITE_PROXY_TARGET || "http://localhost:8080",
         changeOrigin: true,
+        // 本番の Cloudflare Pages Function と同様に、バックエンドの共有秘密ヘッダを
+        // 付与する。PROXY_SECRET が設定されている（= ゲート有効）ときのみ注入する。
+        // これにより localhost だけでなく LAN の IP からアクセスしても API が通る。
+        configure: (proxy) => {
+          const secret = process.env.PROXY_SECRET;
+          if (secret) {
+            proxy.on("proxyReq", (proxyReq) => {
+              proxyReq.setHeader("X-Proxy-Secret", secret);
+            });
+          }
+        },
       },
     },
   },

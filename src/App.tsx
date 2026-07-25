@@ -7,22 +7,76 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Alert from "@mui/material/Alert";
 import LinearProgress from "@mui/material/LinearProgress";
+import ToggleButton from "@mui/material/ToggleButton";
+import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
 import SearchIcon from "@mui/icons-material/Search";
+import HistoryIcon from "@mui/icons-material/History";
+import CloseIcon from "@mui/icons-material/Close";
 import Sidebar from "./components/Sidebar";
 import SiteSection from "./components/SiteSection";
+import ProductGrid, { GridItem, Density } from "./components/ProductGrid";
 import { SearchResponse, searchProducts } from "./api";
+
+type SortMode = "site" | "asc" | "desc";
+
+// 検索履歴はブラウザの localStorage に保存する（バックエンドには保持しない）。
+const HISTORY_KEY = "serch:searchHistory";
+const HISTORY_MAX = 20; // ブラウザに保存する件数
+const HISTORY_PREVIEW = 5; // 検索フォームのドロップダウンに出す直近件数
+
+function loadHistory(): string[] {
+  try {
+    const raw = localStorage.getItem(HISTORY_KEY);
+    if (!raw) return [];
+    const parsed = JSON.parse(raw);
+    if (!Array.isArray(parsed)) return [];
+    return parsed.filter((t): t is string => typeof t === "string").slice(0, HISTORY_MAX);
+  } catch {
+    return [];
+  }
+}
+
+function saveHistory(list: string[]) {
+  try {
+    localStorage.setItem(HISTORY_KEY, JSON.stringify(list));
+  } catch {
+    // localStorage 使用不可（プライベートモード等）でも検索自体は動かす。
+  }
+}
 
 export default function App() {
   const [query, setQuery] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [data, setData] = useState<SearchResponse | null>(null);
+  const [sortMode, setSortMode] = useState<SortMode>("site");
+  const [density, setDensity] = useState<Density>("comfortable");
+  const [history, setHistory] = useState<string[]>(() => loadHistory());
+  const [historyOpen, setHistoryOpen] = useState(false);
   const abortRef = useRef<AbortController | null>(null);
+
+  function recordHistory(term: string) {
+    setHistory((prev) => {
+      const next = [term, ...prev.filter((t) => t !== term)].slice(0, HISTORY_MAX);
+      saveHistory(next);
+      return next;
+    });
+  }
+
+  function removeHistory(term: string) {
+    setHistory((prev) => {
+      const next = prev.filter((t) => t !== term);
+      saveHistory(next);
+      return next;
+    });
+  }
 
   async function runSearch(q: string) {
     const term = q.trim();
     if (!term) return;
 
+    recordHistory(term);
+    setHistoryOpen(false);
     abortRef.current?.abort();
     const controller = new AbortController();
     abortRef.current = controller;
@@ -44,9 +98,33 @@ export default function App() {
   const totalItems =
     data?.sites.reduce((sum, s) => sum + s.items.length, 0) ?? 0;
 
+  // 価格順表示用に、全サイトの商品を1つのリストに集約してソートする。
+  // 価格情報なし（price=0）は末尾に回す。
+  const sortedItems: GridItem[] = (() => {
+    if (!data || sortMode === "site") return [];
+    const flat: GridItem[] = data.sites.flatMap((s) =>
+      s.items.map((item) => ({ item, site: s.site }))
+    );
+    const priced = flat.filter((f) => f.item.price > 0);
+    const unpriced = flat.filter((f) => !f.item.price);
+    priced.sort((a, b) =>
+      sortMode === "asc"
+        ? a.item.price - b.item.price
+        : b.item.price - a.item.price
+    );
+    return [...priced, ...unpriced];
+  })();
+
   return (
     <Box sx={{ display: "flex", height: "100vh", overflow: "hidden" }}>
-      <Sidebar />
+      <Sidebar
+        history={history}
+        onSelect={(term) => {
+          setQuery(term);
+          runSearch(term);
+        }}
+        onRemove={removeHistory}
+      />
 
       <Box
         component="main"
@@ -68,8 +146,8 @@ export default function App() {
             bgcolor: "background.paper",
           }}
         >
-          <Typography variant="h6" sx={{ mb: 1.5 }}>
-            商品横断検索
+          <Typography variant="h6" component="h1" sx={{ mb: 1.5 }}>
+            item-search — オンラインショップをまたいで一括検索
           </Typography>
           <Box
             component="form"
@@ -79,30 +157,96 @@ export default function App() {
             }}
             sx={{ display: "flex", gap: 1.5, maxWidth: 720 }}
           >
-            <Paper
-              variant="outlined"
-              sx={{
-                flex: 1,
-                display: "flex",
-                alignItems: "center",
-                px: 1.5,
-                borderColor: "divider",
-              }}
-            >
-              <SearchIcon fontSize="small" color="action" />
-              <InputBase
-                autoFocus
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
-                placeholder="商品名を入力（例: Nintendo Switch）"
-                sx={{ ml: 1, flex: 1 }}
-              />
-              {query && (
-                <IconButton size="small" onClick={() => setQuery("")}>
-                  ×
-                </IconButton>
+            <Box sx={{ position: "relative", flex: 1, display: "flex" }}>
+              <Paper
+                variant="outlined"
+                sx={{
+                  flex: 1,
+                  display: "flex",
+                  alignItems: "center",
+                  px: 1.5,
+                  borderColor: "divider",
+                }}
+              >
+                <SearchIcon fontSize="small" color="action" />
+                <InputBase
+                  autoFocus
+                  value={query}
+                  onChange={(e) => setQuery(e.target.value)}
+                  onFocus={() => setHistoryOpen(true)}
+                  onBlur={() => setHistoryOpen(false)}
+                  placeholder="商品名を入力（例: Nintendo Switch）"
+                  sx={{ ml: 1, flex: 1 }}
+                />
+                {query && (
+                  <IconButton size="small" onClick={() => setQuery("")}>
+                    ×
+                  </IconButton>
+                )}
+              </Paper>
+
+              {/* 検索履歴（ブラウザ保存・最大5件） */}
+              {historyOpen && history.length > 0 && (
+                <Paper
+                  elevation={4}
+                  // 入力の blur より先に反応させ、クリックでフォーカスが外れないようにする。
+                  onMouseDown={(e) => e.preventDefault()}
+                  sx={{
+                    position: "absolute",
+                    top: "calc(100% + 4px)",
+                    left: 0,
+                    right: 0,
+                    zIndex: 10,
+                    py: 0.5,
+                    borderRadius: 2,
+                    overflow: "hidden",
+                  }}
+                >
+                  <Typography
+                    variant="caption"
+                    color="text.secondary"
+                    sx={{ px: 1.5, py: 0.5, display: "block" }}
+                  >
+                    最近の検索
+                  </Typography>
+                  {history.slice(0, HISTORY_PREVIEW).map((term) => (
+                    <Box
+                      key={term}
+                      sx={{
+                        display: "flex",
+                        alignItems: "center",
+                        px: 1.5,
+                        py: 0.75,
+                        cursor: "pointer",
+                        "&:hover": { bgcolor: "action.hover" },
+                      }}
+                      onClick={() => {
+                        setQuery(term);
+                        runSearch(term);
+                      }}
+                    >
+                      <HistoryIcon
+                        fontSize="small"
+                        sx={{ color: "text.disabled", mr: 1 }}
+                      />
+                      <Typography variant="body2" sx={{ flex: 1 }} noWrap>
+                        {term}
+                      </Typography>
+                      <IconButton
+                        size="small"
+                        aria-label={`${term} を履歴から削除`}
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          removeHistory(term);
+                        }}
+                      >
+                        <CloseIcon sx={{ fontSize: 16 }} />
+                      </IconButton>
+                    </Box>
+                  ))}
+                </Paper>
               )}
-            </Paper>
+            </Box>
             <Button
               type="submit"
               variant="contained"
@@ -138,12 +282,67 @@ export default function App() {
 
           {data && (
             <>
-              <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
-                「{data.query}」の検索結果 — 全 {totalItems} 件 / {data.sites.length} サイト
-              </Typography>
-              {data.sites.map((s) => (
-                <SiteSection key={s.site} result={s} />
-              ))}
+              <Box
+                sx={{
+                  display: "flex",
+                  flexWrap: "wrap",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  gap: 1.5,
+                  mb: 2,
+                }}
+              >
+                <Typography variant="body2" color="text.secondary">
+                  「{data.query}」の検索結果 — 全 {totalItems} 件 / {data.sites.length} サイト
+                </Typography>
+                <Box sx={{ display: "flex", flexWrap: "wrap", gap: 1.5 }}>
+                  <ToggleButtonGroup
+                    size="small"
+                    exclusive
+                    value={sortMode}
+                    onChange={(_, v: SortMode | null) => v && setSortMode(v)}
+                    aria-label="並び替え"
+                  >
+                    <ToggleButton value="site" aria-label="サイト順">
+                      サイト順
+                    </ToggleButton>
+                    <ToggleButton value="asc" aria-label="安い順">
+                      安い順
+                    </ToggleButton>
+                    <ToggleButton value="desc" aria-label="高い順">
+                      高い順
+                    </ToggleButton>
+                  </ToggleButtonGroup>
+
+                  {/* カードの表示サイズ切り替え */}
+                  <ToggleButtonGroup
+                    size="small"
+                    exclusive
+                    value={density}
+                    onChange={(_, v: Density | null) => v && setDensity(v)}
+                    aria-label="カードサイズ"
+                  >
+                    <ToggleButton value="comfortable" aria-label="標準サイズ">
+                      標準
+                    </ToggleButton>
+                    <ToggleButton value="compact" aria-label="小サイズ">
+                      小
+                    </ToggleButton>
+                  </ToggleButtonGroup>
+                </Box>
+              </Box>
+
+              {sortMode === "site" ? (
+                data.sites.map((s) => (
+                  <SiteSection key={s.site} result={s} density={density} />
+                ))
+              ) : (
+                <ProductGrid
+                  keyPrefix={`sort-${sortMode}`}
+                  items={sortedItems}
+                  density={density}
+                />
+              )}
             </>
           )}
         </Box>

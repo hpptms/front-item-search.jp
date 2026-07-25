@@ -1,12 +1,77 @@
 <!doctype html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>serch</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- 基本SEO -->
+  <title>item-search</title>
+  <meta name="description"
+    content="Amazon・楽天市場・Yahoo!オークション・メルカリ・ヨドバシ・ビックカメラなど複数のオンラインショップを横断して一括検索。ほしい商品の価格をサイトをまたいで比較し、最安値を見つけられる通販横断検索サービスです。" />
+  <meta name="keywords"
+    content="横断検索,通販,比較,価格比較,最安値,商品検索,一括検索,Amazon,楽天,楽天市場,メルカリ,ヤフオク,Yahoo!オークション,ヨドバシ,ビックカメラ,オンラインショップ,ショッピング,item-search" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="author" content="item-search.jp" />
+  <meta name="theme-color" content="#2563eb" />
+  <link rel="canonical" href="https://item-search.jp/" />
+
+  <!-- サイトロゴ / ファビコン -->
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <!-- Open Graph (Facebook / LINE など) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="item-search.jp" />
+  <meta property="og:title" content="商品横断検索 | 複数の通販サイトをまとめて比較 - item-search.jp" />
+  <meta property="og:description" content="Amazon・楽天・メルカリ・ヤフオク・ヨドバシ・ビックカメラを横断して一括検索。サイトをまたいで価格を比較し、最安値を見つけられます。" />
+  <meta property="og:url" content="https://item-search.jp/" />
+  <meta property="og:locale" content="ja_JP" />
+  <meta property="og:image" content="https://item-search.jp/ogp.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="商品横断検索 | 複数の通販サイトをまとめて比較 - item-search.jp" />
+  <meta name="twitter:description" content="Amazon・楽天・メルカリ・ヤフオク・ヨドバシ・ビックカメラを横断して一括検索。サイトをまたいで価格を比較し、最安値を見つけられます。" />
+  <meta name="twitter:image" content="https://item-search.jp/ogp.png" />
+
+  <!-- 構造化データ: サイト + サイト内検索 -->
+  <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "item-search.jp 商品横断検索",
+        "alternateName": "item-search",
+        "url": "https://item-search.jp/",
+        "description": "Amazon・楽天・メルカリ・ヤフオク・ヨドバシ・ビックカメラなど複数のオンラインショップを横断して一括検索し、価格を比較できる通販横断検索サービス。",
+        "inLanguage": "ja",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://item-search.jp/?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <!-- クローラー / JS無効環境向けの説明。実際の検索UIはJSで描画されます。 -->
+  <noscript>
+    <h1>商品横断検索 - 複数のオンラインショップをまとめて検索</h1>
+    <p>
+      item-search.jp は Amazon・楽天市場・Yahoo!オークション・メルカリ・ヨドバシ・ビックカメラなど、
+      複数のオンラインショップを横断して商品を一括検索できるサービスです。
+      サイトをまたいで価格を比較し、ほしい商品の最安値を見つけられます。
+      ご利用には JavaScript を有効にしてください。
+    </p>
+  </noscript>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
 </html>

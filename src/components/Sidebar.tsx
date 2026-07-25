@@ -4,10 +4,11 @@ import List from "@mui/material/List";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
+import IconButton from "@mui/material/IconButton";
 import SearchIcon from "@mui/icons-material/Search";
-import DashboardIcon from "@mui/icons-material/DashboardOutlined";
-import FavoriteIcon from "@mui/icons-material/FavoriteBorderOutlined";
-import SettingsIcon from "@mui/icons-material/SettingsOutlined";
+import HistoryIcon from "@mui/icons-material/History";
+import CloseIcon from "@mui/icons-material/Close";
+import SiteLogo from "./SiteLogo";
 
 type NavItem = {
   label: string;
@@ -16,12 +17,18 @@ type NavItem = {
 
 const NAV_ITEMS: NavItem[] = [
   { label: "検索", icon: <SearchIcon fontSize="small" /> },
-  { label: "ダッシュボード", icon: <DashboardIcon fontSize="small" /> },
-  { label: "お気に入り", icon: <FavoriteIcon fontSize="small" /> },
-  { label: "設定", icon: <SettingsIcon fontSize="small" /> },
+  { label: "履歴", icon: <HistoryIcon fontSize="small" /> },
 ];
 
-export default function Sidebar() {
+export default function Sidebar({
+  history,
+  onSelect,
+  onRemove,
+}: {
+  history: string[];
+  onSelect: (term: string) => void;
+  onRemove: (term: string) => void;
+}) {
   return (
     <Box
       component="nav"
@@ -38,12 +45,10 @@ export default function Sidebar() {
     >
       {/* Brand */}
       <Box sx={{ px: 2.5, py: 2.5 }}>
-        <Typography variant="h6" color="primary" noWrap>
-          serch
-        </Typography>
+        <SiteLogo size={30} />
       </Box>
 
-      {/* Navigation */}
+      {/* Navigation + 履歴のすぐ下に検索履歴一覧を表示 */}
       <List sx={{ px: 1 }}>
         {NAV_ITEMS.map((item, i) => (
           <ListItemButton
@@ -59,6 +64,61 @@ export default function Sidebar() {
           </ListItemButton>
         ))}
       </List>
+
+      {/* 検索履歴（ブラウザ保存・最大20件）。「履歴」のすぐ下に一覧表示する。 */}
+      <Box
+        sx={{
+          flex: 1,
+          display: "flex",
+          flexDirection: "column",
+          minHeight: 0, // 子のスクロールを効かせる
+        }}
+      >
+        {history.length === 0 ? (
+          <Typography
+            variant="caption"
+            color="text.disabled"
+            sx={{ px: 2.5, py: 1 }}
+          >
+            まだ履歴はありません
+          </Typography>
+        ) : (
+          <List
+            dense
+            disablePadding
+            sx={{ px: 1, pb: 1, overflowY: "auto" }}
+          >
+            {history.map((term) => (
+              <ListItemButton
+                key={term}
+                onClick={() => onSelect(term)}
+                // 「履歴」ナビの子項目に見えるよう左に一段インデントする。
+                sx={{ borderRadius: 2, py: 0.4, pr: 0.5, pl: 4 }}
+              >
+                <ListItemText
+                  primary={term}
+                  primaryTypographyProps={{
+                    fontSize: 13,
+                    noWrap: true,
+                    color: "text.secondary",
+                  }}
+                />
+                <IconButton
+                  size="small"
+                  edge="end"
+                  aria-label={`${term} を履歴から削除`}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    onRemove(term);
+                  }}
+                >
+                  <CloseIcon sx={{ fontSize: 15 }} />
+                </IconButton>
+              </ListItemButton>
+            ))}
+          </List>
+        )}
+      </Box>
     </Box>
   );
 }

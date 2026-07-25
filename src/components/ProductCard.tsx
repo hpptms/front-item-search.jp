@@ -2,8 +2,19 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
 import { Item, formatYen } from "../api";
+import BrandLogo from "./BrandLogo";
+import { Density } from "./ProductGrid";
 
-export default function ProductCard({ item }: { item: Item }) {
+export default function ProductCard({
+  item,
+  site,
+  density = "comfortable",
+}: {
+  item: Item;
+  site: string;
+  density?: Density;
+}) {
+  const compact = density === "compact";
   return (
     <Link
       href={item.url}
@@ -30,6 +41,11 @@ export default function ProductCard({ item }: { item: Item }) {
           bgcolor: "#f1f3f5",
         }}
       >
+        {/* ブランドロゴ（左上オーバーレイ） */}
+        <Box sx={{ position: "absolute", top: 6, left: 6, zIndex: 2 }}>
+          <BrandLogo site={site} />
+        </Box>
+
         {item.image ? (
           <Box
             component="img"
@@ -62,15 +78,15 @@ export default function ProductCard({ item }: { item: Item }) {
       </Box>
 
       {/* テキスト */}
-      <Box sx={{ p: 1.25 }}>
+      <Box sx={{ p: compact ? 0.75 : 1.25 }}>
         <Typography
-          variant="body2"
+          variant={compact ? "caption" : "body2"}
           sx={{
             display: "-webkit-box",
             WebkitLineClamp: 2,
             WebkitBoxOrient: "vertical",
             overflow: "hidden",
-            minHeight: 40,
+            minHeight: compact ? 30 : 40,
             lineHeight: 1.4,
             color: "text.primary",
           }}
@@ -78,12 +94,18 @@ export default function ProductCard({ item }: { item: Item }) {
           {item.title}
         </Typography>
         <Typography
-          variant="subtitle2"
-          sx={{ mt: 0.5, fontWeight: 700, color: "primary.main" }}
+          variant={compact ? "caption" : "subtitle2"}
+          sx={{
+            mt: compact ? 0.25 : 0.5,
+            fontWeight: 700,
+            color: "primary.main",
+            display: "block",
+          }}
         >
           {formatYen(item.price)}
         </Typography>
-        {item.shop && (
+        {/* compact では店舗名を省いて高さを抑える */}
+        {!compact && item.shop && (
           <Typography variant="caption" color="text.secondary" noWrap display="block">
             {item.shop}
           </Typography>
