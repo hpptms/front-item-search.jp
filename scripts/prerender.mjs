@@ -49,6 +49,12 @@ const SHOPS = [
 // トップに載せる人気キーワードの件数（多すぎると JS 描画までの一瞬の表示が重くなる）。
 const HOME_RANKING_MAX = 10;
 
+// トップ・固定ページの最終更新日。文言を変えたらここも更新する。
+// sitemap の lastmod になり、scripts/indexnow.mjs の「変わった URL だけ送る」
+// 判定にも使われる（更新し忘れると IndexNow に通知が飛ばない）。
+const HOME_UPDATED = "2026-07-27";
+const STATIC_UPDATED = "2026-07-27";
+
 // /about, /terms, /privacy の <head>（src/seo.ts の ROUTE_SEO と内容を合わせる）。
 const STATIC_PAGES = [
   {
@@ -58,6 +64,7 @@ const STATIC_PAGES = [
       "item-search.jp は複数の通販サイトを横断して商品を一括検索できるサービスです。対応ショップ・使い方・よくある質問をまとめています。",
     changefreq: "monthly",
     priority: "0.5",
+    updated: STATIC_UPDATED,
   },
   {
     path: "/terms",
@@ -66,6 +73,7 @@ const STATIC_PAGES = [
       "item-search.jp（商品横断検索サービス）の利用規約です。サービスの内容、価格情報の扱い、アフィリエイト、免責事項などを定めています。",
     changefreq: "yearly",
     priority: "0.3",
+    updated: STATIC_UPDATED,
   },
   {
     path: "/privacy",
@@ -74,6 +82,7 @@ const STATIC_PAGES = [
       "item-search.jp のプライバシーポリシーです。Googleアナリティクスやアフィリエイト Cookie の利用、検索履歴の扱い、運営者情報・お問い合わせ先を記載しています。",
     changefreq: "yearly",
     priority: "0.3",
+    updated: STATIC_UPDATED,
   },
 ];
 
@@ -518,7 +527,13 @@ written.push("/");
 
 // sitemap.xml を再生成
 const urls = [
-  { loc: `${ORIGIN}/`, changefreq: "weekly", priority: "1.0" },
+  {
+    loc: `${ORIGIN}/`,
+    // トップは3つの情報源すべてを埋め込んでいるので、最も新しい更新日を採る。
+    lastmod: [HOME_UPDATED, updated, kwUpdated, ranking.updated].sort().at(-1),
+    changefreq: "weekly",
+    priority: "1.0",
+  },
   ...rankingPaths.map((p) => ({
     loc: ORIGIN + withSlash(p),
     changefreq: p === "/ranking" ? "daily" : "weekly",
@@ -539,6 +554,7 @@ const urls = [
   })),
   ...STATIC_PAGES.map((p) => ({
     loc: ORIGIN + withSlash(p.path),
+    lastmod: p.updated,
     changefreq: p.changefreq,
     priority: p.priority,
   })),
