@@ -105,6 +105,133 @@ const esc = (s) =>
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;");
 
+// --- 静的本文の見た目 -----------------------------------------------------
+// プリレンダした本文は JS 起動前の一瞬だけ利用者に見える。素の HTML のままだと
+// Times New Roman ＋ 青い下線リンクの「怪しいページ」に見えてしまうので、
+// アプリ本体（MUI テーマ）と同じ配色・字面になる CSS をここで焼き込む。
+//
+// 制約:
+//   - 外部 CSS / Web フォント / 画像は使わない。追加リクエストを待つ間に
+//     JS が起動して本文が差し替わるため、間に合わず無駄になる。
+//   - セレクタはすべて .pr 配下に限定する。<style> は React 描画後も head に
+//     残るので、スコープを切らないとアプリ本体の見た目に漏れる。
+//   - body だけは例外的に触るが、値は MUI の CssBaseline が後から当てるものと
+//     同じにしてあるので、差し替わった瞬間にちらつかない。
+const PRERENDER_CSS = `
+body{margin:0;background:#f7f8fa;color:#1f2937;font-family:"Inter","Hiragino Sans","Noto Sans JP",system-ui,sans-serif;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+.pr{min-height:100vh;display:flex;flex-direction:column}
+.pr *{box-sizing:border-box}
+.pr a{color:#2563eb;text-decoration:none}
+.pr a:hover{text-decoration:underline}
+.pr-in{width:100%;max-width:900px;margin:0 auto;padding:0 20px}
+.pr-hd{background:#fff;border-bottom:1px solid #e5e7eb}
+.pr-hd .pr-in{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px}
+.pr a.pr-logo{display:inline-flex;align-items:center;gap:8px;color:#1f2937;font-size:19px;font-weight:800;letter-spacing:-.02em;line-height:1}
+.pr a.pr-logo:hover{text-decoration:none}
+.pr-logo b{color:#2563eb;font-weight:800}
+.pr-logo span{white-space:nowrap}
+.pr-nav{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:8px 18px;font-size:14px}
+.pr-nav a{color:#6b7280;white-space:nowrap}
+.pr-main{flex:1;padding:36px 0 52px}
+.pr-crumb{font-size:13px;color:#6b7280;margin:0 0 18px}
+.pr-crumb a{color:#6b7280}
+.pr h1{font-size:29px;line-height:1.35;font-weight:800;letter-spacing:-.01em;margin:0 0 14px}
+.pr p{font-size:15px;line-height:1.9;color:#374151;margin:0 0 14px}
+.pr .pr-lead{font-size:16px;color:#4b5563;max-width:44em}
+.pr-form{display:flex;gap:10px;max-width:620px;margin:24px 0 10px}
+.pr-field{flex:1;display:flex;align-items:center;gap:8px;min-width:0;height:46px;padding:0 14px;background:#fff;border:1px solid #dcdfe5;border-radius:10px;color:#9ca3af}
+.pr-field input{flex:1;min-width:0;height:100%;border:0;outline:0;background:transparent;font:inherit;font-size:15px;color:#1f2937;appearance:none;-webkit-appearance:none}
+.pr-field input::-webkit-search-decoration,.pr-field input::-webkit-search-cancel-button{-webkit-appearance:none}
+.pr-btn{height:46px;padding:0 24px;border:0;border-radius:10px;background:#2563eb;color:#fff;font:inherit;font-size:15px;font-weight:600;cursor:pointer}
+.pr a.pr-cta{display:inline-flex;align-items:center;height:46px;padding:0 24px;border-radius:10px;background:#2563eb;color:#fff;font-size:15px;font-weight:600}
+.pr a.pr-cta:hover{text-decoration:none;background:#1d4ed8}
+.pr-sec{margin:40px 0 0}
+.pr-sec h2{font-size:19px;font-weight:700;letter-spacing:-.01em;margin:0 0 14px}
+.pr-body{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:20px 22px;margin:20px 0 0}
+.pr-body p:last-child{margin-bottom:0}
+.pr-chips,.pr-tags,.pr-grid{list-style:none;margin:0;padding:0}
+.pr-chips,.pr-tags{display:flex;flex-wrap:wrap;gap:8px}
+.pr-chips li{padding:7px 13px;background:#fff;border:1px solid #e5e7eb;border-radius:999px;font-size:13px;color:#374151}
+.pr-tags a{display:inline-block;padding:7px 13px;background:#fff;border:1px solid #e5e7eb;border-radius:999px;font-size:13px;color:#374151}
+.pr-tags a:hover{text-decoration:none;border-color:#93c5fd;color:#1d4ed8}
+.pr-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(228px,1fr));gap:10px}
+.pr-grid a{display:block;height:100%;padding:13px 15px;background:#fff;border:1px solid #e5e7eb;border-radius:10px;font-size:14px;font-weight:600;color:#1f2937}
+.pr-grid a:hover{text-decoration:none;border-color:#93c5fd;color:#1d4ed8}
+.pr-rank{list-style:none;margin:0;padding:0;background:#fff;border:1px solid #e5e7eb;border-radius:12px;overflow:hidden}
+.pr-rank li{display:flex;align-items:flex-start;gap:12px;padding:13px 16px;border-top:1px solid #f1f3f5;font-size:14px}
+.pr-rank li:first-child{border-top:0}
+.pr-num{flex:0 0 27px;height:27px;display:inline-flex;align-items:center;justify-content:center;border-radius:8px;background:#eff6ff;color:#2563eb;font-size:12px;font-weight:700}
+.pr-rank li:first-child .pr-num{background:#fef3c7;color:#b45309}
+.pr-rank li:nth-child(2) .pr-num{background:#f1f5f9;color:#64748b}
+.pr-rank li:nth-child(3) .pr-num{background:#fdf0e6;color:#b06a2c}
+.pr-row{flex:1;min-width:0}
+.pr-row a{font-weight:600}
+.pr .pr-sub{color:#9ca3af;font-size:13px;font-weight:400}
+.pr .pr-note{display:block;margin:4px 0 0;color:#6b7280;font-size:13px;line-height:1.7}
+.pr a.pr-tag{display:inline-block;margin-left:8px;padding:2px 8px;border-radius:999px;background:#f3f4f6;color:#6b7280;font-size:11px;font-weight:400;white-space:nowrap;vertical-align:1px}
+.pr a.pr-tag:hover{text-decoration:none;background:#e5e7eb}
+.pr-meta{flex:0 0 auto;text-align:right;color:#9ca3af;font-size:12px;line-height:1.6;white-space:nowrap;padding-top:5px}
+.pr-up{color:#059669}
+.pr-down{color:#dc2626}
+.pr-new{color:#2563eb;font-weight:700}
+.pr .pr-more{margin:16px 0 0;font-size:14px}
+.pr .pr-hint{margin:8px 0 0;font-size:13px;color:#6b7280}
+.pr-ft{background:#fff;border-top:1px solid #e5e7eb;padding:26px 0;margin-top:auto}
+.pr-fnav{display:flex;flex-wrap:wrap;gap:8px 24px;font-size:14px;margin-bottom:12px}
+.pr-fnav a{color:#4b5563}
+.pr-fcat{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:13px;margin-bottom:16px}
+.pr-fcat a{color:#6b7280}
+.pr-ft p{font-size:12px;line-height:1.8;color:#6b7280;margin:0 0 8px}
+.pr-ft p:last-child{color:#9ca3af;margin-bottom:0}
+@media (max-width:640px){
+.pr h1{font-size:23px}
+.pr-main{padding:26px 0 40px}
+.pr-in{padding:0 16px}
+.pr-hd .pr-in{min-height:56px}
+.pr a.pr-logo{font-size:17px}
+.pr-nav{font-size:12px;gap:6px 12px}
+.pr-grid{grid-template-columns:1fr}
+.pr-form{flex-direction:column}
+.pr-btn{width:100%}
+}
+`.trim();
+
+// サイトロゴ（src/components/SiteLogo.tsx と同じ図柄）。外部画像に依存しない。
+const LOGO_SVG = `<svg viewBox="0 0 32 32" width="30" height="30" aria-hidden="true" focusable="false"><defs><linearGradient id="prLogoGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#1d4ed8"/></linearGradient></defs><rect width="32" height="32" rx="8" fill="url(#prLogoGrad)"/><g fill="#fff"><circle cx="11.3" cy="11.3" r="1.5"/><circle cx="16.7" cy="11.3" r="1.5"/><circle cx="11.3" cy="16.7" r="1.5"/><circle cx="16.7" cy="16.7" r="1.5"/></g><g fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round"><circle cx="14" cy="14" r="7"/><line x1="19.2" y1="19.2" x2="24.6" y2="24.6"/></g></svg>`;
+
+const SEARCH_SVG = `<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false" style="flex:0 0 auto"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M15.8 15.8 21 21M17 10.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0Z"/></svg>`;
+
+function prHeader() {
+  return `<header class="pr-hd"><div class="pr-in">
+<a class="pr-logo" href="/">${LOGO_SVG}<span>item-<b>search</b></span></a>
+<nav class="pr-nav" aria-label="メニュー"><a href="/ranking/">人気ランキング</a><a href="/about/">サイトの説明</a></nav>
+</div></header>`;
+}
+
+// フッターは src/components/SiteFooter.tsx と同じ内容（リンク・アフィリエイト開示・商標）。
+function prFooter() {
+  const cats = categories
+    .map((c) => `<a href="/c/${c.slug}/">${esc(c.name)}</a>`)
+    .join("");
+  return `<footer class="pr-ft"><div class="pr-in">
+<nav class="pr-fnav" aria-label="サイト内リンク"><a href="/ranking/">人気検索ランキング</a><a href="/about/">サイトの説明</a><a href="/terms/">利用規約</a><a href="/privacy/">プライバシーポリシー</a></nav>
+<nav class="pr-fcat" aria-label="カテゴリ">${cats}</nav>
+<p>item-search は各オンラインショップの商品情報を横断的に検索・表示する情報提供サービスです。当サイトはAmazonアソシエイト・楽天アフィリエイト・バリューコマース等のアフィリエイトプログラムを利用しており、リンク経由の購入で収益を得ることがあります。商品の販売・取引は各ショップが行います。</p>
+<p>© 2026 item-search.jp — Amazon・楽天市場・Yahoo!ショッピング・メルカリ・Yahoo!オークション・ヨドバシ・ビックカメラ の商標は各社に帰属します。</p>
+</div></footer>`;
+}
+
+// 静的本文の共通ガワ（ヘッダー＋パンくず＋本文＋フッター）。
+function prShell({ crumb, main }) {
+  return `<div class="pr">${prHeader()}
+<main class="pr-main"><div class="pr-in">${
+    crumb ? `\n<nav class="pr-crumb" aria-label="パンくず">${crumb}</nav>` : ""
+  }
+${main}
+</div></main>
+${prFooter()}</div>`;
+}
+
 // テンプレート中の1つのタグ（属性内 content）を差し替える。無ければ末尾追記はしない。
 function replaceMeta(html, matcher, replacement) {
   return html.replace(matcher, replacement);
@@ -161,6 +288,11 @@ function render(template, { title, description, path, jsonLd, bodyHtml }) {
   if (bodyHtml) {
     // Vite ビルド後の #root は空。ここにクローラー向けの静的本文を差し込む。
     // JS 実行後は createRoot が中身を置き換えるため、利用者の見た目は変わらない。
+    // 見た目用の CSS も一緒に焼き込む（JS 起動までの一瞬に間に合わせるためインライン）。
+    html = html.replace(
+      "</head>",
+      `<style id="prerender-style">${PRERENDER_CSS}</style></head>`
+    );
     html = html.replace('<div id="root"></div>', `<div id="root">${bodyHtml}</div>`);
   }
 
@@ -172,7 +304,9 @@ function landingBody(c) {
   const kw = c.keywords
     .map(
       (k) =>
-        `<li><a href="/?q=${encodeURIComponent(k)}">${esc(k)}の価格を比較</a></li>`
+        `<li><a href="/?q=${encodeURIComponent(k)}">${esc(
+          k
+        )}<span class="pr-sub">の価格を比較</span></a></li>`
     )
     .join("");
   const others = categories
@@ -183,20 +317,26 @@ function landingBody(c) {
     .filter((k) => k.category === c.slug)
     .map((k) => `<li><a href="/s/${k.slug}/">${esc(k.term)}の最安値・価格比較</a></li>`)
     .join("");
-  const paras = c.body.map((p) => `<p>${esc(p)}</p>`).join("");
-  return `<main>
-<nav aria-label="パンくず"><a href="/">ホーム</a> &gt; ${esc(c.name)}</nav>
-<h1>${esc(c.name)}の価格を横断比較</h1>
-<p>${esc(c.lead)}</p>
+  const paras = c.body.map((p) => `<p>${esc(p)}</p>`).join("\n");
+  return prShell({
+    crumb: `<a href="/">ホーム</a> › ${esc(c.name)}`,
+    main: `<h1>${esc(c.name)}の価格を横断比較</h1>
+<p class="pr-lead">${esc(c.lead)}</p>
+<p><a class="pr-cta" href="/">横断検索をはじめる</a></p>
+<div class="pr-body">
 ${paras}
-<p><a href="/">横断検索をはじめる</a></p>
-<h2>人気のキーワード</h2>
-<ul>${kw}</ul>
-${kwPages ? `<h2>人気の商品から探す</h2>\n<ul>${kwPages}</ul>` : ""}
-<h2>他のカテゴリから探す</h2>
-<ul>${others}</ul>
-<p>item-search.jp の使い方は<a href="/about/">サイトの説明</a>をご覧ください。</p>
-</main>`;
+</div>
+<section class="pr-sec"><h2>人気のキーワード</h2>
+<ul class="pr-tags">${kw}</ul></section>
+${
+  kwPages
+    ? `<section class="pr-sec"><h2>人気の商品から探す</h2>\n<ul class="pr-grid">${kwPages}</ul></section>`
+    : ""
+}
+<section class="pr-sec"><h2>他のカテゴリから探す</h2>
+<ul class="pr-grid">${others}</ul></section>
+<p class="pr-more">item-search.jp の使い方は<a href="/about/">サイトの説明</a>をご覧ください。</p>`,
+  });
 }
 
 // キーワード LP のクローラー向け静的本文。
@@ -204,23 +344,35 @@ function keywordBody(k) {
   const related = k.related
     .map(
       (r) =>
-        `<li><a href="/?q=${encodeURIComponent(r)}">${esc(r)}の価格を比較</a></li>`
+        `<li><a href="/?q=${encodeURIComponent(r)}">${esc(
+          r
+        )}<span class="pr-sub">の価格を比較</span></a></li>`
     )
     .join("");
   const cat = categories.find((c) => c.slug === k.category);
-  const paras = k.body.map((p) => `<p>${esc(p)}</p>`).join("");
-  return `<main>
-<nav aria-label="パンくず"><a href="/">ホーム</a>${
-    cat ? ` &gt; <a href="/c/${cat.slug}/">${esc(cat.name)}</a>` : ""
-  } &gt; ${esc(k.term)}</nav>
-<h1>${esc(k.term)}の最安値・価格比較</h1>
-<p>${esc(k.lead)}</p>
+  const paras = k.body.map((p) => `<p>${esc(p)}</p>`).join("\n");
+  return prShell({
+    crumb: `<a href="/">ホーム</a>${
+      cat ? ` › <a href="/c/${cat.slug}/">${esc(cat.name)}</a>` : ""
+    } › ${esc(k.term)}`,
+    main: `<h1>${esc(k.term)}の最安値・価格比較</h1>
+<p class="pr-lead">${esc(k.lead)}</p>
+<p><a class="pr-cta" href="/?q=${encodeURIComponent(k.term)}">「${esc(
+      k.term
+    )}」を横断検索する</a></p>
+<div class="pr-body">
 ${paras}
-<p><a href="/?q=${encodeURIComponent(k.term)}">「${esc(k.term)}」を横断検索する</a></p>
-<h2>関連キーワード</h2>
-<ul>${related}</ul>
-${cat ? `<p>関連カテゴリ: <a href="/c/${cat.slug}/">${esc(cat.name)}の価格を比較</a></p>` : ""}
-</main>`;
+</div>
+<section class="pr-sec"><h2>関連キーワード</h2>
+<ul class="pr-tags">${related}</ul></section>
+${
+  cat
+    ? `<p class="pr-more">関連カテゴリ: <a href="/c/${cat.slug}/">${esc(
+        cat.name
+      )}の価格を比較</a></p>`
+    : ""
+}`,
+  });
 }
 
 function keywordJsonLd(k) {
@@ -286,6 +438,7 @@ function rankingHref(item) {
 }
 
 const TREND_MARK = { up: "▲", down: "▼", new: "NEW", same: "―" };
+const TREND_CLASS = { up: "pr-up", down: "pr-down", new: "pr-new", same: "" };
 
 // 静的シード（ranking.json）を指定カテゴリで絞り、順位を振り直す。"all" は全件。
 function seedItemsFor(category) {
@@ -309,24 +462,31 @@ function rankingBody(category) {
       const mark = TREND_MARK[item.trend] || "";
       const count =
         typeof item.count === "number"
-          ? ` <span>${item.count.toLocaleString("ja-JP")}回検索</span>`
+          ? `${item.count.toLocaleString("ja-JP")}回検索`
           : "";
-      return `<li><strong>${item.rank}位</strong> <a href="${rankingHref(
-        item
-      )}">${esc(item.term)}</a>${count}${mark ? ` <span>${mark}</span>` : ""}${
-        cat ? ` <a href="/c/${cat.slug}/">${esc(cat.name)}</a>` : ""
-      }${item.note ? `<br>${esc(item.note)}` : ""}</li>`;
+      const cls = TREND_CLASS[item.trend];
+      const meta = [count, mark && cls ? `<span class="${cls}">${mark}</span>` : mark]
+        .filter(Boolean)
+        .join("<br>");
+      return `<li><span class="pr-num">${item.rank}</span>
+<span class="pr-row"><a href="${rankingHref(item)}">${esc(item.term)}</a>${
+        cat ? `<a class="pr-tag" href="/c/${cat.slug}/">${esc(cat.name)}</a>` : ""
+      }${item.note ? `<span class="pr-note">${esc(item.note)}</span>` : ""}</span>${
+        meta ? `<span class="pr-meta">${meta}</span>` : ""
+      }</li>`;
     })
-    .join("");
+    .join("\n");
   const catLinks = (ranking.categories || [])
     .filter((c) => c.slug !== "all")
     .map(
       (c) =>
-        `<li><a href="/ranking/${c.slug}/">${esc(c.label)}の検索数ランキング</a></li>`
+        `<li><a href="/ranking/${c.slug}/">${esc(c.label)}<span class="pr-sub">の検索数ランキング</span></a></li>`
     )
     .join("");
   const priceLinks = categories
-    .map((c) => `<li><a href="/c/${c.slug}/">${esc(c.name)}の価格を比較</a></li>`)
+    .map(
+      (c) => `<li><a href="/c/${c.slug}/">${esc(c.name)}の価格を比較</a></li>`
+    )
     .join("");
   const isAll = category === "all";
   const heading = isAll
@@ -339,19 +499,22 @@ function rankingBody(category) {
       )}」の人気キーワードを、検索数の多い順にランキングしました。`;
   const crumb = isAll
     ? "人気検索キーワードランキング"
-    : `<a href="/ranking/">人気検索キーワードランキング</a> &gt; ${esc(label)}`;
-  return `<main>
-<nav aria-label="パンくず"><a href="/">ホーム</a> &gt; ${crumb}</nav>
-<h1>${heading}</h1>
-<p>${intro}</p>
-<p>${esc(ranking.source)}</p>
-<ol>${rows}</ol>
-<h2>カテゴリ別ランキング</h2>
-<ul>${catLinks}</ul>
-<h2>カテゴリ別に価格を比較する</h2>
-<ul>${priceLinks}</ul>
-<p>item-search.jp の使い方は<a href="/about/">サイトの説明</a>をご覧ください。</p>
-</main>`;
+    : `<a href="/ranking/">人気検索キーワードランキング</a> › ${esc(label)}`;
+  return prShell({
+    crumb: `<a href="/">ホーム</a> › ${crumb}`,
+    main: `<h1>${heading}</h1>
+<p class="pr-lead">${intro}</p>
+<ol class="pr-rank">
+${rows}
+</ol>
+<p class="pr-more"><a class="pr-cta" href="/">キーワードを横断検索する</a></p>
+<p class="pr-hint">${esc(ranking.source)}</p>
+<section class="pr-sec"><h2>カテゴリ別ランキング</h2>
+<ul class="pr-tags">${catLinks}</ul></section>
+<section class="pr-sec"><h2>カテゴリ別に価格を比較する</h2>
+<ul class="pr-grid">${priceLinks}</ul></section>
+<p class="pr-more">item-search.jp の使い方は<a href="/about/">サイトの説明</a>をご覧ください。</p>`,
+  });
 }
 
 // ランキングは ItemList 構造化データで表現する（リッチリザルト対象）。
@@ -390,34 +553,40 @@ function homeBody() {
     .slice(0, HOME_RANKING_MAX)
     .map(
       (item) =>
-        `<li><strong>${item.rank}位</strong> <a href="${rankingHref(item)}">${esc(
-          item.term
-        )}</a>の最安値を比較</li>`
+        `<li><span class="pr-num">${item.rank}</span><span class="pr-row"><a href="${rankingHref(
+          item
+        )}">${esc(item.term)}</a><span class="pr-sub">の最安値を比較</span></span></li>`
     )
-    .join("");
+    .join("\n");
   const cats = categories
     .map((c) => `<li><a href="/c/${c.slug}/">${esc(c.name)}の価格を比較</a></li>`)
     .join("");
   const kws = keywords
     .map((k) => `<li><a href="/s/${k.slug}/">${esc(k.term)}の最安値・価格比較</a></li>`)
     .join("");
-  return `<main>
-<h1>商品横断検索 — 複数の通販サイトをまとめて一括検索</h1>
-<p>item-search.jp は Amazon・楽天市場・Yahoo!ショッピング・メルカリ・ヤフオク・ヨドバシ・ビックカメラなど、複数のオンラインショップを横断して商品を一括検索できる無料のサービスです。ほしい商品の価格をサイトをまたいで比較し、最安値を見つけられます。</p>
-<p>キーワードを入力すると、対応する各ショップの検索結果を1画面にまとめて表示します。会員登録は不要です。</p>
-<h2>対応しているオンラインショップ</h2>
-<ul>${shops}</ul>
-<h2>いま人気の検索キーワード</h2>
-<ol>${ranks}</ol>
-<p><a href="/ranking/">人気検索キーワードランキング【${esc(
-    ranking.period
-  )}】をすべて見る</a></p>
-<h2>ジャンルから探す</h2>
-<ul>${cats}</ul>
-<h2>人気の商品から探す</h2>
-<ul>${kws}</ul>
-<p>使い方や対応ショップの詳細は<a href="/about/">サイトの説明</a>を、取り扱いについては<a href="/terms/">利用規約</a>・<a href="/privacy/">プライバシーポリシー</a>をご覧ください。</p>
-</main>`;
+  return prShell({
+    main: `<h1>商品横断検索 — 複数の通販サイトをまとめて一括検索</h1>
+<p class="pr-lead">item-search.jp は Amazon・楽天市場・Yahoo!ショッピング・メルカリ・ヤフオク・ヨドバシ・ビックカメラなど、複数のオンラインショップを横断して商品を一括検索できる無料のサービスです。ほしい商品の価格をサイトをまたいで比較し、最安値を見つけられます。</p>
+<form class="pr-form" action="/" method="get" role="search">
+<span class="pr-field">${SEARCH_SVG}<input type="search" name="q" placeholder="商品名を入力（例: Nintendo Switch）" aria-label="商品名で横断検索" /></span>
+<button class="pr-btn" type="submit">検索</button>
+</form>
+<p class="pr-hint">キーワードを入力すると、対応する各ショップの検索結果を1画面にまとめて表示します。会員登録は不要です。</p>
+<section class="pr-sec"><h2>対応しているオンラインショップ</h2>
+<ul class="pr-chips">${shops}</ul></section>
+<section class="pr-sec"><h2>いま人気の検索キーワード</h2>
+<ol class="pr-rank">
+${ranks}
+</ol>
+<p class="pr-more"><a href="/ranking/">人気検索キーワードランキング【${esc(
+      ranking.period
+    )}】をすべて見る</a></p></section>
+<section class="pr-sec"><h2>ジャンルから探す</h2>
+<ul class="pr-grid">${cats}</ul></section>
+<section class="pr-sec"><h2>人気の商品から探す</h2>
+<ul class="pr-grid">${kws}</ul></section>
+<p class="pr-more">使い方や対応ショップの詳細は<a href="/about/">サイトの説明</a>を、取り扱いについては<a href="/terms/">利用規約</a>・<a href="/privacy/">プライバシーポリシー</a>をご覧ください。</p>`,
+  });
 }
 
 // --- 生成 -----------------------------------------------------------------
