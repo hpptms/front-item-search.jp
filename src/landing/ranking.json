@@ -1,0 +1,230 @@
+{
+  "updated": "2026-07-26",
+  "period": "2026年7月",
+  "source": "item-search.jp の商品横断検索でよく調べられているキーワードと、キーワード別ページの閲覧状況をもとに編集部が集計した注目度ランキングです。",
+  "intro": "Amazon・楽天市場・Yahoo!ショッピング・メルカリ・ヤフオク・ヨドバシ・ビックカメラを横断検索できる item-search.jp で、いま最も注目されている商品キーワードをランキング形式でまとめました。各キーワードから、複数の通販サイトをまたいだ最安値の比較にそのまま進めます。",
+  "categories": [
+    {
+      "slug": "all",
+      "label": "総合"
+    },
+    {
+      "slug": "game",
+      "label": "ゲーム"
+    },
+    {
+      "slug": "appliance",
+      "label": "家電"
+    },
+    {
+      "slug": "smartphone",
+      "label": "スマホ"
+    },
+    {
+      "slug": "pc",
+      "label": "PC"
+    },
+    {
+      "slug": "camera",
+      "label": "カメラ"
+    },
+    {
+      "slug": "fashion",
+      "label": "ファッション"
+    },
+    {
+      "slug": "hobby",
+      "label": "ホビー・トレカ"
+    },
+    {
+      "slug": "beauty",
+      "label": "美容"
+    },
+    {
+      "slug": "book",
+      "label": "本・コミック"
+    }
+  ],
+  "items": [
+    {
+      "rank": 1,
+      "term": "Nintendo Switch 2",
+      "slug": "nintendo-switch-2",
+      "category": "game",
+      "count": 512,
+      "trend": "up",
+      "note": "品薄と抽選販売が続き、新品・中古・ソフト同梱版の価格差を横断比較する検索が急増。"
+    },
+    {
+      "rank": 2,
+      "term": "iPhone",
+      "slug": "iphone",
+      "category": "smartphone",
+      "count": 468,
+      "trend": "same",
+      "note": "新型・型落ち・中古・SIMフリーで価格が大きく動く定番。容量・色ごとの最安値比較が人気。"
+    },
+    {
+      "rank": 3,
+      "term": "PS5",
+      "slug": "ps5",
+      "category": "game",
+      "count": 431,
+      "trend": "same",
+      "note": "通常版・Pro・中古・セット品でモール間の価格差が出やすく、横断比較の需要が高い。"
+    },
+    {
+      "rank": 4,
+      "term": "ポケモンカード",
+      "slug": "pokemon-card",
+      "category": "hobby",
+      "count": 405,
+      "trend": "up",
+      "note": "拡張パックやBOXの相場変動が大きく、フリマ・オークションを含めた横断検索が定番化。"
+    },
+    {
+      "rank": 5,
+      "term": "スニーカー ナイキ",
+      "slug": "nike-sneakers",
+      "category": "fashion",
+      "count": 372,
+      "trend": "up",
+      "note": "人気モデルは公式・モール・フリマで価格差が大きく、サイズ在庫の横断確認が増加。"
+    },
+    {
+      "rank": 6,
+      "term": "MacBook",
+      "slug": "macbook",
+      "category": "pc",
+      "count": 338,
+      "trend": "same",
+      "note": "新品・整備済・中古で価格帯が広く、モデル別の最安値を横断比較する検索が根強い。"
+    },
+    {
+      "rank": 7,
+      "term": "ロボット掃除機",
+      "slug": "robot-cleaner",
+      "category": "appliance",
+      "count": 305,
+      "trend": "up",
+      "note": "型落ちセール時期にモール間の価格差が拡大。旧モデル狙いの比較検索が伸びる。"
+    },
+    {
+      "rank": 8,
+      "term": "ダイソン 掃除機",
+      "slug": "dyson-cleaner",
+      "category": "appliance",
+      "count": 281,
+      "trend": "same",
+      "note": "型番違いや旧モデルで実売価格に差が出やすく、横断比較の定番キーワード。"
+    },
+    {
+      "rank": 9,
+      "term": "ゲーミングモニター",
+      "slug": "gaming-monitor",
+      "category": "pc",
+      "count": 264,
+      "trend": "up",
+      "note": "リフレッシュレート・サイズ別にモールごとのセール価格を比較する検索が活発。"
+    },
+    {
+      "rank": 10,
+      "term": "ミラーレス一眼",
+      "slug": "mirrorless",
+      "category": "camera",
+      "count": 238,
+      "trend": "same",
+      "note": "本体・レンズキットで価格構成が複雑。新品・中古を横断して底値を探す検索が多い。"
+    },
+    {
+      "rank": 11,
+      "term": "ノートパソコン",
+      "slug": "laptop",
+      "category": "pc",
+      "count": 212,
+      "trend": "same",
+      "note": "スペック帯が広く、セール時期のモール横断比較で最安値を探す需要が安定。"
+    },
+    {
+      "rank": 12,
+      "term": "Google Pixel",
+      "slug": "pixel",
+      "category": "smartphone",
+      "count": 197,
+      "trend": "up",
+      "note": "セールやキャンペーンで実売が動きやすく、SIMフリー・中古の横断比較が伸長。"
+    },
+    {
+      "rank": 13,
+      "term": "マリオカート8 デラックス",
+      "slug": "mario-kart-8-deluxe",
+      "category": "game",
+      "count": 176,
+      "trend": "same",
+      "note": "ロングセラーで中古在庫が豊富。新品・中古の最安値比較が継続して人気。"
+    },
+    {
+      "rank": 14,
+      "term": "スプラトゥーン3",
+      "slug": "splatoon-3",
+      "category": "game",
+      "count": 158,
+      "trend": "same",
+      "note": "パッケージ版の価格が安定せず、フリマを含めた横断比較の需要が続く。"
+    },
+    {
+      "rank": 15,
+      "term": "ゼルダの伝説 ティアーズ オブ ザ キングダム",
+      "slug": "zelda-totk",
+      "category": "game",
+      "count": 141,
+      "trend": "same",
+      "note": "人気タイトルは中古相場が変動しやすく、横断での底値確認が定番。"
+    },
+    {
+      "rank": 16,
+      "term": "あつまれ どうぶつの森",
+      "slug": "animal-crossing",
+      "category": "game",
+      "count": 128,
+      "trend": "same",
+      "note": "同梱版・中古で価格差が大きく、モールをまたいだ比較検索が根強い。"
+    },
+    {
+      "rank": 17,
+      "term": "ポケモン スカーレット・バイオレット",
+      "slug": "pokemon-sv",
+      "category": "game",
+      "count": 114,
+      "trend": "same",
+      "note": "ダブルパックや中古で価格が分かれ、横断比較の需要が安定。"
+    },
+    {
+      "rank": 18,
+      "term": "スーパーマリオ ワンダー",
+      "slug": "super-mario-wonder",
+      "category": "game",
+      "count": 99,
+      "trend": "same",
+      "note": "新品・中古の価格差が出やすい人気ソフト。最安値比較の検索が多い。"
+    },
+    {
+      "rank": 19,
+      "term": "コミック 全巻セット",
+      "slug": "comic-set",
+      "category": "book",
+      "count": 86,
+      "trend": "up",
+      "note": "新品・中古・電子でまとめ買いの価格差が大きく、横断比較の需要が拡大。"
+    },
+    {
+      "rank": 20,
+      "term": "中古PC",
+      "slug": "used-pc",
+      "category": "pc",
+      "count": 72,
+      "trend": "up",
+      "note": "整備済・中古で価格と状態がショップごとに異なり、横断比較の相性が良い。"
+    }
+  ]
+}

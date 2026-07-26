@@ -47,6 +47,14 @@ export const ROUTE_SEO: Record<string, SeoMeta> = {
       "item-search.jp のプライバシーポリシーです。Googleアナリティクスやアフィリエイト Cookie の利用、検索履歴の扱い、運営者情報・お問い合わせ先を記載しています。",
     path: "/privacy",
   },
+  // 実際のメタ（period 付きタイトル）は Ranking ページが applySeo() で上書きする。
+  // これは直リンク前・SPA 遷移時のフォールバック。
+  "/ranking": {
+    title: "人気検索キーワードランキング | item-search.jp 商品横断検索",
+    description:
+      "Amazon・楽天・Yahoo!ショッピング・メルカリ・ヤフオク・ヨドバシを横断検索できる item-search.jp で、いま最も検索されている商品キーワードのランキング。各キーワードから複数サイトの最安値比較に進めます。",
+    path: "/ranking",
+  },
 };
 
 function setMeta(selector: string, attr: "name" | "property", key: string, content: string) {

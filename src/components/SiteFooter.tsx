@@ -26,6 +26,9 @@ export default function SiteFooter() {
             mb: 1.5,
           }}
         >
+          <Link to="/ranking" style={{ fontSize: 14, color: "inherit" }}>
+            人気検索ランキング
+          </Link>
           <Link to="/about" style={{ fontSize: 14, color: "inherit" }}>
             サイトの説明
           </Link>

@@ -90,3 +90,41 @@ export function formatYen(price: number): string {
   if (!price) return "価格情報なし";
   return "¥" + price.toLocaleString("ja-JP");
 }
+
+// ---- 検索数ランキング -----------------------------------------------------
+
+export type RankingEntry = {
+  rank: number;
+  term: string;
+  category: string;
+  count: number;
+};
+
+export type RankingResponse = {
+  category: string;
+  days: number;
+  items: RankingEntry[];
+};
+
+// fetchRankings はバックエンドの集計（ユーザーの実検索数）を取得する。
+// category は "all" または カテゴリ slug。DB 無効時はバックエンドが 503 を返すので
+// null を返し、呼び出し側は静的シード（ranking.json）にフォールバックする。
+export async function fetchRankings(
+  category = "all",
+  days = 30,
+  limit = 20,
+  signal?: AbortSignal
+): Promise<RankingResponse | null> {
+  const params = new URLSearchParams({
+    category,
+    days: String(days),
+    limit: String(limit),
+  });
+  try {
+    const res = await fetch(`/api/rankings?${params.toString()}`, { signal });
+    if (!res.ok) return null; // 503（DB無効）や一時エラーはフォールバックへ
+    return (await res.json()) as RankingResponse;
+  } catch {
+    return null; // ネットワークエラー等もフォールバック
+  }
+}

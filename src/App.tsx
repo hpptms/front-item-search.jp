@@ -364,8 +364,18 @@ export default function App() {
                 Amazon・メルカリ・Yahoo!オークション・ヨドバシ・楽天・ビックカメラ
               </Typography>
 
-              {/* カテゴリ別ページへの導線。人気ジャンルから探せる＋内部リンクになる。 */}
+              {/* 人気検索ランキング（linkable asset）への導線。 */}
               <Box sx={{ mt: 4 }}>
+                <Link
+                  to="/ranking"
+                  style={{ fontSize: 14, color: "inherit", textDecoration: "underline" }}
+                >
+                  📈 いま人気の検索キーワードランキングを見る
+                </Link>
+              </Box>
+
+              {/* カテゴリ別ページへの導線。人気ジャンルから探せる＋内部リンクになる。 */}
+              <Box sx={{ mt: 3 }}>
                 <Typography variant="caption" sx={{ display: "block", mb: 1 }}>
                   ジャンルから探す
                 </Typography>

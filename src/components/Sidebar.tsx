@@ -7,20 +7,25 @@ import ListItemText from "@mui/material/ListItemText";
 import IconButton from "@mui/material/IconButton";
 import Drawer from "@mui/material/Drawer";
 import SearchIcon from "@mui/icons-material/Search";
+import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import HistoryIcon from "@mui/icons-material/History";
 import CloseIcon from "@mui/icons-material/Close";
 import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 import DescriptionOutlinedIcon from "@mui/icons-material/DescriptionOutlined";
 import SiteLogo from "./SiteLogo";
-import { Link } from "../router";
+import { Link, navigate, usePathname } from "../router";
 
 type NavItem = {
   label: string;
   icon: React.ReactNode;
+  /** 遷移先。省略時は「履歴」など非リンクの項目。 */
+  to?: string;
 };
 
+// 検索 → ランキング → 履歴 の順。ランキングは専用ページ /ranking へ遷移する。
 const NAV_ITEMS: NavItem[] = [
-  { label: "検索", icon: <SearchIcon fontSize="small" /> },
+  { label: "検索", icon: <SearchIcon fontSize="small" />, to: "/" },
+  { label: "ランキング", icon: <EmojiEventsIcon fontSize="small" />, to: "/ranking" },
   { label: "履歴", icon: <HistoryIcon fontSize="small" /> },
 ];
 
@@ -37,6 +42,12 @@ function SidebarContent({
   onSelect: (term: string) => void;
   onRemove: (term: string) => void;
 }) {
+  const pathname = usePathname();
+  const isSelected = (item: NavItem) => {
+    if (item.to === "/ranking") return pathname.startsWith("/ranking");
+    if (item.to === "/") return pathname === "/";
+    return false;
+  };
   return (
     <Box
       sx={{
@@ -52,10 +63,11 @@ function SidebarContent({
 
       {/* Navigation + 履歴のすぐ下に検索履歴一覧を表示 */}
       <List sx={{ px: 1 }}>
-        {NAV_ITEMS.map((item, i) => (
+        {NAV_ITEMS.map((item) => (
           <ListItemButton
             key={item.label}
-            selected={i === 0}
+            selected={isSelected(item)}
+            onClick={item.to ? () => navigate(item.to!) : undefined}
             sx={{ borderRadius: 2, mb: 0.5 }}
           >
             <ListItemIcon sx={{ minWidth: 36 }}>{item.icon}</ListItemIcon>
