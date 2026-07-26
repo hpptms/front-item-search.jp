@@ -54,7 +54,7 @@ export default function App() {
   const [error, setError] = useState<string | null>(null);
   const [data, setData] = useState<SearchResponse | null>(null);
   const [sortMode, setSortMode] = useState<SortMode>("site");
-  const [density, setDensity] = useState<Density>("comfortable");
+  const [density, setDensity] = useState<Density>("compact");
   const [history, setHistory] = useState<string[]>(() => loadHistory());
   const [historyOpen, setHistoryOpen] = useState(false);
   // スマホ / タブレットのサイドバー（ドロワー）の開閉。PC では常設なので使わない。
