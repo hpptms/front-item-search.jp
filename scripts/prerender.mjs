@@ -1,4 +1,5 @@
 // ビルド後プリレンダ。dist/index.html をテンプレートに、
+//   - トップ（/）: 固有 <head> ＋ クローラー向け静的本文（主要ページへのハブ）
 //   - カテゴリ LP（/c/<slug>）/ キーワード LP（/s/<slug>）: 固有 <head> ＋ クローラー向け静的本文
 //   - ランキング LP（/ranking）: 固有 <head> ＋ 静的本文 ＋ ItemList 構造化データ
 //   - /about, /terms, /privacy: 固有 <head>（本文は JS 描画）を焼き込む
@@ -26,6 +27,27 @@ const { keywords, updated: kwUpdated } = JSON.parse(
 const ranking = JSON.parse(
   await readFile(join(ROOT, "src/landing/ranking.json"), "utf8")
 );
+
+// トップ（/）の <head>（src/seo.ts の ROUTE_SEO["/"] と内容を合わせる）。
+const HOME = {
+  title: "商品横断検索 | Amazon・楽天・メルカリを一括比較 - item-search.jp",
+  description:
+    "Amazon・楽天市場・Yahoo!ショッピング・メルカリ・ヤフオク・ヨドバシ・ビックカメラを横断して一括検索。サイトをまたいで価格を比較し、ほしい商品の最安値を見つけられる無料の通販横断検索サービスです。",
+};
+
+// 対応ショップ（src/pages/About.tsx の一覧と揃える）。
+const SHOPS = [
+  "Amazon",
+  "楽天市場",
+  "Yahoo!ショッピング",
+  "メルカリ",
+  "Yahoo!オークション",
+  "ヨドバシ.com",
+  "ビックカメラ",
+];
+
+// トップに載せる人気キーワードの件数（多すぎると JS 描画までの一瞬の表示が重くなる）。
+const HOME_RANKING_MAX = 10;
 
 // /about, /terms, /privacy の <head>（src/seo.ts の ROUTE_SEO と内容を合わせる）。
 const STATIC_PAGES = [
@@ -339,6 +361,45 @@ function rankingJsonLd(category) {
   };
 }
 
+// トップ（/）のクローラー向け静的本文。
+// 検索 UI は JS でしか描けないので、代わりに「何のサイトか」と主要ページへの
+// 内部リンク（ハブ）を静的 HTML で置く。JS 起動後は createRoot が置き換える。
+function homeBody() {
+  const shops = SHOPS.map((s) => `<li>${esc(s)}</li>`).join("");
+  const ranks = ranking.items
+    .slice(0, HOME_RANKING_MAX)
+    .map(
+      (item) =>
+        `<li><strong>${item.rank}位</strong> <a href="${rankingHref(item)}">${esc(
+          item.term
+        )}</a>の最安値を比較</li>`
+    )
+    .join("");
+  const cats = categories
+    .map((c) => `<li><a href="/c/${c.slug}">${esc(c.name)}の価格を比較</a></li>`)
+    .join("");
+  const kws = keywords
+    .map((k) => `<li><a href="/s/${k.slug}">${esc(k.term)}の最安値・価格比較</a></li>`)
+    .join("");
+  return `<main>
+<h1>商品横断検索 — 複数の通販サイトをまとめて一括検索</h1>
+<p>item-search.jp は Amazon・楽天市場・Yahoo!ショッピング・メルカリ・ヤフオク・ヨドバシ・ビックカメラなど、複数のオンラインショップを横断して商品を一括検索できる無料のサービスです。ほしい商品の価格をサイトをまたいで比較し、最安値を見つけられます。</p>
+<p>キーワードを入力すると、対応する各ショップの検索結果を1画面にまとめて表示します。会員登録は不要です。</p>
+<h2>対応しているオンラインショップ</h2>
+<ul>${shops}</ul>
+<h2>いま人気の検索キーワード</h2>
+<ol>${ranks}</ol>
+<p><a href="/ranking">人気検索キーワードランキング【${esc(
+    ranking.period
+  )}】をすべて見る</a></p>
+<h2>ジャンルから探す</h2>
+<ul>${cats}</ul>
+<h2>人気の商品から探す</h2>
+<ul>${kws}</ul>
+<p>使い方や対応ショップの詳細は<a href="/about">サイトの説明</a>を、取り扱いについては<a href="/terms">利用規約</a>・<a href="/privacy">プライバシーポリシー</a>をご覧ください。</p>
+</main>`;
+}
+
 // --- 生成 -----------------------------------------------------------------
 const template = await readFile(join(DIST, "index.html"), "utf8");
 const written = [];
@@ -430,6 +491,20 @@ for (const p of STATIC_PAGES) {
   written.push(p.path);
 }
 
+// トップ（/）。template は先頭で読み込み済みなので、上書きしても他ページに影響しない。
+// SPA フォールバック（_redirects）で未知パスにも返るため、canonical は / 固定のまま。
+await writeFile(
+  join(DIST, "index.html"),
+  render(template, {
+    title: HOME.title,
+    description: HOME.description,
+    path: "/",
+    bodyHtml: homeBody(),
+  }),
+  "utf8"
+);
+written.push("/");
+
 // sitemap.xml を再生成
 const urls = [
   { loc: `${ORIGIN}/`, changefreq: "weekly", priority: "1.0" },
@@ -472,6 +547,6 @@ ${urls
 await writeFile(join(DIST, "sitemap.xml"), sitemap, "utf8");
 
 console.log(
-  `prerender: ${categories.length} category LP + ${keywords.length} keyword LP + ${rankingPaths.length} ranking LP + ${STATIC_PAGES.length} static pages, sitemap with ${urls.length} URLs`
+  `prerender: home + ${categories.length} category LP + ${keywords.length} keyword LP + ${rankingPaths.length} ranking LP + ${STATIC_PAGES.length} static pages, sitemap with ${urls.length} URLs`
 );
 console.log("  " + written.join("  "));

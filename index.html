@@ -77,15 +77,10 @@
 
 <body>
   <div id="root"></div>
-  <!-- クローラー / JS無効環境向けの説明。実際の検索UIはJSで描画されます。 -->
+  <!-- 本文は scripts/prerender.mjs が #root にページ固有の静的 HTML を焼き込む（クローラー向け）。
+       noscript はページをまたいで同じ内容になるため、重複コンテンツにならない短い案内だけにする。 -->
   <noscript>
-    <h1>商品横断検索 - 複数のオンラインショップをまとめて検索</h1>
-    <p>
-      item-search.jp は Amazon・楽天市場・Yahoo!オークション・メルカリ・ヨドバシ・ビックカメラなど、
-      複数のオンラインショップを横断して商品を一括検索できるサービスです。
-      サイトをまたいで価格を比較し、ほしい商品の最安値を見つけられます。
-      ご利用には JavaScript を有効にしてください。
-    </p>
+    <p>検索機能のご利用には JavaScript を有効にしてください。</p>
   </noscript>
   <script type="module" src="/src/main.tsx"></script>
 </body>
