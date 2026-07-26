@@ -16,7 +16,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Sidebar from "./components/Sidebar";
 import SiteSection from "./components/SiteSection";
 import ProductGrid, { GridItem, Density } from "./components/ProductGrid";
-import { SearchResponse, searchProducts, formatYen } from "./api";
+import { SearchResponse, SiteResult, searchProductsStream, formatYen } from "./api";
 import { Link } from "./router";
 import { CATEGORIES } from "./landing";
 import { applySearchSeo } from "./seo";
@@ -95,18 +95,40 @@ export default function App() {
 
     setLoading(true);
     setError(null);
+    // 新しい検索を開始したら前回の結果はクリアする（ストリームで順次埋めていく）。
+    setData({ query: term, sites: [] });
     try {
-      const res = await searchProducts(term, 20, controller.signal);
-      setData(res);
-      // GA4: 検索結果の件数も計測しておく。
-      const count = res.sites.reduce((sum, s) => sum + s.items.length, 0);
-      window.gtag?.("event", "search_results", {
-        search_term: term,
-        results_count: count,
+      // 完了したサイトから順に受け取り、その都度画面へ反映する（体感速度重視）。
+      // 同一サイトが再送された場合は置き換える（安全策）。
+      await searchProductsStream(
+        term,
+        20,
+        (site: SiteResult) => {
+          // 既にキャンセル済み（新しい検索が始まった）なら反映しない。
+          if (controller.signal.aborted) return;
+          setData((prev) => {
+            const base = prev && prev.query === term ? prev.sites : [];
+            const rest = base.filter((s) => s.site !== site.site);
+            return { query: term, sites: [...rest, site] };
+          });
+        },
+        controller.signal
+      );
+      // GA4: 検索結果の件数も計測しておく（全サイト到着後）。
+      setData((prev) => {
+        if (prev) {
+          const count = prev.sites.reduce((sum, s) => sum + s.items.length, 0);
+          window.gtag?.("event", "search_results", {
+            search_term: term,
+            results_count: count,
+          });
+        }
+        return prev;
       });
     } catch (e) {
       if ((e as Error).name !== "AbortError") {
         setError((e as Error).message);
+        setData(null); // エラー時は「0件」ブロックを出さない
       }
     } finally {
       setLoading(false);
