@@ -2,6 +2,7 @@ import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import { Link } from "../router";
+import { CATEGORIES } from "../landing";
 
 // 全ページ共通のフッター。サービスの位置づけ（横断検索・情報提供）と
 // 各種ページへの導線、アフィリエイトの開示、免責を簡潔にまとめる。
@@ -31,6 +32,22 @@ export default function SiteFooter() {
           <Link to="/terms" style={{ fontSize: 14, color: "inherit" }}>
             利用規約
           </Link>
+          <Link to="/privacy" style={{ fontSize: 14, color: "inherit" }}>
+            プライバシーポリシー
+          </Link>
+        </Box>
+
+        {/* カテゴリ LP への導線（内部リンク＝クローラーの巡回経路にもなる） */}
+        <Box sx={{ display: "flex", flexWrap: "wrap", gap: { xs: 1, sm: 2 }, mb: 2 }}>
+          {CATEGORIES.map((c) => (
+            <Link
+              key={c.slug}
+              to={`/c/${c.slug}`}
+              style={{ fontSize: 13, color: "inherit", opacity: 0.85 }}
+            >
+              {c.name}
+            </Link>
+          ))}
         </Box>
         <Typography variant="caption" color="text.secondary" sx={{ display: "block", lineHeight: 1.8 }}>
           item-search は各オンラインショップの商品情報を横断的に検索・表示する情報提供サービスです。

@@ -8,9 +8,12 @@ import ProductGrid, { Density } from "./ProductGrid";
 export default function SiteSection({
   result,
   density = "comfortable",
+  highlightUrl,
 }: {
   result: SiteResult;
   density?: Density;
+  /** 全サイト横断での最安値商品のURL（あれば該当カードを強調）。 */
+  highlightUrl?: string;
 }) {
   const count = result.items.length;
   return (
@@ -53,6 +56,7 @@ export default function SiteSection({
           keyPrefix={result.site}
           items={result.items.map((item) => ({ item, site: result.site }))}
           density={density}
+          highlightUrl={highlightUrl}
         />
       )}
     </Box>

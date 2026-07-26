@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import InputBase from "@mui/material/InputBase";
@@ -16,7 +16,10 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Sidebar from "./components/Sidebar";
 import SiteSection from "./components/SiteSection";
 import ProductGrid, { GridItem, Density } from "./components/ProductGrid";
-import { SearchResponse, searchProducts } from "./api";
+import { SearchResponse, searchProducts, formatYen } from "./api";
+import { Link } from "./router";
+import { CATEGORIES } from "./landing";
+import { applySearchSeo } from "./seo";
 
 type SortMode = "site" | "asc" | "desc";
 
@@ -78,6 +81,9 @@ export default function App() {
     const term = q.trim();
     if (!term) return;
 
+    // 検索結果表示中は noindex,follow ＋ canonical=トップ に切り替える。
+    applySearchSeo(term);
+
     recordHistory(term);
     setHistoryOpen(false);
 
@@ -107,8 +113,34 @@ export default function App() {
     }
   }
 
+  // URL に ?q=... が付いていれば（LP のキーワードリンクや構造化データの
+  // SearchAction 経由）その語で自動的に検索を実行する。
+  useEffect(() => {
+    const q = new URLSearchParams(window.location.search).get("q");
+    if (q && q.trim()) {
+      setQuery(q);
+      runSearch(q);
+    }
+    // 初回マウント時のみ。
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   const totalItems =
     data?.sites.reduce((sum, s) => sum + s.items.length, 0) ?? 0;
+
+  // 全サイト横断での最安値（price>0 の中で最小）。独自価値としてバナーで強調する。
+  const cheapest: { item: GridItem["item"]; label: string } | null = (() => {
+    if (!data) return null;
+    let best: { item: GridItem["item"]; label: string } | null = null;
+    for (const s of data.sites) {
+      for (const item of s.items) {
+        if (item.price > 0 && (!best || item.price < best.item.price)) {
+          best = { item, label: s.label };
+        }
+      }
+    }
+    return best;
+  })();
 
   // 価格順表示用に、全サイトの商品を1つのリストに集約してソートする。
   // 価格情報なし（price=0）は末尾に回す。
@@ -309,6 +341,38 @@ export default function App() {
               <Typography variant="caption">
                 Amazon・メルカリ・Yahoo!オークション・ヨドバシ・楽天・ビックカメラ
               </Typography>
+
+              {/* カテゴリ別ページへの導線。人気ジャンルから探せる＋内部リンクになる。 */}
+              <Box sx={{ mt: 4 }}>
+                <Typography variant="caption" sx={{ display: "block", mb: 1 }}>
+                  ジャンルから探す
+                </Typography>
+                <Box
+                  sx={{
+                    display: "flex",
+                    flexWrap: "wrap",
+                    gap: 1,
+                    justifyContent: "center",
+                    maxWidth: 560,
+                    mx: "auto",
+                  }}
+                >
+                  {CATEGORIES.map((c) => (
+                    <Link
+                      key={c.slug}
+                      to={`/c/${c.slug}`}
+                      style={{
+                        fontSize: 13,
+                        color: "inherit",
+                        textDecoration: "underline",
+                        opacity: 0.8,
+                      }}
+                    >
+                      {c.name}
+                    </Link>
+                  ))}
+                </Box>
+              </Box>
             </Box>
           )}
 
@@ -364,15 +428,80 @@ export default function App() {
                 </Box>
               </Box>
 
+              {/* 最安値ハイライト（横断検索ならではの独自価値） */}
+              {cheapest && (
+                <Box
+                  component="a"
+                  href={cheapest.item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  sx={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: 1.5,
+                    mb: 3,
+                    p: { xs: 1.5, md: 2 },
+                    borderRadius: 2,
+                    border: "1px solid",
+                    borderColor: "success.main",
+                    bgcolor: "rgba(46,125,50,.06)",
+                    textDecoration: "none",
+                    color: "inherit",
+                    transition: "background-color .15s",
+                    "&:hover": { bgcolor: "rgba(46,125,50,.12)" },
+                  }}
+                >
+                  {cheapest.item.image && (
+                    <Box
+                      component="img"
+                      src={cheapest.item.image}
+                      alt=""
+                      loading="lazy"
+                      sx={{
+                        width: 48,
+                        height: 48,
+                        objectFit: "contain",
+                        flexShrink: 0,
+                        bgcolor: "#fff",
+                        borderRadius: 1,
+                      }}
+                    />
+                  )}
+                  <Box sx={{ minWidth: 0, flex: 1 }}>
+                    <Typography
+                      variant="caption"
+                      sx={{ color: "success.main", fontWeight: 700, display: "block" }}
+                    >
+                      最安値 — {cheapest.label}
+                    </Typography>
+                    <Typography variant="body2" noWrap sx={{ color: "text.primary" }}>
+                      {cheapest.item.title}
+                    </Typography>
+                  </Box>
+                  <Typography
+                    variant="h6"
+                    sx={{ fontWeight: 800, color: "success.main", flexShrink: 0 }}
+                  >
+                    {formatYen(cheapest.item.price)}
+                  </Typography>
+                </Box>
+              )}
+
               {sortMode === "site" ? (
                 data.sites.map((s) => (
-                  <SiteSection key={s.site} result={s} density={density} />
+                  <SiteSection
+                    key={s.site}
+                    result={s}
+                    density={density}
+                    highlightUrl={cheapest?.item.url}
+                  />
                 ))
               ) : (
                 <ProductGrid
                   keyPrefix={`sort-${sortMode}`}
                   items={sortedItems}
                   density={density}
+                  highlightUrl={cheapest?.item.url}
                 />
               )}
             </>

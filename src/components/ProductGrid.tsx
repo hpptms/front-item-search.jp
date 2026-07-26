@@ -28,10 +28,13 @@ export default function ProductGrid({
   items,
   keyPrefix,
   density = "comfortable",
+  highlightUrl,
 }: {
   items: GridItem[];
   keyPrefix: string;
   density?: Density;
+  /** このURLの商品を最安値として強調する。 */
+  highlightUrl?: string;
 }) {
   return (
     <Box
@@ -47,6 +50,7 @@ export default function ProductGrid({
           item={item}
           site={site}
           density={density}
+          highlight={!!highlightUrl && item.url === highlightUrl}
         />
       ))}
     </Box>

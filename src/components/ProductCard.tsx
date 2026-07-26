@@ -9,10 +9,13 @@ export default function ProductCard({
   item,
   site,
   density = "comfortable",
+  highlight = false,
 }: {
   item: Item;
   site: string;
   density?: Density;
+  /** 全サイト横断での最安値カードに付ける強調表示。 */
+  highlight?: boolean;
 }) {
   const compact = density === "compact";
   return (
@@ -24,12 +27,13 @@ export default function ProductCard({
       sx={{
         display: "block",
         borderRadius: 2,
-        border: "1px solid",
-        borderColor: "divider",
+        border: highlight ? "2px solid" : "1px solid",
+        borderColor: highlight ? "success.main" : "divider",
         overflow: "hidden",
         bgcolor: "background.paper",
+        boxShadow: highlight ? "0 0 0 3px rgba(46,125,50,.15)" : "none",
         transition: "border-color .15s, transform .15s",
-        "&:hover": { borderColor: "primary.main", transform: "translateY(-2px)" },
+        "&:hover": { borderColor: highlight ? "success.main" : "primary.main", transform: "translateY(-2px)" },
       }}
     >
       {/* 画像（正方形） */}
@@ -45,6 +49,28 @@ export default function ProductCard({
         <Box sx={{ position: "absolute", top: 6, left: 6, zIndex: 2 }}>
           <BrandLogo site={site} />
         </Box>
+
+        {/* 最安値バッジ（右上オーバーレイ） */}
+        {highlight && (
+          <Box
+            sx={{
+              position: "absolute",
+              top: 6,
+              right: 6,
+              zIndex: 2,
+              px: 0.75,
+              py: 0.25,
+              borderRadius: 1,
+              bgcolor: "success.main",
+              color: "#fff",
+              fontSize: 11,
+              fontWeight: 700,
+              lineHeight: 1.4,
+            }}
+          >
+            最安値
+          </Box>
+        )}
 
         {item.image ? (
           <Box
