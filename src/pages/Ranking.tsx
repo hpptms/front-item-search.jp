@@ -19,19 +19,21 @@ import {
   keywordByTerm,
   categoryBySlug,
 } from "../landing";
-import { fetchRankings } from "../api";
+import { fetchRankings, RankingPeriod } from "../api";
 
 // 検索数ランキング（/ranking = 総合, /ranking/<category> = カテゴリ別）。
 // バックエンド（Postgres 集計）からユーザーの実検索数を取得して表示し、
 // DB 無効/取得失敗時は静的シード（ranking.json）にフォールバックする。
 // SEO 用に scripts/prerender.mjs が各カテゴリの静的 HTML＋ItemList を書き出す。
 
-// 中項目: 集計期間（日 / 月 / 年）。days をバックエンドの ?days= に渡す。
-type Period = { key: "day" | "month" | "year"; label: string; days: number };
+// 中項目: 集計期間（日 / 月 / 年）。
+// 「直近1日 / 30日 / 365日」のローリング集計ではなく、暦の区切り（今日 0:00 / 今月1日 /
+// 今年1月1日 以降）での集計。key をバックエンドの ?period= にそのまま渡す。
+type Period = { key: RankingPeriod; label: string; scope: string };
 const PERIODS: Period[] = [
-  { key: "day", label: "日", days: 1 },
-  { key: "month", label: "月", days: 30 },
-  { key: "year", label: "年", days: 365 },
+  { key: "day", label: "日", scope: "今日" },
+  { key: "month", label: "月", scope: "今月" },
+  { key: "year", label: "年", scope: "今年" },
 ];
 const DEFAULT_PERIOD = PERIODS[1]; // 月
 
@@ -51,16 +53,29 @@ function hrefForTerm(term: string): string {
   return kw ? `/s/${kw.slug}` : `/?q=${encodeURIComponent(term)}`;
 }
 
-// シード（ranking.json）の基準検索数は月間相当。期間タブに合わせてスケールし、
-// ライブ集計が無いときでも「日/月/年」で数字が変わるようにする。
-const SEED_PERIOD_FACTOR: Record<Period["key"], number> = {
-  day: 0.05,
-  month: 1,
-  year: 8.5,
-};
+// シード（ranking.json）の基準検索数は月間相当。ライブ集計と同じ「暦の区切りで、
+// いま時点までの累計」に見えるよう、月間相当値 × 期間の長さ × 経過率でスケールする。
+// 例: 今月が 10 日経過なら月間相当値の約 1/3、今日が正午なら 1 日分の半分。
+function seedPeriodFactor(key: Period["key"], now = new Date()): number {
+  const start =
+    key === "day"
+      ? new Date(now.getFullYear(), now.getMonth(), now.getDate())
+      : key === "month"
+        ? new Date(now.getFullYear(), now.getMonth(), 1)
+        : new Date(now.getFullYear(), 0, 1);
+  const end =
+    key === "day"
+      ? new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1)
+      : key === "month"
+        ? new Date(now.getFullYear(), now.getMonth() + 1, 1)
+        : new Date(now.getFullYear() + 1, 0, 1);
+  const elapsed = (now.getTime() - start.getTime()) / (end.getTime() - start.getTime());
+  const months = key === "day" ? 1 / 30 : key === "month" ? 1 : 12; // 期間の長さ（月換算）
+  return months * Math.min(1, Math.max(0, elapsed));
+}
 
 function buildSeedRows(catSlug: string, period: Period): Row[] {
-  const f = SEED_PERIOD_FACTOR[period.key];
+  const f = seedPeriodFactor(period.key);
   return seedRankingItems(catSlug).map((i) => ({
     rank: i.rank,
     term: i.term,
@@ -70,6 +85,15 @@ function buildSeedRows(catSlug: string, period: Period): Row[] {
     note: i.note,
     href: hrefForTerm(i.term),
   }));
+}
+
+// 集計区間を日本語で表す（例: 「2026年7月1日〜現在」）。
+function periodRangeLabel(key: Period["key"], now = new Date()): string {
+  const y = now.getFullYear();
+  const m = now.getMonth() + 1;
+  if (key === "day") return `${y}年${m}月${now.getDate()}日 0:00〜現在`;
+  if (key === "month") return `${y}年${m}月1日〜現在`;
+  return `${y}年1月1日〜現在`;
 }
 
 function TrendBadge({ trend }: { trend?: RankingItem["trend"] }) {
@@ -121,7 +145,7 @@ export default function Ranking({ category = "all" }: { category?: string }) {
     const controller = new AbortController();
     setRows(seed);
     setLive(false);
-    fetchRankings(cat.slug, period.days, 20, controller.signal).then((res) => {
+    fetchRankings(cat.slug, period.key, 20, controller.signal).then((res) => {
       if (!res || !res.items.length) return; // フォールバック（シード維持）
       setRows(
         res.items.map((e) => ({
@@ -137,7 +161,7 @@ export default function Ranking({ category = "all" }: { category?: string }) {
     return () => controller.abort();
     // seed は cat.slug から導出されるため依存は cat.slug と period で十分。
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [cat.slug, period.days]);
+  }, [cat.slug, period.key]);
 
   const title =
     cat.slug === "all"
@@ -154,9 +178,7 @@ export default function Ranking({ category = "all" }: { category?: string }) {
 
       <Typography variant="body2" color="text.secondary" sx={{ mt: 2 }}>
         {live
-          ? `直近${
-              period.key === "day" ? "1日" : period.key === "month" ? "30日" : "1年"
-            }（${period.label}間ランキング）の実際の検索数にもとづく集計です。`
+          ? `${period.scope}（${periodRangeLabel(period.key)}）に実際に検索された回数の集計です。`
           : RANKING.source}
       </Typography>
 
@@ -203,7 +225,7 @@ export default function Ranking({ category = "all" }: { category?: string }) {
         sx={{ mb: 1 }}
       >
         {PERIODS.map((p) => (
-          <ToggleButton key={p.key} value={p.key} aria-label={`${p.label}間ランキング`}>
+          <ToggleButton key={p.key} value={p.key} aria-label={`${p.scope}のランキング`}>
             {p.label}
           </ToggleButton>
         ))}
@@ -306,7 +328,7 @@ export default function Ranking({ category = "all" }: { category?: string }) {
       <h2>ランキングの見方</h2>
       <p>
         {live
-          ? `本ランキングは、item-search.jp で実際に検索された回数（${period.label}間集計）をもとにしたものです。ジャンルと期間（日・月・年）で切り替えられ、集計は随時更新されます。`
+          ? `本ランキングは、item-search.jp で実際に検索された回数をもとにしたものです。期間は「日＝今日（0:00〜）」「月＝今月（1日〜）」「年＝今年（1月1日〜）」の暦区切りでの集計で（日本時間）、ジャンルと合わせて切り替えられます。集計は随時更新されます。`
           : "本ランキングは item-search.jp での注目度をもとに編集部が集計・編集したものです。順位や価格は集計時点のものです。"}
       </p>
 

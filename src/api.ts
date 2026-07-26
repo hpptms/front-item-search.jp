@@ -100,24 +100,30 @@ export type RankingEntry = {
   count: number;
 };
 
+export type RankingPeriod = "day" | "month" | "year";
+
 export type RankingResponse = {
   category: string;
+  period: RankingPeriod | "";
   days: number;
+  since: string; // 集計開始（JST, RFC3339）
+  until: string; // 集計終了＝期間の終わり（進行中の期間では未来）
   items: RankingEntry[];
 };
 
 // fetchRankings はバックエンドの集計（ユーザーの実検索数）を取得する。
+// period は暦の区切りでの集計期間（day=今日 / month=今月 / year=今年、JST 基準）。
 // category は "all" または カテゴリ slug。DB 無効時はバックエンドが 503 を返すので
 // null を返し、呼び出し側は静的シード（ranking.json）にフォールバックする。
 export async function fetchRankings(
   category = "all",
-  days = 30,
+  period: RankingPeriod = "month",
   limit = 20,
   signal?: AbortSignal
 ): Promise<RankingResponse | null> {
   const params = new URLSearchParams({
     category,
-    days: String(days),
+    period,
     limit: String(limit),
   });
   try {
