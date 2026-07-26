@@ -78,6 +78,17 @@ const STATIC_PAGES = [
 ];
 
 // --- ユーティリティ -------------------------------------------------------
+
+// 末尾スラッシュ付きに正規化する。
+// Cloudflare Pages は dist/<path>/index.html を「/<path>/」で配信し、スラッシュ無しの
+// アクセスは 308 でスラッシュ付きへ飛ばす。canonical・sitemap・サイト内リンクを
+// すべてスラッシュ付きに揃え、canonical がリダイレクトする URL を指す状態を無くす。
+function withSlash(path) {
+  const [, p = path, rest = ""] = path.match(/^([^?#]*)([?#].*)?$/) ?? [];
+  if (p === "" || p === "/") return "/" + rest;
+  return (p.endsWith("/") ? p : p + "/") + rest;
+}
+
 const esc = (s) =>
   String(s)
     .replaceAll("&", "&amp;")
@@ -93,7 +104,7 @@ function replaceMeta(html, matcher, replacement) {
 // index.html テンプレートの <head> を、指定の title / description / canonical /
 // OGP に置換する。bodyHtml が渡されたら #root に静的本文を差し込む。
 function render(template, { title, description, path, jsonLd, bodyHtml }) {
-  const url = ORIGIN + path;
+  const url = ORIGIN + withSlash(path);
   let html = template;
 
   html = replaceMeta(html, /<title>[\s\S]*?<\/title>/, `<title>${esc(title)}</title>`);
@@ -157,11 +168,11 @@ function landingBody(c) {
     .join("");
   const others = categories
     .filter((o) => o.slug !== c.slug)
-    .map((o) => `<li><a href="/c/${o.slug}">${esc(o.name)}の価格を比較</a></li>`)
+    .map((o) => `<li><a href="/c/${o.slug}/">${esc(o.name)}の価格を比較</a></li>`)
     .join("");
   const kwPages = keywords
     .filter((k) => k.category === c.slug)
-    .map((k) => `<li><a href="/s/${k.slug}">${esc(k.term)}の最安値・価格比較</a></li>`)
+    .map((k) => `<li><a href="/s/${k.slug}/">${esc(k.term)}の最安値・価格比較</a></li>`)
     .join("");
   const paras = c.body.map((p) => `<p>${esc(p)}</p>`).join("");
   return `<main>
@@ -175,7 +186,7 @@ ${paras}
 ${kwPages ? `<h2>人気の商品から探す</h2>\n<ul>${kwPages}</ul>` : ""}
 <h2>他のカテゴリから探す</h2>
 <ul>${others}</ul>
-<p>item-search.jp の使い方は<a href="/about">サイトの説明</a>をご覧ください。</p>
+<p>item-search.jp の使い方は<a href="/about/">サイトの説明</a>をご覧ください。</p>
 </main>`;
 }
 
@@ -191,7 +202,7 @@ function keywordBody(k) {
   const paras = k.body.map((p) => `<p>${esc(p)}</p>`).join("");
   return `<main>
 <nav aria-label="パンくず"><a href="/">ホーム</a>${
-    cat ? ` &gt; <a href="/c/${cat.slug}">${esc(cat.name)}</a>` : ""
+    cat ? ` &gt; <a href="/c/${cat.slug}/">${esc(cat.name)}</a>` : ""
   } &gt; ${esc(k.term)}</nav>
 <h1>${esc(k.term)}の最安値・価格比較</h1>
 <p>${esc(k.lead)}</p>
@@ -199,12 +210,12 @@ ${paras}
 <p><a href="/?q=${encodeURIComponent(k.term)}">「${esc(k.term)}」を横断検索する</a></p>
 <h2>関連キーワード</h2>
 <ul>${related}</ul>
-${cat ? `<p>関連カテゴリ: <a href="/c/${cat.slug}">${esc(cat.name)}の価格を比較</a></p>` : ""}
+${cat ? `<p>関連カテゴリ: <a href="/c/${cat.slug}/">${esc(cat.name)}の価格を比較</a></p>` : ""}
 </main>`;
 }
 
 function keywordJsonLd(k) {
-  const url = `${ORIGIN}/s/${k.slug}`;
+  const url = `${ORIGIN}/s/${k.slug}/`;
   const cat = categories.find((c) => c.slug === k.category);
   const crumbs = [
     { "@type": "ListItem", position: 1, name: "ホーム", item: `${ORIGIN}/` },
@@ -214,7 +225,7 @@ function keywordJsonLd(k) {
       "@type": "ListItem",
       position: 2,
       name: cat.name,
-      item: `${ORIGIN}/c/${cat.slug}`,
+      item: `${ORIGIN}/c/${cat.slug}/`,
     });
   crumbs.push({
     "@type": "ListItem",
@@ -235,7 +246,7 @@ function keywordJsonLd(k) {
 }
 
 function landingJsonLd(c) {
-  const url = `${ORIGIN}/c/${c.slug}`;
+  const url = `${ORIGIN}/c/${c.slug}/`;
   return {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
@@ -261,7 +272,7 @@ const RANK_SEED_MIN = 2;
 // ランキング項目のリンク先（キーワード LP があれば内部リンク優先）。
 function rankingHref(item) {
   if (item.slug && keywords.some((k) => k.slug === item.slug))
-    return `/s/${item.slug}`;
+    return `/s/${item.slug}/`;
   return `/?q=${encodeURIComponent(item.term)}`;
 }
 
@@ -294,7 +305,7 @@ function rankingBody(category) {
       return `<li><strong>${item.rank}位</strong> <a href="${rankingHref(
         item
       )}">${esc(item.term)}</a>${count}${mark ? ` <span>${mark}</span>` : ""}${
-        cat ? ` <a href="/c/${cat.slug}">${esc(cat.name)}</a>` : ""
+        cat ? ` <a href="/c/${cat.slug}/">${esc(cat.name)}</a>` : ""
       }${item.note ? `<br>${esc(item.note)}` : ""}</li>`;
     })
     .join("");
@@ -302,11 +313,11 @@ function rankingBody(category) {
     .filter((c) => c.slug !== "all")
     .map(
       (c) =>
-        `<li><a href="/ranking/${c.slug}">${esc(c.label)}の検索数ランキング</a></li>`
+        `<li><a href="/ranking/${c.slug}/">${esc(c.label)}の検索数ランキング</a></li>`
     )
     .join("");
   const priceLinks = categories
-    .map((c) => `<li><a href="/c/${c.slug}">${esc(c.name)}の価格を比較</a></li>`)
+    .map((c) => `<li><a href="/c/${c.slug}/">${esc(c.name)}の価格を比較</a></li>`)
     .join("");
   const isAll = category === "all";
   const heading = isAll
@@ -319,7 +330,7 @@ function rankingBody(category) {
       )}」の人気キーワードを、検索数の多い順にランキングしました。`;
   const crumb = isAll
     ? "人気検索キーワードランキング"
-    : `<a href="/ranking">人気検索キーワードランキング</a> &gt; ${esc(label)}`;
+    : `<a href="/ranking/">人気検索キーワードランキング</a> &gt; ${esc(label)}`;
   return `<main>
 <nav aria-label="パンくず"><a href="/">ホーム</a> &gt; ${crumb}</nav>
 <h1>${heading}</h1>
@@ -330,7 +341,7 @@ function rankingBody(category) {
 <ul>${catLinks}</ul>
 <h2>カテゴリ別に価格を比較する</h2>
 <ul>${priceLinks}</ul>
-<p>item-search.jp の使い方は<a href="/about">サイトの説明</a>をご覧ください。</p>
+<p>item-search.jp の使い方は<a href="/about/">サイトの説明</a>をご覧ください。</p>
 </main>`;
 }
 
@@ -347,7 +358,7 @@ function rankingJsonLd(category) {
       ? `人気検索キーワードランキング【${ranking.period}】`
       : `${label}の検索数ランキング`,
     description: isAll ? ranking.intro : `${label}の人気検索キーワードランキング`,
-    url: ORIGIN + path,
+    url: ORIGIN + withSlash(path),
     inLanguage: "ja",
     numberOfItems: items.length,
     itemListOrder: "https://schema.org/ItemListOrderDescending",
@@ -356,7 +367,7 @@ function rankingJsonLd(category) {
       "@type": "ListItem",
       position: item.rank,
       name: item.term,
-      url: ORIGIN + rankingHref(item),
+      url: ORIGIN + withSlash(rankingHref(item)),
     })),
   };
 }
@@ -376,10 +387,10 @@ function homeBody() {
     )
     .join("");
   const cats = categories
-    .map((c) => `<li><a href="/c/${c.slug}">${esc(c.name)}の価格を比較</a></li>`)
+    .map((c) => `<li><a href="/c/${c.slug}/">${esc(c.name)}の価格を比較</a></li>`)
     .join("");
   const kws = keywords
-    .map((k) => `<li><a href="/s/${k.slug}">${esc(k.term)}の最安値・価格比較</a></li>`)
+    .map((k) => `<li><a href="/s/${k.slug}/">${esc(k.term)}の最安値・価格比較</a></li>`)
     .join("");
   return `<main>
 <h1>商品横断検索 — 複数の通販サイトをまとめて一括検索</h1>
@@ -389,14 +400,14 @@ function homeBody() {
 <ul>${shops}</ul>
 <h2>いま人気の検索キーワード</h2>
 <ol>${ranks}</ol>
-<p><a href="/ranking">人気検索キーワードランキング【${esc(
+<p><a href="/ranking/">人気検索キーワードランキング【${esc(
     ranking.period
   )}】をすべて見る</a></p>
 <h2>ジャンルから探す</h2>
 <ul>${cats}</ul>
 <h2>人気の商品から探す</h2>
 <ul>${kws}</ul>
-<p>使い方や対応ショップの詳細は<a href="/about">サイトの説明</a>を、取り扱いについては<a href="/terms">利用規約</a>・<a href="/privacy">プライバシーポリシー</a>をご覧ください。</p>
+<p>使い方や対応ショップの詳細は<a href="/about/">サイトの説明</a>を、取り扱いについては<a href="/terms/">利用規約</a>・<a href="/privacy/">プライバシーポリシー</a>をご覧ください。</p>
 </main>`;
 }
 
@@ -509,25 +520,25 @@ written.push("/");
 const urls = [
   { loc: `${ORIGIN}/`, changefreq: "weekly", priority: "1.0" },
   ...rankingPaths.map((p) => ({
-    loc: ORIGIN + p,
+    loc: ORIGIN + withSlash(p),
     changefreq: p === "/ranking" ? "daily" : "weekly",
     priority: p === "/ranking" ? "0.9" : "0.8",
     lastmod: ranking.updated,
   })),
   ...categories.map((c) => ({
-    loc: `${ORIGIN}/c/${c.slug}`,
+    loc: `${ORIGIN}/c/${c.slug}/`,
     changefreq: "weekly",
     priority: "0.8",
     lastmod: updated,
   })),
   ...keywords.map((k) => ({
-    loc: `${ORIGIN}/s/${k.slug}`,
+    loc: `${ORIGIN}/s/${k.slug}/`,
     changefreq: "weekly",
     priority: "0.7",
     lastmod: kwUpdated,
   })),
   ...STATIC_PAGES.map((p) => ({
-    loc: ORIGIN + p.path,
+    loc: ORIGIN + withSlash(p.path),
     changefreq: p.changefreq,
     priority: p.priority,
   })),

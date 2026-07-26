@@ -6,6 +6,8 @@
 // scripts/prerender.mjs が同じ内容で <head> を焼き込むため、JS 無効のクローラーにも届く。
 // ここでの書き換えは JS 実行後（SPA 遷移時）の補正が主目的。
 
+import { withSlash, normalizePath } from "./router";
+
 const SITE = "item-search.jp";
 const ORIGIN = "https://item-search.jp";
 const DEFAULT_OGP = `${ORIGIN}/ogp.png`;
@@ -80,7 +82,9 @@ function setLink(rel: string, href: string) {
 // 与えられたメタ情報を document.head に反映する。
 export function applySeo(meta: SeoMeta) {
   const path = meta.path ?? window.location.pathname;
-  const url = ORIGIN + path;
+  // canonical は末尾スラッシュ付きに揃える（サーバ側が /path → /path/ へ 308 するため、
+  // スラッシュ無しで出すと canonical がリダイレクトする URL を指してしまう）。
+  const url = ORIGIN + withSlash(path);
   const ogImage = DEFAULT_OGP;
 
   document.title = meta.title;
@@ -100,8 +104,9 @@ export function applySeo(meta: SeoMeta) {
 }
 
 // pathname から固定ルートのメタを引く（無ければトップを既定にする）。
+// 末尾スラッシュ付き（/about/）で直リンクされても引けるように正規化する。
 export function seoForPath(pathname: string): SeoMeta {
-  return ROUTE_SEO[pathname] ?? ROUTE_SEO["/"];
+  return ROUTE_SEO[normalizePath(pathname)] ?? ROUTE_SEO["/"];
 }
 
 // 検索結果表示中（/?q=... で来た場合）のメタ。
