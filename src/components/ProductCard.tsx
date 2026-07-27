@@ -26,6 +26,9 @@ export default function ProductCard({
       underline="none"
       sx={{
         display: "block",
+        // グリッドの列幅より広がらないようにする（長い商品名で列を押し広げない）。
+        minWidth: 0,
+        maxWidth: "100%",
         borderRadius: 2,
         border: highlight ? "2px solid" : "1px solid",
         borderColor: highlight ? "success.main" : "divider",
@@ -112,6 +115,8 @@ export default function ProductCard({
             WebkitLineClamp: 2,
             WebkitBoxOrient: "vertical",
             overflow: "hidden",
+            // 長い英数字の型番などでカード幅をはみ出さないようにする。
+            overflowWrap: "anywhere",
             minHeight: compact ? 30 : 40,
             lineHeight: 1.4,
             color: "text.primary",

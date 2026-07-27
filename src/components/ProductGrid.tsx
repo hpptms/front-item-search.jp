@@ -8,18 +8,21 @@ export type GridItem = { item: Item; site: string };
 export type Density = "comfortable" | "compact";
 
 // 密度ごとのグリッド列数。compact は大画面で約10個/行を目安にする。
+// 1fr ではなく minmax(0, 1fr) にしているのは、列の最小幅をカードの内容（長い商品名など）
+// に引きずられないようにするため。1fr のままだと iOS Safari で商品名の折り返しが
+// 無視され、グリッドごと画面幅をはみ出してしまう。
 const COLUMNS: Record<Density, Record<"xs" | "sm" | "md" | "lg", string>> = {
   comfortable: {
-    xs: "repeat(2, 1fr)",
-    sm: "repeat(3, 1fr)",
-    md: "repeat(4, 1fr)",
-    lg: "repeat(5, 1fr)",
+    xs: "repeat(2, minmax(0, 1fr))",
+    sm: "repeat(3, minmax(0, 1fr))",
+    md: "repeat(4, minmax(0, 1fr))",
+    lg: "repeat(5, minmax(0, 1fr))",
   },
   compact: {
-    xs: "repeat(3, 1fr)",
-    sm: "repeat(5, 1fr)",
-    md: "repeat(7, 1fr)",
-    lg: "repeat(10, 1fr)",
+    xs: "repeat(3, minmax(0, 1fr))",
+    sm: "repeat(5, minmax(0, 1fr))",
+    md: "repeat(7, minmax(0, 1fr))",
+    lg: "repeat(10, minmax(0, 1fr))",
   },
 };
 
@@ -42,6 +45,7 @@ export default function ProductGrid({
         display: "grid",
         gap: density === "compact" ? 1 : 1.5,
         gridTemplateColumns: COLUMNS[density],
+        minWidth: 0,
       }}
     >
       {items.map(({ item, site }, i) => (

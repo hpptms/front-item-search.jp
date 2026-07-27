@@ -182,7 +182,17 @@ export default function App() {
   })();
 
   return (
-    <Box sx={{ display: "flex", height: "100vh", overflow: "hidden" }}>
+    <Box
+      sx={{
+        display: "flex",
+        // iOS Safari は 100vh がアドレスバー分だけ実際の表示領域より大きくなるため、
+        // 対応ブラウザでは 100dvh を使う（未対応ブラウザは 100vh のまま）。
+        height: "100vh",
+        "@supports (height: 100dvh)": { height: "100dvh" },
+        maxWidth: "100%",
+        overflow: "hidden",
+      }}
+    >
       <Sidebar
         history={history}
         onSelect={(term) => {
@@ -198,7 +208,10 @@ export default function App() {
         component="main"
         sx={{
           flex: 1,
-          height: "100vh",
+          // minWidth: 0 がないと flex アイテムが中身の最小幅まで広がり、
+          // スマホで画面幅をはみ出す（横に見切れる）原因になる。
+          minWidth: 0,
+          height: "100%",
           display: "flex",
           flexDirection: "column",
           bgcolor: "background.default",
@@ -230,7 +243,12 @@ export default function App() {
             <Typography
               variant="h6"
               component="h1"
-              sx={{ fontSize: { xs: "1rem", md: "1.25rem" } }}
+              sx={{
+                fontSize: { xs: "0.95rem", md: "1.25rem" },
+                lineHeight: 1.3,
+                minWidth: 0,
+                overflowWrap: "anywhere",
+              }}
             >
               item-search — オンラインショップをまたいで一括検索
             </Typography>
@@ -241,9 +259,9 @@ export default function App() {
               e.preventDefault();
               runSearch(query);
             }}
-            sx={{ display: "flex", gap: 1.5, maxWidth: 720 }}
+            sx={{ display: "flex", gap: 1.5, maxWidth: 720, minWidth: 0 }}
           >
-            <Box sx={{ position: "relative", flex: 1, display: "flex" }}>
+            <Box sx={{ position: "relative", flex: 1, minWidth: 0, display: "flex" }}>
               <Paper
                 variant="outlined"
                 sx={{
@@ -347,7 +365,15 @@ export default function App() {
         {loading && <LinearProgress />}
 
         {/* 結果エリア */}
-        <Box sx={{ flex: 1, overflow: "auto", p: { xs: 2, md: 4 } }}>
+        <Box
+          sx={{
+            flex: 1,
+            minWidth: 0,
+            overflowY: "auto",
+            overflowX: "hidden",
+            p: { xs: 2, md: 4 },
+          }}
+        >
           {error && (
             <Alert severity="error" sx={{ mb: 3 }}>
               {error}
