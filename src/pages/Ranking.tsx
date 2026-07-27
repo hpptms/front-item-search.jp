@@ -19,7 +19,8 @@ import {
   keywordByTerm,
   categoryBySlug,
 } from "../landing";
-import { fetchRankings, RankingPeriod } from "../api";
+import { fetchCommentCounts, fetchRankings, RankingPeriod } from "../api";
+import CommentSection from "../components/CommentSection";
 
 // 検索数ランキング（/ranking = 総合, /ranking/<category> = カテゴリ別）。
 // バックエンド（Postgres 集計）からユーザーの実検索数を取得して表示し、
@@ -163,6 +164,22 @@ export default function Ranking({ category = "all" }: { category?: string }) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [cat.slug, period.key]);
 
+  // 各ワードのコメント件数（「コメントを見る（3）」のバッジ）。
+  // 1 行ずつ問い合わせると 20 リクエストになるので、表示中の語をまとめて 1 回で取る。
+  // rows は毎レンダリング新しい配列になるため、依存には語を連結した文字列を使う。
+  const [commentCounts, setCommentCounts] = useState<Record<string, number>>({});
+  const termsKey = rows.map((r) => r.term).join("\n");
+  useEffect(() => {
+    const terms = termsKey ? termsKey.split("\n") : [];
+    if (terms.length === 0) return;
+    const controller = new AbortController();
+    fetchCommentCounts(terms, controller.signal).then((counts) => {
+      // 取得できた分だけ上書きする（投稿直後にローカルで進めた値を消さない）。
+      setCommentCounts((cur) => ({ ...cur, ...counts }));
+    });
+    return () => controller.abort();
+  }, [termsKey]);
+
   const title =
     cat.slug === "all"
       ? `人気検索キーワードランキング【${RANKING.period}】`
@@ -294,6 +311,15 @@ export default function Ranking({ category = "all" }: { category?: string }) {
                   <Typography variant="caption" sx={{ display: "block", mt: 0.5 }}>
                     <Link to={item.href}>「{item.term}」を横断検索して最安値を比較 →</Link>
                   </Typography>
+
+                  {/* このワードへのコメント（投稿フォーム / 一覧は押されたときだけ開く） */}
+                  <CommentSection
+                    term={item.term}
+                    count={commentCounts[item.term]}
+                    onCountChange={(n) =>
+                      setCommentCounts((cur) => ({ ...cur, [item.term]: n }))
+                    }
+                  />
                 </Box>
 
                 {/* 検索数（右寄せで目立たせる）。集計できた項目のみ表示。 */}

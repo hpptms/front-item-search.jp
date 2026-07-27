@@ -163,3 +163,93 @@ export async function fetchRankings(
     return null; // ネットワークエラー等もフォールバック
   }
 }
+
+// ---- 検索ワードへのコメント ------------------------------------------------
+
+export type Comment = {
+  id: number;
+  term: string;
+  name: string; // 空文字 = 匿名（表示は絵文字アバター）
+  link: string; // 空 / http(s) URL / mailto:
+  body: string;
+  createdAt: string; // RFC3339（JST）
+};
+
+export const COMMENT_MAX_BODY = 1024;
+export const COMMENT_MAX_NAME = 32;
+
+// バックエンドで検証・正規化済みのリンクだが、表示前にフロントでも必ず通す
+// （多層防御。href に javascript: が来ても踏まないようにする）。
+export function safeCommentLink(raw: unknown): string {
+  if (typeof raw !== "string" || raw === "") return "";
+  try {
+    const u = new URL(raw);
+    return u.protocol === "https:" || u.protocol === "http:" || u.protocol === "mailto:"
+      ? raw
+      : "";
+  } catch {
+    return "";
+  }
+}
+
+function sanitizeComment(c: Comment): Comment {
+  return { ...c, link: safeCommentLink(c.link) };
+}
+
+// fetchComments は 1 検索ワードのコメントを新しい順に取得する。
+// DB 無効時（503）やエラー時は null を返し、呼び出し側は「まだコメントがありません」
+// ではなく取得失敗として扱う。
+export async function fetchComments(
+  term: string,
+  limit = 50,
+  signal?: AbortSignal
+): Promise<{ count: number; items: Comment[] } | null> {
+  const params = new URLSearchParams({ term, limit: String(limit) });
+  try {
+    const res = await fetch(`/api/comments?${params.toString()}`, { signal });
+    if (!res.ok) return null;
+    const data = (await res.json()) as { count: number; items: Comment[] };
+    return { count: data.count ?? 0, items: (data.items ?? []).map(sanitizeComment) };
+  } catch {
+    return null;
+  }
+}
+
+// fetchCommentCounts は複数ワードのコメント件数をまとめて取得する（一覧のバッジ用）。
+// 戻り値のキーは渡した語そのもの。取得できなければ空オブジェクト。
+export async function fetchCommentCounts(
+  terms: string[],
+  signal?: AbortSignal
+): Promise<Record<string, number>> {
+  if (terms.length === 0) return {};
+  const params = new URLSearchParams();
+  terms.slice(0, 50).forEach((t) => params.append("term", t));
+  try {
+    const res = await fetch(`/api/comments/counts?${params.toString()}`, { signal });
+    if (!res.ok) return {};
+    const data = (await res.json()) as { counts?: Record<string, number> };
+    return data.counts ?? {};
+  } catch {
+    return {};
+  }
+}
+
+// postComment はコメントを投稿する。バリデーション/スパム判定はバックエンドが行い、
+// 弾かれた理由は日本語のメッセージで返るのでそのまま表示する。
+export async function postComment(input: {
+  term: string;
+  name: string;
+  link: string;
+  body: string;
+}): Promise<Comment> {
+  const res = await fetch("/api/comments", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(input),
+  });
+  const data = await res.json().catch(() => ({}));
+  if (!res.ok) {
+    throw new Error(data.error ?? `投稿に失敗しました (${res.status})`);
+  }
+  return sanitizeComment(data.comment as Comment);
+}
