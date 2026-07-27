@@ -7,6 +7,7 @@ import Collapse from "@mui/material/Collapse";
 import TextField from "@mui/material/TextField";
 import Typography from "@mui/material/Typography";
 import ChatBubbleOutlineRoundedIcon from "@mui/icons-material/ChatBubbleOutlineRounded";
+import ChatBubbleRoundedIcon from "@mui/icons-material/ChatBubbleRounded";
 import ModeCommentRoundedIcon from "@mui/icons-material/ModeCommentRounded";
 import SendRoundedIcon from "@mui/icons-material/SendRounded";
 import {
@@ -216,6 +217,11 @@ export default function CommentSection({
   const over = remaining < 0;
   const panelId = `comments-${encodeURIComponent(term)}`;
 
+  // コメントが 1 件でもあるワードは「見る価値がある」ことが一目で分かるようにする。
+  // 0 件（または未取得）のときは淡いグレーのままにして、差で気付けるようにする。
+  const hasComments = typeof localCount === "number" && localCount > 0;
+  const listOpen = mode === "list";
+
   return (
     <Box sx={{ mt: 1 }}>
       <Box sx={{ display: "flex", gap: 1, flexWrap: "wrap", alignItems: "center" }}>
@@ -235,25 +241,46 @@ export default function CommentSection({
         </Button>
         <Button
           size="small"
-          variant={mode === "list" ? "contained" : "outlined"}
-          color={mode === "list" ? "primary" : "inherit"}
-          startIcon={<ChatBubbleOutlineRoundedIcon sx={{ fontSize: 15 }} />}
+          variant={listOpen ? "contained" : "outlined"}
+          color={listOpen || hasComments ? "primary" : "inherit"}
+          startIcon={
+            hasComments ? (
+              <ChatBubbleRoundedIcon sx={{ fontSize: 15 }} />
+            ) : (
+              <ChatBubbleOutlineRoundedIcon sx={{ fontSize: 15 }} />
+            )
+          }
           onClick={() => toggle("list")}
-          aria-expanded={mode === "list"}
+          aria-expanded={listOpen}
           aria-controls={panelId}
+          aria-label={
+            hasComments ? `コメントを見る（${localCount}件）` : "コメントを見る（まだありません）"
+          }
           sx={{
             ...pillButton,
-            ...(mode !== "list" && {
-              bgcolor: "#fff",
-              color: "text.secondary",
-              borderColor: "#e3e8ef",
-            }),
+            // 未展開のときの見た目を件数で変える：
+            // あり → 淡い青の塗り＋青文字（押したくなる状態）／なし → 白地グレー（控えめ）。
+            ...(!listOpen &&
+              (hasComments
+                ? {
+                    bgcolor: "#eaf1ff",
+                    color: "primary.main",
+                    borderColor: "#bcd3f2",
+                    boxShadow: "0 2px 8px rgba(37,99,235,.12)",
+                    "&:hover": { bgcolor: "#dfeaff", borderColor: "#9cc0ee" },
+                  }
+                : {
+                    bgcolor: "#fff",
+                    color: "text.secondary",
+                    borderColor: "#e3e8ef",
+                  })),
           }}
         >
           コメントを見る
-          {typeof localCount === "number" && localCount > 0 && (
+          {hasComments && (
             <Box
               component="span"
+              aria-hidden
               sx={{
                 ml: 0.75,
                 px: 0.75,
@@ -261,8 +288,8 @@ export default function CommentSection({
                 borderRadius: 999,
                 fontSize: 11,
                 fontWeight: 800,
-                bgcolor: mode === "list" ? "rgba(255,255,255,.25)" : "#e8f0fe",
-                color: mode === "list" ? "#fff" : "primary.main",
+                bgcolor: listOpen ? "rgba(255,255,255,.25)" : "primary.main",
+                color: "#fff",
               }}
             >
               {localCount}
