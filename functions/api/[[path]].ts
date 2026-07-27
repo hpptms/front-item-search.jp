@@ -40,6 +40,21 @@ export const onRequest: PagesFunction<Env> = async (context) => {
   headers.set("X-Proxy-Secret", env.PROXY_SECRET);
   // Drop hop-by-hop / origin-revealing headers that shouldn't be forwarded.
   headers.delete("host");
+  // Cookie は backend が一切使わない（認証もセッションも無い）ので送らない。
+  // 転送しても意味が無く、ログに残ると個人情報の保管場所が増えるだけ。
+  headers.delete("cookie");
+
+  // バックエンドのレート制限が見る IP を、詐称できない値に固定する。
+  // CF-Connecting-IP は Cloudflare が付ける実クライアント IP で、
+  // ブラウザ側からは上書きできない。X-Forwarded-For / X-Real-IP は
+  // ブラウザが自由に付けられるため、ここで捨ててから付け直す。
+  const clientIP = request.headers.get("CF-Connecting-IP") ?? "";
+  headers.delete("x-forwarded-for");
+  headers.delete("x-real-ip");
+  if (clientIP) {
+    headers.set("X-Real-IP", clientIP);
+    headers.set("X-Forwarded-For", clientIP);
+  }
 
   const init: RequestInit = {
     method: request.method,

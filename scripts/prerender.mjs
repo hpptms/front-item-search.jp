@@ -281,7 +281,12 @@ function render(template, { title, description, path, jsonLd, bodyHtml }) {
   );
 
   if (jsonLd) {
-    const tag = `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`;
+    // JSON.stringify は "<" をエスケープしないので、データに "</script>" が
+    // 紛れ込むとタグが閉じてしまい、以降が HTML として解釈される。
+    // ソースは src/landing/*.json（自分で管理するファイル）だが、将来ここに
+    // 検索語などの外部由来データを流し込んでも壊れないように潰しておく。
+    const json = JSON.stringify(jsonLd).replaceAll("<", "\\u003c");
+    const tag = `<script type="application/ld+json">${json}</script>`;
     html = html.replace("</head>", `${tag}</head>`);
   }
 

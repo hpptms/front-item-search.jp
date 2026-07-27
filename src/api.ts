@@ -22,6 +22,34 @@ export type SearchResponse = {
   sites: SiteResult[];
 };
 
+// --- 受け取ったデータの検証 -------------------------------------------------
+// 商品 URL / 画像 URL は元をたどると外部サイトの HTML や API のレスポンス。
+// これを <a href> や <img src> にそのまま渡すと javascript: スキームを踏まされる
+// （React は href の javascript: を素通しする）。バックエンドでも同じ検査を
+// しているが、多層防御としてフロント側でも入口で必ず通す。
+
+function safeHttpUrl(raw: unknown): string {
+  if (typeof raw !== "string" || raw === "") return "";
+  try {
+    const u = new URL(raw, window.location.origin);
+    return u.protocol === "https:" || u.protocol === "http:" ? raw : "";
+  } catch {
+    return ""; // パースできない URL は使わない
+  }
+}
+
+// sanitizeSite は 1 サイト分の結果を安全側に整える。
+// URL が不正な商品は落とし、画像だけ不正なものは No Image 表示にフォールバックさせる。
+function sanitizeSite(site: SiteResult): SiteResult {
+  const items = Array.isArray(site.items) ? site.items : [];
+  return {
+    ...site,
+    items: items
+      .map((it) => ({ ...it, url: safeHttpUrl(it.url), image: safeHttpUrl(it.image) }))
+      .filter((it) => it.url !== ""),
+  };
+}
+
 export async function searchProducts(
   query: string,
   limit = 20,
@@ -33,7 +61,8 @@ export async function searchProducts(
     const body = await res.json().catch(() => ({}));
     throw new Error(body.error ?? `検索に失敗しました (${res.status})`);
   }
-  return res.json() as Promise<SearchResponse>;
+  const data = (await res.json()) as SearchResponse;
+  return { ...data, sites: (data.sites ?? []).map(sanitizeSite) };
 }
 
 // searchProductsStream は NDJSON ストリーミング版。完了したサイトから 1 件ずつ
@@ -66,7 +95,7 @@ export async function searchProductsStream(
     const trimmed = line.trim();
     if (!trimmed) return;
     try {
-      onSite(JSON.parse(trimmed) as SiteResult);
+      onSite(sanitizeSite(JSON.parse(trimmed) as SiteResult));
     } catch {
       // 途中で切れた壊れた行は無視する。
     }

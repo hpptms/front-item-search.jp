@@ -1,0 +1,24 @@
+# Cloudflare Pages に配信レスポンスへ付けさせるセキュリティヘッダ。
+# public/ 配下は dist/ にそのままコピーされ、Pages がこのファイルを解釈する。
+#
+# CSP の方針:
+#   script-src に 'unsafe-inline' が入っているのは、静的ホスティングでは nonce を
+#   発行できず、index.html の GA スニペットと prerender.mjs が各ページに焼き込む
+#   application/ld+json（CSP 上は <script> 扱い）が動的で、ハッシュを固定できないため。
+#   スクリプト実行の完全な制限にはならないが、以下は確実に効く:
+#     - object-src 'none'  … Flash/embed 経由の実行を封じる
+#     - base-uri 'self'    … <base> 注入で相対 URL の行き先をすり替える攻撃を防ぐ
+#     - frame-ancestors    … クリックジャッキング（アフィリンクの誤クリック誘導）を防ぐ
+#     - form-action 'self' … 注入されたフォームでの外部への送信を防ぐ
+#     - connect-src        … 万一 XSS が入っても外部への持ち出し先を絞る
+#   img-src が https: と広いのは、商品画像が Amazon / 楽天 / メルカリ / ヨドバシ 等の
+#   多数の CDN から来るため（ホストを列挙すると画像切れが頻発する）。
+
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com https://stats.g.doubleclick.net; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  Cross-Origin-Opener-Policy: same-origin
