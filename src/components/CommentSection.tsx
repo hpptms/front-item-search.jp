@@ -6,8 +6,9 @@ import CircularProgress from "@mui/material/CircularProgress";
 import Collapse from "@mui/material/Collapse";
 import TextField from "@mui/material/TextField";
 import Typography from "@mui/material/Typography";
-import ChatBubbleOutlineIcon from "@mui/icons-material/ChatBubbleOutline";
-import ModeCommentOutlinedIcon from "@mui/icons-material/ModeCommentOutlined";
+import ChatBubbleOutlineRoundedIcon from "@mui/icons-material/ChatBubbleOutlineRounded";
+import ModeCommentRoundedIcon from "@mui/icons-material/ModeCommentRounded";
+import SendRoundedIcon from "@mui/icons-material/SendRounded";
 import {
   COMMENT_MAX_BODY,
   COMMENT_MAX_NAME,
@@ -24,6 +25,10 @@ import {
 // 投稿は誰でもできる（ログイン無し）。名前は任意で、空なら匿名として絵文字アバターで表示する。
 // 入力の検証とスパム判定はバックエンド（internal/api/spam.go）が正とし、
 // ここでは文字数など「打ちながら分かるべきもの」だけを先出しで見る。
+//
+// 見た目は「気軽に書き込める掲示板」に寄せて、丸み・淡い青・吹き出し・絵文字アバターで
+// 柔らかくしている。ランキング本体（数字と順位が主役の硬い見た目）とのコントラストで、
+// ここだけ会話の場であることが分かるようにする狙い。
 
 // 匿名アバター。コメント ID から決めるので、同じコメントは常に同じ絵文字になる。
 const AVATARS = [
@@ -68,6 +73,53 @@ function saveProfile(name: string, link: string) {
   } catch {
     // プライベートモード等で保存できなくても投稿自体には影響しない。
   }
+}
+
+// --- 見た目の共通パーツ -----------------------------------------------------
+
+// 丸ピル型のボタン（開閉トグル・送信で共通）。
+const pillButton = {
+  borderRadius: 999,
+  px: 1.75,
+  py: 0.4,
+  fontSize: 12.5,
+  fontWeight: 700,
+  textTransform: "none" as const,
+  boxShadow: "none",
+};
+
+// 入力欄。角を丸くし、白地＋淡い枠でノートに書き込むような見た目にする。
+const roundField = (radius: number | string) => ({
+  "& .MuiOutlinedInput-root": {
+    borderRadius: radius,
+    bgcolor: "#fff",
+    "& fieldset": { borderColor: "#dbe6f6" },
+    "&:hover fieldset": { borderColor: "#bcd3f2" },
+  },
+  "& .MuiInputLabel-root": { fontSize: 13.5 },
+});
+
+// 絵文字アバター（淡い丸の中に置く）。
+function Avatar({ emoji, size = 34 }: { emoji: string; size?: number }) {
+  return (
+    <Box
+      aria-hidden
+      sx={{
+        flexShrink: 0,
+        width: size,
+        height: size,
+        borderRadius: "50%",
+        bgcolor: "#eaf1ff",
+        border: "1px solid #dbe6f6",
+        display: "grid",
+        placeItems: "center",
+        fontSize: size * 0.55,
+        lineHeight: 1,
+      }}
+    >
+      {emoji}
+    </Box>
+  );
 }
 
 type Mode = "" | "form" | "list";
@@ -160,34 +212,62 @@ export default function CommentSection({
     }
   };
 
-  const over = body.length > COMMENT_MAX_BODY;
+  const remaining = COMMENT_MAX_BODY - body.length;
+  const over = remaining < 0;
   const panelId = `comments-${encodeURIComponent(term)}`;
 
   return (
     <Box sx={{ mt: 1 }}>
-      <Box sx={{ display: "flex", gap: 1, flexWrap: "wrap" }}>
+      <Box sx={{ display: "flex", gap: 1, flexWrap: "wrap", alignItems: "center" }}>
         <Button
           size="small"
           variant={mode === "form" ? "contained" : "outlined"}
-          startIcon={<ModeCommentOutlinedIcon fontSize="small" />}
+          startIcon={<ModeCommentRoundedIcon sx={{ fontSize: 15 }} />}
           onClick={() => toggle("form")}
           aria-expanded={mode === "form"}
           aria-controls={panelId}
-          sx={{ fontSize: 12, py: 0.25 }}
+          sx={{
+            ...pillButton,
+            ...(mode !== "form" && { bgcolor: "#fff", borderColor: "#cfe0f8" }),
+          }}
         >
           コメントする
         </Button>
         <Button
           size="small"
           variant={mode === "list" ? "contained" : "outlined"}
-          color="inherit"
-          startIcon={<ChatBubbleOutlineIcon fontSize="small" />}
+          color={mode === "list" ? "primary" : "inherit"}
+          startIcon={<ChatBubbleOutlineRoundedIcon sx={{ fontSize: 15 }} />}
           onClick={() => toggle("list")}
           aria-expanded={mode === "list"}
           aria-controls={panelId}
-          sx={{ fontSize: 12, py: 0.25, color: "text.secondary" }}
+          sx={{
+            ...pillButton,
+            ...(mode !== "list" && {
+              bgcolor: "#fff",
+              color: "text.secondary",
+              borderColor: "#e3e8ef",
+            }),
+          }}
         >
-          コメントを見る{localCount ? `（${localCount}）` : ""}
+          コメントを見る
+          {typeof localCount === "number" && localCount > 0 && (
+            <Box
+              component="span"
+              sx={{
+                ml: 0.75,
+                px: 0.75,
+                minWidth: 18,
+                borderRadius: 999,
+                fontSize: 11,
+                fontWeight: 800,
+                bgcolor: mode === "list" ? "rgba(255,255,255,.25)" : "#e8f0fe",
+                color: mode === "list" ? "#fff" : "primary.main",
+              }}
+            >
+              {localCount}
+            </Box>
+          )}
         </Button>
       </Box>
 
@@ -196,42 +276,52 @@ export default function CommentSection({
           id={panelId}
           sx={{
             mt: 1.5,
-            p: { xs: 1.5, sm: 2 },
-            bgcolor: "background.paper",
-            border: "1px solid",
-            borderColor: "divider",
-            borderRadius: 2,
+            p: { xs: 1.75, sm: 2.25 },
+            borderRadius: 4,
+            border: "1px solid #dce9fb",
+            background: "linear-gradient(180deg, #f6faff 0%, #ffffff 65%)",
+            boxShadow: "0 6px 20px rgba(37,99,235,0.06)",
           }}
         >
           {mode === "form" && (
             <Box component="form" onSubmit={submit} noValidate>
-              <Typography variant="caption" color="text.secondary" sx={{ display: "block", mb: 1 }}>
-                「{term}」へのコメント。名前とリンクは任意です（名前が空なら匿名で表示されます）。
-              </Typography>
+              <Box sx={{ display: "flex", alignItems: "center", gap: 1.25, mb: 1.75 }}>
+                <Avatar emoji={name.trim() ? "😊" : "🐣"} />
+                <Box sx={{ minWidth: 0 }}>
+                  {/* PageLayout が "& p" に余白と行間を当てているので、body2 は div で出す
+                      （既定の <p> のままだと段落マージンでレイアウトが崩れる）。 */}
+                  <Typography component="div" variant="body2" sx={{ fontWeight: 700, lineHeight: 1.4 }}>
+                    「{term}」にコメント
+                  </Typography>
+                  <Typography variant="caption" color="text.secondary">
+                    {name.trim()
+                      ? `${name.trim()} さんとして投稿します`
+                      : "名前を書かなければ匿名（絵文字アイコン）で投稿されます"}
+                  </Typography>
+                </Box>
+              </Box>
 
-              <Box sx={{ display: "flex", gap: 1, flexWrap: "wrap", mb: 1 }}>
+              <Box sx={{ display: "flex", gap: 1, flexWrap: "wrap", mb: 1.25 }}>
                 <TextField
                   label="名前（任意）"
                   size="small"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  placeholder="匿名"
+                  placeholder="匿名でOK"
                   slotProps={{ htmlInput: { maxLength: COMMENT_MAX_NAME } }}
-                  sx={{ flex: "1 1 160px" }}
+                  sx={{ flex: "1 1 160px", ...roundField(999) }}
                 />
                 <TextField
                   label="リンク（任意）"
                   size="small"
                   value={link}
                   onChange={(e) => setLink(e.target.value)}
-                  placeholder="@ユーザー名 / https://... / メール"
-                  helperText="入力すると名前がリンクになります"
-                  sx={{ flex: "1 1 220px" }}
+                  placeholder="@ユーザー名 / URL / メール"
+                  sx={{ flex: "1 1 220px", ...roundField(999) }}
                 />
               </Box>
 
               <TextField
-                label="コメント"
                 multiline
                 minRows={3}
                 fullWidth
@@ -239,23 +329,63 @@ export default function CommentSection({
                 value={body}
                 onChange={(e) => setBody(e.target.value)}
                 error={over}
-                helperText={`${body.length} / ${COMMENT_MAX_BODY} 文字${
-                  over ? "（超過しています）" : ""
-                }・本文にURLは書けません`}
+                placeholder="どこが安かった？ 使ってみた感想は？ お得情報も大歓迎です ✨"
                 slotProps={{ htmlInput: { maxLength: COMMENT_MAX_BODY + 100 } }}
+                sx={roundField("18px")}
               />
 
+              <Box
+                sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  gap: 1,
+                  mt: 0.75,
+                  px: 0.5,
+                }}
+              >
+                <Typography variant="caption" color="text.secondary">
+                  🔗 本文にURLは書けません（リンク欄をどうぞ）
+                </Typography>
+                <Typography
+                  variant="caption"
+                  sx={{
+                    flexShrink: 0,
+                    fontWeight: 700,
+                    color: over ? "error.main" : remaining < 100 ? "warning.main" : "text.disabled",
+                  }}
+                >
+                  あと {remaining}
+                </Typography>
+              </Box>
+
               {postError && (
-                <Alert severity="error" sx={{ mt: 1 }}>
+                <Alert severity="error" sx={{ mt: 1.25, borderRadius: 3 }}>
                   {postError}
                 </Alert>
               )}
 
-              <Box sx={{ display: "flex", gap: 1, mt: 1.5 }}>
-                <Button type="submit" variant="contained" size="small" disabled={posting || over}>
+              <Box sx={{ display: "flex", alignItems: "center", gap: 1, mt: 1.5 }}>
+                <Button
+                  type="submit"
+                  variant="contained"
+                  size="small"
+                  disabled={posting || over}
+                  endIcon={<SendRoundedIcon sx={{ fontSize: 15 }} />}
+                  sx={{
+                    ...pillButton,
+                    px: 2.25,
+                    boxShadow: "0 6px 14px rgba(37,99,235,.25)",
+                  }}
+                >
                   {posting ? "送信中…" : "投稿する"}
                 </Button>
-                <Button size="small" color="inherit" onClick={() => setMode("")}>
+                <Button
+                  size="small"
+                  color="inherit"
+                  onClick={() => setMode("")}
+                  sx={{ ...pillButton, color: "text.secondary" }}
+                >
                   閉じる
                 </Button>
               </Box>
@@ -265,31 +395,49 @@ export default function CommentSection({
           {mode === "list" && (
             <Box>
               {posted && (
-                <Alert severity="success" sx={{ mb: 1.5 }}>
-                  コメントを投稿しました。
+                <Alert severity="success" sx={{ mb: 1.5, borderRadius: 3 }}>
+                  コメントを投稿しました 🎉
                 </Alert>
               )}
               {loading && (
                 <Box sx={{ display: "flex", alignItems: "center", gap: 1, py: 1 }}>
-                  <CircularProgress size={16} />
-                  <Typography variant="body2" color="text.secondary">
+                  <CircularProgress size={15} />
+                  <Typography component="div" variant="body2" color="text.secondary">
                     読み込み中…
                   </Typography>
                 </Box>
               )}
-              {loadError && <Alert severity="warning">{loadError}</Alert>}
+              {loadError && (
+                <Alert severity="warning" sx={{ borderRadius: 3 }}>
+                  {loadError}
+                </Alert>
+              )}
               {!loading && !loadError && items?.length === 0 && (
-                <Typography variant="body2" color="text.secondary">
-                  まだコメントはありません。最初のコメントを書いてみませんか？
-                </Typography>
+                <Box sx={{ textAlign: "center", py: 2 }}>
+                  <Box sx={{ fontSize: 30, lineHeight: 1 }} aria-hidden>
+                    🫧
+                  </Box>
+                  <Typography component="div" variant="body2" sx={{ fontWeight: 700, mt: 0.75 }}>
+                    まだコメントはありません
+                  </Typography>
+                  <Typography variant="caption" color="text.secondary">
+                    いちばん乗りしませんか？
+                  </Typography>
+                </Box>
               )}
 
               {items?.map((c) => (
                 <CommentRow key={c.id} comment={c} />
               ))}
 
-              <Box sx={{ mt: 1.5 }}>
-                <Button size="small" variant="outlined" onClick={() => setMode("form")}>
+              <Box sx={{ mt: 1.75, textAlign: "center" }}>
+                <Button
+                  size="small"
+                  variant="outlined"
+                  startIcon={<ModeCommentRoundedIcon sx={{ fontSize: 15 }} />}
+                  onClick={() => setMode("form")}
+                  sx={{ ...pillButton, bgcolor: "#fff", borderColor: "#cfe0f8" }}
+                >
                   このワードにコメントする
                 </Button>
               </Box>
@@ -301,26 +449,16 @@ export default function CommentSection({
   );
 }
 
+// CommentRow は 1 件のコメント。アイコン＋吹き出しのチャット風に見せる。
 function CommentRow({ comment }: { comment: Comment }) {
   const displayName = comment.name || "匿名";
   const isMail = comment.link.startsWith("mailto:");
 
   return (
-    <Box
-      sx={{
-        display: "flex",
-        gap: 1.25,
-        py: 1.25,
-        borderTop: "1px solid",
-        borderColor: "divider",
-        "&:first-of-type": { borderTop: "none", pt: 0 },
-      }}
-    >
-      <Box sx={{ fontSize: "1.35rem", lineHeight: 1.2 }} aria-hidden>
-        {avatarOf(comment.id)}
-      </Box>
+    <Box sx={{ display: "flex", gap: 1.25, pt: 1.5, "&:first-of-type": { pt: 0.5 } }}>
+      <Avatar emoji={avatarOf(comment.id)} />
       <Box sx={{ minWidth: 0, flex: 1 }}>
-        <Box sx={{ display: "flex", alignItems: "baseline", gap: 1, flexWrap: "wrap" }}>
+        <Box sx={{ display: "flex", alignItems: "baseline", gap: 0.75, flexWrap: "wrap", mb: 0.4 }}>
           {comment.link ? (
             <Typography
               component="a"
@@ -329,29 +467,45 @@ function CommentRow({ comment }: { comment: Comment }) {
               // 元ページを操作できないようにする（UGC の定石）。
               rel="nofollow ugc noopener noreferrer"
               target={isMail ? undefined : "_blank"}
-              variant="body2"
-              sx={{ fontWeight: 700, color: "primary.main", textDecoration: "none" }}
+              variant="caption"
+              sx={{ fontWeight: 800, color: "primary.main", textDecoration: "none" }}
             >
               {displayName}
-              <Box component="span" sx={{ ml: 0.5, fontSize: 11 }} aria-hidden>
+              <Box component="span" sx={{ ml: 0.4, fontSize: 10 }} aria-hidden>
                 🔗
               </Box>
             </Typography>
           ) : (
-            <Typography variant="body2" sx={{ fontWeight: 700 }}>
+            <Typography variant="caption" sx={{ fontWeight: 800 }}>
               {displayName}
             </Typography>
           )}
-          <Typography variant="caption" color="text.secondary">
+          <Typography variant="caption" sx={{ color: "text.disabled", fontSize: 11 }}>
             {timeAgo(comment.createdAt)}
           </Typography>
         </Box>
-        <Typography
-          variant="body2"
-          sx={{ whiteSpace: "pre-wrap", wordBreak: "break-word", lineHeight: 1.8, mt: 0.25 }}
+
+        {/* 吹き出し。左上だけ角を落として、アイコンから伸びているように見せる。 */}
+        <Box
+          sx={{
+            display: "inline-block",
+            maxWidth: "100%",
+            px: 1.5,
+            py: 1,
+            bgcolor: "#f4f8ff",
+            border: "1px solid #e6eefb",
+            borderRadius: "16px",
+            borderTopLeftRadius: "4px",
+          }}
         >
-          {comment.body}
-        </Typography>
+          <Typography
+            component="div"
+            variant="body2"
+            sx={{ whiteSpace: "pre-wrap", wordBreak: "break-word", lineHeight: 1.75 }}
+          >
+            {comment.body}
+          </Typography>
+        </Box>
       </Box>
     </Box>
   );
