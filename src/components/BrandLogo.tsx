@@ -187,6 +187,69 @@ function BiccameraLogo() {
   );
 }
 
+function JoshinLogo() {
+  return (
+    <WhiteBadge>
+      <svg viewBox="0 0 58 22" height={16} style={{ display: "block", width: "auto" }}>
+        <text
+          x={1}
+          y={12}
+          dominantBaseline="central"
+          fontFamily="Arial, Helvetica, sans-serif"
+          fontSize={17}
+          fontWeight={800}
+          letterSpacing={-0.3}
+          fill="#E60027"
+        >
+          Joshin
+        </text>
+      </svg>
+    </WhiteBadge>
+  );
+}
+
+function SofmapLogo() {
+  return (
+    <WhiteBadge>
+      <svg viewBox="0 0 62 22" height={16} style={{ display: "block", width: "auto" }}>
+        <text
+          x={1}
+          y={12}
+          dominantBaseline="central"
+          fontFamily="Arial, Helvetica, sans-serif"
+          fontSize={17}
+          fontWeight={800}
+          letterSpacing={-0.3}
+          fill="#0B318F"
+        >
+          sofmap
+        </text>
+      </svg>
+    </WhiteBadge>
+  );
+}
+
+function EdionLogo() {
+  return (
+    <WhiteBadge>
+      <svg viewBox="0 0 56 22" height={16} style={{ display: "block", width: "auto" }}>
+        <text
+          x={1}
+          y={12}
+          dominantBaseline="central"
+          fontFamily="Arial, Helvetica, sans-serif"
+          fontSize={16}
+          fontWeight={800}
+          letterSpacing={0.2}
+          fill="#E8380D"
+        >
+          EDION
+        </text>
+      </svg>
+    </WhiteBadge>
+  );
+}
+
 const LOGOS: Record<string, () => JSX.Element> = {
   amazon: AmazonLogo,
   mercari: MercariLogo,
@@ -194,6 +257,9 @@ const LOGOS: Record<string, () => JSX.Element> = {
   yodobashi: YodobashiLogo,
   rakuten: RakutenLogo,
   biccamera: BiccameraLogo,
+  joshin: JoshinLogo,
+  sofmap: SofmapLogo,
+  edion: EdionLogo,
 };
 
 export default function BrandLogo({ site }: { site: string }) {
