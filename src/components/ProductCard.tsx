@@ -22,7 +22,11 @@ export default function ProductCard({
     <Link
       href={item.url}
       target="_blank"
-      rel="noopener noreferrer"
+      // noreferrer は付けない: ValueCommerce の referral は Referer を発リンク元サイトの
+      // 記録に使う（付けると計測エントリの REFERRER が空になる）。
+      // 送出値は _headers の Referrer-Policy: strict-origin-when-cross-origin により
+      // オリジン(https://item-search.jp/)までなので、プライバシー面の影響もない。
+      rel="noopener sponsored"
       underline="none"
       sx={{
         display: "block",

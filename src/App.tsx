@@ -492,7 +492,8 @@ export default function App() {
                   component="a"
                   href={cheapest.item.url}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  // noreferrer は付けない（理由は ProductCard.tsx のコメント参照）
+                  rel="noopener sponsored"
                   sx={{
                     display: "flex",
                     alignItems: "center",
