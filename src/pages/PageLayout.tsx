@@ -97,7 +97,12 @@ export default function PageLayout({
               mb: 2,
               "& li": { lineHeight: 1.9, mb: 0.5 },
             },
-            "& a": {
+            // 本文中のリンクは青。ただし塗りつぶしの Chip（component="a" で
+            // リンクとして描画される選択中のジャンルなど）は除く。この
+            // 子孫セレクタは MUI の .MuiChip-filledPrimary より詳細度が高いため、
+            // 除外しないと文字色が背景と同じ青になって読めなくなる。
+            // 除外した Chip は MUI 既定の白抜き文字になる。
+            "& a:not(.MuiChip-filledPrimary)": {
               color: "primary.main",
               textDecoration: "none",
               "&:hover": { textDecoration: "underline" },
