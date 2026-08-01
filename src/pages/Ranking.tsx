@@ -38,6 +38,10 @@ const PERIODS: Period[] = [
 ];
 const DEFAULT_PERIOD = PERIODS[1]; // 月
 
+// 表示する最大順位。バックエンド /api/rankings の上限と同じ 100。
+// 集計語数がこれ未満なら、その分だけ（例: 38 位まで）表示される。
+const RANKING_LIMIT = 100;
+
 // 表示用に正規化した1行。ライブ集計とシードの両方をこの形に寄せる。
 type Row = {
   rank: number;
@@ -146,7 +150,9 @@ export default function Ranking({ category = "all" }: { category?: string }) {
     const controller = new AbortController();
     setRows(seed);
     setLive(false);
-    fetchRankings(cat.slug, period.key, 20, controller.signal).then((res) => {
+    // 100 位まで表示する（バックエンドの上限も 100）。実際の集計語数がそれ未満なら
+    // 返ってきた分だけを出す＝「あるだけ表示」。
+    fetchRankings(cat.slug, period.key, RANKING_LIMIT, controller.signal).then((res) => {
       if (!res || !res.items.length) return; // フォールバック（シード維持）
       setRows(
         res.items.map((e) => ({

@@ -217,21 +217,39 @@ export async function fetchComments(
 
 // fetchCommentCounts は複数ワードのコメント件数をまとめて取得する（一覧のバッジ用）。
 // 戻り値のキーは渡した語そのもの。取得できなければ空オブジェクト。
+//
+// バックエンドは 1 リクエストあたり先頭 50 語までしか見ない（それ以上は黙って
+// 切り捨てられる）ので、ランキング 100 位までのように語数が多いときは
+// 50 語ずつに分けて投げ、結果をマージする。
+const COMMENT_COUNTS_BATCH = 50;
+
 export async function fetchCommentCounts(
   terms: string[],
   signal?: AbortSignal
 ): Promise<Record<string, number>> {
   if (terms.length === 0) return {};
-  const params = new URLSearchParams();
-  terms.slice(0, 50).forEach((t) => params.append("term", t));
-  try {
-    const res = await fetch(`/api/comments/counts?${params.toString()}`, { signal });
-    if (!res.ok) return {};
-    const data = (await res.json()) as { counts?: Record<string, number> };
-    return data.counts ?? {};
-  } catch {
-    return {};
+
+  const batches: string[][] = [];
+  for (let i = 0; i < terms.length; i += COMMENT_COUNTS_BATCH) {
+    batches.push(terms.slice(i, i + COMMENT_COUNTS_BATCH));
   }
+
+  const results = await Promise.all(
+    batches.map(async (batch) => {
+      const params = new URLSearchParams();
+      batch.forEach((t) => params.append("term", t));
+      try {
+        const res = await fetch(`/api/comments/counts?${params.toString()}`, { signal });
+        if (!res.ok) return {}; // 一部のバッチが失敗しても他の分は活かす
+        const data = (await res.json()) as { counts?: Record<string, number> };
+        return data.counts ?? {};
+      } catch {
+        return {};
+      }
+    })
+  );
+
+  return Object.assign({}, ...results) as Record<string, number>;
 }
 
 // postComment はコメントを投稿する。バリデーション/スパム判定はバックエンドが行い、
