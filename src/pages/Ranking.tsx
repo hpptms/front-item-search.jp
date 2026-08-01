@@ -15,9 +15,12 @@ import {
   RankingItem,
   RANKING_CATEGORIES,
   rankingCategoryBySlug,
+  rankingPeriodLabel,
   seedRankingItems,
   keywordByTerm,
   categoryBySlug,
+  jstToday,
+  jstTodayISO,
 } from "../landing";
 import { fetchCommentCounts, fetchRankings, RankingPeriod } from "../api";
 import CommentSection from "../components/CommentSection";
@@ -93,10 +96,10 @@ function buildSeedRows(catSlug: string, period: Period): Row[] {
 }
 
 // 集計区間を日本語で表す（例: 「2026年7月1日〜現在」）。
+// バックエンドの集計は JST の暦区切りなので、表示も JST に固定する。
 function periodRangeLabel(key: Period["key"], now = new Date()): string {
-  const y = now.getFullYear();
-  const m = now.getMonth() + 1;
-  if (key === "day") return `${y}年${m}月${now.getDate()}日 0:00〜現在`;
+  const { year: y, month: m, day: d } = jstToday(now);
+  if (key === "day") return `${y}年${m}月${d}日 0:00〜現在`;
   if (key === "month") return `${y}年${m}月1日〜現在`;
   return `${y}年1月1日〜現在`;
 }
@@ -131,11 +134,14 @@ export default function Ranking({ category = "all" }: { category?: string }) {
   const [rows, setRows] = useState<Row[]>(seed);
   const [live, setLive] = useState(false);
 
+  // 見出し・タイトルの【…】は選択中の期間から毎回組み立てる（月が変われば自動で変わる）。
+  const periodLabel = rankingPeriodLabel(period.key);
+
   useEffect(() => {
     applySeo({
       title:
         cat.slug === "all"
-          ? `人気検索キーワードランキング【${RANKING.period}】 | item-search.jp`
+          ? `人気検索キーワードランキング【${periodLabel}】 | item-search.jp`
           : `${catLabel}の検索数ランキング | item-search.jp 商品横断検索`,
       description:
         cat.slug === "all"
@@ -143,7 +149,7 @@ export default function Ranking({ category = "all" }: { category?: string }) {
           : `item-search.jp で検索されている「${catLabel}」の人気商品キーワードを検索数順にランキング。各キーワードから複数の通販サイトを横断して最安値を比較できます。`,
       path: cat.slug === "all" ? "/ranking" : `/ranking/${cat.slug}`,
     });
-  }, [cat.slug, catLabel]);
+  }, [cat.slug, catLabel, periodLabel]);
 
   // ライブ集計を取得（カテゴリ×期間ごと。失敗/空はシードにフォールバック）。
   useEffect(() => {
@@ -188,11 +194,13 @@ export default function Ranking({ category = "all" }: { category?: string }) {
 
   const title =
     cat.slug === "all"
-      ? `人気検索キーワードランキング【${RANKING.period}】`
+      ? `人気検索キーワードランキング【${periodLabel}】`
       : `${catLabel}の検索数ランキング`;
 
   return (
-    <PageLayout title={title} updatedAt={RANKING.updated}>
+    // ライブ集計を出しているときは「最終更新日」も今日（JST）。シードへ
+    // フォールバックしているときは編集部の更新日をそのまま出す。
+    <PageLayout title={title} updatedAt={live ? jstTodayISO() : RANKING.updated}>
       <Typography variant="h6" component="p" sx={{ fontWeight: 600, lineHeight: 1.8 }}>
         {cat.slug === "all"
           ? RANKING.intro

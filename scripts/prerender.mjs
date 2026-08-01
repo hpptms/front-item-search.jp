@@ -28,6 +28,20 @@ const ranking = JSON.parse(
   await readFile(join(ROOT, "src/landing/ranking.json"), "utf8")
 );
 
+// ランキングの集計期間ラベル（例: 2026年8月）。ranking.json に固定文字列を
+// 持たせると月が変わっても古いままになるので、ビルド時の日付から作る。
+// 画面側（JS 起動後）は src/landing/index.ts の rankingPeriodLabel() が
+// 同じ計算をして常に現在の月に更新する。集計は JST 基準。
+const RANKING_PERIOD = (() => {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Tokyo",
+    year: "numeric",
+    month: "2-digit",
+  }).formatToParts(new Date());
+  const num = (t) => Number(parts.find((p) => p.type === t)?.value ?? "0");
+  return `${num("year")}年${num("month")}月`;
+})();
+
 // トップ（/）の <head>（src/seo.ts の ROUTE_SEO["/"] と内容を合わせる）。
 const HOME = {
   title: "商品横断検索 | Amazon・楽天・メルカリを一括比較 - item-search.jp",
@@ -495,7 +509,7 @@ function rankingBody(category) {
     .join("");
   const isAll = category === "all";
   const heading = isAll
-    ? `人気検索キーワードランキング【${esc(ranking.period)}】`
+    ? `人気検索キーワードランキング【${esc(RANKING_PERIOD)}】`
     : `${esc(label)}の検索数ランキング`;
   const intro = isAll
     ? esc(ranking.intro)
@@ -532,7 +546,7 @@ function rankingJsonLd(category) {
     "@context": "https://schema.org",
     "@type": "ItemList",
     name: isAll
-      ? `人気検索キーワードランキング【${ranking.period}】`
+      ? `人気検索キーワードランキング【${RANKING_PERIOD}】`
       : `${label}の検索数ランキング`,
     description: isAll ? ranking.intro : `${label}の人気検索キーワードランキング`,
     url: ORIGIN + withSlash(path),
@@ -584,7 +598,7 @@ function homeBody() {
 ${ranks}
 </ol>
 <p class="pr-more"><a href="/ranking/">人気検索キーワードランキング【${esc(
-      ranking.period
+      RANKING_PERIOD
     )}】をすべて見る</a></p></section>
 <section class="pr-sec"><h2>ジャンルから探す</h2>
 <ul class="pr-grid">${cats}</ul></section>
@@ -638,7 +652,7 @@ const rankingPaths = []; // sitemap 用に生成したパスを控える
   await writeFile(
     join(outDir, "index.html"),
     render(template, {
-      title: `人気検索キーワードランキング【${ranking.period}】 | item-search.jp`,
+      title: `人気検索キーワードランキング【${RANKING_PERIOD}】 | item-search.jp`,
       description:
         "Amazon・楽天・Yahoo!ショッピング・メルカリ・ヤフオク・ヨドバシを横断検索できる item-search.jp で、いま最も検索されている商品キーワードのランキング。各キーワードから複数サイトの最安値比較に進めます。",
       path: "/ranking",

@@ -86,7 +86,6 @@ export type RankingCategory = { slug: string; label: string };
 
 export type Ranking = {
   updated: string;
-  period: string;
   source: string;
   intro: string;
   categories: RankingCategory[];
@@ -95,6 +94,47 @@ export type Ranking = {
 
 export const RANKING: Ranking = rankingData as Ranking;
 export const RANKING_UPDATED: string = rankingData.updated;
+
+// ---- 集計期間のラベル（現在日時から自動生成）---------------------------
+// 「2026年7月」のような固定文字列を ranking.json に持たせると、月が変わっても
+// 見出しが古いままになる。バックエンドの集計は JST の暦区切りなので、
+// ラベルもタイムゾーンを固定して JST で組み立てる。
+// 同じ計算を scripts/prerender.mjs も持っている（静的 HTML 用）。
+
+export type RankingPeriodKey = "day" | "month" | "year";
+
+/** 現在時刻の JST での年・月・日。 */
+export function jstToday(now: Date = new Date()): {
+  year: number;
+  month: number;
+  day: number;
+} {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Tokyo",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(now);
+  const num = (type: string) => Number(parts.find((p) => p.type === type)?.value ?? "0");
+  return { year: num("year"), month: num("month"), day: num("day") };
+}
+
+/** 集計期間の見出しラベル（日: 2026年8月1日 / 月: 2026年8月 / 年: 2026年）。 */
+export function rankingPeriodLabel(
+  key: RankingPeriodKey = "month",
+  now: Date = new Date()
+): string {
+  const { year, month, day } = jstToday(now);
+  if (key === "day") return `${year}年${month}月${day}日`;
+  if (key === "year") return `${year}年`;
+  return `${year}年${month}月`;
+}
+
+/** 「最終更新日」表示用の JST 今日（YYYY-MM-DD）。 */
+export function jstTodayISO(now: Date = new Date()): string {
+  const { year, month, day } = jstToday(now);
+  return `${year}-${String(month).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+}
 
 // ランキングのカテゴリタブ（総合＋主要カテゴリ）。slug はバックエンドの分類 ID と一致。
 // ranking.json を唯一の情報源にし、prerender.mjs も同じ配列を読む。
