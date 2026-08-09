@@ -10,7 +10,7 @@ import { withSlash, normalizePath } from "./router";
 
 const SITE = "item-search.jp";
 const ORIGIN = "https://item-search.jp";
-const DEFAULT_OGP = `${ORIGIN}/ogp.png`;
+const DEFAULT_OGP = `${ORIGIN}/ogp.jpg`;
 
 const DEFAULT_ROBOTS = "index, follow, max-image-preview:large";
 
