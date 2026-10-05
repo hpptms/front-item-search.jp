@@ -423,7 +423,8 @@ export default function App() {
                         fontSize: 13,
                         color: "inherit",
                         textDecoration: "underline",
-                        opacity: 0.8,
+                        // opacity で薄めるとコントラスト比が 3.1 まで落ちる（WCAG AA 未満）。
+                        // 親の text.secondary のままで十分に控えめに見える。
                       }}
                     >
                       {c.name}
