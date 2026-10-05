@@ -21,6 +21,7 @@ import {
   categoryBySlug,
   jstToday,
   jstTodayISO,
+  isThinRankingCategory,
 } from "../landing";
 import { fetchCommentCounts, fetchRankings, RankingPeriod } from "../api";
 import CommentSection from "../components/CommentSection";
@@ -148,6 +149,8 @@ export default function Ranking({ category = "all" }: { category?: string }) {
           ? "Amazon・楽天・Yahoo!ショッピング・メルカリ・ヤフオク・ヨドバシを横断検索できる item-search.jp で、いま最も検索されている商品キーワードのランキング。各キーワードから複数サイトの最安値比較に進めます。"
           : `item-search.jp で検索されている「${catLabel}」の人気商品キーワードを検索数順にランキング。各キーワードから複数の通販サイトを横断して最安値を比較できます。`,
       path: cat.slug === "all" ? "/ranking" : `/ranking/${cat.slug}`,
+      // プリレンダ済み HTML と同じ判定（シードが少ないカテゴリは noindex）。
+      robots: isThinRankingCategory(cat.slug) ? "noindex, follow" : undefined,
     });
   }, [cat.slug, catLabel, periodLabel]);
 

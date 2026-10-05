@@ -15,7 +15,7 @@
 | canonical | ✅ | 全ページで自ページ絶対 URL を出力（SPA 遷移時も補正） |
 | HTTPS / 独自ドメイン | ✅ | item-search.jp |
 | モバイル対応（viewport） | ✅ | `width=device-width` あり・MUI レスポンシブ |
-| 404 の扱い | 🟡 | 未知パスは検索 UI にフォールバック（HTTP 200）。ソフト404。ページ数が増えたら実 404 を検討 |
+| 404 の扱い | ✅ | SPA フォールバックを廃止し、未知パスは dist/404.html を HTTP 404＋noindex で返す（2026-10-05）。新ルートは prerender.mjs で静的化が必須 |
 | ページ表示速度 | 🟡 | JS バンドル 398KB(gzip 124KB)。MUI 由来。分割・アイコン個別 import で軽量化余地 |
 | 構造化データ | ✅ | トップ=WebSite+SearchAction、LP=CollectionPage+BreadcrumbList |
 

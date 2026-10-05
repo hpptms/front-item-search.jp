@@ -103,10 +103,10 @@ export function applySeo(meta: SeoMeta) {
   setMeta('meta[name="twitter:image"]', "name", "twitter:image", ogImage);
 }
 
-// pathname から固定ルートのメタを引く（無ければトップを既定にする）。
+// pathname から固定ルートのメタを引く（未知パスは undefined）。
 // 末尾スラッシュ付き（/about/）で直リンクされても引けるように正規化する。
-export function seoForPath(pathname: string): SeoMeta {
-  return ROUTE_SEO[normalizePath(pathname)] ?? ROUTE_SEO["/"];
+export function seoForPath(pathname: string): SeoMeta | undefined {
+  return ROUTE_SEO[normalizePath(pathname)];
 }
 
 // 検索結果表示中（/?q=... で来た場合）のメタ。

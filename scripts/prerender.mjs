@@ -630,9 +630,17 @@ function replaceMeta(html, matcher, replacement) {
 
 // index.html テンプレートの <head> を、指定の title / description / canonical /
 // OGP に置換する。bodyHtml が渡されたら #root に静的本文を差し込む。
-function render(template, { title, description, path, jsonLd, bodyHtml }) {
+function render(template, { title, description, path, jsonLd, bodyHtml, robots }) {
   const url = ORIGIN + withSlash(path);
   let html = template;
+
+  if (robots) {
+    html = replaceMeta(
+      html,
+      /<meta name="robots"[^>]*>/,
+      `<meta name="robots" content="${esc(robots)}" />`
+    );
+  }
 
   html = replaceMeta(html, /<title>[\s\S]*?<\/title>/, `<title>${esc(title)}</title>`);
   html = replaceMeta(
@@ -822,8 +830,10 @@ function landingJsonLd(c) {
   };
 }
 
-// カテゴリ別ページを静的化する最小シード件数。これ未満はプリレンダ/sitemap から
-// 除外し、ライブ集計がたまってから露出させる（薄いページの量産を避ける）。
+// カテゴリ別ページをインデックス対象にする最小シード件数。これ未満は
+// noindex,follow で静的化し sitemap からも外す（薄いページの量産を避ける）。
+// 静的化自体はする: 404.html を置くと SPA フォールバックが効かなくなるため、
+// 生成しないと直リンクが 404 になる。src/landing/index.ts の RANK_SEED_MIN と揃える。
 const RANK_SEED_MIN = 2;
 
 // ランキング項目のリンク先（キーワード LP があれば内部リンク優先）。
@@ -985,6 +995,24 @@ ${ranks}
   });
 }
 
+// 404 ページのクローラー向け静的本文（主要ページへの導線だけ置く）。
+function notFoundBody() {
+  const cats = categories
+    .map((c) => `<li><a href="/c/${c.slug}/">${esc(c.name)}の価格を比較</a></li>`)
+    .join("");
+  return prShell({
+    main: `<h1>ページが見つかりません</h1>
+<p class="pr-lead">お探しのページは移動または削除されたか、URL が間違っている可能性があります。</p>
+<form class="pr-form" action="/" method="get" role="search">
+<span class="pr-field">${SEARCH_SVG}<input type="search" name="q" placeholder="商品名を入力（例: Nintendo Switch）" aria-label="商品名で横断検索" /></span>
+<button class="pr-btn" type="submit">検索</button>
+</form>
+<section class="pr-sec"><h2>ジャンルから探す</h2>
+<ul class="pr-grid">${cats}</ul></section>
+<p class="pr-more"><a class="pr-cta" href="/">トップページへ戻る</a></p>`,
+  });
+}
+
 // --- 生成 -----------------------------------------------------------------
 const template = await readFile(join(DIST, "index.html"), "utf8");
 const written = [];
@@ -1020,7 +1048,7 @@ for (const k of keywords) {
 }
 
 // 人気検索キーワードランキング LP（/ranking = 総合, /ranking/<category> = カテゴリ別）
-// カテゴリ別はシードが RANK_SEED_MIN 件以上あるものだけ静的化する。
+// カテゴリ別はシードが RANK_SEED_MIN 件未満なら noindex にし、sitemap に載せない。
 const rankingPaths = []; // sitemap 用に生成したパスを控える
 {
   // 総合
@@ -1044,7 +1072,7 @@ const rankingPaths = []; // sitemap 用に生成したパスを控える
   // カテゴリ別
   for (const c of ranking.categories || []) {
     if (c.slug === "all") continue;
-    if (seedItemsFor(c.slug).length < RANK_SEED_MIN) continue;
+    const thin = seedItemsFor(c.slug).length < RANK_SEED_MIN;
     const dir = join(DIST, "ranking", c.slug);
     await mkdir(dir, { recursive: true });
     await writeFile(
@@ -1053,11 +1081,13 @@ const rankingPaths = []; // sitemap 用に生成したパスを控える
         title: `${c.label}の検索数ランキング | item-search.jp 商品横断検索`,
         description: `item-search.jp で検索されている「${c.label}」の人気商品キーワードを検索数順にランキング。各キーワードから複数の通販サイトを横断して最安値を比較できます。`,
         path: `/ranking/${c.slug}`,
-        jsonLd: rankingJsonLd(c.slug),
+        jsonLd: thin ? undefined : rankingJsonLd(c.slug),
         bodyHtml: rankingBody(c.slug),
+        robots: thin ? "noindex, follow" : undefined,
       }),
       "utf8"
     );
+    if (thin) continue;
     written.push(`/ranking/${c.slug}`);
     rankingPaths.push(`/ranking/${c.slug}`);
   }
@@ -1078,8 +1108,25 @@ for (const p of STATIC_PAGES) {
   written.push(p.path);
 }
 
+// 404.html。Cloudflare Pages はこれがあると未知パスに HTTP 404 で返す
+// （無いと SPA とみなして index.html を 200 で返し、ソフト404になる）。
+// JS 起動後は Root.tsx の NotFound が同じ内容を描画する。
+await writeFile(
+  join(DIST, "404.html"),
+  render(template, {
+    title: "ページが見つかりません | item-search.jp",
+    description: HOME.description,
+    path: "/",
+    robots: "noindex, follow",
+    bodyHtml: notFoundBody(),
+  })
+    // 未知パスの URL を canonical / og:url として名乗らせない（404 は正規 URL を持たない）。
+    .replace(/<link rel="canonical"[^>]*>\n?/, "")
+    .replace(/<meta property="og:url"[^>]*>\n?/, ""),
+  "utf8"
+);
+
 // トップ（/）。template は先頭で読み込み済みなので、上書きしても他ページに影響しない。
-// SPA フォールバック（_redirects）で未知パスにも返るため、canonical は / 固定のまま。
 await writeFile(
   join(DIST, "index.html"),
   render(template, {

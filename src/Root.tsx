@@ -6,6 +6,7 @@ import Privacy from "./pages/Privacy";
 import Landing from "./pages/Landing";
 import KeywordLanding from "./pages/KeywordLanding";
 import Ranking from "./pages/Ranking";
+import NotFound from "./pages/NotFound";
 import { usePathname } from "./router";
 import { applySeo, seoForPath } from "./seo";
 import {
@@ -33,7 +34,8 @@ export default function Root() {
   useEffect(() => {
     if (catSlug || kwSlug || ranking) return;
     if (pathname === "/" && new URLSearchParams(window.location.search).get("q")) return;
-    applySeo(seoForPath(pathname));
+    const meta = seoForPath(pathname);
+    if (meta) applySeo(meta); // 未知パスは NotFound 側で設定する
   }, [pathname, catSlug, kwSlug, ranking]);
 
   if (category) return <Landing category={category} />;
@@ -47,8 +49,11 @@ export default function Root() {
       return <Terms />;
     case "/privacy":
       return <Privacy />;
-    default:
-      // 未知の /c/<slug> を含む未知パスは検索 UI にフォールバックする。
+    case "/":
       return <App />;
+    default:
+      // 未知の /c/<slug> を含む未知パス。Pages は dist/404.html を HTTP 404 で返し、
+      // JS 起動後はこちらが同じ内容を描画する。
+      return <NotFound />;
   }
 }

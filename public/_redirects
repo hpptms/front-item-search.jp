@@ -1,4 +1,9 @@
-# Cloudflare Pages: /api/* は Pages Functions が処理する（先に評価される）。
-# それ以外の未知パス（/terms, /about や直リンク・リロード）は SPA として index.html に返し、
-# クライアント側ルーター（src/router.tsx）が pathname を見て描画する。
-/*    /index.html   200
+# Cloudflare Pages のリダイレクト / リライト設定。
+#
+# 以前はここに SPA フォールバック（/* /index.html 200）を置いていたが、未知パスまで
+# トップと同じ HTML を 200 で返すため、検索エンジンからはトップの重複（ソフト404）に
+# 見えていた。現在は全ルートを scripts/prerender.mjs が dist/<path>/index.html として
+# 静的化し、未知パスには dist/404.html を HTTP 404 で返す（404.html があると Pages は
+# SPA とみなさない）。/api/* は Pages Functions が処理する。
+#
+# 新しいルートを足すときは prerender.mjs で静的化すること（しないと直リンクが 404 になる）。

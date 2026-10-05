@@ -153,6 +153,14 @@ export function seedRankingItems(category: string): RankingItem[] {
     .map((i, idx) => ({ ...i, rank: idx + 1 }));
 }
 
+// カテゴリ別ランキングをインデックス対象にする最小シード件数。これ未満は薄いページと
+// みなして noindex にする（scripts/prerender.mjs の RANK_SEED_MIN と揃える）。
+export const RANK_SEED_MIN = 2;
+
+export function isThinRankingCategory(category: string): boolean {
+  return category !== "all" && seedRankingItems(category).length < RANK_SEED_MIN;
+}
+
 // pathname が /ranking なら true（総合）。
 export function isRankingPath(pathname: string): boolean {
   return pathname === "/ranking" || pathname === "/ranking/";
