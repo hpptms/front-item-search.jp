@@ -48,10 +48,16 @@ export const onRequest: PagesFunction<Env> = async (context) => {
   // CF-Connecting-IP は Cloudflare が付ける実クライアント IP で、
   // ブラウザ側からは上書きできない。X-Forwarded-For / X-Real-IP は
   // ブラウザが自由に付けられるため、ここで捨ててから付け直す。
+  //
+  // item-search.net は別ゾーンなので、このサブリクエストの CF-Connecting-IP は
+  // Cloudflare によって Worker 自身の IP に書き換えられる。そのため本物の IP は
+  // Cloudflare が触らない独自ヘッダ X-Client-IP で渡す（backend はこれを最優先する）。
   const clientIP = request.headers.get("CF-Connecting-IP") ?? "";
   headers.delete("x-forwarded-for");
   headers.delete("x-real-ip");
+  headers.delete("x-client-ip");
   if (clientIP) {
+    headers.set("X-Client-IP", clientIP);
     headers.set("X-Real-IP", clientIP);
     headers.set("X-Forwarded-For", clientIP);
   }
