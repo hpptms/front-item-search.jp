@@ -1,4 +1,5 @@
 import Box from "@mui/material/Box";
+import type { JSX } from "react";
 
 // 各サイトのブランドロゴを、外部画像に依存しないインライン SVG で表現する。
 // 商品カード左上のオーバーレイとして使用する。
