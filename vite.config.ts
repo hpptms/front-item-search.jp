@@ -3,6 +3,17 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
+  build: {
+    rollupOptions: {
+      output: {
+        // React 本体はアプリのコードより更新頻度が低いので別チャンクにし、
+        // デプロイ後もブラウザキャッシュを使い回せるようにする。
+        manualChunks(id) {
+          if (/node_modules\/(react|react-dom|scheduler)\//.test(id)) return "react";
+        },
+      },
+    },
+  },
   server: {
     host: true, // listen on 0.0.0.0 so the container is reachable
     port: 5173,
