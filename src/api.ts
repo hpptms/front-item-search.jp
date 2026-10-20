@@ -1,5 +1,14 @@
 // バックエンド検索 API の型とクライアント。
 
+import { clientSignalHeaders } from "./clientSignals";
+
+// apiFetch は /api/* 呼び出しに不正アクセス検知用の識別子を付ける（clientSignals.ts）。
+function apiFetch(url: string, init: RequestInit = {}): Promise<Response> {
+  const headers = new Headers(init.headers);
+  for (const [k, v] of Object.entries(clientSignalHeaders())) headers.set(k, v);
+  return fetch(url, { ...init, headers });
+}
+
 export type Item = {
   title: string;
   price: number;
@@ -56,7 +65,7 @@ export async function searchProducts(
   signal?: AbortSignal
 ): Promise<SearchResponse> {
   const params = new URLSearchParams({ q: query, limit: String(limit) });
-  const res = await fetch(`/api/search?${params.toString()}`, { signal });
+  const res = await apiFetch(`/api/search?${params.toString()}`, { signal });
   if (!res.ok) {
     const body = await res.json().catch(() => ({}));
     throw new Error(body.error ?? `検索に失敗しました (${res.status})`);
@@ -75,7 +84,7 @@ export async function searchProductsStream(
   signal?: AbortSignal
 ): Promise<void> {
   const params = new URLSearchParams({ q: query, limit: String(limit) });
-  const res = await fetch(`/api/search/stream?${params.toString()}`, { signal });
+  const res = await apiFetch(`/api/search/stream?${params.toString()}`, { signal });
   if (!res.ok) {
     const body = await res.json().catch(() => ({}));
     throw new Error(body.error ?? `検索に失敗しました (${res.status})`);
@@ -156,7 +165,7 @@ export async function fetchRankings(
     limit: String(limit),
   });
   try {
-    const res = await fetch(`/api/rankings?${params.toString()}`, { signal });
+    const res = await apiFetch(`/api/rankings?${params.toString()}`, { signal });
     if (!res.ok) return null; // 503（DB無効）や一時エラーはフォールバックへ
     return (await res.json()) as RankingResponse;
   } catch {
@@ -206,7 +215,7 @@ export async function fetchComments(
 ): Promise<{ count: number; items: Comment[] } | null> {
   const params = new URLSearchParams({ term, limit: String(limit) });
   try {
-    const res = await fetch(`/api/comments?${params.toString()}`, { signal });
+    const res = await apiFetch(`/api/comments?${params.toString()}`, { signal });
     if (!res.ok) return null;
     const data = (await res.json()) as { count: number; items: Comment[] };
     return { count: data.count ?? 0, items: (data.items ?? []).map(sanitizeComment) };
@@ -239,7 +248,7 @@ export async function fetchCommentCounts(
       const params = new URLSearchParams();
       batch.forEach((t) => params.append("term", t));
       try {
-        const res = await fetch(`/api/comments/counts?${params.toString()}`, { signal });
+        const res = await apiFetch(`/api/comments/counts?${params.toString()}`, { signal });
         if (!res.ok) return {}; // 一部のバッチが失敗しても他の分は活かす
         const data = (await res.json()) as { counts?: Record<string, number> };
         return data.counts ?? {};
@@ -260,7 +269,7 @@ export async function postComment(input: {
   link: string;
   body: string;
 }): Promise<Comment> {
-  const res = await fetch("/api/comments", {
+  const res = await apiFetch("/api/comments", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(input),
