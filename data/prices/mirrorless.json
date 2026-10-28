@@ -2,7 +2,7 @@
  "slug": "mirrorless",
  "term": "ミラーレス一眼",
  "date": "2026-10-28",
- "capturedAt": "2026-10-28T05:37:28.799Z",
+ "capturedAt": "2026-10-28T05:42:18.876Z",
  "sites": [
   {
    "site": "rakuten",
@@ -74,7 +74,7 @@
    "used": false,
    "count": 20,
    "min": 88000,
-   "median": 172150,
+   "median": 222144,
    "max": 484555,
    "items": [
     {
@@ -85,9 +85,9 @@
      "used": false
     },
     {
-     "title": "キヤノン ミラーレス一眼カメラ「EOS R50」ボディ（ホワイト） EOSR50WH Canon",
+     "title": "キヤノン ミラーレス一眼カメラ「EOS R50」ボディ（ブラック） EOSR50BK Canon",
      "price": 111100,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4549292205091-34-48497-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14608299%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4549292205008-34-48497-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14608305%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "Joshin web 家電とPCの大型専門店",
      "used": false
     },
@@ -136,9 +136,9 @@
    "site": "biccamera",
    "label": "ビックカメラ",
    "used": false,
-   "count": 20,
+   "count": 19,
    "min": 89917,
-   "median": 247985,
+   "median": 248470,
    "max": 575300,
    "items": [
     {
@@ -232,9 +232,9 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 15,
+   "count": 16,
    "min": 30000,
-   "median": 55000,
+   "median": 53000,
    "max": 117000,
    "items": [
     {
@@ -298,9 +298,9 @@
   "minSite": "rakuten",
   "minLabel": "楽天市場",
   "minTitle": "Canon EOS M2 レンズキット 18-55mm IS STM ホワイト",
-  "median": 172150,
+  "median": 192500,
   "siteCount": 7,
-  "itemCount": 134
+  "itemCount": 133
  },
  "usedSummary": {
   "min": 30000,
@@ -309,7 +309,7 @@
   "minTitle": "canon EOSM3 EF-M 18/553.5-5.6IS STMセット",
   "median": 59600,
   "siteCount": 3,
-  "itemCount": 20
+  "itemCount": 21
  },
  "history": [
   {
@@ -332,7 +332,7 @@
   {
    "date": "2026-10-28",
    "newMin": 55800,
-   "newMedian": 172150,
+   "newMedian": 192500,
    "usedMin": 30000,
    "usedMedian": 59600,
    "sites": {

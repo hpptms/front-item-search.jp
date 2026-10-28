@@ -2,7 +2,7 @@
  "slug": "kirby-discovery",
  "term": "星のカービィ ディスカバリー",
  "date": "2026-10-28",
- "capturedAt": "2026-10-28T05:37:28.799Z",
+ "capturedAt": "2026-10-28T05:42:18.876Z",
  "sites": [
   {
    "site": "rakuten",
@@ -199,7 +199,7 @@
    "used": true,
    "count": 16,
    "min": 3500,
-   "median": 4250,
+   "median": 5050,
    "max": 6400,
    "items": [
     {
@@ -240,7 +240,7 @@
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
   "minTitle": "Switchソフト 星のカービィ ディスカバリー",
-  "median": 3950,
+  "median": 4350,
   "siteCount": 2,
   "itemCount": 28
  },
@@ -266,7 +266,7 @@
    "newMin": 3975,
    "newMedian": 6908,
    "usedMin": 3000,
-   "usedMedian": 3950,
+   "usedMedian": 4350,
    "sites": {
     "rakuten": 3975,
     "yahoo_shopping": 4292,

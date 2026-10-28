@@ -2,7 +2,7 @@
  "slug": "sumaho",
  "term": "スマホ",
  "date": "2026-10-28",
- "capturedAt": "2026-10-28T05:37:28.799Z",
+ "capturedAt": "2026-10-28T05:42:18.876Z",
  "sites": [
   {
    "site": "rakuten",
@@ -214,7 +214,7 @@
    "count": 10,
    "min": 10000,
    "median": 21800,
-   "max": 80000,
+   "max": 73000,
    "items": [
     {
      "title": "Apple iPhone SE2 64GB SIMフリー",
@@ -224,16 +224,16 @@
      "used": true
     },
     {
-     "title": "完動品SIMフリーiPhoneSE2(第2世代)本体64GB送料込APLK4",
-     "price": 13000,
-     "url": "https://jp.mercari.com/item/m55816848696",
+     "title": "iPhone XR White 128GB SIMフリー",
+     "price": 14000,
+     "url": "https://jp.mercari.com/item/m75498682734",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "iPhone XR White 128GB SIMフリー",
-     "price": 14000,
-     "url": "https://jp.mercari.com/item/m75498682734",
+     "title": "Samsung Galaxy S20 5G SCG01 SIMフリーau盤",
+     "price": 17000,
+     "url": "https://jp.mercari.com/item/m88205619247",
      "shop": "メルカリ",
      "used": true
     }

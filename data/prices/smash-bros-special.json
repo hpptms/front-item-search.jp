@@ -2,7 +2,7 @@
  "slug": "smash-bros-special",
  "term": "大乱闘スマッシュブラザーズ SPECIAL",
  "date": "2026-10-28",
- "capturedAt": "2026-10-28T05:37:28.799Z",
+ "capturedAt": "2026-10-28T05:42:18.876Z",
  "sites": [
   {
    "site": "rakuten",
@@ -165,9 +165,9 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 18,
+   "count": 17,
    "min": 3500,
-   "median": 4300,
+   "median": 4299,
    "max": 5333,
    "items": [
     {
@@ -208,9 +208,9 @@
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
   "minTitle": "「1円スタート」ニンテンドースイッチ 大乱闘スマッシュブラザーズ SPECIAL",
-  "median": 4300,
+  "median": 4299,
   "siteCount": 3,
-  "itemCount": 35
+  "itemCount": 34
  },
  "history": [
   {
@@ -232,7 +232,7 @@
    "newMin": 5648,
    "newMedian": 6890,
    "usedMin": 2828,
-   "usedMedian": 4300,
+   "usedMedian": 4299,
    "sites": {
     "rakuten": 5648,
     "yahoo_shopping": 6190,

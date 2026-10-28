@@ -2,7 +2,7 @@
  "slug": "iphone",
  "term": "iPhone",
  "date": "2026-10-28",
- "capturedAt": "2026-10-28T05:37:28.799Z",
+ "capturedAt": "2026-10-28T05:42:18.876Z",
  "sites": [
   {
    "site": "sofmap",
@@ -104,10 +104,10 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 11,
+   "count": 10,
    "min": 17000,
-   "median": 27900,
-   "max": 80000,
+   "median": 29950,
+   "max": 73000,
    "items": [
     {
      "title": "Apple iPhone 12mini ブルー 本体",
@@ -172,9 +172,9 @@
   "minSite": "mercari",
   "minLabel": "メルカリ",
   "minTitle": "Apple iPhone 12mini ブルー 本体",
-  "median": 42650,
+  "median": 43675,
   "siteCount": 4,
-  "itemCount": 27
+  "itemCount": 26
  },
  "history": [
   {
@@ -195,7 +195,7 @@
    "newMin": 25990,
    "newMedian": 111485,
    "usedMin": 17000,
-   "usedMedian": 42650,
+   "usedMedian": 43675,
    "sites": {
     "sofmap": 25990,
     "yahoo_shopping": 97000,

@@ -2,7 +2,7 @@
  "slug": "splatoon-3",
  "term": "スプラトゥーン3",
  "date": "2026-10-28",
- "capturedAt": "2026-10-28T05:37:28.799Z",
+ "capturedAt": "2026-10-28T05:42:18.876Z",
  "sites": [
   {
    "site": "rakuten",
@@ -149,7 +149,7 @@
    "used": true,
    "count": 12,
    "min": 3700,
-   "median": 3950,
+   "median": 4000,
    "max": 5555,
    "items": [
     {
@@ -190,7 +190,7 @@
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
   "minTitle": "Switch スプラトゥーン3 ジャンク品",
-  "median": 3950,
+  "median": 4000,
   "siteCount": 3,
   "itemCount": 27
  },
@@ -214,7 +214,7 @@
    "newMin": 4518,
    "newMedian": 5853,
    "usedMin": 2500,
-   "usedMedian": 3950,
+   "usedMedian": 4000,
    "sites": {
     "rakuten": 4518,
     "yahoo_shopping": 4518,

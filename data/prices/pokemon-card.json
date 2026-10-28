@@ -2,7 +2,7 @@
  "slug": "pokemon-card",
  "term": "ポケモンカード",
  "date": "2026-10-28",
- "capturedAt": "2026-10-28T05:37:28.799Z",
+ "capturedAt": "2026-10-28T05:42:18.876Z",
  "sites": [
   {
    "site": "yahoo_shopping",
@@ -73,13 +73,13 @@
    "label": "メルカリ",
    "used": true,
    "count": 11,
-   "min": 3900,
-   "median": 9100,
-   "max": 25800,
+   "min": 4100,
+   "median": 9000,
+   "max": 18888,
    "items": [
     {
      "title": "ポケモンカードゲーム 強化拡張パック 151 未開封BOX シュリンク有",
-     "price": 3900,
+     "price": 4100,
      "url": "https://jp.mercari.com/item/m28440310320",
      "shop": "メルカリ",
      "used": true
@@ -143,11 +143,11 @@
   "itemCount": 35
  },
  "usedSummary": {
-  "min": 3900,
+  "min": 4100,
   "minSite": "mercari",
   "minLabel": "メルカリ",
   "minTitle": "ポケモンカードゲーム 強化拡張パック 151 未開封BOX シュリンク有",
-  "median": 16300,
+  "median": 16250,
   "siteCount": 2,
   "itemCount": 23
  },
@@ -168,12 +168,12 @@
    "date": "2026-10-28",
    "newMin": 8880,
    "newMedian": 20345,
-   "usedMin": 3900,
-   "usedMedian": 16300,
+   "usedMin": 4100,
+   "usedMedian": 16250,
    "sites": {
     "yahoo_shopping": 8880,
     "rakuten": 9780,
-    "mercari": 3900,
+    "mercari": 4100,
     "yahoo_auction": 9000
    }
   }

@@ -2,7 +2,7 @@
  "slug": "nintendo-switch-2",
  "term": "Nintendo Switch 2",
  "date": "2026-10-28",
- "capturedAt": "2026-10-28T05:37:28.799Z",
+ "capturedAt": "2026-10-28T05:42:18.876Z",
  "sites": [
   {
    "site": "rakuten",
@@ -136,9 +136,9 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 14,
+   "count": 15,
    "min": 49000,
-   "median": 51750,
+   "median": 52000,
    "max": 55000,
    "items": [
     {
@@ -181,7 +181,7 @@
   "minTitle": "任天堂 Nintendo Switch 2(BEE-S-KB6CA) 本体 初期化済み ニンテンドースイッチ2",
   "median": 50000,
   "siteCount": 3,
-  "itemCount": 26
+  "itemCount": 27
  },
  "history": [
   {

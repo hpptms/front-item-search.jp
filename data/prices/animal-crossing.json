@@ -2,7 +2,7 @@
  "slug": "animal-crossing",
  "term": "あつまれ どうぶつの森",
  "date": "2026-10-28",
- "capturedAt": "2026-10-28T05:37:28.799Z",
+ "capturedAt": "2026-10-28T05:42:18.876Z",
  "sites": [
   {
    "site": "rakuten",
@@ -162,6 +162,38 @@
    ]
   },
   {
+   "site": "mercari",
+   "label": "メルカリ",
+   "used": true,
+   "count": 17,
+   "min": 3000,
+   "median": 3900,
+   "max": 5000,
+   "items": [
+    {
+     "title": "Nintendo Switch あつまれ どうぶつの森",
+     "price": 3000,
+     "url": "https://jp.mercari.com/item/m11611645056",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "あつまれ どうぶつの森 Nintendo Switch ソフト",
+     "price": 3300,
+     "url": "https://jp.mercari.com/item/m30821590567",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "あつまれ どうぶつの森 Nintendo Switch ソフト",
+     "price": 3500,
+     "url": "https://jp.mercari.com/item/m80236676976",
+     "shop": "メルカリ",
+     "used": true
+    }
+   ]
+  },
+  {
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
@@ -192,38 +224,6 @@
      "used": true
     }
    ]
-  },
-  {
-   "site": "mercari",
-   "label": "メルカリ",
-   "used": true,
-   "count": 16,
-   "min": 3300,
-   "median": 3850,
-   "max": 5000,
-   "items": [
-    {
-     "title": "あつまれ どうぶつの森 Nintendo Switch ソフト",
-     "price": 3300,
-     "url": "https://jp.mercari.com/item/m30821590567",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "あつまれ どうぶつの森 Nintendo Switch ソフト",
-     "price": 3500,
-     "url": "https://jp.mercari.com/item/m80236676976",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "Nintendo Switch あつまれ どうぶつの森 ソフト",
-     "price": 3600,
-     "url": "https://jp.mercari.com/item/m21822138155",
-     "shop": "メルカリ",
-     "used": true
-    }
-   ]
   }
  ],
  "newSummary": {
@@ -236,13 +236,13 @@
   "itemCount": 40
  },
  "usedSummary": {
-  "min": 3200,
-  "minSite": "yahoo_auction",
-  "minLabel": "Yahoo!オークション",
-  "minTitle": "あa0810162 あつまれ どうぶつの森 [通常版]※ソフトのみ",
-  "median": 3850,
+  "min": 3000,
+  "minSite": "mercari",
+  "minLabel": "メルカリ",
+  "minTitle": "Nintendo Switch あつまれ どうぶつの森",
+  "median": 3900,
   "siteCount": 3,
-  "itemCount": 30
+  "itemCount": 31
  },
  "history": [
   {
@@ -265,8 +265,8 @@
    "date": "2026-10-28",
    "newMin": 3862,
    "newMedian": 6043,
-   "usedMin": 3200,
-   "usedMedian": 3850,
+   "usedMin": 3000,
+   "usedMedian": 3900,
    "sites": {
     "rakuten": 3862,
     "yahoo_shopping": 4518,
@@ -274,8 +274,8 @@
     "joshin": 5750,
     "yodobashi": 5920,
     "biccamera": 6770,
-    "yahoo_auction": 3200,
-    "mercari": 3300
+    "mercari": 3000,
+    "yahoo_auction": 3200
    }
   }
  ]

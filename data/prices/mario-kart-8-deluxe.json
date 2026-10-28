@@ -2,7 +2,7 @@
  "slug": "mario-kart-8-deluxe",
  "term": "マリオカート8 デラックス",
  "date": "2026-10-28",
- "capturedAt": "2026-10-28T05:37:28.799Z",
+ "capturedAt": "2026-10-28T05:42:18.876Z",
  "sites": [
   {
    "site": "rakuten",
@@ -165,9 +165,9 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 12,
+   "count": 13,
    "min": 2600,
-   "median": 3417,
+   "median": 3333,
    "max": 3600,
    "items": [
     {
@@ -178,16 +178,16 @@
      "used": true
     },
     {
-     "title": "Nintendo Switch マリオカート8 デラックス ソフト",
-     "price": 3080,
-     "url": "https://jp.mercari.com/item/m93455885428",
+     "title": "マリオカート8 デラックス Nintendo Switch ソフト",
+     "price": 2980,
+     "url": "https://jp.mercari.com/item/m37124916313",
      "shop": "メルカリ",
      "used": true
     },
     {
      "title": "Nintendo Switch マリオカート8 デラックス ソフト",
-     "price": 3300,
-     "url": "https://jp.mercari.com/item/m38595157602",
+     "price": 3080,
+     "url": "https://jp.mercari.com/item/m93455885428",
      "shop": "メルカリ",
      "used": true
     }
@@ -208,9 +208,9 @@
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
   "minTitle": "SWITCH マリオカート8 デラックス",
-  "median": 3417,
+  "median": 3333,
   "siteCount": 3,
-  "itemCount": 24
+  "itemCount": 25
  },
  "history": [
   {
@@ -233,7 +233,7 @@
    "newMin": 4202,
    "newMedian": 5900,
    "usedMin": 2500,
-   "usedMedian": 3417,
+   "usedMedian": 3333,
    "sites": {
     "rakuten": 4202,
     "yahoo_shopping": 4356,

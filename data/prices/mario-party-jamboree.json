@@ -2,7 +2,7 @@
  "slug": "mario-party-jamboree",
  "term": "スーパー マリオパーティ ジャンボリー",
  "date": "2026-10-28",
- "capturedAt": "2026-10-28T05:37:28.799Z",
+ "capturedAt": "2026-10-28T05:42:18.876Z",
  "sites": [
   {
    "site": "rakuten",
@@ -179,7 +179,7 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 17,
+   "count": 18,
    "min": 4450,
    "median": 4800,
    "max": 7000,
@@ -224,7 +224,7 @@
   "minTitle": "井111 Switch スーパーマリオパーティ ジャンボリー パッケージ版★スイッチ ソフト マリパ ジャンボリ Nintendo Switch",
   "median": 5200,
   "siteCount": 3,
-  "itemCount": 29
+  "itemCount": 30
  },
  "history": [
   {

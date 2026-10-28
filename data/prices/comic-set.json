@@ -2,7 +2,7 @@
  "slug": "comic-set",
  "term": "コミック 全巻セット",
  "date": "2026-10-28",
- "capturedAt": "2026-10-28T05:37:28.799Z",
+ "capturedAt": "2026-10-28T05:42:18.876Z",
  "sites": [
   {
    "site": "rakuten",
@@ -154,11 +154,18 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 13,
+   "count": 12,
    "min": 2500,
-   "median": 4500,
-   "max": 14000,
+   "median": 3800,
+   "max": 14100,
    "items": [
+    {
+     "title": "ムヒョとロージーの魔法律相談事務所 全巻セット 1-18巻 西義之",
+     "price": 2500,
+     "url": "https://jp.mercari.com/item/m70009405145",
+     "shop": "メルカリ",
+     "used": true
+    },
     {
      "title": "配達先のお姉さんが怖すぎる 全巻(1〜5)",
      "price": 2500,
@@ -170,13 +177,6 @@
      "title": "おれはキャプテン 全巻セット 1-35巻",
      "price": 3000,
      "url": "https://jp.mercari.com/item/m95330784094",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "東京喰種 トーキョーグール 1-14巻 全巻セット",
-     "price": 3000,
-     "url": "https://jp.mercari.com/item/m37342727326",
      "shop": "メルカリ",
      "used": true
     }
@@ -197,9 +197,9 @@
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
   "minTitle": "20世紀少年 1巻～22巻+上下巻 浦沢直樹 -送料無料 コミックセット-",
-  "median": 3490,
+  "median": 3140,
   "siteCount": 2,
-  "itemCount": 22
+  "itemCount": 21
  },
  "history": [
   {
@@ -220,7 +220,7 @@
    "newMin": 5200,
    "newMedian": 17413,
    "usedMin": 2200,
-   "usedMedian": 3490,
+   "usedMedian": 3140,
    "sites": {
     "rakuten": 5200,
     "yahoo_shopping": 7068,

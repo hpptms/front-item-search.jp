@@ -2,7 +2,7 @@
  "slug": "used-pc",
  "term": "中古PC",
  "date": "2026-10-28",
- "capturedAt": "2026-10-28T05:37:28.799Z",
+ "capturedAt": "2026-10-28T05:42:18.876Z",
  "sites": [
   {
    "site": "sofmap",
@@ -106,7 +106,7 @@
    "used": true,
    "count": 15,
    "min": 10000,
-   "median": 18800,
+   "median": 17800,
    "max": 53000,
    "items": [
     {
