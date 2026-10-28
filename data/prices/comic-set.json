@@ -1,25 +1,18 @@
 {
  "slug": "comic-set",
  "term": "コミック 全巻セット",
- "date": "2026-10-28",
- "capturedAt": "2026-10-28T05:42:18.876Z",
+ "date": "2026-10-29",
+ "capturedAt": "2026-10-28T20:10:02.609Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
    "count": 8,
-   "min": 5200,
-   "median": 13385,
-   "max": 21912,
+   "min": 6850,
+   "median": 17944,
+   "max": 43868,
    "items": [
-    {
-     "title": "新宿スワン ＜1〜38巻完結＞ 和久井健",
-     "price": 5200,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcomicset%2F10000681%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcomicset%2Fi%2F10000681%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "もったいない本舗 楽天市場店",
-     "used": false
-    },
     {
      "title": "バガボンド ＜1〜37巻＞ 井上 雄彦",
      "price": 6850,
@@ -33,6 +26,13 @@
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F16769026%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbook%2Fi%2F20380490%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "楽天ブックス",
      "used": false
+    },
+    {
+     "title": "MAJOR（メジャー） ＜1〜78巻完結＞ 満田拓也",
+     "price": 10000,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcomicset%2F10000532%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcomicset%2Fi%2F10000532%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "もったいない本舗 楽天市場店",
+     "used": false
     }
    ]
   },
@@ -40,10 +40,10 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 20,
+   "count": 19,
    "min": 7068,
    "median": 13926,
-   "max": 41225,
+   "max": 41316,
    "items": [
     {
      "title": "新品 / 特典あり / [ヤニすう]スーパーの裏でヤニ吸うふたり (1-9巻 最新刊)[特製ステッカー4種&amp;イラストカード付] 全巻セット",
@@ -119,25 +119,50 @@
    ]
   },
   {
-   "site": "yahoo_auction",
-   "label": "Yahoo!オークション",
+   "site": "mercari",
+   "label": "メルカリ",
    "used": true,
-   "count": 9,
-   "min": 2200,
-   "median": 2480,
-   "max": 3300,
+   "count": 13,
+   "min": 2000,
+   "median": 4000,
+   "max": 20000,
    "items": [
     {
-     "title": "20世紀少年 1巻～22巻+上下巻 浦沢直樹 -送料無料 コミックセット-",
-     "price": 2200,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/f1246654034",
-     "shop": "",
+     "title": "君と悪いことがしたい 全巻セット 初版帯付き",
+     "price": 2000,
+     "url": "https://jp.mercari.com/item/m28382890140",
+     "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "聖☆おにいさん 1巻～22巻 中村光 -送料無料 コミックセット-",
-     "price": 2200,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/n1247405774",
+     "title": "クライングフリーマン 全巻",
+     "price": 2000,
+     "url": "https://jp.mercari.com/item/m91680653400",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "東京喰種 トーキョーグール 1-14巻 全巻セット",
+     "price": 3000,
+     "url": "https://jp.mercari.com/item/m37342727326",
+     "shop": "メルカリ",
+     "used": true
+    }
+   ]
+  },
+  {
+   "site": "yahoo_auction",
+   "label": "Yahoo!オークション",
+   "used": true,
+   "count": 12,
+   "min": 2000,
+   "median": 2865,
+   "max": 3888,
+   "items": [
+    {
+     "title": "SONS全7巻 三原順著",
+     "price": 2000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/j1250112087",
      "shop": "",
      "used": true
     },
@@ -147,59 +172,34 @@
      "url": "https://auctions.yahoo.co.jp/jp/auction/v1249932794",
      "shop": "",
      "used": true
-    }
-   ]
-  },
-  {
-   "site": "mercari",
-   "label": "メルカリ",
-   "used": true,
-   "count": 12,
-   "min": 2500,
-   "median": 3800,
-   "max": 14100,
-   "items": [
-    {
-     "title": "ムヒョとロージーの魔法律相談事務所 全巻セット 1-18巻 西義之",
-     "price": 2500,
-     "url": "https://jp.mercari.com/item/m70009405145",
-     "shop": "メルカリ",
-     "used": true
     },
     {
-     "title": "配達先のお姉さんが怖すぎる 全巻(1〜5)",
-     "price": 2500,
-     "url": "https://jp.mercari.com/item/m32212907007",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "おれはキャプテン 全巻セット 1-35巻",
-     "price": 3000,
-     "url": "https://jp.mercari.com/item/m95330784094",
-     "shop": "メルカリ",
+     "title": "スケットダンス 1巻～32巻 篠原健太 -送料無料 コミックセット-",
+     "price": 2200,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/g1249966290",
+     "shop": "",
      "used": true
     }
    ]
   }
  ],
  "newSummary": {
-  "min": 5200,
+  "min": 6850,
   "minSite": "rakuten",
   "minLabel": "楽天市場",
-  "minTitle": "新宿スワン ＜1〜38巻完結＞ 和久井健",
-  "median": 17413,
+  "minTitle": "バガボンド ＜1〜37巻＞ 井上 雄彦",
+  "median": 19422,
   "siteCount": 4,
-  "itemCount": 32
+  "itemCount": 31
  },
  "usedSummary": {
-  "min": 2200,
-  "minSite": "yahoo_auction",
-  "minLabel": "Yahoo!オークション",
-  "minTitle": "20世紀少年 1巻～22巻+上下巻 浦沢直樹 -送料無料 コミックセット-",
-  "median": 3140,
+  "min": 2000,
+  "minSite": "mercari",
+  "minLabel": "メルカリ",
+  "minTitle": "君と悪いことがしたい 全巻セット 初版帯付き",
+  "median": 3433,
   "siteCount": 2,
-  "itemCount": 21
+  "itemCount": 25
  },
  "history": [
   {
@@ -228,6 +228,21 @@
     "biccamera": 20900,
     "yahoo_auction": 2200,
     "mercari": 2500
+   }
+  },
+  {
+   "date": "2026-10-29",
+   "newMin": 6850,
+   "newMedian": 19422,
+   "usedMin": 2000,
+   "usedMedian": 3433,
+   "sites": {
+    "rakuten": 6850,
+    "yahoo_shopping": 7068,
+    "yodobashi": 11132,
+    "biccamera": 20900,
+    "mercari": 2000,
+    "yahoo_auction": 2000
    }
   }
  ]

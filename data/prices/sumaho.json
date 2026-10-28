@@ -1,8 +1,8 @@
 {
  "slug": "sumaho",
  "term": "スマホ",
- "date": "2026-10-28",
- "capturedAt": "2026-10-28T05:42:18.876Z",
+ "date": "2026-10-29",
+ "capturedAt": "2026-10-28T20:10:02.609Z",
  "sites": [
   {
    "site": "rakuten",
@@ -40,10 +40,10 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 4,
+   "count": 5,
    "min": 20680,
-   "median": 33900,
-   "max": 47080,
+   "median": 43000,
+   "max": 83490,
    "items": [
     {
      "title": "motorola モトローラ moto g05(I) フレッシュラベンダー 本体 SIMフリー PB6N0002JP イオンモバイル",
@@ -74,7 +74,7 @@
    "used": false,
    "count": 14,
    "min": 54340,
-   "median": 123475,
+   "median": 207460,
    "max": 299200,
    "items": [
     {
@@ -85,16 +85,16 @@
      "used": false
     },
     {
-     "title": "AQUOS wish6/6.6インチ/Dimensity 6300/RAM 4GB/ROM 128GB/Android 16/SIMフリースマートフォン/ソラ SH-M36-A",
-     "price": 54340,
-     "url": "https://www.yodobashi.com/product/100000001010197974/",
+     "title": "AQUOS sense10/6.1インチ/Snapdragon 7s Gen 3/RAM 6GB/ROM 128GB/Android 16/SIMフリースマートフォン/ライトシルバー SH-M33A-S",
+     "price": 67430,
+     "url": "https://www.yodobashi.com/product/100000001009510855/",
      "shop": "",
      "used": false
     },
     {
-     "title": "AQUOS sense10/6.1インチ/Snapdragon 7s Gen 3/RAM 6GB/ROM 128GB/Android 16/SIMフリースマートフォン/ライトシルバー SH-M33A-S",
+     "title": "AQUOS sense10/6.1インチ/Snapdragon 7s Gen 3/RAM 6GB/ROM 128GB/Android 16/SIMフリースマートフォン/フルブラック SH-M33A-B",
      "price": 67430,
-     "url": "https://www.yodobashi.com/product/100000001009510855/",
+     "url": "https://www.yodobashi.com/product/100000001009510851/",
      "shop": "",
      "used": false
     }
@@ -212,28 +212,28 @@
    "label": "メルカリ",
    "used": true,
    "count": 10,
-   "min": 10000,
-   "median": 21800,
-   "max": 73000,
+   "min": 16100,
+   "median": 33500,
+   "max": 79800,
    "items": [
     {
-     "title": "Apple iPhone SE2 64GB SIMフリー",
-     "price": 10000,
-     "url": "https://jp.mercari.com/item/m63028148490",
+     "title": "iPhone 12本体 SIMフリー",
+     "price": 16100,
+     "url": "https://jp.mercari.com/item/m29959739802",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "iPhone XR White 128GB SIMフリー",
-     "price": 14000,
-     "url": "https://jp.mercari.com/item/m75498682734",
+     "title": "iPhone 11pro 256gb SIMフリー",
+     "price": 23000,
+     "url": "https://jp.mercari.com/item/m87704082592",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Samsung Galaxy S20 5G SCG01 SIMフリーau盤",
-     "price": 17000,
-     "url": "https://jp.mercari.com/item/m88205619247",
+     "title": "iPhone 11 Pro 本体",
+     "price": 25600,
+     "url": "https://jp.mercari.com/item/m31277739278",
      "shop": "メルカリ",
      "used": true
     }
@@ -243,15 +243,15 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 3,
-   "min": 19500,
-   "median": 30000,
-   "max": 36500,
+   "count": 2,
+   "min": 20000,
+   "median": 25000,
+   "max": 30000,
    "items": [
     {
-     "title": "arrows We2 M07 SIMフリー ライトブルー 楽天端末",
-     "price": 19500,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/r1250063556",
+     "title": "OPPO Reno11A CPH2603 SIMフリー ダークグリーン",
+     "price": 20000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/c1249968285",
      "shop": "",
      "used": true
     },
@@ -259,13 +259,6 @@
      "title": "Xiaomi 14T SIMフリー チタンブルー Leicaカメラ搭載 美品",
      "price": 30000,
      "url": "https://auctions.yahoo.co.jp/jp/auction/n1249057591",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "液晶美品 TORQUE G06 128GB au SIMフリー KYG03 スマートフォン ブラック スマホ本体 中古 A1346",
-     "price": 36500,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/b1250009298",
      "shop": "",
      "used": true
     }
@@ -279,16 +272,16 @@
   "minTitle": "「未開封/未使用/国内版SIMフリー」Galaxy A25 5G 64GB docomo版 au/UQ版 ソフトバンク版 Yモバイル版 SIMフリー版 楽天版 ライトブルー ブルー ブラック 白ロム スマホ 本体 楽天モバイル対応",
   "median": 70693,
   "siteCount": 7,
-  "itemCount": 67
+  "itemCount": 68
  },
  "usedSummary": {
-  "min": 10000,
+  "min": 16100,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "Apple iPhone SE2 64GB SIMフリー",
-  "median": 35400,
+  "minTitle": "iPhone 12本体 SIMフリー",
+  "median": 37150,
   "siteCount": 4,
-  "itemCount": 25
+  "itemCount": 23
  },
  "history": [
   {
@@ -324,6 +317,24 @@
     "joshin": 77880,
     "mercari": 10000,
     "yahoo_auction": 19500
+   }
+  },
+  {
+   "date": "2026-10-29",
+   "newMin": 20290,
+   "newMedian": 70693,
+   "usedMin": 16100,
+   "usedMedian": 37150,
+   "sites": {
+    "rakuten": 20290,
+    "yahoo_shopping": 20680,
+    "yodobashi": 54340,
+    "biccamera": 57980,
+    "sofmap": 57980,
+    "edion": 59300,
+    "joshin": 77880,
+    "mercari": 16100,
+    "yahoo_auction": 20000
    }
   }
  ]

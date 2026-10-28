@@ -1,17 +1,17 @@
 {
  "slug": "dyson-cleaner",
  "term": "ダイソン 掃除機",
- "date": "2026-10-28",
- "capturedAt": "2026-10-28T05:42:18.876Z",
+ "date": "2026-10-29",
+ "capturedAt": "2026-10-28T20:10:02.609Z",
  "sites": [
   {
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 17,
+   "count": 16,
    "min": 29580,
-   "median": 49280,
-   "max": 87509,
+   "median": 47090,
+   "max": 87870,
    "items": [
     {
      "title": "ダイソン 掃除機 Dyson V8 SV25 FF NI2 サイクロン式 コードレスクリーナー SV25FFNI2",
@@ -73,21 +73,21 @@
    "label": "ヨドバシ.com",
    "used": false,
    "count": 14,
-   "min": 34800,
+   "min": 33420,
    "median": 67725,
    "max": 144430,
    "items": [
     {
-     "title": "掃除機 コードレススティッククリーナー Dyson WashG1（ダイソン ウォッシュ ジーワン） 吸引＆水拭き両用 WR01",
-     "price": 34800,
-     "url": "https://www.yodobashi.com/product/100000001008730603/",
+     "title": "掃除機 コードレススティッククリーナー Dyson V8 Slim Fluffy（ダイソンV8 スリムフラフィ） サイクロン式 2.15kg SV25 SLM",
+     "price": 33420,
+     "url": "https://www.yodobashi.com/product/100000001010108865/",
      "shop": "",
      "used": false
     },
     {
-     "title": "掃除機 コードレススティッククリーナー Dyson V8 Slim Fluffy（ダイソンV8 スリムフラフィ） サイクロン式 2.15kg SV25 SLM",
-     "price": 36420,
-     "url": "https://www.yodobashi.com/product/100000001010108865/",
+     "title": "掃除機 コードレススティッククリーナー Dyson WashG1（ダイソン ウォッシュ ジーワン） 吸引＆水拭き両用 WR01",
+     "price": 34800,
+     "url": "https://www.yodobashi.com/product/100000001008730603/",
      "shop": "",
      "used": false
     },
@@ -104,29 +104,22 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 5,
-   "min": 17000,
-   "median": 26666,
-   "max": 29000,
+   "count": 2,
+   "min": 17500,
+   "median": 21750,
+   "max": 26000,
    "items": [
     {
      "title": "Dyson Digital Slim Fluffy SV18",
-     "price": 17000,
+     "price": 17500,
      "url": "https://jp.mercari.com/item/m60740883932",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Dyson SV25 スティッククリーナー 本体",
-     "price": 18000,
-     "url": "https://jp.mercari.com/item/m20535241255",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "ダイソン 掃除機 Dyson V8 SV25 コードレスクリーナー",
-     "price": 26666,
-     "url": "https://jp.mercari.com/item/m52371999027",
+     "title": "新品未開封 Dyson v8 slim fluffy コードレス掃除機 本体",
+     "price": 26000,
+     "url": "https://jp.mercari.com/item/m39518540406",
      "shop": "メルカリ",
      "used": true
     }
@@ -138,18 +131,18 @@
   "minSite": "yahoo_shopping",
   "minLabel": "Yahoo!ショッピング",
   "minTitle": "ダイソン 掃除機 Dyson V8 SV25 FF NI2 サイクロン式 コードレスクリーナー SV25FFNI2",
-  "median": 49280,
+  "median": 47090,
   "siteCount": 3,
-  "itemCount": 43
+  "itemCount": 42
  },
  "usedSummary": {
-  "min": 17000,
+  "min": 17500,
   "minSite": "mercari",
   "minLabel": "メルカリ",
   "minTitle": "Dyson Digital Slim Fluffy SV18",
-  "median": 26666,
+  "median": 21750,
   "siteCount": 1,
-  "itemCount": 5
+  "itemCount": 2
  },
  "history": [
   {
@@ -176,6 +169,19 @@
     "rakuten": 32899,
     "yodobashi": 34800,
     "mercari": 17000
+   }
+  },
+  {
+   "date": "2026-10-29",
+   "newMin": 29580,
+   "newMedian": 47090,
+   "usedMin": 17500,
+   "usedMedian": 21750,
+   "sites": {
+    "yahoo_shopping": 29580,
+    "rakuten": 32899,
+    "yodobashi": 33420,
+    "mercari": 17500
    }
   }
  ]

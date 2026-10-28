@@ -1,8 +1,8 @@
 {
  "slug": "zelda-totk",
  "term": "ゼルダの伝説 ティアーズ オブ ザ キングダム",
- "date": "2026-10-28",
- "capturedAt": "2026-10-28T05:42:18.876Z",
+ "date": "2026-10-29",
+ "capturedAt": "2026-10-28T20:10:02.609Z",
  "sites": [
   {
    "site": "rakuten",
@@ -10,7 +10,7 @@
    "used": false,
    "count": 19,
    "min": 4580,
-   "median": 6980,
+   "median": 7280,
    "max": 8150,
    "items": [
     {
@@ -43,7 +43,7 @@
    "count": 12,
    "min": 4970,
    "median": 7780,
-   "max": 8300,
+   "max": 8470,
    "items": [
     {
      "title": "Switch／ゼルダの伝説 ティアーズ オブ ザ キングダム",
@@ -144,13 +144,31 @@
    ]
   },
   {
+   "site": "biccamera",
+   "label": "ビックカメラ",
+   "used": false,
+   "count": 1,
+   "min": 8470,
+   "median": 8470,
+   "max": 8470,
+   "items": [
+    {
+     "title": "任天堂｜Nintendo ゼルダの伝説 ティアーズ オブ ザ キングダム Nintendo Switch 2 Edition",
+     "price": 8470,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4902370553321%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F15177875%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "楽天ビック(ビックカメラ×楽天)",
+     "used": false
+    }
+   ]
+  },
+  {
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 8,
+   "count": 6,
    "min": 3000,
-   "median": 3900,
-   "max": 7980,
+   "median": 3650,
+   "max": 5150,
    "items": [
     {
      "title": "Nintendo Switch ゼルダの伝説 ティアーズ オブ ザ キングダム",
@@ -160,16 +178,16 @@
      "used": true
     },
     {
-     "title": "Nintendo Switch ゼルダの伝説 ティアーズ オブ ザ キングダム",
-     "price": 3500,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/h1249993096",
+     "title": "★☆Nintendo Switch ゼルダの伝説 ティアーズ オブ ザ キングダム☆★",
+     "price": 3000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/v1249853912",
      "shop": "",
      "used": true
     },
     {
      "title": "Nintendo Switch ゼルダの伝説 ティアーズ オブ ザ キングダム",
-     "price": 3799,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z707767896",
+     "price": 3500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/h1249993096",
      "shop": "",
      "used": true
     }
@@ -179,11 +197,18 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 11,
-   "min": 3500,
-   "median": 3890,
-   "max": 7980,
+   "count": 13,
+   "min": 3333,
+   "median": 4000,
+   "max": 6950,
    "items": [
+    {
+     "title": "ゼルダの伝説 ティアーズ オブ ザ キングダム Switch ソフト",
+     "price": 3333,
+     "url": "https://jp.mercari.com/item/m37487040073",
+     "shop": "メルカリ",
+     "used": true
+    },
     {
      "title": "ゼルダの伝説 ティアーズ オブ ザ キングダム Nintendo Switch",
      "price": 3500,
@@ -193,15 +218,8 @@
     },
     {
      "title": "ゼルダの伝説 ティアーズ オブ ザ キングダム Switch ソフト",
-     "price": 3700,
-     "url": "https://jp.mercari.com/item/m49645392205",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "ゼルダの伝説 ティアーズ オブ ザ キングダム Nintendo Switch",
-     "price": 3700,
-     "url": "https://jp.mercari.com/item/m69168636508",
+     "price": 3550,
+     "url": "https://jp.mercari.com/item/m59025648986",
      "shop": "メルカリ",
      "used": true
     }
@@ -213,16 +231,16 @@
   "minSite": "rakuten",
   "minLabel": "楽天市場",
   "minTitle": "Switch ソフト ニンテンドースイッチ ゼルダの伝説 ティアーズ オブ ザ キングダム 任天堂 4902370550979",
-  "median": 7780,
-  "siteCount": 5,
-  "itemCount": 38
+  "median": 7805,
+  "siteCount": 6,
+  "itemCount": 39
  },
  "usedSummary": {
   "min": 3000,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
   "minTitle": "Nintendo Switch ゼルダの伝説 ティアーズ オブ ザ キングダム",
-  "median": 3900,
+  "median": 4000,
   "siteCount": 3,
   "itemCount": 20
  },
@@ -257,6 +275,23 @@
     "edion": 7830,
     "yahoo_auction": 3000,
     "mercari": 3500
+   }
+  },
+  {
+   "date": "2026-10-29",
+   "newMin": 4580,
+   "newMedian": 7805,
+   "usedMin": 3000,
+   "usedMedian": 4000,
+   "sites": {
+    "rakuten": 4580,
+    "yahoo_shopping": 4970,
+    "joshin": 6890,
+    "yodobashi": 7180,
+    "edion": 7830,
+    "biccamera": 8470,
+    "yahoo_auction": 3000,
+    "mercari": 3333
    }
   }
  ]

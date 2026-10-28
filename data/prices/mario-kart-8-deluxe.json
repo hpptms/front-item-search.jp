@@ -1,8 +1,8 @@
 {
  "slug": "mario-kart-8-deluxe",
  "term": "マリオカート8 デラックス",
- "date": "2026-10-28",
- "capturedAt": "2026-10-28T05:42:18.876Z",
+ "date": "2026-10-29",
+ "capturedAt": "2026-10-28T20:10:02.609Z",
  "sites": [
   {
    "site": "rakuten",
@@ -133,9 +133,9 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 10,
+   "count": 8,
    "min": 2500,
-   "median": 3210,
+   "median": 3205,
    "max": 4000,
    "items": [
     {
@@ -146,9 +146,9 @@
      "used": true
     },
     {
-     "title": "Switch マリオカート8 デラックス ゲームソフト スイッチ 1A0108-015ka/F8",
-     "price": 2860,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/m1249830121",
+     "title": "Nintendo Switch マリオカート8 デラックス ソフト",
+     "price": 2700,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/s1249606808",
      "shop": "",
      "used": true
     },
@@ -166,28 +166,28 @@
    "label": "メルカリ",
    "used": true,
    "count": 13,
-   "min": 2600,
-   "median": 3333,
-   "max": 3600,
+   "min": 3000,
+   "median": 3500,
+   "max": 4000,
    "items": [
     {
      "title": "マリオカート8 デラックス Nintendo Switch ソフト",
-     "price": 2600,
+     "price": 3000,
      "url": "https://jp.mercari.com/item/m71766652220",
      "shop": "メルカリ",
      "used": true
     },
     {
      "title": "マリオカート8 デラックス Nintendo Switch ソフト",
-     "price": 2980,
-     "url": "https://jp.mercari.com/item/m37124916313",
+     "price": 3300,
+     "url": "https://jp.mercari.com/item/m54843029126",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Nintendo Switch マリオカート8 デラックス ソフト",
-     "price": 3080,
-     "url": "https://jp.mercari.com/item/m93455885428",
+     "title": "マリオカート8 デラックス Switch ソフト",
+     "price": 3300,
+     "url": "https://jp.mercari.com/item/m91604299027",
      "shop": "メルカリ",
      "used": true
     }
@@ -208,9 +208,9 @@
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
   "minTitle": "SWITCH マリオカート8 デラックス",
-  "median": 3333,
+  "median": 3500,
   "siteCount": 3,
-  "itemCount": 25
+  "itemCount": 23
  },
  "history": [
   {
@@ -242,6 +242,22 @@
     "biccamera": 6240,
     "yahoo_auction": 2500,
     "mercari": 2600
+   }
+  },
+  {
+   "date": "2026-10-29",
+   "newMin": 4202,
+   "newMedian": 5900,
+   "usedMin": 2500,
+   "usedMedian": 3500,
+   "sites": {
+    "rakuten": 4202,
+    "yahoo_shopping": 4356,
+    "joshin": 5900,
+    "yodobashi": 6040,
+    "biccamera": 6240,
+    "yahoo_auction": 2500,
+    "mercari": 3000
    }
   }
  ]

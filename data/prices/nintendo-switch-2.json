@@ -1,8 +1,8 @@
 {
  "slug": "nintendo-switch-2",
  "term": "Nintendo Switch 2",
- "date": "2026-10-28",
- "capturedAt": "2026-10-28T05:42:18.876Z",
+ "date": "2026-10-29",
+ "capturedAt": "2026-10-28T20:10:02.609Z",
  "sites": [
   {
    "site": "rakuten",
@@ -10,7 +10,7 @@
    "used": false,
    "count": 17,
    "min": 54507,
-   "median": 58052,
+   "median": 58050,
    "max": 67860,
    "items": [
     {
@@ -41,7 +41,7 @@
    "label": "Yahoo!ショッピング",
    "used": false,
    "count": 18,
-   "min": 57070,
+   "min": 57050,
    "median": 59055,
    "max": 65780,
    "items": [
@@ -54,14 +54,14 @@
     },
     {
      "title": "Nintendo Switch 2 国内版 BEE-S-KB6CA",
-     "price": 57070,
+     "price": 57050,
      "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkaikyou%2Fw902370553024.html",
      "shop": "モバイル販売",
      "used": false
     },
     {
      "title": "「訳あり品-外装箱傷あり」新品 Nintendo Switch 2 日本語・国内専用",
-     "price": 57072,
+     "price": 57090,
      "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Flight-hikari%2F4902370553024-y.html",
      "shop": "らいぶshop",
      "used": false
@@ -74,8 +74,8 @@
    "used": false,
    "count": 4,
    "min": 59980,
-   "median": 62480,
-   "max": 63490,
+   "median": 62165,
+   "max": 62980,
    "items": [
     {
      "title": "Nintendo Switch 2（日本語・国内専用） [Nintendo Switch 2 本体]",
@@ -92,9 +92,9 @@
      "used": false
     },
     {
-     "title": "Nintendo Switch 2 （日本語・国内専用） ゼルダの伝説 40周年 アニバーサリーエディション [Nintendo Switch 2 本体]",
-     "price": 62980,
-     "url": "https://www.yodobashi.com/product/100000001010200725/",
+     "title": "Nintendo Switch 2（日本語・国内専用） スプラトゥーン レイダース セット [Nintendo Switch 2 本体]",
+     "price": 62350,
+     "url": "https://www.yodobashi.com/product/100000001009938982/",
      "shop": "",
      "used": false
     }
@@ -104,29 +104,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 11,
-   "min": 40700,
-   "median": 48900,
-   "max": 55000,
+   "count": 16,
+   "min": 40150,
+   "median": 44825,
+   "max": 61800,
    "items": [
     {
-     "title": "任天堂 Nintendo Switch 2(BEE-S-KB6CA) 本体 初期化済み ニンテンドースイッチ2",
-     "price": 40700,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/o1249893897",
+     "title": "任天堂 Nintendo Switch2 本体 Pokemon LEGENDS Z-A Nintendo Switch 2 Edition 初期化/動作確認済 G10-012kk/G4",
+     "price": 40150,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/v1249834607",
      "shop": "",
      "used": true
     },
     {
      "title": "Nintendo Switch 2 本体 ブラック系スイッチ２日本語専用",
-     "price": 41000,
+     "price": 40800,
      "url": "https://auctions.yahoo.co.jp/jp/auction/z711399098",
      "shop": "",
      "used": true
     },
     {
-     "title": "Nintendo Switch2 ニンテンドースイッチ2 ジョイコンセット",
-     "price": 43500,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z712476186",
+     "title": "ニンテンドースイッチ2 本体とジョイコンセット",
+     "price": 41200,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z711201702",
      "shop": "",
      "used": true
     }
@@ -136,29 +136,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 15,
-   "min": 49000,
-   "median": 52000,
-   "max": 55000,
+   "count": 17,
+   "min": 43000,
+   "median": 49300,
+   "max": 55555,
    "items": [
     {
-     "title": "Nintendo Switch 2 日本語・国内専用",
-     "price": 49000,
-     "url": "https://jp.mercari.com/item/m73490193641",
+     "title": "Nintendo Switch 2本体",
+     "price": 43000,
+     "url": "https://jp.mercari.com/item/m43043032090",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "NintendoSwitch2 本体一式 日本語・国内 欠品なし",
-     "price": 49222,
-     "url": "https://jp.mercari.com/item/m40996019086",
+     "title": "Nintendo Switch 2 日本語・国内専用 本体 箱付き",
+     "price": 45000,
+     "url": "https://jp.mercari.com/item/m44747856787",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Nintendo Switch2 本体 日本語・国内専用版",
-     "price": 49300,
-     "url": "https://jp.mercari.com/item/m46548783969",
+     "title": "Nintendo Switch 2 本体",
+     "price": 45000,
+     "url": "https://jp.mercari.com/item/m45547790263",
      "shop": "メルカリ",
      "used": true
     }
@@ -175,13 +175,13 @@
   "itemCount": 39
  },
  "usedSummary": {
-  "min": 40700,
+  "min": 40150,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "任天堂 Nintendo Switch 2(BEE-S-KB6CA) 本体 初期化済み ニンテンドースイッチ2",
-  "median": 50000,
+  "minTitle": "任天堂 Nintendo Switch2 本体 Pokemon LEGENDS Z-A Nintendo Switch 2 Edition 初期化/動作確認済 G10-012kk/G4",
+  "median": 49300,
   "siteCount": 3,
-  "itemCount": 27
+  "itemCount": 34
  },
  "history": [
   {
@@ -209,6 +209,20 @@
     "yodobashi": 59980,
     "yahoo_auction": 40700,
     "mercari": 49000
+   }
+  },
+  {
+   "date": "2026-10-29",
+   "newMin": 54507,
+   "newMedian": 59055,
+   "usedMin": 40150,
+   "usedMedian": 49300,
+   "sites": {
+    "rakuten": 54507,
+    "yahoo_shopping": 57050,
+    "yodobashi": 59980,
+    "yahoo_auction": 40150,
+    "mercari": 43000
    }
   }
  ]

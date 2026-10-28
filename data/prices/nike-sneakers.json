@@ -1,25 +1,18 @@
 {
  "slug": "nike-sneakers",
  "term": "スニーカー ナイキ",
- "date": "2026-10-28",
- "capturedAt": "2026-10-28T05:42:18.876Z",
+ "date": "2026-10-29",
+ "capturedAt": "2026-10-28T20:10:02.609Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
    "count": 20,
-   "min": 3980,
+   "min": 3990,
    "median": 6990,
-   "max": 16940,
+   "max": 16390,
    "items": [
-    {
-     "title": "ナイキ コズミック ランナー GS HM4402-003 ジュニア キッズ 子供 スニーカー 子どもの靴 キッズスニーカー 運動靴 NIKE HM4402 003",
-     "price": 3980,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falpen%2F4921562545%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Falpen%2Fi%2F10479811%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "アルペン楽天市場店",
-     "used": false
-    },
     {
      "title": "ナイキ スター ランナー 5 GS HF7004-002 ジュニア キッズ 子供 スニーカー : ブラック×ホワイト キッズスニーカー 子どもの靴 運動靴 NIKE HF7004 002",
      "price": 3990,
@@ -33,6 +26,13 @@
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsupersportsxebio%2F108934361011%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsupersportsxebio%2Fi%2F21265437%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "SuperSportsXEBIO楽天市場支店",
      "used": false
+    },
+    {
+     "title": "ナイキ レボリューション 8 イージーオン HQ2414-001 メンズ スニーカー : ブラック×ホワイト メンズシューズ ハンズフリー NIKE HQ2414 001",
+     "price": 4230,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falpen%2F4051567515%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Falpen%2Fi%2F10500890%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "アルペン楽天市場店",
+     "used": false
     }
    ]
   },
@@ -42,7 +42,7 @@
    "used": false,
    "count": 20,
    "min": 4504,
-   "median": 8080,
+   "median": 8985,
    "max": 20130,
    "items": [
     {
@@ -104,11 +104,18 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 15,
+   "count": 16,
    "min": 3000,
-   "median": 4000,
-   "max": 8333,
+   "median": 5275,
+   "max": 7980,
    "items": [
+    {
+     "title": "NIKE AIR MAX ナイキ エアマックス スニーカー ブラック",
+     "price": 3000,
+     "url": "https://jp.mercari.com/item/m15975851386",
+     "shop": "メルカリ",
+     "used": true
+    },
     {
      "title": "NIKE ナイキ ハイカットスニーカー ブラック ホワイト",
      "price": 3000,
@@ -117,16 +124,9 @@
      "used": true
     },
     {
-     "title": "NIKE ナイキ スニーカー 25㎝",
-     "price": 3200,
-     "url": "https://jp.mercari.com/item/m28140142078",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "NIKE SB ALLEYOOP ブラック スニーカー ナイキ 美品",
-     "price": 3500,
-     "url": "https://jp.mercari.com/item/m27793555809",
+     "title": "レディース ナイキ スニーカー 24.5",
+     "price": 3000,
+     "url": "https://jp.mercari.com/item/m97600376624",
      "shop": "メルカリ",
      "used": true
     }
@@ -136,29 +136,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 12,
-   "min": 3101,
-   "median": 3950,
-   "max": 5500,
+   "count": 9,
+   "min": 3500,
+   "median": 5400,
+   "max": 8690,
    "items": [
     {
-     "title": "■ NIKE ナイキ ダンク LOW レトロ PRM カジュアルシューズ 26.5cm",
-     "price": 3101,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/n1249684314",
+     "title": "美品★air maxエア マックス エクシー 001ANTNIKEナイキスニーカーシューズ",
+     "price": 3500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/j1241777215",
      "shop": "",
      "used": true
     },
     {
-     "title": "NIKE◆DUNK LOW RETRO BTTYS_ダンク ロー レトロ ビー BTTYS/27cm/GRN",
-     "price": 3300,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/e1200855078",
+     "title": "NIKE ナイキ スニーカー Air Max 97 QS Olympic Rings Pack TOKYO 2020 Lucky Green CI3708-300 ローカット 27.5cm グリーン 靴 ★SS1443",
+     "price": 3960,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/t1239584360",
      "shop": "",
      "used": true
     },
     {
-     "title": "NIKE DZ2794-001 Women's Dunk Low Twist 28cm ダンクロー ナイキ スニーカー 中古 良好 Y11776645",
-     "price": 3300,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/h1249566078",
+     "title": "NIKE / ナイキ × Off-white Air Vapormax スニーカー AA3831-100",
+     "price": 4708,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/p1249778865",
      "shop": "",
      "used": true
     }
@@ -166,10 +166,10 @@
   }
  ],
  "newSummary": {
-  "min": 3980,
+  "min": 3990,
   "minSite": "rakuten",
   "minLabel": "楽天市場",
-  "minTitle": "ナイキ コズミック ランナー GS HM4402-003 ジュニア キッズ 子供 スニーカー 子どもの靴 キッズスニーカー 運動靴 NIKE HM4402 003",
+  "minTitle": "ナイキ スター ランナー 5 GS HF7004-002 ジュニア キッズ 子供 スニーカー : ブラック×ホワイト キッズスニーカー 子どもの靴 運動靴 NIKE HF7004 002",
   "median": 7300,
   "siteCount": 3,
   "itemCount": 48
@@ -178,10 +178,10 @@
   "min": 3000,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "NIKE ナイキ ハイカットスニーカー ブラック ホワイト",
-  "median": 3975,
+  "minTitle": "NIKE AIR MAX ナイキ エアマックス スニーカー ブラック",
+  "median": 5338,
   "siteCount": 2,
-  "itemCount": 27
+  "itemCount": 25
  },
  "history": [
   {
@@ -209,6 +209,20 @@
     "joshin": 5980,
     "mercari": 3000,
     "yahoo_auction": 3101
+   }
+  },
+  {
+   "date": "2026-10-29",
+   "newMin": 3990,
+   "newMedian": 7300,
+   "usedMin": 3000,
+   "usedMedian": 5338,
+   "sites": {
+    "rakuten": 3990,
+    "yahoo_shopping": 4504,
+    "joshin": 5980,
+    "mercari": 3000,
+    "yahoo_auction": 3500
    }
   }
  ]

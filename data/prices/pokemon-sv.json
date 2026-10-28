@@ -1,8 +1,8 @@
 {
  "slug": "pokemon-sv",
  "term": "ポケモン スカーレット・バイオレット",
- "date": "2026-10-28",
- "capturedAt": "2026-10-28T05:42:18.876Z",
+ "date": "2026-10-29",
+ "capturedAt": "2026-10-28T20:10:02.609Z",
  "sites": [
   {
    "site": "yodobashi",
@@ -76,22 +76,15 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 2,
+   "count": 1,
    "min": 4000,
-   "median": 5400,
-   "max": 6800,
+   "median": 4000,
+   "max": 4000,
    "items": [
     {
      "title": "ポケットモンスター スカーレット Nintendo Switch ソフト",
      "price": 4000,
      "url": "https://jp.mercari.com/item/m75776263773",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "Switchソフト ポケットモンスター スカーレット・バイオレット まとめ売り",
-     "price": 6800,
-     "url": "https://jp.mercari.com/item/m15384840490",
      "shop": "メルカリ",
      "used": true
     }
@@ -101,25 +94,11 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 3,
-   "min": 4480,
-   "median": 6666,
+   "count": 1,
+   "min": 7200,
+   "median": 7200,
    "max": 7200,
    "items": [
-    {
-     "title": "ストーリーマクロコントローラー マイコン ポケットモンスター スカーレット バイオレット ポケモンSV",
-     "price": 4480,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z712506264",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "①Switch ジョイコン ポケモンSV 左右LR ポケットモンスター スカーレット・バイオレットエディション 赤 紫",
-     "price": 6666,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/q1248693529",
-     "shop": "",
-     "used": true
-    },
     {
      "title": "値下げ！早い者勝ち！ ポケットモンスター スカーレットとバイオレット",
      "price": 7200,
@@ -144,9 +123,9 @@
   "minSite": "mercari",
   "minLabel": "メルカリ",
   "minTitle": "ポケットモンスター スカーレット Nintendo Switch ソフト",
-  "median": 6033,
+  "median": 5600,
   "siteCount": 2,
-  "itemCount": 5
+  "itemCount": 2
  },
  "history": [
   {
@@ -174,6 +153,20 @@
     "yahoo_shopping": 6052,
     "mercari": 4000,
     "yahoo_auction": 4480
+   }
+  },
+  {
+   "date": "2026-10-29",
+   "newMin": 3460,
+   "newMedian": 5960,
+   "usedMin": 4000,
+   "usedMedian": 5600,
+   "sites": {
+    "yodobashi": 3460,
+    "rakuten": 3500,
+    "yahoo_shopping": 6052,
+    "mercari": 4000,
+    "yahoo_auction": 7200
    }
   }
  ]
