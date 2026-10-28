@@ -1,0 +1,228 @@
+{
+ "slug": "splatoon-3",
+ "term": "スプラトゥーン3",
+ "date": "2026-10-28",
+ "capturedAt": "2026-10-28T05:37:28.799Z",
+ "sites": [
+  {
+   "site": "rakuten",
+   "label": "楽天市場",
+   "used": false,
+   "count": 15,
+   "min": 4518,
+   "median": 5700,
+   "max": 6198,
+   "items": [
+    {
+     "title": "Switch スプラトゥーン3 (ニンテンドースイッチ)",
+     "price": 4518,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frenet3%2F0013561730%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frenet3%2Fi%2F12849975%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "ネットオフ楽天市場支店",
+     "used": false
+    },
+    {
+     "title": "Switch スプラトゥーン3 (ニンテンドースイッチ)",
+     "price": 4518,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frenet20%2Fr0013561730%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frenet20%2Fi%2F11831761%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "ネットオフ 送料がお得店",
+     "used": false
+    },
+    {
+     "title": "スプラトゥーン 3ソフト:ニンテンドーSwitchソフト／任天堂キャラクター・ゲーム",
+     "price": 4690,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgeoonline1%2F515138602%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fgeoonline1%2Fi%2F11773795%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "ゲオオンラインストア 楽天市場店",
+     "used": false
+    }
+   ]
+  },
+  {
+   "site": "yahoo_shopping",
+   "label": "Yahoo!ショッピング",
+   "used": false,
+   "count": 10,
+   "min": 4518,
+   "median": 5925,
+   "max": 13280,
+   "items": [
+    {
+     "title": "Switch／スプラトゥーン3",
+     "price": 4518,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0013561730.html",
+     "shop": "ネットオフ ヤフー店",
+     "used": false
+    },
+    {
+     "title": "Switch／スプラトゥーン3",
+     "price": 4518,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0013561730.html",
+     "shop": "ネットオフ まとめてお得店",
+     "used": false
+    },
+    {
+     "title": "『中古即納』{Switch} スプラトゥーン3(Splatoon3) 任天堂(20220909)",
+     "price": 4534,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmediaworld-plus%2F10461398001.html",
+     "shop": "メディアワールドプラス",
+     "used": true
+    }
+   ]
+  },
+  {
+   "site": "joshin",
+   "label": "ジョーシン",
+   "used": false,
+   "count": 1,
+   "min": 5780,
+   "median": 5780,
+   "max": 5780,
+   "items": [
+    {
+     "title": "任天堂 スプラトゥーン3 [HAC-P-AV5JA NSW スプラトゥーン3]",
+     "price": 5780,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4902370550337-54-40560-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F13463165%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "Joshin web 家電とPCの大型専門店",
+     "used": false
+    }
+   ]
+  },
+  {
+   "site": "yodobashi",
+   "label": "ヨドバシ.com",
+   "used": false,
+   "count": 2,
+   "min": 5830,
+   "median": 6130,
+   "max": 6430,
+   "items": [
+    {
+     "title": "Splatoon 3 (スプラトゥーン3) [Nintendo Switchソフト]",
+     "price": 5830,
+     "url": "https://www.yodobashi.com/product/100000001007081543/",
+     "shop": "",
+     "used": false
+    },
+    {
+     "title": "Splatoon 3 (スプラトゥーン3) [Nintendo Switchソフト ダウンロード版]",
+     "price": 6430,
+     "url": "https://www.yodobashi.com/product/100000086580112886/",
+     "shop": "",
+     "used": false
+    }
+   ]
+  },
+  {
+   "site": "yahoo_auction",
+   "label": "Yahoo!オークション",
+   "used": true,
+   "count": 12,
+   "min": 2500,
+   "median": 3535,
+   "max": 4000,
+   "items": [
+    {
+     "title": "Switch スプラトゥーン3 ジャンク品",
+     "price": 2500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/q1250032257",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "054/S944★中古★Nintendo Switch スプラトゥーン3",
+     "price": 2500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/w1249906984",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "スプラトゥーン3 Nintendo Switch",
+     "price": 2970,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/c1249783848",
+     "shop": "",
+     "used": true
+    }
+   ]
+  },
+  {
+   "site": "mercari",
+   "label": "メルカリ",
+   "used": true,
+   "count": 12,
+   "min": 3700,
+   "median": 3950,
+   "max": 5555,
+   "items": [
+    {
+     "title": "Nintendo Switch スプラトゥーン3 ソフト",
+     "price": 3700,
+     "url": "https://jp.mercari.com/item/m76408405451",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "※動作確認済みです。スプラトゥーン3 Nintendo Switch ソフト",
+     "price": 3750,
+     "url": "https://jp.mercari.com/item/m54972097909",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "スプラトゥーン3 Nintendo Switch ソフト",
+     "price": 3777,
+     "url": "https://jp.mercari.com/item/m22747309101",
+     "shop": "メルカリ",
+     "used": true
+    }
+   ]
+  }
+ ],
+ "newSummary": {
+  "min": 4518,
+  "minSite": "rakuten",
+  "minLabel": "楽天市場",
+  "minTitle": "Switch スプラトゥーン3 (ニンテンドースイッチ)",
+  "median": 5853,
+  "siteCount": 4,
+  "itemCount": 28
+ },
+ "usedSummary": {
+  "min": 2500,
+  "minSite": "yahoo_auction",
+  "minLabel": "Yahoo!オークション",
+  "minTitle": "Switch スプラトゥーン3 ジャンク品",
+  "median": 3950,
+  "siteCount": 3,
+  "itemCount": 27
+ },
+ "history": [
+  {
+   "date": "2026-10-18",
+   "newMin": 4518,
+   "newMedian": 5817,
+   "usedMin": 3200,
+   "usedMedian": 4335,
+   "sites": {
+    "rakuten": 4518,
+    "yahoo_shopping": 4518,
+    "joshin": 5780,
+    "yodobashi": 5830,
+    "mercari": 3200
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "newMin": 4518,
+   "newMedian": 5853,
+   "usedMin": 2500,
+   "usedMedian": 3950,
+   "sites": {
+    "rakuten": 4518,
+    "yahoo_shopping": 4518,
+    "joshin": 5780,
+    "yodobashi": 5830,
+    "yahoo_auction": 2500,
+    "mercari": 3700
+   }
+  }
+ ]
+}

@@ -28,6 +28,20 @@ const ranking = JSON.parse(
   await readFile(join(ROOT, "src/landing/ranking.json"), "utf8")
 );
 
+// キーワード LP の価格スナップショット（scripts/collect-prices.mjs が毎日更新して
+// commit する data/prices/<slug>.json）。無い語は undefined。
+const prices = new Map();
+for (const k of keywords) {
+  try {
+    prices.set(
+      k.slug,
+      JSON.parse(await readFile(join(ROOT, "data", "prices", `${k.slug}.json`), "utf8"))
+    );
+  } catch {
+    // 未収集（追加直後の語など）。下の priceState() で noindex になる。
+  }
+}
+
 // ランキングの集計期間ラベル（例: 2026年8月）。ranking.json に固定文字列を
 // 持たせると月が変わっても古いままになるので、ビルド時の日付から作る。
 // 画面側（JS 起動後）は src/landing/index.ts の rankingPeriodLabel() が
@@ -567,6 +581,20 @@ body{margin:0;background:#f7f8fa;color:#1f2937;font-family:"Inter","Hiragino San
 .pr-new{color:#2563eb;font-weight:700}
 .pr .pr-more{margin:16px 0 0;font-size:14px}
 .pr .pr-hint{margin:8px 0 0;font-size:13px;color:#6b7280}
+.pr-tbl{width:100%;border-collapse:collapse;background:#fff;border:1px solid #e5e7eb;border-radius:12px;overflow:hidden;font-size:14px}
+.pr-tbl th,.pr-tbl td{padding:10px 12px;border-top:1px solid #f1f3f5;text-align:right;white-space:nowrap}
+.pr-tbl th:first-child,.pr-tbl td:first-child{text-align:left;white-space:normal}
+.pr-tbl thead th{border-top:0;background:#f9fafb;color:#6b7280;font-size:12px;font-weight:600}
+.pr-tbl td.pr-best{color:#b45309;font-weight:700}
+.pr-scroll{overflow-x:auto}
+.pr-items{list-style:none;margin:0;padding:0;background:#fff;border:1px solid #e5e7eb;border-radius:12px;overflow:hidden}
+.pr-items li{display:flex;gap:12px;align-items:baseline;justify-content:space-between;padding:10px 14px;border-top:1px solid #f1f3f5;font-size:14px}
+.pr-items li:first-child{border-top:0}
+.pr-items a{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pr-items b{flex:0 0 auto;font-weight:700;color:#1f2937}
+.pr-items h3{margin:0;font-size:13px;color:#6b7280;font-weight:600}
+.pr-badge{display:inline-block;margin-right:6px;padding:1px 6px;border-radius:6px;background:#f3f4f6;color:#6b7280;font-size:11px;font-weight:600;vertical-align:1px}
+.pr-chart{display:block;width:100%;height:auto;background:#fff;border:1px solid #e5e7eb;border-radius:12px;margin:0 0 12px}
 .pr-ft{background:#fff;border-top:1px solid #e5e7eb;padding:26px 0;margin-top:auto}
 .pr-fnav{display:flex;flex-wrap:wrap;gap:8px 24px;font-size:14px;margin-bottom:12px}
 .pr-fnav a{color:#4b5563}
@@ -584,6 +612,7 @@ body{margin:0;background:#f7f8fa;color:#1f2937;font-family:"Inter","Hiragino San
 .pr-grid{grid-template-columns:1fr}
 .pr-form{flex-direction:column}
 .pr-btn{width:100%}
+.pr-tbl th,.pr-tbl td{padding:10px 8px}
 }
 `.trim();
 
@@ -607,7 +636,8 @@ function prFooter() {
   return `<footer class="pr-ft"><div class="pr-in">
 <nav class="pr-fnav" aria-label="サイト内リンク"><a href="/ranking/">人気検索ランキング</a><a href="/about/">サイトの説明</a><a href="/terms/">利用規約</a><a href="/privacy/">プライバシーポリシー</a></nav>
 <nav class="pr-fcat" aria-label="カテゴリ">${cats}</nav>
-<p>item-search は各オンラインショップの商品情報を横断的に検索・表示する情報提供サービスです。当サイトはAmazonアソシエイト・楽天アフィリエイト・バリューコマース等のアフィリエイトプログラムを利用しており、リンク経由の購入で収益を得ることがあります。商品の販売・取引は各ショップが行います。</p>
+<p>Amazonのアソシエイトとして、item-search.jpは適格販売により収入を得ています。</p>
+<p>item-search は各オンラインショップの商品情報を横断的に検索・表示する情報提供サービスです。当サイトは楽天アフィリエイト・バリューコマース等のアフィリエイトプログラムも利用しており、リンク経由の購入で収益を得ることがあります。商品の販売・取引は各ショップが行います。</p>
 <p>© 2026 item-search.jp — Amazon・楽天市場・Yahoo!ショッピング・メルカリ・Yahoo!オークション・ヨドバシ・ビックカメラ の商標は各社に帰属します。</p>
 </div></footer>`;
 }
@@ -630,8 +660,12 @@ function replaceMeta(html, matcher, replacement) {
 
 // index.html テンプレートの <head> を、指定の title / description / canonical /
 // OGP に置換する。bodyHtml が渡されたら #root に静的本文を差し込む。
-function render(template, { title, description, path, jsonLd, bodyHtml, robots }) {
+function render(
+  template,
+  { title, description, path, canonicalPath, jsonLd, bodyHtml, robots, headHtml }
+) {
   const url = ORIGIN + withSlash(path);
+  const canonical = ORIGIN + withSlash(canonicalPath ?? path);
   let html = template;
 
   if (robots) {
@@ -651,7 +685,7 @@ function render(template, { title, description, path, jsonLd, bodyHtml, robots }
   html = replaceMeta(
     html,
     /<link rel="canonical"[^>]*>/,
-    `<link rel="canonical" href="${esc(url)}" />`
+    `<link rel="canonical" href="${esc(canonical)}" />`
   );
   html = replaceMeta(
     html,
@@ -688,6 +722,8 @@ function render(template, { title, description, path, jsonLd, bodyHtml, robots }
     const tag = `<script type="application/ld+json">${json}</script>`;
     html = html.replace("</head>", `${tag}</head>`);
   }
+
+  if (headHtml) html = html.replace("</head>", `${headHtml}</head>`);
 
   if (bodyHtml) {
     // Vite ビルド後の #root は空。ここにクローラー向けの静的本文を差し込む。
@@ -743,8 +779,207 @@ ${
   });
 }
 
+// ---- 価格スナップショット -------------------------------------------------
+// この日数より古いスナップショットしか無い語は、古い価格を「最安値」として
+// 見せ続けないよう noindex にする（収集が止まった場合の安全弁）。
+const PRICE_STALE_DAYS = 14;
+// インデックス対象にする最低限のデータ量。これ未満は薄いページとして noindex。
+const PRICE_MIN_SITES = 3;
+const PRICE_MIN_ITEMS = 10;
+// 価格推移の表に出す日数。
+const PRICE_HISTORY_ROWS = 14;
+
+const yen = (n) => `${Number(n).toLocaleString("ja-JP")}円`;
+// "2026-10-18" → "2026年10月18日"（short なら "10月18日"）
+function jpDate(iso, short = false) {
+  const [y, m, d] = iso.split("-").map(Number);
+  return short ? `${m}月${d}日` : `${y}年${m}月${d}日`;
+}
+function daysBetween(a, b) {
+  return Math.round((Date.parse(b) - Date.parse(a)) / 86400000);
+}
+
+// キーワード LP をインデックスさせてよいか（＝中身のあるページか）を決める。
+// canonical を持つ重複語は正規ページ側に評価を寄せるので対象外。
+function priceState(k) {
+  if (k.canonical) return { indexable: false, reason: "canonical" };
+  const p = prices.get(k.slug);
+  if (!p) return { indexable: false, reason: "no-data" };
+  const age = daysBetween(p.date, jstTodayISO());
+  if (age > PRICE_STALE_DAYS) return { indexable: false, reason: `stale(${age}d)`, data: p };
+  const sites = p.sites.length;
+  const items = p.sites.reduce((n, s) => n + s.count, 0);
+  if (sites < PRICE_MIN_SITES || items < PRICE_MIN_ITEMS)
+    return { indexable: false, reason: `thin(${sites}sites/${items}items)`, data: p };
+  return { indexable: true, data: p };
+}
+
+function jstTodayISO() {
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Tokyo",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(new Date());
+}
+
+// スナップショットから要約文を作る（ページごとに固有になる本文）。
+// React 側（KeywordLanding）も同じ文をそのまま表示するので、JSON にも入れて渡す。
+function priceSummary(p) {
+  const out = [];
+  const n = p.newSummary;
+  const u = p.usedSummary;
+  const clip = (t) => (t.length > 40 ? t.slice(0, 40) + "…" : t);
+  if (n) {
+    out.push(
+      `${jpDate(p.date)}時点で、item-search.jp が${p.sites.length}サイトを横断して集めた「${p.term}」の掲載価格のうち、ショップ価格の最安は${n.minLabel}の${yen(n.min)}（${clip(n.minTitle)}）でした。ショップ${n.siteCount}サイト・${n.itemCount}件の価格の中央値は${yen(n.median)}です。`
+    );
+  }
+  if (u) {
+    out.push(
+      `中古・フリマでは${u.minLabel}の${yen(u.min)}が最安で、中古${u.itemCount}件の中央値は${yen(u.median)}${
+        n && u.median < n.median ? `。ショップ価格の中央値より${yen(n.median - u.median)}安い水準です` : ""
+      }。`
+    );
+  }
+  // 推移（前回比・期間内の最安）。ショップ最安が取れている日だけで比べる。
+  const hist = (p.history || []).filter((h) => h.newMin);
+  if (n && hist.length >= 2) {
+    const prev = hist.at(-2);
+    const diff = n.min - prev.newMin;
+    const move =
+      diff === 0
+        ? "から変わっていません"
+        : diff < 0
+          ? `から${yen(-diff)}値下がりしました`
+          : `から${yen(diff)}値上がりしました`;
+    const low = hist.reduce((a, b) => (b.newMin < a.newMin ? b : a));
+    out.push(
+      `前回（${jpDate(prev.date, true)}）のショップ最安${yen(prev.newMin)}${move}。記録している${hist.length}日間の最安は${jpDate(low.date, true)}の${yen(low.newMin)}です。`
+    );
+  }
+  return out;
+}
+
+// 価格推移の簡易グラフ（インライン SVG）。数値と日付だけから作るので外部由来の
+// 文字列は入らない。2 日分以上ないと線にならないので null を返す。
+function priceChartSvg(p) {
+  const hist = (p.history || []).slice(-60);
+  const series = [
+    { key: "newMin", color: "#2563eb", label: "ショップ最安" },
+    { key: "usedMin", color: "#9ca3af", label: "中古・フリマ最安", dash: "5 4" },
+  ].filter((s) => hist.filter((h) => h[s.key]).length >= 2);
+  if (series.length === 0) return null;
+  const W = 640, H = 180, L = 64, R = 12, T = 14, B = 34;
+  const vals = series.flatMap((s) => hist.map((h) => h[s.key]).filter(Boolean));
+  let lo = Math.min(...vals), hi = Math.max(...vals);
+  if (lo === hi) { lo *= 0.95; hi *= 1.05; }
+  const x = (i) => L + (hist.length === 1 ? 0 : (i * (W - L - R)) / (hist.length - 1));
+  const y = (v) => T + ((hi - v) * (H - T - B)) / (hi - lo);
+  const lines = series
+    .map((s) => {
+      const pts = hist
+        .map((h, i) => (h[s.key] ? `${x(i).toFixed(1)},${y(h[s.key]).toFixed(1)}` : null))
+        .filter(Boolean)
+        .join(" ");
+      return `<polyline fill="none" stroke="${s.color}" stroke-width="2.5"${
+        s.dash ? ` stroke-dasharray="${s.dash}"` : ""
+      } points="${pts}"/>`;
+    })
+    .join("");
+  const legend = series
+    .map(
+      (s, i) =>
+        `<g transform="translate(${L + i * 150},${H - 8})"><line x1="0" y1="-4" x2="18" y2="-4" stroke="${s.color}" stroke-width="2.5"${
+          s.dash ? ` stroke-dasharray="${s.dash}"` : ""
+        }/><text x="24" y="0">${s.label}</text></g>`
+    )
+    .join("");
+  const axis = [hi, lo]
+    .map((v) => `<text x="${L - 8}" y="${y(v) + 4}" text-anchor="end">${yen(Math.round(v))}</text>`)
+    .join("");
+  const dates = `<text x="${L}" y="${H - B + 16}">${jpDate(hist[0].date, true)}</text><text x="${W - R}" y="${H - B + 16}" text-anchor="end">${jpDate(hist.at(-1).date, true)}</text>`;
+  return `<svg class="pr-chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="「${esc(p.term)}」の最安値の推移" font-size="11" fill="#6b7280"><line x1="${L}" y1="${H - B}" x2="${W - R}" y2="${H - B}" stroke="#e5e7eb"/>${axis}${dates}${lines}${legend}</svg>`;
+}
+
+// 価格推移の表（新しい順に最大 PRICE_HISTORY_ROWS 日）。
+function priceHistoryRows(p) {
+  return (p.history || []).slice(-PRICE_HISTORY_ROWS).reverse();
+}
+
+// 価格セクションの静的 HTML。
+function priceSectionHtml(p) {
+  const summary = priceSummary(p).map((t) => `<p>${esc(t)}</p>`).join("\n");
+  const bestNew = p.newSummary?.min;
+  const bestUsed = p.usedSummary?.min;
+  const rows = p.sites
+    .map(
+      (s) =>
+        `<tr><td>${esc(s.label)}${s.used ? '<span class="pr-sub">（中古・フリマ）</span>' : ""}</td><td${
+          s.min === (s.used ? bestUsed : bestNew) ? ' class="pr-best"' : ""
+        }>${yen(s.min)}</td><td>${yen(s.median)}</td><td>${s.count}件</td></tr>`
+    )
+    .join("\n");
+  const items = p.sites
+    .map(
+      (s) =>
+        `<li><h3>${esc(s.label)}</h3></li>` +
+        s.items
+          .map(
+            (i) =>
+              `<li><a href="${esc(i.url)}" rel="sponsored noopener" target="_blank">${
+                i.used ? '<span class="pr-badge">中古</span>' : ""
+              }${esc(i.title)}</a><b>${yen(i.price)}</b></li>`
+          )
+          .join("")
+    )
+    .join("\n");
+  const chart = priceChartSvg(p);
+  const hist = priceHistoryRows(p)
+    .map(
+      (h) =>
+        `<tr><td>${jpDate(h.date)}</td><td>${h.newMin ? yen(h.newMin) : "-"}</td><td>${
+          h.newMedian ? yen(h.newMedian) : "-"
+        }</td><td>${h.usedMin ? yen(h.usedMin) : "-"}</td></tr>`
+    )
+    .join("\n");
+  return `<section class="pr-sec"><h2>${esc(p.term)}の価格（${jpDate(p.date)}時点）</h2>
+${summary}
+<div class="pr-scroll"><table class="pr-tbl"><thead><tr><th>サイト</th><th>最安</th><th>中央値</th><th>掲載数</th></tr></thead><tbody>
+${rows}
+</tbody></table></div></section>
+<section class="pr-sec"><h2>サイト別の安い商品</h2>
+<ul class="pr-items">
+${items}
+</ul></section>
+<section class="pr-sec"><h2>${esc(p.term)}の最安値の推移</h2>
+${chart ?? `<p class="pr-hint">価格は毎日記録しています。推移のグラフは 2 日分以上のデータがそろうと表示されます。</p>`}
+<div class="pr-scroll"><table class="pr-tbl"><thead><tr><th>日付</th><th>ショップ最安</th><th>ショップ中央値</th><th>中古・フリマ最安</th></tr></thead><tbody>
+${hist}
+</tbody></table></div>
+<p class="pr-hint">${PRICE_NOTE}</p></section>`;
+}
+
+const PRICE_NOTE =
+  "価格は item-search.jp が各ショップの検索結果から毎日自動で取得した時点の税込表示価格で、送料・ポイントは含みません。本体以外の付属品や関連商品はできるだけ除外して集計しています。最新の価格・在庫は必ずリンク先でご確認ください。";
+
+// React 側（KeywordLanding）に渡す価格データ。要約文とグラフもビルド時に作って渡し、
+// 表示ロジックを二重に持たないようにする。
+function pricePayload(k, st, description) {
+  const p = st.data;
+  return {
+    ...p,
+    indexable: st.indexable,
+    description,
+    summary: priceSummary(p),
+    chartSvg: priceChartSvg(p),
+    recent: priceHistoryRows(p),
+    note: PRICE_NOTE,
+  };
+}
+
 // キーワード LP のクローラー向け静的本文。
-function keywordBody(k) {
+function keywordBody(k, st) {
   const related = k.related
     .map(
       (r) =>
@@ -767,6 +1002,7 @@ function keywordBody(k) {
 <div class="pr-body">
 ${paras}
 </div>
+${st.data ? priceSectionHtml(st.data) : ""}
 <section class="pr-sec"><h2>関連キーワード</h2>
 <ul class="pr-tags">${related}</ul></section>
 ${
@@ -779,7 +1015,7 @@ ${
   });
 }
 
-function keywordJsonLd(k) {
+function keywordJsonLd(k, st) {
   const url = `${ORIGIN}/s/${k.slug}/`;
   const cat = categories.find((c) => c.slug === k.category);
   const crumbs = [
@@ -805,6 +1041,7 @@ function keywordJsonLd(k) {
     url,
     description: k.description,
     inLanguage: "ja",
+    ...(st.data ? { dateModified: st.data.date } : {}),
     isPartOf: { "@type": "WebSite", name: "item-search.jp", url: `${ORIGIN}/` },
     breadcrumb: { "@type": "BreadcrumbList", itemListElement: crumbs },
   };
@@ -1033,18 +1270,43 @@ for (const c of categories) {
 }
 
 // キーワード LP
+// 価格データが十分に無い語は noindex,follow にして sitemap から外す（priceState）。
+// canonical を持つ重複語は正規ページを canonical に指定し、sitemap から外す。
+const indexedKeywords = []; // sitemap 用
+const keywordStates = [];
+await mkdir(join(DIST, "data", "prices"), { recursive: true });
 for (const k of keywords) {
+  const st = priceState(k);
+  keywordStates.push(`${k.slug}:${st.indexable ? "index" : st.reason}`);
   const outDir = join(DIST, "s", k.slug);
   await mkdir(outDir, { recursive: true });
+
+  // 価格データは静的 JSON（SPA 遷移時に React が fetch）と、ページ内の埋め込み
+  // （#root の外の <head>。React が描画を差し替えても消えない）の 2 か所に出す。
+  let headHtml;
+  let description = k.description;
+  if (st.data) {
+    // 説明文の先頭に当日の最安値を入れる（検索結果のスニペットで目を引くように）。
+    const n = st.data.newSummary;
+    if (n) description = `【${jpDate(st.data.date, true)}時点 最安${yen(n.min)}】${k.description}`;
+    const json = JSON.stringify(pricePayload(k, st, description)).replaceAll("<", "\\u003c");
+    await writeFile(join(DIST, "data", "prices", `${k.slug}.json`), json, "utf8");
+    headHtml = `<script type="application/json" id="price-data">${json}</script>`;
+  }
+
   const html = render(template, {
     title: k.title,
-    description: k.description,
+    description,
     path: `/s/${k.slug}`,
-    jsonLd: keywordJsonLd(k),
-    bodyHtml: keywordBody(k),
+    canonicalPath: k.canonical ? `/s/${k.canonical}` : undefined,
+    jsonLd: keywordJsonLd(k, st),
+    bodyHtml: keywordBody(k, st),
+    robots: st.indexable || k.canonical ? undefined : "noindex, follow",
+    headHtml,
   });
   await writeFile(join(outDir, "index.html"), html, "utf8");
   written.push(`/s/${k.slug}`);
+  if (st.indexable) indexedKeywords.push({ k, lastmod: st.data.date });
 }
 
 // 人気検索キーワードランキング LP（/ranking = 総合, /ranking/<category> = カテゴリ別）
@@ -1160,11 +1422,12 @@ const urls = [
     priority: "0.8",
     lastmod: updated,
   })),
-  ...keywords.map((k) => ({
+  ...indexedKeywords.map(({ k, lastmod }) => ({
     loc: `${ORIGIN}/s/${k.slug}/`,
-    changefreq: "weekly",
+    changefreq: "daily",
     priority: "0.7",
-    lastmod: kwUpdated,
+    // 価格は毎日変わるので、文言の更新日（kwUpdated）より新しい方を採る。
+    lastmod: [kwUpdated, lastmod].sort().at(-1),
   })),
   ...STATIC_PAGES.map((p) => ({
     loc: ORIGIN + withSlash(p.path),
@@ -1191,3 +1454,7 @@ console.log(
   `prerender: home + ${categories.length} category LP + ${keywords.length} keyword LP + ${rankingPaths.length} ranking LP + ${STATIC_PAGES.length} static pages, sitemap with ${urls.length} URLs`
 );
 console.log("  " + written.join("  "));
+console.log(
+  `prerender: keyword LP index ${indexedKeywords.length}/${keywords.length}  ` +
+    keywordStates.filter((s) => !s.endsWith(":index")).join("  ")
+);

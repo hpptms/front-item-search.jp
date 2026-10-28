@@ -1,0 +1,330 @@
+{
+ "slug": "sumaho",
+ "term": "スマホ",
+ "date": "2026-10-28",
+ "capturedAt": "2026-10-28T05:37:28.799Z",
+ "sites": [
+  {
+   "site": "rakuten",
+   "label": "楽天市場",
+   "used": false,
+   "count": 15,
+   "min": 20290,
+   "median": 35900,
+   "max": 123980,
+   "items": [
+    {
+     "title": "「未開封/未使用/国内版SIMフリー」Galaxy A25 5G 64GB docomo版 au/UQ版 ソフトバンク版 Yモバイル版 SIMフリー版 楽天版 ライトブルー ブルー ブラック 白ロム スマホ 本体 楽天モバイル対応",
+     "price": 20290,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbest1mobile%2Fgalaxya25%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbest1mobile%2Fi%2F10001575%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "デジタルトレーディング",
+     "used": false
+    },
+    {
+     "title": "★楽天ランキング1位獲得 FOSSiBOT S5 S5 Pro SIMフリースマホ 本体 Android 15 16GB+128GB 32GB+256GB/1TB拡張可能 オクタコアプロセッサ 6000mAh 6.88インチ大画面 アンドロ",
+     "price": 21900,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fheystop%2Fs5s%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fheystop%2Fi%2F10000251%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "FOSSiBOT 楽天市場店",
+     "used": false
+    },
+    {
+     "title": "[新品未使用｜SIMフリー] Xiaomi シャオミ Redmi 12 5G 4GB/128GB ｜ au/UQ版 XIG03 ｜ ソフトバンク版 A401XM ｜ simフリー xiaomi スマホ 本体 各色",
+     "price": 21980,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ficockaden%2Fredmi12_5g_au-sb%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ficockaden%2Fi%2F10004105%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "家電問屋 楽天市場店",
+     "used": false
+    }
+   ]
+  },
+  {
+   "site": "yahoo_shopping",
+   "label": "Yahoo!ショッピング",
+   "used": false,
+   "count": 4,
+   "min": 20680,
+   "median": 33900,
+   "max": 47080,
+   "items": [
+    {
+     "title": "motorola モトローラ moto g05(I) フレッシュラベンダー 本体 SIMフリー PB6N0002JP イオンモバイル",
+     "price": 20680,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Faeonmobile%2F2007943979439.html",
+     "shop": "イオンモバイルオンラインショップ",
+     "used": false
+    },
+    {
+     "title": "「新品未使用/国内版SIMフリー」 FUJITSU arrows We3 docomo版 F-52G 4GB/64GB ライトブルー 白ロム スマホ 本体",
+     "price": 24800,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbest1mobile%2Ff-52g-lightblue.html",
+     "shop": "デジタルトレーディング",
+     "used": false
+    },
+    {
+     "title": "iPhone SE 3 第3世代 64GB Aランク スマホ 本体 SIMフリー ミッドナイト レッド スターライト 美品 爆買",
+     "price": 26800,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnicosuma%2Fiphonese3-64-a.html",
+     "shop": "にこスマ",
+     "used": true
+    }
+   ]
+  },
+  {
+   "site": "yodobashi",
+   "label": "ヨドバシ.com",
+   "used": false,
+   "count": 14,
+   "min": 54340,
+   "median": 123475,
+   "max": 299200,
+   "items": [
+    {
+     "title": "AQUOS wish6/6.6インチ/Dimensity 6300/RAM 4GB/ROM 128GB/Android 16/SIMフリースマートフォン/キヌ SH-M36-W",
+     "price": 54340,
+     "url": "https://www.yodobashi.com/product/100000001010197976/",
+     "shop": "",
+     "used": false
+    },
+    {
+     "title": "AQUOS wish6/6.6インチ/Dimensity 6300/RAM 4GB/ROM 128GB/Android 16/SIMフリースマートフォン/ソラ SH-M36-A",
+     "price": 54340,
+     "url": "https://www.yodobashi.com/product/100000001010197974/",
+     "shop": "",
+     "used": false
+    },
+    {
+     "title": "AQUOS sense10/6.1インチ/Snapdragon 7s Gen 3/RAM 6GB/ROM 128GB/Android 16/SIMフリースマートフォン/ライトシルバー SH-M33A-S",
+     "price": 67430,
+     "url": "https://www.yodobashi.com/product/100000001009510855/",
+     "shop": "",
+     "used": false
+    }
+   ]
+  },
+  {
+   "site": "biccamera",
+   "label": "ビックカメラ",
+   "used": false,
+   "count": 13,
+   "min": 57980,
+   "median": 70693,
+   "max": 179800,
+   "items": [
+    {
+     "title": "Xiaomi｜シャオミ REDMI（レッドミ） Note 15 Pro 5G Titanium Gray 8G+256G SIMフリースマートフォン Titanium Gray",
+     "price": 57980,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F6932554470050%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F15335391%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "楽天ビック(ビックカメラ×楽天)",
+     "used": false
+    },
+    {
+     "title": "Xiaomi｜シャオミ REDMI（レッドミ） Note 15 Pro 5G Black 8G+256G SIMフリースマートフォン Black",
+     "price": 57980,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F6932554471408%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F15335392%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "楽天ビック(ビックカメラ×楽天)",
+     "used": false
+    },
+    {
+     "title": "Xiaomi｜シャオミ REDMI（レッドミ） Note 15 Pro 5G Glacier Blue 8G+256G SIMフリースマートフォン Glacier Blue",
+     "price": 57980,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F6932554470043%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F15335390%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "楽天ビック(ビックカメラ×楽天)",
+     "used": false
+    }
+   ]
+  },
+  {
+   "site": "sofmap",
+   "label": "ソフマップ",
+   "used": false,
+   "count": 2,
+   "min": 57980,
+   "median": 57980,
+   "max": 57980,
+   "items": [
+    {
+     "title": "XIAOMI REDMI（レッドミ） Note 15 Pro 5G Black 8G+256G SIMフリースマートフォン Black MZB0M1YJP",
+     "price": 57980,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdtc%2F6932554471408%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdtc%2Fi%2F13152727%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "ソフマップ楽天市場店",
+     "used": false
+    },
+    {
+     "title": "XIAOMI REDMI（レッドミ） Note 15 Pro 5G Titanium Gray 8G+256G SIMフリースマートフォン Titanium Gray MZB0LZ6JP",
+     "price": 57980,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdtc%2F6932554470050%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdtc%2Fi%2F13152102%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "ソフマップ楽天市場店",
+     "used": false
+    }
+   ]
+  },
+  {
+   "site": "edion",
+   "label": "エディオン",
+   "used": false,
+   "count": 18,
+   "min": 59300,
+   "median": 82900,
+   "max": 125000,
+   "items": [
+    {
+     "title": "シャープ SIMフリースマホ[RAM6GB/ROM128GB] AQUOS sense9 シリーズ ブルー SH-M29A-A [SHM29AA]",
+     "price": 59300,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4550556144285%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10873022%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "エディオン 楽天市場店",
+     "used": false
+    },
+    {
+     "title": "シャープ SIMフリースマホ[RAM6GB/ROM128GB] AQUOS sense9 シリーズ ホワイト SH-M29A-W [SHM29AW]",
+     "price": 59300,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4550556144315%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10873027%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "エディオン 楽天市場店",
+     "used": false
+    },
+    {
+     "title": "シャープ SIMフリースマホ[RAM6GB/ROM128GB] AQUOS sense9 シリーズ ブラック SH-M29A-B [SHM29AB]",
+     "price": 59300,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4550556144322%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10873025%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "エディオン 楽天市場店",
+     "used": false
+    }
+   ]
+  },
+  {
+   "site": "joshin",
+   "label": "ジョーシン",
+   "used": false,
+   "count": 1,
+   "min": 77880,
+   "median": 77880,
+   "max": 77880,
+   "items": [
+    {
+     "title": "京セラ 高耐久スマートフォン DuraForce EX （4GB/64GB） KC-S703",
+     "price": 77880,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4960664052936-45-65024-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14294151%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "Joshin web 家電とPCの大型専門店",
+     "used": false
+    }
+   ]
+  },
+  {
+   "site": "mercari",
+   "label": "メルカリ",
+   "used": true,
+   "count": 10,
+   "min": 10000,
+   "median": 21800,
+   "max": 80000,
+   "items": [
+    {
+     "title": "Apple iPhone SE2 64GB SIMフリー",
+     "price": 10000,
+     "url": "https://jp.mercari.com/item/m63028148490",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "完動品SIMフリーiPhoneSE2(第2世代)本体64GB送料込APLK4",
+     "price": 13000,
+     "url": "https://jp.mercari.com/item/m55816848696",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "iPhone XR White 128GB SIMフリー",
+     "price": 14000,
+     "url": "https://jp.mercari.com/item/m75498682734",
+     "shop": "メルカリ",
+     "used": true
+    }
+   ]
+  },
+  {
+   "site": "yahoo_auction",
+   "label": "Yahoo!オークション",
+   "used": true,
+   "count": 3,
+   "min": 19500,
+   "median": 30000,
+   "max": 36500,
+   "items": [
+    {
+     "title": "arrows We2 M07 SIMフリー ライトブルー 楽天端末",
+     "price": 19500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/r1250063556",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "Xiaomi 14T SIMフリー チタンブルー Leicaカメラ搭載 美品",
+     "price": 30000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/n1249057591",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "液晶美品 TORQUE G06 128GB au SIMフリー KYG03 スマートフォン ブラック スマホ本体 中古 A1346",
+     "price": 36500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/b1250009298",
+     "shop": "",
+     "used": true
+    }
+   ]
+  }
+ ],
+ "newSummary": {
+  "min": 20290,
+  "minSite": "rakuten",
+  "minLabel": "楽天市場",
+  "minTitle": "「未開封/未使用/国内版SIMフリー」Galaxy A25 5G 64GB docomo版 au/UQ版 ソフトバンク版 Yモバイル版 SIMフリー版 楽天版 ライトブルー ブルー ブラック 白ロム スマホ 本体 楽天モバイル対応",
+  "median": 70693,
+  "siteCount": 7,
+  "itemCount": 67
+ },
+ "usedSummary": {
+  "min": 10000,
+  "minSite": "mercari",
+  "minLabel": "メルカリ",
+  "minTitle": "Apple iPhone SE2 64GB SIMフリー",
+  "median": 35400,
+  "siteCount": 4,
+  "itemCount": 25
+ },
+ "history": [
+  {
+   "date": "2026-10-18",
+   "newMin": 20680,
+   "newMedian": 70693,
+   "usedMin": 11800,
+   "usedMedian": 30250,
+   "sites": {
+    "yahoo_shopping": 20680,
+    "rakuten": 20980,
+    "biccamera": 57980,
+    "sofmap": 57980,
+    "edion": 59300,
+    "yodobashi": 67430,
+    "joshin": 77880,
+    "mercari": 11800
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "newMin": 20290,
+   "newMedian": 70693,
+   "usedMin": 10000,
+   "usedMedian": 35400,
+   "sites": {
+    "rakuten": 20290,
+    "yahoo_shopping": 20680,
+    "yodobashi": 54340,
+    "biccamera": 57980,
+    "sofmap": 57980,
+    "edion": 59300,
+    "joshin": 77880,
+    "mercari": 10000,
+    "yahoo_auction": 19500
+   }
+  }
+ ]
+}

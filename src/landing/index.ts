@@ -38,6 +38,8 @@ export type Keyword = {
   lead: string;
   body: string[];
   related: string[];
+  /** 重複語のとき、正規ページ側の slug（canonical をそちらへ向ける） */
+  canonical?: string;
 };
 
 export const KEYWORDS: Keyword[] = kwData.keywords;

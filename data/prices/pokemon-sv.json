@@ -1,0 +1,180 @@
+{
+ "slug": "pokemon-sv",
+ "term": "ポケモン スカーレット・バイオレット",
+ "date": "2026-10-28",
+ "capturedAt": "2026-10-28T05:37:28.799Z",
+ "sites": [
+  {
+   "site": "yodobashi",
+   "label": "ヨドバシ.com",
+   "used": false,
+   "count": 5,
+   "min": 3460,
+   "median": 5960,
+   "max": 6430,
+   "items": [
+    {
+     "title": "ポケットモンスター スカーレット・バイオレット ゼロの秘宝 [Nintendo Switchソフト ダウンロード版]",
+     "price": 3460,
+     "url": "https://www.yodobashi.com/product/100000086580113134/",
+     "shop": "",
+     "used": false
+    },
+    {
+     "title": "ポケットモンスター スカーレット [Nintendo Switchソフト]",
+     "price": 5930,
+     "url": "https://www.yodobashi.com/product/100000001007265515/",
+     "shop": "",
+     "used": false
+    },
+    {
+     "title": "ポケットモンスター バイオレット [Nintendo Switchソフト]",
+     "price": 5960,
+     "url": "https://www.yodobashi.com/product/100000001007265516/",
+     "shop": "",
+     "used": false
+    }
+   ]
+  },
+  {
+   "site": "rakuten",
+   "label": "楽天市場",
+   "used": false,
+   "count": 1,
+   "min": 3500,
+   "median": 3500,
+   "max": 3500,
+   "items": [
+    {
+     "title": "[Switch] ポケットモンスター スカーレット・バイオレット ゼロの秘宝 （ダウンロード版）※3,200ポイントまでご利用可",
+     "price": 3500,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frdownload%2F803134439%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frdownload%2Fi%2F18492437%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "楽天ブックス(ダウンロード)",
+     "used": false
+    }
+   ]
+  },
+  {
+   "site": "yahoo_shopping",
+   "label": "Yahoo!ショッピング",
+   "used": false,
+   "count": 1,
+   "min": 6052,
+   "median": 6052,
+   "max": 6052,
+   "items": [
+    {
+     "title": "Game Soft (Nintendo Switch) / ポケットモンスター バイオレット 〔GAME〕",
+     "price": 6052,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fhmv%2F13158416.html",
+     "shop": "HMV&BOOKS online Yahoo!店",
+     "used": false
+    }
+   ]
+  },
+  {
+   "site": "mercari",
+   "label": "メルカリ",
+   "used": true,
+   "count": 2,
+   "min": 4000,
+   "median": 5400,
+   "max": 6800,
+   "items": [
+    {
+     "title": "ポケットモンスター スカーレット Nintendo Switch ソフト",
+     "price": 4000,
+     "url": "https://jp.mercari.com/item/m75776263773",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "Switchソフト ポケットモンスター スカーレット・バイオレット まとめ売り",
+     "price": 6800,
+     "url": "https://jp.mercari.com/item/m15384840490",
+     "shop": "メルカリ",
+     "used": true
+    }
+   ]
+  },
+  {
+   "site": "yahoo_auction",
+   "label": "Yahoo!オークション",
+   "used": true,
+   "count": 3,
+   "min": 4480,
+   "median": 6666,
+   "max": 7200,
+   "items": [
+    {
+     "title": "ストーリーマクロコントローラー マイコン ポケットモンスター スカーレット バイオレット ポケモンSV",
+     "price": 4480,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z712506264",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "①Switch ジョイコン ポケモンSV 左右LR ポケットモンスター スカーレット・バイオレットエディション 赤 紫",
+     "price": 6666,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/q1248693529",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "値下げ！早い者勝ち！ ポケットモンスター スカーレットとバイオレット",
+     "price": 7200,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z711307686",
+     "shop": "",
+     "used": true
+    }
+   ]
+  }
+ ],
+ "newSummary": {
+  "min": 3460,
+  "minSite": "yodobashi",
+  "minLabel": "ヨドバシ.com",
+  "minTitle": "ポケットモンスター スカーレット・バイオレット ゼロの秘宝 [Nintendo Switchソフト ダウンロード版]",
+  "median": 5960,
+  "siteCount": 3,
+  "itemCount": 7
+ },
+ "usedSummary": {
+  "min": 4000,
+  "minSite": "mercari",
+  "minLabel": "メルカリ",
+  "minTitle": "ポケットモンスター スカーレット Nintendo Switch ソフト",
+  "median": 6033,
+  "siteCount": 2,
+  "itemCount": 5
+ },
+ "history": [
+  {
+   "date": "2026-10-18",
+   "newMin": 3460,
+   "newMedian": 5960,
+   "usedMin": 4000,
+   "usedMedian": 7000,
+   "sites": {
+    "yodobashi": 3460,
+    "rakuten": 3500,
+    "yahoo_shopping": 6052,
+    "mercari": 4000
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "newMin": 3460,
+   "newMedian": 5960,
+   "usedMin": 4000,
+   "usedMedian": 6033,
+   "sites": {
+    "yodobashi": 3460,
+    "rakuten": 3500,
+    "yahoo_shopping": 6052,
+    "mercari": 4000,
+    "yahoo_auction": 4480
+   }
+  }
+ ]
+}

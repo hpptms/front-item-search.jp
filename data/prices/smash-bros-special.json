@@ -1,0 +1,247 @@
+{
+ "slug": "smash-bros-special",
+ "term": "大乱闘スマッシュブラザーズ SPECIAL",
+ "date": "2026-10-28",
+ "capturedAt": "2026-10-28T05:37:28.799Z",
+ "sites": [
+  {
+   "site": "rakuten",
+   "label": "楽天市場",
+   "used": false,
+   "count": 15,
+   "min": 5648,
+   "median": 6890,
+   "max": 7524,
+   "items": [
+    {
+     "title": "Switch 大乱闘スマッシュブラザーズ SPECIAL (ニンテンドースイッチ)",
+     "price": 5648,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frenet3%2F0012844120%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frenet3%2Fi%2F11952996%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "ネットオフ楽天市場支店",
+     "used": false
+    },
+    {
+     "title": "Switch 大乱闘スマッシュブラザーズ SPECIAL (ニンテンドースイッチ)",
+     "price": 5648,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frenet20%2Fr0012844120%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frenet20%2Fi%2F10286780%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "ネットオフ 送料がお得店",
+     "used": false
+    },
+    {
+     "title": "[Switch] 大乱闘スマッシュブラザーズ SPECIAL(スペシャル) 任天堂 (20181207)",
+     "price": 5680,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmediaworldkaitoriworld%2F10460193001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmediaworldkaitoriworld%2Fi%2F10237948%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "メディアワールド 販売&買取SHOP",
+     "used": false
+    }
+   ]
+  },
+  {
+   "site": "yahoo_shopping",
+   "label": "Yahoo!ショッピング",
+   "used": false,
+   "count": 12,
+   "min": 6190,
+   "median": 6757,
+   "max": 7520,
+   "items": [
+    {
+     "title": "『中古即納』{Switch} 大乱闘スマッシュブラザーズ SPECIAL(スペシャル) 任天堂 (20181207)",
+     "price": 5425,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmediaworld-plus%2F10460193001.html",
+     "shop": "メディアワールドプラス",
+     "used": true
+    },
+    {
+     "title": "『中古即納』{Switch} 大乱闘スマッシュブラザーズ SPECIAL(スペシャル) 任天堂 (20181207)",
+     "price": 5480,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmedia-world%2F10460193001.html",
+     "shop": "メディアワールド",
+     "used": true
+    },
+    {
+     "title": "大乱闘スマッシュブラザーズ special NintendoSwitchソフト",
+     "price": 6190,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fworldplus01%2Fgame8.html",
+     "shop": "イナズマ商店 Yahoo!ショップ",
+     "used": false
+    }
+   ]
+  },
+  {
+   "site": "edion",
+   "label": "エディオン",
+   "used": false,
+   "count": 1,
+   "min": 6880,
+   "median": 6880,
+   "max": 6880,
+   "items": [
+    {
+     "title": "任天堂 大乱闘スマッシュブラザーズ SPECIAL HACPAAABA [HACPAAABA]",
+     "price": 6880,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4902370540734%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10456323%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "エディオン 楽天市場店",
+     "used": false
+    }
+   ]
+  },
+  {
+   "site": "joshin",
+   "label": "ジョーシン",
+   "used": false,
+   "count": 1,
+   "min": 6890,
+   "median": 6890,
+   "max": 6890,
+   "items": [
+    {
+     "title": "任天堂 大乱闘スマッシュブラザーズ SPECIAL [HAC-P-AAABA NSWスマブラ]",
+     "price": 6890,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4902370540734-54-40560-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F12917357%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "Joshin web 家電とPCの大型専門店",
+     "used": false
+    }
+   ]
+  },
+  {
+   "site": "yodobashi",
+   "label": "ヨドバシ.com",
+   "used": false,
+   "count": 2,
+   "min": 7040,
+   "median": 7380,
+   "max": 7720,
+   "items": [
+    {
+     "title": "大乱闘スマッシュブラザーズ SPECIAL [Nintendo Switchソフト]",
+     "price": 7040,
+     "url": "https://www.yodobashi.com/product/100000001003946348/",
+     "shop": "",
+     "used": false
+    },
+    {
+     "title": "大乱闘スマッシュブラザーズ SPECIAL [Nintendo Switchソフト ダウンロード版]",
+     "price": 7720,
+     "url": "https://www.yodobashi.com/product/100000086580111519/",
+     "shop": "",
+     "used": false
+    }
+   ]
+  },
+  {
+   "site": "yahoo_auction",
+   "label": "Yahoo!オークション",
+   "used": true,
+   "count": 14,
+   "min": 2828,
+   "median": 3885,
+   "max": 5100,
+   "items": [
+    {
+     "title": "「1円スタート」ニンテンドースイッチ 大乱闘スマッシュブラザーズ SPECIAL",
+     "price": 2828,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/h1249207280",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "任天堂 大乱闘スマッシュブラザーズSPECIAL ニンテンドースイッチ用ゲームソフト Nintendo 良好・ 1円スタート",
+     "price": 3100,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/h1248757012",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "LOP Nintendo Switch ソフト 任天堂 ニンテンドー スイッチ 大乱闘スマッシュブラザーズ SPECIAL スマブラ アクションゲーム",
+     "price": 3300,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/x1249298098",
+     "shop": "",
+     "used": true
+    }
+   ]
+  },
+  {
+   "site": "mercari",
+   "label": "メルカリ",
+   "used": true,
+   "count": 18,
+   "min": 3500,
+   "median": 4300,
+   "max": 5333,
+   "items": [
+    {
+     "title": "大乱闘スマッシュブラザーズ SPECIALNintendo Switch ソフト",
+     "price": 3500,
+     "url": "https://jp.mercari.com/item/m63096951307",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "大乱闘スマッシュブラザーズ SPECIAL Switch ソフト",
+     "price": 3980,
+     "url": "https://jp.mercari.com/item/m53638550491",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "Nintendo Switch 大乱闘スマッシュブラザーズ ソフトのみ",
+     "price": 3999,
+     "url": "https://jp.mercari.com/item/m62846928447",
+     "shop": "メルカリ",
+     "used": true
+    }
+   ]
+  }
+ ],
+ "newSummary": {
+  "min": 5648,
+  "minSite": "rakuten",
+  "minLabel": "楽天市場",
+  "minTitle": "Switch 大乱闘スマッシュブラザーズ SPECIAL (ニンテンドースイッチ)",
+  "median": 6890,
+  "siteCount": 5,
+  "itemCount": 31
+ },
+ "usedSummary": {
+  "min": 2828,
+  "minSite": "yahoo_auction",
+  "minLabel": "Yahoo!オークション",
+  "minTitle": "「1円スタート」ニンテンドースイッチ 大乱闘スマッシュブラザーズ SPECIAL",
+  "median": 4300,
+  "siteCount": 3,
+  "itemCount": 35
+ },
+ "history": [
+  {
+   "date": "2026-10-18",
+   "newMin": 5780,
+   "newMedian": 6888,
+   "usedMin": 3300,
+   "usedMedian": 4940,
+   "sites": {
+    "rakuten": 5780,
+    "yahoo_shopping": 6190,
+    "joshin": 6890,
+    "yodobashi": 7040,
+    "mercari": 3300
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "newMin": 5648,
+   "newMedian": 6890,
+   "usedMin": 2828,
+   "usedMedian": 4300,
+   "sites": {
+    "rakuten": 5648,
+    "yahoo_shopping": 6190,
+    "edion": 6880,
+    "joshin": 6890,
+    "yodobashi": 7040,
+    "yahoo_auction": 2828,
+    "mercari": 3500
+   }
+  }
+ ]
+}

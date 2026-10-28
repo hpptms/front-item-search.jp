@@ -1,0 +1,215 @@
+{
+ "slug": "used-pc",
+ "term": "中古PC",
+ "date": "2026-10-28",
+ "capturedAt": "2026-10-28T05:37:28.799Z",
+ "sites": [
+  {
+   "site": "sofmap",
+   "label": "ソフマップ",
+   "used": false,
+   "count": 5,
+   "min": 13285,
+   "median": 22965,
+   "max": 47165,
+   "items": [
+    {
+     "title": "DELL(デル) 〔展示品〕 PCモニター Sシリーズ プラチナシルバー S2721HN-R",
+     "price": 13285,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdtc%2F2133074291666%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdtc%2Fi%2F13178628%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "ソフマップ楽天市場店",
+     "used": false
+    },
+    {
+     "title": "ASUS(エイスース) 〔展示品〕 PCモニター Eye Care VY279HF [27型 ／フルHD(1920×1080) ／ワイド ／100Hz]",
+     "price": 20545,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdtc%2F2133074798578%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdtc%2Fi%2F13178641%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "ソフマップ楽天市場店",
+     "used": false
+    },
+    {
+     "title": "EVICIV HS156PC",
+     "price": 22965,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdtc%2F2133067706320%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdtc%2Fi%2F13167521%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "ソフマップ楽天市場店",
+     "used": false
+    }
+   ]
+  },
+  {
+   "site": "rakuten",
+   "label": "楽天市場",
+   "used": false,
+   "count": 18,
+   "min": 19800,
+   "median": 36300,
+   "max": 92800,
+   "items": [
+    {
+     "title": "訳あり特価｜MS Office 2024 H&B 搭載｜2in1 タッチパネル搭載 中古ノートパソコン Windows11 Office付｜NEC VKT16GVG4 Core i5 第8世代 8250U メモリ 8GB SSD 256GB",
+     "price": 19800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fupc1114%2F10007222%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fupc1114%2Fi%2F10006668%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "中古パソコン 遼南商店",
+     "used": true
+    },
+    {
+     "title": "3000円OFFクーポンあり! 高性能 第8世代 Celeron CPUにアップグレード中! 中古ノートパソコン Windows11 SSD128GB 中古パソコン ノート Windows11 おまかせパソコン 無線LAN DVDドライブ ",
+     "price": 19800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmantubiz%2F10002105%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmantubiz%2Fi%2F10006722%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "マンツウオンラインショップ",
+     "used": true
+    },
+    {
+     "title": "ノートパソコン 中古 パソコン 15.6インチ 最大SSD512GB 最大メモリ16GB Corei5 8世代 Microsoft Office付き Windows11 富士通 Lifebook A579 office搭載 中古ノートパソコ",
+     "price": 22800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flelib%2Fsony-1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flelib%2Fi%2F10000051%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "L.I.B",
+     "used": true
+    }
+   ]
+  },
+  {
+   "site": "yahoo_shopping",
+   "label": "Yahoo!ショッピング",
+   "used": false,
+   "count": 1,
+   "min": 24900,
+   "median": 24900,
+   "max": 24900,
+   "items": [
+    {
+     "title": "爆買 ノートPC パソコン 中古PC Windows11 MSoffice2024 第11世代CPU可 高速SSD メモリ16GB可 無線 テンキ可 カメラ可 HDMI 中古パソコン 大手メーカー 店長厳選",
+     "price": 13890,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fpc-stp%2F003.html",
+     "shop": "パソコン専門店PCーSTP",
+     "used": true
+    },
+    {
+     "title": "ノートパソコン 中古 第8世代CPUCorei3 新品メモリ8GB可 富士通A579等 Office搭載 Win11 中古ノートパソコン MS Office2024 HDMI 中古パソコン 爆買",
+     "price": 13900,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fpc-m%2F202102171126.html",
+     "shop": "パソコン専門店PC-M",
+     "used": true
+    },
+    {
+     "title": "おまかせ 中古デスクトップパソコン Windows11 MicrosoftOffice2024 第4世代〜第10世代 Core i3、i5、i7 メモリ4GB〜16GB SSD128GB USB3.0 22型液晶セット",
+     "price": 13980,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Faoshiro%2Fpc-desk-fujitsu-d586-22set.html",
+     "shop": "中古パソコンショップ Seihan",
+     "used": true
+    }
+   ]
+  },
+  {
+   "site": "mercari",
+   "label": "メルカリ",
+   "used": true,
+   "count": 15,
+   "min": 10000,
+   "median": 18800,
+   "max": 53000,
+   "items": [
+    {
+     "title": "白SSD256⭐️windows11ノートパソコン ホワイト 564",
+     "price": 10000,
+     "url": "https://jp.mercari.com/item/m23329588819",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "東芝dynabookT65/EG Core i7第7世代 15.6型 ノートPC",
+     "price": 10000,
+     "url": "https://jp.mercari.com/item/m80614396602",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "HP 250 G7 Notebook PC / Core i3-1005G1",
+     "price": 11520,
+     "url": "https://jp.mercari.com/item/m53334977242",
+     "shop": "メルカリ",
+     "used": true
+    }
+   ]
+  },
+  {
+   "site": "yahoo_auction",
+   "label": "Yahoo!オークション",
+   "used": true,
+   "count": 11,
+   "min": 10285,
+   "median": 22000,
+   "max": 65000,
+   "items": [
+    {
+     "title": "1円~ Wi-Fi有 バッテリ良好 中古ノートパソコン 東芝 G83/FP Core i5 10310U 8GB 256GB 高速SSD 無線LAN カメラ Windows11 Office 即使用可",
+     "price": 10285,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/d1249348993",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "1円~ Wi-Fi有 バッテリ良好 中古ノートパソコン 富士通 U9310/DX Core i5 10210U 8GB 256GB 高速SSD 無線LAN Windows11 Office済 即使用可",
+     "price": 10725,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/b1249345338",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "1円~ Wi-Fi有 バッテリ良好 中古ノートパソコン NEC VKT10CZG6 Core i5 10210Y 8GB 512GB SSD 無線LAN カメラ Windows11 Office済 即使用可",
+     "price": 10725,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/j1249356312",
+     "shop": "",
+     "used": true
+    }
+   ]
+  }
+ ],
+ "newSummary": {
+  "min": 13285,
+  "minSite": "sofmap",
+  "minLabel": "ソフマップ",
+  "minTitle": "DELL(デル) 〔展示品〕 PCモニター Sシリーズ プラチナシルバー S2721HN-R",
+  "median": 23933,
+  "siteCount": 2,
+  "itemCount": 6
+ },
+ "usedSummary": {
+  "min": 10000,
+  "minSite": "mercari",
+  "minLabel": "メルカリ",
+  "minTitle": "白SSD256⭐️windows11ノートパソコン ホワイト 564",
+  "median": 22400,
+  "siteCount": 4,
+  "itemCount": 61
+ },
+ "history": [
+  {
+   "date": "2026-10-18",
+   "newMin": 15000,
+   "newMedian": 21940,
+   "usedMin": 10600,
+   "usedMedian": 29300,
+   "sites": {
+    "yahoo_shopping": 15000,
+    "rakuten": 19800,
+    "sofmap": 22965,
+    "mercari": 10600
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "newMin": 13285,
+   "newMedian": 23933,
+   "usedMin": 10000,
+   "usedMedian": 22400,
+   "sites": {
+    "sofmap": 13285,
+    "rakuten": 19800,
+    "yahoo_shopping": 24900,
+    "mercari": 10000,
+    "yahoo_auction": 10285
+   }
+  }
+ ]
+}

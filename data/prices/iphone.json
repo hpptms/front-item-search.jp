@@ -1,0 +1,208 @@
+{
+ "slug": "iphone",
+ "term": "iPhone",
+ "date": "2026-10-28",
+ "capturedAt": "2026-10-28T05:37:28.799Z",
+ "sites": [
+  {
+   "site": "sofmap",
+   "label": "ソフマップ",
+   "used": false,
+   "count": 8,
+   "min": 25990,
+   "median": 51571,
+   "max": 75989,
+   "items": [
+    {
+     "title": "Apple(アップル) iPhoneX 256GB シルバー MQC22J／A SIMフリー",
+     "price": 25990,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdtc%2F2133077763955%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdtc%2Fi%2F13176635%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "ソフマップ楽天市場店",
+     "used": false
+    },
+    {
+     "title": "Apple(アップル) iPhoneXS Max 64GB ゴールド MT6T2J／A SIMフリー",
+     "price": 35288,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdtc%2F2133059921953%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdtc%2Fi%2F13114830%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "ソフマップ楽天市場店",
+     "used": false
+    },
+    {
+     "title": "Apple(アップル) iPhone12 128GB ブルー MGHX3J／A SIMフリー",
+     "price": 47781,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdtc%2F2133069455530%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdtc%2Fi%2F13148184%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "ソフマップ楽天市場店",
+     "used": false
+    }
+   ]
+  },
+  {
+   "site": "yahoo_shopping",
+   "label": "Yahoo!ショッピング",
+   "used": false,
+   "count": 2,
+   "min": 97000,
+   "median": 111485,
+   "max": 125969,
+   "items": [
+    {
+     "title": "iPhone SE 3 第3世代 128GB Bランク スマホ 本体 SIMフリー ミッドナイト レッド スターライト 美品 爆買",
+     "price": 30800,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnicosuma%2Fiphonese3-128-b.html",
+     "shop": "にこスマ",
+     "used": true
+    },
+    {
+     "title": "iPhone 12 64GB Aランク スマホ 本体 SIMフリー ブラック ブルー グリーン パープル レッド ホワイト 美品 爆買",
+     "price": 33800,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnicosuma%2Fiphone12-64-a.html",
+     "shop": "にこスマ",
+     "used": true
+    },
+    {
+     "title": "iPhone SE 3 第3世代 128GB Aランク スマホ 本体 SIMフリー ミッドナイト レッド スターライト 美品 爆買",
+     "price": 34800,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnicosuma%2Fiphonese3-128-a.html",
+     "shop": "にこスマ",
+     "used": true
+    }
+   ]
+  },
+  {
+   "site": "rakuten",
+   "label": "楽天市場",
+   "used": false,
+   "count": 3,
+   "min": 123800,
+   "median": 123980,
+   "max": 134800,
+   "items": [
+    {
+     "title": "SIMフリー iPhoneSE 第3世代 スターライト64GB 本体[Dランク] iPhone 中古 送料無料 当社6ヶ月保証",
+     "price": 18700,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fecomo123%2F10010914310641002421d%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fecomo123%2Fi%2F10066298%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "ゴールドモバイル",
+     "used": true
+    },
+    {
+     "title": "iPhone SE 第3世代 2022 SE3 A2782 64GB 128GB スマホ スマートフォン SE3 本体 SIMフリー ミッドナイト レッド スターライト docomo au softbank 美品 にこスマ認定整備済み品(リ",
+     "price": 19800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnicosuma-store%2Fiphonese3-128-a%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnicosuma-store%2Fi%2F10000109%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "にこスマ",
+     "used": true
+    },
+    {
+     "title": "iPhone 11 64GB 128GB 256GB A2221 スマホ スマートフォン 本体 SIMフリー ブラック ホワイト グリーン イエロー パープル (PRODUCT)RED docomo au softbank 美品 にこスマ認",
+     "price": 23800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnicosuma-store%2Fiphone11-128-a%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnicosuma-store%2Fi%2F10000073%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "にこスマ",
+     "used": true
+    }
+   ]
+  },
+  {
+   "site": "mercari",
+   "label": "メルカリ",
+   "used": true,
+   "count": 11,
+   "min": 17000,
+   "median": 27900,
+   "max": 80000,
+   "items": [
+    {
+     "title": "Apple iPhone 12mini ブルー 本体",
+     "price": 17000,
+     "url": "https://jp.mercari.com/item/m19470663555",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "Apple iPhone 11 ホワイト 本体",
+     "price": 19800,
+     "url": "https://jp.mercari.com/item/m98818967830",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "Apple iPhone 13 本体",
+     "price": 21000,
+     "url": "https://jp.mercari.com/item/m13006413841",
+     "shop": "メルカリ",
+     "used": true
+    }
+   ]
+  },
+  {
+   "site": "yahoo_auction",
+   "label": "Yahoo!オークション",
+   "used": true,
+   "count": 2,
+   "min": 35000,
+   "median": 217500,
+   "max": 400000,
+   "items": [
+    {
+     "title": "Apple iPhone 13 128GB SIMフリー",
+     "price": 35000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/n1249219284",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "iPhone Duo 512GB スターホワイト SIMフリー 極美品",
+     "price": 400000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/d1250070682",
+     "shop": "",
+     "used": true
+    }
+   ]
+  }
+ ],
+ "newSummary": {
+  "min": 25990,
+  "minSite": "sofmap",
+  "minLabel": "ソフマップ",
+  "minTitle": "Apple(アップル) iPhoneX 256GB シルバー MQC22J／A SIMフリー",
+  "median": 111485,
+  "siteCount": 3,
+  "itemCount": 13
+ },
+ "usedSummary": {
+  "min": 17000,
+  "minSite": "mercari",
+  "minLabel": "メルカリ",
+  "minTitle": "Apple iPhone 12mini ブルー 本体",
+  "median": 42650,
+  "siteCount": 4,
+  "itemCount": 27
+ },
+ "history": [
+  {
+   "date": "2026-10-18",
+   "newMin": 26458,
+   "newMedian": 129879,
+   "usedMin": 15000,
+   "usedMedian": 23800,
+   "sites": {
+    "sofmap": 26458,
+    "rakuten": 41800,
+    "yahoo_shopping": 223980,
+    "mercari": 15000
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "newMin": 25990,
+   "newMedian": 111485,
+   "usedMin": 17000,
+   "usedMedian": 42650,
+   "sites": {
+    "sofmap": 25990,
+    "yahoo_shopping": 97000,
+    "rakuten": 123800,
+    "mercari": 17000,
+    "yahoo_auction": 35000
+   }
+  }
+ ]
+}

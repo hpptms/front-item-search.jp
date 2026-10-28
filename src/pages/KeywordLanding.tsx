@@ -1,4 +1,4 @@
-import { useEffect, type MouseEvent } from "react";
+import { useEffect, useState, type MouseEvent } from "react";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Chip from "@mui/material/Chip";
@@ -8,19 +8,47 @@ import PageLayout from "./PageLayout";
 import { Link, navigate } from "../router";
 import { applySeo } from "../seo";
 import { Keyword, categoryBySlug } from "../landing";
+import { PriceData, embeddedPrice, fetchPrice } from "../landing/prices";
+import PriceSnapshot from "../components/PriceSnapshot";
 
 // キーワード単位のランディングページ（/s/<slug>）。
 // 「〇〇 最安値 / 価格比較」系の指名検索の受け皿。独自テキスト＋
 // その語での横断検索への強い導線＋関連キーワードを持つ。
 // ビルド時に scripts/prerender.mjs が同じ内容を静的 HTML として書き出す。
 export default function KeywordLanding({ keyword }: { keyword: Keyword }) {
+  // 価格データ。直接開いたページはプリレンダの埋め込みから同期的に読み、
+  // SPA 遷移で来たときは静的 JSON を取りに行く（done=false の間は取得中）。
+  const [price, setPrice] = useState<{ slug: string; data: PriceData | null; done: boolean }>(
+    () => {
+      const data = embeddedPrice(keyword.slug);
+      return { slug: keyword.slug, data, done: data !== null };
+    }
+  );
+  const current = price.slug === keyword.slug ? price : { slug: keyword.slug, data: null, done: false };
+
   useEffect(() => {
+    if (current.done) return;
+    let alive = true;
+    fetchPrice(keyword.slug).then((data) => {
+      if (alive) setPrice({ slug: keyword.slug, data, done: true });
+    });
+    return () => {
+      alive = false;
+    };
+  }, [keyword.slug, current.done]);
+
+  // robots・説明文はプリレンダ（scripts/prerender.mjs の priceState）と同じ判定結果に揃える。
+  // 価格データが無い／薄い語は noindex、canonical を持つ重複語は正規ページを指す。
+  useEffect(() => {
+    if (!current.done) return;
     applySeo({
       title: keyword.title,
-      description: keyword.description,
-      path: `/s/${keyword.slug}`,
+      description: current.data?.description ?? keyword.description,
+      path: `/s/${keyword.canonical ?? keyword.slug}`,
+      robots:
+        keyword.canonical || current.data?.indexable ? undefined : "noindex, follow",
     });
-  }, [keyword]);
+  }, [keyword, current.done, current.data]);
 
   function search(term: string) {
     navigate(`/?q=${encodeURIComponent(term)}`);
@@ -37,6 +65,8 @@ export default function KeywordLanding({ keyword }: { keyword: Keyword }) {
       {keyword.body.map((p, i) => (
         <p key={i}>{p}</p>
       ))}
+
+      {current.data && <PriceSnapshot data={current.data} />}
 
       <Box sx={{ my: 3 }}>
         <Button

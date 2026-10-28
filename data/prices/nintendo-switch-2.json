@@ -1,0 +1,215 @@
+{
+ "slug": "nintendo-switch-2",
+ "term": "Nintendo Switch 2",
+ "date": "2026-10-28",
+ "capturedAt": "2026-10-28T05:37:28.799Z",
+ "sites": [
+  {
+   "site": "rakuten",
+   "label": "楽天市場",
+   "used": false,
+   "count": 17,
+   "min": 54507,
+   "median": 58052,
+   "max": 67860,
+   "items": [
+    {
+     "title": "ニンテンドー『Nintendo switch2 日本語・国内専用』BEE-S-KB6CA ゲーム機本体 1週間保証",
+     "price": 54507,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftakayama78%2F4902370553024%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftakayama78%2Fi%2F11082647%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "高山質店",
+     "used": false
+    },
+    {
+     "title": "Nintendo Switch 2 国内版 BEE-S-KB6CA",
+     "price": 56600,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmobileshop1%2Fw902370553024%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmobileshop1%2Fi%2F10009278%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "モバイル販売",
+     "used": false
+    },
+    {
+     "title": "新品 Nintendo Switch 2 日本語 国内専用 日本国内版 BEE-S-KB6CA ニンテンドー スイッチ2 本体 任天堂 新型 送料無料 任天堂switch2 プレゼント クリスマス",
+     "price": 57072,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falljapan-online-shop%2F4902370553024%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Falljapan-online-shop%2Fi%2F10021278%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "販売一丁目",
+     "used": false
+    }
+   ]
+  },
+  {
+   "site": "yahoo_shopping",
+   "label": "Yahoo!ショッピング",
+   "used": false,
+   "count": 18,
+   "min": 57070,
+   "median": 59055,
+   "max": 65780,
+   "items": [
+    {
+     "title": "Ｎｉｎｔｅｎｄｏ Ｓｗｉｔｃｈ ２ 本体（日本語・国内版） 中古",
+     "price": 50000,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fhhshop%2Fbeeskb6ca-.html",
+     "shop": "Holly&Hock",
+     "used": true
+    },
+    {
+     "title": "Nintendo Switch 2 国内版 BEE-S-KB6CA",
+     "price": 57070,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkaikyou%2Fw902370553024.html",
+     "shop": "モバイル販売",
+     "used": false
+    },
+    {
+     "title": "「訳あり品-外装箱傷あり」新品 Nintendo Switch 2 日本語・国内専用",
+     "price": 57072,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Flight-hikari%2F4902370553024-y.html",
+     "shop": "らいぶshop",
+     "used": false
+    }
+   ]
+  },
+  {
+   "site": "yodobashi",
+   "label": "ヨドバシ.com",
+   "used": false,
+   "count": 4,
+   "min": 59980,
+   "median": 62480,
+   "max": 63490,
+   "items": [
+    {
+     "title": "Nintendo Switch 2（日本語・国内専用） [Nintendo Switch 2 本体]",
+     "price": 59980,
+     "url": "https://www.yodobashi.com/product/100000001009063421/",
+     "shop": "",
+     "used": false
+    },
+    {
+     "title": "Nintendo Switch 2（日本語・国内専用） モンスターハンターワイルズ セット [Nintendo Switch 2 本体]",
+     "price": 61980,
+     "url": "https://www.yodobashi.com/product/100000001010202663/",
+     "shop": "",
+     "used": false
+    },
+    {
+     "title": "Nintendo Switch 2 （日本語・国内専用） ゼルダの伝説 40周年 アニバーサリーエディション [Nintendo Switch 2 本体]",
+     "price": 62980,
+     "url": "https://www.yodobashi.com/product/100000001010200725/",
+     "shop": "",
+     "used": false
+    }
+   ]
+  },
+  {
+   "site": "yahoo_auction",
+   "label": "Yahoo!オークション",
+   "used": true,
+   "count": 11,
+   "min": 40700,
+   "median": 48900,
+   "max": 55000,
+   "items": [
+    {
+     "title": "任天堂 Nintendo Switch 2(BEE-S-KB6CA) 本体 初期化済み ニンテンドースイッチ2",
+     "price": 40700,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/o1249893897",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "Nintendo Switch 2 本体 ブラック系スイッチ２日本語専用",
+     "price": 41000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z711399098",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "Nintendo Switch2 ニンテンドースイッチ2 ジョイコンセット",
+     "price": 43500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z712476186",
+     "shop": "",
+     "used": true
+    }
+   ]
+  },
+  {
+   "site": "mercari",
+   "label": "メルカリ",
+   "used": true,
+   "count": 14,
+   "min": 49000,
+   "median": 51750,
+   "max": 55000,
+   "items": [
+    {
+     "title": "Nintendo Switch 2 日本語・国内専用",
+     "price": 49000,
+     "url": "https://jp.mercari.com/item/m73490193641",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "NintendoSwitch2 本体一式 日本語・国内 欠品なし",
+     "price": 49222,
+     "url": "https://jp.mercari.com/item/m40996019086",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "Nintendo Switch2 本体 日本語・国内専用版",
+     "price": 49300,
+     "url": "https://jp.mercari.com/item/m46548783969",
+     "shop": "メルカリ",
+     "used": true
+    }
+   ]
+  }
+ ],
+ "newSummary": {
+  "min": 54507,
+  "minSite": "rakuten",
+  "minLabel": "楽天市場",
+  "minTitle": "ニンテンドー『Nintendo switch2 日本語・国内専用』BEE-S-KB6CA ゲーム機本体 1週間保証",
+  "median": 59055,
+  "siteCount": 3,
+  "itemCount": 39
+ },
+ "usedSummary": {
+  "min": 40700,
+  "minSite": "yahoo_auction",
+  "minLabel": "Yahoo!オークション",
+  "minTitle": "任天堂 Nintendo Switch 2(BEE-S-KB6CA) 本体 初期化済み ニンテンドースイッチ2",
+  "median": 50000,
+  "siteCount": 3,
+  "itemCount": 26
+ },
+ "history": [
+  {
+   "date": "2026-10-18",
+   "newMin": 55800,
+   "newMedian": 58980,
+   "usedMin": 45000,
+   "usedMedian": 50240,
+   "sites": {
+    "rakuten": 55800,
+    "yahoo_shopping": 57329,
+    "yodobashi": 59980,
+    "mercari": 45000
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "newMin": 54507,
+   "newMedian": 59055,
+   "usedMin": 40700,
+   "usedMedian": 50000,
+   "sites": {
+    "rakuten": 54507,
+    "yahoo_shopping": 57070,
+    "yodobashi": 59980,
+    "yahoo_auction": 40700,
+    "mercari": 49000
+   }
+  }
+ ]
+}
