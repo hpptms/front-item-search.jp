@@ -53,15 +53,12 @@ export default function SiteFooter() {
           ))}
         </Box>
         <Typography variant="caption" color="text.secondary" sx={{ display: "block", lineHeight: 1.8 }}>
-          Amazonのアソシエイトとして、item-search.jpは適格販売により収入を得ています。
-        </Typography>
-        <Typography variant="caption" color="text.secondary" sx={{ display: "block", lineHeight: 1.8 }}>
           item-search は各オンラインショップの商品情報を横断的に検索・表示する情報提供サービスです。
-          当サイトは楽天アフィリエイト・バリューコマース等のアフィリエイトプログラムも利用しており、
+          当サイトは楽天アフィリエイト・バリューコマース等のアフィリエイトプログラムを利用しており、
           リンク経由の購入で収益を得ることがあります。商品の販売・取引は各ショップが行います。
         </Typography>
         <Typography variant="caption" color="text.disabled" sx={{ display: "block", mt: 1 }}>
-          © {"2026"} item-search.jp — Amazon・楽天市場・Yahoo!ショッピング・メルカリ・
+          © {"2026"} item-search.jp — 楽天市場・Yahoo!ショッピング・メルカリ・
           Yahoo!オークション・ヨドバシ・ビックカメラ の商標は各社に帰属します。
         </Typography>
       </Container>

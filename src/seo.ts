@@ -26,9 +26,9 @@ export type SeoMeta = {
 // 固定ルートのメタ情報。動的な /c/<slug> は Landing 側から applySeo() を直接呼ぶ。
 export const ROUTE_SEO: Record<string, SeoMeta> = {
   "/": {
-    title: "商品横断検索 | Amazon・楽天・メルカリを一括比較 - item-search.jp",
+    title: "商品横断検索 | 楽天・Yahoo!・メルカリを一括比較 - item-search.jp",
     description:
-      "Amazon・楽天市場・Yahoo!ショッピング・メルカリ・ヤフオク・ヨドバシ・ビックカメラを横断して一括検索。サイトをまたいで価格を比較し、ほしい商品の最安値を見つけられる無料の通販横断検索サービスです。",
+      "楽天市場・Yahoo!ショッピング・メルカリ・ヤフオク・ヨドバシ・ビックカメラを横断して一括検索。サイトをまたいで価格を比較し、ほしい商品の最安値を見つけられる無料の通販横断検索サービスです。",
     path: "/",
   },
   "/about": {
@@ -54,7 +54,7 @@ export const ROUTE_SEO: Record<string, SeoMeta> = {
   "/ranking": {
     title: "人気検索キーワードランキング | item-search.jp 商品横断検索",
     description:
-      "Amazon・楽天・Yahoo!ショッピング・メルカリ・ヤフオク・ヨドバシを横断検索できる item-search.jp で、いま最も検索されている商品キーワードのランキング。各キーワードから複数サイトの最安値比較に進めます。",
+      "楽天・Yahoo!ショッピング・メルカリ・ヤフオク・ヨドバシを横断検索できる item-search.jp で、いま最も検索されている商品キーワードのランキング。各キーワードから複数サイトの最安値比較に進めます。",
     path: "/ranking",
   },
 };

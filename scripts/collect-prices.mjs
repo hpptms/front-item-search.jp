@@ -49,7 +49,7 @@ const OUTLIER_RATIO = 0.3;
 // フリマ・オークション（中古中心）。新品の最安値とは混ぜずに別集計する。
 const USED_SITES = new Set(["mercari", "yahoo_auction"]);
 // ショップ系サイトでも商品名にこれが入っていれば中古扱いにする
-// （Yahoo!ショッピングの「中古即納」、Amazon の「整備済み品」等）。
+// （Yahoo!ショッピングの「中古即納」、楽天の「整備済み品」等）。
 const USED_TITLE = /中古|整備済|リファービッシュ|再生品|未使用に近い|美品|[A-DＡ-Ｄ]ランク|ジャンク/i;
 
 async function proxySecret() {
@@ -105,16 +105,10 @@ function matches(item, rule = {}) {
   return true;
 }
 
-// 価格を静的ページ・履歴に残さないサイト。Amazon はアソシエイト規約で
-// 商品データの保存・価格履歴化を認めていないため、検索結果の表示だけに留める。
-const EXCLUDED_SITES = new Set(["amazon"]);
-
-// 静的 HTML に載せてよい商品か。広告枠（Amazon の /sspa/ クリック URL）は
-// 期限付きのトラッキング URL で、検索結果の本来の並びでもないので外す。
+// 静的 HTML に載せてよい商品か。
 function usable(item) {
   if (!(item.price > 0) || !item.title || !item.url) return false;
   if (!/^https:\/\//.test(item.url)) return false;
-  if (item.url.includes("/sspa/")) return false;
   return true;
 }
 
@@ -124,7 +118,6 @@ function usable(item) {
 function summarize(res, rule) {
   const sites = [];
   for (const s of res.sites || []) {
-    if (EXCLUDED_SITES.has(s.site)) continue;
     const items = (s.items || [])
       .filter((i) => usable(i) && matches(i, rule))
       .map((i) => {

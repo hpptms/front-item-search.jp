@@ -13,7 +13,7 @@
 #     - connect-src        … 万一 XSS が入っても外部への持ち出し先を絞る
 #   static.cloudflareinsights.com / cloudflareinsights.com は Cloudflare Web Analytics
 #   （Pages が自動で挿入するビーコンとその送信先）。許可しないとコンソールエラーになり計測も動かない。
-#   img-src が https: と広いのは、商品画像が Amazon / 楽天 / メルカリ / ヨドバシ 等の
+#   img-src が https: と広いのは、商品画像が 楽天 / Yahoo! / メルカリ / ヨドバシ 等の
 #   多数の CDN から来るため（ホストを列挙すると画像切れが頻発する）。
 
 /*

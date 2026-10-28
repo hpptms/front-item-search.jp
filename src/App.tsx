@@ -387,7 +387,7 @@ export default function App() {
                 キーワードを入力して、複数サイトを一括検索
               </Typography>
               <Typography variant="caption">
-                Amazon・メルカリ・Yahoo!オークション・ヨドバシ・楽天・ビックカメラ
+                メルカリ・Yahoo!オークション・ヨドバシ・楽天・ビックカメラ
               </Typography>
 
               {/* 人気検索ランキング（linkable asset）への導線。 */}

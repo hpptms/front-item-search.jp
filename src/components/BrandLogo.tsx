@@ -6,7 +6,7 @@ import type { JSX } from "react";
 
 const CJK_FONT = "'Hiragino Sans','Noto Sans JP','Yu Gothic',sans-serif";
 
-// 白背景のワードマーク用ラッパー（Amazon・ヨドバシ・ビックカメラ）。
+// 白背景のワードマーク用ラッパー（ヨドバシ・ビックカメラ）。
 function WhiteBadge({ children }: { children: React.ReactNode }) {
   return (
     <Box
@@ -38,34 +38,6 @@ function SquareBadge({ children }: { children: React.ReactNode }) {
     >
       {children}
     </Box>
-  );
-}
-
-function AmazonLogo() {
-  return (
-    <WhiteBadge>
-      <svg viewBox="0 0 90 32" height={16} style={{ display: "block", width: "auto" }}>
-        <text
-          x={1}
-          y={21}
-          fontFamily="Arial, Helvetica, sans-serif"
-          fontSize={22}
-          fontWeight={700}
-          letterSpacing={-0.5}
-          fill="#232F3E"
-        >
-          amazon
-        </text>
-        <path
-          d="M7 25 Q45 34 84 25"
-          fill="none"
-          stroke="#FF9900"
-          strokeWidth={3}
-          strokeLinecap="round"
-        />
-        <path d="M84 25 l-1 -5 l6 3 z" fill="#FF9900" />
-      </svg>
-    </WhiteBadge>
   );
 }
 
@@ -252,7 +224,6 @@ function EdionLogo() {
 }
 
 const LOGOS: Record<string, () => JSX.Element> = {
-  amazon: AmazonLogo,
   mercari: MercariLogo,
   yahoo_auction: YahooLogo,
   yodobashi: YodobashiLogo,
