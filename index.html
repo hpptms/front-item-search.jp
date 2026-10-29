@@ -87,7 +87,7 @@
 
 <body>
   <div id="root"></div>
-  <!-- 本文は scripts/prerender.mjs が #root にページ固有の静的 HTML を焼き込む（クローラー向け）。
+  <!-- 本文は React が #root に描画する（scripts/prerender.mjs は <head> だけを焼き込む）。
        noscript はページをまたいで同じ内容になるため、重複コンテンツにならない短い案内だけにする。 -->
   <noscript>
     <p>検索機能のご利用には JavaScript を有効にしてください。</p>
