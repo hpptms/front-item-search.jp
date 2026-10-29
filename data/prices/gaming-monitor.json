@@ -1,8 +1,8 @@
 {
  "slug": "gaming-monitor",
  "term": "ゲーミングモニター",
- "date": "2026-10-29",
- "capturedAt": "2026-10-28T20:10:02.609Z",
+ "date": "2026-10-30",
+ "capturedAt": "2026-10-29T20:10:06.323Z",
  "sites": [
   {
    "site": "yahoo_shopping",
@@ -10,7 +10,7 @@
    "used": false,
    "count": 20,
    "min": 10980,
-   "median": 19480,
+   "median": 17980,
    "max": 78980,
    "items": [
     {
@@ -42,7 +42,7 @@
    "used": false,
    "count": 20,
    "min": 11999,
-   "median": 36480,
+   "median": 31480,
    "max": 220000,
    "items": [
     {
@@ -74,8 +74,8 @@
    "used": false,
    "count": 20,
    "min": 14300,
-   "median": 27800,
-   "max": 49980,
+   "median": 31890,
+   "max": 188800,
    "items": [
     {
      "title": "液晶モニター/ASUS Eye Care/24.5型/フルHD（1920×1080）/IPSパネル/ノングレア/120Hz/1ms（MPRT）/HDMI×1 VGA×1/スピーカー内蔵/国内正規品 VA259HGA",
@@ -106,7 +106,7 @@
    "used": false,
    "count": 20,
    "min": 15800,
-   "median": 38768,
+   "median": 44640,
    "max": 217800,
    "items": [
     {
@@ -229,13 +229,45 @@
    ]
   },
   {
+   "site": "mercari",
+   "label": "メルカリ",
+   "used": true,
+   "count": 16,
+   "min": 8000,
+   "median": 10700,
+   "max": 25000,
+   "items": [
+    {
+     "title": "KOORUI 24E4 ゲーミングモニター 24インチ 165Hz",
+     "price": 8000,
+     "url": "https://jp.mercari.com/item/m34138917036",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "付属品全部あり 24インチ ゲーミングモニター 本体",
+     "price": 8300,
+     "url": "https://jp.mercari.com/item/m82027439596",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "FeuVision 24インチ ゲーミングモニター 120Hz",
+     "price": 8500,
+     "url": "https://jp.mercari.com/item/m84606297937",
+     "shop": "メルカリ",
+     "used": true
+    }
+   ]
+  },
+  {
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
    "count": 8,
    "min": 8200,
-   "median": 17628,
-   "max": 28800,
+   "median": 14950,
+   "max": 18000,
    "items": [
     {
      "title": "9024 IO DATA 27型ワイド LDGC271TB フルHD ゲーミングモニター 0.5ms HDMI スピーカー内蔵 非光沢 LED ディスプレイ",
@@ -252,42 +284,10 @@
      "used": true
     },
     {
-     "title": "IODATA GDQ271JA GigaCrysta ゲーミング モニター 液晶 ディスプレイ 27インチ",
-     "price": 12800,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/q1249256946",
+     "title": "Pixio ゲーミングモニター PX278 Wave ブラック 27インチ WQHD解像度 リフレッシュレート180Hz Fast IPSパネル採用 スピーカー内蔵",
+     "price": 10500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/k1249683565",
      "shop": "",
-     "used": true
-    }
-   ]
-  },
-  {
-   "site": "mercari",
-   "label": "メルカリ",
-   "used": true,
-   "count": 17,
-   "min": 8500,
-   "median": 11000,
-   "max": 25000,
-   "items": [
-    {
-     "title": "INNOCN 24.5インチ ゲーミングモニター",
-     "price": 8500,
-     "url": "https://jp.mercari.com/item/m85007118325",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "FeuVision 24インチ ゲーミングモニター 120Hz",
-     "price": 8500,
-     "url": "https://jp.mercari.com/item/m84606297937",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "ピンク Pixio PX246 Wave ゲーミングモニター 23.8インチ",
-     "price": 9290,
-     "url": "https://jp.mercari.com/item/m50832697553",
-     "shop": "メルカリ",
      "used": true
     }
    ]
@@ -303,13 +303,13 @@
   "itemCount": 129
  },
  "usedSummary": {
-  "min": 8200,
-  "minSite": "yahoo_auction",
-  "minLabel": "Yahoo!オークション",
-  "minTitle": "9024 IO DATA 27型ワイド LDGC271TB フルHD ゲーミングモニター 0.5ms HDMI スピーカー内蔵 非光沢 LED ディスプレイ",
-  "median": 14314,
+  "min": 8000,
+  "minSite": "mercari",
+  "minLabel": "メルカリ",
+  "minTitle": "KOORUI 24E4 ゲーミングモニター 24インチ 165Hz",
+  "median": 12825,
   "siteCount": 2,
-  "itemCount": 25
+  "itemCount": 24
  },
  "history": [
   {
@@ -363,6 +363,24 @@
     "joshin": 18867,
     "yahoo_auction": 8200,
     "mercari": 8500
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "newMin": 10980,
+   "newMedian": 37762,
+   "usedMin": 8000,
+   "usedMedian": 12825,
+   "sites": {
+    "yahoo_shopping": 10980,
+    "rakuten": 11999,
+    "yodobashi": 14300,
+    "sofmap": 15800,
+    "biccamera": 17980,
+    "edion": 18000,
+    "joshin": 18867,
+    "mercari": 8000,
+    "yahoo_auction": 8200
    }
   }
  ]

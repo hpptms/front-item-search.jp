@@ -1,17 +1,81 @@
 {
  "slug": "used-pc",
  "term": "中古PC",
- "date": "2026-10-29",
- "capturedAt": "2026-10-28T20:10:02.609Z",
+ "date": "2026-10-30",
+ "capturedAt": "2026-10-29T20:10:06.323Z",
  "sites": [
+  {
+   "site": "rakuten",
+   "label": "楽天市場",
+   "used": false,
+   "count": 18,
+   "min": 19800,
+   "median": 38800,
+   "max": 92800,
+   "items": [
+    {
+     "title": "3000円OFFクーポンあり! 高性能 第8世代 Celeron CPUにアップグレード中! 中古ノートパソコン Windows11 SSD128GB 中古パソコン ノート Windows11 おまかせパソコン 無線LAN DVDドライブ ",
+     "price": 19800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmantubiz%2F10002105%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmantubiz%2Fi%2F10006722%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "マンツウオンラインショップ",
+     "used": true
+    },
+    {
+     "title": "ノートパソコン 中古 パソコン 15.6インチ 最大SSD512GB 最大メモリ16GB Corei5 8世代 Microsoft Office付き Windows11 富士通 Lifebook A579 office搭載 中古ノートパソコ",
+     "price": 22800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flelib%2Fsony-1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flelib%2Fi%2F10000051%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "L.I.B",
+     "used": true
+    },
+    {
+     "title": "レビュー投稿 5年保証｜MS Office 2024 H&B 搭載｜中古ノートパソコン Windows11 Core i5 第8世代 メモリ 8GB SSD 256GB FHD 1,920×1,080 WEBカメラ テンキー DVD 搭載｜",
+     "price": 29800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fupc1114%2Fcorei5-sale%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fupc1114%2Fi%2F10002905%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "中古パソコン 遼南商店",
+     "used": true
+    }
+   ]
+  },
+  {
+   "site": "sofmap",
+   "label": "ソフマップ",
+   "used": false,
+   "count": 3,
+   "min": 22965,
+   "median": 24780,
+   "max": 47165,
+   "items": [
+    {
+     "title": "EVICIV HS156PC",
+     "price": 22965,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdtc%2F2133067706320%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdtc%2Fi%2F13167521%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "ソフマップ楽天市場店",
+     "used": false
+    },
+    {
+     "title": "ASUS(エイスース) 〔展示品〕 PCモニター (タッチパネル) ブラック VT169HE [15.6型 ／フルHD(1920×1080) ／ワイド ／61Hz]",
+     "price": 24780,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdtc%2F2133074444901%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdtc%2Fi%2F13178634%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "ソフマップ楽天市場店",
+     "used": false
+    },
+    {
+     "title": "MSI(エムエスアイ) 〔展示品〕 USB-C接続 PCモニター ウェブカメラ搭載 PRO MP275QPDG [27型 ／WQHD(2560×1440) ／ワイド ／60Hz]",
+     "price": 47165,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdtc%2F2133074444864%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdtc%2Fi%2F13178632%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "ソフマップ楽天市場店",
+     "used": false
+    }
+   ]
+  },
   {
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 17,
-   "min": 11980,
-   "median": 19999,
-   "max": 69300,
+   "count": 2,
+   "min": 23980,
+   "median": 24440,
+   "max": 24900,
    "items": [
     {
      "title": "セール 中古 デスクトップパソコン NEC Mate MKL36B-5 Windows11 Core i3 9100 メモリ8GB SSD128GB DVD-ROM type-C USB3.0 VGA DisplayPort 初期設定 90",
@@ -32,38 +96,6 @@
      "price": 13900,
      "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fpc-m%2F202102171126.html",
      "shop": "パソコン専門店PC-M",
-     "used": true
-    }
-   ]
-  },
-  {
-   "site": "rakuten",
-   "label": "楽天市場",
-   "used": false,
-   "count": 19,
-   "min": 19800,
-   "median": 37800,
-   "max": 92800,
-   "items": [
-    {
-     "title": "訳あり特価｜MS Office 2024 H&B 搭載｜2in1 タッチパネル搭載 中古ノートパソコン Windows11 Office付｜NEC VKT16GVG4 Core i5 第8世代 8250U メモリ 8GB SSD 256GB",
-     "price": 19800,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fupc1114%2F10007222%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fupc1114%2Fi%2F10006668%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "中古パソコン 遼南商店",
-     "used": true
-    },
-    {
-     "title": "3000円OFFクーポンあり! 高性能 第8世代 Celeron CPUにアップグレード中! 中古ノートパソコン Windows11 SSD128GB 中古パソコン ノート Windows11 おまかせパソコン 無線LAN DVDドライブ ",
-     "price": 19800,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmantubiz%2F10002105%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmantubiz%2Fi%2F10006722%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "マンツウオンラインショップ",
-     "used": true
-    },
-    {
-     "title": "ノートパソコン 中古 パソコン 15.6インチ 最大SSD512GB 最大メモリ16GB Corei5 8世代 Microsoft Office付き Windows11 富士通 Lifebook A579 office搭載 中古ノートパソコ",
-     "price": 22800,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flelib%2Fsony-1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flelib%2Fi%2F10000051%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "L.I.B",
      "used": true
     }
    ]
@@ -101,50 +133,25 @@
    ]
   },
   {
-   "site": "mercari",
-   "label": "メルカリ",
-   "used": true,
-   "count": 15,
-   "min": 10800,
-   "median": 23333,
-   "max": 70000,
-   "items": [
-    {
-     "title": "⭐️ノートパソコンTOSHIBA Core i5 i5-6200U メモリ8G",
-     "price": 10800,
-     "url": "https://jp.mercari.com/item/m38290143891",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "第10世代■SSD■LenovoノートPC■Windows11 26H2■504",
-     "price": 15800,
-     "url": "https://jp.mercari.com/item/m59777925138",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "office設定済 東芝/i5第10世代/メモリ8GB/SSD256GB",
-     "price": 15999,
-     "url": "https://jp.mercari.com/item/m37188810725",
-     "shop": "メルカリ",
-     "used": true
-    }
-   ]
-  },
-  {
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 10,
-   "min": 14900,
-   "median": 22776,
+   "count": 8,
+   "min": 10451,
+   "median": 18900,
    "max": 65000,
    "items": [
     {
-     "title": "第10世代 中古品 富士通 ノートパソコン SSD256G office2021 ⑥",
-     "price": 14900,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/e1249959948",
+     "title": "1円~ WiFi有 バッテリ良好 中古ノートパソコン NEC VKT16XZG5 Core i5 8265U 8GB 512GB SSD DVDマルチ 無線LAN Bluetooth Windows11 Office",
+     "price": 10451,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/r1249720394",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "秋セール 大赤字宣言 Wi-Fi有 中古ノートパソコン 東芝 R35/M Core i5 4210U 8GB 500GB 無線LAN Windows11 Office済 即使用可 PC初心者向け",
+     "price": 11000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/t1249328126",
      "shop": "",
      "used": true
     },
@@ -154,34 +161,59 @@
      "url": "https://auctions.yahoo.co.jp/jp/auction/k1249125483",
      "shop": "",
      "used": true
+    }
+   ]
+  },
+  {
+   "site": "mercari",
+   "label": "メルカリ",
+   "used": true,
+   "count": 15,
+   "min": 11500,
+   "median": 17980,
+   "max": 45000,
+   "items": [
+    {
+     "title": "富士通 WA1-B2 i5-7200U 8GBメモリ SSD240GB A27",
+     "price": 11500,
+     "url": "https://jp.mercari.com/item/m14151133305",
+     "shop": "メルカリ",
+     "used": true
     },
     {
-     "title": "中古■15.6型 富士通 LIFEBOOK AH53/B3 [i7-8550U/8GB/SSD:G+HDD:1TB/SD/BD-RE/Win11] 本体のみ★送料無料",
-     "price": 19800,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/u1249349390",
-     "shop": "",
+     "title": "値下げ！Win11,Microsoft office ,一太郎は済み他アプリ入",
+     "price": 12700,
+     "url": "https://jp.mercari.com/item/m48703565301",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "富士通 A574/K 第4世代Core i5 Linuxテスト用 Win11",
+     "price": 12800,
+     "url": "https://jp.mercari.com/item/m91608514450",
+     "shop": "メルカリ",
      "used": true
     }
    ]
   }
  ],
  "newSummary": {
-  "min": 64800,
-  "minSite": "yodobashi",
-  "minLabel": "ヨドバシ.com",
-  "minTitle": "Chromebook CX14/14.0型 /インテル N50/メモリ 8GB /eMMC 64GB/ChromeOS/ピュアグレー CX1405CTA-S60592",
-  "median": 229980,
-  "siteCount": 1,
-  "itemCount": 11
+  "min": 22965,
+  "minSite": "sofmap",
+  "minLabel": "ソフマップ",
+  "minTitle": "EVICIV HS156PC",
+  "median": 24780,
+  "siteCount": 3,
+  "itemCount": 16
  },
  "usedSummary": {
-  "min": 10800,
-  "minSite": "mercari",
-  "minLabel": "メルカリ",
-  "minTitle": "⭐️ノートパソコンTOSHIBA Core i5 i5-6200U メモリ8G",
-  "median": 23055,
+  "min": 10451,
+  "minSite": "yahoo_auction",
+  "minLabel": "Yahoo!オークション",
+  "minTitle": "1円~ WiFi有 バッテリ良好 中古ノートパソコン NEC VKT16XZG5 Core i5 8265U 8GB 512GB SSD DVDマルチ 無線LAN Bluetooth Windows11 Office",
+  "median": 19350,
   "siteCount": 4,
-  "itemCount": 61
+  "itemCount": 56
  },
  "history": [
   {
@@ -223,6 +255,21 @@
     "yodobashi": 64800,
     "mercari": 10800,
     "yahoo_auction": 14900
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "newMin": 22965,
+   "newMedian": 24780,
+   "usedMin": 10451,
+   "usedMedian": 19350,
+   "sites": {
+    "rakuten": 19800,
+    "sofmap": 22965,
+    "yahoo_shopping": 23980,
+    "yodobashi": 64800,
+    "yahoo_auction": 10451,
+    "mercari": 11500
    }
   }
  ]

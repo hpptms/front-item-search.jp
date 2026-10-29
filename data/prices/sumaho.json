@@ -1,17 +1,17 @@
 {
  "slug": "sumaho",
  "term": "スマホ",
- "date": "2026-10-29",
- "capturedAt": "2026-10-28T20:10:02.609Z",
+ "date": "2026-10-30",
+ "capturedAt": "2026-10-29T20:10:06.323Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 15,
+   "count": 14,
    "min": 20290,
-   "median": 35900,
-   "max": 123980,
+   "median": 32850,
+   "max": 97800,
    "items": [
     {
      "title": "「未開封/未使用/国内版SIMフリー」Galaxy A25 5G 64GB docomo版 au/UQ版 ソフトバンク版 Yモバイル版 SIMフリー版 楽天版 ライトブルー ブルー ブラック 白ロム スマホ 本体 楽天モバイル対応",
@@ -28,10 +28,10 @@
      "used": false
     },
     {
-     "title": "[新品未使用｜SIMフリー] Xiaomi シャオミ Redmi 12 5G 4GB/128GB ｜ au/UQ版 XIG03 ｜ ソフトバンク版 A401XM ｜ simフリー xiaomi スマホ 本体 各色",
-     "price": 21980,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ficockaden%2Fredmi12_5g_au-sb%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ficockaden%2Fi%2F10004105%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "家電問屋 楽天市場店",
+     "title": "Samsung Galaxy A25 Galaxy-A25 GalaxyA25 サムスン ギャラクシー A25 本体 スマホ スマートフォン AU版/SoftBank版/ドコモ版 SIMフリー 4GB + 64GB docomo au So",
+     "price": 22600,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgojapanshop%2Fgalaxy-a25%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fgojapanshop%2Fi%2F10002537%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "Go Japan 楽天市場店",
      "used": false
     }
    ]
@@ -43,7 +43,7 @@
    "count": 5,
    "min": 20680,
    "median": 43000,
-   "max": 83490,
+   "max": 47080,
    "items": [
     {
      "title": "motorola モトローラ moto g05(I) フレッシュラベンダー 本体 SIMフリー PB6N0002JP イオンモバイル",
@@ -60,9 +60,9 @@
      "used": false
     },
     {
-     "title": "iPhone SE 3 第3世代 64GB Aランク スマホ 本体 SIMフリー ミッドナイト レッド スターライト 美品 爆買",
+     "title": "iPhone SE 3 第3世代 128GB Cランク スマホ 本体 SIMフリー ミッドナイト レッド スターライト 爆買",
      "price": 26800,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnicosuma%2Fiphonese3-64-a.html",
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnicosuma%2Fiphonese3-128-c.html",
      "shop": "にこスマ",
      "used": true
     }
@@ -72,10 +72,10 @@
    "site": "yodobashi",
    "label": "ヨドバシ.com",
    "used": false,
-   "count": 14,
+   "count": 15,
    "min": 54340,
-   "median": 207460,
-   "max": 299200,
+   "median": 235400,
+   "max": 268400,
    "items": [
     {
      "title": "AQUOS wish6/6.6インチ/Dimensity 6300/RAM 4GB/ROM 128GB/Android 16/SIMフリースマートフォン/キヌ SH-M36-W",
@@ -107,7 +107,7 @@
    "count": 13,
    "min": 57980,
    "median": 70693,
-   "max": 179800,
+   "max": 163456,
    "items": [
     {
      "title": "Xiaomi｜シャオミ REDMI（レッドミ） Note 15 Pro 5G Titanium Gray 8G+256G SIMフリースマートフォン Titanium Gray",
@@ -208,58 +208,58 @@
    ]
   },
   {
-   "site": "mercari",
-   "label": "メルカリ",
+   "site": "yahoo_auction",
+   "label": "Yahoo!オークション",
    "used": true,
-   "count": 10,
-   "min": 16100,
-   "median": 33500,
-   "max": 79800,
+   "count": 2,
+   "min": 12800,
+   "median": 16400,
+   "max": 20000,
    "items": [
     {
-     "title": "iPhone 12本体 SIMフリー",
-     "price": 16100,
-     "url": "https://jp.mercari.com/item/m29959739802",
-     "shop": "メルカリ",
+     "title": "Google Pixel 3a ブラック",
+     "price": 12800,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/f1250241060",
+     "shop": "",
      "used": true
     },
     {
-     "title": "iPhone 11pro 256gb SIMフリー",
-     "price": 23000,
-     "url": "https://jp.mercari.com/item/m87704082592",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "iPhone 11 Pro 本体",
-     "price": 25600,
-     "url": "https://jp.mercari.com/item/m31277739278",
-     "shop": "メルカリ",
+     "title": "Android motorola edge 40 neo 256GB SIMフリー motorola",
+     "price": 20000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/r1250219396",
+     "shop": "",
      "used": true
     }
    ]
   },
   {
-   "site": "yahoo_auction",
-   "label": "Yahoo!オークション",
+   "site": "mercari",
+   "label": "メルカリ",
    "used": true,
-   "count": 2,
-   "min": 20000,
-   "median": 25000,
-   "max": 30000,
+   "count": 12,
+   "min": 16300,
+   "median": 24450,
+   "max": 98000,
    "items": [
     {
-     "title": "OPPO Reno11A CPH2603 SIMフリー ダークグリーン",
-     "price": 20000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/c1249968285",
-     "shop": "",
+     "title": "陸*峰様 iPhone 12本体 SIMフリー",
+     "price": 16300,
+     "url": "https://jp.mercari.com/item/m29959739802",
+     "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Xiaomi 14T SIMフリー チタンブルー Leicaカメラ搭載 美品",
-     "price": 30000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/n1249057591",
-     "shop": "",
+     "title": "iPhone 12 64GB simロックあり",
+     "price": 20000,
+     "url": "https://jp.mercari.com/item/m48204696864",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "SONY Xperia 10 V docomo simフリー ホワイト",
+     "price": 20980,
+     "url": "https://jp.mercari.com/item/m92261862209",
+     "shop": "メルカリ",
      "used": true
     }
    ]
@@ -275,13 +275,13 @@
   "itemCount": 68
  },
  "usedSummary": {
-  "min": 16100,
-  "minSite": "mercari",
-  "minLabel": "メルカリ",
-  "minTitle": "iPhone 12本体 SIMフリー",
-  "median": 37150,
+  "min": 12800,
+  "minSite": "yahoo_auction",
+  "minLabel": "Yahoo!オークション",
+  "minTitle": "Google Pixel 3a ブラック",
+  "median": 31125,
   "siteCount": 4,
-  "itemCount": 23
+  "itemCount": 25
  },
  "history": [
   {
@@ -335,6 +335,24 @@
     "joshin": 77880,
     "mercari": 16100,
     "yahoo_auction": 20000
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "newMin": 20290,
+   "newMedian": 70693,
+   "usedMin": 12800,
+   "usedMedian": 31125,
+   "sites": {
+    "rakuten": 20290,
+    "yahoo_shopping": 20680,
+    "yodobashi": 54340,
+    "biccamera": 57980,
+    "sofmap": 57980,
+    "edion": 59300,
+    "joshin": 77880,
+    "yahoo_auction": 12800,
+    "mercari": 16300
    }
   }
  ]

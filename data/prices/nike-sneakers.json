@@ -1,25 +1,18 @@
 {
  "slug": "nike-sneakers",
  "term": "スニーカー ナイキ",
- "date": "2026-10-29",
- "capturedAt": "2026-10-28T20:10:02.609Z",
+ "date": "2026-10-30",
+ "capturedAt": "2026-10-29T20:10:06.323Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
    "count": 20,
-   "min": 3990,
+   "min": 3999,
    "median": 6990,
-   "max": 16390,
+   "max": 16940,
    "items": [
-    {
-     "title": "ナイキ スター ランナー 5 GS HF7004-002 ジュニア キッズ 子供 スニーカー : ブラック×ホワイト キッズスニーカー 子どもの靴 運動靴 NIKE HF7004 002",
-     "price": 3990,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falpen%2F4921566145%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Falpen%2Fi%2F10496805%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "アルペン楽天市場店",
-     "used": false
-    },
     {
      "title": "ナイキ（NIKE）（メンズ）スポーツシューズ ランニングシューズ ラン デファイ ブルー HM9594-401 スニーカー",
      "price": 3999,
@@ -28,10 +21,17 @@
      "used": false
     },
     {
-     "title": "ナイキ レボリューション 8 イージーオン HQ2414-001 メンズ スニーカー : ブラック×ホワイト メンズシューズ ハンズフリー NIKE HQ2414 001",
+     "title": "最大10％OFFクーポン ナイキ レボリューション 8 イージーオン HQ2414-001 メンズ スニーカー : ブラック×ホワイト メンズシューズ ハンズフリー NIKE HQ2414 001",
      "price": 4230,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falpen%2F4051567515%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Falpen%2Fi%2F10500890%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "アルペン楽天市場店",
+     "used": false
+    },
+    {
+     "title": "ナイキ（NIKE）（メンズ）スポーツシューズ ランニングシューズ レボリューション 8 イージーオン ブラック HQ2414-001 スニーカー",
+     "price": 4390,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsupersportsxebio%2F108934362011%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsupersportsxebio%2Fi%2F21263383%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "SuperSportsXEBIO楽天市場支店",
      "used": false
     }
    ]
@@ -42,7 +42,7 @@
    "used": false,
    "count": 20,
    "min": 4504,
-   "median": 8985,
+   "median": 9810,
    "max": 20130,
    "items": [
     {
@@ -60,9 +60,9 @@
      "used": false
     },
     {
-     "title": "NIKE ナイキ スニーカー メンズ Revolution 8 レボリューション8 HJ9198 003",
-     "price": 4928,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftry-group%2F4-nc-m-hj9198-003.html",
+     "title": "NIKE スニーカー ナイキ デファイ メンズ HM9594 Nike Run Defy",
+     "price": 4790,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftry-group%2F4-nc-m-hm9594-004.html",
      "shop": "つるや 靴のTSURUYA",
      "used": false
     }
@@ -104,29 +104,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 16,
+   "count": 14,
    "min": 3000,
-   "median": 5275,
-   "max": 7980,
+   "median": 5450,
+   "max": 16500,
    "items": [
     {
-     "title": "NIKE AIR MAX ナイキ エアマックス スニーカー ブラック",
+     "title": "NIKE/ナイキ AIR MAX/エアマックス スニーカー ブラック×ホワイト…",
      "price": 3000,
-     "url": "https://jp.mercari.com/item/m15975851386",
+     "url": "https://jp.mercari.com/item/m53564261740",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "NIKE ナイキ ハイカットスニーカー ブラック ホワイト",
+     "title": "NIKE ナイキ スニーカー エアマックスaxis",
      "price": 3000,
-     "url": "https://jp.mercari.com/item/m22001551301",
+     "url": "https://jp.mercari.com/item/m25912898357",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "レディース ナイキ スニーカー 24.5",
-     "price": 3000,
-     "url": "https://jp.mercari.com/item/m97600376624",
+     "title": "Nike ナイキスニーカー",
+     "price": 3300,
+     "url": "https://jp.mercari.com/item/m96955788848",
      "shop": "メルカリ",
      "used": true
     }
@@ -136,29 +136,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 9,
-   "min": 3500,
-   "median": 5400,
-   "max": 8690,
+   "count": 15,
+   "min": 3190,
+   "median": 4500,
+   "max": 7260,
    "items": [
     {
-     "title": "美品★air maxエア マックス エクシー 001ANTNIKEナイキスニーカーシューズ",
-     "price": 3500,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/j1241777215",
+     "title": "NIKE ナイキ 308497-060 AIR JORDAN 4 RETRO ハイカットスニーカー 28 BLACK/FIRE RED-CEMENT GREY メンズ",
+     "price": 3190,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/w1249965500",
      "shop": "",
      "used": true
     },
     {
-     "title": "NIKE ナイキ スニーカー Air Max 97 QS Olympic Rings Pack TOKYO 2020 Lucky Green CI3708-300 ローカット 27.5cm グリーン 靴 ★SS1443",
-     "price": 3960,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/t1239584360",
+     "title": "良品 ナイキ NIKE エアジョーダン1 レトロ ハイ 555088-041 27cm ブラック ブルー メンズ",
+     "price": 3300,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/j1250104140",
      "shop": "",
      "used": true
     },
     {
-     "title": "NIKE / ナイキ × Off-white Air Vapormax スニーカー AA3831-100",
-     "price": 4708,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/p1249778865",
+     "title": "良品 ナイキ NIKE エア マックス2 ライト クイックストライク CJ6200-001 27cm マルチカラー メンズ",
+     "price": 3300,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/g1250103821",
      "shop": "",
      "used": true
     }
@@ -166,10 +166,10 @@
   }
  ],
  "newSummary": {
-  "min": 3990,
+  "min": 3999,
   "minSite": "rakuten",
   "minLabel": "楽天市場",
-  "minTitle": "ナイキ スター ランナー 5 GS HF7004-002 ジュニア キッズ 子供 スニーカー : ブラック×ホワイト キッズスニーカー 子どもの靴 運動靴 NIKE HF7004 002",
+  "minTitle": "ナイキ（NIKE）（メンズ）スポーツシューズ ランニングシューズ ラン デファイ ブルー HM9594-401 スニーカー",
   "median": 7300,
   "siteCount": 3,
   "itemCount": 48
@@ -178,10 +178,10 @@
   "min": 3000,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "NIKE AIR MAX ナイキ エアマックス スニーカー ブラック",
-  "median": 5338,
+  "minTitle": "NIKE/ナイキ AIR MAX/エアマックス スニーカー ブラック×ホワイト…",
+  "median": 4975,
   "siteCount": 2,
-  "itemCount": 25
+  "itemCount": 29
  },
  "history": [
   {
@@ -223,6 +223,20 @@
     "joshin": 5980,
     "mercari": 3000,
     "yahoo_auction": 3500
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "newMin": 3999,
+   "newMedian": 7300,
+   "usedMin": 3000,
+   "usedMedian": 4975,
+   "sites": {
+    "rakuten": 3999,
+    "yahoo_shopping": 4504,
+    "joshin": 5980,
+    "mercari": 3000,
+    "yahoo_auction": 3190
    }
   }
  ]
