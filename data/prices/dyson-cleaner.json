@@ -1,16 +1,16 @@
 {
  "slug": "dyson-cleaner",
  "term": "ダイソン 掃除機",
- "date": "2026-10-30",
- "capturedAt": "2026-10-29T20:10:06.323Z",
+ "date": "2026-10-31",
+ "capturedAt": "2026-10-30T20:10:03.556Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 12,
+   "count": 11,
    "min": 27900,
-   "median": 40800,
+   "median": 39800,
    "max": 68000,
    "items": [
     {
@@ -40,9 +40,9 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 17,
+   "count": 18,
    "min": 27900,
-   "median": 44900,
+   "median": 47190,
    "max": 82280,
    "items": [
     {
@@ -61,7 +61,7 @@
     },
     {
      "title": "掃除機 ハンディクリーナー ダイソン Dyson V8 Focus Clean コードレス掃除機 サイクロン式掃除機 HH15",
-     "price": 32142,
+     "price": 30963,
      "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fdyson%2F447815-01.html",
      "shop": "Dyson公式Yahoo!ショッピング店",
      "used": false
@@ -73,21 +73,21 @@
    "label": "ヨドバシ.com",
    "used": false,
    "count": 14,
-   "min": 34800,
+   "min": 33420,
    "median": 67725,
    "max": 144430,
    "items": [
     {
-     "title": "掃除機 コードレススティッククリーナー Dyson WashG1（ダイソン ウォッシュ ジーワン） 吸引＆水拭き両用 WR01",
-     "price": 34800,
-     "url": "https://www.yodobashi.com/product/100000001008730603/",
+     "title": "掃除機 コードレススティッククリーナー Dyson V8 Slim Fluffy（ダイソンV8 スリムフラフィ） サイクロン式 2.15kg SV25 SLM",
+     "price": 33420,
+     "url": "https://www.yodobashi.com/product/100000001010108865/",
      "shop": "",
      "used": false
     },
     {
-     "title": "掃除機 コードレススティッククリーナー Dyson V8 Slim Fluffy（ダイソンV8 スリムフラフィ） サイクロン式 2.15kg SV25 SLM",
-     "price": 36420,
-     "url": "https://www.yodobashi.com/product/100000001010108865/",
+     "title": "掃除機 コードレススティッククリーナー Dyson WashG1（ダイソン ウォッシュ ジーワン） 吸引＆水拭き両用 WR01",
+     "price": 34800,
+     "url": "https://www.yodobashi.com/product/100000001008730603/",
      "shop": "",
      "used": false
     },
@@ -104,10 +104,10 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 4,
+   "count": 2,
    "min": 17500,
-   "median": 21800,
-   "max": 28000,
+   "median": 22150,
+   "max": 26800,
    "items": [
     {
      "title": "Dyson Digital Slim Fluffy SV18",
@@ -117,16 +117,9 @@
      "used": true
     },
     {
-     "title": "美品 Dyson ダイソン SV19 Omni-glide コードレスクリーナ…",
-     "price": 17600,
-     "url": "https://jp.mercari.com/item/m85771347916",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "新品未開封 Dyson v8 slim fluffy コードレス掃除機 本体",
-     "price": 26000,
-     "url": "https://jp.mercari.com/item/m39518540406",
+     "title": "Dyson V8 Slim Fluffy スティッククリーナー 本体新品",
+     "price": 26800,
+     "url": "https://jp.mercari.com/item/m14885701155",
      "shop": "メルカリ",
      "used": true
     }
@@ -142,9 +135,9 @@
    "max": 22000,
    "items": [
     {
-     "title": "▽未使用品▽ Dyson V8 ダイソン SV25 コードレスクリーナー SV25FFNI2 掃除機 (32226102318767NM)",
+     "title": "Dyson ダイソン Digital Slim Origin (SV18) コードレスクリーナー 掃除機 未使用 未開封 O11828733",
      "price": 22000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/x1249804472",
+     "url": "https://auctions.yahoo.co.jp/jp/auction/m1250373400",
      "shop": "",
      "used": true
     }
@@ -156,7 +149,7 @@
   "minSite": "rakuten",
   "minLabel": "楽天市場",
   "minTitle": "ダイソン Dyson V8 Origin 掃除機 コードレス掃除機 dyson SV25 RD2 ダイソン公式 新品 ダイソン掃除機 スティック掃除機 ハンディクリーナー ハンディ掃除機 コードレス サイクロン 軽量 強力 掃除機ダイソン",
-  "median": 44900,
+  "median": 47190,
   "siteCount": 3,
   "itemCount": 43
  },
@@ -165,9 +158,9 @@
   "minSite": "mercari",
   "minLabel": "メルカリ",
   "minTitle": "Dyson Digital Slim Fluffy SV18",
-  "median": 21900,
+  "median": 22075,
   "siteCount": 2,
-  "itemCount": 5
+  "itemCount": 3
  },
  "history": [
   {
@@ -219,6 +212,20 @@
     "rakuten": 27900,
     "yahoo_shopping": 27900,
     "yodobashi": 34800,
+    "mercari": 17500,
+    "yahoo_auction": 22000
+   }
+  },
+  {
+   "date": "2026-10-31",
+   "newMin": 27900,
+   "newMedian": 47190,
+   "usedMin": 17500,
+   "usedMedian": 22075,
+   "sites": {
+    "rakuten": 27900,
+    "yahoo_shopping": 27900,
+    "yodobashi": 33420,
     "mercari": 17500,
     "yahoo_auction": 22000
    }

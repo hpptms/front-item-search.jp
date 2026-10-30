@@ -1,37 +1,37 @@
 {
  "slug": "zelda-totk",
  "term": "ゼルダの伝説 ティアーズ オブ ザ キングダム",
- "date": "2026-10-30",
- "capturedAt": "2026-10-29T20:10:06.323Z",
+ "date": "2026-10-31",
+ "capturedAt": "2026-10-30T20:10:03.556Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 19,
-   "min": 4880,
-   "median": 7280,
+   "count": 18,
+   "min": 4744,
+   "median": 7130,
    "max": 8150,
    "items": [
+    {
+     "title": "Switch ゼルダの伝説 ティアーズ オブ ザ キングダム (ニンテンドースイッチ)",
+     "price": 4744,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frenet3%2F0013709576%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frenet3%2Fi%2F12961880%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "ネットオフ楽天市場支店",
+     "used": false
+    },
+    {
+     "title": "Switch ゼルダの伝説 ティアーズ オブ ザ キングダム (ニンテンドースイッチ)",
+     "price": 4744,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frenet20%2Fr0013709576%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frenet20%2Fi%2F11986222%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "ネットオフ 送料がお得店",
+     "used": false
+    },
     {
      "title": "[Switch] ゼルダの伝説 Tears of the Kingdom(ティアーズ オブ ザ キングダム) 通常版 任天堂(20230512)",
      "price": 4880,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmediaworldkaitoriworld%2F10461717001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmediaworldkaitoriworld%2Fi%2F10491185%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "メディアワールド 販売&買取SHOP",
-     "used": false
-    },
-    {
-     "title": "ゼルダの伝説 ティアーズ オブ ザ キングダムソフト:ニンテンドーSwitchソフト／任天堂キャラクター・ゲーム",
-     "price": 4920,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgeoonline1%2F515145902%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fgeoonline1%2Fi%2F11806993%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "ゲオオンラインストア 楽天市場店",
-     "used": false
-    },
-    {
-     "title": "Switch ゼルダの伝説 ティアーズ オブ ザ キングダム (ニンテンドースイッチ)",
-     "price": 4970,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frenet3%2F0013709576%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frenet3%2Fi%2F12961880%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "ネットオフ楽天市場支店",
      "used": false
     }
    ]
@@ -41,10 +41,17 @@
    "label": "Yahoo!ショッピング",
    "used": false,
    "count": 13,
-   "min": 4970,
+   "min": 4744,
    "median": 7831,
    "max": 8470,
    "items": [
+    {
+     "title": "Switch／ゼルダの伝説 ティアーズ オブ ザ キングダム",
+     "price": 4744,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0013709576.html",
+     "shop": "ネットオフ まとめてお得店",
+     "used": false
+    },
     {
      "title": "Switch／ゼルダの伝説 ティアーズ オブ ザ キングダム",
      "price": 4970,
@@ -53,15 +60,8 @@
      "used": false
     },
     {
-     "title": "Switch／ゼルダの伝説 ティアーズ オブ ザ キングダム",
-     "price": 4970,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0013709576.html",
-     "shop": "ネットオフ まとめてお得店",
-     "used": false
-    },
-    {
      "title": "Nintendo Switch ニンテンドー スイッチ ゲーム ソフト ゼルダの伝説 Tears of the Kingdom ティアーズ オブ ザ キングダム[ラッピング不可] R-LOGI",
-     "price": 6868,
+     "price": 6776,
      "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsokuteikiya%2F4902370550979.html",
      "shop": "測定の森Yahoo!ショッピング店",
      "used": false
@@ -98,13 +98,13 @@
    "label": "ヨドバシ.com",
    "used": false,
    "count": 4,
-   "min": 7180,
-   "median": 7905,
+   "min": 7290,
+   "median": 8120,
    "max": 8810,
    "items": [
     {
      "title": "ゼルダの伝説 ティアーズ オブ ザ キングダム [Nintendo Switchソフト]",
-     "price": 7180,
+     "price": 7290,
      "url": "https://www.yodobashi.com/product/100000001007643407/",
      "shop": "",
      "used": false
@@ -118,7 +118,7 @@
     },
     {
      "title": "ゼルダの伝説 ティアーズ オブ ザ キングダム Nintendo Switch 2 Edition [Nintendo Switch 2 ソフト]",
-     "price": 7990,
+     "price": 8420,
      "url": "https://www.yodobashi.com/product/100000001009063439/",
      "shop": "",
      "used": false
@@ -165,22 +165,15 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 10,
-   "min": 2860,
-   "median": 3080,
-   "max": 7100,
+   "count": 11,
+   "min": 2600,
+   "median": 3850,
+   "max": 4100,
    "items": [
     {
-     "title": "★中古★Nintendo Switchソフト ゼルダの伝説 ティアーズ オブ ザ キングダム (ティアキン)★",
-     "price": 2860,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/n1249802397",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "Nintendo Switch ゼルダの伝説 ティアーズ オブ ザ キングダム ティアキン 任天堂 スイッチ ソフト",
-     "price": 2910,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/w1249975542",
+     "title": "ゼルダの伝説 ティアーズ オブ ザ キングダム [通常版]",
+     "price": 2600,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/b1249791625",
      "shop": "",
      "used": true
     },
@@ -190,6 +183,13 @@
      "url": "https://auctions.yahoo.co.jp/jp/auction/u1249699142",
      "shop": "",
      "used": true
+    },
+    {
+     "title": "★☆Nintendo Switch ゼルダの伝説 ティアーズ オブ ザ キングダム☆★",
+     "price": 3000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/v1249853912",
+     "shop": "",
+     "used": true
     }
    ]
   },
@@ -197,29 +197,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 14,
-   "min": 3500,
+   "count": 13,
+   "min": 3800,
    "median": 4000,
-   "max": 6980,
+   "max": 6800,
    "items": [
-    {
-     "title": "ゼルダの伝説 ティアーズ オブ ザ キングダム Nintendo Switch",
-     "price": 3500,
-     "url": "https://jp.mercari.com/item/m16645802050",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "ゼルダの伝説 ティアーズ オブ ザ キングダム Nintendo Switch",
-     "price": 3799,
-     "url": "https://jp.mercari.com/item/m17537680026",
-     "shop": "メルカリ",
-     "used": true
-    },
     {
      "title": "ゼルダの伝説 ティアーズ オブ ザ キングダム Switch ソフト",
      "price": 3800,
-     "url": "https://jp.mercari.com/item/m14073409230",
+     "url": "https://jp.mercari.com/item/m16760556679",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "ゼルダの伝説 ティアーズ オブ ザ キングダム Nintendo Switch",
+     "price": 3950,
+     "url": "https://jp.mercari.com/item/m69648635314",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "ゼルダの伝説 ティアーズ オブ ザ キングダム Nintendo Switch",
+     "price": 3999,
+     "url": "https://jp.mercari.com/item/m61184435768",
      "shop": "メルカリ",
      "used": true
     }
@@ -227,19 +227,19 @@
   }
  ],
  "newSummary": {
-  "min": 4880,
+  "min": 4744,
   "minSite": "rakuten",
   "minLabel": "楽天市場",
-  "minTitle": "[Switch] ゼルダの伝説 Tears of the Kingdom(ティアーズ オブ ザ キングダム) 通常版 任天堂(20230512)",
+  "minTitle": "Switch ゼルダの伝説 ティアーズ オブ ザ キングダム (ニンテンドースイッチ)",
   "median": 7831,
   "siteCount": 6,
-  "itemCount": 40
+  "itemCount": 39
  },
  "usedSummary": {
-  "min": 2860,
+  "min": 2600,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "★中古★Nintendo Switchソフト ゼルダの伝説 ティアーズ オブ ザ キングダム (ティアキン)★",
+  "minTitle": "ゼルダの伝説 ティアーズ オブ ザ キングダム [通常版]",
   "median": 4000,
   "siteCount": 3,
   "itemCount": 25
@@ -309,6 +309,23 @@
     "biccamera": 8470,
     "yahoo_auction": 2860,
     "mercari": 3500
+   }
+  },
+  {
+   "date": "2026-10-31",
+   "newMin": 4744,
+   "newMedian": 7831,
+   "usedMin": 2600,
+   "usedMedian": 4000,
+   "sites": {
+    "rakuten": 4744,
+    "yahoo_shopping": 4744,
+    "joshin": 6890,
+    "yodobashi": 7290,
+    "edion": 7830,
+    "biccamera": 8470,
+    "yahoo_auction": 2600,
+    "mercari": 3800
    }
   }
  ]

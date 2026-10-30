@@ -1,25 +1,18 @@
 {
  "slug": "nike-sneakers",
  "term": "スニーカー ナイキ",
- "date": "2026-10-30",
- "capturedAt": "2026-10-29T20:10:06.323Z",
+ "date": "2026-10-31",
+ "capturedAt": "2026-10-30T20:10:03.556Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
    "count": 20,
-   "min": 3999,
+   "min": 4230,
    "median": 6990,
-   "max": 16940,
+   "max": 10780,
    "items": [
-    {
-     "title": "ナイキ（NIKE）（メンズ）スポーツシューズ ランニングシューズ ラン デファイ ブルー HM9594-401 スニーカー",
-     "price": 3999,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsupersportsxebio%2F108934361011%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsupersportsxebio%2Fi%2F21265437%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "SuperSportsXEBIO楽天市場支店",
-     "used": false
-    },
     {
      "title": "最大10％OFFクーポン ナイキ レボリューション 8 イージーオン HQ2414-001 メンズ スニーカー : ブラック×ホワイト メンズシューズ ハンズフリー NIKE HQ2414 001",
      "price": 4230,
@@ -33,6 +26,13 @@
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsupersportsxebio%2F108934362011%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsupersportsxebio%2Fi%2F21263383%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "SuperSportsXEBIO楽天市場支店",
      "used": false
+    },
+    {
+     "title": "最大10％OFFクーポン ナイキ レボリューション 8 イージーオン HQ2414-003 メンズ スニーカー : ブラック×ブラック メンズシューズ ハンズフリー NIKE HQ2414 003",
+     "price": 4490,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falpen%2F4051567615%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Falpen%2Fi%2F10501549%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "アルペン楽天市場店",
+     "used": false
     }
    ]
   },
@@ -42,7 +42,7 @@
    "used": false,
    "count": 20,
    "min": 4504,
-   "median": 9810,
+   "median": 6990,
    "max": 20130,
    "items": [
     {
@@ -60,9 +60,9 @@
      "used": false
     },
     {
-     "title": "NIKE スニーカー ナイキ デファイ メンズ HM9594 Nike Run Defy",
-     "price": 4790,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftry-group%2F4-nc-m-hm9594-004.html",
+     "title": "NIKE ナイキ スニーカー メンズ Revolution 8 レボリューション8 HJ9198 003",
+     "price": 4928,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftry-group%2F4-nc-m-hj9198-003.html",
      "shop": "つるや 靴のTSURUYA",
      "used": false
     }
@@ -92,43 +92,11 @@
      "used": false
     },
     {
-     "title": "フットマーク ナイキ スニーカーエンブロイデッド7ボレーショーツ（ウルフグレー・サイズ：L） NESSF507-N054-L FOOTMARK NIKE SWIM 水着",
+     "title": "フットマーク ナイキ スニーカーエンブロイデッド7ボレーショーツ（ダスティカクタス・サイズ：L） NESSF507-N463-L FOOTMARK NIKE SWIM 水着",
      "price": 5980,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F0032219640265-36-49338-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14887676%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F0032219631171-36-49338-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14839351%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "Joshin web 家電とPCの大型専門店",
      "used": false
-    }
-   ]
-  },
-  {
-   "site": "mercari",
-   "label": "メルカリ",
-   "used": true,
-   "count": 14,
-   "min": 3000,
-   "median": 5450,
-   "max": 16500,
-   "items": [
-    {
-     "title": "NIKE/ナイキ AIR MAX/エアマックス スニーカー ブラック×ホワイト…",
-     "price": 3000,
-     "url": "https://jp.mercari.com/item/m53564261740",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "NIKE ナイキ スニーカー エアマックスaxis",
-     "price": 3000,
-     "url": "https://jp.mercari.com/item/m25912898357",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "Nike ナイキスニーカー",
-     "price": 3300,
-     "url": "https://jp.mercari.com/item/m96955788848",
-     "shop": "メルカリ",
-     "used": true
     }
    ]
   },
@@ -136,52 +104,84 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 15,
-   "min": 3190,
-   "median": 4500,
-   "max": 7260,
+   "count": 11,
+   "min": 3780,
+   "median": 5017,
+   "max": 13000,
    "items": [
     {
-     "title": "NIKE ナイキ 308497-060 AIR JORDAN 4 RETRO ハイカットスニーカー 28 BLACK/FIRE RED-CEMENT GREY メンズ",
-     "price": 3190,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/w1249965500",
+     "title": "NIKE ナイキ スニーカー ワイド シューズ 靴 レボリューション7 ブラック ホワイト レディース 24cm",
+     "price": 3780,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z710208638",
      "shop": "",
      "used": true
     },
     {
-     "title": "良品 ナイキ NIKE エアジョーダン1 レトロ ハイ 555088-041 27cm ブラック ブルー メンズ",
-     "price": 3300,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/j1250104140",
+     "title": "NIKE ナイキ SB HERITAGE ヘリテージ VULC スニーカー 27cm",
+     "price": 3800,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/g1246238801",
      "shop": "",
      "used": true
     },
     {
-     "title": "良品 ナイキ NIKE エア マックス2 ライト クイックストライク CJ6200-001 27cm マルチカラー メンズ",
-     "price": 3300,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/g1250103821",
+     "title": "NIKE ナイキ LD-1000 SE スニーカー 27cm ※訳あり",
+     "price": 3800,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/t1249700309",
      "shop": "",
+     "used": true
+    }
+   ]
+  },
+  {
+   "site": "mercari",
+   "label": "メルカリ",
+   "used": true,
+   "count": 15,
+   "min": 3980,
+   "median": 5200,
+   "max": 13200,
+   "items": [
+    {
+     "title": "NIKE キッズスニーカー 15cm 白 ナイキ 保育園 運動靴 新品",
+     "price": 3980,
+     "url": "https://jp.mercari.com/item/m39633967301",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "スニーカー DUNK HIGH UPナイキ ダンク 25cm",
+     "price": 3990,
+     "url": "https://jp.mercari.com/item/m88736379350",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "NIKE スニーカー ホワイト ブラック",
+     "price": 3999,
+     "url": "https://jp.mercari.com/item/m88895943815",
+     "shop": "メルカリ",
      "used": true
     }
    ]
   }
  ],
  "newSummary": {
-  "min": 3999,
+  "min": 4230,
   "minSite": "rakuten",
   "minLabel": "楽天市場",
-  "minTitle": "ナイキ（NIKE）（メンズ）スポーツシューズ ランニングシューズ ラン デファイ ブルー HM9594-401 スニーカー",
-  "median": 7300,
+  "minTitle": "最大10％OFFクーポン ナイキ レボリューション 8 イージーオン HQ2414-001 メンズ スニーカー : ブラック×ホワイト メンズシューズ ハンズフリー NIKE HQ2414 001",
+  "median": 6990,
   "siteCount": 3,
   "itemCount": 48
  },
  "usedSummary": {
-  "min": 3000,
-  "minSite": "mercari",
-  "minLabel": "メルカリ",
-  "minTitle": "NIKE/ナイキ AIR MAX/エアマックス スニーカー ブラック×ホワイト…",
-  "median": 4975,
+  "min": 3780,
+  "minSite": "yahoo_auction",
+  "minLabel": "Yahoo!オークション",
+  "minTitle": "NIKE ナイキ スニーカー ワイド シューズ 靴 レボリューション7 ブラック ホワイト レディース 24cm",
+  "median": 5109,
   "siteCount": 2,
-  "itemCount": 29
+  "itemCount": 26
  },
  "history": [
   {
@@ -237,6 +237,20 @@
     "joshin": 5980,
     "mercari": 3000,
     "yahoo_auction": 3190
+   }
+  },
+  {
+   "date": "2026-10-31",
+   "newMin": 4230,
+   "newMedian": 6990,
+   "usedMin": 3780,
+   "usedMedian": 5109,
+   "sites": {
+    "rakuten": 4230,
+    "yahoo_shopping": 4504,
+    "joshin": 5980,
+    "yahoo_auction": 3780,
+    "mercari": 3980
    }
   }
  ]

@@ -1,8 +1,8 @@
 {
  "slug": "kirby-discovery",
  "term": "星のカービィ ディスカバリー",
- "date": "2026-10-30",
- "capturedAt": "2026-10-29T20:10:06.323Z",
+ "date": "2026-10-31",
+ "capturedAt": "2026-10-30T20:10:03.556Z",
  "sites": [
   {
    "site": "rakuten",
@@ -29,7 +29,7 @@
     },
     {
      "title": "Switch 星のカービィ ディスカバリー (ニンテンドースイッチ)",
-     "price": 4292,
+     "price": 4518,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frenet3%2F0013441182%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frenet3%2Fi%2F12754968%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "ネットオフ楽天市場支店",
      "used": false
@@ -54,7 +54,7 @@
     },
     {
      "title": "Switch／星のカービィ ディスカバリー",
-     "price": 4292,
+     "price": 4518,
      "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0013441182.html",
      "shop": "ネットオフ まとめてお得店",
      "used": false
@@ -117,7 +117,7 @@
    "used": false,
    "count": 4,
    "min": 5740,
-   "median": 7105,
+   "median": 7170,
    "max": 8400,
    "items": [
     {
@@ -136,7 +136,7 @@
     },
     {
      "title": "星のカービィ ディスカバリー Nintendo Switch 2 Edition ＋ スターリーワールド [Nintendo Switch 2 ソフト]",
-     "price": 7790,
+     "price": 7920,
      "url": "https://www.yodobashi.com/product/100000001009063442/",
      "shop": "",
      "used": false
@@ -165,9 +165,9 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 15,
+   "count": 14,
    "min": 3000,
-   "median": 4000,
+   "median": 3790,
    "max": 6325,
    "items": [
     {
@@ -178,16 +178,16 @@
      "used": true
     },
     {
-     "title": "Nintendo Switch 星のカービィ ディスカバリー ソフトのみ 最安値",
-     "price": 3349,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z702290046",
+     "title": "Nintendo Switch 星のカービィ ディスカバリー ソフトのみ",
+     "price": 3299,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z714246060",
      "shop": "",
      "used": true
     },
     {
-     "title": "ソフトのみ Switch 星のカービィディスカバリー",
-     "price": 3380,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z712075938",
+     "title": "Nintendo Switch 星のカービィ ディスカバリー ソフトのみ",
+     "price": 3300,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z714230002",
      "shop": "",
      "used": true
     }
@@ -197,10 +197,10 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 17,
+   "count": 16,
    "min": 3429,
-   "median": 3800,
-   "max": 7580,
+   "median": 4000,
+   "max": 7990,
    "items": [
     {
      "title": "ニンテンドースイッチソフト 星のカービィ ディスカバリー",
@@ -210,16 +210,16 @@
      "used": true
     },
     {
-     "title": "星のカービィ ディスカバリー Nintendo Switch",
-     "price": 3549,
-     "url": "https://jp.mercari.com/item/m78833336184",
+     "title": "星のカービィ ディスカバリー Switch",
+     "price": 3499,
+     "url": "https://jp.mercari.com/item/m82555388392",
      "shop": "メルカリ",
      "used": true
     },
     {
      "title": "星のカービィ ディスカバリー Switch",
-     "price": 3550,
-     "url": "https://jp.mercari.com/item/m82555388392",
+     "price": 3500,
+     "url": "https://jp.mercari.com/item/m15836792700",
      "shop": "メルカリ",
      "used": true
     }
@@ -231,7 +231,7 @@
   "minSite": "rakuten",
   "minLabel": "楽天市場",
   "minTitle": "任天堂『星のカービィ ディスカバリー』switch ゲームソフト 1週間保証",
-  "median": 6908,
+  "median": 6940,
   "siteCount": 6,
   "itemCount": 42
  },
@@ -240,9 +240,9 @@
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
   "minTitle": "Switchソフト 星のカービィ ディスカバリー",
-  "median": 3900,
+  "median": 3895,
   "siteCount": 2,
-  "itemCount": 32
+  "itemCount": 30
  },
  "history": [
   {
@@ -301,6 +301,23 @@
    "newMedian": 6908,
    "usedMin": 3000,
    "usedMedian": 3900,
+   "sites": {
+    "rakuten": 3975,
+    "yahoo_shopping": 4292,
+    "joshin": 5720,
+    "edion": 5720,
+    "yodobashi": 5740,
+    "biccamera": 8140,
+    "yahoo_auction": 3000,
+    "mercari": 3429
+   }
+  },
+  {
+   "date": "2026-10-31",
+   "newMin": 3975,
+   "newMedian": 6940,
+   "usedMin": 3000,
+   "usedMedian": 3895,
    "sites": {
     "rakuten": 3975,
     "yahoo_shopping": 4292,

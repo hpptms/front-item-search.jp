@@ -1,17 +1,17 @@
 {
  "slug": "macbook",
  "term": "MacBook",
- "date": "2026-10-30",
- "capturedAt": "2026-10-29T20:10:06.323Z",
+ "date": "2026-10-31",
+ "capturedAt": "2026-10-30T20:10:03.556Z",
  "sites": [
   {
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 9,
+   "count": 8,
    "min": 118000,
-   "median": 144980,
-   "max": 208335,
+   "median": 140205,
+   "max": 207730,
    "items": [
     {
      "title": "マックブック 中古 Apple MacBook/Air/Pro11〜15インチ Intel Core i5/i7/m3/m5/m7(第4〜7世代)メモリ8/16GB SSD128/256GB シルバ/グレー WIFI/Bluetooth/カ",
@@ -29,7 +29,7 @@
     },
     {
      "title": "MacBook Neo 256GB SSD 8GB メモリ Apple A18 Proチップ MHFA4J/A 13インチ 6コア シルバー Liquid Retina ディスプレイ 新品 13型 MHFA4JA アップル",
-     "price": 123510,
+     "price": 121910,
      "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftry3%2F4549995664591.html",
      "shop": "トライスリー",
      "used": false
@@ -72,7 +72,7 @@
    "site": "yodobashi",
    "label": "ヨドバシ.com",
    "used": false,
-   "count": 13,
+   "count": 15,
    "min": 137800,
    "median": 264800,
    "max": 519800,
@@ -85,16 +85,16 @@
      "used": false
     },
     {
-     "title": "MacBook Air 13インチ Apple M5チップ（10コアCPU/8コアGPU）/SSD 512GB/メモリ 16GB/スカイブルー MDHH4J/A",
+     "title": "MacBook Air 13インチ Apple M5チップ（10コアCPU/8コアGPU）/SSD 512GB/メモリ 16GB/ミッドナイト MDHE4J/A",
      "price": 224800,
-     "url": "https://www.yodobashi.com/product/100000001009754715/",
+     "url": "https://www.yodobashi.com/product/100000001009754717/",
      "shop": "",
      "used": false
     },
     {
-     "title": "MacBook Air 13インチ Apple M5チップ（10コアCPU/8コアGPU）/SSD 512GB/メモリ 16GB/スターライト MDHA4J/A",
+     "title": "MacBook Air 13インチ Apple M5チップ（10コアCPU/8コアGPU）/SSD 512GB/メモリ 16GB/スカイブルー MDHH4J/A",
      "price": 224800,
-     "url": "https://www.yodobashi.com/product/100000001009754716/",
+     "url": "https://www.yodobashi.com/product/100000001009754715/",
      "shop": "",
      "used": false
     }
@@ -104,22 +104,22 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 12,
+   "count": 15,
    "min": 26500,
-   "median": 47000,
-   "max": 164000,
+   "median": 32500,
+   "max": 115000,
    "items": [
     {
-     "title": "Apple MacBook Air 13インチ2020",
+     "title": "MacBook Pro 13インチ i5/8GB/512GB A1706",
      "price": 26500,
-     "url": "https://jp.mercari.com/item/m62165696802",
+     "url": "https://jp.mercari.com/item/m48720290124",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "MacBook Pro 13インチ i5/8GB/512GB A1706",
-     "price": 27200,
-     "url": "https://jp.mercari.com/item/m48720290124",
+     "title": "Apple MacBook Air 13インチ2020",
+     "price": 26500,
+     "url": "https://jp.mercari.com/item/m62165696802",
      "shop": "メルカリ",
      "used": true
     },
@@ -136,29 +136,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 9,
-   "min": 28050,
-   "median": 51000,
-   "max": 198000,
+   "count": 11,
+   "min": 30250,
+   "median": 56100,
+   "max": 131000,
    "items": [
-    {
-     "title": "Apple MacBook Pro (13インチ, M1, 2020) M1/16GB/512GB/13.3Retina/macOS11.* ★1円開始★",
-     "price": 28050,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/j1250045692",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "Apple MacBook Pro 16インチ M1 Max/32GB/1TB/16.2Retina/macOS1* ★1円開始★",
-     "price": 29150,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/r1250048136",
-     "shop": "",
-     "used": true
-    },
     {
      "title": "Apple MacBook Air 13 M1(M1)/16GB/512GB/13.3/macOS10以降 ★1円開始★",
      "price": 30250,
      "url": "https://auctions.yahoo.co.jp/jp/auction/1250033726",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "Apple MacBook Pro 16インチ M2 Max/32GB/1TB/16.2Retina/macOS1* ★1円開始★",
+     "price": 30525,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/g1250172820",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "Apple MacBook Pro 16 M1 Pro/16GB/512GB/16.2Retina/macOS1* ★1円開始★",
+     "price": 33550,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/o1250052670",
      "shop": "",
      "used": true
     }
@@ -170,18 +170,18 @@
   "minSite": "yahoo_shopping",
   "minLabel": "Yahoo!ショッピング",
   "minTitle": "APPLE MHFA4J/A シルバー MacBook Neo ノートパソコン 13型 / macOS",
-  "median": 144980,
+  "median": 140205,
   "siteCount": 3,
-  "itemCount": 33
+  "itemCount": 34
  },
  "usedSummary": {
   "min": 26500,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "Apple MacBook Air 13インチ2020",
-  "median": 49000,
+  "minTitle": "MacBook Pro 13インチ i5/8GB/512GB A1706",
+  "median": 44300,
   "siteCount": 4,
-  "itemCount": 29
+  "itemCount": 34
  },
  "history": [
   {
@@ -237,6 +237,20 @@
     "yodobashi": 137800,
     "mercari": 26500,
     "yahoo_auction": 28050
+   }
+  },
+  {
+   "date": "2026-10-31",
+   "newMin": 118000,
+   "newMedian": 140205,
+   "usedMin": 26500,
+   "usedMedian": 44300,
+   "sites": {
+    "yahoo_shopping": 118000,
+    "rakuten": 118070,
+    "yodobashi": 137800,
+    "mercari": 26500,
+    "yahoo_auction": 30250
    }
   }
  ]
