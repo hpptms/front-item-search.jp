@@ -1,17 +1,17 @@
 {
  "slug": "pixel",
  "term": "Google Pixel",
- "date": "2026-10-31",
- "capturedAt": "2026-10-30T20:10:03.556Z",
+ "date": "2026-11-01",
+ "capturedAt": "2026-10-31T20:10:07.902Z",
  "sites": [
   {
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 12,
+   "count": 13,
    "min": 40980,
-   "median": 82190,
-   "max": 84638,
+   "median": 82480,
+   "max": 123980,
    "items": [
     {
      "title": "Google Pixel 6a 128GB Sランク SIMフリー 整備済み品 本体 中古 爆買",
@@ -40,9 +40,9 @@
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 13,
-   "min": 66799,
-   "median": 82879,
+   "count": 12,
+   "min": 74800,
+   "median": 82680,
    "max": 136990,
    "items": [
     {
@@ -54,7 +54,7 @@
     },
     {
      "title": "Google Pixel 8a 128GB スマホ スマートフォン 本体 SIMフリー docomo au softbank 美品 にこスマ認定整備済み品(リファービッシュ 整備済品) 白ロム",
-     "price": 40800,
+     "price": 39800,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnicosuma-store%2Fpixel8a%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnicosuma-store%2Fi%2F10000301%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "にこスマ",
      "used": true
@@ -69,51 +69,65 @@
    ]
   },
   {
-   "site": "mercari",
-   "label": "メルカリ",
+   "site": "yahoo_auction",
+   "label": "Yahoo!オークション",
    "used": true,
-   "count": 11,
-   "min": 22000,
-   "median": 65000,
-   "max": 97800,
+   "count": 6,
+   "min": 15800,
+   "median": 24400,
+   "max": 110000,
    "items": [
     {
-     "title": "美品 Google Pixel 5 128GB ソーダセージ",
-     "price": 22000,
-     "url": "https://jp.mercari.com/item/m43532238957",
-     "shop": "メルカリ",
+     "title": "★即購入可★ Google Pixel 4a 5G clearly White 128GB SoftBank版SIMロックなし",
+     "price": 15800,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z714706068",
+     "shop": "",
      "used": true
     },
     {
-     "title": "Google Pixel 7スマートフォン 本体",
-     "price": 28000,
-     "url": "https://jp.mercari.com/item/m85039440851",
-     "shop": "メルカリ",
+     "title": "★ 完動品 docomo Google Pixel 8a ポーセリン 128GB SIMロック解除済 1円 ! 1スタ !",
+     "price": 22550,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/o1250213086",
+     "shop": "",
      "used": true
     },
     {
-     "title": "Google Pixel Fold 本体",
-     "price": 28800,
-     "url": "https://jp.mercari.com/item/m14139149392",
-     "shop": "メルカリ",
+     "title": "Google Pixel 6 128GB ブラック SIMフリー Android スマートフォン",
+     "price": 24000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z714819336",
+     "shop": "",
      "used": true
     }
    ]
   },
   {
-   "site": "yahoo_auction",
-   "label": "Yahoo!オークション",
+   "site": "mercari",
+   "label": "メルカリ",
    "used": true,
-   "count": 1,
-   "min": 22500,
-   "median": 22500,
-   "max": 22500,
+   "count": 11,
+   "min": 16500,
+   "median": 30800,
+   "max": 89999,
    "items": [
     {
-     "title": "H10222② Google Pixel 6a スマートフォン 128GB カラーCharcoal 元箱付 GB17L",
-     "price": 22500,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/n1250079593",
-     "shop": "",
+     "title": "Google Pixel 6 本体 ブラック",
+     "price": 16500,
+     "url": "https://jp.mercari.com/item/m34686225587",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "Google Pixel スマートフォン 本体（難あり）",
+     "price": 25000,
+     "url": "https://jp.mercari.com/item/m75210108708",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "Google Pixel 7 Lemongrass 128GB 本体",
+     "price": 28500,
+     "url": "https://jp.mercari.com/item/m43502779348",
+     "shop": "メルカリ",
      "used": true
     }
    ]
@@ -124,18 +138,18 @@
   "minSite": "yahoo_shopping",
   "minLabel": "Yahoo!ショッピング",
   "minTitle": "Google Pixel 8a 128GB Bay",
-  "median": 82535,
+  "median": 82580,
   "siteCount": 2,
   "itemCount": 25
  },
  "usedSummary": {
-  "min": 22000,
-  "minSite": "mercari",
-  "minLabel": "メルカリ",
-  "minTitle": "美品 Google Pixel 5 128GB ソーダセージ",
-  "median": 47300,
+  "min": 15800,
+  "minSite": "yahoo_auction",
+  "minLabel": "Yahoo!オークション",
+  "minTitle": "★即購入可★ Google Pixel 4a 5G clearly White 128GB SoftBank版SIMロックなし",
+  "median": 36550,
   "siteCount": 4,
-  "itemCount": 23
+  "itemCount": 28
  },
  "history": [
   {
@@ -200,6 +214,19 @@
     "rakuten": 66799,
     "mercari": 22000,
     "yahoo_auction": 22500
+   }
+  },
+  {
+   "date": "2026-11-01",
+   "newMin": 40980,
+   "newMedian": 82580,
+   "usedMin": 15800,
+   "usedMedian": 36550,
+   "sites": {
+    "yahoo_shopping": 40980,
+    "rakuten": 74800,
+    "yahoo_auction": 15800,
+    "mercari": 16500
    }
   }
  ]

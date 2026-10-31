@@ -1,18 +1,25 @@
 {
  "slug": "pokemon-card",
  "term": "ポケモンカード",
- "date": "2026-10-31",
- "capturedAt": "2026-10-30T20:10:03.556Z",
+ "date": "2026-11-01",
+ "capturedAt": "2026-10-31T20:10:07.902Z",
  "sites": [
   {
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
    "count": 19,
-   "min": 9200,
-   "median": 24800,
+   "min": 8880,
+   "median": 15800,
    "max": 30000,
    "items": [
+    {
+     "title": "（シュリンクあり）ポケモンカードゲーム MEGA 拡張パック メガシンフォニア BOX",
+     "price": 8880,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fhatsune%2Fft-a3ha-kyus.html",
+     "shop": "初音蔵書通販部",
+     "used": false
+    },
     {
      "title": "シュリンクつき ポケモンカードゲーム メガシンフォニア ポケカ MEGA メガ 拡張パック BOX 新品 未開封 お一人様3点まで",
      "price": 9200,
@@ -25,13 +32,6 @@
      "price": 9330,
      "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ffree-world%2Fcardpack-p-051-10.html",
      "shop": "カウカウSTORE",
-     "used": false
-    },
-    {
-     "title": "ポケモンカードゲーム ストームエメラルダ BOX MEGA 拡張パック 新品未開封 シュリンク付き",
-     "price": 10780,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fevalue-omochayasan%2F4521329462233.html",
-     "shop": "イーバリューYahoo!店",
      "used": false
     }
    ]
@@ -72,29 +72,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 13,
-   "min": 5555,
-   "median": 8400,
-   "max": 55000,
+   "count": 16,
+   "min": 6900,
+   "median": 11000,
+   "max": 53000,
    "items": [
     {
-     "title": "ポケモンカードゲーム メガブレイブ 1box シュリンクペリペリ箱無し",
-     "price": 5555,
-     "url": "https://jp.mercari.com/item/m86345388817",
+     "title": "ポケモンカードゲーム 拡張パック ムニキスゼロ シュリンクありBOX",
+     "price": 6900,
+     "url": "https://jp.mercari.com/item/m55211577421",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "絶版 ポケセン産 未開封スペースジャグラーBOX シュリンクあり",
-     "price": 6100,
-     "url": "https://jp.mercari.com/item/m65566108370",
+     "title": "ポケモンカードゲーム メガシンフォニア 1BOX シュリンク無し",
+     "price": 7000,
+     "url": "https://jp.mercari.com/item/m15873514083",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "ポケモンカードゲーム メガシンフォニア 拡張パック 1BOX ペリペリなし",
-     "price": 6399,
-     "url": "https://jp.mercari.com/item/m45519186952",
+     "title": "ポケモンカードゲーム 拡張パック アビスアイ シュリンクあり 未開封BOX",
+     "price": 7500,
+     "url": "https://jp.mercari.com/item/m54485160959",
      "shop": "メルカリ",
      "used": true
     }
@@ -104,28 +104,28 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 12,
-   "min": 7000,
-   "median": 11550,
-   "max": 100000,
+   "count": 13,
+   "min": 7500,
+   "median": 18000,
+   "max": 21300,
    "items": [
     {
-     "title": "ポケモンカードゲーム MEGA 拡張パック ストームエメラルダ 1BOX 新品未開封 シュリンク付き",
-     "price": 7000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/w1250360845",
+     "title": "ポケモンカードゲーム メガブレイブ 拡張パック 未開封BOX",
+     "price": 7500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/e1250385551",
      "shop": "",
      "used": true
     },
     {
-     "title": "ポケモンカード ストームエメラルダ 1BOX",
-     "price": 7500,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/f1250075782",
+     "title": "ポケモンカード MEGA 拡張パック メガブレイブ 1box シュリンクあり 新品未開封",
+     "price": 7700,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/b1250480270",
      "shop": "",
      "used": true
     },
     {
      "title": "ポケモンカードゲーム MEGA 拡張パック ストームエメラルダ 1BOX シュリンク付き",
-     "price": 8000,
+     "price": 9350,
      "url": "https://auctions.yahoo.co.jp/jp/auction/x1250221902",
      "shop": "",
      "used": true
@@ -134,22 +134,22 @@
   }
  ],
  "newSummary": {
-  "min": 9200,
+  "min": 8880,
   "minSite": "yahoo_shopping",
   "minLabel": "Yahoo!ショッピング",
-  "minTitle": "シュリンクつき ポケモンカードゲーム メガシンフォニア ポケカ MEGA メガ 拡張パック BOX 新品 未開封 お一人様3点まで",
-  "median": 23360,
+  "minTitle": "（シュリンクあり）ポケモンカードゲーム MEGA 拡張パック メガシンフォニア BOX",
+  "median": 18860,
   "siteCount": 2,
   "itemCount": 35
  },
  "usedSummary": {
-  "min": 5555,
+  "min": 6900,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "ポケモンカードゲーム メガブレイブ 1box シュリンクペリペリ箱無し",
-  "median": 9975,
+  "minTitle": "ポケモンカードゲーム 拡張パック ムニキスゼロ シュリンクありBOX",
+  "median": 14500,
   "siteCount": 2,
-  "itemCount": 25
+  "itemCount": 29
  },
  "history": [
   {
@@ -214,6 +214,19 @@
     "rakuten": 9780,
     "mercari": 5555,
     "yahoo_auction": 7000
+   }
+  },
+  {
+   "date": "2026-11-01",
+   "newMin": 8880,
+   "newMedian": 18860,
+   "usedMin": 6900,
+   "usedMedian": 14500,
+   "sites": {
+    "yahoo_shopping": 8880,
+    "rakuten": 9780,
+    "mercari": 6900,
+    "yahoo_auction": 7500
    }
   }
  ]

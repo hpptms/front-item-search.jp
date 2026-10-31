@@ -1,16 +1,16 @@
 {
  "slug": "comic-set",
  "term": "コミック 全巻セット",
- "date": "2026-10-31",
- "capturedAt": "2026-10-30T20:10:03.556Z",
+ "date": "2026-11-01",
+ "capturedAt": "2026-10-31T20:10:07.902Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 8,
+   "count": 9,
    "min": 5550,
-   "median": 17944,
+   "median": 16769,
    "max": 43868,
    "items": [
     {
@@ -21,17 +21,17 @@
      "used": false
     },
     {
+     "title": "バガボンド ＜1〜37巻＞ 井上 雄彦",
+     "price": 6800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcomicset%2F10000341%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcomicset%2Fi%2F10000341%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "もったいない本舗 楽天市場店",
+     "used": false
+    },
+    {
      "title": "約束のネバーランド 全巻セット(1-20巻) （ジャンプコミックス） [ 出水 ぽすか ]",
      "price": 9724,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F16769026%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbook%2Fi%2F20380490%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "楽天ブックス",
-     "used": false
-    },
-    {
-     "title": "MAJOR（メジャー） ＜1〜78巻完結＞ 満田拓也",
-     "price": 10000,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcomicset%2F10000532%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcomicset%2Fi%2F10000532%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "もったいない本舗 楽天市場店",
      "used": false
     }
    ]
@@ -42,7 +42,7 @@
    "used": false,
    "count": 19,
    "min": 7436,
-   "median": 15840,
+   "median": 14850,
    "max": 41316,
    "items": [
     {
@@ -108,29 +108,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 11,
+   "count": 12,
    "min": 2000,
-   "median": 3500,
-   "max": 15500,
+   "median": 5000,
+   "max": 18000,
    "items": [
     {
-     "title": "神のみぞ知るセカイ 全巻セット 1巻～26巻 若木民喜",
+     "title": "NEW GAME! 全巻セット 1巻～13巻",
      "price": 2000,
-     "url": "https://jp.mercari.com/item/m56522155409",
+     "url": "https://jp.mercari.com/item/m87605159478",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "HUNTER×HUNTER 漫画 全巻セット 1-25巻",
-     "price": 3100,
-     "url": "https://jp.mercari.com/item/m53341361486",
+     "title": "プロミス・シンデレラ1〜16巻 全巻セット レンタル落ち",
+     "price": 2590,
+     "url": "https://jp.mercari.com/item/m21645272654",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "未確認で進行形 1〜16巻 全巻セット",
-     "price": 3200,
-     "url": "https://jp.mercari.com/item/m84128463993",
+     "title": "黒子のバスケ 全巻セット まとめ売り 漫画",
+     "price": 3000,
+     "url": "https://jp.mercari.com/item/m71002640208",
      "shop": "メルカリ",
      "used": true
     }
@@ -140,29 +140,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 8,
+   "count": 10,
    "min": 2000,
-   "median": 2200,
-   "max": 4000,
+   "median": 2781,
+   "max": 3519,
    "items": [
     {
-     "title": "学園ベビーシッターズ 1巻～27巻 時計野はり -送料無料 コミックセット-",
+     "title": "かぐや様は告らせたい 1巻～28巻 赤坂アカ -送料無料 コミックセット-",
      "price": 2000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/p1246667112",
+     "url": "https://auctions.yahoo.co.jp/jp/auction/c1245863808",
      "shop": "",
      "used": true
     },
     {
-     "title": "SONS全7巻 三原順著",
+     "title": "かぐや様は告らせたい 1巻～28巻 赤坂アカ -送料無料 コミックセット-",
      "price": 2000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/j1250112087",
+     "url": "https://auctions.yahoo.co.jp/jp/auction/x1247403269",
      "shop": "",
      "used": true
     },
     {
-     "title": "◆ 湖底のひまわり 全５巻 ◆ 石川優吾 全初版・全巻帯付 ビッグコミックス 小学館",
-     "price": 2000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/j1248699171",
+     "title": "TERRA FORMARS テラフォーマーズ 1巻～24巻 貴家悠 橘賢一 -送料無料 コミックセット-",
+     "price": 2200,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/d1250230555",
      "shop": "",
      "used": true
     }
@@ -174,18 +174,18 @@
   "minSite": "rakuten",
   "minLabel": "楽天市場",
   "minTitle": "封神演義 ＜1〜23巻完結＞ 藤崎竜",
-  "median": 19422,
+  "median": 18835,
   "siteCount": 4,
-  "itemCount": 29
+  "itemCount": 30
  },
  "usedSummary": {
   "min": 2000,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "神のみぞ知るセカイ 全巻セット 1巻～26巻 若木民喜",
-  "median": 2850,
+  "minTitle": "NEW GAME! 全巻セット 1巻～13巻",
+  "median": 3891,
   "siteCount": 2,
-  "itemCount": 19
+  "itemCount": 22
  },
  "history": [
   {
@@ -252,6 +252,21 @@
    "newMedian": 19422,
    "usedMin": 2000,
    "usedMedian": 2850,
+   "sites": {
+    "rakuten": 5550,
+    "yahoo_shopping": 7436,
+    "biccamera": 20900,
+    "yodobashi": 44999,
+    "mercari": 2000,
+    "yahoo_auction": 2000
+   }
+  },
+  {
+   "date": "2026-11-01",
+   "newMin": 5550,
+   "newMedian": 18835,
+   "usedMin": 2000,
+   "usedMedian": 3891,
    "sites": {
     "rakuten": 5550,
     "yahoo_shopping": 7436,
