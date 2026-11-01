@@ -1,8 +1,8 @@
 {
  "slug": "ps5",
  "term": "PS5",
- "date": "2026-11-01",
- "capturedAt": "2026-10-31T20:10:07.902Z",
+ "date": "2026-11-02",
+ "capturedAt": "2026-11-01T20:10:03.999Z",
  "sites": [
   {
    "site": "yodobashi",
@@ -42,7 +42,7 @@
    "used": false,
    "count": 20,
    "min": 55000,
-   "median": 73970,
+   "median": 64490,
    "max": 247503,
    "items": [
     {
@@ -73,13 +73,13 @@
    "label": "Yahoo!ショッピング",
    "used": false,
    "count": 17,
-   "min": 57967,
+   "min": 57900,
    "median": 59670,
    "max": 71777,
    "items": [
     {
      "title": "SONY プレイステーション5 デジタル・エディション 日本語専用 CFI-2200B01[ラッピング可] R-LOGI",
-     "price": 57967,
+     "price": 57900,
      "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsokuteikiya%2F4948872417419.html",
      "shop": "測定の森Yahoo!ショッピング店",
      "used": false
@@ -101,65 +101,65 @@
    ]
   },
   {
-   "site": "mercari",
-   "label": "メルカリ",
+   "site": "yahoo_auction",
+   "label": "Yahoo!オークション",
    "used": true,
-   "count": 16,
-   "min": 41100,
-   "median": 50000,
-   "max": 157000,
+   "count": 13,
+   "min": 40500,
+   "median": 52500,
+   "max": 102000,
    "items": [
     {
-     "title": "PlayStation 5 本体 デジタルエディション",
-     "price": 41100,
-     "url": "https://jp.mercari.com/item/m32707249988",
-     "shop": "メルカリ",
+     "title": "PlayStation5 CFI-2200B01 日本語専用デジタルエディション",
+     "price": 40500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/x1250092949",
+     "shop": "",
      "used": true
     },
     {
-     "title": "PlayStation5 CFI-2200B01 FW13.60 欠品あり",
-     "price": 46800,
-     "url": "https://jp.mercari.com/item/m52700715168",
-     "shop": "メルカリ",
+     "title": "SONY PlayStation PS5 デジタルエディション 日本語専用",
+     "price": 45000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z715376222",
+     "shop": "",
      "used": true
     },
     {
-     "title": "PlayStation 5 デジタル・エディション 825GB 日本語専用 C…",
-     "price": 46900,
-     "url": "https://jp.mercari.com/item/m61348867508",
-     "shop": "メルカリ",
+     "title": "SONY PlayStation 5 デジタルエディション CFI-2200B01 825GB",
+     "price": 47000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z715645496",
+     "shop": "",
      "used": true
     }
    ]
   },
   {
-   "site": "yahoo_auction",
-   "label": "Yahoo!オークション",
+   "site": "mercari",
+   "label": "メルカリ",
    "used": true,
-   "count": 9,
-   "min": 46100,
-   "median": 51000,
-   "max": 71000,
+   "count": 17,
+   "min": 42000,
+   "median": 50300,
+   "max": 59000,
    "items": [
     {
-     "title": "PlayStation 5 PS5 本体 CFI-2200シリーズ ホワイト",
-     "price": 46100,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z714924934",
-     "shop": "",
+     "title": "playstation 5 CFI-1100A",
+     "price": 42000,
+     "url": "https://jp.mercari.com/item/m67020150275",
+     "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "PlayStation 5デジタル・エディション",
-     "price": 48100,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z714085032",
-     "shop": "",
+     "title": "SONY PlayStation 5 デジタル・エディション 本体",
+     "price": 42690,
+     "url": "https://jp.mercari.com/item/m21714810071",
+     "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "PlayStation 5 デジタル・エディション 日本語専用 Console Language: Japanese only (CFI-2200B01)",
-     "price": 50000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/f1250481658",
-     "shop": "",
+     "title": "PlayStation 5 本体 通常版",
+     "price": 45000,
+     "url": "https://jp.mercari.com/item/m53374260449",
+     "shop": "メルカリ",
      "used": true
     }
    ]
@@ -175,13 +175,13 @@
   "itemCount": 40
  },
  "usedSummary": {
-  "min": 41100,
-  "minSite": "mercari",
-  "minLabel": "メルカリ",
-  "minTitle": "PlayStation 5 本体 デジタルエディション",
-  "median": 51000,
+  "min": 40500,
+  "minSite": "yahoo_auction",
+  "minLabel": "Yahoo!オークション",
+  "minTitle": "PlayStation5 CFI-2200B01 日本語専用デジタルエディション",
+  "median": 52500,
   "siteCount": 3,
-  "itemCount": 27
+  "itemCount": 31
  },
  "history": [
   {
@@ -269,6 +269,20 @@
     "yahoo_shopping": 57967,
     "mercari": 41100,
     "yahoo_auction": 46100
+   }
+  },
+  {
+   "date": "2026-11-02",
+   "newMin": 55000,
+   "newMedian": 59670,
+   "usedMin": 40500,
+   "usedMedian": 52500,
+   "sites": {
+    "yodobashi": 55000,
+    "rakuten": 55000,
+    "yahoo_shopping": 57900,
+    "yahoo_auction": 40500,
+    "mercari": 42000
    }
   }
  ]

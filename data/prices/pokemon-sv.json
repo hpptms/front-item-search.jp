@@ -1,8 +1,8 @@
 {
  "slug": "pokemon-sv",
  "term": "ポケモン スカーレット・バイオレット",
- "date": "2026-11-01",
- "capturedAt": "2026-10-31T20:10:07.902Z",
+ "date": "2026-11-02",
+ "capturedAt": "2026-11-01T20:10:03.999Z",
  "sites": [
   {
    "site": "yodobashi",
@@ -90,15 +90,22 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 1,
+   "count": 2,
    "min": 4000,
-   "median": 4000,
-   "max": 4000,
+   "median": 4650,
+   "max": 5300,
    "items": [
     {
      "title": "ポケットモンスター スカーレット Nintendo Switch ソフト",
      "price": 4000,
      "url": "https://jp.mercari.com/item/m75776263773",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "ポケットモンスター スカーレット・バイオレット Switchソフト",
+     "price": 5300,
+     "url": "https://jp.mercari.com/item/m81120559952",
      "shop": "メルカリ",
      "used": true
     }
@@ -109,17 +116,10 @@
    "label": "Yahoo!オークション",
    "used": true,
    "count": 3,
-   "min": 6337,
-   "median": 6666,
-   "max": 7200,
+   "min": 6666,
+   "median": 7200,
+   "max": 12112,
    "items": [
-    {
-     "title": "1円～ 動作確認済 初期化済 Nintendo Switch 有機ELモデル ポケットモンスター スカーレット・バイオレット エディション",
-     "price": 6337,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/p1250480785",
-     "shop": "",
-     "used": true
-    },
     {
      "title": "①Switch ジョイコン ポケモンSV 左右LR ポケットモンスター スカーレット・バイオレットエディション 赤 紫",
      "price": 6666,
@@ -131,6 +131,13 @@
      "title": "値下げ！早い者勝ち！ ポケットモンスター スカーレットとバイオレット",
      "price": 7200,
      "url": "https://auctions.yahoo.co.jp/jp/auction/z711307686",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "1円～ 動作確認済 初期化済 Nintendo Switch 有機ELモデル ポケットモンスター スカーレット・バイオレット エディション",
+     "price": 12112,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/p1250480785",
      "shop": "",
      "used": true
     }
@@ -151,9 +158,9 @@
   "minSite": "mercari",
   "minLabel": "メルカリ",
   "minTitle": "ポケットモンスター スカーレット Nintendo Switch ソフト",
-  "median": 5333,
+  "median": 5925,
   "siteCount": 2,
-  "itemCount": 4
+  "itemCount": 5
  },
  "history": [
   {
@@ -237,6 +244,20 @@
     "yahoo_shopping": 6052,
     "mercari": 4000,
     "yahoo_auction": 6337
+   }
+  },
+  {
+   "date": "2026-11-02",
+   "newMin": 3460,
+   "newMedian": 6700,
+   "usedMin": 4000,
+   "usedMedian": 5925,
+   "sites": {
+    "yodobashi": 3460,
+    "rakuten": 3500,
+    "yahoo_shopping": 6052,
+    "mercari": 4000,
+    "yahoo_auction": 6666
    }
   }
  ]

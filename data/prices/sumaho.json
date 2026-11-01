@@ -1,8 +1,8 @@
 {
  "slug": "sumaho",
  "term": "スマホ",
- "date": "2026-11-01",
- "capturedAt": "2026-10-31T20:10:07.902Z",
+ "date": "2026-11-02",
+ "capturedAt": "2026-11-01T20:10:03.999Z",
  "sites": [
   {
    "site": "rakuten",
@@ -40,18 +40,11 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 5,
+   "count": 7,
    "min": 20680,
-   "median": 25980,
+   "median": 43000,
    "max": 83980,
    "items": [
-    {
-     "title": "Galaxy A41 SCV48 au版 64GB ランクC 中古 スマホ スマートフォン 本体 SIMフリー シムフリー",
-     "price": 12000,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmcom2022%2Fgalaa41scv48c.html",
-     "shop": "エムコムヤフーショッピング店",
-     "used": true
-    },
     {
      "title": "motorola モトローラ moto g05(I) フレッシュラベンダー 本体 SIMフリー PB6N0002JP イオンモバイル",
      "price": 20680,
@@ -65,6 +58,13 @@
      "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbest1mobile%2Ff-52g-black.html",
      "shop": "デジタルトレーディング",
      "used": false
+    },
+    {
+     "title": "「新品未使用/国内版SIMフリー」 FUJITSU arrows We3 docomo版 F-52G 4GB/64GB ライトブルー 白ロム スマホ 本体",
+     "price": 25980,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbest1mobile%2Ff-52g-lightblue.html",
+     "shop": "デジタルトレーディング",
+     "used": false
     }
    ]
   },
@@ -72,11 +72,18 @@
    "site": "yodobashi",
    "label": "ヨドバシ.com",
    "used": false,
-   "count": 13,
+   "count": 15,
    "min": 54340,
-   "median": 179520,
-   "max": 268400,
+   "median": 67430,
+   "max": 299200,
    "items": [
+    {
+     "title": "AQUOS wish6/6.6インチ/Dimensity 6300/RAM 4GB/ROM 128GB/Android 16/SIMフリースマートフォン/キヌ SH-M36-W",
+     "price": 54340,
+     "url": "https://www.yodobashi.com/product/100000001010197976/",
+     "shop": "",
+     "used": false
+    },
     {
      "title": "AQUOS wish6/6.6インチ/Dimensity 6300/RAM 4GB/ROM 128GB/Android 16/SIMフリースマートフォン/スミ SH-M36-B",
      "price": 54340,
@@ -85,17 +92,42 @@
      "used": false
     },
     {
-     "title": "AQUOS sense10/6.1インチ/Snapdragon 7s Gen 3/RAM 6GB/ROM 128GB/Android 16/SIMフリースマートフォン/ペールピンク SH-M33A-P",
-     "price": 67430,
-     "url": "https://www.yodobashi.com/product/100000001009510854/",
+     "title": "AQUOS wish6/6.6インチ/Dimensity 6300/RAM 4GB/ROM 128GB/Android 16/SIMフリースマートフォン/ソラ SH-M36-A",
+     "price": 54340,
+     "url": "https://www.yodobashi.com/product/100000001010197974/",
      "shop": "",
+     "used": false
+    }
+   ]
+  },
+  {
+   "site": "biccamera",
+   "label": "ビックカメラ",
+   "used": false,
+   "count": 13,
+   "min": 57980,
+   "median": 77880,
+   "max": 176526,
+   "items": [
+    {
+     "title": "Xiaomi｜シャオミ REDMI（レッドミ） Note 15 Pro 5G Titanium Gray 8G+256G SIMフリースマートフォン Titanium Gray",
+     "price": 57980,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F6932554470050%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F15335391%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "楽天ビック(ビックカメラ×楽天)",
      "used": false
     },
     {
-     "title": "AQUOS sense10/6.1インチ/Snapdragon 7s Gen 3/RAM 6GB/ROM 128GB/Android 16/SIMフリースマートフォン/フルブラック SH-M33A-B",
-     "price": 67430,
-     "url": "https://www.yodobashi.com/product/100000001009510851/",
-     "shop": "",
+     "title": "Xiaomi｜シャオミ REDMI（レッドミ） Note 15 Pro 5G Black 8G+256G SIMフリースマートフォン Black",
+     "price": 57980,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F6932554471408%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F15335392%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "楽天ビック(ビックカメラ×楽天)",
+     "used": false
+    },
+    {
+     "title": "Xiaomi｜シャオミ REDMI（レッドミ） Note 15 Pro 5G Glacier Blue 8G+256G SIMフリースマートフォン Glacier Blue",
+     "price": 57980,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F6932554470043%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F15335390%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "楽天ビック(ビックカメラ×楽天)",
      "used": false
     }
    ]
@@ -104,7 +136,7 @@
    "site": "sofmap",
    "label": "ソフマップ",
    "used": false,
-   "count": 2,
+   "count": 1,
    "min": 57980,
    "median": 57980,
    "max": 57980,
@@ -113,13 +145,6 @@
      "title": "XIAOMI REDMI（レッドミ） Note 15 Pro 5G Black 8G+256G SIMフリースマートフォン Black MZB0M1YJP",
      "price": 57980,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdtc%2F6932554471408%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdtc%2Fi%2F13152727%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "ソフマップ楽天市場店",
-     "used": false
-    },
-    {
-     "title": "XIAOMI REDMI（レッドミ） Note 15 Pro 5G Titanium Gray 8G+256G SIMフリースマートフォン Titanium Gray MZB0LZ6JP",
-     "price": 57980,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdtc%2F6932554470050%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdtc%2Fi%2F13152102%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "ソフマップ楽天市場店",
      "used": false
     }
@@ -158,38 +183,6 @@
    ]
   },
   {
-   "site": "biccamera",
-   "label": "ビックカメラ",
-   "used": false,
-   "count": 13,
-   "min": 63193,
-   "median": 84070,
-   "max": 178161,
-   "items": [
-    {
-     "title": "Xiaomi｜シャオミ REDMI（レッドミ） Note 15 Pro 5G Titanium Gray 8G+256G SIMフリースマートフォン Titanium Gray",
-     "price": 63193,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F6932554470050%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F15335391%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "楽天ビック(ビックカメラ×楽天)",
-     "used": false
-    },
-    {
-     "title": "Xiaomi｜シャオミ REDMI（レッドミ） Note 15 Pro 5G Black 8G+256G SIMフリースマートフォン Black",
-     "price": 63193,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F6932554471408%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F15335392%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "楽天ビック(ビックカメラ×楽天)",
-     "used": false
-    },
-    {
-     "title": "Xiaomi｜シャオミ REDMI（レッドミ） Note 15 Pro 5G Glacier Blue 8G+256G SIMフリースマートフォン Glacier Blue",
-     "price": 63193,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F6932554470043%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F15335390%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "楽天ビック(ビックカメラ×楽天)",
-     "used": false
-    }
-   ]
-  },
-  {
    "site": "joshin",
    "label": "ジョーシン",
    "used": false,
@@ -208,65 +201,65 @@
    ]
   },
   {
-   "site": "yahoo_auction",
-   "label": "Yahoo!オークション",
+   "site": "mercari",
+   "label": "メルカリ",
    "used": true,
-   "count": 3,
-   "min": 11800,
-   "median": 31800,
-   "max": 33900,
+   "count": 13,
+   "min": 10600,
+   "median": 24999,
+   "max": 113000,
    "items": [
     {
-     "title": "AQUOS sense4 basic silver シルバー A003SH Y!Mobile SIMロック解除済み SHARP シャープ 都内24時間以内発送",
-     "price": 11800,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/w1250521893",
-     "shop": "",
+     "title": "IPhone14 128GB",
+     "price": 10600,
+     "url": "https://jp.mercari.com/item/m71468119364",
+     "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "motorola moto g66j 5G ブラックオイスター 8GB/128G PB810002JP SIMフリー",
-     "price": 31800,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/g1250536835",
-     "shop": "",
+     "title": "Apple iPhone SE 第2世代 256GB Black SIMフリー",
+     "price": 11900,
+     "url": "https://jp.mercari.com/item/m49632107663",
+     "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "iPhone13/256GB/ピンク/スマホ本体/箱ありSIMフリー/付属品あり",
-     "price": 33900,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/s1250371392",
-     "shop": "",
+     "title": "iPhoneXR 64GB",
+     "price": 13000,
+     "url": "https://jp.mercari.com/item/m65682981307",
+     "shop": "メルカリ",
      "used": true
     }
    ]
   },
   {
-   "site": "mercari",
-   "label": "メルカリ",
+   "site": "yahoo_auction",
+   "label": "Yahoo!オークション",
    "used": true,
-   "count": 9,
-   "min": 11980,
-   "median": 19000,
-   "max": 118000,
+   "count": 3,
+   "min": 13000,
+   "median": 14500,
+   "max": 101800,
    "items": [
     {
-     "title": "SIMフリー 準美品☆iPhone11 64GB レッド iPhone 11",
-     "price": 11980,
-     "url": "https://jp.mercari.com/item/m86157649700",
-     "shop": "メルカリ",
+     "title": "OPPO A5x ホワイト 128GB SIMフリー スマートフォン 本体",
+     "price": 13000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/q1250205365",
+     "shop": "",
      "used": true
     },
     {
-     "title": "iPhone 13 mini 128GB ミッドナイト ブラック SIMフリー",
-     "price": 13500,
-     "url": "https://jp.mercari.com/item/m24395445362",
-     "shop": "メルカリ",
+     "title": "iPhoneSE MMYD3J/A 64GB SIMフリー 88% IMEI- スターライト(FTG4105)",
+     "price": 14500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/p1247521333",
+     "shop": "",
      "used": true
     },
     {
-     "title": "Apple iPhone 12 128GB ホワイト SIMフリー",
-     "price": 18100,
-     "url": "https://jp.mercari.com/item/m22783919403",
-     "shop": "メルカリ",
+     "title": "Galaxy Z Fold7 256GB ジェットブラック Samsung公式購入 残債なし 利用制限○",
+     "price": 101800,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/f1250603132",
+     "shop": "",
      "used": true
     }
    ]
@@ -277,18 +270,18 @@
   "minSite": "rakuten",
   "minLabel": "楽天市場",
   "minTitle": "「未開封/未使用/国内版SIMフリー」Galaxy A25 5G 64GB docomo版 au/UQ版 ソフトバンク版 Yモバイル版 SIMフリー版 楽天版 ライトブルー ブルー ブラック 白ロム スマホ 本体 楽天モバイル対応",
-  "median": 77880,
+  "median": 67430,
   "siteCount": 7,
-  "itemCount": 66
+  "itemCount": 69
  },
  "usedSummary": {
-  "min": 11800,
-  "minSite": "yahoo_auction",
-  "minLabel": "Yahoo!オークション",
-  "minTitle": "AQUOS sense4 basic silver シルバー A003SH Y!Mobile SIMロック解除済み SHARP シャープ 都内24時間以内発送",
-  "median": 30300,
-  "siteCount": 4,
-  "itemCount": 22
+  "min": 10600,
+  "minSite": "mercari",
+  "minLabel": "メルカリ",
+  "minTitle": "IPhone14 128GB",
+  "median": 24999,
+  "siteCount": 3,
+  "itemCount": 25
  },
  "history": [
   {
@@ -396,6 +389,24 @@
     "joshin": 77880,
     "yahoo_auction": 11800,
     "mercari": 11980
+   }
+  },
+  {
+   "date": "2026-11-02",
+   "newMin": 20290,
+   "newMedian": 67430,
+   "usedMin": 10600,
+   "usedMedian": 24999,
+   "sites": {
+    "rakuten": 20290,
+    "yahoo_shopping": 20680,
+    "yodobashi": 54340,
+    "biccamera": 57980,
+    "sofmap": 57980,
+    "edion": 59300,
+    "joshin": 77880,
+    "mercari": 10600,
+    "yahoo_auction": 13000
    }
   }
  ]

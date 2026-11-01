@@ -1,8 +1,8 @@
 {
  "slug": "comic-set",
  "term": "コミック 全巻セット",
- "date": "2026-11-01",
- "capturedAt": "2026-10-31T20:10:07.902Z",
+ "date": "2026-11-02",
+ "capturedAt": "2026-11-01T20:10:03.999Z",
  "sites": [
   {
    "site": "rakuten",
@@ -40,10 +40,10 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 19,
+   "count": 20,
    "min": 7436,
-   "median": 14850,
-   "max": 41316,
+   "median": 16170,
+   "max": 52800,
    "items": [
     {
      "title": "新品 / 鬼の花嫁 (1-10巻 最新刊) 全巻セット",
@@ -53,16 +53,16 @@
      "used": false
     },
     {
-     "title": "新品 / サマータイムレンダ(1-13巻 全巻) 全巻セット",
-     "price": 8613,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmangazenkan%2Fm8880449331.html",
+     "title": "新品 / [ホタ嫁]ホタルの嫁入り (全14冊) 全巻セット",
+     "price": 10846,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmangazenkan%2Fm5890407412.html",
      "shop": "漫画全巻ドットコム Yahoo!ショッピング店",
      "used": false
     },
     {
-     "title": "新品 / AKIRA[ワイド版](1-6巻 全巻) 全巻セット",
-     "price": 10120,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmangazenkan%2Fa-63.html",
+     "title": "新品 / ブラック・ジャック -手塚治虫文庫全集- (1-12巻 全巻) 全巻セット",
+     "price": 11891,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmangazenkan%2Fm7360458573.html",
      "shop": "漫画全巻ドットコム Yahoo!ショッピング店",
      "used": false
     }
@@ -108,29 +108,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 12,
-   "min": 2000,
-   "median": 5000,
+   "count": 14,
+   "min": 2200,
+   "median": 4472,
    "max": 18000,
    "items": [
     {
-     "title": "NEW GAME! 全巻セット 1巻～13巻",
-     "price": 2000,
-     "url": "https://jp.mercari.com/item/m87605159478",
+     "title": "食戟のソーマ 全巻セット 1-36巻 附田祐斗 佐伯俊",
+     "price": 2200,
+     "url": "https://jp.mercari.com/item/m59668358028",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "プロミス・シンデレラ1〜16巻 全巻セット レンタル落ち",
-     "price": 2590,
-     "url": "https://jp.mercari.com/item/m21645272654",
+     "title": "DEATH NOTE デスノート 全12巻 完結全巻セット 大場つぐみ 小畑健",
+     "price": 2480,
+     "url": "https://jp.mercari.com/item/m24531913613",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "黒子のバスケ 全巻セット まとめ売り 漫画",
-     "price": 3000,
-     "url": "https://jp.mercari.com/item/m71002640208",
+     "title": "幸色のワンルーム 1〜11巻 全巻セット",
+     "price": 2600,
+     "url": "https://jp.mercari.com/item/m51528617932",
      "shop": "メルカリ",
      "used": true
     }
@@ -140,29 +140,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 10,
-   "min": 2000,
-   "median": 2781,
-   "max": 3519,
+   "count": 12,
+   "min": 2200,
+   "median": 3290,
+   "max": 7500,
    "items": [
     {
-     "title": "かぐや様は告らせたい 1巻～28巻 赤坂アカ -送料無料 コミックセット-",
-     "price": 2000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/c1245863808",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "かぐや様は告らせたい 1巻～28巻 赤坂アカ -送料無料 コミックセット-",
-     "price": 2000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/x1247403269",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "TERRA FORMARS テラフォーマーズ 1巻～24巻 貴家悠 橘賢一 -送料無料 コミックセット-",
+     "title": "オルフェウスの窓 全9巻＋外伝 計10冊 池田理代子 集英社文庫 完結セット",
      "price": 2200,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/d1250230555",
+     "url": "https://auctions.yahoo.co.jp/jp/auction/k1250586172",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "全巻セット SLAM DUNK 完全版",
+     "price": 2400,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/o1250567220",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "相談役島耕作 全巻セット",
+     "price": 2502,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/t1250224556",
      "shop": "",
      "used": true
     }
@@ -176,16 +176,16 @@
   "minTitle": "封神演義 ＜1〜23巻完結＞ 藤崎竜",
   "median": 18835,
   "siteCount": 4,
-  "itemCount": 30
+  "itemCount": 31
  },
  "usedSummary": {
-  "min": 2000,
+  "min": 2200,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "NEW GAME! 全巻セット 1巻～13巻",
-  "median": 3891,
+  "minTitle": "食戟のソーマ 全巻セット 1-36巻 附田祐斗 佐伯俊",
+  "median": 3881,
   "siteCount": 2,
-  "itemCount": 22
+  "itemCount": 26
  },
  "history": [
   {
@@ -274,6 +274,21 @@
     "yodobashi": 44999,
     "mercari": 2000,
     "yahoo_auction": 2000
+   }
+  },
+  {
+   "date": "2026-11-02",
+   "newMin": 5550,
+   "newMedian": 18835,
+   "usedMin": 2200,
+   "usedMedian": 3881,
+   "sites": {
+    "rakuten": 5550,
+    "yahoo_shopping": 7436,
+    "biccamera": 20900,
+    "yodobashi": 44999,
+    "mercari": 2200,
+    "yahoo_auction": 2200
    }
   }
  ]
