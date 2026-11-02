@@ -1,18 +1,25 @@
 {
  "slug": "smash-bros-special",
  "term": "大乱闘スマッシュブラザーズ SPECIAL",
- "date": "2026-11-02",
- "capturedAt": "2026-11-01T20:10:03.999Z",
+ "date": "2026-11-03",
+ "capturedAt": "2026-11-02T20:10:02.358Z",
  "sites": [
   {
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 13,
+   "count": 14,
    "min": 5200,
-   "median": 6927,
+   "median": 6856,
    "max": 7520,
    "items": [
+    {
+     "title": "『中古即納』{表紙説明書なし}{Switch} 大乱闘スマッシュブラザーズ SPECIAL(スペシャル) 任天堂 (20181207)",
+     "price": 4577,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmediaworld-plus%2F10460193003.html",
+     "shop": "メディアワールドプラス",
+     "used": true
+    },
     {
      "title": "Nintendo Switch 大乱闘スマッシュブラザーズ SPECIAL",
      "price": 5200,
@@ -26,13 +33,6 @@
      "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0012844120.html",
      "shop": "ネットオフ まとめてお得店",
      "used": false
-    },
-    {
-     "title": "『中古即納』{Switch} 大乱闘スマッシュブラザーズ SPECIAL(スペシャル) 任天堂 (20181207)",
-     "price": 5425,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmediaworld-plus%2F10460193001.html",
-     "shop": "メディアワールドプラス",
-     "used": true
     }
    ]
   },
@@ -40,9 +40,9 @@
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 17,
+   "count": 18,
    "min": 5422,
-   "median": 6792,
+   "median": 6721,
    "max": 7524,
    "items": [
     {
@@ -64,6 +64,24 @@
      "price": 5680,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmediaworldkaitoriworld%2F10460193001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmediaworldkaitoriworld%2Fi%2F10237948%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "メディアワールド 販売&買取SHOP",
+     "used": false
+    }
+   ]
+  },
+  {
+   "site": "edion",
+   "label": "エディオン",
+   "used": false,
+   "count": 1,
+   "min": 6880,
+   "median": 6880,
+   "max": 6880,
+   "items": [
+    {
+     "title": "任天堂 大乱闘スマッシュブラザーズ SPECIAL HACPAAABA [HACPAAABA]",
+     "price": 6880,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4902370540734%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10456323%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "エディオン 楽天市場店",
      "used": false
     }
    ]
@@ -112,32 +130,21 @@
    ]
   },
   {
-   "site": "biccamera",
-   "label": "ビックカメラ",
-   "used": false,
-   "count": 1,
-   "min": 7520,
-   "median": 7520,
-   "max": 7520,
-   "items": [
-    {
-     "title": "任天堂｜Nintendo 大乱闘スマッシュブラザーズ SPECIAL",
-     "price": 7520,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4902370540734%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F12184555%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "楽天ビック(ビックカメラ×楽天)",
-     "used": false
-    }
-   ]
-  },
-  {
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
    "count": 14,
-   "min": 3000,
-   "median": 3850,
-   "max": 4900,
+   "min": 2600,
+   "median": 4400,
+   "max": 6120,
    "items": [
+    {
+     "title": "Nintendo Switch 大乱闘スマッシュブラザーズ SPECIAL スマブラSP ソフト 中古 シャチホコ",
+     "price": 2600,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/g1250483108",
+     "shop": "",
+     "used": true
+    },
     {
      "title": "＃82802 ニンテンドースイッチ 大乱闘スマッシュブラザーズ スペシャル ソフトのみ スマブラ SPECIAL",
      "price": 3000,
@@ -146,16 +153,9 @@
      "used": true
     },
     {
-     "title": "ジャンク品 Switch 大乱闘スマッシュブラザーズSPECIAL",
-     "price": 3100,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z715385750",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "054) 未開封 Switchソフト スイッチソフト 大乱闘スマッシュブラザーズ SPECIAL ①",
-     "price": 3500,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/t1250493803",
+     "title": "スイッチソフト◆任天堂 スイッチ ソフトのみ Nintendo Switch 動作確認済 中古品●Z1965■",
+     "price": 3000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/n1250337165",
      "shop": "",
      "used": true
     }
@@ -165,29 +165,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 18,
-   "min": 3733,
-   "median": 4250,
+   "count": 16,
+   "min": 3800,
+   "median": 4472,
    "max": 5333,
    "items": [
     {
-     "title": "Nintendo Switch 大乱闘スマッシュブラザーズ SPECIAL",
-     "price": 3733,
-     "url": "https://jp.mercari.com/item/m91838445838",
+     "title": "大乱闘スマッシュブラザーズ SPECIAL Nintendo Switch",
+     "price": 3800,
+     "url": "https://jp.mercari.com/item/m41226354222",
      "shop": "メルカリ",
      "used": true
     },
     {
      "title": "大乱闘スマッシュブラザーズ SPECIAL Nintendo Switch",
-     "price": 3900,
-     "url": "https://jp.mercari.com/item/m92872772025",
+     "price": 4000,
+     "url": "https://jp.mercari.com/item/m91609153580",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "大乱闘スマッシュブラザーズ SPECIAL Switch ソフト",
+     "title": "Nintendo Switch 大乱闘スマッシュブラザーズ SPECIAL",
      "price": 4000,
-     "url": "https://jp.mercari.com/item/m26562978683",
+     "url": "https://jp.mercari.com/item/m32897717583",
      "shop": "メルカリ",
      "used": true
     }
@@ -199,18 +199,18 @@
   "minSite": "yahoo_shopping",
   "minLabel": "Yahoo!ショッピング",
   "minTitle": "Nintendo Switch 大乱闘スマッシュブラザーズ SPECIAL",
-  "median": 6927,
+  "median": 6880,
   "siteCount": 5,
-  "itemCount": 34
+  "itemCount": 36
  },
  "usedSummary": {
-  "min": 3000,
+  "min": 2600,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "＃82802 ニンテンドースイッチ 大乱闘スマッシュブラザーズ スペシャル ソフトのみ スマブラ SPECIAL",
-  "median": 4250,
+  "minTitle": "Nintendo Switch 大乱闘スマッシュブラザーズ SPECIAL スマブラSP ソフト 中古 シャチホコ",
+  "median": 4472,
   "siteCount": 3,
-  "itemCount": 34
+  "itemCount": 33
  },
  "history": [
   {
@@ -321,6 +321,22 @@
     "biccamera": 7520,
     "yahoo_auction": 3000,
     "mercari": 3733
+   }
+  },
+  {
+   "date": "2026-11-03",
+   "newMin": 5200,
+   "newMedian": 6880,
+   "usedMin": 2600,
+   "usedMedian": 4472,
+   "sites": {
+    "yahoo_shopping": 5200,
+    "rakuten": 5422,
+    "edion": 6880,
+    "joshin": 6890,
+    "yodobashi": 7120,
+    "yahoo_auction": 2600,
+    "mercari": 3800
    }
   }
  ]
