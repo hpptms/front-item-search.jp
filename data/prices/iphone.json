@@ -1,16 +1,16 @@
 {
  "slug": "iphone",
  "term": "iPhone",
- "date": "2026-11-03",
- "capturedAt": "2026-11-02T20:10:02.358Z",
+ "date": "2026-11-04",
+ "capturedAt": "2026-11-03T20:10:07.212Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 4,
+   "count": 5,
    "min": 17800,
-   "median": 71800,
+   "median": 41800,
    "max": 159799,
    "items": [
     {
@@ -72,9 +72,9 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 1,
-   "min": 97000,
-   "median": 97000,
+   "count": 2,
+   "min": 79800,
+   "median": 88400,
    "max": 97000,
    "items": [
     {
@@ -101,64 +101,32 @@
    ]
   },
   {
-   "site": "yahoo_auction",
-   "label": "Yahoo!オークション",
-   "used": true,
-   "count": 5,
-   "min": 15500,
-   "median": 26900,
-   "max": 118000,
-   "items": [
-    {
-     "title": "iPhone 12 Pro 256GB SIMフリー ゴールド 新品未使用 本体のみ",
-     "price": 15500,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/o1250750537",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "送料無料 新品未使用 iPhone 12 Pro 256GB 日本国内版 SIMフリー ゴールド 本体のみ",
-     "price": 17500,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/p1250740138",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "iPhone 11 Pro Max 256GB シルバー SIMフリー 本体",
-     "price": 26900,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/s1250602515",
-     "shop": "",
-     "used": true
-    }
-   ]
-  },
-  {
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 7,
-   "min": 16500,
-   "median": 22000,
-   "max": 113000,
+   "count": 10,
+   "min": 17800,
+   "median": 24000,
+   "max": 120000,
    "items": [
     {
-     "title": "Apple iPhone 11 128GB 本体",
-     "price": 16500,
-     "url": "https://jp.mercari.com/item/m84861630344",
+     "title": "iPhone11 128gb 本体 機能不良なし 交換歴なし",
+     "price": 17800,
+     "url": "https://jp.mercari.com/item/m31708839594",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Apple iPhone 12 128GB ホワイト SIMフリー",
-     "price": 18999,
-     "url": "https://jp.mercari.com/item/m22783919403",
+     "title": "Apple iPhone 12 ホワイト 本体",
+     "price": 19800,
+     "url": "https://jp.mercari.com/item/m44115625399",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Apple iPhone 11 256GB SIMフリー ホワイト 本体",
-     "price": 21000,
-     "url": "https://jp.mercari.com/item/m68588557834",
+     "title": "Apple iPhone 12 64GB 本体 ブラック SIMフリー",
+     "price": 22500,
+     "url": "https://jp.mercari.com/item/m71041255762",
      "shop": "メルカリ",
      "used": true
     }
@@ -170,18 +138,18 @@
   "minSite": "rakuten",
   "minLabel": "楽天市場",
   "minTitle": "アップルApple iPhone SE（第2世代）64GB ホワイト 4.7インチ SIMフリー",
-  "median": 71800,
+  "median": 51571,
   "siteCount": 3,
-  "itemCount": 13
+  "itemCount": 15
  },
  "usedSummary": {
-  "min": 15500,
-  "minSite": "yahoo_auction",
-  "minLabel": "Yahoo!オークション",
-  "minTitle": "iPhone 12 Pro 256GB SIMフリー ゴールド 新品未使用 本体のみ",
-  "median": 24450,
-  "siteCount": 4,
-  "itemCount": 26
+  "min": 17800,
+  "minSite": "mercari",
+  "minLabel": "メルカリ",
+  "minTitle": "iPhone11 128gb 本体 機能不良なし 交換歴なし",
+  "median": 24000,
+  "siteCount": 3,
+  "itemCount": 23
  },
  "history": [
   {
@@ -292,6 +260,19 @@
     "yahoo_shopping": 97000,
     "yahoo_auction": 15500,
     "mercari": 16500
+   }
+  },
+  {
+   "date": "2026-11-04",
+   "newMin": 17800,
+   "newMedian": 51571,
+   "usedMin": 17800,
+   "usedMedian": 24000,
+   "sites": {
+    "rakuten": 17800,
+    "sofmap": 25990,
+    "yahoo_shopping": 79800,
+    "mercari": 17800
    }
   }
  ]

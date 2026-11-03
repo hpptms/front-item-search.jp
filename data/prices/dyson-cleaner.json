@@ -1,8 +1,8 @@
 {
  "slug": "dyson-cleaner",
  "term": "ダイソン 掃除機",
- "date": "2026-11-03",
- "capturedAt": "2026-11-02T20:10:02.358Z",
+ "date": "2026-11-04",
+ "capturedAt": "2026-11-03T20:10:07.212Z",
  "sites": [
   {
    "site": "rakuten",
@@ -40,9 +40,9 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 16,
+   "count": 17,
    "min": 27900,
-   "median": 61400,
+   "median": 57900,
    "max": 82280,
    "items": [
     {
@@ -74,8 +74,8 @@
    "used": false,
    "count": 14,
    "min": 33130,
-   "median": 64460,
-   "max": 135600,
+   "median": 63855,
+   "max": 125670,
    "items": [
     {
      "title": "掃除機 コードレススティッククリーナー Dyson V8 Slim Fluffy（ダイソンV8 スリムフラフィ） サイクロン式 2.15kg SV25 SLM",
@@ -104,20 +104,13 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 5,
-   "min": 18000,
+   "count": 3,
+   "min": 20000,
    "median": 29800,
-   "max": 36666,
+   "max": 35555,
    "items": [
     {
-     "title": "美品 Dyson V10 SV12 コードレス掃除機 フロアドック付き",
-     "price": 18000,
-     "url": "https://jp.mercari.com/item/m31370938040",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "ま*ん様 Dyson V8 Slim Fluffy 掃除機 本体",
+     "title": "Dyson V8 Slim Fluffy 掃除機 本体",
      "price": 20000,
      "url": "https://jp.mercari.com/item/m17595151444",
      "shop": "メルカリ",
@@ -129,6 +122,13 @@
      "url": "https://jp.mercari.com/item/m35201451438",
      "shop": "メルカリ",
      "used": true
+    },
+    {
+     "title": "未使用 Dyson PencilVac Fluffy ダイソン 掃除機",
+     "price": 35555,
+     "url": "https://jp.mercari.com/item/m70967043684",
+     "shop": "メルカリ",
+     "used": true
     }
    ]
   }
@@ -138,18 +138,18 @@
   "minSite": "rakuten",
   "minLabel": "楽天市場",
   "minTitle": "ダイソン Dyson V8 Origin 掃除機 コードレス掃除機 dyson SV25 RD2 ダイソン公式 新品 ダイソン掃除機 スティック掃除機 ハンディクリーナー ハンディ掃除機 コードレス サイクロン 軽量 強力 掃除機ダイソン",
-  "median": 61400,
+  "median": 57900,
   "siteCount": 3,
-  "itemCount": 42
+  "itemCount": 43
  },
  "usedSummary": {
-  "min": 18000,
+  "min": 20000,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "美品 Dyson V10 SV12 コードレス掃除機 フロアドック付き",
+  "minTitle": "Dyson V8 Slim Fluffy 掃除機 本体",
   "median": 29800,
   "siteCount": 1,
-  "itemCount": 5
+  "itemCount": 3
  },
  "history": [
   {
@@ -257,6 +257,19 @@
     "yahoo_shopping": 27900,
     "yodobashi": 33130,
     "mercari": 18000
+   }
+  },
+  {
+   "date": "2026-11-04",
+   "newMin": 27900,
+   "newMedian": 57900,
+   "usedMin": 20000,
+   "usedMedian": 29800,
+   "sites": {
+    "rakuten": 27900,
+    "yahoo_shopping": 27900,
+    "yodobashi": 33130,
+    "mercari": 20000
    }
   }
  ]

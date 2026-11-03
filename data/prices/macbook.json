@@ -1,17 +1,17 @@
 {
  "slug": "macbook",
  "term": "MacBook",
- "date": "2026-11-03",
- "capturedAt": "2026-11-02T20:10:02.358Z",
+ "date": "2026-11-04",
+ "capturedAt": "2026-11-03T20:10:07.212Z",
  "sites": [
   {
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 9,
+   "count": 10,
    "min": 112080,
-   "median": 137800,
-   "max": 197930,
+   "median": 137900,
+   "max": 279800,
    "items": [
     {
      "title": "マックブック 中古 Apple MacBook/Air/Pro11〜15インチ Intel Core i5/i7/m3/m5/m7(第4〜7世代)メモリ8/16GB SSD128/256GB シルバ/グレー WIFI/Bluetooth/カ",
@@ -73,28 +73,28 @@
    "label": "ヨドバシ.com",
    "used": false,
    "count": 16,
-   "min": 137800,
-   "median": 264800,
+   "min": 224800,
+   "median": 271800,
    "max": 519800,
    "items": [
-    {
-     "title": "MacBook Neo 13インチ Apple A18 Proチップ/SSD 512GB/メモリ 8GB/Touch ID搭載Magic Keyboard シトラス MHFE4J/A",
-     "price": 137800,
-     "url": "https://www.yodobashi.com/product/100000001009758045/",
-     "shop": "",
-     "used": false
-    },
-    {
-     "title": "MacBook Neo 13インチ Apple A18 Proチップ/SSD 512GB/メモリ 8GB/Touch ID搭載Magic Keyboard ブラッシュ MHFJ4J/A",
-     "price": 137800,
-     "url": "https://www.yodobashi.com/product/100000001009758049/",
-     "shop": "",
-     "used": false
-    },
     {
      "title": "MacBook Air 13インチ Apple M5チップ（10コアCPU/8コアGPU）/SSD 512GB/メモリ 16GB/ミッドナイト MDHE4J/A",
      "price": 224800,
      "url": "https://www.yodobashi.com/product/100000001009754717/",
+     "shop": "",
+     "used": false
+    },
+    {
+     "title": "MacBook Air 13インチ Apple M5チップ（10コアCPU/8コアGPU）/SSD 512GB/メモリ 16GB/スカイブルー MDHH4J/A",
+     "price": 224800,
+     "url": "https://www.yodobashi.com/product/100000001009754715/",
+     "shop": "",
+     "used": false
+    },
+    {
+     "title": "MacBook Air 13インチ Apple M5チップ（10コアCPU/8コアGPU）/SSD 512GB/メモリ 16GB/スターライト MDHA4J/A",
+     "price": 224800,
+     "url": "https://www.yodobashi.com/product/100000001009754716/",
      "shop": "",
      "used": false
     }
@@ -104,15 +104,15 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 15,
-   "min": 26800,
-   "median": 46000,
-   "max": 115000,
+   "count": 11,
+   "min": 26000,
+   "median": 49800,
+   "max": 79000,
    "items": [
     {
-     "title": "Apple MacBook Air 2019年モデル(A1932)",
-     "price": 26800,
-     "url": "https://jp.mercari.com/item/m10919006626",
+     "title": "Apple MacBook Air ゴールド 本体",
+     "price": 26000,
+     "url": "https://jp.mercari.com/item/m69080088840",
      "shop": "メルカリ",
      "used": true
     },
@@ -136,10 +136,10 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 7,
+   "count": 10,
    "min": 28350,
-   "median": 34650,
-   "max": 78100,
+   "median": 35753,
+   "max": 46750,
    "items": [
     {
      "title": "MacBook Pro 15-inch 2018 32GB/512GB スペースグレー VEGA仕様 Core i7-8850H A1990 付属品無 U06017",
@@ -149,16 +149,16 @@
      "used": true
     },
     {
-     "title": "Apple MacBook Pro 13インチ 2018 Quad-Core Intel Core i5 8GB SSD 256GB シルバー 94% 美品 動作確認済",
-     "price": 33541,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/f1250599443",
+     "title": "Apple MacBook Pro 16インチ M1 Max/32GB/1TB/16.2Retina/macOS1* ★1円開始★",
+     "price": 29153,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/q1250680606",
      "shop": "",
      "used": true
     },
     {
-     "title": "Apple MacBook Pro 16 M1 Pro/16GB/512GB/16.2Retina/macOS1* ★1円開始★",
-     "price": 34650,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/m1250202506",
+     "title": "Apple MacBook Pro (13インチ, M1, 2020) M1/16GB/512GB/13.3Retina/macOS11.* ★1円開始★",
+     "price": 30248,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/b1250676090",
      "shop": "",
      "used": true
     }
@@ -172,14 +172,14 @@
   "minTitle": "MacBook Neo Liquid Retinaディスプレイ(2026) 13インチ MHFA4J/A (シルバー)/apple",
   "median": 145930,
   "siteCount": 3,
-  "itemCount": 34
+  "itemCount": 35
  },
  "usedSummary": {
-  "min": 26800,
-  "minSite": "yahoo_shopping",
-  "minLabel": "Yahoo!ショッピング",
-  "minTitle": "マックブック 中古 Apple MacBook/Air/Pro11〜15インチ Intel Core i5/i7/m3/m5/m7(第4〜7世代)メモリ8/16GB SSD128/256GB シルバ/グレー WIFI/Bluetooth/カ",
-  "median": 40325,
+  "min": 26000,
+  "minSite": "mercari",
+  "minLabel": "メルカリ",
+  "minTitle": "Apple MacBook Air ゴールド 本体",
+  "median": 42777,
   "siteCount": 4,
   "itemCount": 30
  },
@@ -292,6 +292,20 @@
     "rakuten": 118070,
     "yodobashi": 137800,
     "mercari": 26800,
+    "yahoo_auction": 28350
+   }
+  },
+  {
+   "date": "2026-11-04",
+   "newMin": 112080,
+   "newMedian": 145930,
+   "usedMin": 26000,
+   "usedMedian": 42777,
+   "sites": {
+    "yahoo_shopping": 112080,
+    "rakuten": 118070,
+    "yodobashi": 224800,
+    "mercari": 26000,
     "yahoo_auction": 28350
    }
   }

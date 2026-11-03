@@ -1,16 +1,16 @@
 {
  "slug": "comic-set",
  "term": "コミック 全巻セット",
- "date": "2026-11-03",
- "capturedAt": "2026-11-02T20:10:02.358Z",
+ "date": "2026-11-04",
+ "capturedAt": "2026-11-03T20:10:07.212Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 9,
+   "count": 8,
    "min": 5750,
-   "median": 16769,
+   "median": 17944,
    "max": 43868,
    "items": [
     {
@@ -40,10 +40,10 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 20,
+   "count": 19,
    "min": 7436,
-   "median": 16170,
-   "max": 52800,
+   "median": 15660,
+   "max": 41225,
    "items": [
     {
      "title": "新品 / 鬼の花嫁 (1-10巻 最新刊) 全巻セット",
@@ -60,9 +60,9 @@
      "used": false
     },
     {
-     "title": "新品 / ブラック・ジャック -手塚治虫文庫全集- (1-12巻 全巻) 全巻セット",
-     "price": 11891,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmangazenkan%2Fm7360458573.html",
+     "title": "新品 / 薬屋のひとりごと (1-17巻 最新刊) 全巻セット",
+     "price": 13090,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmangazenkan%2Fm5757449845a.html",
      "shop": "漫画全巻ドットコム Yahoo!ショッピング店",
      "used": false
     }
@@ -105,65 +105,65 @@
    ]
   },
   {
-   "site": "yahoo_auction",
-   "label": "Yahoo!オークション",
+   "site": "mercari",
+   "label": "メルカリ",
    "used": true,
-   "count": 9,
-   "min": 2400,
-   "median": 3000,
-   "max": 3780,
+   "count": 13,
+   "min": 2000,
+   "median": 2700,
+   "max": 12800,
    "items": [
     {
-     "title": "全巻セット SLAM DUNK 完全版",
-     "price": 2400,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/o1250567220",
-     "shop": "",
+     "title": "SLAM DUNK スラムダンク 全巻セット 1-31巻 井上雄彦",
+     "price": 2000,
+     "url": "https://jp.mercari.com/item/m11086470182",
+     "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "星の王子さま 全巻セット",
-     "price": 2700,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/x1250215384",
-     "shop": "",
+     "title": "帯付き多数】女神の鬼 1〜18巻セット （全巻ではありません）ヤンマガ コミック",
+     "price": 2200,
+     "url": "https://jp.mercari.com/item/m58245183266",
+     "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "3月のライオン 1巻～18巻+2冊 羽海野チカ -送料無料 コミックセット-",
-     "price": 2750,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/p1250226074",
-     "shop": "",
+     "title": "クローズ 全巻セット 高橋ヒロシ",
+     "price": 2222,
+     "url": "https://jp.mercari.com/item/m47818984769",
+     "shop": "メルカリ",
      "used": true
     }
    ]
   },
   {
-   "site": "mercari",
-   "label": "メルカリ",
+   "site": "yahoo_auction",
+   "label": "Yahoo!オークション",
    "used": true,
-   "count": 12,
-   "min": 3000,
-   "median": 4222,
-   "max": 15800,
+   "count": 11,
+   "min": 2200,
+   "median": 2750,
+   "max": 14300,
    "items": [
     {
-     "title": "約束のネバーランド 全巻セット 1-20巻",
-     "price": 3000,
-     "url": "https://jp.mercari.com/item/m34117050349",
-     "shop": "メルカリ",
+     "title": "ニセコイ 1巻～25巻 古味直志 -送料無料 コミックセット-",
+     "price": 2200,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/x1249967056",
+     "shop": "",
      "used": true
     },
     {
-     "title": "七つの大罪 全巻セット 1-41巻 鈴木央",
-     "price": 3555,
-     "url": "https://jp.mercari.com/item/m87492909057",
-     "shop": "メルカリ",
+     "title": "推しの子 1巻～16巻+1冊 赤坂アカ 横槍メンゴ -送料無料 コミックセット-",
+     "price": 2750,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/x1250219163",
+     "shop": "",
      "used": true
     },
     {
-     "title": "3×3 EYES 全巻セット 高田裕三",
-     "price": 3700,
-     "url": "https://jp.mercari.com/item/m86498451007",
-     "shop": "メルカリ",
+     "title": "青の祓魔師 (エクソシスト) 1巻～34巻 加藤和恵 -送料無料 コミックセット-",
+     "price": 2750,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/b1250218920",
+     "shop": "",
      "used": true
     }
    ]
@@ -174,18 +174,18 @@
   "minSite": "rakuten",
   "minLabel": "楽天市場",
   "minTitle": "封神演義 ＜1〜23巻完結＞ 藤崎竜",
-  "median": 18835,
+  "median": 19422,
   "siteCount": 4,
-  "itemCount": 31
+  "itemCount": 29
  },
  "usedSummary": {
-  "min": 2400,
-  "minSite": "yahoo_auction",
-  "minLabel": "Yahoo!オークション",
-  "minTitle": "全巻セット SLAM DUNK 完全版",
-  "median": 3611,
+  "min": 2000,
+  "minSite": "mercari",
+  "minLabel": "メルカリ",
+  "minTitle": "SLAM DUNK スラムダンク 全巻セット 1-31巻 井上雄彦",
+  "median": 2725,
   "siteCount": 2,
-  "itemCount": 21
+  "itemCount": 24
  },
  "history": [
   {
@@ -304,6 +304,21 @@
     "yodobashi": 44999,
     "yahoo_auction": 2400,
     "mercari": 3000
+   }
+  },
+  {
+   "date": "2026-11-04",
+   "newMin": 5750,
+   "newMedian": 19422,
+   "usedMin": 2000,
+   "usedMedian": 2725,
+   "sites": {
+    "rakuten": 5750,
+    "yahoo_shopping": 7436,
+    "biccamera": 20900,
+    "yodobashi": 44999,
+    "mercari": 2000,
+    "yahoo_auction": 2200
    }
   }
  ]
