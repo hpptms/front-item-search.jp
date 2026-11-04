@@ -1,8 +1,8 @@
 {
  "slug": "comic-set",
  "term": "コミック 全巻セット",
- "date": "2026-11-04",
- "capturedAt": "2026-11-03T20:10:07.212Z",
+ "date": "2026-11-05",
+ "capturedAt": "2026-11-04T20:10:05.431Z",
  "sites": [
   {
    "site": "rakuten",
@@ -105,65 +105,65 @@
    ]
   },
   {
-   "site": "mercari",
-   "label": "メルカリ",
+   "site": "yahoo_auction",
+   "label": "Yahoo!オークション",
    "used": true,
-   "count": 13,
+   "count": 12,
    "min": 2000,
-   "median": 2700,
-   "max": 12800,
+   "median": 2775,
+   "max": 3800,
    "items": [
     {
-     "title": "SLAM DUNK スラムダンク 全巻セット 1-31巻 井上雄彦",
+     "title": "怪獣自衛隊全巻セット1ー24!!",
      "price": 2000,
-     "url": "https://jp.mercari.com/item/m11086470182",
-     "shop": "メルカリ",
+     "url": "https://auctions.yahoo.co.jp/jp/auction/r1250485701",
+     "shop": "",
      "used": true
     },
     {
-     "title": "帯付き多数】女神の鬼 1〜18巻セット （全巻ではありません）ヤンマガ コミック",
+     "title": "ジャンク おーい 竜馬 小山ゆう 全巻セット 武田鉄矢 ヤングサンデーコミックス ワイド版 小学館 漫画 完結 セット お〜い竜馬 送料無料",
      "price": 2200,
-     "url": "https://jp.mercari.com/item/m58245183266",
-     "shop": "メルカリ",
+     "url": "https://auctions.yahoo.co.jp/jp/auction/t1250705126",
+     "shop": "",
      "used": true
     },
     {
-     "title": "クローズ 全巻セット 高橋ヒロシ",
-     "price": 2222,
-     "url": "https://jp.mercari.com/item/m47818984769",
-     "shop": "メルカリ",
+     "title": "☆☆全巻セット 『サザエさん』 1～45巻 + カラー版 よりぬき サザエさん 計46冊セット 朝日新聞社 長谷川町子 4コマ漫画☆USED品",
+     "price": 2200,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/o1250220458",
+     "shop": "",
      "used": true
     }
    ]
   },
   {
-   "site": "yahoo_auction",
-   "label": "Yahoo!オークション",
+   "site": "mercari",
+   "label": "メルカリ",
    "used": true,
-   "count": 11,
-   "min": 2200,
-   "median": 2750,
-   "max": 14300,
+   "count": 9,
+   "min": 2199,
+   "median": 2800,
+   "max": 10999,
    "items": [
     {
-     "title": "ニセコイ 1巻～25巻 古味直志 -送料無料 コミックセット-",
-     "price": 2200,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/x1249967056",
-     "shop": "",
+     "title": "ヲタクに恋は難しい 完結 全巻セット",
+     "price": 2199,
+     "url": "https://jp.mercari.com/item/m72813186358",
+     "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "推しの子 1巻～16巻+1冊 赤坂アカ 横槍メンゴ -送料無料 コミックセット-",
-     "price": 2750,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/x1250219163",
-     "shop": "",
+     "title": "往生際の意味を知れ 全巻 未開封",
+     "price": 2500,
+     "url": "https://jp.mercari.com/item/m95797424335",
+     "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "青の祓魔師 (エクソシスト) 1巻～34巻 加藤和恵 -送料無料 コミックセット-",
-     "price": 2750,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/b1250218920",
-     "shop": "",
+     "title": "盛り上がらないデート 全巻セット",
+     "price": 2699,
+     "url": "https://jp.mercari.com/item/m15418225317",
+     "shop": "メルカリ",
      "used": true
     }
    ]
@@ -180,12 +180,12 @@
  },
  "usedSummary": {
   "min": 2000,
-  "minSite": "mercari",
-  "minLabel": "メルカリ",
-  "minTitle": "SLAM DUNK スラムダンク 全巻セット 1-31巻 井上雄彦",
-  "median": 2725,
+  "minSite": "yahoo_auction",
+  "minLabel": "Yahoo!オークション",
+  "minTitle": "怪獣自衛隊全巻セット1ー24!!",
+  "median": 2788,
   "siteCount": 2,
-  "itemCount": 24
+  "itemCount": 21
  },
  "history": [
   {
@@ -319,6 +319,21 @@
     "yodobashi": 44999,
     "mercari": 2000,
     "yahoo_auction": 2200
+   }
+  },
+  {
+   "date": "2026-11-05",
+   "newMin": 5750,
+   "newMedian": 19422,
+   "usedMin": 2000,
+   "usedMedian": 2788,
+   "sites": {
+    "rakuten": 5750,
+    "yahoo_shopping": 7436,
+    "biccamera": 20900,
+    "yodobashi": 44999,
+    "yahoo_auction": 2000,
+    "mercari": 2199
    }
   }
  ]

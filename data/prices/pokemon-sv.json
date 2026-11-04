@@ -1,8 +1,8 @@
 {
  "slug": "pokemon-sv",
  "term": "ポケモン スカーレット・バイオレット",
- "date": "2026-11-04",
- "capturedAt": "2026-11-03T20:10:07.212Z",
+ "date": "2026-11-05",
+ "capturedAt": "2026-11-04T20:10:05.431Z",
  "sites": [
   {
    "site": "yodobashi",
@@ -65,23 +65,16 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 2,
+   "count": 1,
    "min": 6052,
-   "median": 7226,
-   "max": 8400,
+   "median": 6052,
+   "max": 6052,
    "items": [
     {
      "title": "Game Soft (Nintendo Switch) / ポケットモンスター バイオレット 〔GAME〕",
      "price": 6052,
      "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fhmv%2F13158416.html",
      "shop": "HMV&BOOKS online Yahoo!店",
-     "used": false
-    },
-    {
-     "title": "ポケットモンスター バイオレット -Switch",
-     "price": 8400,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fscarlet2021%2F20240203005543-01747.html",
-     "shop": "スカーレット2021",
      "used": false
     }
    ]
@@ -142,9 +135,9 @@
   "minSite": "yodobashi",
   "minLabel": "ヨドバシ.com",
   "minTitle": "ポケットモンスター スカーレット・バイオレット ゼロの秘宝 [Nintendo Switchソフト ダウンロード版]",
-  "median": 6700,
+  "median": 6052,
   "siteCount": 3,
-  "itemCount": 9
+  "itemCount": 8
  },
  "usedSummary": {
   "min": 4000,
@@ -271,6 +264,20 @@
    "date": "2026-11-04",
    "newMin": 3460,
    "newMedian": 6700,
+   "usedMin": 4000,
+   "usedMedian": 5333,
+   "sites": {
+    "yodobashi": 3460,
+    "rakuten": 3500,
+    "yahoo_shopping": 6052,
+    "mercari": 4000,
+    "yahoo_auction": 4480
+   }
+  },
+  {
+   "date": "2026-11-05",
+   "newMin": 3460,
+   "newMedian": 6052,
    "usedMin": 4000,
    "usedMedian": 5333,
    "sites": {

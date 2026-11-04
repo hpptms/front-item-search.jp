@@ -1,8 +1,8 @@
 {
  "slug": "zelda-botw",
  "term": "ゼルダの伝説 ブレス オブ ザ ワイルド",
- "date": "2026-11-04",
- "capturedAt": "2026-11-03T20:10:07.212Z",
+ "date": "2026-11-05",
+ "capturedAt": "2026-11-04T20:10:05.431Z",
  "sites": [
   {
    "site": "rakuten",
@@ -10,7 +10,7 @@
    "used": false,
    "count": 18,
    "min": 4970,
-   "median": 6768,
+   "median": 6755,
    "max": 7799,
    "items": [
     {
@@ -48,6 +48,13 @@
     {
      "title": "Switch／ゼルダの伝説 ブレス オブ ザ ワイルド",
      "price": 4970,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0012538372.html",
+     "shop": "ネットオフ ヤフー店",
+     "used": false
+    },
+    {
+     "title": "Switch／ゼルダの伝説 ブレス オブ ザ ワイルド",
+     "price": 4970,
      "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0012538372.html",
      "shop": "ネットオフ まとめてお得店",
      "used": false
@@ -58,13 +65,6 @@
      "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmedia-world%2F10460001001.html",
      "shop": "メディアワールド",
      "used": true
-    },
-    {
-     "title": "Switch／ゼルダの伝説 ブレス オブ ザ ワイルド",
-     "price": 5196,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff%2F0012538372.html",
-     "shop": "ネットオフ ヤフー店",
-     "used": false
     }
    ]
   },
@@ -165,10 +165,10 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 10,
+   "count": 12,
    "min": 3100,
-   "median": 4075,
-   "max": 7260,
+   "median": 3715,
+   "max": 4620,
    "items": [
     {
      "title": "Nintendo Switch ゼルダの伝説 ブレス オブ ザ ワイルド Switch",
@@ -178,9 +178,9 @@
      "used": true
     },
     {
-     "title": "ゼルダの伝説 ブレス オブ ザ ワイルド Nintendo Switch 2 Edition Nintendo Switch2",
-     "price": 3300,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/p1250851590",
+     "title": "ゼルダの伝説 ブレスオブザワイルド Nintendo Switch",
+     "price": 3278,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/n1250330420",
      "shop": "",
      "used": true
     },
@@ -197,29 +197,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 20,
-   "min": 3650,
-   "median": 4000,
+   "count": 17,
+   "min": 3500,
+   "median": 4100,
    "max": 4800,
    "items": [
     {
+     "title": "ゼルダの伝説 ブレス オブ ザ ワイルド Nintendo Switch",
+     "price": 3500,
+     "url": "https://jp.mercari.com/item/m36216167472",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
      "title": "ゼルダの伝説 ブレス オブ ザ ワイルド Switch ソフトのみ",
-     "price": 3650,
-     "url": "https://jp.mercari.com/item/m19671769448",
+     "price": 3500,
+     "url": "https://jp.mercari.com/item/m62851472905",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "ゼルダの伝説 ブレス オブ ザ ワイルド Switch ソフト",
-     "price": 3777,
-     "url": "https://jp.mercari.com/item/m94640708798",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "Switch ゼルダの伝説 ブレス オブ ザ ワイルド",
+     "title": "ゼルダの伝説 ブレス オブ ザ ワイルド Switch ソフトのみ",
      "price": 3800,
-     "url": "https://jp.mercari.com/item/m19604951776",
+     "url": "https://jp.mercari.com/item/m14737146569",
      "shop": "メルカリ",
      "used": true
     }
@@ -240,9 +240,9 @@
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
   "minTitle": "Nintendo Switch ゼルダの伝説 ブレス オブ ザ ワイルド Switch",
-  "median": 4075,
+  "median": 4100,
   "siteCount": 3,
-  "itemCount": 33
+  "itemCount": 32
  },
  "history": [
   {
@@ -392,6 +392,23 @@
     "biccamera": 8240,
     "yahoo_auction": 3100,
     "mercari": 3650
+   }
+  },
+  {
+   "date": "2026-11-05",
+   "newMin": 4970,
+   "newMedian": 7463,
+   "usedMin": 3100,
+   "usedMedian": 4100,
+   "sites": {
+    "rakuten": 4970,
+    "yahoo_shopping": 4970,
+    "edion": 6570,
+    "joshin": 6600,
+    "yodobashi": 6910,
+    "biccamera": 8240,
+    "yahoo_auction": 3100,
+    "mercari": 3500
    }
   }
  ]
