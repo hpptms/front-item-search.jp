@@ -1,16 +1,16 @@
 {
  "slug": "mario-kart-8-deluxe",
  "term": "マリオカート8 デラックス",
- "date": "2026-11-05",
- "capturedAt": "2026-11-04T20:10:05.431Z",
+ "date": "2026-11-06",
+ "capturedAt": "2026-11-05T20:10:05.196Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 18,
+   "count": 17,
    "min": 3750,
-   "median": 5894,
+   "median": 5890,
    "max": 6240,
    "items": [
     {
@@ -40,9 +40,9 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 12,
+   "count": 11,
    "min": 4292,
-   "median": 5775,
+   "median": 5700,
    "max": 6240,
    "items": [
     {
@@ -151,10 +151,10 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 12,
+   "count": 11,
    "min": 2508,
    "median": 3200,
-   "max": 3550,
+   "max": 3600,
    "items": [
     {
      "title": "マリオカート8 デラックス Nintendo Switch",
@@ -164,16 +164,16 @@
      "used": true
     },
     {
-     "title": "1円～ Nintendo Switch マリオカート8 デラックス マリオパーティ スーパースターズ",
-     "price": 2530,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/c1250834506",
+     "title": "Nintendo Switch マリオカート8 デラックス 通常版",
+     "price": 3000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/c1250996115",
      "shop": "",
      "used": true
     },
     {
-     "title": "Nintendo Switch マリオカート8 デラックス 通常版",
-     "price": 3000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/c1250996115",
+     "title": "Nintendo Switch マリオカート8 デラックス ソフトのみ",
+     "price": 3100,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z718528032",
      "shop": "",
      "used": true
     }
@@ -183,29 +183,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 17,
-   "min": 3100,
-   "median": 3500,
+   "count": 16,
+   "min": 3000,
+   "median": 3528,
    "max": 4000,
    "items": [
     {
-     "title": "マリオカート8 デラックス Switch ソフトのみ",
-     "price": 3100,
-     "url": "https://jp.mercari.com/item/m65785241040",
+     "title": "マリオカート8 デラックス Switchソフト",
+     "price": 3000,
+     "url": "https://jp.mercari.com/item/m74125076566",
      "shop": "メルカリ",
      "used": true
     },
     {
      "title": "マリオカート8 デラックス Nintendo Switch ソフト",
-     "price": 3433,
-     "url": "https://jp.mercari.com/item/m46897214052",
+     "price": 3100,
+     "url": "https://jp.mercari.com/item/m98255790136",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "マリオカート8 デラックス Switch ソフト",
-     "price": 3499,
-     "url": "https://jp.mercari.com/item/m92481788715",
+     "title": "マリオカート8 デラックス Nintendo Switch ソフト",
+     "price": 3400,
+     "url": "https://jp.mercari.com/item/m33024463082",
      "shop": "メルカリ",
      "used": true
     }
@@ -217,18 +217,18 @@
   "minSite": "rakuten",
   "minLabel": "楽天市場",
   "minTitle": "マリオカート8 デラックスソフト:ニンテンドーSwitchソフト／任天堂キャラクター・ゲーム",
-  "median": 5897,
+  "median": 5895,
   "siteCount": 6,
-  "itemCount": 35
+  "itemCount": 33
  },
  "usedSummary": {
   "min": 2508,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
   "minTitle": "マリオカート8 デラックス Nintendo Switch",
-  "median": 3500,
+  "median": 3528,
   "siteCount": 3,
-  "itemCount": 32
+  "itemCount": 30
  },
  "history": [
   {
@@ -391,6 +391,23 @@
     "biccamera": 6240,
     "yahoo_auction": 2508,
     "mercari": 3100
+   }
+  },
+  {
+   "date": "2026-11-06",
+   "newMin": 3750,
+   "newMedian": 5895,
+   "usedMin": 2508,
+   "usedMedian": 3528,
+   "sites": {
+    "rakuten": 3750,
+    "yahoo_shopping": 4292,
+    "edion": 5890,
+    "joshin": 5900,
+    "yodobashi": 6040,
+    "biccamera": 6240,
+    "yahoo_auction": 2508,
+    "mercari": 3000
    }
   }
  ]

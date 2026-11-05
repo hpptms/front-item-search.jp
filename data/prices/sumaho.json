@@ -1,16 +1,16 @@
 {
  "slug": "sumaho",
  "term": "スマホ",
- "date": "2026-11-05",
- "capturedAt": "2026-11-04T20:10:05.431Z",
+ "date": "2026-11-06",
+ "capturedAt": "2026-11-05T20:10:05.196Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 14,
+   "count": 13,
    "min": 20290,
-   "median": 35940,
+   "median": 35980,
    "max": 134800,
    "items": [
     {
@@ -28,7 +28,7 @@
      "used": false
     },
     {
-     "title": "マラソン限定★700円OFF Samsung Galaxy A25 Galaxy-A25 GalaxyA25 サムスン ギャラクシー A25 本体 スマホ スマートフォン AU版/SoftBank版/ドコモ版 SIMフリー 4GB + 64",
+     "title": "マラソン限定★700円OFF Samsung Galaxy A25 5G Galaxy-A25 GalaxyA25 サムスン ギャラクシー A25 本体 スマホ スマートフォン AU版/SoftBank版/ドコモ版 SIMフリー 4GB +",
      "price": 21900,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgojapanshop%2Fgalaxy-a25%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fgojapanshop%2Fi%2F10002537%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "Go Japan 楽天市場店",
@@ -41,22 +41,15 @@
    "label": "Yahoo!ショッピング",
    "used": false,
    "count": 5,
-   "min": 20680,
-   "median": 25980,
-   "max": 79800,
+   "min": 22980,
+   "median": 43000,
+   "max": 83980,
    "items": [
     {
-     "title": "Xperia 10 III 128GB Aランク スマホ 本体 SIMフリー 美品 白ロム 爆買",
-     "price": 16800,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnicosuma%2Fxperia10iii-128-a.html",
-     "shop": "にこスマ",
-     "used": true
-    },
-    {
-     "title": "motorola モトローラ moto g05(I) フレッシュラベンダー 本体 SIMフリー PB6N0002JP イオンモバイル",
-     "price": 20680,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Faeonmobile%2F2007943979439.html",
-     "shop": "イオンモバイルオンラインショップ",
+     "title": "SIMフリー品 OPPO A5 5G [グリーン]4GB/128GB AU/UQ版 OPG06 スマートフォン本体",
+     "price": 22980,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnewstar%2Fa5-au-green.html",
+     "shop": "new star",
      "used": false
     },
     {
@@ -65,6 +58,13 @@
      "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbest1mobile%2Ff-52g-black.html",
      "shop": "デジタルトレーディング",
      "used": false
+    },
+    {
+     "title": "Google Pixel 7a 128GB Bランク スマホ 本体 SIMフリー 美品 にこスマ認定整備済み品(リファービッシュ 整備済品) 爆買",
+     "price": 28800,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnicosuma%2Fpxl-7a-128-b.html",
+     "shop": "にこスマ",
+     "used": true
     }
    ]
   },
@@ -72,9 +72,9 @@
    "site": "yodobashi",
    "label": "ヨドバシ.com",
    "used": false,
-   "count": 16,
+   "count": 14,
    "min": 54340,
-   "median": 68600,
+   "median": 71115,
    "max": 299200,
    "items": [
     {
@@ -92,9 +92,9 @@
      "used": false
     },
     {
-     "title": "AQUOS wish6/6.6インチ/Dimensity 6300/RAM 4GB/ROM 128GB/Android 16/SIMフリースマートフォン/ソラ SH-M36-A",
-     "price": 54340,
-     "url": "https://www.yodobashi.com/product/100000001010197974/",
+     "title": "AQUOS sense10/6.1インチ/Snapdragon 7s Gen 3/RAM 6GB/ROM 128GB/Android 16/SIMフリースマートフォン/ライトシルバー SH-M33A-S",
+     "price": 67430,
+     "url": "https://www.yodobashi.com/product/100000001009510855/",
      "shop": "",
      "used": false
     }
@@ -104,9 +104,9 @@
    "site": "biccamera",
    "label": "ビックカメラ",
    "used": false,
-   "count": 10,
+   "count": 9,
    "min": 57980,
-   "median": 75575,
+   "median": 73270,
    "max": 109800,
    "items": [
     {
@@ -201,51 +201,65 @@
    ]
   },
   {
-   "site": "mercari",
-   "label": "メルカリ",
+   "site": "yahoo_auction",
+   "label": "Yahoo!オークション",
    "used": true,
-   "count": 9,
-   "min": 10980,
-   "median": 18200,
-   "max": 89899,
+   "count": 3,
+   "min": 10800,
+   "median": 13200,
+   "max": 21800,
    "items": [
     {
-     "title": "美品 iPhone SE2 64GB SIMフリー 本体 赤",
-     "price": 10980,
-     "url": "https://jp.mercari.com/item/m83177650968",
-     "shop": "メルカリ",
+     "title": "「Google pixel 3a」 ジャストブラック まあまあ綺麗な状態です。 simロックフリー Android12 Googleフォト無限アップロード継続中",
+     "price": 10800,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/o1251140817",
+     "shop": "",
      "used": true
     },
     {
-     "title": "Apple iPhone XR SIMフリー 128GB",
-     "price": 13333,
-     "url": "https://jp.mercari.com/item/m90768295712",
-     "shop": "メルカリ",
+     "title": "☆FOSSIBOT Android 15搭載 タフネス スマートフォン SIMフリー スマホ USED品☆",
+     "price": 13200,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/m1250963761",
+     "shop": "",
      "used": true
     },
     {
-     "title": "iPhone13 ミッドナイト128GB SIMフリー 液晶パネル社外 本体キズ",
-     "price": 15000,
-     "url": "https://jp.mercari.com/item/m88869255869",
-     "shop": "メルカリ",
+     "title": "★激安 Xperia 10 IV 128GB SIMフリー 格安SIM可 docomo ○ SO-52C ブラック 中古 新古品 RK0191 L1",
+     "price": 21800,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/e1251127808",
+     "shop": "",
      "used": true
     }
    ]
   },
   {
-   "site": "yahoo_auction",
-   "label": "Yahoo!オークション",
+   "site": "mercari",
+   "label": "メルカリ",
    "used": true,
-   "count": 1,
-   "min": 102000,
-   "median": 102000,
-   "max": 102000,
+   "count": 12,
+   "min": 15000,
+   "median": 20250,
+   "max": 62300,
    "items": [
     {
-     "title": "iPhone 17 Pro 256GB シルバー SIMフリー 本体 箱付き",
-     "price": 102000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/l1250983606",
-     "shop": "",
+     "title": "iPhone11 64GB SIMフリー",
+     "price": 15000,
+     "url": "https://jp.mercari.com/item/m32460314911",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "SAMSUNG Galaxy A12 SIMフリー",
+     "price": 15000,
+     "url": "https://jp.mercari.com/item/m35124213104",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "Google Pixel 7本体",
+     "price": 16700,
+     "url": "https://jp.mercari.com/item/m96569244550",
+     "shop": "メルカリ",
      "used": true
     }
    ]
@@ -256,18 +270,18 @@
   "minSite": "rakuten",
   "minLabel": "楽天市場",
   "minTitle": "「未開封/未使用/国内版SIMフリー」Galaxy A25 5G 64GB docomo版 au/UQ版 ソフトバンク版 Yモバイル版 SIMフリー版 楽天版 ライトブルー ブルー ブラック 白ロム スマホ 本体 楽天モバイル対応",
-  "median": 68600,
+  "median": 71115,
   "siteCount": 7,
-  "itemCount": 65
+  "itemCount": 61
  },
  "usedSummary": {
-  "min": 10980,
-  "minSite": "mercari",
-  "minLabel": "メルカリ",
-  "minTitle": "美品 iPhone SE2 64GB SIMフリー 本体 赤",
-  "median": 35050,
+  "min": 10800,
+  "minSite": "yahoo_auction",
+  "minLabel": "Yahoo!オークション",
+  "minTitle": "「Google pixel 3a」 ジャストブラック まあまあ綺麗な状態です。 simロックフリー Android12 Googleフォト無限アップロード継続中",
+  "median": 27525,
   "siteCount": 4,
-  "itemCount": 21
+  "itemCount": 29
  },
  "history": [
   {
@@ -446,6 +460,24 @@
     "joshin": 77880,
     "mercari": 10980,
     "yahoo_auction": 102000
+   }
+  },
+  {
+   "date": "2026-11-06",
+   "newMin": 20290,
+   "newMedian": 71115,
+   "usedMin": 10800,
+   "usedMedian": 27525,
+   "sites": {
+    "rakuten": 20290,
+    "yahoo_shopping": 22980,
+    "yodobashi": 54340,
+    "biccamera": 57980,
+    "sofmap": 57980,
+    "edion": 59300,
+    "joshin": 77880,
+    "yahoo_auction": 10800,
+    "mercari": 15000
    }
   }
  ]

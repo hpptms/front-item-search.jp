@@ -1,8 +1,8 @@
 {
  "slug": "pixel",
  "term": "Google Pixel",
- "date": "2026-11-05",
- "capturedAt": "2026-11-04T20:10:05.431Z",
+ "date": "2026-11-06",
+ "capturedAt": "2026-11-05T20:10:05.196Z",
  "sites": [
   {
    "site": "yahoo_shopping",
@@ -10,8 +10,8 @@
    "used": false,
    "count": 13,
    "min": 43000,
-   "median": 82899,
-   "max": 84505,
+   "median": 82700,
+   "max": 84424,
    "items": [
     {
      "title": "Google Pixel 7a 128GB Bランク スマホ 本体 SIMフリー 美品 にこスマ認定整備済み品(リファービッシュ 整備済品) 爆買",
@@ -41,9 +41,9 @@
    "label": "楽天市場",
    "used": false,
    "count": 12,
-   "min": 74800,
-   "median": 82185,
-   "max": 160506,
+   "min": 67979,
+   "median": 81365,
+   "max": 136990,
    "items": [
     {
      "title": "Google Pixel 7a 128GB 256GB スマホ スマートフォン 本体 SIMフリー docomo au softbank 美品 にこスマ認定整備済み品(リファービッシュ 整備済品) 白ロム",
@@ -69,13 +69,45 @@
    ]
   },
   {
+   "site": "mercari",
+   "label": "メルカリ",
+   "used": true,
+   "count": 17,
+   "min": 15100,
+   "median": 46980,
+   "max": 90000,
+   "items": [
+    {
+     "title": "Pixel 6a 本体",
+     "price": 15100,
+     "url": "https://jp.mercari.com/item/m27307870287",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "Google Pixel 7本体",
+     "price": 16700,
+     "url": "https://jp.mercari.com/item/m96569244550",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "Google Pixel 6a チャコール 128GB SIMフリー",
+     "price": 24480,
+     "url": "https://jp.mercari.com/item/m86209858790",
+     "shop": "メルカリ",
+     "used": true
+    }
+   ]
+  },
+  {
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 7,
+   "count": 3,
    "min": 15150,
-   "median": 23650,
-   "max": 130000,
+   "median": 24750,
+   "max": 28000,
    "items": [
     {
      "title": "★ 完動品 au Google Pixel 6a チャコール 128GB 1円 ! 1スタ !",
@@ -85,49 +117,17 @@
      "used": true
     },
     {
-     "title": "Google Pixel 6a / Sage / USB端子不調",
-     "price": 16750,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z717516556",
+     "title": "★ 完動品 Google Pixel 8a ベイ 128GB 1円 ! 1スタ !",
+     "price": 24750,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/p1250698837",
      "shop": "",
      "used": true
     },
     {
-     "title": "Google Pixel 6a SIMフリー スマートフォン ブラック ネットワーク制限○ Android",
-     "price": 17181,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/b1250661650",
+     "title": "Google Pixel 6a Sage 128GB SIMフリー 未開封品 グーグル セージ",
+     "price": 28000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z718317144",
      "shop": "",
-     "used": true
-    }
-   ]
-  },
-  {
-   "site": "mercari",
-   "label": "メルカリ",
-   "used": true,
-   "count": 15,
-   "min": 18500,
-   "median": 40000,
-   "max": 90000,
-   "items": [
-    {
-     "title": "Google Pixel 7a 128GB SIMフリー 画面割れ",
-     "price": 18500,
-     "url": "https://jp.mercari.com/item/m88823468330",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "Google pixel 6a 128GB SIMフリー 動作確認済み",
-     "price": 25000,
-     "url": "https://jp.mercari.com/item/m98402169855",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "Google Pixel 7 G03Z5 SIMフリー AD4783",
-     "price": 26900,
-     "url": "https://jp.mercari.com/item/m45256216852",
-     "shop": "メルカリ",
      "used": true
     }
    ]
@@ -138,18 +138,18 @@
   "minSite": "yahoo_shopping",
   "minLabel": "Yahoo!ショッピング",
   "minTitle": "レビューで5000円クーポン Google Pixel 8a 128GB Porcelain グレードA SIMフリー スマホ 本体 動作確認済み android",
-  "median": 82542,
+  "median": 82033,
   "siteCount": 2,
   "itemCount": 25
  },
  "usedSummary": {
-  "min": 15150,
-  "minSite": "yahoo_auction",
-  "minLabel": "Yahoo!オークション",
-  "minTitle": "★ 完動品 au Google Pixel 6a チャコール 128GB 1円 ! 1スタ !",
-  "median": 40400,
+  "min": 15100,
+  "minSite": "mercari",
+  "minLabel": "メルカリ",
+  "minTitle": "Pixel 6a 本体",
+  "median": 41800,
   "siteCount": 4,
-  "itemCount": 33
+  "itemCount": 31
  },
  "history": [
   {
@@ -279,6 +279,19 @@
     "rakuten": 74800,
     "yahoo_auction": 15150,
     "mercari": 18500
+   }
+  },
+  {
+   "date": "2026-11-06",
+   "newMin": 43000,
+   "newMedian": 82033,
+   "usedMin": 15100,
+   "usedMedian": 41800,
+   "sites": {
+    "yahoo_shopping": 43000,
+    "rakuten": 67979,
+    "mercari": 15100,
+    "yahoo_auction": 15150
    }
   }
  ]
