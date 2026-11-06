@@ -1,28 +1,28 @@
 {
  "slug": "comic-set",
  "term": "コミック 全巻セット",
- "date": "2026-11-06",
- "capturedAt": "2026-11-05T20:10:05.196Z",
+ "date": "2026-11-07",
+ "capturedAt": "2026-11-06T20:10:02.762Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
    "count": 7,
-   "min": 5750,
+   "min": 5950,
    "median": 19118,
    "max": 43868,
    "items": [
     {
      "title": "封神演義 ＜1〜23巻完結＞ 藤崎竜",
-     "price": 5750,
+     "price": 5950,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcomicset%2F10000309%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcomicset%2Fi%2F10000309%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "もったいない本舗 楽天市場店",
      "used": false
     },
     {
      "title": "バガボンド ＜1〜37巻＞ 井上 雄彦",
-     "price": 6750,
+     "price": 6700,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcomicset%2F10000341%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcomicset%2Fi%2F10000341%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "もったいない本舗 楽天市場店",
      "used": false
@@ -42,7 +42,7 @@
    "used": false,
    "count": 20,
    "min": 7436,
-   "median": 16080,
+   "median": 15750,
    "max": 41225,
    "items": [
     {
@@ -105,72 +105,72 @@
    ]
   },
   {
-   "site": "mercari",
-   "label": "メルカリ",
+   "site": "yahoo_auction",
+   "label": "Yahoo!オークション",
    "used": true,
    "count": 13,
-   "min": 2000,
-   "median": 5000,
-   "max": 17999,
+   "min": 2100,
+   "median": 2750,
+   "max": 3500,
    "items": [
     {
-     "title": "チェンソーマン1部 全巻セット",
-     "price": 2000,
-     "url": "https://jp.mercari.com/item/m91147055852",
-     "shop": "メルカリ",
+     "title": "送料無料 ヨルムンガンド 1~11全巻セット 高橋慶太郎 コミック",
+     "price": 2100,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/b1250972945",
+     "shop": "",
      "used": true
     },
     {
-     "title": "プラチナエンド 全巻",
-     "price": 2000,
-     "url": "https://jp.mercari.com/item/m84478373144",
-     "shop": "メルカリ",
+     "title": "シャーマンキング 1巻～32巻 武井宏之 -送料無料 コミックセット-",
+     "price": 2200,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/b1251302782",
+     "shop": "",
      "used": true
     },
     {
-     "title": "古本 SLAM DUNK 全巻 井上雄彦 集英社 スラムダンク",
-     "price": 3000,
-     "url": "https://jp.mercari.com/item/m33490375422",
-     "shop": "メルカリ",
+     "title": "鬼滅の刃 1巻～23巻+7冊 吾峠呼世晴 ジャンプコミックス -送料無料 コミックセット-",
+     "price": 2200,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/w1251310124",
+     "shop": "",
      "used": true
     }
    ]
   },
   {
-   "site": "yahoo_auction",
-   "label": "Yahoo!オークション",
+   "site": "mercari",
+   "label": "メルカリ",
    "used": true,
-   "count": 5,
-   "min": 2000,
-   "median": 2500,
-   "max": 5500,
+   "count": 14,
+   "min": 2200,
+   "median": 3500,
+   "max": 14777,
    "items": [
     {
-     "title": "れS4905● 野球場でいただきます 全3巻（完結全巻）セット 飯を食べに野球場へ 女子二人の球場飯ライフ",
-     "price": 2000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/l1250987934",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "☆☆全巻セット 『サザエさん』 1～45巻 + カラー版 よりぬき サザエさん 計46冊セット 朝日新聞社 長谷川町子 4コマ漫画☆USED品",
+     "title": "オオカミ少女と黒王子 1〜16巻 完結 八田鮎子",
      "price": 2200,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/o1250220458",
-     "shop": "",
+     "url": "https://jp.mercari.com/item/m31398262668",
+     "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "蒼の封印 全7巻 完結セット 篠原千絵 小学館文庫 伝奇ロマン",
-     "price": 2500,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/o1250591043",
-     "shop": "",
+     "title": "暗殺教室 1-21巻 全巻セット 松井優征",
+     "price": 2222,
+     "url": "https://jp.mercari.com/item/m50496074427",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "RAVE 全巻セット 真島ヒロ",
+     "price": 2299,
+     "url": "https://jp.mercari.com/item/m47842668632",
+     "shop": "メルカリ",
      "used": true
     }
    ]
   }
  ],
  "newSummary": {
-  "min": 5750,
+  "min": 5950,
   "minSite": "rakuten",
   "minLabel": "楽天市場",
   "minTitle": "封神演義 ＜1〜23巻完結＞ 藤崎竜",
@@ -179,13 +179,13 @@
   "itemCount": 29
  },
  "usedSummary": {
-  "min": 2000,
-  "minSite": "mercari",
-  "minLabel": "メルカリ",
-  "minTitle": "チェンソーマン1部 全巻セット",
-  "median": 3750,
+  "min": 2100,
+  "minSite": "yahoo_auction",
+  "minLabel": "Yahoo!オークション",
+  "minTitle": "送料無料 ヨルムンガンド 1~11全巻セット 高橋慶太郎 コミック",
+  "median": 3125,
   "siteCount": 2,
-  "itemCount": 18
+  "itemCount": 27
  },
  "history": [
   {
@@ -349,6 +349,21 @@
     "yodobashi": 44999,
     "mercari": 2000,
     "yahoo_auction": 2000
+   }
+  },
+  {
+   "date": "2026-11-07",
+   "newMin": 5950,
+   "newMedian": 20009,
+   "usedMin": 2100,
+   "usedMedian": 3125,
+   "sites": {
+    "rakuten": 5950,
+    "yahoo_shopping": 7436,
+    "biccamera": 20900,
+    "yodobashi": 44999,
+    "yahoo_auction": 2100,
+    "mercari": 2200
    }
   }
  ]

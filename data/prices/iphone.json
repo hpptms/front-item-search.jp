@@ -1,16 +1,16 @@
 {
  "slug": "iphone",
  "term": "iPhone",
- "date": "2026-11-06",
- "capturedAt": "2026-11-05T20:10:05.196Z",
+ "date": "2026-11-07",
+ "capturedAt": "2026-11-06T20:10:02.762Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 6,
+   "count": 7,
    "min": 17800,
-   "median": 88300,
+   "median": 133400,
    "max": 159699,
    "items": [
     {
@@ -72,9 +72,9 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 11,
+   "count": 10,
    "min": 32800,
-   "median": 56800,
+   "median": 53400,
    "max": 95800,
    "items": [
     {
@@ -104,15 +104,15 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 7,
-   "min": 16200,
-   "median": 25555,
-   "max": 50000,
+   "count": 8,
+   "min": 15000,
+   "median": 24800,
+   "max": 45000,
    "items": [
     {
-     "title": "Apple iPhone 12 本体 ブラック 128GB",
-     "price": 16200,
-     "url": "https://jp.mercari.com/item/m27824265523",
+     "title": "Apple iPhone 11 128GB 本体",
+     "price": 15000,
+     "url": "https://jp.mercari.com/item/m35001007247",
      "shop": "メルカリ",
      "used": true
     },
@@ -124,10 +124,35 @@
      "used": true
     },
     {
-     "title": "Apple iPhone 11 グリーン 64GB SIMフリー 本体",
-     "price": 20500,
-     "url": "https://jp.mercari.com/item/m61234856891",
+     "title": "Apple iPhone 12 ホワイト 本体",
+     "price": 20000,
+     "url": "https://jp.mercari.com/item/m71242186023",
      "shop": "メルカリ",
+     "used": true
+    }
+   ]
+  },
+  {
+   "site": "yahoo_auction",
+   "label": "Yahoo!オークション",
+   "used": true,
+   "count": 2,
+   "min": 26000,
+   "median": 27465,
+   "max": 28930,
+   "items": [
+    {
+     "title": "iPhone13 128GB 本体箱付き SIMフリー ミッドナイト",
+     "price": 26000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/h1250699308",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "◇ iPhone 13 128GB SIMフリー MLNG3J/A スマートフォン ブルー",
+     "price": 28930,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/e1250707292",
+     "shop": "",
      "used": true
     }
    ]
@@ -138,18 +163,18 @@
   "minSite": "rakuten",
   "minLabel": "楽天市場",
   "minTitle": "アップルApple iPhone SE（第2世代）64GB ホワイト 4.7インチ SIMフリー",
-  "median": 69936,
+  "median": 92486,
   "siteCount": 2,
-  "itemCount": 14
+  "itemCount": 15
  },
  "usedSummary": {
-  "min": 16200,
+  "min": 15000,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "Apple iPhone 12 本体 ブラック 128GB",
-  "median": 28800,
-  "siteCount": 3,
-  "itemCount": 21
+  "minTitle": "Apple iPhone 11 128GB 本体",
+  "median": 26133,
+  "siteCount": 4,
+  "itemCount": 22
  },
  "history": [
   {
@@ -300,6 +325,20 @@
     "sofmap": 25990,
     "yahoo_shopping": 32800,
     "mercari": 16200
+   }
+  },
+  {
+   "date": "2026-11-07",
+   "newMin": 17800,
+   "newMedian": 92486,
+   "usedMin": 15000,
+   "usedMedian": 26133,
+   "sites": {
+    "rakuten": 17800,
+    "sofmap": 25990,
+    "yahoo_shopping": 32800,
+    "mercari": 15000,
+    "yahoo_auction": 26000
    }
   }
  ]

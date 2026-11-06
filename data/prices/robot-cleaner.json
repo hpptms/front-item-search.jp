@@ -1,8 +1,8 @@
 {
  "slug": "robot-cleaner",
  "term": "ロボット掃除機",
- "date": "2026-11-06",
- "capturedAt": "2026-11-05T20:10:05.196Z",
+ "date": "2026-11-07",
+ "capturedAt": "2026-11-06T20:10:02.762Z",
  "sites": [
   {
    "site": "rakuten",
@@ -10,7 +10,7 @@
    "used": false,
    "count": 18,
    "min": 19800,
-   "median": 114895,
+   "median": 124800,
    "max": 240000,
    "items": [
     {
@@ -104,10 +104,10 @@
    "site": "yodobashi",
    "label": "ヨドバシ.com",
    "used": false,
-   "count": 18,
+   "count": 16,
    "min": 39800,
-   "median": 46790,
-   "max": 249800,
+   "median": 43780,
+   "max": 149800,
    "items": [
     {
      "title": "ロボット掃除機 Roomba Mini Slim 掃除機＆床拭きロボット＋SlimCharge 充電スタンド 白（SHIRO） F115260",
@@ -201,21 +201,21 @@
    "label": "ビックカメラ",
    "used": false,
    "count": 14,
-   "min": 44200,
-   "median": 64230,
+   "min": 39801,
+   "median": 80985,
    "max": 199800,
    "items": [
     {
-     "title": "iRobot｜アイロボット ロボット掃除機 「ルンバ」205 DustCompactor combo robot （B） L121060 [吸引＋拭くタイプ（水拭き・乾拭き）]",
-     "price": 44200,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F0885155046161%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F15105465%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "title": "エコバックス｜ECOVACS ロボット掃除機 DEEBOT N30 PRO YDLX11-31ED ホワイト [吸引＋拭くタイプ（水拭き）]",
+     "price": 39801,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F6970135037858%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F15267020%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "楽天ビック(ビックカメラ×楽天)",
      "used": false
     },
     {
-     "title": "エコバックス｜ECOVACS ロボット掃除機 DEEBOT N30 PRO YDLX11-31ED ホワイト [吸引＋拭くタイプ（水拭き）]",
-     "price": 44800,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F6970135037858%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F15267020%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "title": "iRobot｜アイロボット ロボット掃除機 「ルンバ」205 DustCompactor combo robot （B） L121060 [吸引＋拭くタイプ（水拭き・乾拭き）]",
+     "price": 44200,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F0885155046161%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F15105465%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "楽天ビック(ビックカメラ×楽天)",
      "used": false
     },
@@ -229,45 +229,13 @@
    ]
   },
   {
-   "site": "mercari",
-   "label": "メルカリ",
-   "used": true,
-   "count": 5,
-   "min": 10000,
-   "median": 13980,
-   "max": 16500,
-   "items": [
-    {
-     "title": "iRobot ルンバ i5+ 自動ゴミ収集機付き",
-     "price": 10000,
-     "url": "https://jp.mercari.com/item/m87069614337",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "Ankerロボット掃除機 EufyC10",
-     "price": 13500,
-     "url": "https://jp.mercari.com/item/m51900556283",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "SwitchBot ロボット掃除機 K10+ 本体 元箱あり",
-     "price": 13980,
-     "url": "https://jp.mercari.com/item/m97040468930",
-     "shop": "メルカリ",
-     "used": true
-    }
-   ]
-  },
-  {
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 8,
+   "count": 7,
    "min": 10000,
-   "median": 15334,
-   "max": 46398,
+   "median": 18557,
+   "max": 20980,
    "items": [
     {
      "title": "iRobot Roomba ルンバ j7+ ロボット掃除機+クリーンベース（自動ゴミ収集機）j710860 中古並品",
@@ -277,17 +245,49 @@
      "used": true
     },
     {
-     "title": "Roomba mini Slim F115060 ロボット掃除機 家電 未使用 未開封 H11791469",
-     "price": 15334,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/e1248936993",
+     "title": "iRobot ルンバ i7+ ロボット掃除機 自動ゴミ収集機 クリーンベース付",
+     "price": 13500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z718888794",
      "shop": "",
      "used": true
     },
     {
-     "title": "Roomba mini Slim F115060 ロボット掃除機 家電 未使用 未開封 H11789184",
-     "price": 15334,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/w1248937693",
+     "title": "ECOVACS Y1 PRO PLUSロボット掃除機",
+     "price": 13999,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z719000064",
      "shop": "",
+     "used": true
+    }
+   ]
+  },
+  {
+   "site": "mercari",
+   "label": "メルカリ",
+   "used": true,
+   "count": 3,
+   "min": 13420,
+   "median": 21500,
+   "max": 21780,
+   "items": [
+    {
+     "title": "SwitchBot ロボット掃除機 K10+ 本体 元箱あり",
+     "price": 13420,
+     "url": "https://jp.mercari.com/item/m97040468930",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "iRobot Roomba Mini 掃除機・床拭きロボット",
+     "price": 21500,
+     "url": "https://jp.mercari.com/item/m50005929349",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "iRobot Roomba Mini ロボット掃除機 本体 ルンバ",
+     "price": 21780,
+     "url": "https://jp.mercari.com/item/m74811901592",
+     "shop": "メルカリ",
      "used": true
     }
    ]
@@ -300,16 +300,16 @@
   "minTitle": "ロボット掃除機 yeedi mop station / yeediモップステーション 吸引掃除もモップがけもこの1台で充分！全自動水拭き対応 K850+ 音声対応 アプリ対応 powered by ecovacs",
   "median": 53542,
   "siteCount": 7,
-  "itemCount": 107
+  "itemCount": 105
  },
  "usedSummary": {
   "min": 10000,
-  "minSite": "mercari",
-  "minLabel": "メルカリ",
-  "minTitle": "iRobot ルンバ i5+ 自動ゴミ収集機付き",
-  "median": 15334,
+  "minSite": "yahoo_auction",
+  "minLabel": "Yahoo!オークション",
+  "minTitle": "iRobot Roomba ルンバ j7+ ロボット掃除機+クリーンベース（自動ゴミ収集機）j710860 中古並品",
+  "median": 21500,
   "siteCount": 3,
-  "itemCount": 14
+  "itemCount": 11
  },
  "history": [
   {
@@ -507,6 +507,24 @@
     "biccamera": 44200,
     "mercari": 10000,
     "yahoo_auction": 10000
+   }
+  },
+  {
+   "date": "2026-11-07",
+   "newMin": 19800,
+   "newMedian": 53542,
+   "usedMin": 10000,
+   "usedMedian": 21500,
+   "sites": {
+    "rakuten": 19800,
+    "yahoo_shopping": 22800,
+    "sofmap": 24178,
+    "yodobashi": 39800,
+    "joshin": 39800,
+    "edion": 39800,
+    "biccamera": 39801,
+    "yahoo_auction": 10000,
+    "mercari": 13420
    }
   }
  ]
