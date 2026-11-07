@@ -1,8 +1,8 @@
 {
  "slug": "gaming-monitor",
  "term": "ゲーミングモニター",
- "date": "2026-11-07",
- "capturedAt": "2026-11-06T20:10:02.762Z",
+ "date": "2026-11-08",
+ "capturedAt": "2026-11-07T20:10:03.072Z",
  "sites": [
   {
    "site": "yahoo_shopping",
@@ -11,7 +11,7 @@
    "count": 19,
    "min": 10980,
    "median": 24980,
-   "max": 64800,
+   "max": 97680,
    "items": [
     {
      "title": "モニター 23.8インチ 144Hz FHD IPS フリッカーレス MAXZEN pcモニター ゲーミングモニター 23.8型 フルHD ノングレア HDMI MJM24IC01",
@@ -53,17 +53,17 @@
      "used": false
     },
     {
-     "title": "★初心者向け高コスパ！黒/白 モニター 21.5 / 23.8 / 27型 pcモニター 100Hz ゲーミングモニター HDMI 24インチ 1920*1080 FHD パソコン モニター ディスプレイ 非光沢 VA 4000:1 角度調",
-     "price": 11999,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkksmart%2Fhg-238%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkksmart%2Fi%2F10000007%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "KKSmart 楽天市場店",
-     "used": false
-    },
-    {
      "title": "ゲーミングモニター 24.5インチ 180Hz 240Hz FHD 1ms Fast IPS Adaptive Sync HDMI DisplayPort DP フリッカーフリー ブルーライトカット ノングレア ブラック MAXZEN MG",
      "price": 13412,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmaxzen%2F4571495436200%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmaxzen%2Fi%2F10000953%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "MAXZEN Direct 楽天市場店",
+     "used": false
+    },
+    {
+     "title": "ゲーミングモニター モニター 24.5インチ 24インチ 180Hz 240Hz FHD Full HD 1ms Fast IPS IPSパネル Adaptive Sync HDMI DisplayPort フリッカーフリー ノングレア デ",
+     "price": 13480,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4571495436200%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fa-price%2Fi%2F11230302%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "XPRICE楽天市場店",
      "used": false
     }
    ]
@@ -74,7 +74,7 @@
    "used": false,
    "count": 20,
    "min": 14980,
-   "median": 28800,
+   "median": 31890,
    "max": 188800,
    "items": [
     {
@@ -92,9 +92,9 @@
      "used": false
     },
     {
-     "title": "ゲーミングモニター/24.5型/IPS/144Hz/1ms/フルHD：120Hz接続/2年保証 JN-IPS245G144F-Y",
-     "price": 15980,
-     "url": "https://www.yodobashi.com/product/100000001009352113/",
+     "title": "ゲーミングモニター/24.5型/フルHD（1920×1080）/TNパネル/非光沢/HDR対応/180Hz/1ms（MPRT）/HDMI×2 DP×1 JN-245GT180FHDR",
+     "price": 16980,
+     "url": "https://www.yodobashi.com/product/100000001008616668/",
      "shop": "",
      "used": false
     }
@@ -106,7 +106,7 @@
    "used": false,
    "count": 20,
    "min": 15800,
-   "median": 44800,
+   "median": 35946,
    "max": 217800,
    "items": [
     {
@@ -232,29 +232,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 16,
+   "count": 17,
    "min": 8000,
-   "median": 12375,
-   "max": 39000,
+   "median": 12800,
+   "max": 18800,
    "items": [
     {
-     "title": "GigaCrysta 24.5インチ ゲーミングモニター",
+     "title": "DELL 23.8インチ ゲーミングモニター 144Hz",
      "price": 8000,
-     "url": "https://jp.mercari.com/item/m28972189187",
+     "url": "https://jp.mercari.com/item/m35418611906",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Acer ゲーミングモニター 本体 KG251QHbmidpx",
-     "price": 8500,
-     "url": "https://jp.mercari.com/item/m13703129705",
+     "title": "Acer KG251QP3bmiipx 24.5インチ 180Hz フルHD ゲーミングモニター",
+     "price": 8300,
+     "url": "https://jp.mercari.com/shops/product/2JZCB4NcRWx2HBwH8QqPjK",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "ほぼ新品 フルHD モニター 23.8インチ ゲーミングモニター",
-     "price": 8900,
-     "url": "https://jp.mercari.com/item/m11105486289",
+     "title": "ASUS VG258 ゲーミングモニター 24.5インチ",
+     "price": 8800,
+     "url": "https://jp.mercari.com/item/m54910150022",
      "shop": "メルカリ",
      "used": true
     }
@@ -264,29 +264,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 9,
-   "min": 8000,
-   "median": 13500,
-   "max": 30000,
+   "count": 14,
+   "min": 8800,
+   "median": 11000,
+   "max": 24200,
    "items": [
     {
-     "title": "★MSI(動作保証付き) MAG 244C ゲーミングモニター ［23.6型 /フルHD(1920×1080) /ワイド /曲面型］4711377298292-212125",
-     "price": 8000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/k1251302670",
+     "title": "美品★Pixio ピクシオ PX248 Wave White ゲーミングモニター 液晶ディスプレイ 23.8型 FHD スピーカー搭載 PX248WAVEW 10145N",
+     "price": 8800,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/q1251241725",
      "shop": "",
      "used": true
     },
     {
-     "title": "MSI ゲーミングモニター G274QPF-QD 27インチ 液晶 ディスプレイ 261020SK230066",
-     "price": 10560,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/h1250357434",
+     "title": "AOC ゲーミングモニター AGON",
+     "price": 9000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/o1239763610",
      "shop": "",
      "used": true
     },
     {
-     "title": "動作確認済・動作保証付 MSI ゲーミングモニター MAG 255XFV 24.5インチ/フルHD/RAPID VAパネル/250Hz/4526541051210(2208141)",
-     "price": 11000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/c1251115788",
+     "title": "LG フレームレス ゲーミングモニター UltraGear 24GN600-B 23.8インチ/FHD/IPS/144Hz/1ms",
+     "price": 9500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z718125740",
      "shop": "",
      "used": true
     }
@@ -298,7 +298,7 @@
   "minSite": "yahoo_shopping",
   "minLabel": "Yahoo!ショッピング",
   "minTitle": "モニター 23.8インチ 144Hz FHD IPS フリッカーレス MAXZEN pcモニター ゲーミングモニター 23.8型 フルHD ノングレア HDMI MJM24IC01",
-  "median": 41230,
+  "median": 35946,
   "siteCount": 7,
   "itemCount": 127
  },
@@ -306,10 +306,10 @@
   "min": 8000,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "GigaCrysta 24.5インチ ゲーミングモニター",
-  "median": 13500,
+  "minTitle": "DELL 23.8インチ ゲーミングモニター 144Hz",
+  "median": 12800,
   "siteCount": 3,
-  "itemCount": 26
+  "itemCount": 32
  },
  "history": [
   {
@@ -525,6 +525,24 @@
     "joshin": 18867,
     "mercari": 8000,
     "yahoo_auction": 8000
+   }
+  },
+  {
+   "date": "2026-11-08",
+   "newMin": 10980,
+   "newMedian": 35946,
+   "usedMin": 8000,
+   "usedMedian": 12800,
+   "sites": {
+    "yahoo_shopping": 10980,
+    "rakuten": 11999,
+    "yodobashi": 14980,
+    "sofmap": 15800,
+    "biccamera": 17980,
+    "edion": 18000,
+    "joshin": 18867,
+    "mercari": 8000,
+    "yahoo_auction": 8800
    }
   }
  ]

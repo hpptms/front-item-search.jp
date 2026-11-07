@@ -1,8 +1,8 @@
 {
  "slug": "pixel",
  "term": "Google Pixel",
- "date": "2026-11-07",
- "capturedAt": "2026-11-06T20:10:02.762Z",
+ "date": "2026-11-08",
+ "capturedAt": "2026-11-07T20:10:03.072Z",
  "sites": [
   {
    "site": "yahoo_shopping",
@@ -10,7 +10,7 @@
    "used": false,
    "count": 13,
    "min": 40980,
-   "median": 81980,
+   "median": 82700,
    "max": 84424,
    "items": [
     {
@@ -28,9 +28,9 @@
      "used": true
     },
     {
-     "title": "Google Pixel 8a 128GB Bランク スマホ 本体 SIMフリー 美品 リファービッシュ 認定整備済品 整備済み品 白ロム 爆買",
-     "price": 40800,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnicosuma%2Fpixel8a-128-b.html",
+     "title": "Google Pixel 7a 128GB Aランク スマホ 本体 SIMフリー 美品 にこスマ認定整備済み品(リファービッシュ 整備済品) 爆買",
+     "price": 31800,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnicosuma%2Fpxl-7a-128-a.html",
      "shop": "にこスマ",
      "used": true
     }
@@ -40,9 +40,9 @@
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 13,
-   "min": 67979,
-   "median": 81299,
+   "count": 12,
+   "min": 74800,
+   "median": 81045,
    "max": 136990,
    "items": [
     {
@@ -72,29 +72,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 7,
-   "min": 15150,
-   "median": 16800,
-   "max": 36666,
+   "count": 5,
+   "min": 22110,
+   "median": 30500,
+   "max": 75000,
    "items": [
     {
-     "title": "★ 完動品 au Google Pixel 6a チャコール 128GB 1円 ! 1スタ !",
-     "price": 15150,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/d1250704128",
-     "shop": "",
-     "used": true
-    },
-    {
      "title": "★ 完動品 docomo Google Pixel 8a オブシディアン 128GB SIMロック解除済 1円 ! 1スタ !",
-     "price": 15510,
+     "price": 22110,
      "url": "https://auctions.yahoo.co.jp/jp/auction/b1251104162",
      "shop": "",
      "used": true
     },
     {
-     "title": "★ 完動品 Google Pixel 6a チャコール 128GB 1円 ! 1スタ !",
-     "price": 16204,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/o1250712704",
+     "title": "★ ジャンク美品 SoftBank Google Pixel 9 オブシディアン 128GB 1円 ! 1スタ !",
+     "price": 22660,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/l1251255365",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "送料無料 未使用品 google Pixel 8 128GB Obsidian SIMフリー",
+     "price": 30500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/t1251366982",
      "shop": "",
      "used": true
     }
@@ -104,29 +104,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 16,
-   "min": 18000,
-   "median": 50600,
+   "count": 17,
+   "min": 25000,
+   "median": 38000,
    "max": 90000,
    "items": [
     {
-     "title": "Google Pixel 8a 本体 Bay",
-     "price": 18000,
-     "url": "https://jp.mercari.com/item/m17351773744",
+     "title": "Google pixel 7 pro 128gb",
+     "price": 25000,
+     "url": "https://jp.mercari.com/item/m88374959203",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "ビ*ン様 Pixel 6a 本体",
-     "price": 21100,
-     "url": "https://jp.mercari.com/item/m27307870287",
+     "title": "美品 Google Pixel 6a ホワイト 本体 simフリー チョーク",
+     "price": 25999,
+     "url": "https://jp.mercari.com/item/m78066936931",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Google Pixel 6a 本体",
-     "price": 24000,
-     "url": "https://jp.mercari.com/item/m62240889566",
+     "title": "Google Pixel 7 128GB (SIMフリー)",
+     "price": 26000,
+     "url": "https://jp.mercari.com/item/m82079616890",
      "shop": "メルカリ",
      "used": true
     }
@@ -138,16 +138,16 @@
   "minSite": "yahoo_shopping",
   "minLabel": "Yahoo!ショッピング",
   "minTitle": "Google Pixel 8a 128GB Bay",
-  "median": 81640,
+  "median": 81873,
   "siteCount": 2,
-  "itemCount": 26
+  "itemCount": 25
  },
  "usedSummary": {
-  "min": 15150,
+  "min": 22110,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "★ 完動品 au Google Pixel 6a チャコール 128GB 1円 ! 1スタ !",
-  "median": 41800,
+  "minTitle": "★ 完動品 docomo Google Pixel 8a オブシディアン 128GB SIMロック解除済 1円 ! 1スタ !",
+  "median": 37150,
   "siteCount": 4,
   "itemCount": 34
  },
@@ -305,6 +305,19 @@
     "rakuten": 67979,
     "yahoo_auction": 15150,
     "mercari": 18000
+   }
+  },
+  {
+   "date": "2026-11-08",
+   "newMin": 40980,
+   "newMedian": 81873,
+   "usedMin": 22110,
+   "usedMedian": 37150,
+   "sites": {
+    "yahoo_shopping": 40980,
+    "rakuten": 74800,
+    "yahoo_auction": 22110,
+    "mercari": 25000
    }
   }
  ]

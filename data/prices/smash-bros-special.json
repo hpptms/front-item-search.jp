@@ -1,8 +1,8 @@
 {
  "slug": "smash-bros-special",
  "term": "大乱闘スマッシュブラザーズ SPECIAL",
- "date": "2026-11-07",
- "capturedAt": "2026-11-06T20:10:02.762Z",
+ "date": "2026-11-08",
+ "capturedAt": "2026-11-07T20:10:03.072Z",
  "sites": [
   {
    "site": "yahoo_shopping",
@@ -10,7 +10,7 @@
    "used": false,
    "count": 13,
    "min": 5422,
-   "median": 6885,
+   "median": 6850,
    "max": 7520,
    "items": [
     {
@@ -42,7 +42,7 @@
    "used": false,
    "count": 17,
    "min": 5648,
-   "median": 6851,
+   "median": 6806,
    "max": 7524,
    "items": [
     {
@@ -135,27 +135,27 @@
    "used": true,
    "count": 15,
    "min": 2600,
-   "median": 4000,
-   "max": 5100,
+   "median": 4200,
+   "max": 4600,
    "items": [
     {
-     "title": "Nintendo Switch 大乱闘スマッシュブラザーズ SPECIAL ソフト",
+     "title": "054) Switchソフト スイッチソフト 大乱闘スマッシュブラザーズ SPECIAL ④",
      "price": 2600,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/o1251133141",
+     "url": "https://auctions.yahoo.co.jp/jp/auction/e1251123500",
      "shop": "",
      "used": true
     },
     {
-     "title": "Switch 大乱闘スマッシュブラザーズ SPECIAL ゲームソフト スイッチ ニンテンドー 1A0330-138hm /F8",
-     "price": 3003,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/s1251118877",
+     "title": "054) Switchソフト スイッチソフト 大乱闘スマッシュブラザーズ SPECIAL ⑤",
+     "price": 2600,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/h1251113703",
      "shop": "",
      "used": true
     },
     {
-     "title": "Switch 大乱闘スマッシュブラザーズ SPECIAL ゲームソフト スイッチ ニンテンドー 1A0330-136hm /F8",
-     "price": 3003,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/v1251116968",
+     "title": "054) Switchソフト スイッチソフト 大乱闘スマッシュブラザーズ SPECIAL ②",
+     "price": 3300,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/q1251100249",
      "shop": "",
      "used": true
     }
@@ -165,29 +165,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 16,
-   "min": 3000,
-   "median": 4350,
-   "max": 4700,
+   "count": 15,
+   "min": 3500,
+   "median": 4200,
+   "max": 4899,
    "items": [
     {
      "title": "Switch 大乱闘スマッシュブラザーズ SPECIAL",
-     "price": 3000,
-     "url": "https://jp.mercari.com/item/m96531117999",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "Nintendo Switch ソフト 大乱闘スマッシュブラザーズ",
-     "price": 4000,
-     "url": "https://jp.mercari.com/item/m41997588218",
+     "price": 3500,
+     "url": "https://jp.mercari.com/item/m51747067807",
      "shop": "メルカリ",
      "used": true
     },
     {
      "title": "大乱闘スマッシュブラザーズ SPECIAL Switch ソフト",
-     "price": 4099,
-     "url": "https://jp.mercari.com/item/m65013400872",
+     "price": 3800,
+     "url": "https://jp.mercari.com/item/m87804418854",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "大乱闘スマッシュブラザーズ SPECIAL Switch ソフト",
+     "price": 3850,
+     "url": "https://jp.mercari.com/item/m82960670283",
      "shop": "メルカリ",
      "used": true
     }
@@ -199,7 +199,7 @@
   "minSite": "yahoo_shopping",
   "minLabel": "Yahoo!ショッピング",
   "minTitle": "Switch／大乱闘スマッシュブラザーズ SPECIAL",
-  "median": 6885,
+  "median": 6880,
   "siteCount": 5,
   "itemCount": 34
  },
@@ -207,10 +207,10 @@
   "min": 2600,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "Nintendo Switch 大乱闘スマッシュブラザーズ SPECIAL ソフト",
-  "median": 4350,
+  "minTitle": "054) Switchソフト スイッチソフト 大乱闘スマッシュブラザーズ SPECIAL ④",
+  "median": 4200,
   "siteCount": 3,
-  "itemCount": 33
+  "itemCount": 32
  },
  "history": [
   {
@@ -401,6 +401,22 @@
     "yodobashi": 7120,
     "yahoo_auction": 2600,
     "mercari": 3000
+   }
+  },
+  {
+   "date": "2026-11-08",
+   "newMin": 5422,
+   "newMedian": 6880,
+   "usedMin": 2600,
+   "usedMedian": 4200,
+   "sites": {
+    "yahoo_shopping": 5422,
+    "rakuten": 5648,
+    "edion": 6880,
+    "joshin": 6890,
+    "yodobashi": 7120,
+    "yahoo_auction": 2600,
+    "mercari": 3500
    }
   }
  ]

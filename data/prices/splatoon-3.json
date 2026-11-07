@@ -1,16 +1,16 @@
 {
  "slug": "splatoon-3",
  "term": "スプラトゥーン3",
- "date": "2026-11-07",
- "capturedAt": "2026-11-06T20:10:02.762Z",
+ "date": "2026-11-08",
+ "capturedAt": "2026-11-07T20:10:03.072Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 14,
+   "count": 15,
    "min": 4690,
-   "median": 5760,
+   "median": 5670,
    "max": 6198,
    "items": [
     {
@@ -59,7 +59,7 @@
    "label": "Yahoo!ショッピング",
    "used": false,
    "count": 9,
-   "min": 5779,
+   "min": 5778,
    "median": 5950,
    "max": 13280,
    "items": [
@@ -78,10 +78,10 @@
      "used": true
     },
     {
-     "title": "スプラトゥーン3 Switch用ソフト（パッケージ版）",
-     "price": 5779,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Flight-hikari%2F4902370550337.html",
-     "shop": "らいぶshop",
+     "title": "Nintendo Switch ニンテンドー スイッチ ソフト スプラトゥーン3[ラッピング不可] R-LOGI",
+     "price": 5778,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsokuteikiya%2F4902370550337.html",
+     "shop": "測定の森Yahoo!ショッピング店",
      "used": false
     }
    ]
@@ -133,29 +133,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 14,
-   "min": 2640,
-   "median": 3890,
+   "count": 15,
+   "min": 2700,
+   "median": 3900,
    "max": 4000,
    "items": [
     {
-     "title": "Switch スプラトゥーン3 ゲームソフト スイッチ ニンテンドー 1A0330-152hm /F8",
-     "price": 2640,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/1251097192",
+     "title": "★7963 中古 美品 動作品 ニンテンドー スイッチソフト スプラトゥーン3",
+     "price": 2700,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/r1250988403",
      "shop": "",
      "used": true
     },
     {
-     "title": "中古 Nintendo Switch スプラトゥーン3 ソフト スイッチ ネコポス発送",
-     "price": 3570,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/f1250592218",
+     "title": "★中古★Nintendo Switchソフト スプラトゥーン3 (スプラ/スイッチソフト)★",
+     "price": 2860,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/v1250855075",
      "shop": "",
      "used": true
     },
     {
-     "title": "Nintendo Switch スプラトゥーン3 ソフトのみ LA-H-AV5JA-JPN",
-     "price": 3700,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z718473490",
+     "title": "Nintendo Switch スプラトゥーン 3",
+     "price": 3000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/d1249835552",
      "shop": "",
      "used": true
     }
@@ -166,28 +166,28 @@
    "label": "メルカリ",
    "used": true,
    "count": 12,
-   "min": 3600,
-   "median": 4050,
-   "max": 6200,
+   "min": 3800,
+   "median": 4000,
+   "max": 5000,
    "items": [
     {
-     "title": "Nintendo Switch スプラトゥーン3",
-     "price": 3600,
-     "url": "https://jp.mercari.com/item/m39924567635",
+     "title": "Switch スプラトゥーン3",
+     "price": 3800,
+     "url": "https://jp.mercari.com/item/m11242359566",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "最安値Nintendo Switch スプラトゥーン3 ソフト",
+     "title": "□任天堂 Nintendo Switchソフト スプラトゥーン3 -Switch 動作確認済み",
+     "price": 3800,
+     "url": "https://jp.mercari.com/shops/product/2JYzAms6s944TCWMzHDgX7",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "は*と様 最安値Nintendo Switch スプラトゥーン3 ソフト",
      "price": 3800,
      "url": "https://jp.mercari.com/item/m62027600785",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "Splatoon 3 Nintendo Switch ソフト スプラトゥーン3",
-     "price": 3800,
-     "url": "https://jp.mercari.com/item/m15854112916",
      "shop": "メルカリ",
      "used": true
     }
@@ -201,16 +201,16 @@
   "minTitle": "スプラトゥーン 3ソフト:ニンテンドーSwitchソフト／任天堂キャラクター・ゲーム",
   "median": 5780,
   "siteCount": 5,
-  "itemCount": 27
+  "itemCount": 28
  },
  "usedSummary": {
-  "min": 2640,
+  "min": 2700,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "Switch スプラトゥーン3 ゲームソフト スイッチ ニンテンドー 1A0330-152hm /F8",
-  "median": 4050,
+  "minTitle": "★7963 中古 美品 動作品 ニンテンドー スイッチソフト スプラトゥーン3",
+  "median": 4000,
   "siteCount": 3,
-  "itemCount": 28
+  "itemCount": 29
  },
  "history": [
   {
@@ -395,6 +395,22 @@
     "yodobashi": 5980,
     "yahoo_auction": 2640,
     "mercari": 3600
+   }
+  },
+  {
+   "date": "2026-11-08",
+   "newMin": 4690,
+   "newMedian": 5780,
+   "usedMin": 2700,
+   "usedMedian": 4000,
+   "sites": {
+    "rakuten": 4690,
+    "edion": 5680,
+    "yahoo_shopping": 5778,
+    "joshin": 5780,
+    "yodobashi": 5980,
+    "yahoo_auction": 2700,
+    "mercari": 3800
    }
   }
  ]

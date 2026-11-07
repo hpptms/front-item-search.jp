@@ -1,8 +1,8 @@
 {
  "slug": "robot-cleaner",
  "term": "ロボット掃除機",
- "date": "2026-11-07",
- "capturedAt": "2026-11-06T20:10:02.762Z",
+ "date": "2026-11-08",
+ "capturedAt": "2026-11-07T20:10:03.072Z",
  "sites": [
   {
    "site": "rakuten",
@@ -10,7 +10,7 @@
    "used": false,
    "count": 18,
    "min": 19800,
-   "median": 124800,
+   "median": 109895,
    "max": 240000,
    "items": [
     {
@@ -40,7 +40,7 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 18,
+   "count": 19,
    "min": 22800,
    "median": 69800,
    "max": 149800,
@@ -104,10 +104,10 @@
    "site": "yodobashi",
    "label": "ヨドバシ.com",
    "used": false,
-   "count": 16,
+   "count": 19,
    "min": 39800,
    "median": 43780,
-   "max": 149800,
+   "max": 249800,
    "items": [
     {
      "title": "ロボット掃除機 Roomba Mini Slim 掃除機＆床拭きロボット＋SlimCharge 充電スタンド 白（SHIRO） F115260",
@@ -202,7 +202,7 @@
    "used": false,
    "count": 14,
    "min": 39801,
-   "median": 80985,
+   "median": 64230,
    "max": 199800,
    "items": [
     {
@@ -232,29 +232,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 7,
-   "min": 10000,
-   "median": 18557,
-   "max": 20980,
+   "count": 4,
+   "min": 12500,
+   "median": 19179,
+   "max": 24200,
    "items": [
     {
-     "title": "iRobot Roomba ルンバ j7+ ロボット掃除機+クリーンベース（自動ゴミ収集機）j710860 中古並品",
-     "price": 10000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/r1249341872",
+     "title": "Roborock/ロボロック ロボット掃除機 Qrevo L Pro QLP52-04/New多機能Dock EWFD24LRR ブラック 通電確認済",
+     "price": 12500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/s1251135231",
      "shop": "",
      "used": true
     },
     {
-     "title": "iRobot ルンバ i7+ ロボット掃除機 自動ゴミ収集機 クリーンベース付",
-     "price": 13500,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z718888794",
+     "title": "新品 Anker（アンカー）Eufy ロボット掃除機 C10 アクセサリーキット同梱セット",
+     "price": 18557,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/d1250186460",
      "shop": "",
      "used": true
     },
     {
-     "title": "ECOVACS Y1 PRO PLUSロボット掃除機",
-     "price": 13999,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z719000064",
+     "title": "◎ほぼ未使用 Anker Eufy ユーフィ X10 Pro Omni ロボット掃除機 全自動クリーニングステーション 吸引/水拭き/から拭き 展示品 w103011",
+     "price": 19800,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/w1250708921",
      "shop": "",
      "used": true
     }
@@ -264,29 +264,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 3,
-   "min": 13420,
-   "median": 21500,
-   "max": 21780,
+   "count": 4,
+   "min": 15000,
+   "median": 15000,
+   "max": 21600,
    "items": [
     {
-     "title": "SwitchBot ロボット掃除機 K10+ 本体 元箱あり",
-     "price": 13420,
-     "url": "https://jp.mercari.com/item/m97040468930",
+     "title": "ロボット掃除機 本体",
+     "price": 15000,
+     "url": "https://jp.mercari.com/item/m59799341794",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "iRobot Roomba Mini 掃除機・床拭きロボット",
-     "price": 21500,
-     "url": "https://jp.mercari.com/item/m50005929349",
+     "title": "SwitchBot ロボット掃除機 K10+",
+     "price": 15000,
+     "url": "https://jp.mercari.com/item/m77021879697",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "iRobot Roomba Mini ロボット掃除機 本体 ルンバ",
-     "price": 21780,
-     "url": "https://jp.mercari.com/item/m74811901592",
+     "title": "ILIFE V9 Pro ロボット掃除機 本体",
+     "price": 15000,
+     "url": "https://jp.mercari.com/item/m91256624780",
      "shop": "メルカリ",
      "used": true
     }
@@ -300,16 +300,16 @@
   "minTitle": "ロボット掃除機 yeedi mop station / yeediモップステーション 吸引掃除もモップがけもこの1台で充分！全自動水拭き対応 K850+ 音声対応 アプリ対応 powered by ecovacs",
   "median": 53542,
   "siteCount": 7,
-  "itemCount": 105
+  "itemCount": 109
  },
  "usedSummary": {
-  "min": 10000,
+  "min": 12500,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "iRobot Roomba ルンバ j7+ ロボット掃除機+クリーンベース（自動ゴミ収集機）j710860 中古並品",
-  "median": 21500,
+  "minTitle": "Roborock/ロボロック ロボット掃除機 Qrevo L Pro QLP52-04/New多機能Dock EWFD24LRR ブラック 通電確認済",
+  "median": 19179,
   "siteCount": 3,
-  "itemCount": 11
+  "itemCount": 9
  },
  "history": [
   {
@@ -525,6 +525,24 @@
     "biccamera": 39801,
     "yahoo_auction": 10000,
     "mercari": 13420
+   }
+  },
+  {
+   "date": "2026-11-08",
+   "newMin": 19800,
+   "newMedian": 53542,
+   "usedMin": 12500,
+   "usedMedian": 19179,
+   "sites": {
+    "rakuten": 19800,
+    "yahoo_shopping": 22800,
+    "sofmap": 24178,
+    "yodobashi": 39800,
+    "joshin": 39800,
+    "edion": 39800,
+    "biccamera": 39801,
+    "yahoo_auction": 12500,
+    "mercari": 15000
    }
   }
  ]

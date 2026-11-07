@@ -1,25 +1,18 @@
 {
  "slug": "sumaho",
  "term": "スマホ",
- "date": "2026-11-07",
- "capturedAt": "2026-11-06T20:10:02.762Z",
+ "date": "2026-11-08",
+ "capturedAt": "2026-11-07T20:10:03.072Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
    "count": 12,
-   "min": 20290,
+   "min": 21900,
    "median": 35940,
-   "max": 134800,
+   "max": 76800,
    "items": [
-    {
-     "title": "「未開封/未使用/国内版SIMフリー」Galaxy A25 5G 64GB docomo版 au/UQ版 ソフトバンク版 Yモバイル版 SIMフリー版 楽天版 ライトブルー ブルー ブラック 白ロム スマホ 本体 楽天モバイル対応",
-     "price": 20290,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbest1mobile%2Fgalaxya25%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbest1mobile%2Fi%2F10001575%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "デジタルトレーディング",
-     "used": false
-    },
     {
      "title": "★楽天ランキング1位獲得 FOSSiBOT S5 S5 Pro SIMフリースマホ 本体 Android 15 16GB+128GB 32GB+256GB/1TB拡張可能 オクタコアプロセッサ 6000mAh 6.88インチ大画面 アンドロ",
      "price": 21900,
@@ -33,6 +26,13 @@
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgojapanshop%2Fgalaxy-a25%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fgojapanshop%2Fi%2F10002537%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "Go Japan 楽天市場店",
      "used": false
+    },
+    {
+     "title": "[国内版SIMフリー][新品未使用] OPPO A5 グリーン/ホワイト au|UQ版/Yモバイル版/楽天版/SIMフリー版 4GB+128GB スマホ 本体 楽天モバイル対応",
+     "price": 22800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbest1mobile%2Foppo-a5%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbest1mobile%2Fi%2F10001623%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "デジタルトレーディング",
+     "used": false
     }
    ]
   },
@@ -40,10 +40,10 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 4,
+   "count": 2,
    "min": 25980,
-   "median": 40250,
-   "max": 82900,
+   "median": 34490,
+   "max": 43000,
    "items": [
     {
      "title": "「新品未使用/国内版SIMフリー」 FUJITSU arrows We3 docomo版 F-52G 4GB/64GB ブラック 白ロム スマホ 本体",
@@ -204,22 +204,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 2,
-   "min": 11500,
-   "median": 24050,
-   "max": 36600,
+   "count": 3,
+   "min": 10560,
+   "median": 12250,
+   "max": 21000,
    "items": [
     {
-     "title": "Xperia Ace III SO-53C 5.5インチ ブラック ドコモ SIMフリー 31885",
-     "price": 11500,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/w1251123541",
+     "title": "新品未使用 スマートフォン Android docomo FCNT arrows We F-51B SIMフリー 残債なし 64GB パープル 1円スタート",
+     "price": 10560,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/v1250584008",
      "shop": "",
      "used": true
     },
     {
-     "title": "新品 未使用 未開封 国内版SIMフリー motorola edge 60 PANTONE Shamrock (シャムロックグリーン) 8GB/128GB",
-     "price": 36600,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/b1251213310",
+     "title": "arrows We F-51B ドコモ 美品 SIMロック解除済み SIMフリー",
+     "price": 12250,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/q1251140244",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "C-97508D Xiaomi シャオミ POCO X6 Pro 5G Dimensity 8300-Ultra イエロー SIMフリー android スマートフォン",
+     "price": 21000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/d1251400462",
      "shop": "",
      "used": true
     }
@@ -229,29 +236,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 14,
-   "min": 13400,
-   "median": 35250,
-   "max": 99900,
+   "count": 7,
+   "min": 12000,
+   "median": 19999,
+   "max": 22000,
    "items": [
     {
-     "title": "iPhone 12 64GB グリーン SIMフリー",
-     "price": 13400,
-     "url": "https://jp.mercari.com/item/m22771027738",
+     "title": "iPhone XR 64GB ホワイト",
+     "price": 12000,
+     "url": "https://jp.mercari.com/item/m41914464862",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "iPhone X シルバー 64 GB SIMフリー",
-     "price": 14000,
-     "url": "https://jp.mercari.com/item/m95389195149",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "iPhone11 64GB SIMフリー",
+     "title": "美品☆Apple iPhoneX 256GB シルバー SIMフリー",
      "price": 15000,
-     "url": "https://jp.mercari.com/item/m32460314911",
+     "url": "https://jp.mercari.com/item/m82912097497",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "Y*n様 Libero Flip 本体A304ZT",
+     "price": 15700,
+     "url": "https://jp.mercari.com/item/m23092234629",
      "shop": "メルカリ",
      "used": true
     }
@@ -259,22 +266,22 @@
   }
  ],
  "newSummary": {
-  "min": 20290,
+  "min": 21900,
   "minSite": "rakuten",
   "minLabel": "楽天市場",
-  "minTitle": "「未開封/未使用/国内版SIMフリー」Galaxy A25 5G 64GB docomo版 au/UQ版 ソフトバンク版 Yモバイル版 SIMフリー版 楽天版 ライトブルー ブルー ブラック 白ロム スマホ 本体 楽天モバイル対応",
+  "minTitle": "★楽天ランキング1位獲得 FOSSiBOT S5 S5 Pro SIMフリースマホ 本体 Android 15 16GB+128GB 32GB+256GB/1TB拡張可能 オクタコアプロセッサ 6000mAh 6.88インチ大画面 アンドロ",
   "median": 67430,
   "siteCount": 7,
-  "itemCount": 63
+  "itemCount": 61
  },
  "usedSummary": {
-  "min": 11500,
+  "min": 10560,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "Xperia Ace III SO-53C 5.5インチ ブラック ドコモ SIMフリー 31885",
-  "median": 35025,
+  "minTitle": "新品未使用 スマートフォン Android docomo FCNT arrows We F-51B SIMフリー 残債なし 64GB パープル 1円スタート",
+  "median": 27400,
   "siteCount": 4,
-  "itemCount": 30
+  "itemCount": 25
  },
  "history": [
   {
@@ -489,6 +496,24 @@
     "joshin": 77880,
     "yahoo_auction": 11500,
     "mercari": 13400
+   }
+  },
+  {
+   "date": "2026-11-08",
+   "newMin": 21900,
+   "newMedian": 67430,
+   "usedMin": 10560,
+   "usedMedian": 27400,
+   "sites": {
+    "rakuten": 21900,
+    "yahoo_shopping": 25980,
+    "yodobashi": 54340,
+    "biccamera": 57980,
+    "sofmap": 57980,
+    "edion": 59300,
+    "joshin": 77880,
+    "yahoo_auction": 10560,
+    "mercari": 12000
    }
   }
  ]

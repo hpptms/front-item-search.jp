@@ -1,8 +1,8 @@
 {
  "slug": "comic-set",
  "term": "コミック 全巻セット",
- "date": "2026-11-07",
- "capturedAt": "2026-11-06T20:10:02.762Z",
+ "date": "2026-11-08",
+ "capturedAt": "2026-11-07T20:10:03.072Z",
  "sites": [
   {
    "site": "rakuten",
@@ -53,7 +53,7 @@
      "used": false
     },
     {
-     "title": "新品 / [ホタ嫁]ホタルの嫁入り (全14冊) 全巻セット",
+     "title": "[11月上旬より発送予定]新品 / [ホタ嫁]ホタルの嫁入り (全14冊) 全巻セット[入荷予約]",
      "price": 10846,
      "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmangazenkan%2Fm5890407412.html",
      "shop": "漫画全巻ドットコム Yahoo!ショッピング店",
@@ -87,50 +87,32 @@
    ]
   },
   {
-   "site": "yodobashi",
-   "label": "ヨドバシ.com",
-   "used": false,
-   "count": 1,
-   "min": 44999,
-   "median": 44999,
-   "max": 44999,
-   "items": [
-    {
-     "title": "『からくりサーカス 完全版』全26巻 専用ボックス入り全巻セット(少年サンデーコミックス) [コミック]",
-     "price": 44999,
-     "url": "https://www.yodobashi.com/product/100000009004153697/",
-     "shop": "",
-     "used": false
-    }
-   ]
-  },
-  {
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 13,
-   "min": 2100,
+   "count": 10,
+   "min": 2200,
    "median": 2750,
-   "max": 3500,
+   "max": 3300,
    "items": [
     {
-     "title": "送料無料 ヨルムンガンド 1~11全巻セット 高橋慶太郎 コミック",
-     "price": 2100,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/b1250972945",
+     "title": "終末のハーレム 1巻～18巻 LINK 宵野コタロー -送料無料 コミックセット-",
+     "price": 2200,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/n1251307708",
      "shop": "",
      "used": true
     },
     {
-     "title": "シャーマンキング 1巻～32巻 武井宏之 -送料無料 コミックセット-",
+     "title": "ディー・グレイマン 1巻～29巻+4冊 星野桂 -送料無料 コミックセット-",
      "price": 2200,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/b1251302782",
+     "url": "https://auctions.yahoo.co.jp/jp/auction/b1251240842",
      "shop": "",
      "used": true
     },
     {
-     "title": "鬼滅の刃 1巻～23巻+7冊 吾峠呼世晴 ジャンプコミックス -送料無料 コミックセット-",
-     "price": 2200,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/w1251310124",
+     "title": "推しの子 1巻～16巻 赤坂アカ 横槍メンゴ -送料無料 コミックセット-",
+     "price": 2750,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/o1249204167",
      "shop": "",
      "used": true
     }
@@ -140,29 +122,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 14,
-   "min": 2200,
-   "median": 3500,
-   "max": 14777,
+   "count": 13,
+   "min": 2500,
+   "median": 3999,
+   "max": 11500,
    "items": [
     {
-     "title": "オオカミ少女と黒王子 1〜16巻 完結 八田鮎子",
-     "price": 2200,
-     "url": "https://jp.mercari.com/item/m31398262668",
+     "title": "君のいる町 全巻セット 1-27巻 瀬尾公治",
+     "price": 2500,
+     "url": "https://jp.mercari.com/item/m38138725322",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "暗殺教室 1-21巻 全巻セット 松井優征",
-     "price": 2222,
-     "url": "https://jp.mercari.com/item/m50496074427",
+     "title": "値下げ可ヘタリアSpeciale1-3全巻＋ ヘタリアGangsta 1",
+     "price": 2790,
+     "url": "https://jp.mercari.com/item/m12981223662",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "RAVE 全巻セット 真島ヒロ",
-     "price": 2299,
-     "url": "https://jp.mercari.com/item/m47842668632",
+     "title": "鬼滅の刃 全巻セット 1〜23巻",
+     "price": 3200,
+     "url": "https://jp.mercari.com/item/m82671330756",
      "shop": "メルカリ",
      "used": true
     }
@@ -174,18 +156,18 @@
   "minSite": "rakuten",
   "minLabel": "楽天市場",
   "minTitle": "封神演義 ＜1〜23巻完結＞ 藤崎竜",
-  "median": 20009,
-  "siteCount": 4,
-  "itemCount": 29
+  "median": 19118,
+  "siteCount": 3,
+  "itemCount": 28
  },
  "usedSummary": {
-  "min": 2100,
+  "min": 2200,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "送料無料 ヨルムンガンド 1~11全巻セット 高橋慶太郎 コミック",
-  "median": 3125,
+  "minTitle": "終末のハーレム 1巻～18巻 LINK 宵野コタロー -送料無料 コミックセット-",
+  "median": 3375,
   "siteCount": 2,
-  "itemCount": 27
+  "itemCount": 23
  },
  "history": [
   {
@@ -364,6 +346,20 @@
     "yodobashi": 44999,
     "yahoo_auction": 2100,
     "mercari": 2200
+   }
+  },
+  {
+   "date": "2026-11-08",
+   "newMin": 5950,
+   "newMedian": 19118,
+   "usedMin": 2200,
+   "usedMedian": 3375,
+   "sites": {
+    "rakuten": 5950,
+    "yahoo_shopping": 7436,
+    "biccamera": 20900,
+    "yahoo_auction": 2200,
+    "mercari": 2500
    }
   }
  ]
