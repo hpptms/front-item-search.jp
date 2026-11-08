@@ -1,8 +1,8 @@
 {
  "slug": "animal-crossing",
  "term": "あつまれ どうぶつの森",
- "date": "2026-11-08",
- "capturedAt": "2026-11-07T20:10:03.072Z",
+ "date": "2026-11-09",
+ "capturedAt": "2026-11-08T20:10:04.027Z",
  "sites": [
   {
    "site": "yahoo_shopping",
@@ -43,7 +43,7 @@
    "count": 18,
    "min": 4380,
    "median": 5479,
-   "max": 6343,
+   "max": 6770,
    "items": [
     {
      "title": "[Switch] あつまれ どうぶつの森 任天堂 (20200320)",
@@ -122,10 +122,10 @@
    "site": "yodobashi",
    "label": "ヨドバシ.com",
    "used": false,
-   "count": 4,
+   "count": 3,
    "min": 5920,
-   "median": 6640,
-   "max": 7120,
+   "median": 6510,
+   "max": 6680,
    "items": [
     {
      "title": "あつまれ どうぶつの森 [Nintendo Switchソフト]",
@@ -143,7 +143,7 @@
     },
     {
      "title": "あつまれ どうぶつの森 Nintendo Switch 2 Edition [Nintendo Switch 2 ソフト]",
-     "price": 6770,
+     "price": 6680,
      "url": "https://www.yodobashi.com/product/100000001009517361/",
      "shop": "",
      "used": false
@@ -151,25 +151,68 @@
    ]
   },
   {
-   "site": "yahoo_auction",
-   "label": "Yahoo!オークション",
-   "used": true,
-   "count": 13,
-   "min": 2970,
-   "median": 3598,
-   "max": 5380,
+   "site": "biccamera",
+   "label": "ビックカメラ",
+   "used": false,
+   "count": 1,
+   "min": 6770,
+   "median": 6770,
+   "max": 6770,
    "items": [
     {
-     "title": "★中古★Nintendo Switch2ソフト あつまれ どうぶつの森 Nintendo Switch 2 Edition (あつ森)★",
-     "price": 2970,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/j1250845953",
-     "shop": "",
+     "title": "任天堂｜Nintendo あつまれ どうぶつの森 Nintendo Switch 2 Edition",
+     "price": 6770,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4902370553901%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F15300933%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "楽天ビック(ビックカメラ×楽天)",
+     "used": false
+    }
+   ]
+  },
+  {
+   "site": "mercari",
+   "label": "メルカリ",
+   "used": true,
+   "count": 17,
+   "min": 3100,
+   "median": 3500,
+   "max": 3900,
+   "items": [
+    {
+     "title": "あつまれ どうぶつの森 Nintendo Switch ソフト",
+     "price": 3100,
+     "url": "https://jp.mercari.com/item/m92443669084",
+     "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Nintendo Switch あつまれ どうぶつの森",
+     "title": "Nintendo Switch あつまれ どうぶつの森 ソフト",
+     "price": 3300,
+     "url": "https://jp.mercari.com/item/m38900868742",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "Nintendo Switch あつまれ どうぶつの森 ソフト",
+     "price": 3300,
+     "url": "https://jp.mercari.com/item/m21610698947",
+     "shop": "メルカリ",
+     "used": true
+    }
+   ]
+  },
+  {
+   "site": "yahoo_auction",
+   "label": "Yahoo!オークション",
+   "used": true,
+   "count": 11,
+   "min": 3200,
+   "median": 3700,
+   "max": 5380,
+   "items": [
+    {
+     "title": "Nintendo Switch あつまれ どうぶつの森 ソフトのみ",
      "price": 3200,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/f1251439841",
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z714662218",
      "shop": "",
      "used": true
     },
@@ -179,37 +222,12 @@
      "url": "https://auctions.yahoo.co.jp/jp/auction/b1251277929",
      "shop": "",
      "used": true
-    }
-   ]
-  },
-  {
-   "site": "mercari",
-   "label": "メルカリ",
-   "used": true,
-   "count": 19,
-   "min": 3200,
-   "median": 3600,
-   "max": 4000,
-   "items": [
-    {
-     "title": "あつまれ どうぶつの森 Nintendo Switch ソフト",
-     "price": 3200,
-     "url": "https://jp.mercari.com/item/m34832526821",
-     "shop": "メルカリ",
-     "used": true
     },
     {
-     "title": "Nintendo Switch あつまれ どうぶつの森 ソフト",
-     "price": 3200,
-     "url": "https://jp.mercari.com/item/m20021837687",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "Nintendo Switch あつまれ どうぶつの森",
-     "price": 3300,
-     "url": "https://jp.mercari.com/item/m81501568556",
-     "shop": "メルカリ",
+     "title": "CE812 Switch あつまれ どうぶつの森",
+     "price": 3500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/j1251559598",
+     "shop": "",
      "used": true
     }
    ]
@@ -220,18 +238,18 @@
   "minSite": "yahoo_shopping",
   "minLabel": "Yahoo!ショッピング",
   "minTitle": "Switch／あつまれ どうぶつの森",
-  "median": 6025,
-  "siteCount": 5,
+  "median": 6043,
+  "siteCount": 6,
   "itemCount": 42
  },
  "usedSummary": {
-  "min": 2970,
-  "minSite": "yahoo_auction",
-  "minLabel": "Yahoo!オークション",
-  "minTitle": "★中古★Nintendo Switch2ソフト あつまれ どうぶつの森 Nintendo Switch 2 Edition (あつ森)★",
-  "median": 3599,
+  "min": 3100,
+  "minSite": "mercari",
+  "minLabel": "メルカリ",
+  "minTitle": "あつまれ どうぶつの森 Nintendo Switch ソフト",
+  "median": 3600,
   "siteCount": 2,
-  "itemCount": 32
+  "itemCount": 28
  },
  "history": [
   {
@@ -443,6 +461,23 @@
     "yodobashi": 5920,
     "yahoo_auction": 2970,
     "mercari": 3200
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "newMin": 4292,
+   "newMedian": 6043,
+   "usedMin": 3100,
+   "usedMedian": 3600,
+   "sites": {
+    "yahoo_shopping": 4292,
+    "rakuten": 4380,
+    "edion": 5730,
+    "joshin": 5750,
+    "yodobashi": 5920,
+    "biccamera": 6770,
+    "mercari": 3100,
+    "yahoo_auction": 3200
    }
   }
  ]

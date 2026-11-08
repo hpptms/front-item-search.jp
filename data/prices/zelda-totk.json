@@ -1,8 +1,8 @@
 {
  "slug": "zelda-totk",
  "term": "ゼルダの伝説 ティアーズ オブ ザ キングダム",
- "date": "2026-11-08",
- "capturedAt": "2026-11-07T20:10:03.072Z",
+ "date": "2026-11-09",
+ "capturedAt": "2026-11-08T20:10:04.027Z",
  "sites": [
   {
    "site": "yahoo_shopping",
@@ -40,9 +40,9 @@
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 19,
+   "count": 18,
    "min": 4880,
-   "median": 6910,
+   "median": 6905,
    "max": 8100,
    "items": [
     {
@@ -165,29 +165,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 9,
+   "count": 12,
    "min": 2530,
-   "median": 3300,
-   "max": 5590,
+   "median": 3815,
+   "max": 5461,
    "items": [
     {
      "title": "★中古★Nintendo Switchソフト ゼルダの伝説 ティアーズ オブ ザ キングダム (ニンテンドースイッチ/任天堂/スイッチ) ★",
      "price": 2530,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/r1250854783",
+     "url": "https://auctions.yahoo.co.jp/jp/auction/1250941707",
      "shop": "",
      "used": true
     },
     {
      "title": "★中古★Nintendo Switchソフト ゼルダの伝説 ティアーズ オブ ザ キングダム (ニンテンドースイッチ/任天堂/スイッチ) ★",
-     "price": 2640,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/x1250841469",
+     "price": 2530,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/w1250947984",
      "shop": "",
      "used": true
     },
     {
      "title": "★中古★Nintendo Switchソフト ゼルダの伝説 ティアーズ オブ ザ キングダム (ニンテンドースイッチ/任天堂/スイッチ) ★",
-     "price": 2640,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/t1250849070",
+     "price": 2530,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/s1250959521",
      "shop": "",
      "used": true
     }
@@ -197,29 +197,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 13,
-   "min": 3850,
-   "median": 4000,
-   "max": 6999,
+   "count": 8,
+   "min": 3700,
+   "median": 4495,
+   "max": 6800,
    "items": [
     {
-     "title": "ゼルダの伝説 ティアーズ オブ ザ キングダム Nintendo Switch",
-     "price": 3850,
-     "url": "https://jp.mercari.com/item/m83917406601",
+     "title": "NintendoSwitchゼルダの伝説ティアーズ オブ ザ キングダム 箱無し",
+     "price": 3700,
+     "url": "https://jp.mercari.com/item/m52996793986",
      "shop": "メルカリ",
      "used": true
     },
     {
      "title": "ゼルダの伝説 ティアーズ オブ ザ キングダム Switch",
-     "price": 3855,
-     "url": "https://jp.mercari.com/item/m73301709841",
+     "price": 4200,
+     "url": "https://jp.mercari.com/item/m97731775412",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "ゼルダの伝説 ティアーズオブザキングダム Switchソフトパッケージ版",
-     "price": 3899,
-     "url": "https://jp.mercari.com/item/m68363693508",
+     "title": "Nintendo 任天堂 Switch ゼルダの伝説 ティアーズオブザキングダム",
+     "price": 4350,
+     "url": "https://jp.mercari.com/item/m28089626072",
      "shop": "メルカリ",
      "used": true
     }
@@ -233,16 +233,16 @@
   "minTitle": "Switch／ゼルダの伝説 ティアーズ オブ ザ キングダム",
   "median": 7594,
   "siteCount": 6,
-  "itemCount": 38
+  "itemCount": 37
  },
  "usedSummary": {
   "min": 2530,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
   "minTitle": "★中古★Nintendo Switchソフト ゼルダの伝説 ティアーズ オブ ザ キングダム (ニンテンドースイッチ/任天堂/スイッチ) ★",
-  "median": 3650,
-  "siteCount": 2,
-  "itemCount": 22
+  "median": 4495,
+  "siteCount": 3,
+  "itemCount": 21
  },
  "history": [
   {
@@ -459,6 +459,23 @@
     "biccamera": 8470,
     "yahoo_auction": 2530,
     "mercari": 3850
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "newMin": 4744,
+   "newMedian": 7594,
+   "usedMin": 2530,
+   "usedMedian": 4495,
+   "sites": {
+    "yahoo_shopping": 4744,
+    "rakuten": 4880,
+    "joshin": 6890,
+    "edion": 6910,
+    "yodobashi": 7290,
+    "biccamera": 8470,
+    "yahoo_auction": 2530,
+    "mercari": 3700
    }
   }
  ]

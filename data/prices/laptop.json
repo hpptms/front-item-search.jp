@@ -1,8 +1,8 @@
 {
  "slug": "laptop",
  "term": "ノートパソコン",
- "date": "2026-11-08",
- "capturedAt": "2026-11-07T20:10:03.072Z",
+ "date": "2026-11-09",
+ "capturedAt": "2026-11-08T20:10:04.027Z",
  "sites": [
   {
    "site": "biccamera",
@@ -67,8 +67,8 @@
    "used": false,
    "count": 20,
    "min": 66970,
-   "median": 169800,
-   "max": 230780,
+   "median": 179800,
+   "max": 425980,
    "items": [
     {
      "title": "Chromebook DuetGen9/10.95型/Kompanio 838/メモリ 4GB/eMMC 128GB/ChromeOS/ルナグレー 83HH000UJP",
@@ -97,9 +97,9 @@
    "site": "joshin",
    "label": "ジョーシン",
    "used": false,
-   "count": 8,
+   "count": 9,
    "min": 66978,
-   "median": 152300,
+   "median": 144800,
    "max": 189980,
    "items": [
     {
@@ -111,15 +111,15 @@
     },
     {
      "title": "HP｜エイチピー ノートパソコン HP 15-fd0876TU (15.6型/Windows11/インテル Core 5 120U/メモリ 16GB/SSD 512GB/WPS Office)ナチュラルシルバー HP 15-fd0000 シ",
-     "price": 129800,
+     "price": 119800,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4527607043262-41-73819-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14784140%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "Joshin web 家電とPCの大型専門店",
      "used": false
     },
     {
-     "title": "Acer｜エイサー ノートパソコン Aspire Lite(15.6型/Core Ultra 5 115U/メモリ 16GB/SSD 512GB/Windows 11Home/Office)ライトシルバー AL15-54P-F56YJARE",
-     "price": 139800,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4515777662543-41-69735-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14795026%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "title": "ASUS｜エイスース ノートパソコン ASUS Vivobook Go 15(15.6型/Windows11/Ryzen 5 40/メモリ 16GB/SSD 512GB)クールシルバー E1504FA-R5165WJ6",
+     "price": 129800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F0199291500778-41-60157-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14925312%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "Joshin web 家電とPCの大型専門店",
      "used": false
     }
@@ -130,7 +130,7 @@
    "label": "Yahoo!ショッピング",
    "used": false,
    "count": 5,
-   "min": 71980,
+   "min": 75980,
    "median": 145800,
    "max": 153780,
    "items": [
@@ -142,18 +142,18 @@
      "used": true
     },
     {
-     "title": "ノートパソコン 第11世代Corei5 Lenovo X13 FHD13.3インチ 中古パソコン メモリ16GB NVMe・SSD256GB Win11 MS Office2024 type-c HDMI 中古ノートパソコン",
-     "price": 39999,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Feco-stage-japan%2Fnt-i7-007.html",
-     "shop": "Ecostation Store",
+     "title": "ノートパソコン Windows11 Core i5 第10世代 Office2024搭載 富士通 Lifebook A5510 SSD512GB メモリ16GB 15.6インチ PC 中古 ライフブック",
+     "price": 34800,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Flib-2021store%2Fb552-i7.html",
+     "shop": "L.I.Bヤフーショップ",
      "used": true
     },
     {
-     "title": "ノートパソコン windows11 新品 15.6型 パソコン ノートPC office搭載 インテル intel Core i7-6600u メモリ16GB 8GB SSD128GB〜1TB 日本語キーボード 安い",
-     "price": 71980,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fshop-mmr%2Fpasokon-i76600u.html",
-     "shop": "MMRパソコン専門店",
-     "used": false
+     "title": "ノートパソコン 東芝 G83 13.3型 フルHD 第11世代Corei5 Office2024付き SSD512GB メモリ16GB Bluetooth Windows 11 美品 中古 IrisXe",
+     "price": 68800,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fomlstore%2Ftoshiba-g83-11-51216.html",
+     "shop": "高性能パソコン専門店OMLサービス",
+     "used": true
     }
    ]
   },
@@ -161,7 +161,7 @@
    "site": "edion",
    "label": "エディオン",
    "used": false,
-   "count": 6,
+   "count": 5,
    "min": 87780,
    "median": 224820,
    "max": 269800,
@@ -174,16 +174,16 @@
      "used": false
     },
     {
-     "title": "富士通 ノートパソコン e angle select FMV Note A ファインシルバー FMVA75L2S6 [FMVA75L2S6]",
-     "price": 209800,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4570105182308%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10911614%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "title": "ASUS ノートパソコン Zenbook SORA アイスランドグレー UX3407QA-PU16548GR [UX3407QAPU16548GR]",
+     "price": 224820,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F0197105887800%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10865789%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "エディオン 楽天市場店",
      "used": false
     },
     {
-     "title": "ASUS ノートパソコン Zenbook SORA アイスランドグレー UX3407QA-PU16548GR [UX3407QAPU16548GR]",
+     "title": "ASUS ノートパソコン Zenbook SORA ザブリスキーベージュ UX3407QA-PU16548BE [UX3407QAPU16548BE]",
      "price": 224820,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F0197105887800%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10865789%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F0197105887817%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10865810%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "エディオン 楽天市場店",
      "used": false
     }
@@ -193,10 +193,10 @@
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 6,
-   "min": 129980,
-   "median": 137960,
-   "max": 200900,
+   "count": 10,
+   "min": 104800,
+   "median": 149800,
+   "max": 210300,
    "items": [
     {
      "title": "MS Office 2024 H&B 搭載｜14型 WEBカメラ 指紋認証 搭載モデル｜中古 ノートパソコン Windows11 Office 付き｜Dell Latitude 5400｜Core i5 第8世代 以降 1.60GHz 4コ",
@@ -206,17 +206,17 @@
      "used": true
     },
     {
-     "title": "AI PC ノートパソコン 新品 Office付き 可能 Lenovo IdeaPad Slim 3i Gen 11 14インチ WUXGA IPS 液晶 Core 5 315 メモリ 16GB SSD 512GB Windows11 Mi",
-     "price": 129980,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flenovopc%2F82vg00f8jp%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flenovopc%2Fi%2F10005583%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "レノボ・ショッピング 楽天市場店",
+     "title": "新品 期間限定 DELL デル ノートパソコン Dell 14型 FHD+/ Core 5 120U ( Core i5 同等性能)/ メモリ 16GB/ SSD 512GB/ Windows 11/ Webカメラ/ プラチナシルバー",
+     "price": 104800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpchome%2Fcore5%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpchome%2Fi%2F10000507%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "pchome",
      "used": false
     },
     {
-     "title": "ノートパソコン office付き 新品 おすすめ FMV Note E WE1-K3 15.6型 Windows 11 Home Core i5 メモリ16GB SSD 512GB office 搭載モデル FMVWK3E15W_RK FM",
-     "price": 136120,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffujitsu-fmv%2Frk_we1k3_a002%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffujitsu-fmv%2Fi%2F10001143%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "FMV Store公式 楽天市場店",
+     "title": "おまかせPC ノートパソコン Lenovo V15 Gen5 Win11 Pro 第13世代 Core i5-13420H 8コア メモリ16GB SSD 256GB NVMe 15.6インチ フルHD カメラ テンキー Wi-Fi6 レノ",
+     "price": 124800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-fellows5%2F16110410%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fe-fellows5%2Fi%2F10058167%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "パソコンショップ@フェローズ",
      "used": false
     }
    ]
@@ -227,27 +227,27 @@
    "used": true,
    "count": 4,
    "min": 20800,
-   "median": 23450,
-   "max": 47777,
+   "median": 25400,
+   "max": 38830,
    "items": [
     {
-     "title": "Windows11 ノートパソコン core i7 SSD 富士通 ノートPC",
+     "title": "Windows11 ノートパソコン 富士通 SSD i7 カメラ付きPC",
      "price": 20800,
-     "url": "https://jp.mercari.com/item/m44614091340",
+     "url": "https://jp.mercari.com/item/m98334913917",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "ノートパソコンEsbook 14インチ",
-     "price": 21900,
-     "url": "https://jp.mercari.com/item/m66055268978",
+     "title": "Lenovo IdeaPad 3 15ADA05 ノートパソコン",
+     "price": 22000,
+     "url": "https://jp.mercari.com/item/m94414970289",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "2022年 dynabook GCX83/VWE/Core i3 1215U/RAM8GB/NVMe SSD256GB/13.3型フルHD/Windows11/中古/PC/ノートパソコン/超軽量/小型",
-     "price": 25000,
-     "url": "https://jp.mercari.com/shops/product/2JZDfiiKbyxjoYfHufu2qT",
+     "title": "NECノートパソコン Win11 Corei5 新品SSD office A44",
+     "price": 28800,
+     "url": "https://jp.mercari.com/item/m59594128750",
      "shop": "メルカリ",
      "used": true
     }
@@ -257,11 +257,18 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 7,
+   "count": 4,
    "min": 23001,
-   "median": 34000,
-   "max": 47000,
+   "median": 25501,
+   "max": 39800,
    "items": [
+    {
+     "title": "ノートパソコン 中古 HP 250 G7 NOTEBOOK PC i7第8世代 ノートPC Core i7-8565U DDR4メモリ8GB SSD 240GB 15.6 i7 8th gen laptop",
+     "price": 23001,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/v1251374196",
+     "shop": "",
+     "used": true
+    },
     {
      "title": "ノートパソコン中古 FUJITSU LIFEBOOK AH53/C2 FMVA53C2WK i7第8世代 ノートPC Core i7-8550U メモリ 8GB SSD 300GB 15.6 フルHD LAPTOP",
      "price": 23001,
@@ -270,16 +277,9 @@
      "used": true
     },
     {
-     "title": "ノートパソコン中古 NEC VERSAPRO VF-9 PC-VRT16FB6S3R9 i5第10世代 ノートPC Core i5-10210U メモリ8GB SSD 240GB 15.6 LAPTOP",
-     "price": 23001,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/x1251192719",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "dynabook GZ/HUL 第11世代 Core i7-1195G7 16GB NVMe SSD256GB 13.3インチ フルHD Win11 Office2021 純正AC #BB632",
-     "price": 28990,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/e1251104113",
+     "title": "hp laptop 15 fd0xxx intel n100 ノートPC メモリ8GB NVMe 128GB 15.6 インチ 中古パソコン intel n100 processor laptop windows 11",
+     "price": 28000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/h1251513923",
      "shop": "",
      "used": true
     }
@@ -291,18 +291,18 @@
   "minSite": "biccamera",
   "minLabel": "ビックカメラ",
   "minTitle": "LENOVO｜レノボジャパン ノートパソコン IdeaPad Duet370 Chromebook ミスティブルー 82T6000RJP [Snapdragon /メモリ：4GB /eMMC：128GB /Chrome OS /10.95型",
-  "median": 152300,
+  "median": 149800,
   "siteCount": 7,
-  "itemCount": 55
+  "itemCount": 59
  },
  "usedSummary": {
   "min": 20800,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "Windows11 ノートパソコン core i7 SSD 富士通 ノートPC",
-  "median": 28350,
+  "minTitle": "Windows11 ノートパソコン 富士通 SSD i7 カメラ付きPC",
+  "median": 25451,
   "siteCount": 4,
-  "itemCount": 14
+  "itemCount": 12
  },
  "history": [
   {
@@ -533,6 +533,24 @@
     "yahoo_shopping": 71980,
     "edion": 87780,
     "rakuten": 129980,
+    "mercari": 20800,
+    "yahoo_auction": 23001
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "newMin": 51480,
+   "newMedian": 149800,
+   "usedMin": 20800,
+   "usedMedian": 25451,
+   "sites": {
+    "biccamera": 51480,
+    "sofmap": 51480,
+    "yodobashi": 66970,
+    "joshin": 66978,
+    "yahoo_shopping": 75980,
+    "edion": 87780,
+    "rakuten": 104800,
     "mercari": 20800,
     "yahoo_auction": 23001
    }

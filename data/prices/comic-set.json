@@ -1,8 +1,8 @@
 {
  "slug": "comic-set",
  "term": "コミック 全巻セット",
- "date": "2026-11-08",
- "capturedAt": "2026-11-07T20:10:03.072Z",
+ "date": "2026-11-09",
+ "capturedAt": "2026-11-08T20:10:04.027Z",
  "sites": [
   {
    "site": "rakuten",
@@ -42,7 +42,7 @@
    "used": false,
    "count": 20,
    "min": 7436,
-   "median": 15750,
+   "median": 15283,
    "max": 41225,
    "items": [
     {
@@ -60,9 +60,9 @@
      "used": false
     },
     {
-     "title": "新品 / 薬屋のひとりごと (1-17巻 最新刊) 全巻セット",
-     "price": 13090,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmangazenkan%2Fm5757449845a.html",
+     "title": "[1月上旬より発送予定]新品 / ちいかわ なんか小さくてかわいいやつ (1-8巻 最新刊) 全巻セット[入荷予約]",
+     "price": 11110,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmangazenkan%2Fm2560436932.html",
      "shop": "漫画全巻ドットコム Yahoo!ショッピング店",
      "used": false
     }
@@ -90,29 +90,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 10,
-   "min": 2200,
-   "median": 2750,
-   "max": 3300,
+   "count": 13,
+   "min": 2000,
+   "median": 2889,
+   "max": 8250,
    "items": [
     {
-     "title": "終末のハーレム 1巻～18巻 LINK 宵野コタロー -送料無料 コミックセット-",
-     "price": 2200,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/n1251307708",
+     "title": "全巻セット あさきゆめみし(文庫版)ボックスセット[2］",
+     "price": 2000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/w1251533851",
      "shop": "",
      "used": true
     },
     {
-     "title": "ディー・グレイマン 1巻～29巻+4冊 星野桂 -送料無料 コミックセット-",
-     "price": 2200,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/b1251240842",
+     "title": "全巻セット あさきゆめみし(文庫版)ボックスセット",
+     "price": 2000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/c1251522893",
      "shop": "",
      "used": true
     },
     {
-     "title": "推しの子 1巻～16巻 赤坂アカ 横槍メンゴ -送料無料 コミックセット-",
-     "price": 2750,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/o1249204167",
+     "title": "新品購入 一読のみ 天使なんかじゃない 新装再編版（1～5巻全巻セット) / 矢沢あい",
+     "price": 2000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/s1250266647",
      "shop": "",
      "used": true
     }
@@ -123,28 +123,28 @@
    "label": "メルカリ",
    "used": true,
    "count": 13,
-   "min": 2500,
-   "median": 3999,
-   "max": 11500,
+   "min": 2100,
+   "median": 4000,
+   "max": 18000,
    "items": [
     {
-     "title": "君のいる町 全巻セット 1-27巻 瀬尾公治",
-     "price": 2500,
-     "url": "https://jp.mercari.com/item/m38138725322",
+     "title": "どうしようもない僕とキスしよう 全巻セット 北川みゆき",
+     "price": 2100,
+     "url": "https://jp.mercari.com/item/m53025148712",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "値下げ可ヘタリアSpeciale1-3全巻＋ ヘタリアGangsta 1",
-     "price": 2790,
-     "url": "https://jp.mercari.com/item/m12981223662",
+     "title": "べしゃり暮らし 全巻セット 1-20巻 森田まさのり",
+     "price": 2400,
+     "url": "https://jp.mercari.com/item/m59881562189",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "鬼滅の刃 全巻セット 1〜23巻",
-     "price": 3200,
-     "url": "https://jp.mercari.com/item/m82671330756",
+     "title": "軍鶏 Shamo 全巻セット 1巻～34巻",
+     "price": 3000,
+     "url": "https://jp.mercari.com/item/m56279008989",
      "shop": "メルカリ",
      "used": true
     }
@@ -161,13 +161,13 @@
   "itemCount": 28
  },
  "usedSummary": {
-  "min": 2200,
+  "min": 2000,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "終末のハーレム 1巻～18巻 LINK 宵野コタロー -送料無料 コミックセット-",
-  "median": 3375,
+  "minTitle": "全巻セット あさきゆめみし(文庫版)ボックスセット[2］",
+  "median": 3445,
   "siteCount": 2,
-  "itemCount": 23
+  "itemCount": 26
  },
  "history": [
   {
@@ -360,6 +360,20 @@
     "biccamera": 20900,
     "yahoo_auction": 2200,
     "mercari": 2500
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "newMin": 5950,
+   "newMedian": 19118,
+   "usedMin": 2000,
+   "usedMedian": 3445,
+   "sites": {
+    "rakuten": 5950,
+    "yahoo_shopping": 7436,
+    "biccamera": 20900,
+    "yahoo_auction": 2000,
+    "mercari": 2100
    }
   }
  ]
