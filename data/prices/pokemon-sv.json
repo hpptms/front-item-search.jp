@@ -1,8 +1,8 @@
 {
  "slug": "pokemon-sv",
  "term": "ポケモン スカーレット・バイオレット",
- "date": "2026-11-09",
- "capturedAt": "2026-11-08T20:10:04.027Z",
+ "date": "2026-11-10",
+ "capturedAt": "2026-11-09T20:10:02.212Z",
  "sites": [
   {
    "site": "yodobashi",
@@ -62,82 +62,25 @@
    ]
   },
   {
-   "site": "yahoo_shopping",
-   "label": "Yahoo!ショッピング",
-   "used": false,
-   "count": 2,
-   "min": 6052,
-   "median": 7226,
-   "max": 8400,
-   "items": [
-    {
-     "title": "Game Soft (Nintendo Switch) / ポケットモンスター バイオレット 〔GAME〕",
-     "price": 6052,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fhmv%2F13158416.html",
-     "shop": "HMV&BOOKS online Yahoo!店",
-     "used": false
-    },
-    {
-     "title": "ポケットモンスター バイオレット -Switch",
-     "price": 8400,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fscarlet2021%2F20240203005543-01747.html",
-     "shop": "スカーレット2021",
-     "used": false
-    }
-   ]
-  },
-  {
-   "site": "yahoo_auction",
-   "label": "Yahoo!オークション",
-   "used": true,
-   "count": 3,
-   "min": 4480,
-   "median": 6666,
-   "max": 7200,
-   "items": [
-    {
-     "title": "ストーリーマクロコントローラー マイコン ポケットモンスター スカーレット バイオレット ポケモンSV",
-     "price": 4480,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z720626802",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "①Switch ジョイコン ポケモンSV 左右LR ポケットモンスター スカーレット・バイオレットエディション 赤 紫",
-     "price": 6666,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/w1250490378",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "値下げ！早い者勝ち！ ポケットモンスター スカーレットとバイオレット",
-     "price": 7200,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z711307686",
-     "shop": "",
-     "used": true
-    }
-   ]
-  },
-  {
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
    "count": 2,
-   "min": 5800,
-   "median": 6900,
-   "max": 7999,
+   "min": 7777,
+   "median": 7789,
+   "max": 7800,
    "items": [
     {
-     "title": "ポケットモンスター スカーレット・バイオレット Switch",
-     "price": 5800,
-     "url": "https://jp.mercari.com/item/m82861998982",
+     "title": "ポケットモンスター スカーレット バイオレット ポケモン Switch sv",
+     "price": 7777,
+     "url": "https://jp.mercari.com/item/m88925250347",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "ポケットモンスター スカーレット バイオレット ポケモン Switch sv",
-     "price": 7999,
-     "url": "https://jp.mercari.com/item/m88925250347",
+     "title": "ポケットモンスター スカーレット・バイオレット Switch ソフト",
+     "price": 7800,
+     "url": "https://jp.mercari.com/item/m22416328244",
      "shop": "メルカリ",
      "used": true
     }
@@ -149,18 +92,18 @@
   "minSite": "yodobashi",
   "minLabel": "ヨドバシ.com",
   "minTitle": "ポケットモンスター スカーレット・バイオレット ゼロの秘宝 [Nintendo Switchソフト ダウンロード版]",
-  "median": 6700,
-  "siteCount": 3,
-  "itemCount": 9
+  "median": 6340,
+  "siteCount": 2,
+  "itemCount": 7
  },
  "usedSummary": {
-  "min": 4480,
-  "minSite": "yahoo_auction",
-  "minLabel": "Yahoo!オークション",
-  "minTitle": "ストーリーマクロコントローラー マイコン ポケットモンスター スカーレット バイオレット ポケモンSV",
-  "median": 6783,
-  "siteCount": 2,
-  "itemCount": 5
+  "min": 7777,
+  "minSite": "mercari",
+  "minLabel": "メルカリ",
+  "minTitle": "ポケットモンスター スカーレット バイオレット ポケモン Switch sv",
+  "median": 7789,
+  "siteCount": 1,
+  "itemCount": 2
  },
  "history": [
   {
@@ -355,6 +298,18 @@
     "yahoo_shopping": 6052,
     "yahoo_auction": 4480,
     "mercari": 5800
+   }
+  },
+  {
+   "date": "2026-11-10",
+   "newMin": 3460,
+   "newMedian": 6340,
+   "usedMin": 7777,
+   "usedMedian": 7789,
+   "sites": {
+    "yodobashi": 3460,
+    "rakuten": 3500,
+    "mercari": 7777
    }
   }
  ]

@@ -1,30 +1,30 @@
 {
  "slug": "sumaho",
  "term": "スマホ",
- "date": "2026-11-09",
- "capturedAt": "2026-11-08T20:10:04.027Z",
+ "date": "2026-11-10",
+ "capturedAt": "2026-11-09T20:10:02.212Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 11,
+   "count": 10,
    "min": 21900,
-   "median": 35900,
-   "max": 76800,
+   "median": 31940,
+   "max": 156700,
    "items": [
-    {
-     "title": "★楽天ランキング1位獲得 FOSSiBOT S5 S5 Pro SIMフリースマホ 本体 Android 15 16GB+128GB 32GB+256GB/1TB拡張可能 オクタコアプロセッサ 6000mAh 6.88インチ大画面 アンドロ",
-     "price": 21900,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fheystop%2Fs5s%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fheystop%2Fi%2F10000251%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "FOSSiBOT 楽天市場店",
-     "used": false
-    },
     {
      "title": "マラソン限定★700円OFF Samsung Galaxy A25 5G Galaxy-A25 GalaxyA25 サムスン ギャラクシー A25 本体 スマホ スマートフォン AU版/SoftBank版/ドコモ版 SIMフリー 4GB +",
      "price": 21900,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgojapanshop%2Fgalaxy-a25%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fgojapanshop%2Fi%2F10002537%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "Go Japan 楽天市場店",
+     "used": false
+    },
+    {
+     "title": "★楽天ランキング1位獲得 FOSSiBOT S5 S5 Pro SIMフリースマホ 本体 Android 15 16GB+128GB 32GB+256GB/1TB拡張可能 オクタコアプロセッサ 6000mAh 6.88インチ大画面 アンドロ",
+     "price": 21900,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fheystop%2Fs5s%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fheystop%2Fi%2F10000251%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "FOSSiBOT 楽天市場店",
      "used": false
     },
     {
@@ -37,44 +37,12 @@
    ]
   },
   {
-   "site": "yahoo_shopping",
-   "label": "Yahoo!ショッピング",
-   "used": false,
-   "count": 4,
-   "min": 23580,
-   "median": 62490,
-   "max": 82900,
-   "items": [
-    {
-     "title": "SIMフリー品 OPPO A5 5G [グリーン]4GB/128GB AU/UQ版 OPG06 スマートフォン本体",
-     "price": 23580,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnewstar%2Fa5-au-green.html",
-     "shop": "new star",
-     "used": false
-    },
-    {
-     "title": "Google Pixel 7a 128GB Bランク スマホ 本体 SIMフリー 美品 にこスマ認定整備済み品(リファービッシュ 整備済品) 爆買",
-     "price": 28800,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnicosuma%2Fpxl-7a-128-b.html",
-     "shop": "にこスマ",
-     "used": true
-    },
-    {
-     "title": "Xperia 5 IV 128GB Aランク スマホ 本体 SIMフリー 美品 白ロム 爆買",
-     "price": 30800,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnicosuma%2Fxperia5iv-128-a.html",
-     "shop": "にこスマ",
-     "used": true
-    }
-   ]
-  },
-  {
    "site": "yodobashi",
    "label": "ヨドバシ.com",
    "used": false,
-   "count": 15,
+   "count": 13,
    "min": 54340,
-   "median": 74800,
+   "median": 235400,
    "max": 299200,
    "items": [
     {
@@ -92,9 +60,9 @@
      "used": false
     },
     {
-     "title": "AQUOS sense10/6.1インチ/Snapdragon 7s Gen 3/RAM 6GB/ROM 128GB/Android 16/SIMフリースマートフォン/ペールピンク SH-M33A-P",
-     "price": 67430,
-     "url": "https://www.yodobashi.com/product/100000001009510854/",
+     "title": "AQUOS wish6/6.6インチ/Dimensity 6300/RAM 4GB/ROM 128GB/Android 16/SIMフリースマートフォン/ソラ SH-M36-A",
+     "price": 54340,
+     "url": "https://www.yodobashi.com/product/100000001010197974/",
      "shop": "",
      "used": false
     }
@@ -104,9 +72,9 @@
    "site": "biccamera",
    "label": "ビックカメラ",
    "used": false,
-   "count": 10,
+   "count": 11,
    "min": 57980,
-   "median": 80975,
+   "median": 77880,
    "max": 163456,
    "items": [
     {
@@ -201,57 +169,32 @@
    ]
   },
   {
-   "site": "yahoo_auction",
-   "label": "Yahoo!オークション",
-   "used": true,
-   "count": 2,
-   "min": 11550,
-   "median": 18175,
-   "max": 24800,
-   "items": [
-    {
-     "title": "★ ジャンク Google Pixel 7 Pro オブシディアン 128GB 海外版SIMフリー 1円 ! 1スタ !",
-     "price": 11550,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/n1251277148",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "docomo moto g37 SIMフリー スマートフォン 本体 moto Motorola",
-     "price": 24800,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z720237218",
-     "shop": "",
-     "used": true
-    }
-   ]
-  },
-  {
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 16,
-   "min": 12345,
-   "median": 24990,
-   "max": 108500,
+   "count": 9,
+   "min": 12800,
+   "median": 22800,
+   "max": 88900,
    "items": [
     {
-     "title": "Apple iPhone 13 128GB ミッドナイト",
-     "price": 12345,
-     "url": "https://jp.mercari.com/item/m22162702709",
+     "title": "Xperia Ace III 64GB グレー SIMフリー 美品 動作確認済",
+     "price": 12800,
+     "url": "https://jp.mercari.com/item/m78197178890",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "iPhone XR 128GB ブラック 初期化済",
-     "price": 14000,
-     "url": "https://jp.mercari.com/item/m23975173313",
+     "title": "美品☆Apple iPhoneX 256GB スペースグレー SIMフリー",
+     "price": 12900,
+     "url": "https://jp.mercari.com/item/m68086897733",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Apple iPhone12 64GB",
-     "price": 14800,
-     "url": "https://jp.mercari.com/item/m43774312151",
+     "title": "iPhone XS Max 64GB SIMフリー",
+     "price": 13000,
+     "url": "https://jp.mercari.com/item/m38549627826",
      "shop": "メルカリ",
      "used": true
     }
@@ -262,19 +205,19 @@
   "min": 21900,
   "minSite": "rakuten",
   "minLabel": "楽天市場",
-  "minTitle": "★楽天ランキング1位獲得 FOSSiBOT S5 S5 Pro SIMフリースマホ 本体 Android 15 16GB+128GB 32GB+256GB/1TB拡張可能 オクタコアプロセッサ 6000mAh 6.88インチ大画面 アンドロ",
-  "median": 74800,
-  "siteCount": 7,
-  "itemCount": 60
+  "minTitle": "マラソン限定★700円OFF Samsung Galaxy A25 5G Galaxy-A25 GalaxyA25 サムスン ギャラクシー A25 本体 スマホ スマートフォン AU版/SoftBank版/ドコモ版 SIMフリー 4GB +",
+  "median": 77880,
+  "siteCount": 6,
+  "itemCount": 54
  },
  "usedSummary": {
-  "min": 11550,
-  "minSite": "yahoo_auction",
-  "minLabel": "Yahoo!オークション",
-  "minTitle": "★ ジャンク Google Pixel 7 Pro オブシディアン 128GB 海外版SIMフリー 1円 ! 1スタ !",
-  "median": 29895,
-  "siteCount": 4,
-  "itemCount": 32
+  "min": 12800,
+  "minSite": "mercari",
+  "minLabel": "メルカリ",
+  "minTitle": "Xperia Ace III 64GB グレー SIMフリー 美品 動作確認済",
+  "median": 27800,
+  "siteCount": 2,
+  "itemCount": 10
  },
  "history": [
   {
@@ -525,6 +468,22 @@
     "joshin": 77880,
     "yahoo_auction": 11550,
     "mercari": 12345
+   }
+  },
+  {
+   "date": "2026-11-10",
+   "newMin": 21900,
+   "newMedian": 77880,
+   "usedMin": 12800,
+   "usedMedian": 27800,
+   "sites": {
+    "rakuten": 21900,
+    "yodobashi": 54340,
+    "biccamera": 57980,
+    "sofmap": 57980,
+    "edion": 59300,
+    "joshin": 77880,
+    "mercari": 12800
    }
   }
  ]

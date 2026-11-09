@@ -1,8 +1,8 @@
 {
  "slug": "mirrorless",
  "term": "ミラーレス一眼",
- "date": "2026-11-09",
- "capturedAt": "2026-11-08T20:10:04.027Z",
+ "date": "2026-11-10",
+ "capturedAt": "2026-11-09T20:10:02.212Z",
  "sites": [
   {
    "site": "rakuten",
@@ -10,7 +10,7 @@
    "used": false,
    "count": 18,
    "min": 55800,
-   "median": 114763,
+   "median": 117850,
    "max": 305800,
    "items": [
     {
@@ -37,44 +37,12 @@
    ]
   },
   {
-   "site": "yahoo_shopping",
-   "label": "Yahoo!ショッピング",
-   "used": false,
-   "count": 20,
-   "min": 85330,
-   "median": 158833,
-   "max": 434500,
-   "items": [
-    {
-     "title": "[保証開始日2026年8月20日] OLYMPUS PEN E-P7 14-42mm EZレンズキット シルバー ミラーレス一眼カ",
-     "price": 85330,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Foutletplaza%2F40001114247.html",
-     "shop": "秋葉原　アウトレットプラザ",
-     "used": false
-    },
-    {
-     "title": "[新品]Panasonic パナソニック LUMIX G100D Kキット 標準ズームレンズ(DC-G100DK-K)",
-     "price": 89917,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fcamera-no-ohbayashi%2F4549980769485.html",
-     "shop": "カメラの大林Yahoo!店",
-     "used": false
-    },
-    {
-     "title": "オリンパス ミラーレス一眼カメラ「OLYMPUS PEN E-P7」 EZダブルズームキット(シルバー) オリンパス E-P7-WK-SLV 返品種別A",
-     "price": 99716,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjoshin%2F4545350055844-34-60038.html",
-     "shop": "Joshin web",
-     "used": false
-    }
-   ]
-  },
-  {
    "site": "yodobashi",
    "label": "ヨドバシ.com",
    "used": false,
    "count": 20,
    "min": 86790,
-   "median": 177920,
+   "median": 171460,
    "max": 654500,
    "items": [
     {
@@ -189,7 +157,7 @@
     },
     {
      "title": "OMSYSTEM OM-5 Mark II 14-150mm II レンズキット ミラーレス一眼カメラ シルバー ［ズームレンズ］ OM5MarkII14-150mSLV",
-     "price": 168935,
+     "price": 168788,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdtc%2F4545350056858%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdtc%2Fi%2F13137153%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "ソフマップ楽天市場店",
      "used": false
@@ -202,7 +170,7 @@
    "used": false,
    "count": 20,
    "min": 119900,
-   "median": 168788,
+   "median": 212305,
    "max": 478950,
    "items": [
     {
@@ -220,9 +188,9 @@
      "used": false
     },
     {
-     "title": "キヤノン ミラーレス一眼カメラ「EOS R50 V」RF-S14-30 IS STM PZレンズキット EOSR50V1430ISSTMPZLK Canon",
-     "price": 148500,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4549292241587-34-48497-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14562695%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "title": "ニコン ミラーレス一眼カメラ「Z fc」レンズキット ZFCLK16-50SL DXフォーマット Nikon",
+     "price": 150700,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4960759906335-34-48084-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F13735083%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "Joshin web 家電とPCの大型専門店",
      "used": false
     }
@@ -232,62 +200,30 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 13,
-   "min": 32222,
-   "median": 67800,
-   "max": 159000,
+   "count": 11,
+   "min": 30000,
+   "median": 55000,
+   "max": 140000,
    "items": [
     {
-     "title": "α5000 ILCE-5000L パワーズームレンズキット",
-     "price": 32222,
-     "url": "https://jp.mercari.com/item/m76996388379",
+     "title": "SONY α5000 パワーズームレンズキット",
+     "price": 30000,
+     "url": "https://jp.mercari.com/item/m41736069880",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "OLYMPUS PEN E-PL9 14-42mmレンズ SDカード付 美品",
-     "price": 37777,
-     "url": "https://jp.mercari.com/item/m66667774497",
+     "title": "SONY α5100 ホワイト ボディ（ジャンクレンズ付き）",
+     "price": 35000,
+     "url": "https://jp.mercari.com/item/m12910956788",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "SONY α5100 ミラーレス一眼 16-50mm",
-     "price": 45000,
-     "url": "https://jp.mercari.com/item/m78363583436",
+     "title": "Vlog Camera Sony a5000 ミラーレス+レンズ+ 広角レンズ",
+     "price": 36000,
+     "url": "https://jp.mercari.com/item/m89894224288",
      "shop": "メルカリ",
-     "used": true
-    }
-   ]
-  },
-  {
-   "site": "yahoo_auction",
-   "label": "Yahoo!オークション",
-   "used": true,
-   "count": 3,
-   "min": 41382,
-   "median": 42000,
-   "max": 50160,
-   "items": [
-    {
-     "title": "Panasonic LUMIX DC-GF10W-D ミラーレス 一眼カメラ ダブルズームキット オレンジ パナソニック カメラ 中古 訳有 F11783300",
-     "price": 41382,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/1250048099",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "OLYMPUS PEN E-P7 ボディ シルバー ミラーレス一眼カメラ 元箱・付属品完備 シャッター回数413回",
-     "price": 42000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/h1251546316",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "Canon キャノン EOS M100 デジタルカメラ ミラーレス一眼カメラ レンズ EF-M 14-45ｍｍ 55-200ｍｍ 261103SK110001",
-     "price": 50160,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/c1250969791",
-     "shop": "",
      "used": true
     }
    ]
@@ -298,18 +234,18 @@
   "minSite": "rakuten",
   "minLabel": "楽天市場",
   "minTitle": "Canon EOS M2 レンズキット 18-55mm IS STM ホワイト",
-  "median": 168788,
-  "siteCount": 7,
-  "itemCount": 137
+  "median": 191883,
+  "siteCount": 6,
+  "itemCount": 117
  },
  "usedSummary": {
-  "min": 32222,
+  "min": 30000,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "α5000 ILCE-5000L パワーズームレンズキット",
-  "median": 67800,
-  "siteCount": 3,
-  "itemCount": 17
+  "minTitle": "SONY α5000 パワーズームレンズキット",
+  "median": 65400,
+  "siteCount": 2,
+  "itemCount": 12
  },
  "history": [
   {
@@ -561,6 +497,22 @@
     "joshin": 119900,
     "mercari": 32222,
     "yahoo_auction": 41382
+   }
+  },
+  {
+   "date": "2026-11-10",
+   "newMin": 55800,
+   "newMedian": 191883,
+   "usedMin": 30000,
+   "usedMedian": 65400,
+   "sites": {
+    "rakuten": 55800,
+    "yodobashi": 86790,
+    "biccamera": 89917,
+    "edion": 94912,
+    "sofmap": 99716,
+    "joshin": 119900,
+    "mercari": 30000
    }
   }
  ]

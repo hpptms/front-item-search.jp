@@ -1,55 +1,23 @@
 {
  "slug": "smash-bros-special",
  "term": "大乱闘スマッシュブラザーズ SPECIAL",
- "date": "2026-11-09",
- "capturedAt": "2026-11-08T20:10:04.027Z",
+ "date": "2026-11-10",
+ "capturedAt": "2026-11-09T20:10:02.212Z",
  "sites": [
-  {
-   "site": "yahoo_shopping",
-   "label": "Yahoo!ショッピング",
-   "used": false,
-   "count": 11,
-   "min": 5422,
-   "median": 6866,
-   "max": 7520,
-   "items": [
-    {
-     "title": "Switch／大乱闘スマッシュブラザーズ SPECIAL",
-     "price": 5422,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0012844120.html",
-     "shop": "ネットオフ まとめてお得店",
-     "used": false
-    },
-    {
-     "title": "『中古即納』{Switch} 大乱闘スマッシュブラザーズ SPECIAL(スペシャル) 任天堂 (20181207)",
-     "price": 5425,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmediaworld-plus%2F10460193001.html",
-     "shop": "メディアワールドプラス",
-     "used": true
-    },
-    {
-     "title": "『中古即納』{Switch} 大乱闘スマッシュブラザーズ SPECIAL(スペシャル) 任天堂 (20181207)",
-     "price": 5480,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmedia-world%2F10460193001.html",
-     "shop": "メディアワールド",
-     "used": true
-    }
-   ]
-  },
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
    "count": 16,
-   "min": 5648,
-   "median": 6826,
+   "min": 5600,
+   "median": 6885,
    "max": 7524,
    "items": [
     {
-     "title": "Switch 大乱闘スマッシュブラザーズ SPECIAL (ニンテンドースイッチ)",
-     "price": 5648,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frenet3%2F0012844120%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frenet3%2Fi%2F11952996%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "ネットオフ楽天市場支店",
+     "title": "● 大乱闘スマッシュブラザーズ SPECIAL Switch",
+     "price": 5600,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftreasure-eight%2F002-032-240301-0001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftreasure-eight%2Fi%2F10008827%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "お宝プラス",
      "used": false
     },
     {
@@ -60,10 +28,10 @@
      "used": false
     },
     {
-     "title": "[Switch] 大乱闘スマッシュブラザーズ SPECIAL(スペシャル) 任天堂 (20181207)",
-     "price": 5680,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmediaworldkaitoriworld%2F10460193001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmediaworldkaitoriworld%2Fi%2F10237948%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "メディアワールド 販売&買取SHOP",
+     "title": "Switch 大乱闘スマッシュブラザーズ SPECIAL (ニンテンドースイッチ)",
+     "price": 5648,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frenet3%2F0012844120%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frenet3%2Fi%2F11952996%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "ネットオフ楽天市場支店",
      "used": false
     }
    ]
@@ -130,64 +98,32 @@
    ]
   },
   {
-   "site": "yahoo_auction",
-   "label": "Yahoo!オークション",
-   "used": true,
-   "count": 12,
-   "min": 2900,
-   "median": 3940,
-   "max": 5275,
-   "items": [
-    {
-     "title": "054) Switchソフト スイッチソフト 大乱闘スマッシュブラザーズ SPECIAL ④",
-     "price": 2900,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/e1251123500",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "Nintendo HAC-013 Switch Proコントローラー 大乱闘スマッシュブラザーズ SPECIALエディション 中古 Y11851519",
-     "price": 3080,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/l1251430894",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "054) Switchソフト スイッチソフト 大乱闘スマッシュブラザーズ SPECIAL ⑨",
-     "price": 3300,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/k1251117249",
-     "shop": "",
-     "used": true
-    }
-   ]
-  },
-  {
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 16,
-   "min": 3700,
-   "median": 4175,
-   "max": 4680,
+   "count": 14,
+   "min": 3600,
+   "median": 4206,
+   "max": 4800,
    "items": [
     {
+     "title": "大乱闘スマッシュブラザーズ Switch ソフト",
+     "price": 3600,
+     "url": "https://jp.mercari.com/item/m60536781688",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
      "title": "大乱闘スマッシュブラザーズ Nintendo Switch ソフト",
-     "price": 3700,
-     "url": "https://jp.mercari.com/item/m50645677459",
+     "price": 3600,
+     "url": "https://jp.mercari.com/item/m36927649957",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "大乱闘スマッシュブラザーズ SPECIAL Switch",
-     "price": 3900,
-     "url": "https://jp.mercari.com/item/m76408742704",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "大乱闘スマッシュブラザーズ SPECIAL Switch",
-     "price": 3980,
-     "url": "https://jp.mercari.com/item/m26849174131",
+     "title": "大乱闘スマッシュブラザーズ SPECIAL Switch ソフトのみ",
+     "price": 3999,
+     "url": "https://jp.mercari.com/item/m64223234687",
      "shop": "メルカリ",
      "used": true
     }
@@ -195,22 +131,22 @@
   }
  ],
  "newSummary": {
-  "min": 5422,
-  "minSite": "yahoo_shopping",
-  "minLabel": "Yahoo!ショッピング",
-  "minTitle": "Switch／大乱闘スマッシュブラザーズ SPECIAL",
-  "median": 6880,
-  "siteCount": 5,
-  "itemCount": 31
+  "min": 5600,
+  "minSite": "rakuten",
+  "minLabel": "楽天市場",
+  "minTitle": "● 大乱闘スマッシュブラザーズ SPECIAL Switch",
+  "median": 6888,
+  "siteCount": 4,
+  "itemCount": 20
  },
  "usedSummary": {
-  "min": 2900,
-  "minSite": "yahoo_auction",
-  "minLabel": "Yahoo!オークション",
-  "minTitle": "054) Switchソフト スイッチソフト 大乱闘スマッシュブラザーズ SPECIAL ④",
-  "median": 4175,
-  "siteCount": 3,
-  "itemCount": 30
+  "min": 3600,
+  "minSite": "mercari",
+  "minLabel": "メルカリ",
+  "minTitle": "大乱闘スマッシュブラザーズ Switch ソフト",
+  "median": 4206,
+  "siteCount": 1,
+  "itemCount": 14
  },
  "history": [
   {
@@ -433,6 +369,20 @@
     "yodobashi": 7120,
     "yahoo_auction": 2900,
     "mercari": 3700
+   }
+  },
+  {
+   "date": "2026-11-10",
+   "newMin": 5600,
+   "newMedian": 6888,
+   "usedMin": 3600,
+   "usedMedian": 4206,
+   "sites": {
+    "rakuten": 5600,
+    "edion": 6880,
+    "joshin": 6890,
+    "yodobashi": 7120,
+    "mercari": 3600
    }
   }
  ]

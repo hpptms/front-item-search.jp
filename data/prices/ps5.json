@@ -1,62 +1,23 @@
 {
  "slug": "ps5",
  "term": "PS5",
- "date": "2026-11-09",
- "capturedAt": "2026-11-08T20:10:04.027Z",
+ "date": "2026-11-10",
+ "capturedAt": "2026-11-09T20:10:02.212Z",
  "sites": [
-  {
-   "site": "yahoo_shopping",
-   "label": "Yahoo!ショッピング",
-   "used": false,
-   "count": 17,
-   "min": 49988,
-   "median": 58800,
-   "max": 233800,
-   "items": [
-    {
-     "title": "Hanye NVMe SSD 2TB 3D NAND TLC ヒートシンク搭載 PCIe Gen 4x4 PS5 Pro/PS5 Slim/PS5動作確認済み R:7450MB/s W:6700MB/s M.2 2280 SSD国内5年保証",
-     "price": 49988,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjnh%2Fhy8114he70-2tbnhs1.html",
-     "shop": "嘉年華",
-     "used": false
-    },
-    {
-     "title": "『中古即納』{PS5} (本体)(未使用) PlayStation 5(プレイステーション5) デジタル・エディション 日本語専用(Console Language: Japanese only) SIE(20251121)",
-     "price": 55280,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmedia-world%2F10013149001.html",
-     "shop": "メディアワールド",
-     "used": true
-    },
-    {
-     "title": "プレイステーション5 デジタル・エディション 日本語専用 CFI-2200B01 ※量販店舗印付の場合があります、商品情報ご覧ください。",
-     "price": 56850,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Flight-hikari%2F4948872417419.html",
-     "shop": "らいぶshop",
-     "used": false
-    }
-   ]
-  },
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
    "count": 20,
-   "min": 53714,
-   "median": 61145,
-   "max": 139000,
+   "min": 53941,
+   "median": 63499,
+   "max": 242000,
    "items": [
     {
      "title": "ソニー『PlayStation5 プレイステーション5 デジタルエディション 825GB 日本語専用』CFI-2200B01 ゲーム機本体 1週間保証",
-     "price": 53714,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftakayama78%2F4948872417410%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftakayama78%2Fi%2F11104531%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "price": 53941,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftakayama78%2F4948872417419%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftakayama78%2Fi%2F11104529%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "高山質店",
-     "used": false
-    },
-    {
-     "title": "ソニー・インタラクティブエンタテインメント PlayStation5 デジタル・エディション 日本語専用 Console Language: Japanese only PS5_DEJapanese [CFI-2200B01][ゲーム機本体",
-     "price": 55000,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdtc%2F4948872417419%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdtc%2Fi%2F13146629%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "ソフマップ楽天市場店",
      "used": false
     },
     {
@@ -64,6 +25,13 @@
      "price": 55000,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F18440637%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbook%2Fi%2F21800394%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "楽天ブックス",
+     "used": false
+    },
+    {
+     "title": "ソニー・インタラクティブエンタテインメント PlayStation5 デジタル・エディション 日本語専用 Console Language: Japanese only PS5_DEJapanese [CFI-2200B01][ゲーム機本体",
+     "price": 55000,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdtc%2F4948872417419%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdtc%2Fi%2F13146629%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "ソフマップ楽天市場店",
      "used": false
     }
    ]
@@ -119,64 +87,32 @@
    ]
   },
   {
-   "site": "yahoo_auction",
-   "label": "Yahoo!オークション",
-   "used": true,
-   "count": 17,
-   "min": 40000,
-   "median": 48900,
-   "max": 140000,
-   "items": [
-    {
-     "title": "Qaz619-093♪ 中古 PlayStation5 デジタル・エディション 日本語専用 PS5 CFI-2200B01",
-     "price": 40000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/x1251158638",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "IZU PlayStation5 PS5 プレイステーション5 デジタル・エディション 日本語専用 〈032-261108-YN-13-IZU〉",
-     "price": 40550,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/g1251532468",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "Ps5本体 即日配送手続き",
-     "price": 46000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z720621700",
-     "shop": "",
-     "used": true
-    }
-   ]
-  },
-  {
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
    "count": 18,
-   "min": 45100,
-   "median": 52000,
-   "max": 60499,
+   "min": 49000,
+   "median": 54595,
+   "max": 77777,
    "items": [
     {
-     "title": "PlayStation 5 本体 通常版 CFI-1100A",
-     "price": 45100,
-     "url": "https://jp.mercari.com/item/m38753829999",
+     "title": "PlayStation 5 デジタル・エディション 本体",
+     "price": 49000,
+     "url": "https://jp.mercari.com/item/m61835063480",
      "shop": "メルカリ",
      "used": true
     },
     {
      "title": "PlayStation 5 本体 コントローラーセット日本語版",
-     "price": 45600,
+     "price": 50200,
      "url": "https://jp.mercari.com/item/m82697970883",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "PlayStation 5 日本語専用 本体 CF-2200",
-     "price": 47800,
-     "url": "https://jp.mercari.com/item/m38584597938",
+     "title": "PlayStation 5 Digital Edition 本体",
+     "price": 51000,
+     "url": "https://jp.mercari.com/item/m66451714585",
      "shop": "メルカリ",
      "used": true
     }
@@ -184,22 +120,22 @@
   }
  ],
  "newSummary": {
-  "min": 49988,
-  "minSite": "yahoo_shopping",
-  "minLabel": "Yahoo!ショッピング",
-  "minTitle": "Hanye NVMe SSD 2TB 3D NAND TLC ヒートシンク搭載 PCIe Gen 4x4 PS5 Pro/PS5 Slim/PS5動作確認済み R:7450MB/s W:6700MB/s M.2 2280 SSD国内5年保証",
-  "median": 56900,
-  "siteCount": 4,
-  "itemCount": 41
+  "min": 53941,
+  "minSite": "rakuten",
+  "minLabel": "楽天市場",
+  "minTitle": "ソニー『PlayStation5 プレイステーション5 デジタルエディション 825GB 日本語専用』CFI-2200B01 ゲーム機本体 1週間保証",
+  "median": 55000,
+  "siteCount": 3,
+  "itemCount": 24
  },
  "usedSummary": {
-  "min": 40000,
-  "minSite": "yahoo_auction",
-  "minLabel": "Yahoo!オークション",
-  "minTitle": "Qaz619-093♪ 中古 PlayStation5 デジタル・エディション 日本語専用 PS5 CFI-2200B01",
-  "median": 52000,
-  "siteCount": 3,
-  "itemCount": 37
+  "min": 49000,
+  "minSite": "mercari",
+  "minLabel": "メルカリ",
+  "minTitle": "PlayStation 5 デジタル・エディション 本体",
+  "median": 54595,
+  "siteCount": 1,
+  "itemCount": 18
  },
  "history": [
   {
@@ -407,6 +343,19 @@
     "sofmap": 55000,
     "yahoo_auction": 40000,
     "mercari": 45100
+   }
+  },
+  {
+   "date": "2026-11-10",
+   "newMin": 53941,
+   "newMedian": 55000,
+   "usedMin": 49000,
+   "usedMedian": 54595,
+   "sites": {
+    "rakuten": 53941,
+    "yodobashi": 55000,
+    "sofmap": 55000,
+    "mercari": 49000
    }
   }
  ]

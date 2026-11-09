@@ -1,8 +1,8 @@
 {
  "slug": "comic-set",
  "term": "コミック 全巻セット",
- "date": "2026-11-09",
- "capturedAt": "2026-11-08T20:10:04.027Z",
+ "date": "2026-11-10",
+ "capturedAt": "2026-11-09T20:10:02.212Z",
  "sites": [
   {
    "site": "rakuten",
@@ -22,7 +22,7 @@
     },
     {
      "title": "バガボンド ＜1〜37巻＞ 井上 雄彦",
-     "price": 6700,
+     "price": 6650,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcomicset%2F10000341%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcomicset%2Fi%2F10000341%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "もったいない本舗 楽天市場店",
      "used": false
@@ -32,38 +32,6 @@
      "price": 9724,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F16769026%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbook%2Fi%2F20380490%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "楽天ブックス",
-     "used": false
-    }
-   ]
-  },
-  {
-   "site": "yahoo_shopping",
-   "label": "Yahoo!ショッピング",
-   "used": false,
-   "count": 20,
-   "min": 7436,
-   "median": 15283,
-   "max": 41225,
-   "items": [
-    {
-     "title": "新品 / 鬼の花嫁 (1-10巻 最新刊) 全巻セット",
-     "price": 7436,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmangazenkan%2Fm7318424216.html",
-     "shop": "漫画全巻ドットコム Yahoo!ショッピング店",
-     "used": false
-    },
-    {
-     "title": "[11月上旬より発送予定]新品 / [ホタ嫁]ホタルの嫁入り (全14冊) 全巻セット[入荷予約]",
-     "price": 10846,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmangazenkan%2Fm5890407412.html",
-     "shop": "漫画全巻ドットコム Yahoo!ショッピング店",
-     "used": false
-    },
-    {
-     "title": "[1月上旬より発送予定]新品 / ちいかわ なんか小さくてかわいいやつ (1-8巻 最新刊) 全巻セット[入荷予約]",
-     "price": 11110,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmangazenkan%2Fm2560436932.html",
-     "shop": "漫画全巻ドットコム Yahoo!ショッピング店",
      "used": false
     }
    ]
@@ -87,34 +55,20 @@
    ]
   },
   {
-   "site": "yahoo_auction",
-   "label": "Yahoo!オークション",
-   "used": true,
-   "count": 13,
-   "min": 2000,
-   "median": 2889,
-   "max": 8250,
+   "site": "yodobashi",
+   "label": "ヨドバシ.com",
+   "used": false,
+   "count": 1,
+   "min": 23100,
+   "median": 23100,
+   "max": 23100,
    "items": [
     {
-     "title": "全巻セット あさきゆめみし(文庫版)ボックスセット[2］",
-     "price": 2000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/w1251533851",
+     "title": "DRAGON BALL カラー版 全巻セット [電子書籍]",
+     "price": 23100,
+     "url": "https://www.yodobashi.com/product/200000000100261112/",
      "shop": "",
-     "used": true
-    },
-    {
-     "title": "全巻セット あさきゆめみし(文庫版)ボックスセット",
-     "price": 2000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/c1251522893",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "新品購入 一読のみ 天使なんかじゃない 新装再編版（1～5巻全巻セット) / 矢沢あい",
-     "price": 2000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/s1250266647",
-     "shop": "",
-     "used": true
+     "used": false
     }
    ]
   },
@@ -123,28 +77,28 @@
    "label": "メルカリ",
    "used": true,
    "count": 13,
-   "min": 2100,
-   "median": 4000,
-   "max": 18000,
+   "min": 2800,
+   "median": 5000,
+   "max": 15000,
    "items": [
     {
-     "title": "どうしようもない僕とキスしよう 全巻セット 北川みゆき",
-     "price": 2100,
-     "url": "https://jp.mercari.com/item/m53025148712",
+     "title": "四畳半のいばら姫 1-9巻セット 佐藤ざくり 吉田夢美 全巻セット",
+     "price": 2800,
+     "url": "https://jp.mercari.com/item/m54391865974",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "べしゃり暮らし 全巻セット 1-20巻 森田まさのり",
-     "price": 2400,
-     "url": "https://jp.mercari.com/item/m59881562189",
+     "title": "約束のネバーランド 全巻セット 0〜20巻",
+     "price": 4000,
+     "url": "https://jp.mercari.com/item/m73300082398",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "軍鶏 Shamo 全巻セット 1巻～34巻",
-     "price": 3000,
-     "url": "https://jp.mercari.com/item/m56279008989",
+     "title": "ALL OUT!! 全巻セット 公式選手名鑑付き 雨瀬シオリ",
+     "price": 4000,
+     "url": "https://jp.mercari.com/item/m83909220086",
      "shop": "メルカリ",
      "used": true
     }
@@ -156,18 +110,18 @@
   "minSite": "rakuten",
   "minLabel": "楽天市場",
   "minTitle": "封神演義 ＜1〜23巻完結＞ 藤崎竜",
-  "median": 19118,
+  "median": 20900,
   "siteCount": 3,
-  "itemCount": 28
+  "itemCount": 9
  },
  "usedSummary": {
-  "min": 2000,
-  "minSite": "yahoo_auction",
-  "minLabel": "Yahoo!オークション",
-  "minTitle": "全巻セット あさきゆめみし(文庫版)ボックスセット[2］",
-  "median": 3445,
-  "siteCount": 2,
-  "itemCount": 26
+  "min": 2800,
+  "minSite": "mercari",
+  "minLabel": "メルカリ",
+  "minTitle": "四畳半のいばら姫 1-9巻セット 佐藤ざくり 吉田夢美 全巻セット",
+  "median": 5000,
+  "siteCount": 1,
+  "itemCount": 13
  },
  "history": [
   {
@@ -374,6 +328,19 @@
     "biccamera": 20900,
     "yahoo_auction": 2000,
     "mercari": 2100
+   }
+  },
+  {
+   "date": "2026-11-10",
+   "newMin": 5950,
+   "newMedian": 20900,
+   "usedMin": 2800,
+   "usedMedian": 5000,
+   "sites": {
+    "rakuten": 5950,
+    "biccamera": 20900,
+    "yodobashi": 23100,
+    "mercari": 2800
    }
   }
  ]

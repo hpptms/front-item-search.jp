@@ -1,69 +1,37 @@
 {
  "slug": "nike-sneakers",
  "term": "スニーカー ナイキ",
- "date": "2026-11-09",
- "capturedAt": "2026-11-08T20:10:04.027Z",
+ "date": "2026-11-10",
+ "capturedAt": "2026-11-09T20:10:02.212Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
    "count": 20,
-   "min": 3990,
-   "median": 6348,
+   "min": 3980,
+   "median": 6790,
    "max": 16989,
    "items": [
     {
-     "title": "最大10％OFFクーポン ナイキ スター ランナー 5 GS HF7004-002 ジュニア キッズ 子供 スニーカー : ブラック×ホワイト キッズスニーカー 子どもの靴 運動靴 NIKE HF7004 002",
+     "title": "11/10 限定★抽選で最大100％Pバック ナイキ コズミック ランナー GS HM4402-003 ジュニア キッズ 子供 スニーカー 子どもの靴 キッズスニーカー 運動靴 NIKE HM4402 003",
+     "price": 3980,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falpen%2F4921562545%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Falpen%2Fi%2F10479811%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "アルペン楽天市場店",
+     "used": false
+    },
+    {
+     "title": "11/10 限定★抽選で最大100％Pバック ナイキ スター ランナー 5 GS HF7004-002 ジュニア キッズ 子供 スニーカー : ブラック×ホワイト キッズスニーカー 子どもの靴 運動靴 NIKE HF7004 002",
      "price": 3990,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falpen%2F4921566145%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Falpen%2Fi%2F10496805%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "アルペン楽天市場店",
      "used": false
     },
     {
-     "title": "ナイキ（NIKE）（メンズ）スポーツシューズ ランニングシューズ ラン デファイ ブルー HM9594-401 スニーカー",
-     "price": 3999,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsupersportsxebio%2F108934361011%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsupersportsxebio%2Fi%2F21265437%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "SuperSportsXEBIO楽天市場支店",
-     "used": false
-    },
-    {
-     "title": "最大10％OFFクーポン ナイキ レボリューション 8 イージーオン HQ2414-001 メンズ スニーカー : ブラック×ホワイト メンズシューズ ハンズフリー NIKE HQ2414 001",
+     "title": "11/10 限定★抽選で最大100％Pバック ナイキ レボリューション 8 イージーオン HQ2414-001 メンズ スニーカー : ブラック×ホワイト メンズシューズ ハンズフリー NIKE HQ2414 001",
      "price": 4230,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falpen%2F4051567515%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Falpen%2Fi%2F10500890%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "アルペン楽天市場店",
-     "used": false
-    }
-   ]
-  },
-  {
-   "site": "yahoo_shopping",
-   "label": "Yahoo!ショッピング",
-   "used": false,
-   "count": 20,
-   "min": 4790,
-   "median": 7517,
-   "max": 20130,
-   "items": [
-    {
-     "title": "NIKE スニーカー ナイキ デファイ メンズ HM9594 Nike Run Defy",
-     "price": 4790,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftry-group%2F4-nc-m-hm9594-002.html",
-     "shop": "つるや 靴のTSURUYA",
-     "used": false
-    },
-    {
-     "title": "NIKE ナイキ スニーカー メンズ Revolution 8 レボリューション8 HJ9198 003",
-     "price": 4928,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftry-group%2F4-nc-m-hj9198-003.html",
-     "shop": "つるや 靴のTSURUYA",
-     "used": false
-    },
-    {
-     "title": "2026秋冬新作 ナイキ スニーカー キッズ NIKE コート ボロー LOW WIN PS 靴 シューズ 子供 子ども ベルクロ 学校 通学 IR1529 100",
-     "price": 5140,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Felephant%2Fir1529-a.html",
-     "shop": "エレファントSPORTS",
      "used": false
     }
    ]
@@ -104,84 +72,52 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 17,
+   "count": 15,
    "min": 3000,
-   "median": 4000,
-   "max": 8000,
+   "median": 4280,
+   "max": 12000,
    "items": [
     {
-     "title": "NIKE ナイキ エア フットスケープ ウーブン チャッカ スニーカー ネイビー",
+     "title": "ナイキ ズームヴェイパードライブAF スニーカー シューズ 靴 27cm 激レア",
      "price": 3000,
-     "url": "https://jp.mercari.com/item/m93127111189",
+     "url": "https://jp.mercari.com/item/m83508480319",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "ナイキ フリー スニーカー 26.0",
+     "title": "ナイキ スニーカー",
      "price": 3000,
-     "url": "https://jp.mercari.com/item/m26901781951",
+     "url": "https://jp.mercari.com/item/m44714174695",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "NIKE ナイキ スリッポン スニーカー 28.5cm ブラック 黒 キャンバス",
+     "title": "ナイキ フランチャイズ2 27cm スニーカー",
      "price": 3000,
-     "url": "https://jp.mercari.com/item/m84751532640",
+     "url": "https://jp.mercari.com/item/m60224349933",
      "shop": "メルカリ",
-     "used": true
-    }
-   ]
-  },
-  {
-   "site": "yahoo_auction",
-   "label": "Yahoo!オークション",
-   "used": true,
-   "count": 10,
-   "min": 3300,
-   "median": 4700,
-   "max": 6600,
-   "items": [
-    {
-     "title": "NIKE◆BLAZER LOW/ACRNM_ブレイザー ロー アクロニウム/29cm/BLK",
-     "price": 3300,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/w1195758318",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "ナイキ ローカットスニーカー フリー 3.0 フライニット 718418-001 メンズ SIZE 27.0 NIKE",
-     "price": 3410,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/o1246258989",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "NIKE ナイキ CK8605-003 Nike エア ズーム ペガサス 37 フライイーズ saizu27,5㎝（匿名配送）",
-     "price": 3780,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/1250253275",
-     "shop": "",
      "used": true
     }
    ]
   }
  ],
  "newSummary": {
-  "min": 3990,
+  "min": 3980,
   "minSite": "rakuten",
   "minLabel": "楽天市場",
-  "minTitle": "最大10％OFFクーポン ナイキ スター ランナー 5 GS HF7004-002 ジュニア キッズ 子供 スニーカー : ブラック×ホワイト キッズスニーカー 子どもの靴 運動靴 NIKE HF7004 002",
-  "median": 7300,
-  "siteCount": 3,
-  "itemCount": 48
+  "minTitle": "11/10 限定★抽選で最大100％Pバック ナイキ コズミック ランナー GS HM4402-003 ジュニア キッズ 子供 スニーカー 子どもの靴 キッズスニーカー 運動靴 NIKE HM4402 003",
+  "median": 7045,
+  "siteCount": 2,
+  "itemCount": 28
  },
  "usedSummary": {
   "min": 3000,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "NIKE ナイキ エア フットスケープ ウーブン チャッカ スニーカー ネイビー",
-  "median": 4350,
-  "siteCount": 2,
-  "itemCount": 27
+  "minTitle": "ナイキ ズームヴェイパードライブAF スニーカー シューズ 靴 27cm 激レア",
+  "median": 4280,
+  "siteCount": 1,
+  "itemCount": 15
  },
  "history": [
   {
@@ -377,6 +313,18 @@
     "joshin": 5980,
     "mercari": 3000,
     "yahoo_auction": 3300
+   }
+  },
+  {
+   "date": "2026-11-10",
+   "newMin": 3980,
+   "newMedian": 7045,
+   "usedMin": 3000,
+   "usedMedian": 4280,
+   "sites": {
+    "rakuten": 3980,
+    "joshin": 5980,
+    "mercari": 3000
    }
   }
  ]
