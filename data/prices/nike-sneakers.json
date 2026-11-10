@@ -1,18 +1,25 @@
 {
  "slug": "nike-sneakers",
  "term": "スニーカー ナイキ",
- "date": "2026-11-10",
- "capturedAt": "2026-11-09T20:10:02.212Z",
+ "date": "2026-11-11",
+ "capturedAt": "2026-11-10T20:10:02.297Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
    "count": 20,
-   "min": 3980,
-   "median": 6790,
+   "min": 3950,
+   "median": 6124,
    "max": 16989,
    "items": [
+    {
+     "title": "NIKE ナイキ スニーカー レディース デファイ HM9593 Nike Run Defy 厚底 スポーツ",
+     "price": 3950,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry%2F4-nc-w-hm9593-002%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftry%2Fi%2F10036154%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "つるや",
+     "used": false
+    },
     {
      "title": "11/10 限定★抽選で最大100％Pバック ナイキ コズミック ランナー GS HM4402-003 ジュニア キッズ 子供 スニーカー 子どもの靴 キッズスニーカー 運動靴 NIKE HM4402 003",
      "price": 3980,
@@ -26,12 +33,37 @@
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falpen%2F4921566145%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Falpen%2Fi%2F10496805%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "アルペン楽天市場店",
      "used": false
+    }
+   ]
+  },
+  {
+   "site": "yahoo_shopping",
+   "label": "Yahoo!ショッピング",
+   "used": false,
+   "count": 20,
+   "min": 3980,
+   "median": 7517,
+   "max": 20130,
+   "items": [
+    {
+     "title": "ナイキ コズミック ランナー GS HM4402-003 ジュニア キッズ 子供 スニーカー 子どもの靴 キッズスニーカー 運動靴 NIKE HM4402 003",
+     "price": 3980,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Falpen-group%2F4921562545.html",
+     "shop": "アルペングループヤフー店",
+     "used": false
     },
     {
-     "title": "11/10 限定★抽選で最大100％Pバック ナイキ レボリューション 8 イージーオン HQ2414-001 メンズ スニーカー : ブラック×ホワイト メンズシューズ ハンズフリー NIKE HQ2414 001",
-     "price": 4230,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falpen%2F4051567515%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Falpen%2Fi%2F10500890%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "アルペン楽天市場店",
+     "title": "フレックスランナー4 ナイキ NIKE IF2894608 ジュニア キッズ 子供靴 キッズシューズ キッズスニーカー FlexRunner4 スリッポン スリップオン 軽量 運動靴",
+     "price": 4380,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Frunningclub-gh%2Fif2894608.html",
+     "shop": "ランニングクラブ グラスホッパー",
+     "used": false
+    },
+    {
+     "title": "NIKE スニーカー ナイキ デファイ メンズ HM9594 Nike Run Defy",
+     "price": 4790,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftry-group%2F4-nc-m-hm9594-002.html",
+     "shop": "つるや 靴のTSURUYA",
      "used": false
     }
    ]
@@ -60,9 +92,9 @@
      "used": false
     },
     {
-     "title": "フットマーク ナイキ スニーカーエンブロイデッド7ボレーショーツ（ウルフグレー・サイズ：L） NESSF507-N054-L FOOTMARK NIKE SWIM 水着",
+     "title": "フットマーク ナイキ スニーカーエンブロイデッド7ボレーショーツ（ダスティカクタス・サイズ：L） NESSF507-N463-L FOOTMARK NIKE SWIM 水着",
      "price": 5980,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F0032219640265-36-49338-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14887676%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F0032219631171-36-49338-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14839351%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "Joshin web 家電とPCの大型専門店",
      "used": false
     }
@@ -72,15 +104,22 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 15,
+   "count": 17,
    "min": 3000,
-   "median": 4280,
-   "max": 12000,
+   "median": 4000,
+   "max": 15800,
    "items": [
     {
-     "title": "ナイキ ズームヴェイパードライブAF スニーカー シューズ 靴 27cm 激レア",
+     "title": "NIKE ナイキ スニーカー ZOOM 950 ズーム950 27.5cm",
      "price": 3000,
-     "url": "https://jp.mercari.com/item/m83508480319",
+     "url": "https://jp.mercari.com/item/m74959550840",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "NIKE ナイキ キッズ スニーカー ブラック 運動靴 22cm",
+     "price": 3000,
+     "url": "https://jp.mercari.com/item/m79257065761",
      "shop": "メルカリ",
      "used": true
     },
@@ -90,34 +129,59 @@
      "url": "https://jp.mercari.com/item/m44714174695",
      "shop": "メルカリ",
      "used": true
+    }
+   ]
+  },
+  {
+   "site": "yahoo_auction",
+   "label": "Yahoo!オークション",
+   "used": true,
+   "count": 14,
+   "min": 3300,
+   "median": 5200,
+   "max": 15000,
+   "items": [
+    {
+     "title": "ナイキ NIKE DR2550-100 W AIR MAX 95 WHITE/BLACK-LT IRON ORE-UNIVERSITY RED 22HO-I 23cm＼スニーカー",
+     "price": 3300,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/f1251797312",
+     "shop": "",
+     "used": true
     },
     {
-     "title": "ナイキ フランチャイズ2 27cm スニーカー",
-     "price": 3000,
-     "url": "https://jp.mercari.com/item/m60224349933",
-     "shop": "メルカリ",
+     "title": "ナイキ FD4810-061 サイズ 28.5cm WMNS AIR JORDAN 1 RETRO HIGH OG ハイカット スニーカー メンズ NIKE 9F145",
+     "price": 3601,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/n1248330007",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "NIKE WMNS AIR MAX PLUS DRIFT ナイキ ウィメンズ エア マックス プラス ドリフト",
+     "price": 4000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/b1251486747",
+     "shop": "",
      "used": true
     }
    ]
   }
  ],
  "newSummary": {
-  "min": 3980,
+  "min": 3950,
   "minSite": "rakuten",
   "minLabel": "楽天市場",
-  "minTitle": "11/10 限定★抽選で最大100％Pバック ナイキ コズミック ランナー GS HM4402-003 ジュニア キッズ 子供 スニーカー 子どもの靴 キッズスニーカー 運動靴 NIKE HM4402 003",
-  "median": 7045,
-  "siteCount": 2,
-  "itemCount": 28
+  "minTitle": "NIKE ナイキ スニーカー レディース デファイ HM9593 Nike Run Defy 厚底 スポーツ",
+  "median": 7300,
+  "siteCount": 3,
+  "itemCount": 48
  },
  "usedSummary": {
   "min": 3000,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "ナイキ ズームヴェイパードライブAF スニーカー シューズ 靴 27cm 激レア",
-  "median": 4280,
-  "siteCount": 1,
-  "itemCount": 15
+  "minTitle": "NIKE ナイキ スニーカー ZOOM 950 ズーム950 27.5cm",
+  "median": 4600,
+  "siteCount": 2,
+  "itemCount": 31
  },
  "history": [
   {
@@ -325,6 +389,20 @@
     "rakuten": 3980,
     "joshin": 5980,
     "mercari": 3000
+   }
+  },
+  {
+   "date": "2026-11-11",
+   "newMin": 3950,
+   "newMedian": 7300,
+   "usedMin": 3000,
+   "usedMedian": 4600,
+   "sites": {
+    "rakuten": 3950,
+    "yahoo_shopping": 3980,
+    "joshin": 5980,
+    "mercari": 3000,
+    "yahoo_auction": 3300
    }
   }
  ]

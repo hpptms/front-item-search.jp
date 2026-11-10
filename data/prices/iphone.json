@@ -1,48 +1,16 @@
 {
  "slug": "iphone",
  "term": "iPhone",
- "date": "2026-11-10",
- "capturedAt": "2026-11-09T20:10:02.212Z",
+ "date": "2026-11-11",
+ "capturedAt": "2026-11-10T20:10:02.297Z",
  "sites": [
-  {
-   "site": "rakuten",
-   "label": "楽天市場",
-   "used": false,
-   "count": 6,
-   "min": 17800,
-   "median": 88300,
-   "max": 159699,
-   "items": [
-    {
-     "title": "アップルApple iPhone SE（第2世代）64GB ホワイト 4.7インチ SIMフリー",
-     "price": 17800,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fchisaya%2Fse2-64gb-white%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fchisaya%2Fi%2F10003392%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "Select Opus",
-     "used": false
-    },
-    {
-     "title": "iPhone SE 第3世代 2022 SE3 A2782 64GB 128GB スマホ スマートフォン SE3 本体 SIMフリー ミッドナイト レッド スターライト docomo au softbank 美品 にこスマ認定整備済み品(リ",
-     "price": 19800,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnicosuma-store%2Fiphonese3-128-a%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnicosuma-store%2Fi%2F10000109%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "にこスマ",
-     "used": true
-    },
-    {
-     "title": "iPhone SE 3 第3世代 スマホ 本体 SIMフリー 64GB / 128GB / 256GB スターライト / ミッドナイト / レッド A2782",
-     "price": 19800,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flikewize-japan%2Fiphonese3%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flikewize-japan%2Fi%2F10000073%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "Likewize Japan 楽天市場店",
-     "used": false
-    }
-   ]
-  },
   {
    "site": "sofmap",
    "label": "ソフマップ",
    "used": false,
-   "count": 8,
+   "count": 7,
    "min": 25990,
-   "median": 51571,
+   "median": 52445,
    "max": 75989,
    "items": [
     {
@@ -69,55 +37,151 @@
    ]
   },
   {
+   "site": "rakuten",
+   "label": "楽天市場",
+   "used": false,
+   "count": 7,
+   "min": 41800,
+   "median": 134800,
+   "max": 176800,
+   "items": [
+    {
+     "title": "iPhone SE 第3世代 2022 SE3 A2782 64GB 128GB スマホ スマートフォン SE3 本体 SIMフリー ミッドナイト レッド スターライト docomo au softbank 美品 にこスマ認定整備済み品(リ",
+     "price": 19800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnicosuma-store%2Fiphonese3-128-a%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnicosuma-store%2Fi%2F10000109%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "にこスマ",
+     "used": true
+    },
+    {
+     "title": "iPhone 12 64GB 128GB 256GB A2402 スマホ スマートフォン 本体 SIMフリー ブラック ブルー グリーン パープル レッド ホワイト docomo au softbank 美品 にこスマ認定整備済み品(リファ",
+     "price": 28800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnicosuma-store%2Fiphone12-128-b%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnicosuma-store%2Fi%2F10000092%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "にこスマ",
+     "used": true
+    },
+    {
+     "title": "アップル iPhone 12 64GB ブラック SIM フリー",
+     "price": 41800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fchisaya%2F12-64gb-black%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fchisaya%2Fi%2F10003407%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "Select Opus",
+     "used": false
+    }
+   ]
+  },
+  {
+   "site": "yahoo_shopping",
+   "label": "Yahoo!ショッピング",
+   "used": false,
+   "count": 1,
+   "min": 129800,
+   "median": 129800,
+   "max": 129800,
+   "items": [
+    {
+     "title": "iPhone 12 mini 128GB Cランク スマホ 本体 SIMフリー ブラック ブルー グリーン パープル レッド ホワイト 爆買",
+     "price": 23800,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnicosuma%2Fiphone12mini-128-c.html",
+     "shop": "にこスマ",
+     "used": true
+    },
+    {
+     "title": "iPhone 12 64GB Aランク スマホ 本体 SIMフリー ブラック ブルー グリーン パープル レッド ホワイト 美品 爆買",
+     "price": 32800,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnicosuma%2Fiphone12-64-a.html",
+     "shop": "にこスマ",
+     "used": true
+    },
+    {
+     "title": "iPhone SE 3 第3世代 128GB Aランク スマホ 本体 SIMフリー ミッドナイト レッド スターライト 美品 爆買",
+     "price": 34800,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnicosuma%2Fiphonese3-128-a.html",
+     "shop": "にこスマ",
+     "used": true
+    }
+   ]
+  },
+  {
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
    "count": 10,
-   "min": 15000,
-   "median": 33350,
+   "min": 16700,
+   "median": 26667,
    "max": 112980,
    "items": [
     {
-     "title": "Apple iPhone 本体 ゴールド 256GB SIMフリー",
-     "price": 15000,
-     "url": "https://jp.mercari.com/item/m52528679014",
+     "title": "Apple iPhone SE レッド 本体 第3世代 SIMフリー",
+     "price": 16700,
+     "url": "https://jp.mercari.com/item/m68041110540",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Apple iPhone 12 本体 ホワイト",
-     "price": 18000,
-     "url": "https://jp.mercari.com/item/m43023536086",
+     "title": "Apple iPhone SE 第3世代 本体 美品",
+     "price": 20000,
+     "url": "https://jp.mercari.com/item/m26757544428",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Apple iPhone 12 本体 グリーン 64GB",
-     "price": 22800,
-     "url": "https://jp.mercari.com/item/m34943498033",
+     "title": "Apple iPhone 本体 ホワイト",
+     "price": 20000,
+     "url": "https://jp.mercari.com/item/m57776481012",
      "shop": "メルカリ",
+     "used": true
+    }
+   ]
+  },
+  {
+   "site": "yahoo_auction",
+   "label": "Yahoo!オークション",
+   "used": true,
+   "count": 3,
+   "min": 18700,
+   "median": 19000,
+   "max": 46649,
+   "items": [
+    {
+     "title": "S Apple / iPhone SE / 第3世代 / MMYD3J/A / A2782 / 64GB / SIMフリー / 初期化済 / 動作OK",
+     "price": 18700,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/t1250974374",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "iPhone 12 mini 128GB ブルー SIMフリー",
+     "price": 19000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z721880972",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "☆1円 Apple アップル iPhone 15 128GB SIMフリー MTMJ3J/A SIMフリー 利用制限なし バッテリ88％ ピンク ※凹みあり",
+     "price": 46649,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/r1251190170",
+     "shop": "",
      "used": true
     }
    ]
   }
  ],
  "newSummary": {
-  "min": 17800,
-  "minSite": "rakuten",
-  "minLabel": "楽天市場",
-  "minTitle": "アップルApple iPhone SE（第2世代）64GB ホワイト 4.7インチ SIMフリー",
-  "median": 69936,
-  "siteCount": 2,
-  "itemCount": 14
+  "min": 25990,
+  "minSite": "sofmap",
+  "minLabel": "ソフマップ",
+  "minTitle": "Apple(アップル) iPhoneX 256GB シルバー MQC22J／A SIMフリー",
+  "median": 129800,
+  "siteCount": 3,
+  "itemCount": 15
  },
  "usedSummary": {
-  "min": 15000,
+  "min": 16700,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "Apple iPhone 本体 ゴールド 256GB SIMフリー",
-  "median": 31075,
-  "siteCount": 2,
-  "itemCount": 13
+  "minTitle": "Apple iPhone SE レッド 本体 第3世代 SIMフリー",
+  "median": 27734,
+  "siteCount": 4,
+  "itemCount": 25
  },
  "history": [
   {
@@ -322,6 +386,20 @@
     "rakuten": 17800,
     "sofmap": 25990,
     "mercari": 15000
+   }
+  },
+  {
+   "date": "2026-11-11",
+   "newMin": 25990,
+   "newMedian": 129800,
+   "usedMin": 16700,
+   "usedMedian": 27734,
+   "sites": {
+    "sofmap": 25990,
+    "rakuten": 41800,
+    "yahoo_shopping": 129800,
+    "mercari": 16700,
+    "yahoo_auction": 18700
    }
   }
  ]
