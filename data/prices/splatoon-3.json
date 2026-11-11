@@ -1,8 +1,8 @@
 {
  "slug": "splatoon-3",
  "term": "スプラトゥーン3",
- "date": "2026-11-11",
- "capturedAt": "2026-11-10T20:10:02.297Z",
+ "date": "2026-11-12",
+ "capturedAt": "2026-11-11T20:10:03.160Z",
  "sites": [
   {
    "site": "yahoo_shopping",
@@ -10,8 +10,8 @@
    "used": false,
    "count": 9,
    "min": 4190,
-   "median": 5950,
-   "max": 13480,
+   "median": 5900,
+   "max": 12800,
    "items": [
     {
      "title": "スプラトゥーン 3 Nintendo Switch",
@@ -21,17 +21,17 @@
      "used": false
     },
     {
-     "title": "Switch スプラトゥーン3 (パッケージ版) Splatoon 3 ソフトのみ 箱取説なし スイッチ スウィッチ ニンテンドー Nintendo 任天堂 中古",
-     "price": 4525,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fentameoukoku%2F17169.html",
-     "shop": "エンタメ王国 Yahoo!ショッピング店",
-     "used": true
-    },
-    {
      "title": "『中古即納』{Switch} スプラトゥーン3(Splatoon3) 任天堂(20220909)",
      "price": 4534,
      "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmediaworld-plus%2F10461398001.html",
      "shop": "メディアワールドプラス",
+     "used": true
+    },
+    {
+     "title": "『中古即納』{Switch} スプラトゥーン3(Splatoon3) 任天堂(20220909)",
+     "price": 4680,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmedia-world%2F10461398001.html",
+     "shop": "メディアワールド",
      "used": true
     }
    ]
@@ -40,18 +40,11 @@
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 14,
-   "min": 4680,
+   "count": 15,
+   "min": 4690,
    "median": 5700,
    "max": 6198,
    "items": [
-    {
-     "title": "Switch ソフト ニンテンドースイッチ スプラトゥーン3 スプラ3 任天堂 4902370550337",
-     "price": 4680,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fiimoreuse%2F17168%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fiimoreuse%2Fi%2F10011069%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "iimo リユース店",
-     "used": false
-    },
     {
      "title": "スプラトゥーン 3ソフト:ニンテンドーSwitchソフト／任天堂キャラクター・ゲーム",
      "price": 4690,
@@ -60,10 +53,35 @@
      "used": false
     },
     {
+     "title": "Switch スプラトゥーン3 (ニンテンドースイッチ)",
+     "price": 4744,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frenet3%2F0013561730%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frenet3%2Fi%2F12849975%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "ネットオフ楽天市場支店",
+     "used": false
+    },
+    {
      "title": "[Switch] スプラトゥーン3(Splatoon3) 任天堂 (20220909)",
      "price": 4780,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmediaworldkaitoriworld%2F10461398001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmediaworldkaitoriworld%2Fi%2F10400660%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "メディアワールド 販売&買取SHOP",
+     "used": false
+    }
+   ]
+  },
+  {
+   "site": "edion",
+   "label": "エディオン",
+   "used": false,
+   "count": 1,
+   "min": 5680,
+   "median": 5680,
+   "max": 5680,
+   "items": [
+    {
+     "title": "任天堂 スプラトゥーン3 HACPAV5JA [HACPAV5JA]",
+     "price": 5680,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4902370550337%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10782168%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "エディオン 楽天市場店",
      "used": false
     }
    ]
@@ -112,65 +130,65 @@
    ]
   },
   {
-   "site": "mercari",
-   "label": "メルカリ",
+   "site": "yahoo_auction",
+   "label": "Yahoo!オークション",
    "used": true,
-   "count": 12,
-   "min": 3100,
-   "median": 3800,
-   "max": 4000,
+   "count": 11,
+   "min": 2750,
+   "median": 3950,
+   "max": 4200,
    "items": [
     {
-     "title": "スプラトゥーン3 Switch ソフトのみ",
-     "price": 3100,
-     "url": "https://jp.mercari.com/item/m26432290302",
-     "shop": "メルカリ",
+     "title": "★中古★Nintendo Switchソフト スプラトゥーン3 (スプラ/スイッチソフト)★",
+     "price": 2750,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/k1251647880",
+     "shop": "",
      "used": true
     },
     {
-     "title": "Nintendo Switch スプラトゥーン3 Splatoon 3 ソフト",
-     "price": 3366,
-     "url": "https://jp.mercari.com/item/m60504424537",
-     "shop": "メルカリ",
+     "title": "Switch スプラトゥーン3 ゲームソフト スイッチ 1A0308-040am/F8",
+     "price": 2970,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/l1251810531",
+     "shop": "",
      "used": true
     },
     {
-     "title": "Switchソフトスプラトゥーン3",
-     "price": 3500,
-     "url": "https://jp.mercari.com/item/m27421959186",
-     "shop": "メルカリ",
+     "title": "任天堂(Nintendo) ニンテンドースイッチ ゲームソフト スプラトゥーン3 HAC-P-AV5JA ※箱無し",
+     "price": 2980,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/q1250845170",
+     "shop": "",
      "used": true
     }
    ]
   },
   {
-   "site": "yahoo_auction",
-   "label": "Yahoo!オークション",
+   "site": "mercari",
+   "label": "メルカリ",
    "used": true,
-   "count": 10,
-   "min": 3750,
-   "median": 3980,
-   "max": 4200,
+   "count": 11,
+   "min": 3499,
+   "median": 3999,
+   "max": 5600,
    "items": [
     {
-     "title": "Nintendo Switch スプラトゥーン3 ソフトのみ",
-     "price": 3750,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/s1250229458",
-     "shop": "",
+     "title": "スプラトゥーン3 Nintendo Switch ソフト",
+     "price": 3499,
+     "url": "https://jp.mercari.com/item/m77126299620",
+     "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "a0810212 スプラトゥーン3",
-     "price": 3900,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z721871942",
-     "shop": "",
+     "title": "スプラトゥーン3 Switch ソフトのみ",
+     "price": 3700,
+     "url": "https://jp.mercari.com/item/m26432290302",
+     "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Nintendo Switch スプラトゥーン3 パッケージ版",
-     "price": 3950,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z721862418",
-     "shop": "",
+     "title": "ニンテンドースイッチソフト スプラトゥーン3",
+     "price": 3837,
+     "url": "https://jp.mercari.com/shops/product/2JYQt3UssnJ3XEZ5LvFGMG",
+     "shop": "メルカリ",
      "used": true
     }
    ]
@@ -181,18 +199,18 @@
   "minSite": "yahoo_shopping",
   "minLabel": "Yahoo!ショッピング",
   "minTitle": "スプラトゥーン 3 Nintendo Switch",
-  "median": 5865,
-  "siteCount": 4,
-  "itemCount": 26
+  "median": 5780,
+  "siteCount": 5,
+  "itemCount": 28
  },
  "usedSummary": {
-  "min": 3100,
-  "minSite": "mercari",
-  "minLabel": "メルカリ",
-  "minTitle": "スプラトゥーン3 Switch ソフトのみ",
-  "median": 3980,
+  "min": 2750,
+  "minSite": "yahoo_auction",
+  "minLabel": "Yahoo!オークション",
+  "minTitle": "★中古★Nintendo Switchソフト スプラトゥーン3 (スプラ/スイッチソフト)★",
+  "median": 3999,
   "siteCount": 3,
-  "itemCount": 25
+  "itemCount": 24
  },
  "history": [
   {
@@ -437,6 +455,22 @@
     "yodobashi": 5980,
     "mercari": 3100,
     "yahoo_auction": 3750
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "newMin": 4190,
+   "newMedian": 5780,
+   "usedMin": 2750,
+   "usedMedian": 3999,
+   "sites": {
+    "yahoo_shopping": 4190,
+    "rakuten": 4690,
+    "edion": 5680,
+    "joshin": 5780,
+    "yodobashi": 5980,
+    "yahoo_auction": 2750,
+    "mercari": 3499
    }
   }
  ]

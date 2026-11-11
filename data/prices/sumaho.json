@@ -1,17 +1,17 @@
 {
  "slug": "sumaho",
  "term": "スマホ",
- "date": "2026-11-11",
- "capturedAt": "2026-11-10T20:10:02.297Z",
+ "date": "2026-11-12",
+ "capturedAt": "2026-11-11T20:10:03.160Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 13,
+   "count": 11,
    "min": 20290,
-   "median": 35980,
-   "max": 89760,
+   "median": 27980,
+   "max": 76800,
    "items": [
     {
      "title": "「未開封/未使用/国内版SIMフリー」Galaxy A25 5G 64GB docomo版 au/UQ版 ソフトバンク版 Yモバイル版 SIMフリー版 楽天版 ライトブルー ブルー ブラック 白ロム スマホ 本体 楽天モバイル対応",
@@ -28,8 +28,8 @@
      "used": false
     },
     {
-     "title": "マラソン限定★700円OFF Samsung Galaxy A25 5G Galaxy-A25 GalaxyA25 サムスン ギャラクシー A25 本体 スマホ スマートフォン AU版/SoftBank版/ドコモ版 SIMフリー 4GB +",
-     "price": 21900,
+     "title": "Samsung Galaxy A25 5G Galaxy-A25 GalaxyA25 サムスン ギャラクシー A25 本体 スマホ スマートフォン AU版/SoftBank版/ドコモ版 SIMフリー 4GB + 64GB docomo au",
+     "price": 22600,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgojapanshop%2Fgalaxy-a25%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fgojapanshop%2Fi%2F10002537%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "Go Japan 楽天市場店",
      "used": false
@@ -40,9 +40,9 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 3,
+   "count": 4,
    "min": 20680,
-   "median": 26980,
+   "median": 24400,
    "max": 43000,
    "items": [
     {
@@ -60,10 +60,10 @@
      "used": false
     },
     {
-     "title": "「新品未使用/国内版SIMフリー」 FUJITSU arrows We3 docomo版 F-52G 4GB/64GB ブラック 白ロム スマホ 本体",
-     "price": 26980,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbest1mobile%2Ff-52g-black.html",
-     "shop": "デジタルトレーディング",
+     "title": "新古品 F-51B arrows We ネイビー SIMフリー ドコモ スマホ 本体 あすつく f51bna10mtm",
+     "price": 21000,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fgarakei%2Ff51bna10mtm.html",
+     "shop": "ニューズドテック Yahoo!店",
      "used": false
     }
    ]
@@ -72,7 +72,7 @@
    "site": "yodobashi",
    "label": "ヨドバシ.com",
    "used": false,
-   "count": 14,
+   "count": 15,
    "min": 54340,
    "median": 235400,
    "max": 299200,
@@ -92,9 +92,9 @@
      "used": false
     },
     {
-     "title": "AQUOS wish6/6.6インチ/Dimensity 6300/RAM 4GB/ROM 128GB/Android 16/SIMフリースマートフォン/ソラ SH-M36-A",
-     "price": 54340,
-     "url": "https://www.yodobashi.com/product/100000001010197974/",
+     "title": "AQUOS sense10/6.1インチ/Snapdragon 7s Gen 3/RAM 6GB/ROM 128GB/Android 16/SIMフリースマートフォン/ペールピンク SH-M33A-P",
+     "price": 67430,
+     "url": "https://www.yodobashi.com/product/100000001009510854/",
      "shop": "",
      "used": false
     }
@@ -107,7 +107,7 @@
    "count": 11,
    "min": 57980,
    "median": 77880,
-   "max": 109800,
+   "max": 99800,
    "items": [
     {
      "title": "Xiaomi｜シャオミ REDMI（レッドミ） Note 15 Pro 5G Titanium Gray 8G+256G SIMフリースマートフォン Titanium Gray",
@@ -167,16 +167,16 @@
      "used": false
     },
     {
-     "title": "シャープ SIMフリースマホ[RAM6GB/ROM128GB] AQUOS sense9 シリーズ ホワイト SH-M29A-W [SHM29AW]",
+     "title": "シャープ SIMフリースマホ[RAM6GB/ROM128GB] AQUOS sense9 シリーズ ブラック SH-M29A-B [SHM29AB]",
      "price": 59300,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4550556144315%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10873027%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4550556144322%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10873025%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "エディオン 楽天市場店",
      "used": false
     },
     {
-     "title": "シャープ SIMフリースマホ[RAM6GB/ROM128GB] AQUOS sense9 シリーズ ブラック SH-M29A-B [SHM29AB]",
+     "title": "シャープ SIMフリースマホ[RAM6GB/ROM128GB] AQUOS sense9 シリーズ ホワイト SH-M29A-W [SHM29AW]",
      "price": 59300,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4550556144322%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10873025%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4550556144315%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10873027%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "エディオン 楽天市場店",
      "used": false
     }
@@ -201,65 +201,58 @@
    ]
   },
   {
-   "site": "mercari",
-   "label": "メルカリ",
+   "site": "yahoo_auction",
+   "label": "Yahoo!オークション",
    "used": true,
-   "count": 13,
-   "min": 11111,
-   "median": 25555,
-   "max": 60000,
+   "count": 2,
+   "min": 13200,
+   "median": 13600,
+   "max": 14000,
    "items": [
     {
-     "title": "iPhoneX 本体 256GB SIMロックなし",
-     "price": 11111,
-     "url": "https://jp.mercari.com/item/m71089574071",
-     "shop": "メルカリ",
+     "title": "《SIMフリーモデル》 FCNT arrows We2 M07 128GB エフシーエヌティー アローズウィーツー ASMC07001 ライトブルー Cランク",
+     "price": 13200,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/o1251677725",
+     "shop": "",
      "used": true
     },
     {
-     "title": "美品☆Apple iPhoneX 256GB スペースグレー SIMフリー",
-     "price": 12900,
-     "url": "https://jp.mercari.com/item/m68086897733",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "iPhone8 (ゴールド) 256GB 本体／初期化済 ／SIMフリー",
-     "price": 15000,
-     "url": "https://jp.mercari.com/item/m23317958260",
-     "shop": "メルカリ",
+     "title": "OPPO Reno5 A 5G 初期化済SIMフリー 128gbスマートフォン 本体 アイスブルー",
+     "price": 14000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z722282878",
+     "shop": "",
      "used": true
     }
    ]
   },
   {
-   "site": "yahoo_auction",
-   "label": "Yahoo!オークション",
+   "site": "mercari",
+   "label": "メルカリ",
    "used": true,
-   "count": 3,
-   "min": 12000,
-   "median": 42801,
-   "max": 46649,
+   "count": 5,
+   "min": 15000,
+   "median": 38000,
+   "max": 46999,
    "items": [
     {
-     "title": "送料無料 新品未使用 iPhone11 Pro 512GB 日本国内版 SIMフリー シルバー",
-     "price": 12000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/b1251819016",
-     "shop": "",
+     "title": "［美品］Apple iPhone XR 64GB SIMフリー",
+     "price": 15000,
+     "url": "https://jp.mercari.com/item/m47720736720",
+     "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "SAMSUNG Galaxy S23 docomo SIMフリー 美品 動作確認済",
-     "price": 42801,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/v1251125196",
-     "shop": "",
+     "title": "Apple iPhone11 124GB ブラックSIMフリー",
+     "price": 15211,
+     "url": "https://jp.mercari.com/item/m23270431265",
+     "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "☆1円 Apple アップル iPhone 15 128GB SIMフリー MTMJ3J/A SIMフリー 利用制限なし バッテリ88％ ピンク ※凹みあり",
-     "price": 46649,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/r1251190170",
-     "shop": "",
+     "title": "iPhone13 256GB simフリー",
+     "price": 38000,
+     "url": "https://jp.mercari.com/item/m75620418515",
+     "shop": "メルカリ",
      "used": true
     }
    ]
@@ -275,13 +268,13 @@
   "itemCount": 61
  },
  "usedSummary": {
-  "min": 11111,
-  "minSite": "mercari",
-  "minLabel": "メルカリ",
-  "minTitle": "iPhoneX 本体 256GB SIMロックなし",
-  "median": 35300,
+  "min": 13200,
+  "minSite": "yahoo_auction",
+  "minLabel": "Yahoo!オークション",
+  "minTitle": "《SIMフリーモデル》 FCNT arrows We2 M07 128GB エフシーエヌティー アローズウィーツー ASMC07001 ライトブルー Cランク",
+  "median": 36400,
   "siteCount": 4,
-  "itemCount": 30
+  "itemCount": 20
  },
  "history": [
   {
@@ -566,6 +559,24 @@
     "joshin": 77880,
     "mercari": 11111,
     "yahoo_auction": 12000
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "newMin": 20290,
+   "newMedian": 77880,
+   "usedMin": 13200,
+   "usedMedian": 36400,
+   "sites": {
+    "rakuten": 20290,
+    "yahoo_shopping": 20680,
+    "yodobashi": 54340,
+    "biccamera": 57980,
+    "sofmap": 57980,
+    "edion": 59300,
+    "joshin": 77880,
+    "yahoo_auction": 13200,
+    "mercari": 15000
    }
   }
  ]

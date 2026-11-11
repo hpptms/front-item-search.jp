@@ -1,8 +1,8 @@
 {
  "slug": "iphone",
  "term": "iPhone",
- "date": "2026-11-11",
- "capturedAt": "2026-11-10T20:10:02.297Z",
+ "date": "2026-11-12",
+ "capturedAt": "2026-11-11T20:10:03.160Z",
  "sites": [
   {
    "site": "sofmap",
@@ -40,10 +40,10 @@
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 7,
+   "count": 5,
    "min": 41800,
    "median": 134800,
-   "max": 176800,
+   "max": 156700,
    "items": [
     {
      "title": "iPhone SE 第3世代 2022 SE3 A2782 64GB 128GB スマホ スマートフォン SE3 本体 SIMフリー ミッドナイト レッド スターライト docomo au softbank 美品 にこスマ認定整備済み品(リ",
@@ -104,62 +104,30 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 10,
-   "min": 16700,
-   "median": 26667,
-   "max": 112980,
+   "count": 6,
+   "min": 15000,
+   "median": 24000,
+   "max": 47000,
    "items": [
     {
-     "title": "Apple iPhone SE レッド 本体 第3世代 SIMフリー",
-     "price": 16700,
-     "url": "https://jp.mercari.com/item/m68041110540",
+     "title": "［美品］Apple iPhone XR 64GB SIMフリー",
+     "price": 15000,
+     "url": "https://jp.mercari.com/item/m47720736720",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Apple iPhone SE 第3世代 本体 美品",
-     "price": 20000,
-     "url": "https://jp.mercari.com/item/m26757544428",
+     "title": "Apple iPhone SE 第3世代 本体",
+     "price": 17000,
+     "url": "https://jp.mercari.com/item/m22273918092",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Apple iPhone 本体 ホワイト",
-     "price": 20000,
-     "url": "https://jp.mercari.com/item/m57776481012",
+     "title": "Apple iPhone SE 第3世代 本体",
+     "price": 18000,
+     "url": "https://jp.mercari.com/item/m26732078397",
      "shop": "メルカリ",
-     "used": true
-    }
-   ]
-  },
-  {
-   "site": "yahoo_auction",
-   "label": "Yahoo!オークション",
-   "used": true,
-   "count": 3,
-   "min": 18700,
-   "median": 19000,
-   "max": 46649,
-   "items": [
-    {
-     "title": "S Apple / iPhone SE / 第3世代 / MMYD3J/A / A2782 / 64GB / SIMフリー / 初期化済 / 動作OK",
-     "price": 18700,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/t1250974374",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "iPhone 12 mini 128GB ブルー SIMフリー",
-     "price": 19000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z721880972",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "☆1円 Apple アップル iPhone 15 128GB SIMフリー MTMJ3J/A SIMフリー 利用制限なし バッテリ88％ ピンク ※凹みあり",
-     "price": 46649,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/r1251190170",
-     "shop": "",
      "used": true
     }
    ]
@@ -172,16 +140,16 @@
   "minTitle": "Apple(アップル) iPhoneX 256GB シルバー MQC22J／A SIMフリー",
   "median": 129800,
   "siteCount": 3,
-  "itemCount": 15
+  "itemCount": 13
  },
  "usedSummary": {
-  "min": 16700,
+  "min": 15000,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "Apple iPhone SE レッド 本体 第3世代 SIMフリー",
-  "median": 27734,
-  "siteCount": 4,
-  "itemCount": 25
+  "minTitle": "［美品］Apple iPhone XR 64GB SIMフリー",
+  "median": 28800,
+  "siteCount": 3,
+  "itemCount": 19
  },
  "history": [
   {
@@ -400,6 +368,19 @@
     "yahoo_shopping": 129800,
     "mercari": 16700,
     "yahoo_auction": 18700
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "newMin": 25990,
+   "newMedian": 129800,
+   "usedMin": 15000,
+   "usedMedian": 28800,
+   "sites": {
+    "sofmap": 25990,
+    "rakuten": 41800,
+    "yahoo_shopping": 129800,
+    "mercari": 15000
    }
   }
  ]

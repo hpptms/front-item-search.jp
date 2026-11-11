@@ -1,16 +1,16 @@
 {
  "slug": "comic-set",
  "term": "コミック 全巻セット",
- "date": "2026-11-11",
- "capturedAt": "2026-11-10T20:10:02.297Z",
+ "date": "2026-11-12",
+ "capturedAt": "2026-11-11T20:10:03.160Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 6,
+   "count": 8,
    "min": 5250,
-   "median": 14421,
+   "median": 9862,
    "max": 21912,
    "items": [
     {
@@ -21,17 +21,17 @@
      "used": false
     },
     {
-     "title": "バガボンド ＜1〜37巻＞ 井上 雄彦",
-     "price": 6650,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcomicset%2F10000341%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcomicset%2Fi%2F10000341%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "title": "封神演義 ＜1〜23巻完結＞ 藤崎竜",
+     "price": 5950,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcomicset%2F10000309%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcomicset%2Fi%2F10000309%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "もったいない本舗 楽天市場店",
      "used": false
     },
     {
-     "title": "約束のネバーランド 全巻セット(1-20巻) （ジャンプコミックス） [ 出水 ぽすか ]",
-     "price": 9724,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F16769026%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbook%2Fi%2F20380490%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "楽天ブックス",
+     "title": "バガボンド ＜1〜37巻＞ 井上 雄彦",
+     "price": 6650,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcomicset%2F10000341%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcomicset%2Fi%2F10000341%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "もったいない本舗 楽天市場店",
      "used": false
     }
    ]
@@ -42,7 +42,7 @@
    "used": false,
    "count": 20,
    "min": 7436,
-   "median": 15283,
+   "median": 15750,
    "max": 41225,
    "items": [
     {
@@ -53,16 +53,16 @@
      "used": false
     },
     {
-     "title": "新品 / [ホタ嫁]ホタルの嫁入り (全14冊) 全巻セット",
-     "price": 10846,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmangazenkan%2Fm5890407412.html",
+     "title": "1月上旬より発送予定 / 新品 / ちいかわ なんか小さくてかわいいやつ (1-8巻 最新刊) 全巻セット / 入荷予約",
+     "price": 11220,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmangazenkan%2Fm2560436932.html",
      "shop": "漫画全巻ドットコム Yahoo!ショッピング店",
      "used": false
     },
     {
-     "title": "[1月上旬より発送予定]新品 / ちいかわ なんか小さくてかわいいやつ (1-8巻 最新刊) 全巻セット[入荷予約]",
-     "price": 11110,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmangazenkan%2Fm2560436932.html",
+     "title": "新品 / ドラゴンボール超 (1-24巻 最新刊) 全巻セット",
+     "price": 11902,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmangazenkan%2Fm8880471660.html",
      "shop": "漫画全巻ドットコム Yahoo!ショッピング店",
      "used": false
     }
@@ -91,28 +91,28 @@
    "label": "Yahoo!オークション",
    "used": true,
    "count": 8,
-   "min": 2220,
-   "median": 3025,
-   "max": 20000,
+   "min": 2000,
+   "median": 3500,
+   "max": 6100,
    "items": [
     {
-     "title": "動物のお医者さん 全巻セット",
-     "price": 2220,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/c1251655474",
+     "title": "全巻セット あさきゆめみし(文庫版)ボックスセット[2］",
+     "price": 2000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/w1251533851",
      "shop": "",
      "used": true
     },
     {
-     "title": "小説 ハイキュー!! ショーセツバン!! 1巻～13巻 古舘春一 -送料無料 コミックセット-",
-     "price": 2750,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/c1251238895",
+     "title": "BLACK LAGOON 1巻～14巻 広江礼威 -送料無料 コミックセット-",
+     "price": 2200,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/h1251849277",
      "shop": "",
      "used": true
     },
     {
-     "title": "SPY×FAMILY スパイファミリー 1巻～17巻 遠藤達哉 -送料無料 コミックセット-",
-     "price": 2750,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/o1251636566",
+     "title": "送料無料★美品★カバー付★あそこではたらくムスブさん 全巻セット １～７巻 モリタイシ",
+     "price": 2980,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/l1240954518",
      "shop": "",
      "used": true
     }
@@ -122,29 +122,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 11,
-   "min": 3500,
+   "count": 15,
+   "min": 2222,
    "median": 4200,
-   "max": 15000,
+   "max": 11800,
    "items": [
     {
-     "title": "魔人探偵 脳噛ネウロ 全23巻 完結 松井優征",
-     "price": 3500,
-     "url": "https://jp.mercari.com/item/m11708808457",
+     "title": "地獄楽 全巻セット",
+     "price": 2222,
+     "url": "https://jp.mercari.com/item/m88681958275",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "鬼滅の刃 全巻セット 1-23巻",
-     "price": 3614,
-     "url": "https://jp.mercari.com/item/m44578917647",
+     "title": "いちご100% 全巻",
+     "price": 2222,
+     "url": "https://jp.mercari.com/item/m99117087636",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "全巻初版クリアカバー帯付き。夜鷹ふたたび 1〜3巻セット 特典付き。",
-     "price": 3880,
-     "url": "https://jp.mercari.com/item/m16468832237",
+     "title": "いぬやしき 全巻セット",
+     "price": 2250,
+     "url": "https://jp.mercari.com/item/m45231922430",
      "shop": "メルカリ",
      "used": true
     }
@@ -156,18 +156,18 @@
   "minSite": "rakuten",
   "minLabel": "楽天市場",
   "minTitle": "新宿スワン ＜1〜38巻完結＞ 和久井健",
-  "median": 15283,
+  "median": 15750,
   "siteCount": 3,
-  "itemCount": 27
+  "itemCount": 29
  },
  "usedSummary": {
-  "min": 2220,
+  "min": 2000,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "動物のお医者さん 全巻セット",
-  "median": 3613,
+  "minTitle": "全巻セット あさきゆめみし(文庫版)ボックスセット[2］",
+  "median": 3850,
   "siteCount": 2,
-  "itemCount": 19
+  "itemCount": 23
  },
  "history": [
   {
@@ -401,6 +401,20 @@
     "biccamera": 20900,
     "yahoo_auction": 2220,
     "mercari": 3500
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "newMin": 5250,
+   "newMedian": 15750,
+   "usedMin": 2000,
+   "usedMedian": 3850,
+   "sites": {
+    "rakuten": 5250,
+    "yahoo_shopping": 7436,
+    "biccamera": 20900,
+    "yahoo_auction": 2000,
+    "mercari": 2222
    }
   }
  ]

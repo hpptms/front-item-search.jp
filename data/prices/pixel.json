@@ -1,17 +1,17 @@
 {
  "slug": "pixel",
  "term": "Google Pixel",
- "date": "2026-11-11",
- "capturedAt": "2026-11-10T20:10:02.297Z",
+ "date": "2026-11-12",
+ "capturedAt": "2026-11-11T20:10:03.160Z",
  "sites": [
   {
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 13,
+   "count": 14,
    "min": 40980,
-   "median": 81980,
-   "max": 83608,
+   "median": 81685,
+   "max": 82975,
    "items": [
     {
      "title": "Google Pixel 7a 128GB Bランク スマホ 本体 SIMフリー 美品 にこスマ認定整備済み品(リファービッシュ 整備済品) 爆買",
@@ -41,8 +41,8 @@
    "label": "楽天市場",
    "used": false,
    "count": 13,
-   "min": 67979,
-   "median": 80640,
+   "min": 72800,
+   "median": 79980,
    "max": 136990,
    "items": [
     {
@@ -72,29 +72,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 10,
-   "min": 15000,
-   "median": 25650,
-   "max": 78100,
+   "count": 4,
+   "min": 16500,
+   "median": 19500,
+   "max": 37980,
    "items": [
     {
-     "title": "Google Pixel 7a 128GB ブラック SIMフリー",
-     "price": 15000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z721077638",
+     "title": "Google Pixel 6a グーグル ピクセル6a au○ アクティベーションロックなし 本体のみ 128GB",
+     "price": 16500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/1251743092",
      "shop": "",
      "used": true
     },
     {
-     "title": "366-0535 Google Pixel 7a Androidスマホ チャコール 128GB SIMフリー",
-     "price": 15653,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/u1251588277",
+     "title": "Google Pixel 4a 5G アンドロイドスマホ 本体 Simフリーブラック系",
+     "price": 17500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z722038268",
      "shop": "",
      "used": true
     },
     {
-     "title": "「Google pixel 4」 クリアリーホワイト 4aではありません 概ね綺麗な状態かと思います RAM6GB.ROM64GB SIMロックフリー",
-     "price": 16000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/p1251603574",
+     "title": "Google Pixel 7 Pro Snow 128GB SIMフリー 海外版",
+     "price": 21500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z722066200",
      "shop": "",
      "used": true
     }
@@ -104,29 +104,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 15,
-   "min": 26400,
-   "median": 38500,
-   "max": 85000,
+   "count": 16,
+   "min": 16999,
+   "median": 37900,
+   "max": 85380,
    "items": [
     {
-     "title": "Google Pixel 7a SIMフリー AD9524",
-     "price": 26400,
-     "url": "https://jp.mercari.com/item/m23477427926",
+     "title": "Google Pixel 3",
+     "price": 16999,
+     "url": "https://jp.mercari.com/item/m16513067744",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Google Pixel 7a 本体",
-     "price": 26800,
-     "url": "https://jp.mercari.com/item/m18022636167",
+     "title": "Google Pixel 7a 本体 SIMフリー初期化済み",
+     "price": 28800,
+     "url": "https://jp.mercari.com/item/m82839760489",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Google Pixel 7a 本体➕箱付き➕充電コード付き 本体動作確認済み",
-     "price": 27500,
-     "url": "https://jp.mercari.com/item/m85350649341",
+     "title": "Google Pixel 7a 青色 本体",
+     "price": 28800,
+     "url": "https://jp.mercari.com/item/m91487760137",
      "shop": "メルカリ",
      "used": true
     }
@@ -138,18 +138,18 @@
   "minSite": "yahoo_shopping",
   "minLabel": "Yahoo!ショッピング",
   "minTitle": "Google Pixel 8a 128GB Bay",
-  "median": 81310,
+  "median": 80833,
   "siteCount": 2,
-  "itemCount": 26
+  "itemCount": 27
  },
  "usedSummary": {
-  "min": 15000,
+  "min": 16500,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "Google Pixel 7a 128GB ブラック SIMフリー",
-  "median": 37400,
+  "minTitle": "Google Pixel 6a グーグル ピクセル6a au○ アクティベーションロックなし 本体のみ 128GB",
+  "median": 34850,
   "siteCount": 4,
-  "itemCount": 36
+  "itemCount": 30
  },
  "history": [
   {
@@ -355,6 +355,19 @@
     "rakuten": 67979,
     "yahoo_auction": 15000,
     "mercari": 26400
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "newMin": 40980,
+   "newMedian": 80833,
+   "usedMin": 16500,
+   "usedMedian": 34850,
+   "sites": {
+    "yahoo_shopping": 40980,
+    "rakuten": 72800,
+    "yahoo_auction": 16500,
+    "mercari": 16999
    }
   }
  ]
