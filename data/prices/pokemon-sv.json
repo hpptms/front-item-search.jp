@@ -1,8 +1,8 @@
 {
  "slug": "pokemon-sv",
  "term": "ポケモン スカーレット・バイオレット",
- "date": "2026-11-12",
- "capturedAt": "2026-11-11T20:10:03.160Z",
+ "date": "2026-11-13",
+ "capturedAt": "2026-11-12T20:10:07.221Z",
  "sites": [
   {
    "site": "yodobashi",
@@ -90,11 +90,18 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 1,
-   "min": 7800,
-   "median": 7800,
+   "count": 2,
+   "min": 4000,
+   "median": 5900,
    "max": 7800,
    "items": [
+    {
+     "title": "ポケットモンスター スカーレット Nintendo Switch ソフト",
+     "price": 4000,
+     "url": "https://jp.mercari.com/item/m75776263773",
+     "shop": "メルカリ",
+     "used": true
+    },
     {
      "title": "ポケットモンスター スカーレット・バイオレット Switch ソフト",
      "price": 7800,
@@ -115,13 +122,13 @@
   "itemCount": 9
  },
  "usedSummary": {
-  "min": 7800,
+  "min": 4000,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "ポケットモンスター スカーレット・バイオレット Switch ソフト",
-  "median": 7800,
+  "minTitle": "ポケットモンスター スカーレット Nintendo Switch ソフト",
+  "median": 5900,
   "siteCount": 1,
-  "itemCount": 1
+  "itemCount": 2
  },
  "history": [
   {
@@ -355,6 +362,19 @@
     "rakuten": 3500,
     "yahoo_shopping": 6052,
     "mercari": 7800
+   }
+  },
+  {
+   "date": "2026-11-13",
+   "newMin": 3460,
+   "newMedian": 6700,
+   "usedMin": 4000,
+   "usedMedian": 5900,
+   "sites": {
+    "yodobashi": 3460,
+    "rakuten": 3500,
+    "yahoo_shopping": 6052,
+    "mercari": 4000
    }
   }
  ]

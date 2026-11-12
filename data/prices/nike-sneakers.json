@@ -1,16 +1,16 @@
 {
  "slug": "nike-sneakers",
  "term": "スニーカー ナイキ",
- "date": "2026-11-12",
- "capturedAt": "2026-11-11T20:10:03.160Z",
+ "date": "2026-11-13",
+ "capturedAt": "2026-11-12T20:10:07.221Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 20,
+   "count": 18,
    "min": 3980,
-   "median": 6348,
+   "median": 7215,
    "max": 16999,
    "items": [
     {
@@ -28,10 +28,10 @@
      "used": false
     },
     {
-     "title": "NIKE スニーカー ナイキ メンズ デファイ HM9594 002 Nike Run Defy",
-     "price": 4400,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry%2F4-nc-m-hm9594-002%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftry%2Fi%2F10036071%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "つるや",
+     "title": "ナイキ レボリューション 8 HJ 9198 003 ブラック 黒 ( NIKE REVOLUTION 8 HJ9198 HJ9198-003 )【送料無料 北海道沖縄除く メンズ ランニング シューズ スニーカー 靴 シューズ メンズシュ",
+     "price": 4480,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkutsunomaeda%2Fnike844896%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkutsunomaeda%2Fi%2F10003011%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "靴のまえだ",
      "used": false
     }
    ]
@@ -42,7 +42,7 @@
    "used": false,
    "count": 20,
    "min": 3980,
-   "median": 7785,
+   "median": 7790,
    "max": 20130,
    "items": [
     {
@@ -104,29 +104,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 15,
+   "count": 19,
    "min": 3000,
-   "median": 4980,
-   "max": 10000,
+   "median": 4500,
+   "max": 9800,
    "items": [
     {
-     "title": "NIKE ナイキ スニーカー プロミナ 26.5cm",
+     "title": "ナイキ スニーカー 22cm 2点セット",
      "price": 3000,
-     "url": "https://jp.mercari.com/item/m73803325578",
+     "url": "https://jp.mercari.com/item/m55805215432",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "NIKE ナイキ キッズ スニーカー ブラック 運動靴 22cm",
-     "price": 3000,
-     "url": "https://jp.mercari.com/item/m79257065761",
+     "title": "27 ナイキ NIKE スニーカー ブラック 黒 シンプル レボリューション",
+     "price": 3290,
+     "url": "https://jp.mercari.com/item/m89576290700",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "ナイキ フランチャイズ2 27cm スニーカー",
-     "price": 3000,
-     "url": "https://jp.mercari.com/item/m60224349933",
+     "title": "NIKE スニーカー AIR MAX PORTAL ナイキ エアマックスポータル",
+     "price": 3300,
+     "url": "https://jp.mercari.com/item/m81076457213",
      "shop": "メルカリ",
      "used": true
     }
@@ -137,28 +137,28 @@
    "label": "Yahoo!オークション",
    "used": true,
    "count": 14,
-   "min": 3300,
-   "median": 4400,
-   "max": 11100,
+   "min": 3080,
+   "median": 5000,
+   "max": 9900,
    "items": [
     {
-     "title": "ナイキ NIKE DR2550-100 W AIR MAX 95 WHITE/BLACK-LT IRON ORE-UNIVERSITY RED 22HO-I 23cm＼スニーカー",
-     "price": 3300,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/f1251797312",
+     "title": "NIKE/ナイキ AIR JORDAN 1 LOW/エアジョーダン1 ロー スニーカー 553558-611/26.5 /080",
+     "price": 3080,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/c1251804389",
      "shop": "",
      "used": true
     },
     {
-     "title": "NIKE/ナイキ AIR FORCE 1/エアフォース1 IB4473-010/29 /080",
-     "price": 3300,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/o1251813126",
+     "title": "ナイキ NIKE SB ブレーザー ミッド プレミアム スニーカー DC8903 400 28.0cm メンズ",
+     "price": 3400,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/q1251115568",
      "shop": "",
      "used": true
     },
     {
-     "title": "最値!名作19年製!ブラック アウト!90's ボリューム シルエット!ナイキ エア モナーク シンセレザー スニーカー!黒 希少サイズ メンズ 24cm",
-     "price": 3500,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/m1248052530",
+     "title": "NIKE/ナイキ AIR FORCE 1/エアフォース1 '07 PRM CK4392-001/27.5 /080",
+     "price": 3580,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/w1251809183",
      "shop": "",
      "used": true
     }
@@ -172,16 +172,16 @@
   "minTitle": "ナイキ コズミック ランナー GS HM4402-003 ジュニア キッズ 子供 スニーカー 子どもの靴 キッズスニーカー 運動靴 NIKE HM4402 003",
   "median": 7300,
   "siteCount": 3,
-  "itemCount": 48
+  "itemCount": 46
  },
  "usedSummary": {
   "min": 3000,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "NIKE ナイキ スニーカー プロミナ 26.5cm",
-  "median": 4690,
+  "minTitle": "ナイキ スニーカー 22cm 2点セット",
+  "median": 4750,
   "siteCount": 2,
-  "itemCount": 29
+  "itemCount": 33
  },
  "history": [
   {
@@ -417,6 +417,20 @@
     "joshin": 5980,
     "mercari": 3000,
     "yahoo_auction": 3300
+   }
+  },
+  {
+   "date": "2026-11-13",
+   "newMin": 3980,
+   "newMedian": 7300,
+   "usedMin": 3000,
+   "usedMedian": 4750,
+   "sites": {
+    "rakuten": 3980,
+    "yahoo_shopping": 3980,
+    "joshin": 5980,
+    "mercari": 3000,
+    "yahoo_auction": 3080
    }
   }
  ]
