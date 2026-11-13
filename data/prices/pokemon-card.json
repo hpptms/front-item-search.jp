@@ -1,8 +1,8 @@
 {
  "slug": "pokemon-card",
  "term": "ポケモンカード",
- "date": "2026-11-13",
- "capturedAt": "2026-11-12T20:10:07.221Z",
+ "date": "2026-11-14",
+ "capturedAt": "2026-11-13T20:10:06.216Z",
  "sites": [
   {
    "site": "yahoo_shopping",
@@ -11,7 +11,7 @@
    "count": 19,
    "min": 7800,
    "median": 10880,
-   "max": 29800,
+   "max": 29319,
    "items": [
     {
      "title": "9月16日発売 ばら売り 10パック レビュー特典付き ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION BOX 30周年 セレブレーション BOX ボックス",
@@ -22,7 +22,7 @@
     },
     {
      "title": "シュリンクつき ポケモンカードゲーム メガシンフォニア ポケカ MEGA メガ 拡張パック BOX 新品 未開封 お一人様3点まで",
-     "price": 9150,
+     "price": 9000,
      "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fhrco%2Fpkc-symphonia.html",
      "shop": "HRCO Yahoo!店",
      "used": false
@@ -42,7 +42,7 @@
    "used": false,
    "count": 17,
    "min": 9260,
-   "median": 29680,
+   "median": 23800,
    "max": 109800,
    "items": [
     {
@@ -53,17 +53,17 @@
      "used": false
     },
     {
-     "title": "シュリンクつき ポケモンカードゲーム バトルパートナーズ ポケカ スカーレット&バイオレット 拡張パック BOX商品 新品 未開封 一世帯3点まで",
-     "price": 13800,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhrco-r%2Fbattlepartner%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhrco-r%2Fi%2F10004084%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "HRCO",
+     "title": "ポケモンカード MEGA 拡張パック メガシンフォニア 未開封 1BOX M1S",
+     "price": 9880,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftoretoku%2F370399j%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftoretoku%2Fi%2F10602517%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "トレカ通販 トレトク楽天市場店",
      "used": false
     },
     {
-     "title": "[シュリンク付 BOX] ポケモンカードゲーム スカーレット&バイオレット 拡張パック スカーレットex BOX ポケカ プロモカード無し",
-     "price": 17800,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fky-zakkaten-r%2F0748-008433%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fky-zakkaten-r%2Fi%2F10002167%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "K and Y雑貨店 楽天市場店",
+     "title": "シュリンクあり ポケモンカードゲーム MEGA 拡張パック メガシンフォニア BOX ポケモンカード ポケカ メガ進化 トレーディングカード トレカ",
+     "price": 11800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkakon%2F2790-007077%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkakon%2Fi%2F10004391%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "かこん販売 楽天市場店",
      "used": false
     }
    ]
@@ -72,29 +72,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 15,
-   "min": 5690,
-   "median": 9199,
-   "max": 22000,
+   "count": 13,
+   "min": 5400,
+   "median": 10100,
+   "max": 28999,
    "items": [
     {
-     "title": "ポケモンカードゲーム 拡張パック アビスアイ BOX",
-     "price": 5690,
-     "url": "https://jp.mercari.com/item/m42512710998",
+     "title": "ポケモンカードゲーム 拡張パック メガシンフォニア 未開封BOX",
+     "price": 5400,
+     "url": "https://jp.mercari.com/item/m68189593887",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "ポケモンカードゲーム 強化拡張パック ロケット団の栄光 未開封BOX",
-     "price": 6200,
-     "url": "https://jp.mercari.com/item/m29072306631",
+     "title": "ポケモンカードゲーム MEGA 拡張パック ストームエメラルダ 1BOX",
+     "price": 6300,
+     "url": "https://jp.mercari.com/item/m23887278062",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "アビスアイ 未開封BOX ペリペリ付き",
-     "price": 7100,
-     "url": "https://jp.mercari.com/item/m71636666932",
+     "title": "ポケモンカードゲーム メガブレイブ 拡張パック BOX シュリンク付き",
+     "price": 7900,
+     "url": "https://jp.mercari.com/item/m53612645234",
      "shop": "メルカリ",
      "used": true
     }
@@ -104,29 +104,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 14,
-   "min": 6000,
-   "median": 16700,
-   "max": 18600,
+   "count": 15,
+   "min": 8000,
+   "median": 15800,
+   "max": 32000,
    "items": [
     {
-     "title": "ポケモンカードゲーム MEGA 拡張パック ストームエメラルダ 1BOX サイバージャッジ、黒炎の支配者",
-     "price": 6000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/n1251949876",
+     "title": "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION BOX/4521329462424(2208554)",
+     "price": 8000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/j1252233581",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "ポケモンカードゲーム MEGA 拡張パック ストームエメラルダ 1BOX シュリンク付き",
+     "price": 8300,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/p1251656578",
      "shop": "",
      "used": true
     },
     {
      "title": "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION BOX 1BOX分 20パック",
-     "price": 10000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/e1252033194",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION BOX",
-     "price": 10500,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/m1252090496",
+     "price": 9000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/q1252204163",
      "shop": "",
      "used": true
     }
@@ -138,18 +138,18 @@
   "minSite": "yahoo_shopping",
   "minLabel": "Yahoo!ショッピング",
   "minTitle": "9月16日発売 ばら売り 10パック レビュー特典付き ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION BOX 30周年 セレブレーション BOX ボックス",
-  "median": 20280,
+  "median": 17340,
   "siteCount": 2,
   "itemCount": 36
  },
  "usedSummary": {
-  "min": 5690,
+  "min": 5400,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "ポケモンカードゲーム 拡張パック アビスアイ BOX",
+  "minTitle": "ポケモンカードゲーム 拡張パック メガシンフォニア 未開封BOX",
   "median": 12950,
   "siteCount": 2,
-  "itemCount": 29
+  "itemCount": 28
  },
  "history": [
   {
@@ -381,6 +381,19 @@
     "rakuten": 9260,
     "mercari": 5690,
     "yahoo_auction": 6000
+   }
+  },
+  {
+   "date": "2026-11-14",
+   "newMin": 7800,
+   "newMedian": 17340,
+   "usedMin": 5400,
+   "usedMedian": 12950,
+   "sites": {
+    "yahoo_shopping": 7800,
+    "rakuten": 9260,
+    "mercari": 5400,
+    "yahoo_auction": 8000
    }
   }
  ]

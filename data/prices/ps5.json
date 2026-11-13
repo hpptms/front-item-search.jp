@@ -1,25 +1,18 @@
 {
  "slug": "ps5",
  "term": "PS5",
- "date": "2026-11-13",
- "capturedAt": "2026-11-12T20:10:07.221Z",
+ "date": "2026-11-14",
+ "capturedAt": "2026-11-13T20:10:06.216Z",
  "sites": [
   {
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
    "count": 19,
-   "min": 50500,
+   "min": 51000,
    "median": 57968,
-   "max": 68777,
+   "max": 66680,
    "items": [
-    {
-     "title": "PS5 ディスクドライブあり CFI-1000A＜その他＞（代引き不可）6547",
-     "price": 50500,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fwondergoo%2F654720261016101.html",
-     "shop": "新星堂WonderGOO Yahoo!店",
-     "used": false
-    },
     {
      "title": "未使用 プレイステーション5 PS5 デジタルエディション 日本語専用版 本体 CFI-2200B01 825GB 銀行振込・コンビニ決済不可☆0007",
      "price": 51000,
@@ -28,10 +21,17 @@
      "used": false
     },
     {
-     "title": "訳あり★新品 未使用 PS5 PlayStation5 デジタル・エディション 日本語専用 CFI-2200B01 本体※外箱凹みや傷あり",
-     "price": 56100,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjcka-mobile2%2F4948872417418.html",
-     "shop": "ジェーシカモバイル2号店",
+     "title": "『中古即納』{PS5} (本体) PlayStation 5(プレイステーション5) デジタル・エディション 日本語専用(Console Language: Japanese only) SIE(20251121)",
+     "price": 52080,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmedia-world%2F10013148001.html",
+     "shop": "メディアワールド",
+     "used": true
+    },
+    {
+     "title": "SONY プレイステーション5 デジタル・エディション 日本語専用[ラッピング可]",
+     "price": 56098,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsokuteikiya%2F4948872417419-wake.html",
+     "shop": "測定の森Yahoo!ショッピング店",
      "used": false
     }
    ]
@@ -41,13 +41,13 @@
    "label": "楽天市場",
    "used": false,
    "count": 20,
-   "min": 53941,
-   "median": 64259,
-   "max": 242000,
+   "min": 53714,
+   "median": 63349,
+   "max": 139000,
    "items": [
     {
      "title": "ソニー『PlayStation5 プレイステーション5 デジタルエディション 825GB 日本語専用』CFI-2200B01 ゲーム機本体 1週間保証",
-     "price": 53941,
+     "price": 53714,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftakayama78%2F4948872417419%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftakayama78%2Fi%2F11104529%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "高山質店",
      "used": false
@@ -122,29 +122,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 15,
-   "min": 40000,
-   "median": 48000,
-   "max": 213000,
+   "count": 14,
+   "min": 41000,
+   "median": 50000,
+   "max": 60000,
    "items": [
     {
-     "title": "中古品 動作品 SONY PlayStation5本体 PS5 デジタルエディション CFI-2000B 1TB ディスクドライブ非搭載 家庭用ゲーム機",
-     "price": 40000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/s1252019074",
+     "title": "1円～！ 未使用品 SONY PlayStation5 PS5 デジタルエディション 日本語専用 CFI-2200 B01 825GB",
+     "price": 41000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/g1251934175",
      "shop": "",
      "used": true
     },
     {
      "title": "■SONY ソニー■PlayStation5 PS5■プレイステーション■CFI-1000A■SSD825GB■コントローラーセット■大阪発 NRy H",
-     "price": 40550,
+     "price": 41100,
      "url": "https://auctions.yahoo.co.jp/jp/auction/1251738150",
      "shop": "",
      "used": true
     },
     {
-     "title": "60/Q751★PS5本体★SONY★PlayStation5 本体 デジタル・エディション (日本語専用版)★825GB★CFI-2200B01★外箱ダメージあり★未使用品",
-     "price": 43000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/e1251803170",
+     "title": "PlayStation 5(CFI-1200A01) 箱にシール跡あり 説明書 ベース欠品",
+     "price": 41250,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/e1251875718",
      "shop": "",
      "used": true
     }
@@ -154,29 +154,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 15,
-   "min": 49000,
-   "median": 53000,
-   "max": 79800,
+   "count": 16,
+   "min": 45100,
+   "median": 58625,
+   "max": 78000,
    "items": [
     {
-     "title": "PS5 デジタルエディション 日本語専用",
-     "price": 49000,
-     "url": "https://jp.mercari.com/item/m36540388034",
+     "title": "Playstation 5 Digital Edition 1100b 本体",
+     "price": 45100,
+     "url": "https://jp.mercari.com/item/m93872073163",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "PS5ハード プレイステーション5本体 デジタル・エディション 日本語専用[CFI-2200B01]",
-     "price": 49998,
-     "url": "https://jp.mercari.com/shops/product/2JLzeYPkygXQTzpn9YuvCL",
+     "title": "PlayStation 5 デジタル エディション 日本語専用 825GB",
+     "price": 50500,
+     "url": "https://jp.mercari.com/item/m55122758546",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "PlayStation 5 デジタル・エディション CFI-2200B01",
-     "price": 50000,
-     "url": "https://jp.mercari.com/item/m31699209525",
+     "title": "SONY PlayStation5 CFI-2000B01 1TB ディスクド…",
+     "price": 52000,
+     "url": "https://jp.mercari.com/item/m95771674415",
      "shop": "メルカリ",
      "used": true
     }
@@ -184,20 +184,20 @@
   }
  ],
  "newSummary": {
-  "min": 50500,
+  "min": 51000,
   "minSite": "yahoo_shopping",
   "minLabel": "Yahoo!ショッピング",
-  "minTitle": "PS5 ディスクドライブあり CFI-1000A＜その他＞（代引き不可）6547",
+  "minTitle": "未使用 プレイステーション5 PS5 デジタルエディション 日本語専用版 本体 CFI-2200B01 825GB 銀行振込・コンビニ決済不可☆0007",
   "median": 56484,
   "siteCount": 4,
   "itemCount": 43
  },
  "usedSummary": {
-  "min": 40000,
+  "min": 41000,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "中古品 動作品 SONY PlayStation5本体 PS5 デジタルエディション CFI-2000B 1TB ディスクドライブ非搭載 家庭用ゲーム機",
-  "median": 53000,
+  "minTitle": "1円～！ 未使用品 SONY PlayStation5 PS5 デジタルエディション 日本語専用 CFI-2200 B01 825GB",
+  "median": 52080,
   "siteCount": 3,
   "itemCount": 31
  },
@@ -465,6 +465,21 @@
     "sofmap": 55000,
     "yahoo_auction": 40000,
     "mercari": 49000
+   }
+  },
+  {
+   "date": "2026-11-14",
+   "newMin": 51000,
+   "newMedian": 56484,
+   "usedMin": 41000,
+   "usedMedian": 52080,
+   "sites": {
+    "yahoo_shopping": 51000,
+    "rakuten": 53714,
+    "yodobashi": 55000,
+    "sofmap": 55000,
+    "yahoo_auction": 41000,
+    "mercari": 45100
    }
   }
  ]

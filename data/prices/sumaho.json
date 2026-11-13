@@ -1,17 +1,17 @@
 {
  "slug": "sumaho",
  "term": "スマホ",
- "date": "2026-11-13",
- "capturedAt": "2026-11-12T20:10:07.221Z",
+ "date": "2026-11-14",
+ "capturedAt": "2026-11-13T20:10:06.216Z",
  "sites": [
   {
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 4,
+   "count": 5,
    "min": 20680,
-   "median": 24400,
-   "max": 43000,
+   "median": 34980,
+   "max": 82900,
    "items": [
     {
      "title": "motorola モトローラ moto g05(I) フレッシュラベンダー 本体 SIMフリー PB6N0002JP イオンモバイル",
@@ -28,11 +28,11 @@
      "used": false
     },
     {
-     "title": "「新品未使用/国内版SIMフリー」 FUJITSU arrows We3 docomo版 F-52G 4GB/64GB ブラック 白ロム スマホ 本体",
-     "price": 27800,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbest1mobile%2Ff-52g-black.html",
-     "shop": "デジタルトレーディング",
-     "used": false
+     "title": "Google Pixel 7a 128GB Bランク スマホ 本体 SIMフリー 美品 にこスマ認定整備済み品(リファービッシュ 整備済品)",
+     "price": 28800,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnicosuma%2Fpxl-7a-128-b.html",
+     "shop": "にこスマ",
+     "used": true
     }
    ]
   },
@@ -40,10 +40,10 @@
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 10,
+   "count": 12,
    "min": 20980,
-   "median": 35940,
-   "max": 76800,
+   "median": 36890,
+   "max": 123980,
    "items": [
     {
      "title": "「未開封/未使用/国内版SIMフリー」Galaxy A25 5G 64GB docomo版 au/UQ版 ソフトバンク版 Yモバイル版 SIMフリー版 楽天版 ライトブルー ブルー ブラック 白ロム スマホ 本体 楽天モバイル対応",
@@ -64,38 +64,6 @@
      "price": 22600,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgojapanshop%2Fgalaxy-a25%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fgojapanshop%2Fi%2F10002537%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "Go Japan 楽天市場店",
-     "used": false
-    }
-   ]
-  },
-  {
-   "site": "yodobashi",
-   "label": "ヨドバシ.com",
-   "used": false,
-   "count": 15,
-   "min": 54340,
-   "median": 235400,
-   "max": 299200,
-   "items": [
-    {
-     "title": "AQUOS wish6/6.6インチ/Dimensity 6300/RAM 4GB/ROM 128GB/Android 16/SIMフリースマートフォン/キヌ SH-M36-W",
-     "price": 54340,
-     "url": "https://www.yodobashi.com/product/100000001010197976/",
-     "shop": "",
-     "used": false
-    },
-    {
-     "title": "AQUOS wish6/6.6インチ/Dimensity 6300/RAM 4GB/ROM 128GB/Android 16/SIMフリースマートフォン/スミ SH-M36-B",
-     "price": 54340,
-     "url": "https://www.yodobashi.com/product/100000001010197975/",
-     "shop": "",
-     "used": false
-    },
-    {
-     "title": "AQUOS sense10/6.1インチ/Snapdragon 7s Gen 3/RAM 6GB/ROM 128GB/Android 16/SIMフリースマートフォン/ペールピンク SH-M33A-P",
-     "price": 67430,
-     "url": "https://www.yodobashi.com/product/100000001009510854/",
-     "shop": "",
      "used": false
     }
    ]
@@ -183,6 +151,38 @@
    ]
   },
   {
+   "site": "yodobashi",
+   "label": "ヨドバシ.com",
+   "used": false,
+   "count": 4,
+   "min": 67430,
+   "median": 67430,
+   "max": 268400,
+   "items": [
+    {
+     "title": "AQUOS sense10/6.1インチ/Snapdragon 7s Gen 3/RAM 6GB/ROM 128GB/Android 16/SIMフリースマートフォン/ペールピンク SH-M33A-P",
+     "price": 67430,
+     "url": "https://www.yodobashi.com/product/100000001009510854/",
+     "shop": "",
+     "used": false
+    },
+    {
+     "title": "AQUOS sense10/6.1インチ/Snapdragon 7s Gen 3/RAM 6GB/ROM 128GB/Android 16/SIMフリースマートフォン/デニムネイビー SH-M33A-A",
+     "price": 67430,
+     "url": "https://www.yodobashi.com/product/100000001009510850/",
+     "shop": "",
+     "used": false
+    },
+    {
+     "title": "AQUOS sense10/6.1インチ/Snapdragon 7s Gen 3/RAM 6GB/ROM 128GB/Android 16/SIMフリースマートフォン/ライトシルバー SH-M33A-S",
+     "price": 67430,
+     "url": "https://www.yodobashi.com/product/100000001009510855/",
+     "shop": "",
+     "used": false
+    }
+   ]
+  },
+  {
    "site": "joshin",
    "label": "ジョーシン",
    "used": false,
@@ -204,28 +204,28 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 13,
-   "min": 14000,
-   "median": 26500,
-   "max": 118000,
+   "count": 11,
+   "min": 10980,
+   "median": 25555,
+   "max": 79800,
    "items": [
     {
-     "title": "Xiaomi Mi 11 Lite 5G 128GB SIMフリー",
-     "price": 14000,
-     "url": "https://jp.mercari.com/item/m18105844890",
+     "title": "iPhone X スペースグレイ 64GB SIMフリー",
+     "price": 10980,
+     "url": "https://jp.mercari.com/item/m51884603329",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "iPhone XR 128GB ホワイト SIMフリー Face ID不具合あり",
-     "price": 15000,
-     "url": "https://jp.mercari.com/item/m34591196930",
+     "title": "OPPO Reno5 A 本体（SIMフリー）",
+     "price": 11400,
+     "url": "https://jp.mercari.com/item/m24761923031",
      "shop": "メルカリ",
      "used": true
     },
     {
      "title": "Apple iPhone8 256G SIMフリー(シルバー)美品",
-     "price": 16000,
+     "price": 14000,
      "url": "https://jp.mercari.com/item/m38486200919",
      "shop": "メルカリ",
      "used": true
@@ -236,15 +236,22 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 1,
-   "min": 59510,
-   "median": 59510,
-   "max": 59510,
+   "count": 2,
+   "min": 14800,
+   "median": 33800,
+   "max": 52800,
    "items": [
     {
-     "title": "★ 完動品 SM-S928B SAMSUNG Galaxy S24 Ultra グレー 256GB 海外版SIMフリー 1円 ! 1スタ !",
-     "price": 59510,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/n1251716389",
+     "title": "★送料無料★SIMフリー★Redmi 12 5G★ホワイト★0080290010742★SYS★11/13",
+     "price": 14800,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/u1252224615",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "★新品同様 Xiaomi POCO F7 256GB SIMフリー 最大容量100% 格安SIM可 ー ー 25053PC47G シルバー 中古 新古品 BP8879",
+     "price": 52800,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/x1252061246",
      "shop": "",
      "used": true
     }
@@ -256,18 +263,18 @@
   "minSite": "yahoo_shopping",
   "minLabel": "Yahoo!ショッピング",
   "minTitle": "motorola モトローラ moto g05(I) フレッシュラベンダー 本体 SIMフリー PB6N0002JP イオンモバイル",
-  "median": 77880,
+  "median": 67430,
   "siteCount": 7,
-  "itemCount": 61
+  "itemCount": 53
  },
  "usedSummary": {
-  "min": 14000,
+  "min": 10980,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "Xiaomi Mi 11 Lite 5G 128GB SIMフリー",
-  "median": 37800,
+  "minTitle": "iPhone X スペースグレイ 64GB SIMフリー",
+  "median": 31800,
   "siteCount": 4,
-  "itemCount": 27
+  "itemCount": 26
  },
  "history": [
   {
@@ -588,6 +595,24 @@
     "joshin": 77880,
     "mercari": 14000,
     "yahoo_auction": 59510
+   }
+  },
+  {
+   "date": "2026-11-14",
+   "newMin": 20680,
+   "newMedian": 67430,
+   "usedMin": 10980,
+   "usedMedian": 31800,
+   "sites": {
+    "yahoo_shopping": 20680,
+    "rakuten": 20980,
+    "biccamera": 57980,
+    "sofmap": 57980,
+    "edion": 59300,
+    "yodobashi": 67430,
+    "joshin": 77880,
+    "mercari": 10980,
+    "yahoo_auction": 14800
    }
   }
  ]
