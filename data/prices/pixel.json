@@ -1,14 +1,14 @@
 {
  "slug": "pixel",
  "term": "Google Pixel",
- "date": "2026-11-14",
- "capturedAt": "2026-11-13T20:10:06.216Z",
+ "date": "2026-11-15",
+ "capturedAt": "2026-11-14T20:10:04.336Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 13,
+   "count": 12,
    "min": 28800,
    "median": 79980,
    "max": 136990,
@@ -42,7 +42,7 @@
    "used": false,
    "count": 14,
    "min": 40980,
-   "median": 82845,
+   "median": 81800,
    "max": 124800,
    "items": [
     {
@@ -72,29 +72,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 17,
+   "count": 14,
    "min": 15000,
-   "median": 29800,
-   "max": 57999,
+   "median": 34400,
+   "max": 119500,
    "items": [
     {
-     "title": "Google pixel 4a 本体 SIMフリー 128GB",
+     "title": "アンチスパイフォン Google Pixel 本体のみ",
      "price": 15000,
-     "url": "https://jp.mercari.com/item/m62223104766",
+     "url": "https://jp.mercari.com/item/m36516933940",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Google Pixel 7 128GB ブラック 背面割れ 箱付き",
-     "price": 17000,
-     "url": "https://jp.mercari.com/item/m71560337659",
+     "title": "Google Pixel 5 本体",
+     "price": 19000,
+     "url": "https://jp.mercari.com/item/m70728318339",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Pixel 8 Pro 128GB",
-     "price": 18500,
-     "url": "https://jp.mercari.com/item/m81757540952",
+     "title": "Pixel5 128GB ソータセージ 本体 SIMフリー",
+     "price": 19999,
+     "url": "https://jp.mercari.com/item/m97626485193",
      "shop": "メルカリ",
      "used": true
     }
@@ -104,22 +104,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 2,
-   "min": 23100,
-   "median": 24050,
-   "max": 25000,
+   "count": 5,
+   "min": 16500,
+   "median": 21450,
+   "max": 34980,
    "items": [
     {
-     "title": "★ 完動品 Google Pixel 7 Pro スノー 128GB 1円 ! 1スタ !",
-     "price": 23100,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/o1251819056",
+     "title": "Google Pixel 6a グーグル ピクセル6a au○ アクティベーションロックなし 本体のみ 128GB",
+     "price": 16500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/1251743092",
      "shop": "",
      "used": true
     },
     {
-     "title": "Google Pixel 8a ポーセリン 128GB SIMフリー",
-     "price": 25000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/g1252135612",
+     "title": "★ 完動品 Google Pixel 8 オブシディアン 128GB 1円 ! 1スタ !",
+     "price": 20350,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/u1252050296",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "★ 完動品 au Google Pixel 8a ベイ 128GB 1円 ! 1スタ !",
+     "price": 21450,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/o1252073322",
      "shop": "",
      "used": true
     }
@@ -131,18 +138,18 @@
   "minSite": "rakuten",
   "minLabel": "楽天市場",
   "minTitle": "Google Pixel 7a｜128GB｜チャコール・スノー・コーラル・シー｜保証期間30〜90日★レビューで保証期間延長｜送料無料 当日発送｜スマホ 本体 グーグル ピクセル",
-  "median": 81413,
+  "median": 80890,
   "siteCount": 2,
-  "itemCount": 27
+  "itemCount": 26
  },
  "usedSummary": {
   "min": 15000,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "Google pixel 4a 本体 SIMフリー 128GB",
-  "median": 30800,
+  "minTitle": "アンチスパイフォン Google Pixel 本体のみ",
+  "median": 33100,
   "siteCount": 4,
-  "itemCount": 29
+  "itemCount": 30
  },
  "history": [
   {
@@ -386,6 +393,19 @@
     "yahoo_shopping": 40980,
     "mercari": 15000,
     "yahoo_auction": 23100
+   }
+  },
+  {
+   "date": "2026-11-15",
+   "newMin": 28800,
+   "newMedian": 80890,
+   "usedMin": 15000,
+   "usedMedian": 33100,
+   "sites": {
+    "rakuten": 28800,
+    "yahoo_shopping": 40980,
+    "mercari": 15000,
+    "yahoo_auction": 16500
    }
   }
  ]

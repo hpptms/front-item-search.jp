@@ -1,16 +1,16 @@
 {
  "slug": "nike-sneakers",
  "term": "スニーカー ナイキ",
- "date": "2026-11-14",
- "capturedAt": "2026-11-13T20:10:06.216Z",
+ "date": "2026-11-15",
+ "capturedAt": "2026-11-14T20:10:04.336Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 18,
+   "count": 19,
    "min": 3980,
-   "median": 7790,
+   "median": 6439,
    "max": 16999,
    "items": [
     {
@@ -21,16 +21,16 @@
      "used": false
     },
     {
-     "title": "ナイキ（NIKE）（メンズ）スポーツシューズ ランニングシューズ ラン デファイ ブルー HM9594-401 スニーカー",
-     "price": 3999,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsupersportsxebio%2F108934361011%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsupersportsxebio%2Fi%2F21265437%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "SuperSportsXEBIO楽天市場支店",
+     "title": "NIKE ナイキ スニーカー キッズ コートボロー ロー リクラフト PS DV5457 ナイキ Court Borough Low Recraft ジュニア スポーツ ランニング",
+     "price": 3980,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry%2F3-nc-k-dv5457-106%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftry%2Fi%2F10033383%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "つるや",
      "used": false
     },
     {
-     "title": "ナイキ（NIKE）（メンズ）スニーカー スポーツシューズ イニシエーター シルバー 394055-001 柔軟性 サポート性 快適性 クッション性",
-     "price": 4990,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsupersportsxebio%2F108888925011%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsupersportsxebio%2Fi%2F21249376%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "title": "ナイキ（NIKE）（メンズ）スポーツシューズ ランニングシューズ ラン デファイ ブルー HM9594-401 スニーカー",
+     "price": 3999,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsupersportsxebio%2F108934361011%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsupersportsxebio%2Fi%2F21265437%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "SuperSportsXEBIO楽天市場支店",
      "used": false
     }
@@ -41,17 +41,10 @@
    "label": "Yahoo!ショッピング",
    "used": false,
    "count": 20,
-   "min": 3980,
+   "min": 4380,
    "median": 7322,
    "max": 20130,
    "items": [
-    {
-     "title": "ナイキ コズミック ランナー GS HM4402-003 ジュニア キッズ 子供 スニーカー 子どもの靴 キッズスニーカー 運動靴 NIKE HM4402 003",
-     "price": 3980,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Falpen-group%2F4921562545.html",
-     "shop": "アルペングループヤフー店",
-     "used": false
-    },
     {
      "title": "フレックスランナー4 ナイキ NIKE IF2894608 ジュニア キッズ 子供靴 キッズシューズ キッズスニーカー FlexRunner4 スリッポン スリップオン 軽量 運動靴",
      "price": 4380,
@@ -64,6 +57,13 @@
      "price": 4790,
      "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftry-group%2F4-nc-m-hm9594-002.html",
      "shop": "つるや 靴のTSURUYA",
+     "used": false
+    },
+    {
+     "title": "ナイキ キッズスニーカー 16.5-22cm ランニングシューズ NIKE フレックス ランナー 4 SE PS 子供靴 ジュニア スリッポン 軽量 柔軟性 クッション性 /IQ2355-034",
+     "price": 4920,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fapworld%2Fiq2355-034.html",
+     "shop": "APWORLD",
      "used": false
     }
    ]
@@ -104,11 +104,18 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 17,
+   "count": 16,
    "min": 3000,
-   "median": 4880,
-   "max": 15000,
+   "median": 4690,
+   "max": 12000,
    "items": [
+    {
+     "title": "ナイキ スニーカー 23.0",
+     "price": 3000,
+     "url": "https://jp.mercari.com/item/m81940563097",
+     "shop": "メルカリ",
+     "used": true
+    },
     {
      "title": "NIKE ナイキ キッズ スニーカー ブラック 運動靴 22cm",
      "price": 3000,
@@ -117,16 +124,9 @@
      "used": true
     },
     {
-     "title": "NIKE ナイキ スニーカー エアハイツ人気モデルブラック ホワイト25cm",
-     "price": 3000,
-     "url": "https://jp.mercari.com/item/m42236394041",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "NIKE ナイキスニーカー 26cm 黒",
-     "price": 3200,
-     "url": "https://jp.mercari.com/item/m49585717152",
+     "title": "27 ナイキ NIKE スニーカー ブラック 黒 シンプル レボリューション",
+     "price": 3090,
+     "url": "https://jp.mercari.com/item/m89576290700",
      "shop": "メルカリ",
      "used": true
     }
@@ -136,29 +136,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 15,
+   "count": 11,
    "min": 3300,
-   "median": 5700,
-   "max": 10450,
+   "median": 5000,
+   "max": 8000,
    "items": [
     {
-     "title": "ナイキ ローカットスニーカー Air Relentless 3 527203-004 メンズ SIZE 31.0 NIKE",
+     "title": "ナイキ ミドルカットスニーカー レブロン 9 ウォッチ ザ スローン DO9353-001 メンズ SIZE 25.5 NIKE",
      "price": 3300,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/b1250861901",
+     "url": "https://auctions.yahoo.co.jp/jp/auction/m1243823753",
      "shop": "",
      "used": true
     },
     {
-     "title": "ナイキ NIKE DR2550-100 W AIR MAX 95 WHITE/BLACK-LT IRON ORE-UNIVERSITY RED 22HO-I 23cm＼スニーカー",
-     "price": 3300,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/f1251797312",
+     "title": "ナイキ ミドルカットスニーカー AIR JORDAN 1 MID 554724-082 メンズ SIZE 29.0 (XL) NIKE",
+     "price": 3465,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/1250826757",
      "shop": "",
      "used": true
     },
     {
-     "title": "NIKE スニーカー メンズ ナイキ 中古 古着",
-     "price": 3300,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/p1252119757",
+     "title": "NIKE ナイキ SB HERITAGE ヘリテージ VULC スニーカー 27cm",
+     "price": 3800,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/j1250604526",
      "shop": "",
      "used": true
     }
@@ -170,18 +170,18 @@
   "minSite": "rakuten",
   "minLabel": "楽天市場",
   "minTitle": "ナイキ（NIKE）（キッズ）ジュニア キッズ スポーツシューズ ベルクロ ベルト付き スニーカー スター ランナー 5 PS ブラック HF7005-002",
-  "median": 7322,
+  "median": 7300,
   "siteCount": 3,
-  "itemCount": 46
+  "itemCount": 47
  },
  "usedSummary": {
   "min": 3000,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "NIKE ナイキ キッズ スニーカー ブラック 運動靴 22cm",
-  "median": 5290,
+  "minTitle": "ナイキ スニーカー 23.0",
+  "median": 4845,
   "siteCount": 2,
-  "itemCount": 32
+  "itemCount": 27
  },
  "history": [
   {
@@ -442,6 +442,20 @@
    "sites": {
     "rakuten": 3980,
     "yahoo_shopping": 3980,
+    "joshin": 5980,
+    "mercari": 3000,
+    "yahoo_auction": 3300
+   }
+  },
+  {
+   "date": "2026-11-15",
+   "newMin": 3980,
+   "newMedian": 7300,
+   "usedMin": 3000,
+   "usedMedian": 4845,
+   "sites": {
+    "rakuten": 3980,
+    "yahoo_shopping": 4380,
     "joshin": 5980,
     "mercari": 3000,
     "yahoo_auction": 3300

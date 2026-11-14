@@ -1,8 +1,8 @@
 {
  "slug": "mirrorless",
  "term": "ミラーレス一眼",
- "date": "2026-11-14",
- "capturedAt": "2026-11-13T20:10:06.216Z",
+ "date": "2026-11-15",
+ "capturedAt": "2026-11-14T20:10:04.336Z",
  "sites": [
   {
    "site": "rakuten",
@@ -43,7 +43,7 @@
    "count": 19,
    "min": 76999,
    "median": 147510,
-   "max": 394448,
+   "max": 383698,
    "items": [
     {
      "title": "OLYMPUS オリンパス ミラーレス一眼カメラ PEN E-P7 ボディー シルバー 新品",
@@ -106,7 +106,7 @@
    "used": false,
    "count": 19,
    "min": 89917,
-   "median": 258762,
+   "median": 247500,
    "max": 575300,
    "items": [
     {
@@ -125,7 +125,7 @@
     },
     {
      "title": "OLYMPUS｜オリンパス OLYMPUS PEN E-P7 EZダブルズームキット ミラーレス一眼カメラ シルバー [ズームレンズ+ズームレンズ]",
-     "price": 99726,
+     "price": 100530,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4545350055844%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F13877996%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "楽天ビック(ビックカメラ×楽天)",
      "used": false
@@ -138,8 +138,8 @@
    "used": false,
    "count": 20,
    "min": 97900,
-   "median": 158400,
-   "max": 319000,
+   "median": 169400,
+   "max": 772200,
    "items": [
     {
      "title": "ニコン デジタル一眼カメラ・ボディ Z 30 Z 30 [Z30]",
@@ -149,49 +149,17 @@
      "used": false
     },
     {
-     "title": "パナソニック デジタル一眼カメラ・ダブルレンズキット LUMIX ブラック DC-G100DW-K [DCG100DWK]",
-     "price": 107900,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4549980769492%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10836496%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "エディオン 楽天市場店",
-     "used": false
-    },
-    {
      "title": "SONY ソニー ミラーレス一眼カメラ・ボディ VLOGCAM ZV-E10 ブラック ZV-E10 B [ZVE10B]",
      "price": 108900,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4548736128354%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10737733%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "エディオン 楽天市場店",
      "used": false
-    }
-   ]
-  },
-  {
-   "site": "joshin",
-   "label": "ジョーシン",
-   "used": false,
-   "count": 20,
-   "min": 99726,
-   "median": 169768,
-   "max": 484555,
-   "items": [
-    {
-     "title": "オリンパス ミラーレス一眼カメラ「OLYMPUS PEN E-P7」 EZダブルズームキット（シルバー） E-P7-WK-SLV オリンパス",
-     "price": 99726,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4545350055844-34-60038-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14595122%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "Joshin web 家電とPCの大型専門店",
-     "used": false
     },
     {
-     "title": "キヤノン ミラーレス一眼カメラ「EOS R50 V」ボディ EOSR50V Canon",
-     "price": 113300,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4549292241525-34-48497-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14562701%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "Joshin web 家電とPCの大型専門店",
-     "used": false
-    },
-    {
-     "title": "ニコン ミラーレス一眼カメラ「Z30」16-50 VR レンズキット NIKONZ30LK",
-     "price": 119900,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4960759910622-34-48084-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F13537444%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "Joshin web 家電とPCの大型専門店",
+     "title": "SONY ソニー ミラーレス一眼カメラ・ボディ VLOGCAM ZV-E10 ホワイト ZV-E10 W [ZVE10W]",
+     "price": 108900,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4548736128361%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10737734%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "エディオン 楽天市場店",
      "used": false
     }
    ]
@@ -220,43 +188,43 @@
      "used": false
     },
     {
-     "title": "OMSYSTEM OM-5 Mark II 12-45mm F4.0 PRO レンズキット ミラーレス一眼カメラ ブラック ［ズームレンズ］ OM5MarkII12-45mmBLK",
+     "title": "OMSYSTEM OM-5 Mark II 12-45mm F4.0 PRO レンズキット ミラーレス一眼カメラ シルバー ［ズームレンズ］ OM5MarkII12-45mmSLV",
      "price": 176220,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdtc%2F4545350056810%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdtc%2Fi%2F13137151%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdtc%2F4545350056841%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdtc%2Fi%2F13137156%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "ソフマップ楽天市場店",
      "used": false
     }
    ]
   },
   {
-   "site": "mercari",
-   "label": "メルカリ",
-   "used": true,
-   "count": 15,
-   "min": 30000,
-   "median": 74000,
-   "max": 159999,
+   "site": "joshin",
+   "label": "ジョーシン",
+   "used": false,
+   "count": 20,
+   "min": 111100,
+   "median": 193322,
+   "max": 484500,
    "items": [
     {
-     "title": "OLYMPUS PEN E-PL7",
-     "price": 30000,
-     "url": "https://jp.mercari.com/item/m13481619416",
-     "shop": "メルカリ",
-     "used": true
+     "title": "キヤノン ミラーレス一眼カメラ「EOS R50」ボディ（ホワイト） EOSR50WH Canon",
+     "price": 111100,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4549292205091-34-48497-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14608299%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "Joshin web 家電とPCの大型専門店",
+     "used": false
     },
     {
-     "title": "SONY NEX-7 ミラーレス一眼 本体 レンズセット",
-     "price": 36000,
-     "url": "https://jp.mercari.com/item/m54732621724",
-     "shop": "メルカリ",
-     "used": true
+     "title": "キヤノン ミラーレス一眼カメラ「EOS R50 V」ボディ EOSR50V Canon",
+     "price": 113300,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4549292241525-34-48497-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14562701%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "Joshin web 家電とPCの大型専門店",
+     "used": false
     },
     {
-     "title": "SONY α7II ILCE-7M2 極美品 シャッター回数:6755回",
-     "price": 40100,
-     "url": "https://jp.mercari.com/item/m77222338588",
-     "shop": "メルカリ",
-     "used": true
+     "title": "ニコン ミラーレス一眼カメラ「Z30」16-50 VR レンズキット NIKONZ30LK",
+     "price": 119900,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4960759910622-34-48084-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F13537444%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "Joshin web 家電とPCの大型専門店",
+     "used": false
     }
    ]
   },
@@ -265,29 +233,61 @@
    "label": "Yahoo!オークション",
    "used": true,
    "count": 3,
-   "min": 30000,
-   "median": 39800,
-   "max": 63000,
+   "min": 31000,
+   "median": 35000,
+   "max": 67000,
    "items": [
     {
-     "title": "ジャンク SONY α7II ボディ ILCE-7M2 ミラーレス一眼カメラ",
-     "price": 30000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/d1251558616",
+     "title": "★1円〜 SONY ソニー α6000 ミラーレス一眼 パワーズームレンズキット ILCE-6000L ブラック SELP1650 売り切り！",
+     "price": 31000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/e1251551028",
      "shop": "",
      "used": true
     },
     {
-     "title": "ソニー α7R ボディ ILCE-7R ミラーレス一眼 ＃A1103③",
-     "price": 39800,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/b1250856440",
+     "title": "OLYMPUS オリンパス ミラーレス一眼 E-PL8 EZ ダブルズームキット ホワイト",
+     "price": 35000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/t1252222921",
      "shop": "",
      "used": true
     },
     {
      "title": "OLYMPUS OM-D E-M1X ボディ ミラーレス一眼カメラ 元箱付き",
-     "price": 63000,
+     "price": 67000,
      "url": "https://auctions.yahoo.co.jp/jp/auction/s1252179725",
      "shop": "",
+     "used": true
+    }
+   ]
+  },
+  {
+   "site": "mercari",
+   "label": "メルカリ",
+   "used": true,
+   "count": 12,
+   "min": 33000,
+   "median": 62900,
+   "max": 130000,
+   "items": [
+    {
+     "title": "SONY α5000 電動ズームレンズセット",
+     "price": 33000,
+     "url": "https://jp.mercari.com/item/m19916679858",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "OLYMPUS PEN Lite E-PL7 14-42mm EZレンズキット",
+     "price": 36000,
+     "url": "https://jp.mercari.com/item/m58601888267",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "SONY ミラーレス一眼レフ カメラ α5100 ソニー ILCE-5100L",
+     "price": 42200,
+     "url": "https://jp.mercari.com/item/m36667316542",
+     "shop": "メルカリ",
      "used": true
     }
    ]
@@ -298,18 +298,18 @@
   "minSite": "rakuten",
   "minLabel": "楽天市場",
   "minTitle": "Canon EOS M2 レンズキット 18-55mm IS STM ホワイト",
-  "median": 169768,
+  "median": 177920,
   "siteCount": 7,
   "itemCount": 135
  },
  "usedSummary": {
-  "min": 30000,
-  "minSite": "mercari",
-  "minLabel": "メルカリ",
-  "minTitle": "OLYMPUS PEN E-PL7",
-  "median": 74000,
+  "min": 31000,
+  "minSite": "yahoo_auction",
+  "minLabel": "Yahoo!オークション",
+  "minTitle": "★1円〜 SONY ソニー α6000 ミラーレス一眼 パワーズームレンズキット ILCE-6000L ブラック SELP1650 売り切り！",
+  "median": 62900,
   "siteCount": 3,
-  "itemCount": 19
+  "itemCount": 16
  },
  "history": [
   {
@@ -649,6 +649,24 @@
     "sofmap": 99726,
     "mercari": 30000,
     "yahoo_auction": 30000
+   }
+  },
+  {
+   "date": "2026-11-15",
+   "newMin": 55800,
+   "newMedian": 177920,
+   "usedMin": 31000,
+   "usedMedian": 62900,
+   "sites": {
+    "rakuten": 55800,
+    "yahoo_shopping": 76999,
+    "yodobashi": 89100,
+    "biccamera": 89917,
+    "edion": 97900,
+    "sofmap": 99726,
+    "joshin": 111100,
+    "yahoo_auction": 31000,
+    "mercari": 33000
    }
   }
  ]

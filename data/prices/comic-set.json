@@ -1,8 +1,8 @@
 {
  "slug": "comic-set",
  "term": "コミック 全巻セット",
- "date": "2026-11-14",
- "capturedAt": "2026-11-13T20:10:06.216Z",
+ "date": "2026-11-15",
+ "capturedAt": "2026-11-14T20:10:04.336Z",
  "sites": [
   {
    "site": "rakuten",
@@ -87,45 +87,13 @@
    ]
   },
   {
-   "site": "mercari",
-   "label": "メルカリ",
-   "used": true,
-   "count": 15,
-   "min": 2000,
-   "median": 6000,
-   "max": 23000,
-   "items": [
-    {
-     "title": "ワタリ 全巻セット 白土三平 講談社コミックス",
-     "price": 2000,
-     "url": "https://jp.mercari.com/item/m15712154910",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "ひゃくえむ。 上下 全巻 魚豊",
-     "price": 2200,
-     "url": "https://jp.mercari.com/item/m87307854979",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "いぬやしき 全巻セット",
-     "price": 2250,
-     "url": "https://jp.mercari.com/item/m45231922430",
-     "shop": "メルカリ",
-     "used": true
-    }
-   ]
-  },
-  {
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 14,
+   "count": 15,
    "min": 2200,
    "median": 2750,
-   "max": 11800,
+   "max": 3300,
    "items": [
     {
      "title": "食戟のソーマ 1巻～36巻 佐伯俊 ジャンプコミックス -送料無料 コミックセット-",
@@ -135,17 +103,49 @@
      "used": true
     },
     {
-     "title": "BLACK LAGOON 1巻～14巻 広江礼威 -送料無料 コミックセット-",
+     "title": "監獄学園 プリズンスクール 1巻～28巻 平本アキラ -送料無料 コミックセット-",
      "price": 2200,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/h1251849277",
+     "url": "https://auctions.yahoo.co.jp/jp/auction/n1249965272",
      "shop": "",
      "used": true
     },
     {
-     "title": "食戟のソーマ 1巻～36巻 佐伯俊 ジャンプコミックス -送料無料 コミックセット-",
+     "title": "聖☆おにいさん 1巻～22巻 中村光 -送料無料 コミックセット-",
      "price": 2200,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/n1252055547",
+     "url": "https://auctions.yahoo.co.jp/jp/auction/c1251984086",
      "shop": "",
+     "used": true
+    }
+   ]
+  },
+  {
+   "site": "mercari",
+   "label": "メルカリ",
+   "used": true,
+   "count": 13,
+   "min": 2500,
+   "median": 4000,
+   "max": 12000,
+   "items": [
+    {
+     "title": "カリクラ 華倫変 2巻セット 全巻",
+     "price": 2500,
+     "url": "https://jp.mercari.com/item/m88829981101",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "クズの本懐 1-9巻 全巻セット＋7.5巻＋小説版 横槍メンゴ",
+     "price": 2500,
+     "url": "https://jp.mercari.com/item/m79067040499",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "キャプテン翼 : ワールドユース編 18巻 全巻 ➕特別編1冊",
+     "price": 2500,
+     "url": "https://jp.mercari.com/item/m64814783530",
+     "shop": "メルカリ",
      "used": true
     }
    ]
@@ -161,13 +161,13 @@
   "itemCount": 28
  },
  "usedSummary": {
-  "min": 2000,
-  "minSite": "mercari",
-  "minLabel": "メルカリ",
-  "minTitle": "ワタリ 全巻セット 白土三平 講談社コミックス",
-  "median": 4375,
+  "min": 2200,
+  "minSite": "yahoo_auction",
+  "minLabel": "Yahoo!オークション",
+  "minTitle": "食戟のソーマ 1巻～36巻 佐伯俊 ジャンプコミックス -送料無料 コミックセット-",
+  "median": 3375,
   "siteCount": 2,
-  "itemCount": 29
+  "itemCount": 28
  },
  "history": [
   {
@@ -443,6 +443,20 @@
     "biccamera": 20900,
     "mercari": 2000,
     "yahoo_auction": 2200
+   }
+  },
+  {
+   "date": "2026-11-15",
+   "newMin": 5950,
+   "newMedian": 19118,
+   "usedMin": 2200,
+   "usedMedian": 3375,
+   "sites": {
+    "rakuten": 5950,
+    "yahoo_shopping": 7436,
+    "biccamera": 20900,
+    "yahoo_auction": 2200,
+    "mercari": 2500
    }
   }
  ]
