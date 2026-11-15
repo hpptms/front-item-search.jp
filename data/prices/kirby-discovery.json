@@ -1,18 +1,25 @@
 {
  "slug": "kirby-discovery",
  "term": "星のカービィ ディスカバリー",
- "date": "2026-11-15",
- "capturedAt": "2026-11-14T20:10:04.336Z",
+ "date": "2026-11-16",
+ "capturedAt": "2026-11-15T20:10:02.922Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
    "count": 18,
-   "min": 3980,
-   "median": 5720,
+   "min": 3975,
+   "median": 5785,
    "max": 7700,
    "items": [
+    {
+     "title": "任天堂『星のカービィ ディスカバリー』switch ゲームソフト 1週間保証",
+     "price": 3975,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftakayama78%2F4902370549455%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftakayama78%2Fi%2F10941968%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "高山質店",
+     "used": false
+    },
     {
      "title": "[Switch] 星のカービィ ディスカバリー 任天堂 (20220325)",
      "price": 3980,
@@ -26,13 +33,6 @@
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftreasure-eight%2F001-032-220518-0002%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftreasure-eight%2Fi%2F10006045%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "お宝プラス",
      "used": false
-    },
-    {
-     "title": "Switch 星のカービィ ディスカバリー (ニンテンドースイッチ)",
-     "price": 4292,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frenet3%2F0013441182%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frenet3%2Fi%2F12754968%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "ネットオフ楽天市場支店",
-     "used": false
     }
    ]
   },
@@ -40,9 +40,9 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 15,
+   "count": 16,
    "min": 4292,
-   "median": 7540,
+   "median": 7580,
    "max": 8280,
    "items": [
     {
@@ -53,17 +53,17 @@
      "used": false
     },
     {
-     "title": "Switch／星のカービィ ディスカバリー",
-     "price": 4292,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetoff2%2Ft0013441182.html",
-     "shop": "ネットオフ まとめてお得店",
+     "title": "任天堂 星のカービィ ディスカバリー Switch用ソフト（パッケージ版）",
+     "price": 5607,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Flight-hikari%2F4902370549454.html",
+     "shop": "らいぶshop",
      "used": false
     },
     {
-     "title": "任天堂 星のカービィ ディスカバリー Switch用ソフト（パッケージ版）",
-     "price": 5617,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Flight-hikari%2F4902370549454.html",
-     "shop": "らいぶshop",
+     "title": "Nintendo Switch 任天堂 ゲームソフト 星のカービィディスカバリー[ラッピング不可] R-LOGI",
+     "price": 5608,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsokutei%2F4902370549454.html",
+     "shop": "測定の森 2号店",
      "used": false
     }
    ]
@@ -174,7 +174,7 @@
    "used": true,
    "count": 16,
    "min": 3000,
-   "median": 4450,
+   "median": 4675,
    "max": 9300,
    "items": [
     {
@@ -185,16 +185,16 @@
      "used": true
     },
     {
-     "title": "a0810021 星のカービィ ディスカバリー",
-     "price": 3550,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z724315960",
+     "title": "■ Nintendo Switch 星のカービィ ディスカバリー ■",
+     "price": 3500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/w1252441663",
      "shop": "",
      "used": true
     },
     {
      "title": "Nintendo Switch 星のカービィ ディスカバリー",
-     "price": 3600,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z724189774",
+     "price": 3550,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z724870872",
      "shop": "",
      "used": true
     }
@@ -205,28 +205,28 @@
    "label": "メルカリ",
    "used": true,
    "count": 16,
-   "min": 3400,
-   "median": 4540,
-   "max": 7380,
+   "min": 3800,
+   "median": 5000,
+   "max": 7800,
    "items": [
     {
      "title": "星のカービィ ディスカバリー Nintendo Switch",
-     "price": 3400,
-     "url": "https://jp.mercari.com/item/m42845638407",
+     "price": 3800,
+     "url": "https://jp.mercari.com/item/m94415019574",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "星のカービィ ディスカバリー Switch",
-     "price": 3599,
-     "url": "https://jp.mercari.com/item/m50095637463",
+     "title": "Nintendo Switch 星のカービィ ディスカバリー",
+     "price": 3800,
+     "url": "https://jp.mercari.com/item/m46263491998",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "星のカービィ ディスカバリー Nintendo Switch ソフト",
-     "price": 3799,
-     "url": "https://jp.mercari.com/item/m81498451531",
+     "title": "Nintendo Switch 星のカービィ ディスカバリー",
+     "price": 3800,
+     "url": "https://jp.mercari.com/item/m42743768739",
      "shop": "メルカリ",
      "used": true
     }
@@ -234,22 +234,22 @@
   }
  ],
  "newSummary": {
-  "min": 3980,
+  "min": 3975,
   "minSite": "rakuten",
   "minLabel": "楽天市場",
-  "minTitle": "[Switch] 星のカービィ ディスカバリー 任天堂 (20220325)",
+  "minTitle": "任天堂『星のカービィ ディスカバリー』switch ゲームソフト 1週間保証",
   "median": 6940,
   "siteCount": 6,
-  "itemCount": 42
+  "itemCount": 43
  },
  "usedSummary": {
   "min": 3000,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
   "minTitle": "HM0042★ Nintendo switch スイッチ 星のカービィ ディスカバリー",
-  "median": 4540,
+  "median": 5000,
   "siteCount": 3,
-  "itemCount": 34
+  "itemCount": 33
  },
  "history": [
   {
@@ -585,6 +585,23 @@
     "biccamera": 6240,
     "yahoo_auction": 3000,
     "mercari": 3400
+   }
+  },
+  {
+   "date": "2026-11-16",
+   "newMin": 3975,
+   "newMedian": 6940,
+   "usedMin": 3000,
+   "usedMedian": 5000,
+   "sites": {
+    "rakuten": 3975,
+    "yahoo_shopping": 4292,
+    "joshin": 5720,
+    "edion": 5720,
+    "yodobashi": 5740,
+    "biccamera": 6240,
+    "yahoo_auction": 3000,
+    "mercari": 3800
    }
   }
  ]

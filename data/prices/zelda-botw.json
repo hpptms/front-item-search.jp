@@ -1,8 +1,8 @@
 {
  "slug": "zelda-botw",
  "term": "ゼルダの伝説 ブレス オブ ザ ワイルド",
- "date": "2026-11-15",
- "capturedAt": "2026-11-14T20:10:04.336Z",
+ "date": "2026-11-16",
+ "capturedAt": "2026-11-15T20:10:02.922Z",
  "sites": [
   {
    "site": "rakuten",
@@ -10,8 +10,8 @@
    "used": false,
    "count": 18,
    "min": 4970,
-   "median": 6844,
-   "max": 7779,
+   "median": 6908,
+   "max": 8678,
    "items": [
     {
      "title": "Switch ゼルダの伝説 ブレス オブ ザ ワイルド (ニンテンドースイッチ)",
@@ -42,7 +42,7 @@
    "used": false,
    "count": 14,
    "min": 5100,
-   "median": 7764,
+   "median": 7758,
    "max": 8240,
    "items": [
     {
@@ -165,29 +165,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 12,
-   "min": 2600,
-   "median": 3975,
-   "max": 5335,
+   "count": 16,
+   "min": 2700,
+   "median": 4200,
+   "max": 12900,
    "items": [
     {
-     "title": "NintendoSwitch ゼルダの伝説 ブレス オブ ザ ワイルド",
-     "price": 2600,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/p1252300521",
+     "title": "♪ 任天堂 ゼルダの伝説 ブレス オブ ザ ワイルド HAC-P-AAAAA Nintendo Switchソフト パッケージ版 ゲームカード付属 CEROB プレイ人数1人",
+     "price": 2700,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/v1251815677",
      "shop": "",
      "used": true
     },
     {
-     "title": "Switch ゼルダの伝説 ブレス オブ ザ ワイルド ゲームソフト スイッチ 1A0320-079su/F8",
-     "price": 3252,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/g1252077461",
+     "title": "Switch ゼルダの伝説 ブレス オブ ザ ワイルド ゲームソフト スイッチ 1A0105-358at/F8",
+     "price": 2860,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/j1252320922",
      "shop": "",
      "used": true
     },
     {
-     "title": "Switch ゼルダの伝説 ブレス オブ ザ ワイルド ゲームソフト スイッチ 1A0320-078su/F8",
-     "price": 3366,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/x1252066893",
+     "title": "ゼルダの伝説 ブレス オブ ザ ワイルド Nintendo Switch版 / ソフト",
+     "price": 3500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/g1252168959",
      "shop": "",
      "used": true
     }
@@ -197,29 +197,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 16,
-   "min": 3800,
-   "median": 4450,
-   "max": 8800,
+   "count": 15,
+   "min": 4000,
+   "median": 4490,
+   "max": 7300,
    "items": [
     {
-     "title": "ゼルダの伝説 ブレス オブ ザ ワイルド Switch ソフト",
-     "price": 3800,
-     "url": "https://jp.mercari.com/item/m50789481234",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "ゼルダの伝説 ブレス オブ ザ ワイルド Switch ソフト",
-     "price": 3999,
-     "url": "https://jp.mercari.com/item/m16533841070",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "Switch ゼルダの伝説 ブレス オブ ザ ワイルド",
+     "title": "Nintendo Switch ゼルダの伝説 ブレス オブ ザ ワイルド ソフト",
      "price": 4000,
-     "url": "https://jp.mercari.com/item/m74608745833",
+     "url": "https://jp.mercari.com/item/m36846014838",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "ゼルダの伝説 ブレス オブ ザ ワイルド Nintendo Switch ソフト",
+     "price": 4110,
+     "url": "https://jp.mercari.com/item/m17435739215",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "ゼルダの伝説 ブレス オブ ザ ワイルド Switch",
+     "price": 4300,
+     "url": "https://jp.mercari.com/item/m89211113856",
      "shop": "メルカリ",
      "used": true
     }
@@ -231,18 +231,18 @@
   "minSite": "rakuten",
   "minLabel": "楽天市場",
   "minTitle": "Switch ゼルダの伝説 ブレス オブ ザ ワイルド (ニンテンドースイッチ)",
-  "median": 7440,
+  "median": 7437,
   "siteCount": 6,
   "itemCount": 40
  },
  "usedSummary": {
-  "min": 2600,
+  "min": 2700,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "NintendoSwitch ゼルダの伝説 ブレス オブ ザ ワイルド",
-  "median": 4450,
+  "minTitle": "♪ 任天堂 ゼルダの伝説 ブレス オブ ザ ワイルド HAC-P-AAAAA Nintendo Switchソフト パッケージ版 ゲームカード付属 CEROB プレイ人数1人",
+  "median": 4490,
   "siteCount": 3,
-  "itemCount": 31
+  "itemCount": 34
  },
  "history": [
   {
@@ -568,6 +568,23 @@
     "biccamera": 8240,
     "yahoo_auction": 2600,
     "mercari": 3800
+   }
+  },
+  {
+   "date": "2026-11-16",
+   "newMin": 4970,
+   "newMedian": 7437,
+   "usedMin": 2700,
+   "usedMedian": 4490,
+   "sites": {
+    "rakuten": 4970,
+    "yahoo_shopping": 5100,
+    "edion": 6570,
+    "joshin": 6600,
+    "yodobashi": 6910,
+    "biccamera": 8240,
+    "yahoo_auction": 2700,
+    "mercari": 4000
    }
   }
  ]

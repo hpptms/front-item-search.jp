@@ -1,8 +1,8 @@
 {
  "slug": "super-mario-wonder",
  "term": "スーパーマリオ ワンダー",
- "date": "2026-11-15",
- "capturedAt": "2026-11-14T20:10:04.336Z",
+ "date": "2026-11-16",
+ "capturedAt": "2026-11-15T20:10:02.922Z",
  "sites": [
   {
    "site": "rakuten",
@@ -42,7 +42,7 @@
    "used": false,
    "count": 17,
    "min": 3103,
-   "median": 7324,
+   "median": 7312,
    "max": 8000,
    "items": [
     {
@@ -179,10 +179,10 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 14,
+   "count": 16,
    "min": 2780,
-   "median": 3050,
-   "max": 6299,
+   "median": 2965,
+   "max": 6333,
    "items": [
     {
      "title": "スーパーマリオブラザーズ ワンダー Switch ソフト",
@@ -192,16 +192,16 @@
      "used": true
     },
     {
-     "title": "スーパーマリオブラザーズ ワンダー Switch ソフト",
-     "price": 2888,
-     "url": "https://jp.mercari.com/item/m29466636309",
+     "title": "Nintendo Switch スーパーマリオブラザーズ ワンダー",
+     "price": 2900,
+     "url": "https://jp.mercari.com/item/m56324505779",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Nintendo Switch スーパーマリオブラザーズ ワンダー",
+     "title": "スーパーマリオブラザーズ ワンダー Switch ソフト",
      "price": 2900,
-     "url": "https://jp.mercari.com/item/m13037462950",
+     "url": "https://jp.mercari.com/item/m14931726033",
      "shop": "メルカリ",
      "used": true
     }
@@ -211,29 +211,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 10,
-   "min": 3000,
-   "median": 3200,
-   "max": 6361,
+   "count": 7,
+   "min": 2900,
+   "median": 2980,
+   "max": 3220,
    "items": [
     {
      "title": "Nintendo Switch スーパーマリオブラザーズ ワンダー",
-     "price": 3000,
+     "price": 2900,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z720904582",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "Nintendo Switch スーパーマリオブラザーズ ワンダー",
+     "price": 2950,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z724578130",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "Nintendo Switch スーパーマリオブラザーズ ワンダー",
+     "price": 2950,
      "url": "https://auctions.yahoo.co.jp/jp/auction/z711069190",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "Nintendo Switch スーパーマリオブラザーズ ワンダー",
-     "price": 3100,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z723917562",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "Nintendo Switch スーパーマリオブラザーズ ワンダー",
-     "price": 3100,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z723725174",
      "shop": "",
      "used": true
     }
@@ -254,9 +254,9 @@
   "minSite": "mercari",
   "minLabel": "メルカリ",
   "minTitle": "スーパーマリオブラザーズ ワンダー Switch ソフト",
-  "median": 3125,
+  "median": 2973,
   "siteCount": 2,
-  "itemCount": 24
+  "itemCount": 23
  },
  "history": [
   {
@@ -594,6 +594,23 @@
     "biccamera": 6240,
     "mercari": 2780,
     "yahoo_auction": 3000
+   }
+  },
+  {
+   "date": "2026-11-16",
+   "newMin": 3103,
+   "newMedian": 6973,
+   "usedMin": 2780,
+   "usedMedian": 2973,
+   "sites": {
+    "rakuten": 3103,
+    "yahoo_shopping": 3103,
+    "edion": 5780,
+    "joshin": 5880,
+    "yodobashi": 6110,
+    "biccamera": 6240,
+    "mercari": 2780,
+    "yahoo_auction": 2900
    }
   }
  ]

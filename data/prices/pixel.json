@@ -1,16 +1,16 @@
 {
  "slug": "pixel",
  "term": "Google Pixel",
- "date": "2026-11-15",
- "capturedAt": "2026-11-14T20:10:04.336Z",
+ "date": "2026-11-16",
+ "capturedAt": "2026-11-15T20:10:02.922Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 12,
+   "count": 13,
    "min": 28800,
-   "median": 79980,
+   "median": 80499,
    "max": 136990,
    "items": [
     {
@@ -40,9 +40,9 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 14,
+   "count": 15,
    "min": 40980,
-   "median": 81800,
+   "median": 81447,
    "max": 124800,
    "items": [
     {
@@ -53,16 +53,16 @@
      "used": true
     },
     {
-     "title": "Google Pixel 6a 128GB Sランク SIMフリー 整備済み品 本体 中古",
-     "price": 29800,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnicosuma%2Fgoogle-refurbish-pixel6a-128.html",
+     "title": "Google Pixel 7a 128GB Aランク スマホ 本体 SIMフリー 美品 にこスマ認定整備済み品(リファービッシュ 整備済品)",
+     "price": 31800,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnicosuma%2Fpxl-7a-128-a.html",
      "shop": "にこスマ",
      "used": true
     },
     {
-     "title": "Google Pixel 7a 128GB Aランク スマホ 本体 SIMフリー 美品 にこスマ認定整備済み品(リファービッシュ 整備済品)",
-     "price": 31800,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnicosuma%2Fpxl-7a-128-a.html",
+     "title": "Google Pixel 8a 128GB Bランク スマホ 本体 SIMフリー 美品 リファービッシュ 認定整備済品 整備済み品 白ロム",
+     "price": 40800,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnicosuma%2Fpixel8a-128-b.html",
      "shop": "にこスマ",
      "used": true
     }
@@ -74,13 +74,13 @@
    "used": true,
    "count": 14,
    "min": 15000,
-   "median": 34400,
-   "max": 119500,
+   "median": 30550,
+   "max": 77000,
    "items": [
     {
-     "title": "アンチスパイフォン Google Pixel 本体のみ",
+     "title": "Google Pixel 4a (5G) ホワイト",
      "price": 15000,
-     "url": "https://jp.mercari.com/item/m36516933940",
+     "url": "https://jp.mercari.com/item/m13330595584",
      "shop": "メルカリ",
      "used": true
     },
@@ -92,9 +92,9 @@
      "used": true
     },
     {
-     "title": "Pixel5 128GB ソータセージ 本体 SIMフリー",
-     "price": 19999,
-     "url": "https://jp.mercari.com/item/m97626485193",
+     "title": "Google Pixel5 中古品",
+     "price": 20000,
+     "url": "https://jp.mercari.com/item/m13609718285",
      "shop": "メルカリ",
      "used": true
     }
@@ -104,29 +104,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 5,
+   "count": 4,
    "min": 16500,
-   "median": 21450,
-   "max": 34980,
+   "median": 28490,
+   "max": 47850,
    "items": [
     {
-     "title": "Google Pixel 6a グーグル ピクセル6a au○ アクティベーションロックなし 本体のみ 128GB",
+     "title": "Google Pixel 7a 128GB SIMフリー 本体",
      "price": 16500,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/1251743092",
+     "url": "https://auctions.yahoo.co.jp/jp/auction/g1252417417",
      "shop": "",
      "used": true
     },
     {
-     "title": "★ 完動品 Google Pixel 8 オブシディアン 128GB 1円 ! 1スタ !",
-     "price": 20350,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/u1252050296",
+     "title": "Google Pixel 5 5G 128GB ブラック SIMフリー 本体 箱付き リフレッシュ品",
+     "price": 23000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/f1252316137",
      "shop": "",
      "used": true
     },
     {
-     "title": "★ 完動品 au Google Pixel 8a ベイ 128GB 1円 ! 1スタ !",
-     "price": 21450,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/o1252073322",
+     "title": "Google Pixel 8 128GB Obsidian SIMフリー",
+     "price": 33980,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/h1251491029",
      "shop": "",
      "used": true
     }
@@ -138,18 +138,18 @@
   "minSite": "rakuten",
   "minLabel": "楽天市場",
   "minTitle": "Google Pixel 7a｜128GB｜チャコール・スノー・コーラル・シー｜保証期間30〜90日★レビューで保証期間延長｜送料無料 当日発送｜スマホ 本体 グーグル ピクセル",
-  "median": 80890,
+  "median": 80973,
   "siteCount": 2,
-  "itemCount": 26
+  "itemCount": 28
  },
  "usedSummary": {
   "min": 15000,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "アンチスパイフォン Google Pixel 本体のみ",
-  "median": 33100,
+  "minTitle": "Google Pixel 4a (5G) ホワイト",
+  "median": 33425,
   "siteCount": 4,
-  "itemCount": 30
+  "itemCount": 27
  },
  "history": [
   {
@@ -401,6 +401,19 @@
    "newMedian": 80890,
    "usedMin": 15000,
    "usedMedian": 33100,
+   "sites": {
+    "rakuten": 28800,
+    "yahoo_shopping": 40980,
+    "mercari": 15000,
+    "yahoo_auction": 16500
+   }
+  },
+  {
+   "date": "2026-11-16",
+   "newMin": 28800,
+   "newMedian": 80973,
+   "usedMin": 15000,
+   "usedMedian": 33425,
    "sites": {
     "rakuten": 28800,
     "yahoo_shopping": 40980,
