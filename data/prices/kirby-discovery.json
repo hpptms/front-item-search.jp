@@ -1,8 +1,8 @@
 {
  "slug": "kirby-discovery",
  "term": "星のカービィ ディスカバリー",
- "date": "2026-11-16",
- "capturedAt": "2026-11-15T20:10:02.922Z",
+ "date": "2026-11-17",
+ "capturedAt": "2026-11-16T20:10:07.445Z",
  "sites": [
   {
    "site": "rakuten",
@@ -40,9 +40,9 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 16,
+   "count": 15,
    "min": 4292,
-   "median": 7580,
+   "median": 7619,
    "max": 8280,
    "items": [
     {
@@ -147,18 +147,11 @@
    "site": "biccamera",
    "label": "ビックカメラ",
    "used": false,
-   "count": 2,
-   "min": 6240,
-   "median": 7190,
+   "count": 1,
+   "min": 8140,
+   "median": 8140,
    "max": 8140,
    "items": [
-    {
-     "title": "任天堂｜Nintendo 星のカービィ ディスカバリー",
-     "price": 6240,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4902370549454%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F13698739%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "楽天ビック(ビックカメラ×楽天)",
-     "used": false
-    },
     {
      "title": "任天堂｜Nintendo 星のカービィ ディスカバリー Nintendo Switch 2 Edition ＋ スターリーワールド",
      "price": 8140,
@@ -172,29 +165,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 16,
-   "min": 3000,
-   "median": 4675,
+   "count": 14,
+   "min": 3300,
+   "median": 3700,
    "max": 9300,
    "items": [
     {
-     "title": "HM0042★ Nintendo switch スイッチ 星のカービィ ディスカバリー",
-     "price": 3000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/o1250984220",
+     "title": "星のカービィ ディスカバリー Switch ソフトのみ 海外版",
+     "price": 3300,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z725559916",
      "shop": "",
      "used": true
     },
     {
-     "title": "■ Nintendo Switch 星のカービィ ディスカバリー ■",
-     "price": 3500,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/w1252441663",
+     "title": "Nintendo Switch 星のカービィ ディスカバリー ソフトのみ",
+     "price": 3350,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z725588806",
      "shop": "",
      "used": true
     },
     {
-     "title": "Nintendo Switch 星のカービィ ディスカバリー",
+     "title": "星のカービィ ディスカバリー",
      "price": 3550,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z724870872",
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z725321200",
      "shop": "",
      "used": true
     }
@@ -205,10 +198,17 @@
    "label": "メルカリ",
    "used": true,
    "count": 16,
-   "min": 3800,
-   "median": 5000,
-   "max": 7800,
+   "min": 3728,
+   "median": 4290,
+   "max": 7280,
    "items": [
+    {
+     "title": "星のカービィ ディスカバリー -Switch",
+     "price": 3728,
+     "url": "https://jp.mercari.com/shops/product/2JZBYdTPKdbYiKLAXR43nq",
+     "shop": "メルカリ",
+     "used": true
+    },
     {
      "title": "星のカービィ ディスカバリー Nintendo Switch",
      "price": 3800,
@@ -222,13 +222,6 @@
      "url": "https://jp.mercari.com/item/m46263491998",
      "shop": "メルカリ",
      "used": true
-    },
-    {
-     "title": "Nintendo Switch 星のカービィ ディスカバリー",
-     "price": 3800,
-     "url": "https://jp.mercari.com/item/m42743768739",
-     "shop": "メルカリ",
-     "used": true
     }
    ]
   }
@@ -240,16 +233,16 @@
   "minTitle": "任天堂『星のカービィ ディスカバリー』switch ゲームソフト 1週間保証",
   "median": 6940,
   "siteCount": 6,
-  "itemCount": 43
+  "itemCount": 41
  },
  "usedSummary": {
-  "min": 3000,
+  "min": 3300,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "HM0042★ Nintendo switch スイッチ 星のカービィ ディスカバリー",
-  "median": 5000,
+  "minTitle": "星のカービィ ディスカバリー Switch ソフトのみ 海外版",
+  "median": 4290,
   "siteCount": 3,
-  "itemCount": 33
+  "itemCount": 32
  },
  "history": [
   {
@@ -602,6 +595,23 @@
     "biccamera": 6240,
     "yahoo_auction": 3000,
     "mercari": 3800
+   }
+  },
+  {
+   "date": "2026-11-17",
+   "newMin": 3975,
+   "newMedian": 6940,
+   "usedMin": 3300,
+   "usedMedian": 4290,
+   "sites": {
+    "rakuten": 3975,
+    "yahoo_shopping": 4292,
+    "joshin": 5720,
+    "edion": 5720,
+    "yodobashi": 5740,
+    "biccamera": 8140,
+    "yahoo_auction": 3300,
+    "mercari": 3728
    }
   }
  ]

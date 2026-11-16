@@ -1,16 +1,16 @@
 {
  "slug": "pokemon-card",
  "term": "ポケモンカード",
- "date": "2026-11-16",
- "capturedAt": "2026-11-15T20:10:02.922Z",
+ "date": "2026-11-17",
+ "capturedAt": "2026-11-16T20:10:07.445Z",
  "sites": [
   {
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 19,
+   "count": 20,
    "min": 7800,
-   "median": 10980,
+   "median": 10930,
    "max": 29319,
    "items": [
     {
@@ -21,17 +21,17 @@
      "used": false
     },
     {
+     "title": "シュリンク付 新品未開封 ポケモンカードゲーム MEGA 拡張パック メガシンフォニア １BOX",
+     "price": 8680,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuekichi-shouten%2Fpoke-megas.html",
+     "shop": "末吉商店",
+     "used": false
+    },
+    {
      "title": "シュリンクつき ポケモンカードゲーム メガシンフォニア ポケカ MEGA メガ 拡張パック BOX 新品 未開封 お一人様3点まで",
      "price": 9000,
      "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fhrco%2Fpkc-symphonia.html",
      "shop": "HRCO Yahoo!店",
-     "used": false
-    },
-    {
-     "title": "ポケモンカードゲーム MEGA 拡張パック ストームエメラルダ BOX",
-     "price": 9500,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fotakara-machida%2F0320260731101.html",
-     "shop": "お宝あっと町田Yahoo!ショップ",
      "used": false
     }
    ]
@@ -42,7 +42,7 @@
    "used": false,
    "count": 17,
    "min": 9260,
-   "median": 22000,
+   "median": 21960,
    "max": 109800,
    "items": [
     {
@@ -60,43 +60,11 @@
      "used": false
     },
     {
-     "title": "[シュリンク付 BOX] ポケモンカードゲーム スカーレット&バイオレット 拡張パック スカーレットex BOX ポケカ プロモカード無し",
-     "price": 17800,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fky-zakkaten-r%2F0748-008433%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fky-zakkaten-r%2Fi%2F10002167%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "K and Y雑貨店 楽天市場店",
+     "title": "ポケモンカードゲーム バトルパートナーズ BOX スカーレット&バイオレット 拡張パック 新品未開封 シュリンク付き",
+     "price": 16880,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyum-yum%2F4521329362649%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fyum-yum%2Fi%2F10001632%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "イーバリュー楽天市場店",
      "used": false
-    }
-   ]
-  },
-  {
-   "site": "mercari",
-   "label": "メルカリ",
-   "used": true,
-   "count": 20,
-   "min": 5000,
-   "median": 8025,
-   "max": 18000,
-   "items": [
-    {
-     "title": "ポケモンカードゲーム 拡張パック アビスアイ 未開封1BOX シュリンク付き",
-     "price": 5000,
-     "url": "https://jp.mercari.com/item/m34943658923",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "ポケモンカードゲーム 拡張パック バトルパートナーズ BOX シュリンク付き",
-     "price": 5600,
-     "url": "https://jp.mercari.com/item/m29171286632",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "ポケモンカードゲーム メガシンフォニア BOX 未開封 おまけ10パック付き",
-     "price": 6000,
-     "url": "https://jp.mercari.com/item/m79186308059",
-     "shop": "メルカリ",
-     "used": true
     }
    ]
   },
@@ -104,30 +72,62 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 14,
-   "min": 7899,
-   "median": 17628,
-   "max": 95000,
+   "count": 10,
+   "min": 5750,
+   "median": 16750,
+   "max": 83000,
    "items": [
     {
-     "title": "ポケモンカードゲーム MEGA 拡張パック アビスアイ 1BOX シュリンク付き",
-     "price": 7899,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/p1252294542",
+     "title": "ポケモンカードゲーム インフェルノX 拡張パック 1BOX シュリンク付き",
+     "price": 5750,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/b1252583861",
      "shop": "",
      "used": true
     },
     {
-     "title": "ポケモンカードゲーム スカーレット＆バイオレット 拡張パック バトルパートナーズ 1BOX シュリンク付き",
-     "price": 9750,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/m1252453463",
+     "title": "ポケモンカードゲーム MEGA 拡張パック アビスアイ 1BOX シュリンク付",
+     "price": 7880,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/v1252578617",
      "shop": "",
      "used": true
     },
     {
-     "title": "ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION BOX",
-     "price": 10000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/k1250852800",
+     "title": "ポケモンカードゲーム スカーレット&バイオレット 拡張パック バトルパートナーズ 1BOX シュリンク付",
+     "price": 9500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/j1252579871",
      "shop": "",
+     "used": true
+    }
+   ]
+  },
+  {
+   "site": "mercari",
+   "label": "メルカリ",
+   "used": true,
+   "count": 17,
+   "min": 7499,
+   "median": 8500,
+   "max": 15555,
+   "items": [
+    {
+     "title": "ポケモンカードゲーム 拡張パック メガシンフォニア BOX シュリンク付き",
+     "price": 7499,
+     "url": "https://jp.mercari.com/item/m99845613372",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "ポケモンカードゲーム 拡張パック アビスアイ BOX",
+     "price": 7699,
+     "url": "https://jp.mercari.com/item/m66074841152",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "ポケモンカードゲーム 拡張パック アビスアイ 未開封BOX",
+     "price": 7800,
+     "url": "https://jp.mercari.com/item/m29727079629",
+     "shop": "メルカリ",
      "used": true
     }
    ]
@@ -138,18 +138,18 @@
   "minSite": "yahoo_shopping",
   "minLabel": "Yahoo!ショッピング",
   "minTitle": "9月16日発売 ばら売り 10パック レビュー特典付き ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION BOX 30周年 セレブレーション BOX ボックス",
-  "median": 16490,
+  "median": 16445,
   "siteCount": 2,
-  "itemCount": 36
+  "itemCount": 37
  },
  "usedSummary": {
-  "min": 5000,
-  "minSite": "mercari",
-  "minLabel": "メルカリ",
-  "minTitle": "ポケモンカードゲーム 拡張パック アビスアイ 未開封1BOX シュリンク付き",
-  "median": 12827,
+  "min": 5750,
+  "minSite": "yahoo_auction",
+  "minLabel": "Yahoo!オークション",
+  "minTitle": "ポケモンカードゲーム インフェルノX 拡張パック 1BOX シュリンク付き",
+  "median": 12625,
   "siteCount": 2,
-  "itemCount": 34
+  "itemCount": 27
  },
  "history": [
   {
@@ -420,6 +420,19 @@
     "rakuten": 9260,
     "mercari": 5000,
     "yahoo_auction": 7899
+   }
+  },
+  {
+   "date": "2026-11-17",
+   "newMin": 7800,
+   "newMedian": 16445,
+   "usedMin": 5750,
+   "usedMedian": 12625,
+   "sites": {
+    "yahoo_shopping": 7800,
+    "rakuten": 9260,
+    "yahoo_auction": 5750,
+    "mercari": 7499
    }
   }
  ]

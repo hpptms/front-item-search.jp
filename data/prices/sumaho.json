@@ -1,8 +1,8 @@
 {
  "slug": "sumaho",
  "term": "スマホ",
- "date": "2026-11-16",
- "capturedAt": "2026-11-15T20:10:02.922Z",
+ "date": "2026-11-17",
+ "capturedAt": "2026-11-16T20:10:07.445Z",
  "sites": [
   {
    "site": "yahoo_shopping",
@@ -10,9 +10,16 @@
    "used": false,
    "count": 5,
    "min": 20680,
-   "median": 43000,
-   "max": 82880,
+   "median": 34980,
+   "max": 49280,
    "items": [
+    {
+     "title": "Xperia 10 III 128GB Bランク スマホ 本体 SIMフリー 美品 白ロム",
+     "price": 14800,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnicosuma%2Fxperia10iii-128-b.html",
+     "shop": "にこスマ",
+     "used": true
+    },
     {
      "title": "motorola モトローラ moto g05(I) フレッシュラベンダー 本体 SIMフリー PB6N0002JP イオンモバイル",
      "price": 20680,
@@ -26,13 +33,6 @@
      "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnicosuma%2Fpxl-7a-128-b.html",
      "shop": "にこスマ",
      "used": true
-    },
-    {
-     "title": "Xperia 10 V 128GB Aランク スマホ 本体 SIMフリー 美品 白ロム",
-     "price": 28800,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnicosuma%2Fxperia10v-128-a.html",
-     "shop": "にこスマ",
-     "used": true
     }
    ]
   },
@@ -42,8 +42,8 @@
    "used": false,
    "count": 11,
    "min": 20980,
-   "median": 35980,
-   "max": 127900,
+   "median": 37800,
+   "max": 76800,
    "items": [
     {
      "title": "「未開封/未使用/国内版SIMフリー」Galaxy A25 5G 64GB docomo版 au/UQ版 ソフトバンク版 Yモバイル版 SIMフリー版 楽天版 ライトブルー ブルー ブラック 白ロム スマホ 本体 楽天モバイル対応",
@@ -201,65 +201,65 @@
    ]
   },
   {
-   "site": "yahoo_auction",
-   "label": "Yahoo!オークション",
+   "site": "mercari",
+   "label": "メルカリ",
    "used": true,
-   "count": 6,
-   "min": 10000,
-   "median": 18300,
-   "max": 38000,
+   "count": 12,
+   "min": 13000,
+   "median": 30000,
+   "max": 67800,
    "items": [
     {
-     "title": "OPPO Reno3 A 128GB ホワイト SIMフリー 本体 001",
-     "price": 10000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z725004650",
-     "shop": "",
+     "title": "Apple iPhone8 256G SIMフリー(シルバー)美品",
+     "price": 13000,
+     "url": "https://jp.mercari.com/item/m38486200919",
+     "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "１円～OPPO A5 5G/OPG06/4GB/127GB/ホワイト/SIMフリー/中古美品",
-     "price": 11550,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/o1251913380",
-     "shop": "",
+     "title": "1608◇iPhone XR 128GB",
+     "price": 15000,
+     "url": "https://jp.mercari.com/item/m81803116937",
+     "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "SIMフリー docomo Galaxy A25 5G SC-53F 4GB/64GB ブラック 〇判定",
-     "price": 14800,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/j1252312804",
-     "shop": "",
+     "title": "REDMI 15 5G スマホ 4GB/128GB値下げしました",
+     "price": 20200,
+     "url": "https://jp.mercari.com/item/m50089590786",
+     "shop": "メルカリ",
      "used": true
     }
    ]
   },
   {
-   "site": "mercari",
-   "label": "メルカリ",
+   "site": "yahoo_auction",
+   "label": "Yahoo!オークション",
    "used": true,
-   "count": 8,
-   "min": 10500,
-   "median": 28389,
-   "max": 62800,
+   "count": 4,
+   "min": 13973,
+   "median": 59250,
+   "max": 150000,
    "items": [
     {
-     "title": "iPhone SE 第二世代 ブラック SIMフリー",
-     "price": 10500,
-     "url": "https://jp.mercari.com/item/m10842630539",
-     "shop": "メルカリ",
+     "title": "OPPO A 73 64GB SIMフリー 美品 動作確認済",
+     "price": 13973,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/o1252234446",
+     "shop": "",
      "used": true
     },
     {
-     "title": "Google Pixel5 中古品",
-     "price": 20000,
-     "url": "https://jp.mercari.com/item/m13609718285",
-     "shop": "メルカリ",
+     "title": "iPhone 12 Pro 128GB SIMフリー グラファイト 新品未使用 元箱付き",
+     "price": 15500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/g1252596064",
+     "shop": "",
      "used": true
     },
     {
-     "title": "iPhone11ProMax",
-     "price": 23999,
-     "url": "https://jp.mercari.com/item/m28394188258",
-     "shop": "メルカリ",
+     "title": "iPhone16ProMax 256GB Simフリー ブラックチタニウム",
+     "price": 103000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/q1252426275",
+     "shop": "",
      "used": true
     }
    ]
@@ -275,13 +275,13 @@
   "itemCount": 63
  },
  "usedSummary": {
-  "min": 10000,
-  "minSite": "yahoo_auction",
-  "minLabel": "Yahoo!オークション",
-  "minTitle": "OPPO Reno3 A 128GB ホワイト SIMフリー 本体 001",
-  "median": 31595,
+  "min": 13000,
+  "minSite": "mercari",
+  "minLabel": "メルカリ",
+  "minTitle": "Apple iPhone8 256G SIMフリー(シルバー)美品",
+  "median": 36300,
   "siteCount": 4,
-  "itemCount": 27
+  "itemCount": 30
  },
  "history": [
   {
@@ -656,6 +656,24 @@
     "joshin": 77880,
     "yahoo_auction": 10000,
     "mercari": 10500
+   }
+  },
+  {
+   "date": "2026-11-17",
+   "newMin": 20680,
+   "newMedian": 77880,
+   "usedMin": 13000,
+   "usedMedian": 36300,
+   "sites": {
+    "yahoo_shopping": 20680,
+    "rakuten": 20980,
+    "yodobashi": 54340,
+    "sofmap": 57980,
+    "biccamera": 57981,
+    "edion": 59300,
+    "joshin": 77880,
+    "mercari": 13000,
+    "yahoo_auction": 13973
    }
   }
  ]

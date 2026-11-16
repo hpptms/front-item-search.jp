@@ -1,8 +1,8 @@
 {
  "slug": "super-mario-wonder",
  "term": "スーパーマリオ ワンダー",
- "date": "2026-11-16",
- "capturedAt": "2026-11-15T20:10:02.922Z",
+ "date": "2026-11-17",
+ "capturedAt": "2026-11-16T20:10:07.445Z",
  "sites": [
   {
    "site": "rakuten",
@@ -40,10 +40,10 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 17,
+   "count": 16,
    "min": 3103,
-   "median": 7312,
-   "max": 8000,
+   "median": 7039,
+   "max": 8140,
    "items": [
     {
      "title": "Switch／スーパーマリオブラザーズ ワンダー",
@@ -154,18 +154,11 @@
    "site": "biccamera",
    "label": "ビックカメラ",
    "used": false,
-   "count": 2,
-   "min": 6240,
-   "median": 9365,
+   "count": 1,
+   "min": 12490,
+   "median": 12490,
    "max": 12490,
    "items": [
-    {
-     "title": "任天堂｜Nintendo スーパーマリオブラザーズ ワンダー",
-     "price": 6240,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4902370551587%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F14214863%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "楽天ビック(ビックカメラ×楽天)",
-     "used": false
-    },
     {
      "title": "任天堂｜Nintendo 『スーパーマリオブラザーズ ワンダー・ピクミン4』ダブルパック",
      "price": 12490,
@@ -179,11 +172,18 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 16,
-   "min": 2780,
-   "median": 2965,
-   "max": 6333,
+   "count": 17,
+   "min": 2700,
+   "median": 3000,
+   "max": 5800,
    "items": [
+    {
+     "title": "Nintendo Switch スーパーマリオブラザーズ ワンダー",
+     "price": 2700,
+     "url": "https://jp.mercari.com/item/m87143934259",
+     "shop": "メルカリ",
+     "used": true
+    },
     {
      "title": "スーパーマリオブラザーズ ワンダー Switch ソフト",
      "price": 2780,
@@ -192,16 +192,9 @@
      "used": true
     },
     {
-     "title": "Nintendo Switch スーパーマリオブラザーズ ワンダー",
-     "price": 2900,
-     "url": "https://jp.mercari.com/item/m56324505779",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "スーパーマリオブラザーズ ワンダー Switch ソフト",
-     "price": 2900,
-     "url": "https://jp.mercari.com/item/m14931726033",
+     "title": "スーパーマリオブラザーズ ワンダー Nintendo Switch",
+     "price": 2800,
+     "url": "https://jp.mercari.com/item/m16216131656",
      "shop": "メルカリ",
      "used": true
     }
@@ -211,29 +204,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 7,
-   "min": 2900,
-   "median": 2980,
-   "max": 3220,
+   "count": 8,
+   "min": 2950,
+   "median": 3150,
+   "max": 6000,
    "items": [
-    {
-     "title": "Nintendo Switch スーパーマリオブラザーズ ワンダー",
-     "price": 2900,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z720904582",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "Nintendo Switch スーパーマリオブラザーズ ワンダー",
-     "price": 2950,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z724578130",
-     "shop": "",
-     "used": true
-    },
     {
      "title": "Nintendo Switch スーパーマリオブラザーズ ワンダー",
      "price": 2950,
      "url": "https://auctions.yahoo.co.jp/jp/auction/z711069190",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "Nintendo Switch スーパーマリオブラザーズ ワンダー ソフト",
+     "price": 2980,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/n1252447180",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "即日発送可能Switch☆スーパーマリオブラザーズ ワンダー パッケージ版",
+     "price": 2999,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z725509430",
      "shop": "",
      "used": true
     }
@@ -245,18 +238,18 @@
   "minSite": "rakuten",
   "minLabel": "楽天市場",
   "minTitle": "Switch スーパーマリオブラザーズ ワンダー (ニンテンドースイッチ)",
-  "median": 6973,
+  "median": 6890,
   "siteCount": 6,
-  "itemCount": 44
+  "itemCount": 42
  },
  "usedSummary": {
-  "min": 2780,
+  "min": 2700,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "スーパーマリオブラザーズ ワンダー Switch ソフト",
-  "median": 2973,
+  "minTitle": "Nintendo Switch スーパーマリオブラザーズ ワンダー",
+  "median": 3075,
   "siteCount": 2,
-  "itemCount": 23
+  "itemCount": 25
  },
  "history": [
   {
@@ -611,6 +604,23 @@
     "biccamera": 6240,
     "mercari": 2780,
     "yahoo_auction": 2900
+   }
+  },
+  {
+   "date": "2026-11-17",
+   "newMin": 3103,
+   "newMedian": 6890,
+   "usedMin": 2700,
+   "usedMedian": 3075,
+   "sites": {
+    "rakuten": 3103,
+    "yahoo_shopping": 3103,
+    "edion": 5780,
+    "joshin": 5880,
+    "yodobashi": 6110,
+    "biccamera": 12490,
+    "mercari": 2700,
+    "yahoo_auction": 2950
    }
   }
  ]

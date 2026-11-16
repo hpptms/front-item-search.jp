@@ -1,8 +1,8 @@
 {
  "slug": "comic-set",
  "term": "コミック 全巻セット",
- "date": "2026-11-16",
- "capturedAt": "2026-11-15T20:10:02.922Z",
+ "date": "2026-11-17",
+ "capturedAt": "2026-11-16T20:10:07.445Z",
  "sites": [
   {
    "site": "rakuten",
@@ -22,7 +22,7 @@
     },
     {
      "title": "バガボンド ＜1〜37巻＞ 井上 雄彦",
-     "price": 6600,
+     "price": 6550,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcomicset%2F10000341%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcomicset%2Fi%2F10000341%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "もったいない本舗 楽天市場店",
      "used": false
@@ -42,8 +42,8 @@
    "used": false,
    "count": 20,
    "min": 7436,
-   "median": 13849,
-   "max": 41225,
+   "median": 14388,
+   "max": 41316,
    "items": [
     {
      "title": "新品 / 鬼の花嫁 (1-10巻 最新刊) 全巻セット",
@@ -60,9 +60,9 @@
      "used": false
     },
     {
-     "title": "新品 / ヤニねこ (1-14巻 最新刊) 全巻セット",
-     "price": 10890,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmangazenkan%2Fm3560420532.html",
+     "title": "1月上旬より発送予定 / 新品 / ちいかわ なんか小さくてかわいいやつ (1-8巻 最新刊) 全巻セット / 入荷予約",
+     "price": 11220,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmangazenkan%2Fm2560436932.html",
      "shop": "漫画全巻ドットコム Yahoo!ショッピング店",
      "used": false
     }
@@ -90,10 +90,10 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 13,
+   "count": 11,
    "min": 2000,
-   "median": 2917,
-   "max": 8064,
+   "median": 2750,
+   "max": 8525,
    "items": [
     {
      "title": "唇役主丞 乾いて候 全巻セット 小池一夫 小島剛夕 送料無料",
@@ -103,16 +103,16 @@
      "used": true
     },
     {
-     "title": "なのに、千輝くんが甘すぎる。 全巻セット",
-     "price": 2250,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/f1252391345",
+     "title": "食戟のソーマ 1巻～36巻 佐伯俊 ジャンプコミックス -送料無料 コミックセット-",
+     "price": 2200,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/n1252055547",
      "shop": "",
      "used": true
     },
     {
-     "title": "全巻セット あさきゆめみし(文庫版)ボックスセット[2］",
-     "price": 2440,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/w1251533851",
+     "title": "オリエント 1巻～22巻 大高忍 -送料無料 コミックセット-",
+     "price": 2200,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/s1251860439",
      "shop": "",
      "used": true
     }
@@ -122,29 +122,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 14,
-   "min": 2555,
-   "median": 4600,
-   "max": 15000,
+   "count": 15,
+   "min": 2222,
+   "median": 4950,
+   "max": 15900,
    "items": [
     {
-     "title": "性別「モナリザ」の君へ。 1巻～10巻 全巻セット",
-     "price": 2555,
-     "url": "https://jp.mercari.com/item/m51880408599",
+     "title": "約束のネバーランド 全巻セット 1-20巻",
+     "price": 2222,
+     "url": "https://jp.mercari.com/item/m92194608753",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "20世紀少年 全22巻＋21世紀少年 上下巻 全巻セット 浦沢直樹",
-     "price": 2666,
-     "url": "https://jp.mercari.com/item/m57159837635",
+     "title": "東京喰種トーキョーグール 1-14巻 コミックセット 漫画",
+     "price": 2999,
+     "url": "https://jp.mercari.com/item/m12364124409",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "鬼滅の刃 全巻セット 1-23巻",
-     "price": 2811,
-     "url": "https://jp.mercari.com/item/m44578917647",
+     "title": "ふたりで恋をする理由 1〜12巻 全巻セット",
+     "price": 3100,
+     "url": "https://jp.mercari.com/item/m76991190549",
      "shop": "メルカリ",
      "used": true
     }
@@ -165,9 +165,9 @@
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
   "minTitle": "唇役主丞 乾いて候 全巻セット 小池一夫 小島剛夕 送料無料",
-  "median": 3759,
+  "median": 3850,
   "siteCount": 2,
-  "itemCount": 27
+  "itemCount": 26
  },
  "history": [
   {
@@ -471,6 +471,20 @@
     "biccamera": 20900,
     "yahoo_auction": 2000,
     "mercari": 2555
+   }
+  },
+  {
+   "date": "2026-11-17",
+   "newMin": 5950,
+   "newMedian": 19118,
+   "usedMin": 2000,
+   "usedMedian": 3850,
+   "sites": {
+    "rakuten": 5950,
+    "yahoo_shopping": 7436,
+    "biccamera": 20900,
+    "yahoo_auction": 2000,
+    "mercari": 2222
    }
   }
  ]
