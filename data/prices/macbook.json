@@ -1,27 +1,9 @@
 {
  "slug": "macbook",
  "term": "MacBook",
- "date": "2026-11-17",
- "capturedAt": "2026-11-16T20:10:07.445Z",
+ "date": "2026-11-18",
+ "capturedAt": "2026-11-17T20:10:03.510Z",
  "sites": [
-  {
-   "site": "joshin",
-   "label": "ジョーシン",
-   "used": false,
-   "count": 1,
-   "min": 90728,
-   "median": 90728,
-   "max": 90728,
-   "items": [
-    {
-     "title": "BenQ｜ベンキュー クリエイター液晶ディスプレイ(27型/IPS/4K UHD 3840×2160/60Hz/5ms/HDR400/HDMI2.0/USB Type-C/VESA/3年間センドバック保証)(シルバー) MacBook向け4",
-     "price": 90728,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4544438016777-44-25529-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14557850%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "Joshin web 家電とPCの大型専門店",
-     "used": false
-    }
-   ]
-  },
   {
    "site": "rakuten",
    "label": "楽天市場",
@@ -58,10 +40,10 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 7,
-   "min": 118000,
-   "median": 150980,
-   "max": 419980,
+   "count": 6,
+   "min": 113037,
+   "median": 134000,
+   "max": 199120,
    "items": [
     {
      "title": "マックブック 中古 Apple MacBook/Air/Pro11〜15インチ Intel Core i5/i7/m3/m5/m7(第4〜7世代)メモリ8/16GB SSD128/256GB シルバ/グレー WIFI/Bluetooth/カ",
@@ -103,16 +85,16 @@
      "used": false
     },
     {
-     "title": "MacBook Neo 13インチ Apple A18 Proチップ/SSD 512GB/メモリ 8GB/Touch ID搭載Magic Keyboard インディゴ MHFG4J/A",
+     "title": "MacBook Neo 13インチ Apple A18 Proチップ/SSD 512GB/メモリ 8GB/Touch ID搭載Magic Keyboard ブラッシュ MHFJ4J/A",
      "price": 137800,
-     "url": "https://www.yodobashi.com/product/100000001009758047/",
+     "url": "https://www.yodobashi.com/product/100000001009758049/",
      "shop": "",
      "used": false
     },
     {
-     "title": "MacBook Neo 13インチ Apple A18 Proチップ/SSD 512GB/メモリ 8GB/Touch ID搭載Magic Keyboard ブラッシュ MHFJ4J/A",
+     "title": "MacBook Neo 13インチ Apple A18 Proチップ/SSD 512GB/メモリ 8GB/Touch ID搭載Magic Keyboard シトラス MHFE4J/A",
      "price": 137800,
-     "url": "https://www.yodobashi.com/product/100000001009758049/",
+     "url": "https://www.yodobashi.com/product/100000001009758045/",
      "shop": "",
      "used": false
     }
@@ -122,29 +104,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 14,
-   "min": 26000,
-   "median": 56000,
-   "max": 144000,
+   "count": 10,
+   "min": 28000,
+   "median": 31500,
+   "max": 52000,
    "items": [
-    {
-     "title": "MacBook",
-     "price": 26000,
-     "url": "https://jp.mercari.com/item/m66506562202",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "美品！MacBook Air Retina 2018 8GB 250GB✴︎箱無し",
-     "price": 26000,
-     "url": "https://jp.mercari.com/item/m31300639260",
-     "shop": "メルカリ",
-     "used": true
-    },
     {
      "title": "Apple MacBook Air 13インチ 本体のみ 色ゴールド",
      "price": 28000,
      "url": "https://jp.mercari.com/item/m22258414913",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "MacBook Air M1 8GB 256GB 液晶故障 箱・HDMI変換付",
+     "price": 29800,
+     "url": "https://jp.mercari.com/item/m81794013862",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "MacBook Air 2019年モデル 13インチ",
+     "price": 30000,
+     "url": "https://jp.mercari.com/item/m27991864868",
      "shop": "メルカリ",
      "used": true
     }
@@ -154,29 +136,22 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 13,
-   "min": 29150,
-   "median": 45650,
-   "max": 113300,
+   "count": 2,
+   "min": 34375,
+   "median": 67238,
+   "max": 100100,
    "items": [
     {
-     "title": "Apple MacBook Pro (13インチ, M1, 2020) M1/16GB/512GB/13.3Retina/macOS11.* ★1円開始★",
-     "price": 29150,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/m1252057780",
+     "title": "Apple MacBook Pro 14インチ M1 Pro/32GB/1TB/14.2Retina/macOS10以降 ★1円開始★",
+     "price": 34375,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/c1252546347",
      "shop": "",
      "used": true
     },
     {
-     "title": "Apple MacBookPro14インチ M3 Max/36GB/1TB/14.2Retina/macOS1* ★1円開始★",
-     "price": 33550,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/t1252556557",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "Apple MacBook Air 13インチ M2/16GB/512GB/13.6Retina/macOS10以降 ★1円開始★",
-     "price": 34650,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/l1252568054",
+     "title": "Apple MacBook Pro 16インチ M1 Max/32GB/1TB/16.2Retina/macOS1* ★1円開始★",
+     "price": 100100,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/t1252555567",
      "shop": "",
      "used": true
     }
@@ -184,22 +159,22 @@
   }
  ],
  "newSummary": {
-  "min": 90728,
-  "minSite": "joshin",
-  "minLabel": "ジョーシン",
-  "minTitle": "BenQ｜ベンキュー クリエイター液晶ディスプレイ(27型/IPS/4K UHD 3840×2160/60Hz/5ms/HDR400/HDMI2.0/USB Type-C/VESA/3年間センドバック保証)(シルバー) MacBook向け4",
-  "median": 146848,
-  "siteCount": 4,
-  "itemCount": 35
+  "min": 112800,
+  "minSite": "rakuten",
+  "minLabel": "楽天市場",
+  "minTitle": "Apple アップル 13.6インチ MacBook Air Liquid Retinaディスプレイ M3チップ 8コアCPUと8コアGPU/ メモリ 8GB/ SSD 256GB/ 日本語キーボード/ MRXV3J/A ミッドナイト",
+  "median": 142715,
+  "siteCount": 3,
+  "itemCount": 33
  },
  "usedSummary": {
-  "min": 26000,
-  "minSite": "mercari",
-  "minLabel": "メルカリ",
-  "minTitle": "MacBook",
-  "median": 50825,
+  "min": 26800,
+  "minSite": "yahoo_shopping",
+  "minLabel": "Yahoo!ショッピング",
+  "minTitle": "マックブック 中古 Apple MacBook/Air/Pro11〜15インチ Intel Core i5/i7/m3/m5/m7(第4〜7世代)メモリ8/16GB SSD128/256GB シルバ/グレー WIFI/Bluetooth/カ",
+  "median": 56019,
   "siteCount": 4,
-  "itemCount": 36
+  "itemCount": 22
  },
  "history": [
   {
@@ -509,6 +484,20 @@
     "yodobashi": 119800,
     "mercari": 26000,
     "yahoo_auction": 29150
+   }
+  },
+  {
+   "date": "2026-11-18",
+   "newMin": 112800,
+   "newMedian": 142715,
+   "usedMin": 26800,
+   "usedMedian": 56019,
+   "sites": {
+    "rakuten": 112800,
+    "yahoo_shopping": 113037,
+    "yodobashi": 119800,
+    "mercari": 28000,
+    "yahoo_auction": 34375
    }
   }
  ]

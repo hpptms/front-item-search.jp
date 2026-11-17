@@ -1,8 +1,8 @@
 {
  "slug": "pokemon-sv",
  "term": "ポケモン スカーレット・バイオレット",
- "date": "2026-11-17",
- "capturedAt": "2026-11-16T20:10:07.445Z",
+ "date": "2026-11-18",
+ "capturedAt": "2026-11-17T20:10:03.510Z",
  "sites": [
   {
    "site": "yodobashi",
@@ -83,22 +83,15 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 3,
-   "min": 3490,
-   "median": 4480,
+   "count": 2,
+   "min": 3899,
+   "median": 5300,
    "max": 6700,
    "items": [
     {
-     "title": "Nintendo Switch ポケットモンスター スカーレット・バイオレット ゼロの秘宝 追加コンテンツ",
-     "price": 3490,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/e1252462168",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "多機能マクロコントローラー マイコン ポケットモンスター スカーレット バイオレット ポケモンSV",
-     "price": 4480,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z725353544",
+     "title": "ポケットモンスター スカーレット・バイオレット 追加コンテンツ ゼロの秘宝&ひこうき ２点",
+     "price": 3899,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z726007840",
      "shop": "",
      "used": true
     },
@@ -115,9 +108,9 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 4,
+   "count": 3,
    "min": 4000,
-   "median": 7025,
+   "median": 7250,
    "max": 8500,
    "items": [
     {
@@ -129,15 +122,15 @@
     },
     {
      "title": "ポケットモンスター スカーレット・バイオレット Switch ソフト",
-     "price": 6800,
-     "url": "https://jp.mercari.com/item/m40488063631",
+     "price": 7250,
+     "url": "https://jp.mercari.com/item/m83170256639",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "ポケットモンスター スカーレット・バイオレット Switch ソフト",
-     "price": 7250,
-     "url": "https://jp.mercari.com/item/m83170256639",
+     "title": "ポケットモンスター バイオレット＆スカーレットswitch★配送補償付き",
+     "price": 8500,
+     "url": "https://jp.mercari.com/item/m44843656189",
      "shop": "メルカリ",
      "used": true
     }
@@ -154,13 +147,13 @@
   "itemCount": 8
  },
  "usedSummary": {
-  "min": 3490,
+  "min": 3899,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "Nintendo Switch ポケットモンスター スカーレット・バイオレット ゼロの秘宝 追加コンテンツ",
-  "median": 5753,
+  "minTitle": "ポケットモンスター スカーレット・バイオレット 追加コンテンツ ゼロの秘宝&ひこうき ２点",
+  "median": 6275,
   "siteCount": 2,
-  "itemCount": 7
+  "itemCount": 5
  },
  "history": [
   {
@@ -462,6 +455,20 @@
     "rakuten": 3500,
     "yahoo_shopping": 6052,
     "yahoo_auction": 3490,
+    "mercari": 4000
+   }
+  },
+  {
+   "date": "2026-11-18",
+   "newMin": 3460,
+   "newMedian": 6052,
+   "usedMin": 3899,
+   "usedMedian": 6275,
+   "sites": {
+    "yodobashi": 3460,
+    "rakuten": 3500,
+    "yahoo_shopping": 6052,
+    "yahoo_auction": 3899,
     "mercari": 4000
    }
   }
