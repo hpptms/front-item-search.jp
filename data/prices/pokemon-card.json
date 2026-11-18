@@ -1,16 +1,16 @@
 {
  "slug": "pokemon-card",
  "term": "ポケモンカード",
- "date": "2026-11-18",
- "capturedAt": "2026-11-17T20:10:03.510Z",
+ "date": "2026-11-19",
+ "capturedAt": "2026-11-18T20:10:06.884Z",
  "sites": [
   {
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 20,
+   "count": 19,
    "min": 7800,
-   "median": 10620,
+   "median": 10400,
    "max": 25800,
    "items": [
     {
@@ -21,17 +21,17 @@
      "used": false
     },
     {
-     "title": "シュリンク付 新品未開封 ポケモンカードゲーム MEGA 拡張パック メガシンフォニア １BOX",
-     "price": 8680,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsuekichi-shouten%2Fpoke-megas.html",
-     "shop": "末吉商店",
-     "used": false
-    },
-    {
      "title": "シュリンクつき ポケモンカードゲーム メガシンフォニア ポケカ MEGA メガ 拡張パック BOX 新品 未開封 お一人様3点まで",
      "price": 9000,
      "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fhrco%2Fpkc-symphonia.html",
      "shop": "HRCO Yahoo!店",
+     "used": false
+    },
+    {
+     "title": "ポケモンカードゲーム ストームエメラルダ BOX MEGA 拡張パック 新品未開封 シュリンク付き",
+     "price": 9380,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fevalue-omochayasan%2F4521329462233.html",
+     "shop": "イーバリューYahoo!店",
      "used": false
     }
    ]
@@ -42,7 +42,7 @@
    "used": false,
    "count": 17,
    "min": 9260,
-   "median": 19800,
+   "median": 21960,
    "max": 109800,
    "items": [
     {
@@ -72,29 +72,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 17,
-   "min": 5100,
-   "median": 9500,
-   "max": 39800,
+   "count": 15,
+   "min": 5555,
+   "median": 8200,
+   "max": 18400,
    "items": [
     {
-     "title": "ポケモンカードゲーム 拡張パック メガシンフォニア BOX",
-     "price": 5100,
-     "url": "https://jp.mercari.com/item/m99597325412",
+     "title": "ポケモンカードゲーム MEGA アビスアイ 1BOX分",
+     "price": 5555,
+     "url": "https://jp.mercari.com/item/m81931793927",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "ポケモンカードゲーム 拡張パックメガシンフォニア 未開封シュリンク付き 1BOX",
-     "price": 5600,
-     "url": "https://jp.mercari.com/item/m79607976603",
+     "title": "ポケモンカードゲーム メガブレイブ 拡張パック 1BOX ペリなし",
+     "price": 5666,
+     "url": "https://jp.mercari.com/item/m51151925459",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "ポケモンカードゲーム 拡張パック ムニキスゼロ BOX",
-     "price": 7200,
-     "url": "https://jp.mercari.com/item/m49922250146",
+     "title": "メガシンフォニア 1BOX シュリンクなし ペリペリあり",
+     "price": 6500,
+     "url": "https://jp.mercari.com/item/m47528741386",
      "shop": "メルカリ",
      "used": true
     }
@@ -105,28 +105,28 @@
    "label": "Yahoo!オークション",
    "used": true,
    "count": 16,
-   "min": 6000,
-   "median": 18050,
-   "max": 84100,
+   "min": 7000,
+   "median": 16530,
+   "max": 100000,
    "items": [
     {
-     "title": "ポケモンカードゲーム スカーレット＆バイオレット 拡張パック バトルパートナーズ 1BOX シュリンク付き",
-     "price": 6000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/w1250601405",
+     "title": "ポケモンカードゲーム 拡張パック MEGA 30CELEBRATION 1BOX分",
+     "price": 7000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/b1250653453",
      "shop": "",
      "used": true
     },
     {
-     "title": "ポケモンカード 30th CELEBRATION 韓国語版 1BOX 新品未開封 シュリンク付き 30周年",
-     "price": 7200,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/b1252744909",
+     "title": "ポケモンカードゲーム 拡張パック メガブレイブ 1BOX シュリンク付き未開封",
+     "price": 7750,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/b1252803079",
      "shop": "",
      "used": true
     },
     {
-     "title": "ポケモンカードゲーム 黒炎の支配者 拡張パック 1BOX シュリンク付き",
-     "price": 7400,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/x1252695177",
+     "title": "ポケモンカードゲーム スターバース 拡張パック 1BOX シュリンク付き",
+     "price": 8600,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/1252804745",
      "shop": "",
      "used": true
     }
@@ -138,18 +138,18 @@
   "minSite": "yahoo_shopping",
   "minLabel": "Yahoo!ショッピング",
   "minTitle": "9月16日発売 ばら売り 10パック レビュー特典付き ポケモンカードゲーム MEGA 拡張パック 30th CELEBRATION BOX 30周年 セレブレーション BOX ボックス",
-  "median": 15210,
+  "median": 16180,
   "siteCount": 2,
-  "itemCount": 37
+  "itemCount": 36
  },
  "usedSummary": {
-  "min": 5100,
+  "min": 5555,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "ポケモンカードゲーム 拡張パック メガシンフォニア BOX",
-  "median": 13775,
+  "minTitle": "ポケモンカードゲーム MEGA アビスアイ 1BOX分",
+  "median": 12365,
   "siteCount": 2,
-  "itemCount": 33
+  "itemCount": 31
  },
  "history": [
   {
@@ -446,6 +446,19 @@
     "rakuten": 9260,
     "mercari": 5100,
     "yahoo_auction": 6000
+   }
+  },
+  {
+   "date": "2026-11-19",
+   "newMin": 7800,
+   "newMedian": 16180,
+   "usedMin": 5555,
+   "usedMedian": 12365,
+   "sites": {
+    "yahoo_shopping": 7800,
+    "rakuten": 9260,
+    "mercari": 5555,
+    "yahoo_auction": 7000
    }
   }
  ]

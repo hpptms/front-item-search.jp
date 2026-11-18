@@ -1,8 +1,8 @@
 {
  "slug": "used-pc",
  "term": "中古PC",
- "date": "2026-11-18",
- "capturedAt": "2026-11-17T20:10:03.510Z",
+ "date": "2026-11-19",
+ "capturedAt": "2026-11-18T20:10:06.884Z",
  "sites": [
   {
    "site": "yahoo_shopping",
@@ -11,7 +11,7 @@
    "count": 17,
    "min": 12800,
    "median": 24500,
-   "max": 57860,
+   "max": 49830,
    "items": [
     {
      "title": "中古ノートパソコン Windows11 MicrosoftOffice2024 NEC VersaPro VKT16 第8世代 Core i5 メモリ4GB SSD128GB 15.6型 Webカメラ HDMI 無線LAN USB3.0 B",
@@ -46,14 +46,14 @@
    "max": 29800,
    "items": [
     {
-     "title": "初期設定済み｜充実機能 ノートパソコン 中古 第七世代/八世代Core i5 アウトレット 最大メモリ32GB 新品SSD2TB 大画面15.6型液晶 HDMI付き 中古パソコン オフィス付き MicrosoftOffice2024可 Wi",
-     "price": 19999,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpc-eco2000%2F20213150%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpc-eco2000%2Fi%2F10000086%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "パソコン専門店pc-eco",
+     "title": "MS Office 2024 H&B 搭載｜14型 WEBカメラ 指紋認証 搭載モデル｜中古 ノートパソコン Windows11 Office 付き｜Dell Latitude 5400｜Core i5 第8世代 以降 1.60GHz 4コ",
+     "price": 24800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fupc1114%2F10006179%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fupc1114%2Fi%2F10006382%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "中古パソコン 遼南商店",
      "used": true
     },
     {
-     "title": "ノートパソコン 中古｜第8世代 Windows11 office付｜スタンダードランク｜最大3年保証｜楽天1位 三冠獲得｜豪華特典付き｜中古ノートパソコン｜Corei5 第8世代｜15.6型｜Microsoft office2019搭載｜ノ",
+     "title": "超得2,500円OFF｜ノートパソコン 中古｜第8世代 Windows11 office付｜スタンダードランク｜最大3年保証｜楽天1位 三冠獲得｜豪華特典付き｜中古ノートパソコン｜Corei5 第8世代｜15.6型｜Microsoft of",
      "price": 27800,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpc-smile%2Fnp_omakase_ms%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpc-smile%2Fi%2F10000182%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "PCスマイル",
@@ -122,10 +122,10 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 12,
+   "count": 13,
    "min": 11000,
-   "median": 19100,
-   "max": 34000,
+   "median": 15800,
+   "max": 55000,
    "items": [
     {
      "title": "FUJITSU 富士通 AH45/B2",
@@ -135,16 +135,16 @@
      "used": true
     },
     {
-     "title": "8インチUMPC ミニノートPC / Windows11 Pro /タッチパネル",
+     "title": "富士通 LIFEBOOK A5510/FX第10世代CPUで快適",
      "price": 12000,
-     "url": "https://jp.mercari.com/item/m53291664989",
+     "url": "https://jp.mercari.com/item/m92429409724",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "NEC ノートパソコン Windows11 メモリ8GB SSD 大画面",
-     "price": 14800,
-     "url": "https://jp.mercari.com/item/m39664179406",
+     "title": "NEC ノートパソコン Windows11 8GB 128GB",
+     "price": 13000,
+     "url": "https://jp.mercari.com/item/m69574971279",
      "shop": "メルカリ",
      "used": true
     }
@@ -154,29 +154,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 10,
-   "min": 16900,
+   "count": 12,
+   "min": 14900,
    "median": 28500,
    "max": 65000,
    "items": [
     {
+     "title": "第10世代 中古品 富士通 ノートパソコン SSD256G office2021 ⑨",
+     "price": 14900,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/x1251587246",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "中古品 富士通 LIFEBOOK U9311/F Core i5-1145G7 8GB SSD256GB Win11",
+     "price": 15000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/l1251752035",
+     "shop": "",
+     "used": true
+    },
+    {
      "title": "FUJITSU LIFEBOOK A749/A FMVA61013 中古パソコン i5第8世代 ノートPC Core i5-8365U メモリ8GB SSD256GB 15.6 i5 8th gen laptop",
      "price": 16900,
      "url": "https://auctions.yahoo.co.jp/jp/auction/o1252435136",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "中古パソコンLENOVO ThinkPad L13Gen3/第12世代Core i5-1235U/メモリ16GB/SSD256GB/13.3型/Win11Pro ８",
-     "price": 20000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/m1252718655",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "ノートパソコン中古 FUJITSU LIFEBOOK AH53/C2 FMVA53C2WK i7第8世代 ノートPC Core i7-8550U メモリ 8GB SSD 300GB 15.6 フルHD LAPTOP",
-     "price": 20348,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/v1251392631",
      "shop": "",
      "used": true
     }
@@ -199,7 +199,7 @@
   "minTitle": "FUJITSU 富士通 AH45/B2",
   "median": 26500,
   "siteCount": 4,
-  "itemCount": 57
+  "itemCount": 61
  },
  "history": [
   {
@@ -531,6 +531,21 @@
     "yodobashi": 64800,
     "mercari": 11000,
     "yahoo_auction": 16900
+   }
+  },
+  {
+   "date": "2026-11-19",
+   "newMin": 29800,
+   "newMedian": 47165,
+   "usedMin": 11000,
+   "usedMedian": 26500,
+   "sites": {
+    "yahoo_shopping": 12800,
+    "rakuten": 29800,
+    "sofmap": 47165,
+    "yodobashi": 64800,
+    "mercari": 11000,
+    "yahoo_auction": 14900
    }
   }
  ]

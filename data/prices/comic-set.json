@@ -1,50 +1,25 @@
 {
  "slug": "comic-set",
  "term": "コミック 全巻セット",
- "date": "2026-11-18",
- "capturedAt": "2026-11-17T20:10:03.510Z",
+ "date": "2026-11-19",
+ "capturedAt": "2026-11-18T20:10:06.884Z",
  "sites": [
-  {
-   "site": "rakuten",
-   "label": "楽天市場",
-   "used": false,
-   "count": 8,
-   "min": 5950,
-   "median": 14759,
-   "max": 43868,
-   "items": [
-    {
-     "title": "封神演義 ＜1〜23巻完結＞ 藤崎竜",
-     "price": 5950,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcomicset%2F10000309%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcomicset%2Fi%2F10000309%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "もったいない本舗 楽天市場店",
-     "used": false
-    },
-    {
-     "title": "バガボンド ＜1〜37巻＞ 井上 雄彦",
-     "price": 6550,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcomicset%2F10000341%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcomicset%2Fi%2F10000341%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "もったいない本舗 楽天市場店",
-     "used": false
-    },
-    {
-     "title": "約束のネバーランド 全巻セット(1-20巻) （ジャンプコミックス） [ 出水 ぽすか ]",
-     "price": 9724,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F16769026%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbook%2Fi%2F20380490%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "楽天ブックス",
-     "used": false
-    }
-   ]
-  },
   {
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
    "count": 20,
-   "min": 7436,
-   "median": 13849,
+   "min": 4125,
+   "median": 13514,
    "max": 41225,
    "items": [
+    {
+     "title": "新品 / ナガノのくまの本 (1-3巻 最新刊) 全巻セット",
+     "price": 4125,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmangazenkan%2Fm3560425520.html",
+     "shop": "漫画全巻ドットコム Yahoo!ショッピング店",
+     "used": false
+    },
     {
      "title": "新品 / 鬼の花嫁 (1-10巻 最新刊) 全巻セット",
      "price": 7436,
@@ -58,12 +33,37 @@
      "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbooks-sanseido%2F9784098521470-set.html",
      "shop": "三省堂書店 Yahoo!ショッピング店",
      "used": false
+    }
+   ]
+  },
+  {
+   "site": "rakuten",
+   "label": "楽天市場",
+   "used": false,
+   "count": 7,
+   "min": 5150,
+   "median": 9724,
+   "max": 21912,
+   "items": [
+    {
+     "title": "新宿スワン ＜1〜38巻完結＞ 和久井健",
+     "price": 5150,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcomicset%2F10000681%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcomicset%2Fi%2F10000681%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "もったいない本舗 楽天市場店",
+     "used": false
     },
     {
-     "title": "新品 / 天上の虹 持統天皇物語 [文庫版] (1-11巻 全巻) 全巻セット",
-     "price": 10890,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmangazenkan%2Fte-61.html",
-     "shop": "漫画全巻ドットコム Yahoo!ショッピング店",
+     "title": "封神演義 ＜1〜23巻完結＞ 藤崎竜",
+     "price": 5950,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcomicset%2F10000309%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcomicset%2Fi%2F10000309%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "もったいない本舗 楽天市場店",
+     "used": false
+    },
+    {
+     "title": "バガボンド ＜1〜37巻＞ 井上 雄彦",
+     "price": 6550,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcomicset%2F10000341%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcomicset%2Fi%2F10000341%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "もったいない本舗 楽天市場店",
      "used": false
     }
    ]
@@ -90,29 +90,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 14,
+   "count": 8,
    "min": 2000,
-   "median": 5299,
-   "max": 12500,
+   "median": 5350,
+   "max": 10000,
    "items": [
     {
-     "title": "鬼滅の刃 全巻",
+     "title": "はねバド！ 全巻セット",
      "price": 2000,
-     "url": "https://jp.mercari.com/item/m59720076243",
+     "url": "https://jp.mercari.com/item/m67088556872",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "ふたりで恋をする理由 1〜12巻 全巻セット",
-     "price": 2650,
-     "url": "https://jp.mercari.com/item/m76991190549",
+     "title": "いちご100% 全巻セット（1~19巻）初版多数",
+     "price": 2580,
+     "url": "https://jp.mercari.com/item/m53988830289",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "蟲師 全巻セット 1-10巻",
-     "price": 2999,
-     "url": "https://jp.mercari.com/item/m31175015220",
+     "title": "ぼくたちは勉強ができない 全巻",
+     "price": 3000,
+     "url": "https://jp.mercari.com/item/m59795278673",
      "shop": "メルカリ",
      "used": true
     }
@@ -123,28 +123,28 @@
    "label": "Yahoo!オークション",
    "used": true,
    "count": 13,
-   "min": 2200,
-   "median": 2750,
-   "max": 10000,
+   "min": 2000,
+   "median": 2200,
+   "max": 3300,
    "items": [
     {
-     "title": "アイアムアヒーロー 1巻～22巻 花沢健吾 -送料無料 コミックセット-",
-     "price": 2200,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/m1251989082",
+     "title": "唇役主丞 乾いて候 全巻セット 小池一夫 小島剛夕 送料無料",
+     "price": 2000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/k1252258682",
      "shop": "",
      "used": true
     },
     {
-     "title": "食戟のソーマ 1巻～36巻 佐伯俊 ジャンプコミックス -送料無料 コミックセット-",
-     "price": 2200,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/n1252055547",
+     "title": "ジャンプ・コミックス「幽遊白書」冨樫義博 1巻〜19巻 全巻セット ※初版なし コレクション 中古 現状品",
+     "price": 2000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/x1251882555",
      "shop": "",
      "used": true
     },
     {
-     "title": "ニセコイ 1巻～25巻+1冊 古味直志 -送料無料 コミックセット-",
-     "price": 2200,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/b1249966061",
+     "title": "沖01 東京卍リベンジャーズ全巻セット 講談社 マガジンコミックス 和久井健",
+     "price": 2000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/x1252435780",
      "shop": "",
      "used": true
     }
@@ -152,22 +152,22 @@
   }
  ],
  "newSummary": {
-  "min": 5950,
-  "minSite": "rakuten",
-  "minLabel": "楽天市場",
-  "minTitle": "封神演義 ＜1〜23巻完結＞ 藤崎竜",
-  "median": 14759,
+  "min": 4125,
+  "minSite": "yahoo_shopping",
+  "minLabel": "Yahoo!ショッピング",
+  "minTitle": "新品 / ナガノのくまの本 (1-3巻 最新刊) 全巻セット",
+  "median": 13514,
   "siteCount": 3,
-  "itemCount": 29
+  "itemCount": 28
  },
  "usedSummary": {
   "min": 2000,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "鬼滅の刃 全巻",
-  "median": 4025,
+  "minTitle": "はねバド！ 全巻セット",
+  "median": 3775,
   "siteCount": 2,
-  "itemCount": 27
+  "itemCount": 21
  },
  "history": [
   {
@@ -499,6 +499,20 @@
     "biccamera": 20900,
     "mercari": 2000,
     "yahoo_auction": 2200
+   }
+  },
+  {
+   "date": "2026-11-19",
+   "newMin": 4125,
+   "newMedian": 13514,
+   "usedMin": 2000,
+   "usedMedian": 3775,
+   "sites": {
+    "yahoo_shopping": 4125,
+    "rakuten": 5150,
+    "biccamera": 20900,
+    "mercari": 2000,
+    "yahoo_auction": 2000
    }
   }
  ]

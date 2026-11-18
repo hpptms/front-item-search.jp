@@ -1,8 +1,8 @@
 {
  "slug": "zelda-totk",
  "term": "ゼルダの伝説 ティアーズ オブ ザ キングダム",
- "date": "2026-11-18",
- "capturedAt": "2026-11-17T20:10:03.510Z",
+ "date": "2026-11-19",
+ "capturedAt": "2026-11-18T20:10:06.884Z",
  "sites": [
   {
    "site": "rakuten",
@@ -21,17 +21,17 @@
      "used": false
     },
     {
-     "title": "Switch ゼルダの伝説 ティアーズ オブ ザ キングダム (ニンテンドースイッチ)",
-     "price": 4970,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frenet3%2F0013709576%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frenet3%2Fi%2F12961880%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "ネットオフ楽天市場支店",
+     "title": "[Switch] ゼルダの伝説 Tears of the Kingdom(ティアーズ オブ ザ キングダム) 通常版 任天堂(20230512)",
+     "price": 4880,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmediaworldkaitoriworld%2F10461717001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmediaworldkaitoriworld%2Fi%2F10491185%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "メディアワールド 販売&買取SHOP",
      "used": false
     },
     {
      "title": "Switch ゼルダの伝説 ティアーズ オブ ザ キングダム (ニンテンドースイッチ)",
      "price": 4970,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frenet20%2Fr0013709576%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frenet20%2Fi%2F11986222%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "ネットオフ 送料がお得店",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frenet3%2F0013709576%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frenet3%2Fi%2F12961880%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "ネットオフ楽天市場支店",
      "used": false
     }
    ]
@@ -43,7 +43,7 @@
    "count": 11,
    "min": 4970,
    "median": 7520,
-   "max": 8470,
+   "max": 11799,
    "items": [
     {
      "title": "Switch／ゼルダの伝説 ティアーズ オブ ザ キングダム",
@@ -151,32 +151,50 @@
    ]
   },
   {
+   "site": "biccamera",
+   "label": "ビックカメラ",
+   "used": false,
+   "count": 1,
+   "min": 8470,
+   "median": 8470,
+   "max": 8470,
+   "items": [
+    {
+     "title": "任天堂｜Nintendo ゼルダの伝説 ティアーズ オブ ザ キングダム Nintendo Switch 2 Edition",
+     "price": 8470,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4902370553321%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F15177875%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "楽天ビック(ビックカメラ×楽天)",
+     "used": false
+    }
+   ]
+  },
+  {
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 12,
+   "count": 15,
    "min": 2530,
-   "median": 3567,
-   "max": 6400,
+   "median": 4000,
+   "max": 8200,
    "items": [
     {
-     "title": "switch ゼルダの伝説 ティアーズ オブ ザ キングダム ゲームソフト スイッチ 1A0305-139am/F8",
+     "title": "ニンテンドースイッチ ゼルダの伝説 ティアーズ オブ ザ キングダム",
      "price": 2530,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/n1252563791",
+     "url": "https://auctions.yahoo.co.jp/jp/auction/x1252642751",
      "shop": "",
      "used": true
     },
     {
-     "title": "Nintendo Switch ゼルダの伝説 ティアーズ オブ ザ キングダム 中古現在",
-     "price": 3000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/1252699762",
+     "title": "switch ゼルダの伝説 ティアーズ オブ ザ キングダム ゲームソフト スイッチ 1A0003-142am/F8",
+     "price": 2750,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/q1252693213",
      "shop": "",
      "used": true
     },
     {
-     "title": "中古品 ゲーム Nintendo switch ニンテンドースイッチ ソフト ゼルダの伝説 ティアーズ オブ ザ キングダム",
-     "price": 3080,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/j1252571205",
+     "title": "switch ゼルダの伝説 ティアーズ オブ ザ キングダム ゲームソフト スイッチ 1A0003-143am/F8",
+     "price": 2970,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/v1252698837",
      "shop": "",
      "used": true
     }
@@ -186,29 +204,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 7,
-   "min": 3999,
+   "count": 10,
+   "min": 3800,
    "median": 4500,
-   "max": 6400,
+   "max": 6450,
    "items": [
     {
+     "title": "ゼルダの伝説 ティアーズ オブ ザ キングダム Switch ソフトのみ",
+     "price": 3800,
+     "url": "https://jp.mercari.com/item/m92930764831",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
      "title": "Nintendo Switch ゼルダの伝説 ティアーズ オブ ザ キングダム",
-     "price": 3999,
-     "url": "https://jp.mercari.com/item/m19001451978",
+     "price": 4200,
+     "url": "https://jp.mercari.com/shops/product/2JZic4Jf97bewmmyQxfQWE",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "ゼルダの伝説 ティアーズ オブ ザ キングダム Switch ソフト",
-     "price": 4000,
-     "url": "https://jp.mercari.com/item/m71272534520",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "ゼルダの伝説 ティアーズオブザキングダム Switch",
-     "price": 4400,
-     "url": "https://jp.mercari.com/item/m30467546017",
+     "title": "ゼルダの伝説 ティアーズ オブ ザ キングダム Switch",
+     "price": 4222,
+     "url": "https://jp.mercari.com/item/m23421478875",
      "shop": "メルカリ",
      "used": true
     }
@@ -220,18 +238,18 @@
   "minSite": "rakuten",
   "minLabel": "楽天市場",
   "minTitle": "ゼルダの伝説 ティアーズ オブ ザ キングダムソフト:ニンテンドーSwitchソフト／任天堂キャラクター・ゲーム",
-  "median": 7370,
-  "siteCount": 5,
-  "itemCount": 38
+  "median": 7445,
+  "siteCount": 6,
+  "itemCount": 39
  },
  "usedSummary": {
   "min": 2530,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "switch ゼルダの伝説 ティアーズ オブ ザ キングダム ゲームソフト スイッチ 1A0305-139am/F8",
+  "minTitle": "ニンテンドースイッチ ゼルダの伝説 ティアーズ オブ ザ キングダム",
   "median": 4500,
   "siteCount": 3,
-  "itemCount": 20
+  "itemCount": 26
  },
  "history": [
   {
@@ -613,6 +631,23 @@
     "yodobashi": 7290,
     "yahoo_auction": 2530,
     "mercari": 3999
+   }
+  },
+  {
+   "date": "2026-11-19",
+   "newMin": 4810,
+   "newMedian": 7445,
+   "usedMin": 2530,
+   "usedMedian": 4500,
+   "sites": {
+    "rakuten": 4810,
+    "yahoo_shopping": 4970,
+    "joshin": 6890,
+    "edion": 6910,
+    "yodobashi": 7290,
+    "biccamera": 8470,
+    "yahoo_auction": 2530,
+    "mercari": 3800
    }
   }
  ]

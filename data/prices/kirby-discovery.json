@@ -1,21 +1,21 @@
 {
  "slug": "kirby-discovery",
  "term": "星のカービィ ディスカバリー",
- "date": "2026-11-18",
- "capturedAt": "2026-11-17T20:10:03.510Z",
+ "date": "2026-11-19",
+ "capturedAt": "2026-11-18T20:10:06.884Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 18,
-   "min": 3975,
-   "median": 5785,
+   "count": 17,
+   "min": 3749,
+   "median": 5720,
    "max": 7700,
    "items": [
     {
      "title": "任天堂『星のカービィ ディスカバリー』switch ゲームソフト 1週間保証",
-     "price": 3975,
+     "price": 3749,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftakayama78%2F4902370549455%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftakayama78%2Fi%2F10941968%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "高山質店",
      "used": false
@@ -40,10 +40,10 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 15,
+   "count": 16,
    "min": 4292,
-   "median": 7540,
-   "max": 8577,
+   "median": 7461,
+   "max": 8280,
    "items": [
     {
      "title": "Switch／星のカービィ ディスカバリー",
@@ -165,29 +165,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 17,
-   "min": 3398,
-   "median": 3699,
-   "max": 9300,
+   "count": 12,
+   "min": 3000,
+   "median": 3545,
+   "max": 9100,
    "items": [
     {
-     "title": "星のカービィ ディスカバリー Nintendo switch ソフト パッケージ版 ニンテンドースイッチ",
-     "price": 3398,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/m1252661395",
+     "title": "中古品 Nintendo Switch 星のカービィ ディスカバリー 任天堂 スイッチ ゲーム ソフト",
+     "price": 3000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/b1251128734",
      "shop": "",
      "used": true
     },
     {
-     "title": "Nintendo Switch 星のカービィ ディスカバリー",
-     "price": 3400,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z726255462",
+     "title": "HM0042★ Nintendo switch スイッチ 星のカービィ ディスカバリー",
+     "price": 3000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/o1250984220",
      "shop": "",
      "used": true
     },
     {
-     "title": "星のカービィ ディスカバリー",
-     "price": 3450,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z725321200",
+     "title": "ニンテンドースイッチ 星のカービィ ディスカバリー ソフト",
+     "price": 3350,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z726836230",
      "shop": "",
      "used": true
     }
@@ -198,28 +198,28 @@
    "label": "メルカリ",
    "used": true,
    "count": 17,
-   "min": 3700,
-   "median": 4500,
-   "max": 8480,
+   "min": 3550,
+   "median": 4080,
+   "max": 6300,
    "items": [
     {
-     "title": "Nintendo Switch 星のカービィ ディスカバリー",
+     "title": "星のカービィ ディスカバリー switchソフト",
+     "price": 3550,
+     "url": "https://jp.mercari.com/item/m36159337152",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "星のカービィ ディスカバリー Switch",
+     "price": 3666,
+     "url": "https://jp.mercari.com/item/m38345297532",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "星のカービィ ディスカバリー Switch ソフト",
      "price": 3700,
-     "url": "https://jp.mercari.com/item/m36324000571",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "星のカービィ ディスカバリー Nintendo Switch ソフト",
-     "price": 3999,
-     "url": "https://jp.mercari.com/item/m26505507415",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "星のカービィ ディスカバリー スターリーワールド Switch2",
-     "price": 4000,
-     "url": "https://jp.mercari.com/item/m60035476881",
+     "url": "https://jp.mercari.com/item/m98801126806",
      "shop": "メルカリ",
      "used": true
     }
@@ -227,7 +227,7 @@
   }
  ],
  "newSummary": {
-  "min": 3975,
+  "min": 3749,
   "minSite": "rakuten",
   "minLabel": "楽天市場",
   "minTitle": "任天堂『星のカービィ ディスカバリー』switch ゲームソフト 1週間保証",
@@ -236,13 +236,13 @@
   "itemCount": 41
  },
  "usedSummary": {
-  "min": 3398,
+  "min": 3000,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "星のカービィ ディスカバリー Nintendo switch ソフト パッケージ版 ニンテンドースイッチ",
-  "median": 4500,
+  "minTitle": "中古品 Nintendo Switch 星のカービィ ディスカバリー 任天堂 スイッチ ゲーム ソフト",
+  "median": 4080,
   "siteCount": 3,
-  "itemCount": 36
+  "itemCount": 30
  },
  "history": [
   {
@@ -629,6 +629,23 @@
     "biccamera": 8140,
     "yahoo_auction": 3398,
     "mercari": 3700
+   }
+  },
+  {
+   "date": "2026-11-19",
+   "newMin": 3749,
+   "newMedian": 6940,
+   "usedMin": 3000,
+   "usedMedian": 4080,
+   "sites": {
+    "rakuten": 3749,
+    "yahoo_shopping": 4292,
+    "joshin": 5720,
+    "edion": 5720,
+    "yodobashi": 5740,
+    "biccamera": 8140,
+    "yahoo_auction": 3000,
+    "mercari": 3550
    }
   }
  ]

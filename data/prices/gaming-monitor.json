@@ -1,8 +1,8 @@
 {
  "slug": "gaming-monitor",
  "term": "ゲーミングモニター",
- "date": "2026-11-18",
- "capturedAt": "2026-11-17T20:10:03.510Z",
+ "date": "2026-11-19",
+ "capturedAt": "2026-11-18T20:10:06.884Z",
  "sites": [
   {
    "site": "yahoo_shopping",
@@ -40,9 +40,9 @@
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 20,
+   "count": 19,
    "min": 11999,
-   "median": 28480,
+   "median": 26980,
    "max": 220000,
    "items": [
     {
@@ -53,17 +53,17 @@
      "used": false
     },
     {
-     "title": "ゲーミングモニター モニター 24.5インチ 24インチ 180Hz 240Hz FHD Full HD 1ms Fast IPS IPSパネル Adaptive Sync HDMI DisplayPort フリッカーフリー ノングレア デ",
-     "price": 13480,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4571495436200%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fa-price%2Fi%2F11230302%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "XPRICE楽天市場店",
-     "used": false
-    },
-    {
      "title": "黒/白 モニター 21.5 / 23.8 / 24.5 / 27型 240Hz/200Hz /180Hz/165Hz/100Hz ゲーミングモニター 1ms応答 pcモニター パソコン モニター 非光沢 スピーカー内蔵 HDR/Freesy",
      "price": 13999,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fqifeng%2Fyc-238%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fqifeng%2Fi%2F10000042%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "CK楽天市場店",
+     "used": false
+    },
+    {
+     "title": "JAPANNEXT 23.8インチ IPSパネル搭載 180Hz対応 フルHD(1920x1080)解像度 ゲーミングモニター JN-Ei238G180F HDMI DP 1ms(GTG/MPRT) HDR sRGB:100% PS5:12",
+     "price": 17570,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjapannext%2F4589511170045%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjapannext%2Fi%2F10000457%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "JAPANNEXTオンラインストア",
      "used": false
     }
    ]
@@ -74,7 +74,7 @@
    "used": false,
    "count": 20,
    "min": 14980,
-   "median": 31900,
+   "median": 31490,
    "max": 188800,
    "items": [
     {
@@ -92,9 +92,9 @@
      "used": false
     },
     {
-     "title": "液晶モニター/ASUS Eye Care/24.5型/フルHD（1920×1080）/IPSパネル/ノングレア/120Hz/1ms（MPRT）/HDMI×1 VGA×1/スピーカー内蔵/国内正規品 VA259HGA",
-     "price": 17800,
-     "url": "https://www.yodobashi.com/product/100000001009296629/",
+     "title": "ゲーミングモニター 24.5インチ VAパネル搭載 240Hz/1ms（MPRT） フルHD（1920×1080） HDMI DisplayPort HDR PS5 フルHD：120Hz接続 2年保証 JN-V245G240F",
+     "price": 17750,
+     "url": "https://www.yodobashi.com/product/100000001009817217/",
      "shop": "",
      "used": false
     }
@@ -128,38 +128,6 @@
      "price": 19800,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4526541047732%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F14442467%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "楽天ビック(ビックカメラ×楽天)",
-     "used": false
-    }
-   ]
-  },
-  {
-   "site": "edion",
-   "label": "エディオン",
-   "used": false,
-   "count": 19,
-   "min": 18000,
-   "median": 65795,
-   "max": 349200,
-   "items": [
-    {
-     "title": "AOC ゲーミング液晶ディスプレイ 23.8型/1920×1080/HDMI、DisplayPort/ブラック/スピーカー:なし/240Hz ブラック 24G11ZE/11 [24G11ZE11]",
-     "price": 18000,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F6973985233036%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10889486%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "エディオン 楽天市場店",
-     "used": false
-    },
-    {
-     "title": "ASUS 23．8型液晶ディスプレイ TUF GAMING ブラック VG246H1A [VG246H1A]",
-     "price": 21637,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4711081977278%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10817159%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "エディオン 楽天市場店",
-     "used": false
-    },
-    {
-     "title": "MSI 27型液晶ディスプレイ MAG 274PFW ホワイト MAG-274PFW [MAG274PFW]",
-     "price": 26800,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4526541051463%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10846637%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "エディオン 楽天市場店",
      "used": false
     }
    ]
@@ -229,32 +197,64 @@
    ]
   },
   {
+   "site": "edion",
+   "label": "エディオン",
+   "used": false,
+   "count": 19,
+   "min": 21637,
+   "median": 65795,
+   "max": 349200,
+   "items": [
+    {
+     "title": "ASUS 23．8型液晶ディスプレイ TUF GAMING ブラック VG246H1A [VG246H1A]",
+     "price": 21637,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4711081977278%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10817159%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "エディオン 楽天市場店",
+     "used": false
+    },
+    {
+     "title": "MSI 27型液晶ディスプレイ MAG 274PFW ホワイト MAG-274PFW [MAG274PFW]",
+     "price": 26800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4526541051463%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10846637%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "エディオン 楽天市場店",
+     "used": false
+    },
+    {
+     "title": "ASUS 27型液晶ディスプレイ VG279QR [VG279QR]",
+     "price": 37091,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4718017895521%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10783872%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "エディオン 楽天市場店",
+     "used": false
+    }
+   ]
+  },
+  {
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
    "count": 14,
    "min": 8000,
-   "median": 12000,
+   "median": 12900,
    "max": 31000,
    "items": [
     {
-     "title": "DELL ゲーミングモニター 本体 箱付き",
+     "title": "I-O DATA 23.8型ゲーミングモニター LCD-DF241SXVB",
      "price": 8000,
-     "url": "https://jp.mercari.com/item/m70298048220",
+     "url": "https://jp.mercari.com/item/m45327373370",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "I-O DATA GigaCrysta 23.6インチ ゲーミングモニター",
-     "price": 9000,
-     "url": "https://jp.mercari.com/item/m23458278202",
+     "title": "Xiaomi G24i ディスプレイ ゲーミングモニター 本体",
+     "price": 8000,
+     "url": "https://jp.mercari.com/item/m24995851189",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "FeuVision ゲーミングディスプレイモニター",
-     "price": 10000,
-     "url": "https://jp.mercari.com/item/m32249537761",
+     "title": "Acer KG251QIbmiipx 240Hz ゲーミングモニター",
+     "price": 8000,
+     "url": "https://jp.mercari.com/item/m95568592927",
      "shop": "メルカリ",
      "used": true
     }
@@ -264,29 +264,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 11,
-   "min": 8000,
-   "median": 12800,
-   "max": 25000,
+   "count": 9,
+   "min": 8250,
+   "median": 12900,
+   "max": 30250,
    "items": [
     {
-     "title": "iiyama G-MASTER GB2760QSU PL2760Q 27インチ液晶モニター ゲーミングモニター WQHD MM-イ",
-     "price": 8000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/u1227333383",
+     "title": "ゲーミングモニター MSI MAG 242C FHD 180Hz 23.6インチ 新品未開封",
+     "price": 8250,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/b1252350133",
      "shop": "",
      "used": true
     },
     {
-     "title": "ゲーミングモニター MSI MAG 244C FHD 180Hz 23.6インチ 新品未開封",
-     "price": 9999,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/1252345518",
+     "title": "Dell デル SE2426HG 23.8インチ ゲーミングモニター 液晶モニター PC周辺機器 未使用 N11844139",
+     "price": 11638,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/f1251490438",
      "shop": "",
      "used": true
     },
     {
-     "title": "JAPANNEXT 23.8インチ ゲーミングモニター JN-IPS238G200FHD 200Hz",
-     "price": 12000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z726097834",
+     "title": "未使用品 Newsoul モバイルモニター 18.5インチ 120hz ゲーミングモニターモバイルディスプレイ/X001DCDIZX-2208597",
+     "price": 12800,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/m1252579688",
      "shop": "",
      "used": true
     }
@@ -300,16 +300,16 @@
   "minTitle": "モニター 23.8インチ 144Hz FHD IPS フリッカーレス MAXZEN pcモニター ゲーミングモニター 23.8型 フルHD ノングレア HDMI MJM24IC01",
   "median": 35860,
   "siteCount": 7,
-  "itemCount": 128
+  "itemCount": 127
  },
  "usedSummary": {
   "min": 8000,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "DELL ゲーミングモニター 本体 箱付き",
-  "median": 12400,
+  "minTitle": "I-O DATA 23.8型ゲーミングモニター LCD-DF241SXVB",
+  "median": 12900,
   "siteCount": 2,
-  "itemCount": 25
+  "itemCount": 23
  },
  "history": [
   {
@@ -721,6 +721,24 @@
     "sofmap": 18980,
     "mercari": 8000,
     "yahoo_auction": 8000
+   }
+  },
+  {
+   "date": "2026-11-19",
+   "newMin": 10980,
+   "newMedian": 35860,
+   "usedMin": 8000,
+   "usedMedian": 12900,
+   "sites": {
+    "yahoo_shopping": 10980,
+    "rakuten": 11999,
+    "yodobashi": 14980,
+    "biccamera": 17980,
+    "joshin": 18867,
+    "sofmap": 18980,
+    "edion": 21637,
+    "mercari": 8000,
+    "yahoo_auction": 8250
    }
   }
  ]

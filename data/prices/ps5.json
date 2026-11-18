@@ -1,37 +1,37 @@
 {
  "slug": "ps5",
  "term": "PS5",
- "date": "2026-11-18",
- "capturedAt": "2026-11-17T20:10:03.510Z",
+ "date": "2026-11-19",
+ "capturedAt": "2026-11-18T20:10:06.884Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 19,
-   "min": 52808,
-   "median": 57200,
-   "max": 139000,
+   "count": 20,
+   "min": 54550,
+   "median": 60085,
+   "max": 135000,
    "items": [
     {
-     "title": "ソニー『PlayStation5 プレイステーション5 デジタルエディション 825GB 日本語専用』CFI-2200B01 ゲーム機本体 1週間保証",
-     "price": 52808,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftakayama78%2F4948872417419%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftakayama78%2Fi%2F11104529%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "高山質店",
-     "used": false
-    },
-    {
      "title": "プレイステーション5 デジタル・エディション 日本語専用 CFI-2200B01",
-     "price": 54980,
+     "price": 54550,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flcs-live%2F10020291%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flcs-live%2Fi%2F10020193%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "らいぶshop",
      "used": false
     },
     {
-     "title": "ソニー・インタラクティブエンタテインメント｜SIE PlayStation5 デジタル・エディション 日本語専用 Console Language: Japanese only CFI-2200B01",
+     "title": "SONY ゲーム機本体(据置型） CFI-2200B01 プレイステーション5 デジタル・エディション 日本語",
+     "price": 54570,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fwinkstore%2F271028-8%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fwinkstore%2Fi%2F10041664%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "ウインクデジタル 楽天市場店",
+     "used": false
+    },
+    {
+     "title": "PlayStation5 デジタル・エディション 日本語専用 Console Language: Japanese only",
      "price": 55000,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4948872417419%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F15315331%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "楽天ビック(ビックカメラ×楽天)",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F18440637%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbook%2Fi%2F21800394%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "楽天ブックス",
      "used": false
     }
    ]
@@ -69,24 +69,6 @@
    ]
   },
   {
-   "site": "biccamera",
-   "label": "ビックカメラ",
-   "used": false,
-   "count": 1,
-   "min": 55000,
-   "median": 55000,
-   "max": 55000,
-   "items": [
-    {
-     "title": "ソニー・インタラクティブエンタテインメント｜SIE PlayStation5 デジタル・エディション 日本語専用 Console Language: Japanese only CFI-2200B01",
-     "price": 55000,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4948872417419%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F15315331%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "楽天ビック(ビックカメラ×楽天)",
-     "used": false
-    }
-   ]
-  },
-  {
    "site": "sofmap",
    "label": "ソフマップ",
    "used": false,
@@ -108,10 +90,10 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 17,
+   "count": 16,
    "min": 56090,
-   "median": 58400,
-   "max": 67222,
+   "median": 57950,
+   "max": 233500,
    "items": [
     {
      "title": "『中古即納』{PS5} (本体)(未使用) PlayStation 5(プレイステーション5) デジタル・エディション 日本語専用(Console Language: Japanese only) SIE(20251121)",
@@ -140,29 +122,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 11,
-   "min": 40500,
-   "median": 48500,
-   "max": 58500,
+   "count": 13,
+   "min": 40150,
+   "median": 46000,
+   "max": 58000,
    "items": [
     {
-     "title": "中古品 動作品 SONY PlayStation5本体 PS5 デジタルエディション CFI-2000B 1TB ディスクドライブ非搭載 家庭用ゲーム機",
-     "price": 40500,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/j1252629480",
+     "title": "1円～ 動作確認済み 初期化済 PlayStation5 PS5 CFI-2000 A01 1TB 本体",
+     "price": 40150,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/g1252831439",
      "shop": "",
      "used": true
     },
     {
-     "title": "1円～ 動作確認済み 初期化済み PlayStation5 PS5 デジタルエディション 日本語専用 CFI-2200 825GB 本体",
-     "price": 41250,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/f1252513358",
+     "title": "PlayStation 5 デジタル・エディション",
+     "price": 41000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/x1252336580",
      "shop": "",
      "used": true
     },
     {
-     "title": "SONY PlayStation 5 本体 CFI-2000A01 ディスクドライブ搭載モデル 動作確認済み",
-     "price": 43500,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/e1252459434",
+     "title": "067/X494★PlayStation5 PS5 本体 CFI-2000 動作確認済・初期化済",
+     "price": 42500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/l1252451180",
      "shop": "",
      "used": true
     }
@@ -172,29 +154,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 16,
-   "min": 45000,
-   "median": 53750,
-   "max": 77000,
+   "count": 17,
+   "min": 49999,
+   "median": 56500,
+   "max": 139800,
    "items": [
     {
      "title": "PS5 デジタルエディション CFI-2200",
-     "price": 45000,
+     "price": 49999,
      "url": "https://jp.mercari.com/item/m80210101073",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "PlayStation 5 デジタル・エディション CFI-2200",
-     "price": 45000,
-     "url": "https://jp.mercari.com/item/m94837663429",
+     "title": "SONY PlayStation5 CFI-2200B01 825GB デジタ…",
+     "price": 50000,
+     "url": "https://jp.mercari.com/item/m11962402558",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "PS5ハード プレイステーション5本体 デジタル・エディション 日本語専用[CFI-2200B01]",
-     "price": 48696,
-     "url": "https://jp.mercari.com/shops/product/2JYTNwtsGo5Y6CZFWF5oFC",
+     "title": "PS5 本体 デジタルエディション CFI-2200BO1日本語版",
+     "price": 51000,
+     "url": "https://jp.mercari.com/item/m47015856073",
      "shop": "メルカリ",
      "used": true
     }
@@ -202,22 +184,22 @@
   }
  ],
  "newSummary": {
-  "min": 52808,
+  "min": 54550,
   "minSite": "rakuten",
   "minLabel": "楽天市場",
-  "minTitle": "ソニー『PlayStation5 プレイステーション5 デジタルエディション 825GB 日本語専用』CFI-2200B01 ゲーム機本体 1週間保証",
-  "median": 55000,
-  "siteCount": 5,
-  "itemCount": 41
+  "minTitle": "プレイステーション5 デジタル・エディション 日本語専用 CFI-2200B01",
+  "median": 56475,
+  "siteCount": 4,
+  "itemCount": 40
  },
  "usedSummary": {
-  "min": 40500,
+  "min": 40150,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "中古品 動作品 SONY PlayStation5本体 PS5 デジタルエディション CFI-2000B 1TB ディスクドライブ非搭載 家庭用ゲーム機",
-  "median": 58130,
-  "siteCount": 4,
-  "itemCount": 31
+  "minTitle": "1円～ 動作確認済み 初期化済 PlayStation5 PS5 CFI-2000 A01 1TB 本体",
+  "median": 56500,
+  "siteCount": 3,
+  "itemCount": 34
  },
  "history": [
   {
@@ -560,6 +542,21 @@
     "yahoo_shopping": 56090,
     "yahoo_auction": 40500,
     "mercari": 45000
+   }
+  },
+  {
+   "date": "2026-11-19",
+   "newMin": 54550,
+   "newMedian": 56475,
+   "usedMin": 40150,
+   "usedMedian": 56500,
+   "sites": {
+    "rakuten": 54550,
+    "yodobashi": 55000,
+    "sofmap": 55000,
+    "yahoo_shopping": 56090,
+    "yahoo_auction": 40150,
+    "mercari": 49999
    }
   }
  ]

@@ -1,8 +1,8 @@
 {
  "slug": "iphone",
  "term": "iPhone",
- "date": "2026-11-18",
- "capturedAt": "2026-11-17T20:10:03.510Z",
+ "date": "2026-11-19",
+ "capturedAt": "2026-11-18T20:10:06.884Z",
  "sites": [
   {
    "site": "sofmap",
@@ -41,8 +41,8 @@
    "label": "楽天市場",
    "used": false,
    "count": 5,
-   "min": 41800,
-   "median": 127900,
+   "min": 127900,
+   "median": 156700,
    "max": 255900,
    "items": [
     {
@@ -60,11 +60,11 @@
      "used": true
     },
     {
-     "title": "アップル iPhone 12 64GB ブラック SIM フリー",
-     "price": 41800,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fchisaya%2F12-64gb-black%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fchisaya%2Fi%2F10003407%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "Select Opus",
-     "used": false
+     "title": "中古 Apple iPhone14 128GB 256GB 512GB ミッドナイト パープル スターライト レッド ブルー イエロー SIMフリー 6ヶ月保証 赤ロム保証 スマホ スマホ アップル 中古スマホ スマホ スマートフォン 本体",
+     "price": 57800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshop-inverse%2Fsku-iphone14%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fshop-inverse%2Fi%2F10062602%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "ショップ・インバース楽天市場店",
+     "used": true
     }
    ]
   },
@@ -104,55 +104,30 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 13,
-   "min": 15000,
-   "median": 25000,
-   "max": 118300,
+   "count": 9,
+   "min": 17000,
+   "median": 24800,
+   "max": 72300,
    "items": [
     {
-     "title": "Apple iPhone XR 256GB ホワイト 本体",
-     "price": 15000,
-     "url": "https://jp.mercari.com/item/m13004821063",
+     "title": "iPhone Xs 256GB本体",
+     "price": 17000,
+     "url": "https://jp.mercari.com/item/m13695690403",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Apple iPhone 12 本体 ホワイト",
-     "price": 18500,
-     "url": "https://jp.mercari.com/item/m39591985721",
+     "title": "Apple iPhone 11 64GB パープル 本体 SIMフリー",
+     "price": 19000,
+     "url": "https://jp.mercari.com/item/m70017199584",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Apple iPhone 11 イエロー 本体",
-     "price": 19999,
-     "url": "https://jp.mercari.com/item/m66582407837",
+     "title": "Apple iPhone 11本体 ホワイト 128GB",
+     "price": 22000,
+     "url": "https://jp.mercari.com/item/m18055815518",
      "shop": "メルカリ",
-     "used": true
-    }
-   ]
-  },
-  {
-   "site": "yahoo_auction",
-   "label": "Yahoo!オークション",
-   "used": true,
-   "count": 2,
-   "min": 59000,
-   "median": 129000,
-   "max": 199000,
-   "items": [
-    {
-     "title": "iPhone 16 Plus 本体 ティール系 256GB SIMフリー",
-     "price": 59000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/t1252571059",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "iPhone18Pro SIMフリー Apple ブラック",
-     "price": 199000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/f1252591014",
-     "shop": "",
      "used": true
     }
    ]
@@ -163,18 +138,18 @@
   "minSite": "sofmap",
   "minLabel": "ソフマップ",
   "minTitle": "Apple(アップル) iPhoneX 256GB シルバー MQC22J／A SIMフリー",
-  "median": 127900,
+  "median": 156700,
   "siteCount": 3,
   "itemCount": 11
  },
  "usedSummary": {
-  "min": 15000,
+  "min": 17000,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "Apple iPhone XR 256GB ホワイト 本体",
-  "median": 42850,
-  "siteCount": 4,
-  "itemCount": 26
+  "minTitle": "iPhone Xs 256GB本体",
+  "median": 28800,
+  "siteCount": 3,
+  "itemCount": 20
  },
  "history": [
   {
@@ -489,6 +464,19 @@
     "yahoo_shopping": 159733,
     "mercari": 15000,
     "yahoo_auction": 59000
+   }
+  },
+  {
+   "date": "2026-11-19",
+   "newMin": 25990,
+   "newMedian": 156700,
+   "usedMin": 17000,
+   "usedMedian": 28800,
+   "sites": {
+    "sofmap": 25990,
+    "rakuten": 127900,
+    "yahoo_shopping": 159733,
+    "mercari": 17000
    }
   }
  ]

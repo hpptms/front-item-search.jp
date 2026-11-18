@@ -1,8 +1,8 @@
 {
  "slug": "pokemon-sv",
  "term": "ポケモン スカーレット・バイオレット",
- "date": "2026-11-18",
- "capturedAt": "2026-11-17T20:10:03.510Z",
+ "date": "2026-11-19",
+ "capturedAt": "2026-11-18T20:10:06.884Z",
  "sites": [
   {
    "site": "yodobashi",
@@ -83,22 +83,15 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 2,
+   "count": 1,
    "min": 3899,
-   "median": 5300,
-   "max": 6700,
+   "median": 3899,
+   "max": 3899,
    "items": [
     {
      "title": "ポケットモンスター スカーレット・バイオレット 追加コンテンツ ゼロの秘宝&ひこうき ２点",
      "price": 3899,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z726007840",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "Switch ポケットモンスター バイオレット スカーレット ソフトのみ",
-     "price": 6700,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z725489588",
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z726635740",
      "shop": "",
      "used": true
     }
@@ -108,9 +101,9 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 3,
+   "count": 4,
    "min": 4000,
-   "median": 7250,
+   "median": 7525,
    "max": 8500,
    "items": [
     {
@@ -128,9 +121,9 @@
      "used": true
     },
     {
-     "title": "ポケットモンスター バイオレット＆スカーレットswitch★配送補償付き",
-     "price": 8500,
-     "url": "https://jp.mercari.com/item/m44843656189",
+     "title": "ポケットモンスター スカーレット・バイオレット Switch ソフト",
+     "price": 7800,
+     "url": "https://jp.mercari.com/item/m22416328244",
      "shop": "メルカリ",
      "used": true
     }
@@ -151,7 +144,7 @@
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
   "minTitle": "ポケットモンスター スカーレット・バイオレット 追加コンテンツ ゼロの秘宝&ひこうき ２点",
-  "median": 6275,
+  "median": 5712,
   "siteCount": 2,
   "itemCount": 5
  },
@@ -464,6 +457,20 @@
    "newMedian": 6052,
    "usedMin": 3899,
    "usedMedian": 6275,
+   "sites": {
+    "yodobashi": 3460,
+    "rakuten": 3500,
+    "yahoo_shopping": 6052,
+    "yahoo_auction": 3899,
+    "mercari": 4000
+   }
+  },
+  {
+   "date": "2026-11-19",
+   "newMin": 3460,
+   "newMedian": 6052,
+   "usedMin": 3899,
+   "usedMedian": 5712,
    "sites": {
     "yodobashi": 3460,
     "rakuten": 3500,
