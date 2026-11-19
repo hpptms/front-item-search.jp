@@ -1,8 +1,8 @@
 {
  "slug": "zelda-botw",
  "term": "ゼルダの伝説 ブレス オブ ザ ワイルド",
- "date": "2026-11-19",
- "capturedAt": "2026-11-18T20:10:06.884Z",
+ "date": "2026-11-20",
+ "capturedAt": "2026-11-19T20:10:03.275Z",
  "sites": [
   {
    "site": "rakuten",
@@ -11,7 +11,7 @@
    "count": 18,
    "min": 4970,
    "median": 6768,
-   "max": 8240,
+   "max": 8678,
    "items": [
     {
      "title": "Switch ゼルダの伝説 ブレス オブ ザ ワイルド (ニンテンドースイッチ)",
@@ -40,9 +40,9 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 12,
-   "min": 5100,
-   "median": 7795,
+   "count": 13,
+   "min": 5300,
+   "median": 7780,
    "max": 8240,
    "items": [
     {
@@ -54,16 +54,16 @@
     },
     {
      "title": "Nintendo ゼルダの伝説 ブレス オブ ザ ワイルド [通常版] [Nintendo Switch] 保証期間１週間",
-     "price": 5100,
+     "price": 5300,
      "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjanpara%2F68458156-68.html",
      "shop": "じゃんぱら Yahoo!店",
      "used": false
     },
     {
-     "title": "『新品』Nintendo Switch ゼルダの伝説 ブレス オブ ザ ワイルド 任天堂 スイッチ ソフト",
-     "price": 6604,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnoahshoping%2F4902370536058.html",
-     "shop": "ノア商社Yahoo!店",
+     "title": "Nintendo Switch2 ニンテンドースイッチ2 ゲームソフト ゼルダの伝説 BLEATH OF THE WILD ブレス オブ ザ ワイルド",
+     "price": 6100,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fthrift2nd%2Fy047-904.html",
+     "shop": "スリフトWEB SHOP 2nd",
      "used": false
     }
    ]
@@ -72,22 +72,15 @@
    "site": "edion",
    "label": "エディオン",
    "used": false,
-   "count": 2,
+   "count": 1,
    "min": 6570,
-   "median": 7095,
-   "max": 7620,
+   "median": 6570,
+   "max": 6570,
    "items": [
     {
      "title": "任天堂 ゼルダの伝説 ブレス オブ ザ ワイルド HACPAAAAA [HACPAAAAA]",
      "price": 6570,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4902370536058%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10393246%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "エディオン 楽天市場店",
-     "used": false
-    },
-    {
-     "title": "任天堂 ゼルダの伝説 ブレス オブ ザ ワイルド Nintendo Switch 2 Edition NXSPAAAAH [NXSPAAAAH]",
-     "price": 7620,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4902370553291%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10873002%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "エディオン 楽天市場店",
      "used": false
     }
@@ -172,29 +165,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 16,
+   "count": 11,
    "min": 2800,
-   "median": 3790,
-   "max": 12700,
+   "median": 3900,
+   "max": 8600,
    "items": [
     {
-     "title": "ソフトのみ Switch ゼルダの伝説 ブレスオブザワイルド Nintendo",
+     "title": "Nintendo Switch用ソフト ゼルダの伝説 ブレス オブ ザ ワイルド ※動作確認済み 中古 2611★Dイ-926",
      "price": 2800,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/m1252725008",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "switch ゼルダの伝説 ブレス オブ ザ ワイルド ゲームソフト スイッチ 1A0003-140am/F8",
-     "price": 2860,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/1252687519",
+     "url": "https://auctions.yahoo.co.jp/jp/auction/d1252676180",
      "shop": "",
      "used": true
     },
     {
      "title": "ニンテンドースイッチ ゼルダの伝説 ブレス オブ ザ ワイルド",
-     "price": 3080,
+     "price": 3300,
      "url": "https://auctions.yahoo.co.jp/jp/auction/e1252646577",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "Nintendo Switch ニンテンドースイッチ ソフト ゼルダの伝説 ブレス オブ ザ ワイルド [K9739]",
+     "price": 3300,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/k1252965144",
      "shop": "",
      "used": true
     }
@@ -206,27 +199,27 @@
    "used": true,
    "count": 17,
    "min": 4000,
-   "median": 4400,
-   "max": 5280,
+   "median": 4500,
+   "max": 6800,
    "items": [
     {
-     "title": "ゼルダの伝説 ブレス オブ ザ ワイルド Switch",
+     "title": "ゼルダの伝説 ブレス オブ ザ ワイルド Switch ソフト",
      "price": 4000,
-     "url": "https://jp.mercari.com/item/m81855763875",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "ゼルダの伝説 ブレス オブ ザ ワイルド Nintendo Switch",
-     "price": 4100,
-     "url": "https://jp.mercari.com/item/m83289857304",
+     "url": "https://jp.mercari.com/item/m78464524041",
      "shop": "メルカリ",
      "used": true
     },
     {
      "title": "ゼルダの伝説 ブレス オブ ザ ワイルド Switch ソフトのみ",
-     "price": 4111,
+     "price": 4000,
      "url": "https://jp.mercari.com/item/m42078185645",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "ゼルダの伝説 ブレス オブ ザ ワイルド Switch",
+     "price": 4200,
+     "url": "https://jp.mercari.com/item/m29873276683",
      "shop": "メルカリ",
      "used": true
     }
@@ -238,7 +231,7 @@
   "minSite": "rakuten",
   "minLabel": "楽天市場",
   "minTitle": "Switch ゼルダの伝説 ブレス オブ ザ ワイルド (ニンテンドースイッチ)",
-  "median": 7455,
+  "median": 7448,
   "siteCount": 6,
   "itemCount": 39
  },
@@ -246,10 +239,10 @@
   "min": 2800,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "ソフトのみ Switch ゼルダの伝説 ブレスオブザワイルド Nintendo",
-  "median": 4400,
+  "minTitle": "Nintendo Switch用ソフト ゼルダの伝説 ブレス オブ ザ ワイルド ※動作確認済み 中古 2611★Dイ-926",
+  "median": 4500,
   "siteCount": 3,
-  "itemCount": 37
+  "itemCount": 32
  },
  "history": [
   {
@@ -637,6 +630,23 @@
    "sites": {
     "rakuten": 4970,
     "yahoo_shopping": 5100,
+    "edion": 6570,
+    "joshin": 6600,
+    "yodobashi": 6910,
+    "biccamera": 8240,
+    "yahoo_auction": 2800,
+    "mercari": 4000
+   }
+  },
+  {
+   "date": "2026-11-20",
+   "newMin": 4970,
+   "newMedian": 7448,
+   "usedMin": 2800,
+   "usedMedian": 4500,
+   "sites": {
+    "rakuten": 4970,
+    "yahoo_shopping": 5300,
     "edion": 6570,
     "joshin": 6600,
     "yodobashi": 6910,

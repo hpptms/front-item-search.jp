@@ -1,16 +1,34 @@
 {
  "slug": "macbook",
  "term": "MacBook",
- "date": "2026-11-19",
- "capturedAt": "2026-11-18T20:10:06.884Z",
+ "date": "2026-11-20",
+ "capturedAt": "2026-11-19T20:10:03.275Z",
  "sites": [
+  {
+   "site": "joshin",
+   "label": "ジョーシン",
+   "used": false,
+   "count": 1,
+   "min": 99800,
+   "median": 99800,
+   "max": 99800,
+   "items": [
+    {
+     "title": "BenQ｜ベンキュー クリエイター液晶ディスプレイ(27型/IPS/4K UHD 3840×2160/60Hz/5ms/HDR400/HDMI2.0/USB Type-C/VESA/3年間センドバック保証)(シルバー) MacBook向け4",
+     "price": 99800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4544438016777-44-25529-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14557850%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "Joshin web 家電とPCの大型専門店",
+     "used": false
+    }
+   ]
+  },
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 10,
+   "count": 9,
    "min": 112800,
-   "median": 142715,
+   "median": 145930,
    "max": 339800,
    "items": [
     {
@@ -40,10 +58,10 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 6,
+   "count": 5,
    "min": 115000,
-   "median": 132220,
-   "max": 269980,
+   "median": 131500,
+   "max": 199120,
    "items": [
     {
      "title": "マックブック 中古 Apple MacBook/Air/Pro11〜15インチ Intel Core i5/i7/m3/m5/m7(第4〜7世代)メモリ8/16GB SSD128/256GB シルバ/グレー WIFI/Bluetooth/カ",
@@ -104,22 +122,22 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 11,
+   "count": 17,
    "min": 25000,
-   "median": 52000,
-   "max": 188000,
+   "median": 40000,
+   "max": 185000,
    "items": [
     {
-     "title": "MacBook Pro",
+     "title": "MacBook Air 13 2019",
      "price": 25000,
-     "url": "https://jp.mercari.com/item/m67653145813",
+     "url": "https://jp.mercari.com/item/m12323519013",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Apple MacBook Pro 2018 13インチ 本体",
-     "price": 26000,
-     "url": "https://jp.mercari.com/item/m95122779656",
+     "title": "Apple MacBook Pro 13インチ,2019",
+     "price": 29999,
+     "url": "https://jp.mercari.com/item/m28180033262",
      "shop": "メルカリ",
      "used": true
     },
@@ -136,29 +154,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 9,
-   "min": 28050,
-   "median": 55000,
-   "max": 100375,
+   "count": 11,
+   "min": 25850,
+   "median": 60500,
+   "max": 188100,
    "items": [
     {
-     "title": "MacBook Pro 16-inch 2021 A2485 Apple M1 Pro /32GB/SSD1TB/16.2インチ Retina XDR /Wi-Fi/Type-C/webカメラ/macOS Tahoe 26.7.1☆",
-     "price": 28050,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/m1252186925",
+     "title": "N 6 Apple / MacBook Air A2337(M1,2020) / APPLE M1 / メモリ：16GB / SSD：256GB",
+     "price": 25850,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/f1252696018",
      "shop": "",
      "used": true
     },
     {
-     "title": "MacBook Air M1 2020 13inch Apple M1 8コアCPU GPU 7コア メモリ16GB SSD256GB NVMe macOS 26.6.2 中古Mac ノートPC",
-     "price": 35750,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/p1252709736",
+     "title": "Apple アップル MacBook Air M2 2022 13インチ 箱付き 付属品汚れあり 通電確認済み 現状品 ITBUN0YN6RX2",
+     "price": 30500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/m1252967760",
      "shop": "",
      "used": true
     },
     {
-     "title": "MacBook Air M2 Apple M2 8コアCPU GPU 10コア メモリ16GB SSD256GB NVMe macOS 26.6.2 中古MacノートPC",
-     "price": 41250,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/l1252725321",
+     "title": "極美品 MacBook Air ミッドナイト M2 8GB 512GB",
+     "price": 35000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/h1252704898",
      "shop": "",
      "used": true
     }
@@ -166,22 +184,22 @@
   }
  ],
  "newSummary": {
-  "min": 112800,
-  "minSite": "rakuten",
-  "minLabel": "楽天市場",
-  "minTitle": "Apple アップル 13.6インチ MacBook Air Liquid Retinaディスプレイ M3チップ 8コアCPUと8コアGPU/ メモリ 8GB/ SSD 256GB/ 日本語キーボード/ MRXV3J/A ミッドナイト",
-  "median": 142715,
-  "siteCount": 3,
-  "itemCount": 33
+  "min": 99800,
+  "minSite": "joshin",
+  "minLabel": "ジョーシン",
+  "minTitle": "BenQ｜ベンキュー クリエイター液晶ディスプレイ(27型/IPS/4K UHD 3840×2160/60Hz/5ms/HDR400/HDMI2.0/USB Type-C/VESA/3年間センドバック保証)(シルバー) MacBook向け4",
+  "median": 138715,
+  "siteCount": 4,
+  "itemCount": 32
  },
  "usedSummary": {
   "min": 25000,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "MacBook Pro",
-  "median": 53500,
+  "minTitle": "MacBook Air 13 2019",
+  "median": 50250,
   "siteCount": 4,
-  "itemCount": 29
+  "itemCount": 37
  },
  "history": [
   {
@@ -519,6 +537,21 @@
     "yodobashi": 119800,
     "mercari": 25000,
     "yahoo_auction": 28050
+   }
+  },
+  {
+   "date": "2026-11-20",
+   "newMin": 99800,
+   "newMedian": 138715,
+   "usedMin": 25000,
+   "usedMedian": 50250,
+   "sites": {
+    "joshin": 99800,
+    "rakuten": 112800,
+    "yahoo_shopping": 115000,
+    "yodobashi": 119800,
+    "mercari": 25000,
+    "yahoo_auction": 25850
    }
   }
  ]

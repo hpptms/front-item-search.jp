@@ -1,17 +1,17 @@
 {
  "slug": "pixel",
  "term": "Google Pixel",
- "date": "2026-11-19",
- "capturedAt": "2026-11-18T20:10:06.884Z",
+ "date": "2026-11-20",
+ "capturedAt": "2026-11-19T20:10:03.275Z",
  "sites": [
   {
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
    "count": 14,
-   "min": 40980,
-   "median": 79800,
-   "max": 82880,
+   "min": 42000,
+   "median": 79980,
+   "max": 82812,
    "items": [
     {
      "title": "Google Pixel 7a 128GB Bランク スマホ 本体 SIMフリー 美品 にこスマ認定整備済み品(リファービッシュ 整備済品)",
@@ -42,25 +42,25 @@
    "used": false,
    "count": 11,
    "min": 73333,
-   "median": 79480,
-   "max": 122100,
+   "median": 80100,
+   "max": 121980,
    "items": [
     {
-     "title": "Google Pixel 7a 128GB 256GB スマホ スマートフォン 本体 SIMフリー docomo au softbank 美品 にこスマ認定整備済み品(リファービッシュ 整備済品) 白ロム",
+     "title": "最大5000円オフクーポン Google Pixel 7a 128GB 256GB スマホ スマートフォン 本体 SIMフリー docomo au softbank 美品 にこスマ認定整備済み品(リファービッシュ 整備済品) 白ロム",
      "price": 29800,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnicosuma-store%2Fpixel7a%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnicosuma-store%2Fi%2F10000296%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "にこスマ",
      "used": true
     },
     {
-     "title": "Google Pixel 6a 128GB SIMフリー 整備済み品 本体 中古",
+     "title": "最大5000円オフクーポン Google Pixel 6a 128GB SIMフリー 整備済み品 本体 中古",
      "price": 29800,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnicosuma-store%2Fgoogle-refurbish-pixel6a%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnicosuma-store%2Fi%2F10000426%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "にこスマ",
      "used": true
     },
     {
-     "title": "Google Pixel 8a 128GB スマホ スマートフォン 本体 SIMフリー docomo au softbank 美品 にこスマ認定整備済み品(リファービッシュ 整備済品) 白ロム",
+     "title": "最大5000円オフクーポン Google Pixel 8a 128GB スマホ スマートフォン 本体 SIMフリー docomo au softbank 美品 にこスマ認定整備済み品(リファービッシュ 整備済品) 白ロム",
      "price": 39800,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnicosuma-store%2Fpixel8a%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnicosuma-store%2Fi%2F10000301%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "にこスマ",
@@ -72,29 +72,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 12,
-   "min": 15300,
-   "median": 43400,
-   "max": 115000,
+   "count": 13,
+   "min": 16500,
+   "median": 30000,
+   "max": 66000,
    "items": [
     {
-     "title": "Google Pixel 8a 128GB 画面割れ 付属品有",
-     "price": 15300,
-     "url": "https://jp.mercari.com/item/m37870157233",
+     "title": "Google pixel 4a 本体 SIMフリー 128GB",
+     "price": 16500,
+     "url": "https://jp.mercari.com/item/m62223104766",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Google Pixel 7a ホワイト 本体 128GB",
-     "price": 23000,
-     "url": "https://jp.mercari.com/item/m55241327407",
+     "title": "Google Pixel 5 本体",
+     "price": 18000,
+     "url": "https://jp.mercari.com/item/m70728318339",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Google Pixel 7a 本体",
-     "price": 31000,
-     "url": "https://jp.mercari.com/item/m69019573930",
+     "title": "Google Pixel 7 本体",
+     "price": 20000,
+     "url": "https://jp.mercari.com/item/m27074374400",
      "shop": "メルカリ",
      "used": true
     }
@@ -104,11 +104,18 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 2,
-   "min": 18000,
-   "median": 26001,
-   "max": 34001,
+   "count": 5,
+   "min": 17050,
+   "median": 22500,
+   "max": 39500,
    "items": [
+    {
+     "title": "Google Pixel 7a スマートフォン 管理49",
+     "price": 17050,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/h1252721871",
+     "shop": "",
+     "used": true
+    },
     {
      "title": "Google Pixel 7a ホワイト SIMフリー 128GB 動作品",
      "price": 18000,
@@ -117,9 +124,9 @@
      "used": true
     },
     {
-     "title": "Google Pixel 8a 128GB ポーセリン G576D SIMフリー 初期化済 M21597RL",
-     "price": 34001,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/b1252757712",
+     "title": "Google Pixel 6a 128GB SIMフリー ブラック",
+     "price": 22500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z727540102",
      "shop": "",
      "used": true
     }
@@ -127,22 +134,22 @@
   }
  ],
  "newSummary": {
-  "min": 40980,
+  "min": 42000,
   "minSite": "yahoo_shopping",
   "minLabel": "Yahoo!ショッピング",
-  "minTitle": "Google Pixel 8a 128GB Bay",
-  "median": 79640,
+  "minTitle": "爆安セール! 11/29まで! レビューで3,000円クーポン Google Pixel 8a 128GB Porcelain グレードA SIMフリー スマホ 本体 動作確認済み android",
+  "median": 80040,
   "siteCount": 2,
   "itemCount": 25
  },
  "usedSummary": {
-  "min": 15300,
+  "min": 16500,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "Google Pixel 8a 128GB 画面割れ 付属品有",
-  "median": 37300,
+  "minTitle": "Google pixel 4a 本体 SIMフリー 128GB",
+  "median": 30900,
   "siteCount": 4,
-  "itemCount": 25
+  "itemCount": 29
  },
  "history": [
   {
@@ -451,6 +458,19 @@
     "rakuten": 73333,
     "mercari": 15300,
     "yahoo_auction": 18000
+   }
+  },
+  {
+   "date": "2026-11-20",
+   "newMin": 42000,
+   "newMedian": 80040,
+   "usedMin": 16500,
+   "usedMedian": 30900,
+   "sites": {
+    "yahoo_shopping": 42000,
+    "rakuten": 73333,
+    "mercari": 16500,
+    "yahoo_auction": 17050
    }
   }
  ]
