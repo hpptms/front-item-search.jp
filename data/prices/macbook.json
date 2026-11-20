@@ -1,41 +1,30 @@
 {
  "slug": "macbook",
  "term": "MacBook",
- "date": "2026-11-20",
- "capturedAt": "2026-11-19T20:10:03.275Z",
+ "date": "2026-11-21",
+ "capturedAt": "2026-11-20T20:10:02.641Z",
  "sites": [
-  {
-   "site": "joshin",
-   "label": "ジョーシン",
-   "used": false,
-   "count": 1,
-   "min": 99800,
-   "median": 99800,
-   "max": 99800,
-   "items": [
-    {
-     "title": "BenQ｜ベンキュー クリエイター液晶ディスプレイ(27型/IPS/4K UHD 3840×2160/60Hz/5ms/HDR400/HDMI2.0/USB Type-C/VESA/3年間センドバック保証)(シルバー) MacBook向け4",
-     "price": 99800,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4544438016777-44-25529-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14557850%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "Joshin web 家電とPCの大型専門店",
-     "used": false
-    }
-   ]
-  },
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 9,
+   "count": 8,
    "min": 112800,
-   "median": 145930,
+   "median": 146945,
    "max": 339800,
    "items": [
     {
      "title": "中古 Apple MacBook Air 13インチ 2020 i3 i5 i7 M1 メモリ8GB 〜 16GB SSD256GB 〜 2TB ゴールド シルバー スペースグレイ WQXGA 1年保証 ノートパソコン パソコン ノートパソ",
-     "price": 84800,
+     "price": 79800,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshop-inverse%2Fsku-macbookair-13-2020%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fshop-inverse%2Fi%2F10065081%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "ショップ・インバース楽天市場店",
+     "used": true
+    },
+    {
+     "title": "APPLE アップル MACBOOK PRO 13-INCH 2022 SSD512GB メモリ16GB APPLE Mac OS X 中古 アウトレット 返品 送料無料 中古ノートパソコン 中古パソコン ノートパソコン ノート ノートPC",
+     "price": 96800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpcwrap%2F5aapb5-001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpcwrap%2Fi%2F10902780%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "中古パソコン PC-WRAP",
      "used": true
     },
     {
@@ -44,45 +33,6 @@
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsenrakuen%2Fsre28%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsenrakuen%2Fi%2F10000029%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "SENRAKUEN",
      "used": true
-    },
-    {
-     "title": "Apple アップル 13.6インチ MacBook Air Liquid Retinaディスプレイ M3チップ 8コアCPUと8コアGPU/ メモリ 8GB/ SSD 256GB/ 日本語キーボード/ MRXV3J/A ミッドナイト",
-     "price": 112800,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbjy-shop%2F10003186%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbjy-shop%2Fi%2F10003248%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "BJY通販ショップ",
-     "used": false
-    }
-   ]
-  },
-  {
-   "site": "yahoo_shopping",
-   "label": "Yahoo!ショッピング",
-   "used": false,
-   "count": 5,
-   "min": 115000,
-   "median": 131500,
-   "max": 199120,
-   "items": [
-    {
-     "title": "マックブック 中古 Apple MacBook/Air/Pro11〜15インチ Intel Core i5/i7/m3/m5/m7(第4〜7世代)メモリ8/16GB SSD128/256GB シルバ/グレー WIFI/Bluetooth/カ",
-     "price": 26800,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fpc-m%2F202107071348.html",
-     "shop": "パソコン専門店PC-M",
-     "used": true
-    },
-    {
-     "title": "ノートパソコン apple MacBook Pro 13インチ,2020,Thunderbolt3x4 中古 2019年モデル WEBカメラ Core i5 1038NG7 メモリ16GB 高速 SSD 無線LAN 13インチ B5サイ",
-     "price": 44800,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjunkworld-webshop%2F4021188.html",
-     "shop": "ジャンクワールドYahoo!店",
-     "used": true
-    },
-    {
-     "title": "MacBook Neo 256GB SSD 8GB メモリ Apple A18 Proチップ MHFA4J/A 13インチ 6コア シルバー Liquid Retina ディスプレイ 新品 13型 MHFA4JA アップル",
-     "price": 115000,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftry3%2F4549995664591.html",
-     "shop": "トライスリー",
-     "used": false
     }
    ]
   },
@@ -119,34 +69,34 @@
    ]
   },
   {
-   "site": "mercari",
-   "label": "メルカリ",
-   "used": true,
-   "count": 17,
-   "min": 25000,
-   "median": 40000,
-   "max": 185000,
+   "site": "yahoo_shopping",
+   "label": "Yahoo!ショッピング",
+   "used": false,
+   "count": 5,
+   "min": 127740,
+   "median": 208220,
+   "max": 269980,
    "items": [
     {
-     "title": "MacBook Air 13 2019",
-     "price": 25000,
-     "url": "https://jp.mercari.com/item/m12323519013",
-     "shop": "メルカリ",
+     "title": "マックブック 中古 Apple MacBook/Air/Pro11〜15インチ Intel Core i5/i7/m3/m5/m7(第4〜7世代)メモリ8/16GB SSD128/256GB シルバ/グレー WIFI/Bluetooth/カ",
+     "price": 26800,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fpc-m%2F202107071348.html",
+     "shop": "パソコン専門店PC-M",
      "used": true
     },
     {
-     "title": "Apple MacBook Pro 13インチ,2019",
-     "price": 29999,
-     "url": "https://jp.mercari.com/item/m28180033262",
-     "shop": "メルカリ",
+     "title": "ノートパソコン apple MacBook Pro 13インチ,2020,Thunderbolt3x4 中古 2019年モデル WEBカメラ Core i5 1038NG7 メモリ16GB 高速 SSD 無線LAN 13インチ B5サイ",
+     "price": 44800,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjunkworld-webshop%2F4021188.html",
+     "shop": "ジャンクワールドYahoo!店",
      "used": true
     },
     {
-     "title": "MacBook Air 2019年モデル 13インチ",
-     "price": 30000,
-     "url": "https://jp.mercari.com/item/m27991864868",
-     "shop": "メルカリ",
-     "used": true
+     "title": "「訳あり品-外装箱傷あり」新品 MacBook Neo 13インチ Liquid Retinaディスプレイ MHFH4J/A [ブラッシュ]",
+     "price": 127740,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Flight-hikari%2F4549995664652-y.html",
+     "shop": "らいぶshop",
+     "used": false
     }
    ]
   },
@@ -154,10 +104,10 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 11,
+   "count": 14,
    "min": 25850,
-   "median": 60500,
-   "max": 188100,
+   "median": 50035,
+   "max": 114000,
    "items": [
     {
      "title": "N 6 Apple / MacBook Air A2337(M1,2020) / APPLE M1 / メモリ：16GB / SSD：256GB",
@@ -167,37 +117,69 @@
      "used": true
     },
     {
-     "title": "Apple アップル MacBook Air M2 2022 13インチ 箱付き 付属品汚れあり 通電確認済み 現状品 ITBUN0YN6RX2",
-     "price": 30500,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/m1252967760",
+     "title": "N 6 Apple / MacBook Air A2337(M1,2020) / APPLE M1 / メモリ：16GB / SSD：256GB",
+     "price": 27500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/f1252692545",
      "shop": "",
      "used": true
     },
     {
-     "title": "極美品 MacBook Air ミッドナイト M2 8GB 512GB",
-     "price": 35000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/h1252704898",
+     "title": "ジャンク MacBook Pro (14インチ, 2023) A2918 Apple /16GB/SSD512GB/14インチ(3024×1964)/Wi-Fi/Type-C/SDカードスロット/macOS Tahoe☆",
+     "price": 30550,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/t1252301977",
      "shop": "",
+     "used": true
+    }
+   ]
+  },
+  {
+   "site": "mercari",
+   "label": "メルカリ",
+   "used": true,
+   "count": 14,
+   "min": 28000,
+   "median": 45000,
+   "max": 185000,
+   "items": [
+    {
+     "title": "MacBook Pro 13インチ2019動作確認済み",
+     "price": 28000,
+     "url": "https://jp.mercari.com/item/m28180033262",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "Apple MacBook Pro 13インチ シルバー 箱付き",
+     "price": 30000,
+     "url": "https://jp.mercari.com/item/m52230102669",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "MacBook Air 2020 マックブックエア 24",
+     "price": 32980,
+     "url": "https://jp.mercari.com/item/m98731822435",
+     "shop": "メルカリ",
      "used": true
     }
    ]
   }
  ],
  "newSummary": {
-  "min": 99800,
-  "minSite": "joshin",
-  "minLabel": "ジョーシン",
-  "minTitle": "BenQ｜ベンキュー クリエイター液晶ディスプレイ(27型/IPS/4K UHD 3840×2160/60Hz/5ms/HDR400/HDMI2.0/USB Type-C/VESA/3年間センドバック保証)(シルバー) MacBook向け4",
-  "median": 138715,
-  "siteCount": 4,
-  "itemCount": 32
+  "min": 112800,
+  "minSite": "rakuten",
+  "minLabel": "楽天市場",
+  "minTitle": "Apple アップル 13.6インチ MacBook Air Liquid Retinaディスプレイ M3チップ 8コアCPUと8コアGPU/ メモリ 8GB/ SSD 256GB/ 日本語キーボード/ MRXV3J/A ミッドナイト",
+  "median": 208220,
+  "siteCount": 3,
+  "itemCount": 30
  },
  "usedSummary": {
-  "min": 25000,
-  "minSite": "mercari",
-  "minLabel": "メルカリ",
-  "minTitle": "MacBook Air 13 2019",
-  "median": 50250,
+  "min": 25850,
+  "minSite": "yahoo_auction",
+  "minLabel": "Yahoo!オークション",
+  "minTitle": "N 6 Apple / MacBook Air A2337(M1,2020) / APPLE M1 / メモリ：16GB / SSD：256GB",
+  "median": 47518,
   "siteCount": 4,
   "itemCount": 37
  },
@@ -552,6 +534,20 @@
     "yodobashi": 119800,
     "mercari": 25000,
     "yahoo_auction": 25850
+   }
+  },
+  {
+   "date": "2026-11-21",
+   "newMin": 112800,
+   "newMedian": 208220,
+   "usedMin": 25850,
+   "usedMedian": 47518,
+   "sites": {
+    "rakuten": 112800,
+    "yodobashi": 119800,
+    "yahoo_shopping": 127740,
+    "yahoo_auction": 25850,
+    "mercari": 28000
    }
   }
  ]

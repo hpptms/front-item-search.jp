@@ -1,8 +1,8 @@
 {
  "slug": "nike-sneakers",
  "term": "スニーカー ナイキ",
- "date": "2026-11-20",
- "capturedAt": "2026-11-19T20:10:03.275Z",
+ "date": "2026-11-21",
+ "capturedAt": "2026-11-20T20:10:02.641Z",
  "sites": [
   {
    "site": "yahoo_shopping",
@@ -40,18 +40,11 @@
    "site": "joshin",
    "label": "ジョーシン",
    "used": false,
-   "count": 8,
+   "count": 7,
    "min": 5980,
-   "median": 7300,
+   "median": 8620,
    "max": 8620,
    "items": [
-    {
-     "title": "ナイキ レディース スニーカー エアマックス SC（セイル/セイル/ガムミディアムブラウン/サンドドリフト・サイズ：28.0cm） CW4554-118-28.0 NIKE",
-     "price": 5980,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F0197593659538-36-47992-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14872354%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "Joshin web 家電とPCの大型専門店",
-     "used": false
-    },
     {
      "title": "フットマーク ナイキ スニーカーエンブロイデッド7ボレーショーツ（ダスティカクタス・サイズ：M） NESSF507-N463-M FOOTMARK NIKE SWIM 水着",
      "price": 5980,
@@ -65,6 +58,13 @@
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F0032219640265-36-49338-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14887676%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "Joshin web 家電とPCの大型専門店",
      "used": false
+    },
+    {
+     "title": "フットマーク ナイキ スニーカーエンブロイデッド7ボレーショーツ（ダスティカクタス・サイズ：L） NESSF507-N463-L FOOTMARK NIKE SWIM 水着",
+     "price": 5980,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F0032219631171-36-49338-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14839351%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "Joshin web 家電とPCの大型専門店",
+     "used": false
     }
    ]
   },
@@ -73,29 +73,29 @@
    "label": "楽天市場",
    "used": false,
    "count": 17,
-   "min": 6600,
-   "median": 8096,
+   "min": 5990,
+   "median": 7491,
    "max": 16390,
    "items": [
     {
-     "title": "ナイキ コート ロイヤル メンズシューズ NIKE メンズ シューズ 靴 スニーカー ローカット テニススタイル 通学 通勤 耐久性 ギフト ライフスタイルシューズ 白 ホワイト SU23",
-     "price": 6600,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnike-official%2F749747-107%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnike-official%2Fi%2F10006976%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "NIKE 公式 楽天市場店",
+     "title": "ナイキ（NIKE）（メンズ）スニーカー スポーツシューズ コート ビジョン ロー ネクスト ネイチャー DH2987-100 ホワイト 白 通学 学生",
+     "price": 5990,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsupersportsxebio%2F107886344011%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsupersportsxebio%2Fi%2F21033966%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "SuperSportsXEBIO楽天市場支店",
      "used": false
     },
     {
-     "title": "ナイキ エバノン LOW ウィメンズシューズ NIKE シューズ ライフスタイル スニーカー レディース カジュアル 靴 通勤 ライフスタイルシューズ レザー ローカット シンプル レトロ デニムコーデ SP24",
-     "price": 6864,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnike-official%2Faq1779-002%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnike-official%2Fi%2F10013542%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "NIKE 公式 楽天市場店",
+     "title": "ナイキ スニーカー メンズ コート ビジョン LOW ネクスト ネイチャー DH2987-001 NIKE 通学シューズ 通学靴 黒靴 ブラック 黒色",
+     "price": 6260,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhimaraya%2F0000000999340%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhimaraya%2Fi%2F10483505%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "ヒマラヤ楽天市場店",
      "used": false
     },
     {
-     "title": "ナイキ SB アリウープ ジュニア スケートボードシューズ NIKE シューズ スケートボード キッズ Kids スニーカー スケボー ローカット 黒 ブラック FA24",
-     "price": 7128,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnike-official%2Fcj0883-001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnike-official%2Fi%2F10015409%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "NIKE 公式 楽天市場店",
+     "title": "ナイキ スニーカー メンズ コートビジョン Low Next Nature DH2987-100 NIKE ホワイト 白 通学 学生",
+     "price": 6439,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhimaraya%2F0000000999341%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhimaraya%2Fi%2F10482279%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "ヒマラヤ楽天市場店",
      "used": false
     }
    ]
@@ -106,27 +106,27 @@
    "used": true,
    "count": 16,
    "min": 3000,
-   "median": 4990,
-   "max": 12500,
+   "median": 4783,
+   "max": 7777,
    "items": [
     {
-     "title": "NIKE ナイキ キッズ スニーカー ブラック 運動靴 22cm",
+     "title": "ナイキ NIKE コルテッツ スニーカー アイボリー ブラウン",
      "price": 3000,
-     "url": "https://jp.mercari.com/item/m79257065761",
+     "url": "https://jp.mercari.com/item/m39016085794",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "ナイキ ローカットスニーカー W PACIFIC",
-     "price": 3200,
-     "url": "https://jp.mercari.com/item/m39584063237",
+     "title": "NIKE ナイキ スニーカー ブラック メンズ",
+     "price": 3500,
+     "url": "https://jp.mercari.com/item/m74204799978",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "NIKE ナイキ ウィメンズ テック ヘラ スニーカー 27cm",
-     "price": 3700,
-     "url": "https://jp.mercari.com/item/m11135536311",
+     "title": "NIKE ナイキ レディーススニーカー 25cm",
+     "price": 3500,
+     "url": "https://jp.mercari.com/item/m64649875248",
      "shop": "メルカリ",
      "used": true
     }
@@ -136,29 +136,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 18,
-   "min": 3000,
-   "median": 5140,
-   "max": 19360,
+   "count": 14,
+   "min": 3300,
+   "median": 4950,
+   "max": 12870,
    "items": [
     {
-     "title": "NIKE AIR WOVEN ナイキ エアウーブン ブラック ホワイト スニーカー",
-     "price": 3000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/e1251572871",
+     "title": "※備考有 KITH × NIKE AIR MAESTRO 2 HIGH UNIVERSITY 型番:AH1069 600 サイズ:27cm キス ナイキ エア マエストロ ☆良品☆[75-0627-R1]",
+     "price": 3300,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/e1252635390",
      "shop": "",
      "used": true
     },
     {
-     "title": "名機降臨！希少マルチファブリッククラフト！ナイキ ミドルカットスニーカー！マルチカラー 26cm/US8",
-     "price": 3333,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/v1243286142",
+     "title": "美品 ナイキ ローカットスニーカー ランニングシューズ REVOLUTION 6 NN DC3728-400 メンズ SIZE 27.0 NIKE",
+     "price": 3850,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/g1253106318",
      "shop": "",
      "used": true
     },
     {
-     "title": "◆ NIKE ナイキ AIR JORDAN 38 エアジョーダン38 DZ3355-100 28.5cm ホワイト/ユニバーシティレッド スニーカー 中古品◆ V11749NC",
-     "price": 3997,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/q1234678265",
+     "title": "名機降臨！未使用品！名作ハイブリッド7シリーズ！少量ロットビックサイズ29cm!ナイキ スニーカー/ランニングシューズ",
+     "price": 3999,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/c1250337483",
      "shop": "",
      "used": true
     }
@@ -170,18 +170,18 @@
   "minSite": "yahoo_shopping",
   "minLabel": "Yahoo!ショッピング",
   "minTitle": "フレックスランナー4 ナイキ NIKE IF2894608 ジュニア キッズ 子供靴 キッズシューズ キッズスニーカー FlexRunner4 スリッポン スリップオン 軽量 運動靴",
-  "median": 7322,
+  "median": 7491,
   "siteCount": 3,
-  "itemCount": 45
+  "itemCount": 44
  },
  "usedSummary": {
   "min": 3000,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "NIKE ナイキ キッズ スニーカー ブラック 運動靴 22cm",
-  "median": 5065,
+  "minTitle": "ナイキ NIKE コルテッツ スニーカー アイボリー ブラウン",
+  "median": 4867,
   "siteCount": 2,
-  "itemCount": 34
+  "itemCount": 30
  },
  "history": [
   {
@@ -529,6 +529,20 @@
     "rakuten": 6600,
     "mercari": 3000,
     "yahoo_auction": 3000
+   }
+  },
+  {
+   "date": "2026-11-21",
+   "newMin": 4380,
+   "newMedian": 7491,
+   "usedMin": 3000,
+   "usedMedian": 4867,
+   "sites": {
+    "yahoo_shopping": 4380,
+    "joshin": 5980,
+    "rakuten": 5990,
+    "mercari": 3000,
+    "yahoo_auction": 3300
    }
   }
  ]

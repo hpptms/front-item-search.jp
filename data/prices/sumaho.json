@@ -1,8 +1,8 @@
 {
  "slug": "sumaho",
  "term": "スマホ",
- "date": "2026-11-20",
- "capturedAt": "2026-11-19T20:10:03.275Z",
+ "date": "2026-11-21",
+ "capturedAt": "2026-11-20T20:10:02.641Z",
  "sites": [
   {
    "site": "yahoo_shopping",
@@ -13,6 +13,13 @@
    "median": 42000,
    "max": 81980,
    "items": [
+    {
+     "title": "Xperia 10 III 128GB Aランク スマホ 本体 SIMフリー 美品 白ロム",
+     "price": 16800,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnicosuma%2Fxperia10iii-128-a.html",
+     "shop": "にこスマ",
+     "used": true
+    },
     {
      "title": "motorola モトローラ moto g05(I) フレッシュラベンダー 本体 SIMフリー PB6N0002JP イオンモバイル",
      "price": 20680,
@@ -26,13 +33,6 @@
      "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnicosuma%2Fpxl-7a-128-b.html",
      "shop": "にこスマ",
      "used": true
-    },
-    {
-     "title": "Xperia 10 V 128GB Aランク スマホ 本体 SIMフリー 美品 白ロム",
-     "price": 28800,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnicosuma%2Fxperia10v-128-a.html",
-     "shop": "にこスマ",
-     "used": true
     }
    ]
   },
@@ -40,10 +40,10 @@
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 14,
+   "count": 15,
    "min": 20980,
-   "median": 39890,
-   "max": 84800,
+   "median": 64800,
+   "max": 89760,
    "items": [
     {
      "title": "「未開封/未使用/国内版SIMフリー」Galaxy A25 5G 64GB docomo版 au/UQ版 ソフトバンク版 Yモバイル版 SIMフリー版 楽天版 ライトブルー ブルー ブラック 白ロム スマホ 本体 楽天モバイル対応",
@@ -60,7 +60,7 @@
      "used": false
     },
     {
-     "title": "ブラックフライデー★700円OFF Samsung Galaxy A25 5G Galaxy-A25 GalaxyA25 サムスン ギャラクシー A25 本体 スマホ スマートフォン AU版/SoftBank版/ドコモ版 SIMフリー 4G",
+     "title": "ブラックフライデー★700円OFF Samsung Galaxy A25 5G GalaxyA25 Galaxy-A25 サムスン ギャラクシー A25 本体 スマホ スマートフォン AU版/SoftBank版/ドコモ版 SIMフリー 4G",
      "price": 22200,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgojapanshop%2Fgalaxy-a25%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fgojapanshop%2Fi%2F10002537%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "Go Japan 楽天市場店",
@@ -69,10 +69,42 @@
    ]
   },
   {
+   "site": "biccamera",
+   "label": "ビックカメラ",
+   "used": false,
+   "count": 12,
+   "min": 52180,
+   "median": 75575,
+   "max": 99800,
+   "items": [
+    {
+     "title": "Xiaomi｜シャオミ REDMI（レッドミ） Note 15 Pro 5G Glacier Blue 8G+256G SIMフリースマートフォン Glacier Blue",
+     "price": 52180,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F6932554470043%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F15335390%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "楽天ビック(ビックカメラ×楽天)",
+     "used": false
+    },
+    {
+     "title": "Xiaomi｜シャオミ REDMI（レッドミ） Note 15 Pro 5G Titanium Gray 8G+256G SIMフリースマートフォン Titanium Gray",
+     "price": 57980,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F6932554470050%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F15335391%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "楽天ビック(ビックカメラ×楽天)",
+     "used": false
+    },
+    {
+     "title": "Xiaomi｜シャオミ REDMI（レッドミ） Note 15 Pro 5G Black 8G+256G SIMフリースマートフォン Black",
+     "price": 57980,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F6932554471408%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F15335392%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "楽天ビック(ビックカメラ×楽天)",
+     "used": false
+    }
+   ]
+  },
+  {
    "site": "yodobashi",
    "label": "ヨドバシ.com",
    "used": false,
-   "count": 15,
+   "count": 14,
    "min": 54340,
    "median": 235400,
    "max": 299200,
@@ -96,38 +128,6 @@
      "price": 54340,
      "url": "https://www.yodobashi.com/product/100000001010197974/",
      "shop": "",
-     "used": false
-    }
-   ]
-  },
-  {
-   "site": "biccamera",
-   "label": "ビックカメラ",
-   "used": false,
-   "count": 12,
-   "min": 57980,
-   "median": 75835,
-   "max": 99800,
-   "items": [
-    {
-     "title": "Xiaomi｜シャオミ REDMI（レッドミ） Note 15 Pro 5G Titanium Gray 8G+256G SIMフリースマートフォン Titanium Gray",
-     "price": 57980,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F6932554470050%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F15335391%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "楽天ビック(ビックカメラ×楽天)",
-     "used": false
-    },
-    {
-     "title": "Xiaomi｜シャオミ REDMI（レッドミ） Note 15 Pro 5G Black 8G+256G SIMフリースマートフォン Black",
-     "price": 57980,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F6932554471408%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F15335392%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "楽天ビック(ビックカメラ×楽天)",
-     "used": false
-    },
-    {
-     "title": "Xiaomi｜シャオミ REDMI（レッドミ） Note 15 Pro 5G Glacier Blue 8G+256G SIMフリースマートフォン Glacier Blue",
-     "price": 57980,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F6932554470043%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F15335390%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "楽天ビック(ビックカメラ×楽天)",
      "used": false
     }
    ]
@@ -204,29 +204,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 14,
-   "min": 10500,
-   "median": 30000,
-   "max": 63000,
+   "count": 16,
+   "min": 12000,
+   "median": 29700,
+   "max": 65000,
    "items": [
     {
-     "title": "Xiaomi Redmi9t 64gb SIMフリー",
-     "price": 10500,
-     "url": "https://jp.mercari.com/item/m74699115600",
+     "title": "iPhone X スペースグレイ 64GB SIMフリー",
+     "price": 12000,
+     "url": "https://jp.mercari.com/item/m64405768394",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "iPhone X 64GB シルバー 本体",
-     "price": 15000,
-     "url": "https://jp.mercari.com/item/m10518328985",
+     "title": "AQUOS sense6 simフリー 64GB",
+     "price": 12800,
+     "url": "https://jp.mercari.com/item/m34119497769",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "iPhone12 ブラック 128GB SIMフリー",
-     "price": 16099,
-     "url": "https://jp.mercari.com/item/m49029403118",
+     "title": "Apple iPhone XS 512GB",
+     "price": 14900,
+     "url": "https://jp.mercari.com/item/m50793219165",
      "shop": "メルカリ",
      "used": true
     }
@@ -236,29 +236,15 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 5,
-   "min": 14300,
-   "median": 17028,
-   "max": 25500,
+   "count": 1,
+   "min": 14000,
+   "median": 14000,
+   "max": 14000,
    "items": [
     {
-     "title": "SONY Xperia 1 III XQ-BC72 256GB SIMフリー デュアルSIM 海外版 香港版 フロストグレー 5キャリア- android スマホ 261018SK191091",
-     "price": 14300,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/t1252631232",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "Android スマートフォン 本体 SIMフリー",
-     "price": 17000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z727492136",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "371-0286 OUKITEL Androidスマホ WP35 グリーン 256GB SIMフリー",
-     "price": 17028,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/n1252713083",
+     "title": "OPPO A3 5G 128GB ブラック A402OP SIMフリー 初期化済 M14976RL",
+     "price": 14000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/h1252833034",
      "shop": "",
      "used": true
     }
@@ -270,18 +256,18 @@
   "minSite": "yahoo_shopping",
   "minLabel": "Yahoo!ショッピング",
   "minTitle": "motorola モトローラ moto g05(I) フレッシュラベンダー 本体 SIMフリー PB6N0002JP イオンモバイル",
-  "median": 75835,
+  "median": 75575,
   "siteCount": 7,
   "itemCount": 68
  },
  "usedSummary": {
-  "min": 10500,
+  "min": 12000,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "Xiaomi Redmi9t 64gb SIMフリー",
-  "median": 32400,
+  "minTitle": "iPhone X スペースグレイ 64GB SIMフリー",
+  "median": 32250,
   "siteCount": 4,
-  "itemCount": 29
+  "itemCount": 28
  },
  "history": [
   {
@@ -728,6 +714,24 @@
     "joshin": 77880,
     "mercari": 10500,
     "yahoo_auction": 14300
+   }
+  },
+  {
+   "date": "2026-11-21",
+   "newMin": 20680,
+   "newMedian": 75575,
+   "usedMin": 12000,
+   "usedMedian": 32250,
+   "sites": {
+    "yahoo_shopping": 20680,
+    "rakuten": 20980,
+    "biccamera": 52180,
+    "yodobashi": 54340,
+    "sofmap": 57980,
+    "edion": 59300,
+    "joshin": 77880,
+    "mercari": 12000,
+    "yahoo_auction": 14000
    }
   }
  ]

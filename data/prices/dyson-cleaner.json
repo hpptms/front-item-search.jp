@@ -1,25 +1,18 @@
 {
  "slug": "dyson-cleaner",
  "term": "ダイソン 掃除機",
- "date": "2026-11-20",
- "capturedAt": "2026-11-19T20:10:03.275Z",
+ "date": "2026-11-21",
+ "capturedAt": "2026-11-20T20:10:02.641Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 12,
+   "count": 11,
    "min": 27900,
-   "median": 34065,
+   "median": 34650,
    "max": 67720,
    "items": [
-    {
-     "title": "ダイソン Dyson V8 Slim Fluffy Extra 掃除機 コードレス掃除機 dyson SV10K EXT BU ダイソン公式 新品 ダイソン掃除機 スティック掃除機 ハンディクリーナー ハンディ掃除機 コードレス サイクロン",
-     "price": 27900,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F289118-01%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdyson%2Fi%2F10001015%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "Dyson公式 楽天市場店",
-     "used": false
-    },
     {
      "title": "ダイソン Dyson V8 Origin 掃除機 コードレス掃除機 dyson SV25 RD2 ダイソン公式 新品 ダイソン掃除機 スティック掃除機 ハンディクリーナー ハンディ掃除機 コードレス サイクロン 軽量 強力 掃除機ダイソン",
      "price": 27900,
@@ -33,6 +26,13 @@
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F593813-01%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdyson%2Fi%2F10002092%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "Dyson公式 楽天市場店",
      "used": false
+    },
+    {
+     "title": "ダイソン 掃除機 Dyson V8 Slim Fluffy Extra SV10K EXT BU コードレススティッククリーナー SV10KEXTBU コードレス掃除機",
+     "price": 32980,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fakindo%2Fsv10kextbu%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fakindo%2Fi%2F10189728%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "安心家電販売 PCあきんど",
+     "used": false
     }
    ]
   },
@@ -42,8 +42,8 @@
    "used": false,
    "count": 19,
    "min": 27900,
-   "median": 39900,
-   "max": 82280,
+   "median": 48400,
+   "max": 89650,
    "items": [
     {
      "title": "掃除機 コードレス掃除機 ダイソン Dyson V8 Slim Fluffy Extra SV10KEXTBU",
@@ -104,30 +104,48 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 7,
-   "min": 15500,
-   "median": 17400,
-   "max": 27000,
+   "count": 4,
+   "min": 18900,
+   "median": 26700,
+   "max": 28800,
    "items": [
     {
-     "title": "154 - dyson SV18 コードレス掃除機 作動品",
-     "price": 15500,
-     "url": "https://jp.mercari.com/item/m62171839416",
+     "title": "Dyson SV18 2025年製 美品 動作確認済 付属品付き",
+     "price": 18900,
+     "url": "https://jp.mercari.com/item/m19476958121",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "103 - dyson SV18 2023年製 コードレス掃除機",
-     "price": 16500,
-     "url": "https://jp.mercari.com/item/m68023686079",
+     "title": "ダイソン V8 Slim Fluffy Extra SV10K EXT BU",
+     "price": 26399,
+     "url": "https://jp.mercari.com/item/m93864110340",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Dyson Cyclone DS20 スティッククリーナー SV55FFBK",
-     "price": 16800,
-     "url": "https://jp.mercari.com/item/m58478136910",
+     "title": "Dyson V8 origin",
+     "price": 27000,
+     "url": "https://jp.mercari.com/item/m86977582952",
      "shop": "メルカリ",
+     "used": true
+    }
+   ]
+  },
+  {
+   "site": "yahoo_auction",
+   "label": "Yahoo!オークション",
+   "used": true,
+   "count": 1,
+   "min": 24200,
+   "median": 24200,
+   "max": 24200,
+   "items": [
+    {
+     "title": "新品 ダイソン コードレスクリーナー V8 SLIM FLUFFY SV25 SLM シルバー サイクロン デジタルモーターV8 集じん容積0.54L dyson",
+     "price": 24200,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/b1252964026",
+     "shop": "",
      "used": true
     }
    ]
@@ -137,19 +155,19 @@
   "min": 27900,
   "minSite": "rakuten",
   "minLabel": "楽天市場",
-  "minTitle": "ダイソン Dyson V8 Slim Fluffy Extra 掃除機 コードレス掃除機 dyson SV10K EXT BU ダイソン公式 新品 ダイソン掃除機 スティック掃除機 ハンディクリーナー ハンディ掃除機 コードレス サイクロン",
-  "median": 39900,
+  "minTitle": "ダイソン Dyson V8 Origin 掃除機 コードレス掃除機 dyson SV25 RD2 ダイソン公式 新品 ダイソン掃除機 スティック掃除機 ハンディクリーナー ハンディ掃除機 コードレス サイクロン 軽量 強力 掃除機ダイソン",
+  "median": 48400,
   "siteCount": 3,
-  "itemCount": 45
+  "itemCount": 44
  },
  "usedSummary": {
-  "min": 15500,
+  "min": 18900,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "154 - dyson SV18 コードレス掃除機 作動品",
-  "median": 17400,
-  "siteCount": 1,
-  "itemCount": 7
+  "minTitle": "Dyson SV18 2025年製 美品 動作確認済 付属品付き",
+  "median": 25450,
+  "siteCount": 2,
+  "itemCount": 5
  },
  "history": [
   {
@@ -484,6 +502,20 @@
     "yahoo_shopping": 27900,
     "yodobashi": 32780,
     "mercari": 15500
+   }
+  },
+  {
+   "date": "2026-11-21",
+   "newMin": 27900,
+   "newMedian": 48400,
+   "usedMin": 18900,
+   "usedMedian": 25450,
+   "sites": {
+    "rakuten": 27900,
+    "yahoo_shopping": 27900,
+    "yodobashi": 32780,
+    "mercari": 18900,
+    "yahoo_auction": 24200
    }
   }
  ]
