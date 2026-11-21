@@ -1,8 +1,8 @@
 {
  "slug": "nike-sneakers",
  "term": "スニーカー ナイキ",
- "date": "2026-11-21",
- "capturedAt": "2026-11-20T20:10:02.641Z",
+ "date": "2026-11-22",
+ "capturedAt": "2026-11-21T20:10:07.607Z",
  "sites": [
   {
    "site": "yahoo_shopping",
@@ -32,6 +32,38 @@
      "price": 4790,
      "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftry-group%2F4-nc-m-hm9594-002.html",
      "shop": "つるや 靴のTSURUYA",
+     "used": false
+    }
+   ]
+  },
+  {
+   "site": "rakuten",
+   "label": "楽天市場",
+   "used": false,
+   "count": 17,
+   "min": 4730,
+   "median": 7304,
+   "max": 16999,
+   "items": [
+    {
+     "title": "ナイキ エバノン LOW NIKE メンズ スニーカー シューズ ライフスタイル ローカット 通勤 通学 レザー 白 オールホワイト 24cm-33cm aq1775-100 ライフスタイルシューズ ナイキ公式",
+     "price": 4730,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnike-official%2Faq1775-100%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnike-official%2Fi%2F10006021%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "NIKE 公式 楽天市場店",
+     "used": false
+    },
+    {
+     "title": "ナイキ エア ハイツ NIKE シューズ 厚底 スニーカー Y2K 90’s 通勤 黒 ブラック 22.5cm-29cm HO24 母の日 ライフスタイルシューズ",
+     "price": 5335,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnike-official%2Fci0603-001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnike-official%2Fi%2F10015826%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "NIKE 公式 楽天市場店",
+     "used": false
+    },
+    {
+     "title": "ナイキ（NIKE）（メンズ）スニーカー スポーツシューズ コート ビジョン ロー ネクスト ネイチャー DH2987-100 ホワイト 白 通学 学生",
+     "price": 5990,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsupersportsxebio%2F107886344011%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsupersportsxebio%2Fi%2F21033966%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "SuperSportsXEBIO楽天市場支店",
      "used": false
     }
    ]
@@ -69,82 +101,25 @@
    ]
   },
   {
-   "site": "rakuten",
-   "label": "楽天市場",
-   "used": false,
-   "count": 17,
-   "min": 5990,
-   "median": 7491,
-   "max": 16390,
-   "items": [
-    {
-     "title": "ナイキ（NIKE）（メンズ）スニーカー スポーツシューズ コート ビジョン ロー ネクスト ネイチャー DH2987-100 ホワイト 白 通学 学生",
-     "price": 5990,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsupersportsxebio%2F107886344011%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsupersportsxebio%2Fi%2F21033966%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "SuperSportsXEBIO楽天市場支店",
-     "used": false
-    },
-    {
-     "title": "ナイキ スニーカー メンズ コート ビジョン LOW ネクスト ネイチャー DH2987-001 NIKE 通学シューズ 通学靴 黒靴 ブラック 黒色",
-     "price": 6260,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhimaraya%2F0000000999340%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhimaraya%2Fi%2F10483505%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "ヒマラヤ楽天市場店",
-     "used": false
-    },
-    {
-     "title": "ナイキ スニーカー メンズ コートビジョン Low Next Nature DH2987-100 NIKE ホワイト 白 通学 学生",
-     "price": 6439,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhimaraya%2F0000000999341%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhimaraya%2Fi%2F10482279%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "ヒマラヤ楽天市場店",
-     "used": false
-    }
-   ]
-  },
-  {
-   "site": "mercari",
-   "label": "メルカリ",
-   "used": true,
-   "count": 16,
-   "min": 3000,
-   "median": 4783,
-   "max": 7777,
-   "items": [
-    {
-     "title": "ナイキ NIKE コルテッツ スニーカー アイボリー ブラウン",
-     "price": 3000,
-     "url": "https://jp.mercari.com/item/m39016085794",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "NIKE ナイキ スニーカー ブラック メンズ",
-     "price": 3500,
-     "url": "https://jp.mercari.com/item/m74204799978",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "NIKE ナイキ レディーススニーカー 25cm",
-     "price": 3500,
-     "url": "https://jp.mercari.com/item/m64649875248",
-     "shop": "メルカリ",
-     "used": true
-    }
-   ]
-  },
-  {
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 14,
-   "min": 3300,
-   "median": 4950,
-   "max": 12870,
+   "count": 17,
+   "min": 3000,
+   "median": 4900,
+   "max": 22500,
    "items": [
     {
-     "title": "※備考有 KITH × NIKE AIR MAESTRO 2 HIGH UNIVERSITY 型番:AH1069 600 サイズ:27cm キス ナイキ エア マエストロ ☆良品☆[75-0627-R1]",
-     "price": 3300,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/e1252635390",
+     "title": "NIKE AIR MAX TRIAX 30cm スニーカー 未使用 MNL498",
+     "price": 3000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/g1246013537",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "NIKE ナイキ スニーカー シューズ 靴 25.5cm ホワイト CW2288-111 AIR FORCE 1 07 エアフォース1",
+     "price": 3100,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/u1252580256",
      "shop": "",
      "used": true
     },
@@ -154,12 +129,37 @@
      "url": "https://auctions.yahoo.co.jp/jp/auction/g1253106318",
      "shop": "",
      "used": true
+    }
+   ]
+  },
+  {
+   "site": "mercari",
+   "label": "メルカリ",
+   "used": true,
+   "count": 18,
+   "min": 3500,
+   "median": 5900,
+   "max": 12000,
+   "items": [
+    {
+     "title": "NIKE AIR MAX 95 GREEDYスニーカー ナイキ",
+     "price": 3500,
+     "url": "https://jp.mercari.com/item/m51528202782",
+     "shop": "メルカリ",
+     "used": true
     },
     {
-     "title": "名機降臨！未使用品！名作ハイブリッド7シリーズ！少量ロットビックサイズ29cm!ナイキ スニーカー/ランニングシューズ",
-     "price": 3999,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/c1250337483",
-     "shop": "",
+     "title": "美品 NIKE AIR スニーカー 22.5グレー ブラック レッド ナイキ",
+     "price": 3550,
+     "url": "https://jp.mercari.com/item/m58696438563",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "ナイキスニーカー W FONTANKA WAFFLE",
+     "price": 4000,
+     "url": "https://jp.mercari.com/item/m76580573246",
+     "shop": "メルカリ",
      "used": true
     }
    ]
@@ -170,18 +170,18 @@
   "minSite": "yahoo_shopping",
   "minLabel": "Yahoo!ショッピング",
   "minTitle": "フレックスランナー4 ナイキ NIKE IF2894608 ジュニア キッズ 子供靴 キッズシューズ キッズスニーカー FlexRunner4 スリッポン スリップオン 軽量 運動靴",
-  "median": 7491,
+  "median": 7322,
   "siteCount": 3,
   "itemCount": 44
  },
  "usedSummary": {
   "min": 3000,
-  "minSite": "mercari",
-  "minLabel": "メルカリ",
-  "minTitle": "ナイキ NIKE コルテッツ スニーカー アイボリー ブラウン",
-  "median": 4867,
+  "minSite": "yahoo_auction",
+  "minLabel": "Yahoo!オークション",
+  "minTitle": "NIKE AIR MAX TRIAX 30cm スニーカー 未使用 MNL498",
+  "median": 5400,
   "siteCount": 2,
-  "itemCount": 30
+  "itemCount": 35
  },
  "history": [
   {
@@ -543,6 +543,20 @@
     "rakuten": 5990,
     "mercari": 3000,
     "yahoo_auction": 3300
+   }
+  },
+  {
+   "date": "2026-11-22",
+   "newMin": 4380,
+   "newMedian": 7322,
+   "usedMin": 3000,
+   "usedMedian": 5400,
+   "sites": {
+    "yahoo_shopping": 4380,
+    "rakuten": 4730,
+    "joshin": 5980,
+    "yahoo_auction": 3000,
+    "mercari": 3500
    }
   }
  ]

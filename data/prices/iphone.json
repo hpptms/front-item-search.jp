@@ -1,8 +1,8 @@
 {
  "slug": "iphone",
  "term": "iPhone",
- "date": "2026-11-21",
- "capturedAt": "2026-11-20T20:10:02.641Z",
+ "date": "2026-11-22",
+ "capturedAt": "2026-11-21T20:10:07.607Z",
  "sites": [
   {
    "site": "sofmap",
@@ -43,7 +43,7 @@
    "count": 5,
    "min": 41800,
    "median": 133400,
-   "max": 255900,
+   "max": 159699,
    "items": [
     {
      "title": "最大5000円オフクーポン iPhone SE 第3世代 2022 SE3 A2782 64GB 128GB スマホ スマートフォン SE3 本体 SIMフリー ミッドナイト レッド スターライト docomo au softbank 美品",
@@ -73,9 +73,9 @@
    "label": "Yahoo!ショッピング",
    "used": false,
    "count": 2,
-   "min": 89900,
-   "median": 109850,
-   "max": 129800,
+   "min": 129800,
+   "median": 144880,
+   "max": 159960,
    "items": [
     {
      "title": "iPhone 12 64GB Aランク スマホ 本体 SIMフリー ブラック ブルー グリーン パープル レッド ホワイト 美品",
@@ -92,42 +92,10 @@
      "used": true
     },
     {
-     "title": "iPhone 14 256GB SIMフリー 中古 スマホ スマートフォン Cランク 本体 即日発送",
-     "price": 56000,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmywit%2Fiphone14256gen-c.html",
-     "shop": "MyWiT Japan",
-     "used": true
-    }
-   ]
-  },
-  {
-   "site": "yahoo_auction",
-   "label": "Yahoo!オークション",
-   "used": true,
-   "count": 5,
-   "min": 15000,
-   "median": 29800,
-   "max": 96030,
-   "items": [
-    {
-     "title": "Apple iPhone SE 第3世代 64GB SIMフリー",
-     "price": 15000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/f1252999108",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "iPhone13 SIMフリー Midnight 256GB",
-     "price": 28000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/p1247006406",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "iPhone12 128GB SIMフリー Apple",
-     "price": 29800,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/r1249704193",
-     "shop": "",
+     "title": "iPhone 13 128GB Aランク スマホ 本体 SIMフリー グリーン ピンク ブルー ミッドナイト スターライト RED 美品",
+     "price": 49800,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnicosuma%2Fiphone13-128-a.html",
+     "shop": "にこスマ",
      "used": true
     }
    ]
@@ -136,29 +104,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 11,
-   "min": 16799,
-   "median": 32000,
-   "max": 85000,
+   "count": 6,
+   "min": 18000,
+   "median": 33417,
+   "max": 50000,
    "items": [
     {
-     "title": "iPhone 12 64GB ブルー 本体 箱付き 充電接触不良ジャンク",
-     "price": 16799,
-     "url": "https://jp.mercari.com/item/m53454323936",
+     "title": "Apple iPhone 12mini グリーン 本体 simフリー128GB",
+     "price": 18000,
+     "url": "https://jp.mercari.com/item/m30335843359",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "256GB Apple iPhone 11 RED SIMフリー 本体",
-     "price": 19000,
-     "url": "https://jp.mercari.com/item/m24979761748",
+     "title": "★極美品★ Apple iPhone13本体128G SIMフリー スターライト",
+     "price": 33000,
+     "url": "https://jp.mercari.com/item/m29817781721",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Apple iPhone 11 本体 ホワイト 64GB SIMフリー 本体のみ",
-     "price": 19000,
-     "url": "https://jp.mercari.com/item/m98342726524",
+     "title": "iPhone 15 本体 ジャンク品",
+     "price": 33333,
+     "url": "https://jp.mercari.com/item/m45637326430",
      "shop": "メルカリ",
      "used": true
     }
@@ -170,18 +138,18 @@
   "minSite": "sofmap",
   "minLabel": "ソフマップ",
   "minTitle": "Apple(アップル) iPhoneX 256GB シルバー MQC22J／A SIMフリー",
-  "median": 109850,
+  "median": 133400,
   "siteCount": 3,
   "itemCount": 12
  },
  "usedSummary": {
-  "min": 15000,
-  "minSite": "yahoo_auction",
-  "minLabel": "Yahoo!オークション",
-  "minTitle": "Apple iPhone SE 第3世代 64GB SIMフリー",
-  "median": 30900,
-  "siteCount": 4,
-  "itemCount": 24
+  "min": 18000,
+  "minSite": "mercari",
+  "minLabel": "メルカリ",
+  "minTitle": "Apple iPhone 12mini グリーン 本体 simフリー128GB",
+  "median": 33417,
+  "siteCount": 3,
+  "itemCount": 16
  },
  "history": [
   {
@@ -536,6 +504,19 @@
     "yahoo_shopping": 89900,
     "yahoo_auction": 15000,
     "mercari": 16799
+   }
+  },
+  {
+   "date": "2026-11-22",
+   "newMin": 25990,
+   "newMedian": 133400,
+   "usedMin": 18000,
+   "usedMedian": 33417,
+   "sites": {
+    "sofmap": 25990,
+    "rakuten": 41800,
+    "yahoo_shopping": 129800,
+    "mercari": 18000
    }
   }
  ]

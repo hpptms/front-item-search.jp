@@ -1,9 +1,41 @@
 {
  "slug": "laptop",
  "term": "ノートパソコン",
- "date": "2026-11-21",
- "capturedAt": "2026-11-20T20:10:02.641Z",
+ "date": "2026-11-22",
+ "capturedAt": "2026-11-21T20:10:07.607Z",
  "sites": [
+  {
+   "site": "rakuten",
+   "label": "楽天市場",
+   "used": false,
+   "count": 10,
+   "min": 39800,
+   "median": 139850,
+   "max": 197500,
+   "items": [
+    {
+     "title": "Windows11 ノートパソコン office付き 15.6インチワイド液晶 フルHD Intel Pentium GOLD 6500Y メモリ12GB 新品SSD256GB USB3.0 HDMI 日本語配列キーボード",
+     "price": 39800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkrdirect%2Fkr-cj4125%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkrdirect%2Fi%2F10001358%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "KRダイレクト",
+     "used": false
+    },
+    {
+     "title": "ノートパソコン 11.6インチ タッチパネル搭載 Intel Celeron N4020 2in1 360度回転 タブレットPC Windows 11 Office対応 コンパクト モバイルノートPC タッチ操作 学習 ビジネス Web閲覧",
+     "price": 59800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmerune88%2Fpc059%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmerune88%2Fi%2F10000520%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "MERUNE",
+     "used": false
+    },
+    {
+     "title": "2026年モデル ノートパソコン Windows11 第14世代 Intel Core i3/i5/i7 15.6型/16型/17型 メモリ16GB/32GB SSD最大1TB 日本語キーボード フルHD 高性能PC 在宅勤務 テレワーク ",
+     "price": 60680,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyorozuyasan-reiwa%2Fyypc09%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fyorozuyasan-reiwa%2Fi%2F10000009%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "コバヤシ 楽天市場店",
+     "used": false
+    }
+   ]
+  },
   {
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
@@ -11,11 +43,18 @@
    "count": 3,
    "min": 42980,
    "median": 98780,
-   "max": 98780,
+   "max": 145000,
    "items": [
     {
+     "title": "ノートパソコン office搭載 東芝 ダイナブック B45 第8世代Celeron 大画面 メモリ8GB 中古パソコン MS office2024 Bluetooth Windows11 中古ノートパソコン",
+     "price": 23800,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Feco-stage-japan%2F20213150.html",
+     "shop": "Ecostation Store",
+     "used": true
+    },
+    {
      "title": "ノートパソコン 中古 Windows11 Pro Office2024搭載 Core i5 高速SSD256GB 15.6型 WiFi カメラ HDMI 初期設定済み 中古パソコン DELL Latitude 5590",
-     "price": 29800,
+     "price": 28800,
      "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fpronet%2Fpnpc-dell5590-261012001.html",
      "shop": "Pronet pc",
      "used": true
@@ -25,13 +64,6 @@
      "price": 34800,
      "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Flib-2021store%2Fb552-i7.html",
      "shop": "L.I.Bヤフーショップ",
-     "used": true
-    },
-    {
-     "title": "ノートパソコン 中古 VAIO Pro PK VJPK13C12N 第10世代 Core i5 メモリ最大16GB SSD256GB Windows11 Office搭載 13.3インチ FHD フルHD WEBカメラ 軽量 薄型",
-     "price": 38800,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Faccessone%2Fvjpk13c12n.html",
-     "shop": "Access One Yahoo!ショッピング店",
      "used": true
     }
    ]
@@ -94,45 +126,13 @@
    ]
   },
   {
-   "site": "rakuten",
-   "label": "楽天市場",
-   "used": false,
-   "count": 7,
-   "min": 59800,
-   "median": 139900,
-   "max": 151980,
-   "items": [
-    {
-     "title": "ポイント10倍｜レビュー投稿 5年保証｜MS Office 2024 H&B 搭載｜中古ノートパソコン Windows11 Core i5 第8世代 メモリ 8GB SSD 256GB 14型 小型 軽量 WEBカメラ 指紋認証 Type-",
-     "price": 29800,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fupc1114%2Fcorei5-sale%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fupc1114%2Fi%2F10002905%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "中古パソコン 遼南商店",
-     "used": true
-    },
-    {
-     "title": "超得10％OFF＆P10倍｜ノートパソコン 中古｜第8世代 Windows11 office付｜スタンダードランク｜最大3年保証｜楽天1位 三冠獲得｜豪華特典付き｜中古ノートパソコン｜Corei5 第8世代｜15.6型｜Microsoft ",
-     "price": 29800,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpc-smile%2Fnp_omakase_ms%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpc-smile%2Fi%2F10000182%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "PCスマイル",
-     "used": true
-    },
-    {
-     "title": "MS Office 2024 H&B 搭載｜13型 WEBカメラ 顔認証 指紋認証 タッチパネル 搭載モデル 軽量薄型｜中古 ノートパソコン Windows11 Office 付き｜FUJITSU LIFEBOOK 9311X｜Core i",
-     "price": 54800,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fupc1114%2F10006179%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fupc1114%2Fi%2F10006382%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "中古パソコン 遼南商店",
-     "used": true
-    }
-   ]
-  },
-  {
    "site": "yodobashi",
    "label": "ヨドバシ.com",
    "used": false,
    "count": 20,
    "min": 66970,
-   "median": 169800,
-   "max": 299850,
+   "median": 169180,
+   "max": 434280,
    "items": [
     {
      "title": "Chromebook DuetGen9/10.95型/Kompanio 838/メモリ 4GB/eMMC 128GB/ChromeOS/ルナグレー 83HH000UJP",
@@ -161,10 +161,10 @@
    "site": "joshin",
    "label": "ジョーシン",
    "used": false,
-   "count": 5,
+   "count": 4,
    "min": 66978,
-   "median": 149800,
-   "max": 189980,
+   "median": 139800,
+   "max": 155280,
    "items": [
     {
      "title": "Lenovo｜レノボ 10.95型 2in1 ノートパソコン Lenovo Chromebook Duet Gen9 ルナグレー （MediaTek Kompanio 838/ メモリ 4GB/ ストレージ 128GB eMMC） 83HH",
@@ -193,15 +193,15 @@
    "site": "edion",
    "label": "エディオン",
    "used": false,
-   "count": 5,
-   "min": 159800,
-   "median": 224820,
+   "count": 4,
+   "min": 224820,
+   "median": 233820,
    "max": 269800,
    "items": [
     {
-     "title": "DELL ノートパソコン Dell Pro 14 PC14255 プラチナシルバー MCR54-GHHB [MCR54GHHB]",
-     "price": 159800,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4573661275781%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10913057%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "title": "ASUS ノートパソコン Zenbook SORA アイスランドグレー UX3407QA-PU16548GR [UX3407QAPU16548GR]",
+     "price": 224820,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F0197105887800%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10865789%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "エディオン 楽天市場店",
      "used": false
     },
@@ -213,9 +213,9 @@
      "used": false
     },
     {
-     "title": "ASUS ノートパソコン Zenbook SORA アイスランドグレー UX3407QA-PU16548GR [UX3407QAPU16548GR]",
-     "price": 224820,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F0197105887800%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10865789%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "title": "ASUS ノートパソコン Zenbook SORA ザブリスキーベージュ UX3407QA-PU16548BES [UX3407QAPU16548BES]",
+     "price": 242820,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F0197105887831%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10865790%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "エディオン 楽天市場店",
      "used": false
     }
@@ -225,11 +225,18 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 4,
+   "count": 6,
    "min": 20000,
-   "median": 29700,
-   "max": 41000,
+   "median": 29900,
+   "max": 47000,
    "items": [
+    {
+     "title": "ノートPC 本体 シルバー 薄型",
+     "price": 20000,
+     "url": "https://jp.mercari.com/item/m31639077583",
+     "shop": "メルカリ",
+     "used": true
+    },
     {
      "title": "富士通 LIFEBOOK UH90/C3 ホワイト ノートパソコン",
      "price": 20000,
@@ -238,16 +245,9 @@
      "used": true
     },
     {
-     "title": "爆速✨i7ノートパソコンWindows11オフィス付きSSD8GB PC",
-     "price": 24600,
-     "url": "https://jp.mercari.com/item/m62181430699",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "美品 富士通 11世代i5 ノートパソコン Windows11 オフィス付 02",
-     "price": 34800,
-     "url": "https://jp.mercari.com/item/m63498617606",
+     "title": "Microsoft Surface Laptop 3",
+     "price": 27000,
+     "url": "https://jp.mercari.com/item/m26220400422",
      "shop": "メルカリ",
      "used": true
     }
@@ -258,21 +258,21 @@
    "label": "Yahoo!オークション",
    "used": true,
    "count": 2,
-   "min": 23985,
-   "median": 25493,
-   "max": 27000,
+   "min": 27000,
+   "median": 28450,
+   "max": 29900,
    "items": [
-    {
-     "title": "1円~ Wi-Fi有 タッチパネル 中古ノートパソコン DELL 7320 Core i7 1185G7 16GB 512GB SSD 無線LAN カメラ Windows11 Office バッテリ良好",
-     "price": 23985,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/v1252604074",
-     "shop": "",
-     "used": true
-    },
     {
      "title": "ノートパソコン中古HP 250 G7 NOTEBOOK PC i5第10世代 ノートPC Core i5-1035G1 DDR4メモリ16GB NVMe SSD 240GB 15.6 i5 10th gen laptop",
      "price": 27000,
      "url": "https://auctions.yahoo.co.jp/jp/auction/n1253024476",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "ノートパソコン中古HP 250 G7 NOTEBOOK PC i5第10世代 ノートPC Core i5-1035G1 DDR4メモリ16GB NVMe SSD 256GB 15.6 i5 10th gen laptop",
+     "price": 29900,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/l1253211783",
      "shop": "",
      "used": true
     }
@@ -280,22 +280,22 @@
   }
  ],
  "newSummary": {
-  "min": 42980,
-  "minSite": "yahoo_shopping",
-  "minLabel": "Yahoo!ショッピング",
-  "minTitle": "ノートパソコン ダイナブック 2023年モデル 13世代Corei5 Corei3 dynabook G83/L メモリ16G 8G 256G 13.3FHD Wi-Fi6E office 東芝 爆買",
-  "median": 149800,
+  "min": 39800,
+  "minSite": "rakuten",
+  "minLabel": "楽天市場",
+  "minTitle": "Windows11 ノートパソコン office付き 15.6インチワイド液晶 フルHD Intel Pentium GOLD 6500Y メモリ12GB 新品SSD256GB USB3.0 HDMI 日本語配列キーボード",
+  "median": 139850,
   "siteCount": 7,
-  "itemCount": 50
+  "itemCount": 51
  },
  "usedSummary": {
   "min": 20000,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "富士通 LIFEBOOK UH90/C3 ホワイト ノートパソコン",
-  "median": 29750,
-  "siteCount": 4,
-  "itemCount": 13
+  "minTitle": "ノートPC 本体 シルバー 薄型",
+  "median": 29900,
+  "siteCount": 3,
+  "itemCount": 12
  },
  "history": [
   {
@@ -760,6 +760,24 @@
     "edion": 159800,
     "mercari": 20000,
     "yahoo_auction": 23985
+   }
+  },
+  {
+   "date": "2026-11-22",
+   "newMin": 39800,
+   "newMedian": 139850,
+   "usedMin": 20000,
+   "usedMedian": 29900,
+   "sites": {
+    "rakuten": 39800,
+    "yahoo_shopping": 42980,
+    "biccamera": 51480,
+    "sofmap": 51480,
+    "yodobashi": 66970,
+    "joshin": 66978,
+    "edion": 224820,
+    "mercari": 20000,
+    "yahoo_auction": 27000
    }
   }
  ]

@@ -1,25 +1,18 @@
 {
  "slug": "comic-set",
  "term": "コミック 全巻セット",
- "date": "2026-11-21",
- "capturedAt": "2026-11-20T20:10:02.641Z",
+ "date": "2026-11-22",
+ "capturedAt": "2026-11-21T20:10:07.607Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 7,
-   "min": 5100,
-   "median": 9724,
+   "count": 6,
+   "min": 5900,
+   "median": 10062,
    "max": 21912,
    "items": [
-    {
-     "title": "新宿スワン ＜1〜38巻完結＞ 和久井健",
-     "price": 5100,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcomicset%2F10000681%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcomicset%2Fi%2F10000681%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "もったいない本舗 楽天市場店",
-     "used": false
-    },
     {
      "title": "封神演義 ＜1〜23巻完結＞ 藤崎竜",
      "price": 5900,
@@ -33,6 +26,13 @@
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcomicset%2F10000341%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcomicset%2Fi%2F10000341%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "もったいない本舗 楽天市場店",
      "used": false
+    },
+    {
+     "title": "約束のネバーランド 全巻セット(1-20巻) （ジャンプコミックス） [ 出水 ぽすか ]",
+     "price": 9724,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F16769026%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbook%2Fi%2F20380490%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "楽天ブックス",
+     "used": false
     }
    ]
   },
@@ -43,7 +43,7 @@
    "count": 20,
    "min": 5940,
    "median": 13514,
-   "max": 27907,
+   "max": 41225,
    "items": [
     {
      "title": "青の花 器の森 1巻〜10巻 コミック全巻セット（新品）",
@@ -87,87 +87,87 @@
    ]
   },
   {
-   "site": "mercari",
-   "label": "メルカリ",
+   "site": "yahoo_auction",
+   "label": "Yahoo!オークション",
    "used": true,
-   "count": 18,
+   "count": 10,
    "min": 2000,
-   "median": 3900,
-   "max": 15980,
+   "median": 2750,
+   "max": 4720,
    "items": [
     {
-     "title": "少女マンガ全巻セット 僕らの好きはわりきれない",
+     "title": "全巻初版 石森章太郎 サンコミックス",
      "price": 2000,
-     "url": "https://jp.mercari.com/item/m64253955802",
-     "shop": "メルカリ",
+     "url": "https://auctions.yahoo.co.jp/jp/auction/v1250858254",
+     "shop": "",
      "used": true
     },
     {
-     "title": "ゆ*ー様 ぬらりひょんの孫 全巻セット 1-25巻 漫画",
-     "price": 2099,
-     "url": "https://jp.mercari.com/item/m78825835225",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "地獄楽 1-13巻 全巻セット 賀来ゆうじ",
+     "title": "20世紀少年 1巻～22巻+上下巻 浦沢直樹 -送料無料 コミックセット-",
      "price": 2200,
-     "url": "https://jp.mercari.com/item/m86019969475",
-     "shop": "メルカリ",
+     "url": "https://auctions.yahoo.co.jp/jp/auction/q1252787979",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "七つの大罪 1巻～41巻+1冊 鈴木央 -送料無料 コミックセット-",
+     "price": 2200,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/u1252976097",
+     "shop": "",
      "used": true
     }
    ]
   },
   {
-   "site": "yahoo_auction",
-   "label": "Yahoo!オークション",
+   "site": "mercari",
+   "label": "メルカリ",
    "used": true,
-   "count": 9,
-   "min": 2000,
-   "median": 2200,
-   "max": 3980,
+   "count": 13,
+   "min": 2590,
+   "median": 4000,
+   "max": 20100,
    "items": [
     {
-     "title": "唇役主丞 乾いて候 全巻セット 小池一夫 小島剛夕 送料無料",
-     "price": 2000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/k1252258682",
-     "shop": "",
+     "title": "五等分の花嫁 全巻セット 1巻〜14巻 春場ねぎ",
+     "price": 2590,
+     "url": "https://jp.mercari.com/item/m73583510963",
+     "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "魁 クロマティ高校 全巻セット／17巻揃 野中英次／著 講談社/不良上等/北斗暗殺計画/ブレード・ランナーズ・ハイ/黎明編/登校編/プロ野球編",
-     "price": 2113,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/j1252710366",
-     "shop": "",
+     "title": "♥︎ふたりで恋をする理由全巻セット♥︎",
+     "price": 2699,
+     "url": "https://jp.mercari.com/item/m23490924014",
+     "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "かぐや様は告らせたい 1巻～28巻 赤坂アカ -送料無料 コミックセット-",
-     "price": 2200,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/x1251851409",
-     "shop": "",
+     "title": "ホリミヤ 1〜16巻 全巻セット 画集 卒業付き",
+     "price": 2700,
+     "url": "https://jp.mercari.com/item/m47245206049",
+     "shop": "メルカリ",
      "used": true
     }
    ]
   }
  ],
  "newSummary": {
-  "min": 5100,
+  "min": 5900,
   "minSite": "rakuten",
   "minLabel": "楽天市場",
-  "minTitle": "新宿スワン ＜1〜38巻完結＞ 和久井健",
+  "minTitle": "封神演義 ＜1〜23巻完結＞ 藤崎竜",
   "median": 13514,
   "siteCount": 3,
-  "itemCount": 28
+  "itemCount": 27
  },
  "usedSummary": {
   "min": 2000,
-  "minSite": "mercari",
-  "minLabel": "メルカリ",
-  "minTitle": "少女マンガ全巻セット 僕らの好きはわりきれない",
-  "median": 3050,
+  "minSite": "yahoo_auction",
+  "minLabel": "Yahoo!オークション",
+  "minTitle": "全巻初版 石森章太郎 サンコミックス",
+  "median": 3375,
   "siteCount": 2,
-  "itemCount": 27
+  "itemCount": 23
  },
  "history": [
   {
@@ -541,6 +541,20 @@
     "biccamera": 20900,
     "mercari": 2000,
     "yahoo_auction": 2000
+   }
+  },
+  {
+   "date": "2026-11-22",
+   "newMin": 5900,
+   "newMedian": 13514,
+   "usedMin": 2000,
+   "usedMedian": 3375,
+   "sites": {
+    "rakuten": 5900,
+    "yahoo_shopping": 5940,
+    "biccamera": 20900,
+    "yahoo_auction": 2000,
+    "mercari": 2590
    }
   }
  ]

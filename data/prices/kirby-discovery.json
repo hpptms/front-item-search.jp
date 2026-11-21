@@ -1,8 +1,8 @@
 {
  "slug": "kirby-discovery",
  "term": "星のカービィ ディスカバリー",
- "date": "2026-11-21",
- "capturedAt": "2026-11-20T20:10:02.641Z",
+ "date": "2026-11-22",
+ "capturedAt": "2026-11-21T20:10:07.607Z",
  "sites": [
   {
    "site": "rakuten",
@@ -10,7 +10,7 @@
    "used": false,
    "count": 18,
    "min": 3749,
-   "median": 5785,
+   "median": 5850,
    "max": 7700,
    "items": [
     {
@@ -40,9 +40,9 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 15,
+   "count": 14,
    "min": 4292,
-   "median": 7381,
+   "median": 7615,
    "max": 8280,
    "items": [
     {
@@ -53,17 +53,17 @@
      "used": false
     },
     {
-     "title": "Nintendo Switch 任天堂 ゲームソフト 星のカービィディスカバリー[ラッピング不可] R-LOGI",
-     "price": 5637,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsokutei%2F4902370549454.html",
-     "shop": "測定の森 2号店",
+     "title": "任天堂 星のカービィ ディスカバリー Switch用ソフト（パッケージ版）",
+     "price": 5660,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Flight-hikari%2F4902370549454.html",
+     "shop": "らいぶshop",
      "used": false
     },
     {
-     "title": "Nintendo Switch 任天堂 ゲームソフト 星のカービィディスカバリー[ラッピング不可] R-LOGI",
-     "price": 5637,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsokuteikiya%2F4902370549454.html",
-     "shop": "測定の森Yahoo!ショッピング店",
+     "title": "星のカービィ ディスカバリー -Nintendo Switch",
+     "price": 5720,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fllhat%2F4902370549454.html",
+     "shop": "エルエルハット",
      "used": false
     }
    ]
@@ -165,15 +165,15 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 12,
+   "count": 14,
    "min": 3000,
-   "median": 3550,
-   "max": 6680,
+   "median": 3490,
+   "max": 5980,
    "items": [
     {
-     "title": "中古品 Nintendo Switch 星のカービィ ディスカバリー 任天堂 スイッチ ゲーム ソフト",
+     "title": "現状品 ニンテンドースイッチ 星のカービィ ディスカバリー",
      "price": 3000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/b1251128734",
+     "url": "https://auctions.yahoo.co.jp/jp/auction/h1253050230",
      "shop": "",
      "used": true
     },
@@ -197,11 +197,18 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 17,
+   "count": 18,
    "min": 3500,
    "median": 3800,
-   "max": 6999,
+   "max": 6200,
    "items": [
+    {
+     "title": "星のカービィ ディスカバリー Nintendo Switch",
+     "price": 3500,
+     "url": "https://jp.mercari.com/item/m79111929604",
+     "shop": "メルカリ",
+     "used": true
+    },
     {
      "title": "Nintendo Switch 星のカービィ ディスカバリー",
      "price": 3500,
@@ -215,13 +222,6 @@
      "url": "https://jp.mercari.com/item/m10392241319",
      "shop": "メルカリ",
      "used": true
-    },
-    {
-     "title": "星のカービィ ディスカバリー Switch ソフト",
-     "price": 3599,
-     "url": "https://jp.mercari.com/item/m34662396487",
-     "shop": "メルカリ",
-     "used": true
     }
    ]
   }
@@ -233,16 +233,16 @@
   "minTitle": "任天堂『星のカービィ ディスカバリー』switch ゲームソフト 1週間保証",
   "median": 6940,
   "siteCount": 6,
-  "itemCount": 41
+  "itemCount": 40
  },
  "usedSummary": {
   "min": 3000,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "中古品 Nintendo Switch 星のカービィ ディスカバリー 任天堂 スイッチ ゲーム ソフト",
+  "minTitle": "現状品 ニンテンドースイッチ 星のカービィ ディスカバリー",
   "median": 3800,
   "siteCount": 3,
-  "itemCount": 31
+  "itemCount": 34
  },
  "history": [
   {
@@ -667,6 +667,23 @@
   },
   {
    "date": "2026-11-21",
+   "newMin": 3749,
+   "newMedian": 6940,
+   "usedMin": 3000,
+   "usedMedian": 3800,
+   "sites": {
+    "rakuten": 3749,
+    "yahoo_shopping": 4292,
+    "joshin": 5720,
+    "edion": 5720,
+    "yodobashi": 5740,
+    "biccamera": 8140,
+    "yahoo_auction": 3000,
+    "mercari": 3500
+   }
+  },
+  {
+   "date": "2026-11-22",
    "newMin": 3749,
    "newMedian": 6940,
    "usedMin": 3000,
