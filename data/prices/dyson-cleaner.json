@@ -1,49 +1,17 @@
 {
  "slug": "dyson-cleaner",
  "term": "ダイソン 掃除機",
- "date": "2026-11-22",
- "capturedAt": "2026-11-21T20:10:07.607Z",
+ "date": "2026-11-23",
+ "capturedAt": "2026-11-22T20:10:03.952Z",
  "sites": [
-  {
-   "site": "yahoo_shopping",
-   "label": "Yahoo!ショッピング",
-   "used": false,
-   "count": 17,
-   "min": 17569,
-   "median": 44900,
-   "max": 82280,
-   "items": [
-    {
-     "title": "Dyson ダイソン 掃除機 水拭きコードレスクリーナー WashG1 ウルトラブルー マットブラック ブラックフライデー",
-     "price": 17569,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fdensidonya%2F5025155108857.html",
-     "shop": "電子問屋",
-     "used": false
-    },
-    {
-     "title": "掃除機 コードレス掃除機 ダイソン Dyson V8 Origin サイクロン式 SV25RD2 ダイソン掃除機",
-     "price": 27900,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fdyson%2F447873-01.html",
-     "shop": "Dyson公式Yahoo!ショッピング店",
-     "used": false
-    },
-    {
-     "title": "掃除機 コードレス掃除機 ダイソン Dyson Cyclone V10 Fluffy SV58AD-A NKLCPR ダイソン掃除機",
-     "price": 29900,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fdyson%2F593813-01.html",
-     "shop": "Dyson公式Yahoo!ショッピング店",
-     "used": false
-    }
-   ]
-  },
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 11,
+   "count": 12,
    "min": 27900,
-   "median": 34650,
-   "max": 67720,
+   "median": 34725,
+   "max": 69900,
    "items": [
     {
      "title": "ダイソン Dyson V8 Origin 掃除機 コードレス掃除機 dyson SV25 RD2 ダイソン公式 新品 ダイソン掃除機 スティック掃除機 ハンディクリーナー ハンディ掃除機 コードレス サイクロン 軽量 強力 掃除機ダイソン",
@@ -64,6 +32,38 @@
      "price": 29900,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F631031-01%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdyson%2Fi%2F10002134%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "Dyson公式 楽天市場店",
+     "used": false
+    }
+   ]
+  },
+  {
+   "site": "yahoo_shopping",
+   "label": "Yahoo!ショッピング",
+   "used": false,
+   "count": 16,
+   "min": 27900,
+   "median": 48730,
+   "max": 82280,
+   "items": [
+    {
+     "title": "掃除機 コードレス掃除機 ダイソン Dyson V8 Origin サイクロン式 SV25RD2 ダイソン掃除機",
+     "price": 27900,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fdyson%2F447873-01.html",
+     "shop": "Dyson公式Yahoo!ショッピング店",
+     "used": false
+    },
+    {
+     "title": "掃除機 コードレス掃除機 ダイソン Dyson Cyclone V10 Fluffy SV58AD-A NKLCPR ダイソン掃除機",
+     "price": 29900,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fdyson%2F593813-01.html",
+     "shop": "Dyson公式Yahoo!ショッピング店",
+     "used": false
+    },
+    {
+     "title": "掃除機 コードレス掃除機 ダイソン Dyson V8 Slim Fluffy ダイソン掃除機 dyson SV25SLM 軽量モデル",
+     "price": 29900,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fdyson%2F631031-01.html",
+     "shop": "Dyson公式Yahoo!ショッピング店",
      "used": false
     }
    ]
@@ -92,9 +92,9 @@
      "used": false
     },
     {
-     "title": "掃除機 コードレススティッククリーナー Dyson W1 PencilWash＋Dok（ダイソン W1 ペンシルウォッシュ＋ドック） 2.6kg WR04DK",
-     "price": 46200,
-     "url": "https://www.yodobashi.com/product/100000001010221832/",
+     "title": "掃除機 コードレススティッククリーナー Dyson Digital Slim Origin（ダイソン デジタル スリム オリジン） 1.90kg SV57OR",
+     "price": 44420,
+     "url": "https://www.yodobashi.com/product/100000001010221831/",
      "shop": "",
      "used": false
     }
@@ -104,38 +104,63 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 1,
-   "min": 26500,
-   "median": 26500,
-   "max": 26500,
+   "count": 2,
+   "min": 15000,
+   "median": 15400,
+   "max": 15800,
    "items": [
     {
-     "title": "Dyson V8 origin",
-     "price": 26500,
-     "url": "https://jp.mercari.com/item/m86977582952",
+     "title": "Dyson V8 fluffy extra VS10 ダイソン スティック掃除機",
+     "price": 15000,
+     "url": "https://jp.mercari.com/item/m97996728115",
      "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "Dyson Digital Slim Fluffy SV18 ダイソン 掃除機",
+     "price": 15800,
+     "url": "https://jp.mercari.com/item/m51987689879",
+     "shop": "メルカリ",
+     "used": true
+    }
+   ]
+  },
+  {
+   "site": "yahoo_auction",
+   "label": "Yahoo!オークション",
+   "used": true,
+   "count": 1,
+   "min": 24200,
+   "median": 24200,
+   "max": 24200,
+   "items": [
+    {
+     "title": "新品 ダイソン コードレスクリーナー V8 SLIM FLUFFY SV25 SLM シルバー サイクロン デジタルモーターV8 集じん容積0.54L dyson",
+     "price": 24200,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/b1252964026",
+     "shop": "",
      "used": true
     }
    ]
   }
  ],
  "newSummary": {
-  "min": 17569,
-  "minSite": "yahoo_shopping",
-  "minLabel": "Yahoo!ショッピング",
-  "minTitle": "Dyson ダイソン 掃除機 水拭きコードレスクリーナー WashG1 ウルトラブルー マットブラック ブラックフライデー",
-  "median": 44900,
+  "min": 27900,
+  "minSite": "rakuten",
+  "minLabel": "楽天市場",
+  "minTitle": "ダイソン Dyson V8 Origin 掃除機 コードレス掃除機 dyson SV25 RD2 ダイソン公式 新品 ダイソン掃除機 スティック掃除機 ハンディクリーナー ハンディ掃除機 コードレス サイクロン 軽量 強力 掃除機ダイソン",
+  "median": 48730,
   "siteCount": 3,
   "itemCount": 42
  },
  "usedSummary": {
-  "min": 26500,
+  "min": 15000,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "Dyson V8 origin",
-  "median": 26500,
-  "siteCount": 1,
-  "itemCount": 1
+  "minTitle": "Dyson V8 fluffy extra VS10 ダイソン スティック掃除機",
+  "median": 19800,
+  "siteCount": 2,
+  "itemCount": 3
  },
  "history": [
   {
@@ -497,6 +522,20 @@
     "rakuten": 27900,
     "yodobashi": 32780,
     "mercari": 26500
+   }
+  },
+  {
+   "date": "2026-11-23",
+   "newMin": 27900,
+   "newMedian": 48730,
+   "usedMin": 15000,
+   "usedMedian": 19800,
+   "sites": {
+    "rakuten": 27900,
+    "yahoo_shopping": 27900,
+    "yodobashi": 32780,
+    "mercari": 15000,
+    "yahoo_auction": 24200
    }
   }
  ]

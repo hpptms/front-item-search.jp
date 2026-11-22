@@ -1,48 +1,16 @@
 {
  "slug": "laptop",
  "term": "ノートパソコン",
- "date": "2026-11-22",
- "capturedAt": "2026-11-21T20:10:07.607Z",
+ "date": "2026-11-23",
+ "capturedAt": "2026-11-22T20:10:03.952Z",
  "sites": [
-  {
-   "site": "rakuten",
-   "label": "楽天市場",
-   "used": false,
-   "count": 10,
-   "min": 39800,
-   "median": 139850,
-   "max": 197500,
-   "items": [
-    {
-     "title": "Windows11 ノートパソコン office付き 15.6インチワイド液晶 フルHD Intel Pentium GOLD 6500Y メモリ12GB 新品SSD256GB USB3.0 HDMI 日本語配列キーボード",
-     "price": 39800,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkrdirect%2Fkr-cj4125%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkrdirect%2Fi%2F10001358%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "KRダイレクト",
-     "used": false
-    },
-    {
-     "title": "ノートパソコン 11.6インチ タッチパネル搭載 Intel Celeron N4020 2in1 360度回転 タブレットPC Windows 11 Office対応 コンパクト モバイルノートPC タッチ操作 学習 ビジネス Web閲覧",
-     "price": 59800,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmerune88%2Fpc059%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmerune88%2Fi%2F10000520%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "MERUNE",
-     "used": false
-    },
-    {
-     "title": "2026年モデル ノートパソコン Windows11 第14世代 Intel Core i3/i5/i7 15.6型/16型/17型 メモリ16GB/32GB SSD最大1TB 日本語キーボード フルHD 高性能PC 在宅勤務 テレワーク ",
-     "price": 60680,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyorozuyasan-reiwa%2Fyypc09%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fyorozuyasan-reiwa%2Fi%2F10000009%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "コバヤシ 楽天市場店",
-     "used": false
-    }
-   ]
-  },
   {
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 3,
+   "count": 2,
    "min": 42980,
-   "median": 98780,
+   "median": 93990,
    "max": 145000,
    "items": [
     {
@@ -74,7 +42,7 @@
    "used": false,
    "count": 8,
    "min": 51480,
-   "median": 154400,
+   "median": 180190,
    "max": 280280,
    "items": [
     {
@@ -126,12 +94,44 @@
    ]
   },
   {
+   "site": "rakuten",
+   "label": "楽天市場",
+   "used": false,
+   "count": 7,
+   "min": 59800,
+   "median": 149800,
+   "max": 197500,
+   "items": [
+    {
+     "title": "ノートパソコン 11.6インチ タッチパネル搭載 Intel Celeron N4020 2in1 360度回転 タブレットPC Windows 11 Office対応 コンパクト モバイルノートPC タッチ操作 学習 ビジネス Web閲覧",
+     "price": 59800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmerune88%2Fpc059%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmerune88%2Fi%2F10000520%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "MERUNE",
+     "used": false
+    },
+    {
+     "title": "2026年モデル ノートパソコン Windows11 第14世代 Intel Core i3/i5/i7 15.6型/16型/17型 メモリ16GB/32GB SSD最大1TB 日本語キーボード フルHD 高性能PC 在宅勤務 テレワーク ",
+     "price": 60680,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyorozuyasan-reiwa%2Fyypc09%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fyorozuyasan-reiwa%2Fi%2F10000009%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "コバヤシ 楽天市場店",
+     "used": false
+    },
+    {
+     "title": "ノートパソコン office選択可 新品 軽量 薄型 HP OmniBook 7 Aero 13-bg 13.3インチ Windows11 Copilot+PC AMD Ryzen AI5 340 16GB 512GB IPS 1年保証 転",
+     "price": 149800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdirectplus%2Fomnibook-713-bg-rai516%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdirectplus%2Fi%2F10003507%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "HP Directplus楽天市場店",
+     "used": false
+    }
+   ]
+  },
+  {
    "site": "yodobashi",
    "label": "ヨドバシ.com",
    "used": false,
    "count": 20,
    "min": 66970,
-   "median": 169180,
+   "median": 169490,
    "max": 434280,
    "items": [
     {
@@ -193,11 +193,18 @@
    "site": "edion",
    "label": "エディオン",
    "used": false,
-   "count": 4,
-   "min": 224820,
-   "median": 233820,
+   "count": 5,
+   "min": 204800,
+   "median": 224820,
    "max": 269800,
    "items": [
+    {
+     "title": "Dynabook ノートパソコン e angle select アッシュゴールド P3C7A3GE [P3C7A3GE]",
+     "price": 204800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4571588194574%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10919921%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "エディオン 楽天市場店",
+     "used": false
+    },
     {
      "title": "ASUS ノートパソコン Zenbook SORA アイスランドグレー UX3407QA-PU16548GR [UX3407QAPU16548GR]",
      "price": 224820,
@@ -211,13 +218,6 @@
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F0197105887817%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10865810%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "エディオン 楽天市場店",
      "used": false
-    },
-    {
-     "title": "ASUS ノートパソコン Zenbook SORA ザブリスキーベージュ UX3407QA-PU16548BES [UX3407QAPU16548BES]",
-     "price": 242820,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F0197105887831%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10865790%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "エディオン 楽天市場店",
-     "used": false
     }
    ]
   },
@@ -225,22 +225,22 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 6,
+   "count": 9,
    "min": 20000,
-   "median": 29900,
-   "max": 47000,
+   "median": 34800,
+   "max": 46000,
    "items": [
     {
-     "title": "ノートPC 本体 シルバー 薄型",
+     "title": "HP ノートパソコン 本体 HP Laptop 15s-fq3037T",
      "price": 20000,
-     "url": "https://jp.mercari.com/item/m31639077583",
+     "url": "https://jp.mercari.com/item/m28080397801",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "富士通 LIFEBOOK UH90/C3 ホワイト ノートパソコン",
-     "price": 20000,
-     "url": "https://jp.mercari.com/item/m35504997446",
+     "title": "Windows 11 Pro ノートパソコン",
+     "price": 23800,
+     "url": "https://jp.mercari.com/item/m58374435727",
      "shop": "メルカリ",
      "used": true
     },
@@ -257,14 +257,14 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 2,
-   "min": 27000,
-   "median": 28450,
-   "max": 29900,
+   "count": 3,
+   "min": 26730,
+   "median": 29900,
+   "max": 63000,
    "items": [
     {
      "title": "ノートパソコン中古HP 250 G7 NOTEBOOK PC i5第10世代 ノートPC Core i5-1035G1 DDR4メモリ16GB NVMe SSD 240GB 15.6 i5 10th gen laptop",
-     "price": 27000,
+     "price": 26730,
      "url": "https://auctions.yahoo.co.jp/jp/auction/n1253024476",
      "shop": "",
      "used": true
@@ -275,27 +275,34 @@
      "url": "https://auctions.yahoo.co.jp/jp/auction/l1253211783",
      "shop": "",
      "used": true
+    },
+    {
+     "title": "ノートパソコン中古HP ELITEBOOK 630 G10 i7第13世代 ノートPC Core i7-1355U メモリ16GB NVMe SSD 512GB カメラ 13.3 フルHD LAPTOP",
+     "price": 63000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/k1253204145",
+     "shop": "",
+     "used": true
     }
    ]
   }
  ],
  "newSummary": {
-  "min": 39800,
-  "minSite": "rakuten",
-  "minLabel": "楽天市場",
-  "minTitle": "Windows11 ノートパソコン office付き 15.6インチワイド液晶 フルHD Intel Pentium GOLD 6500Y メモリ12GB 新品SSD256GB USB3.0 HDMI 日本語配列キーボード",
-  "median": 139850,
+  "min": 42980,
+  "minSite": "yahoo_shopping",
+  "minLabel": "Yahoo!ショッピング",
+  "minTitle": "ノートパソコン ダイナブック 2023年モデル 13世代Corei5 Corei3 dynabook G83/L メモリ16G 8G 256G 13.3FHD Wi-Fi6E office 東芝 爆買",
+  "median": 149800,
   "siteCount": 7,
-  "itemCount": 51
+  "itemCount": 48
  },
  "usedSummary": {
   "min": 20000,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "ノートPC 本体 シルバー 薄型",
-  "median": 29900,
+  "minTitle": "HP ノートパソコン 本体 HP Laptop 15s-fq3037T",
+  "median": 31800,
   "siteCount": 3,
-  "itemCount": 12
+  "itemCount": 16
  },
  "history": [
   {
@@ -778,6 +785,24 @@
     "edion": 224820,
     "mercari": 20000,
     "yahoo_auction": 27000
+   }
+  },
+  {
+   "date": "2026-11-23",
+   "newMin": 42980,
+   "newMedian": 149800,
+   "usedMin": 20000,
+   "usedMedian": 31800,
+   "sites": {
+    "yahoo_shopping": 42980,
+    "biccamera": 51480,
+    "sofmap": 51480,
+    "rakuten": 59800,
+    "yodobashi": 66970,
+    "joshin": 66978,
+    "edion": 204800,
+    "mercari": 20000,
+    "yahoo_auction": 26730
    }
   }
  ]

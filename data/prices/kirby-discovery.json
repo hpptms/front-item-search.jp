@@ -1,8 +1,8 @@
 {
  "slug": "kirby-discovery",
  "term": "星のカービィ ディスカバリー",
- "date": "2026-11-22",
- "capturedAt": "2026-11-21T20:10:07.607Z",
+ "date": "2026-11-23",
+ "capturedAt": "2026-11-22T20:10:03.952Z",
  "sites": [
   {
    "site": "rakuten",
@@ -10,7 +10,7 @@
    "used": false,
    "count": 18,
    "min": 3749,
-   "median": 5850,
+   "median": 5875,
    "max": 7700,
    "items": [
     {
@@ -40,9 +40,9 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 14,
+   "count": 15,
    "min": 4292,
-   "median": 7615,
+   "median": 7619,
    "max": 8280,
    "items": [
     {
@@ -165,29 +165,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 14,
-   "min": 3000,
-   "median": 3490,
-   "max": 5980,
+   "count": 17,
+   "min": 2740,
+   "median": 3480,
+   "max": 6800,
    "items": [
+    {
+     "title": "Switch 星のカービィ ディスカバリー ゲームソフト スイッチ 1A0005-407im/F8",
+     "price": 2740,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/d1253214406",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "箱無し ニンテンドースイッチ 星のカービィ ディスカバリー",
+     "price": 2800,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/h1253207985",
+     "shop": "",
+     "used": true
+    },
     {
      "title": "現状品 ニンテンドースイッチ 星のカービィ ディスカバリー",
      "price": 3000,
      "url": "https://auctions.yahoo.co.jp/jp/auction/h1253050230",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "Nintendo Switch 星のカービィ ディスカバリー ソフト",
-     "price": 3150,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/s1252988564",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "Nintendo Switch 星のカービィ ディスカバリー ソフトのみ",
-     "price": 3200,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z727293786",
      "shop": "",
      "used": true
     }
@@ -197,29 +197,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 18,
+   "count": 19,
    "min": 3500,
    "median": 3800,
    "max": 6200,
    "items": [
     {
-     "title": "星のカービィ ディスカバリー Nintendo Switch",
-     "price": 3500,
-     "url": "https://jp.mercari.com/item/m79111929604",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "Nintendo Switch 星のカービィ ディスカバリー",
-     "price": 3500,
-     "url": "https://jp.mercari.com/item/m23761341655",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "星のカービィ ディスカバリー Switch ソフトのみ",
+     "title": "星のカービィ ディスカバリー Switch ソフトのみ動作確認済",
      "price": 3500,
      "url": "https://jp.mercari.com/item/m10392241319",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "星のカービィ ディスカバリー Nintendo Switch",
+     "price": 3680,
+     "url": "https://jp.mercari.com/item/m53475148971",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "星のカービィ ディスカバリー Nintendo Switch ソフト",
+     "price": 3700,
+     "url": "https://jp.mercari.com/item/m46564460410",
      "shop": "メルカリ",
      "used": true
     }
@@ -233,16 +233,16 @@
   "minTitle": "任天堂『星のカービィ ディスカバリー』switch ゲームソフト 1週間保証",
   "median": 6940,
   "siteCount": 6,
-  "itemCount": 40
+  "itemCount": 41
  },
  "usedSummary": {
-  "min": 3000,
+  "min": 2740,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "現状品 ニンテンドースイッチ 星のカービィ ディスカバリー",
+  "minTitle": "Switch 星のカービィ ディスカバリー ゲームソフト スイッチ 1A0005-407im/F8",
   "median": 3800,
   "siteCount": 3,
-  "itemCount": 34
+  "itemCount": 38
  },
  "history": [
   {
@@ -696,6 +696,23 @@
     "yodobashi": 5740,
     "biccamera": 8140,
     "yahoo_auction": 3000,
+    "mercari": 3500
+   }
+  },
+  {
+   "date": "2026-11-23",
+   "newMin": 3749,
+   "newMedian": 6940,
+   "usedMin": 2740,
+   "usedMedian": 3800,
+   "sites": {
+    "rakuten": 3749,
+    "yahoo_shopping": 4292,
+    "joshin": 5720,
+    "edion": 5720,
+    "yodobashi": 5740,
+    "biccamera": 8140,
+    "yahoo_auction": 2740,
     "mercari": 3500
    }
   }

@@ -1,14 +1,14 @@
 {
  "slug": "gaming-monitor",
  "term": "ゲーミングモニター",
- "date": "2026-11-22",
- "capturedAt": "2026-11-21T20:10:07.607Z",
+ "date": "2026-11-23",
+ "capturedAt": "2026-11-22T20:10:03.952Z",
  "sites": [
   {
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 19,
+   "count": 20,
    "min": 10980,
    "median": 17980,
    "max": 56800,
@@ -42,7 +42,7 @@
    "used": false,
    "count": 20,
    "min": 11999,
-   "median": 26737,
+   "median": 24237,
    "max": 220000,
    "items": [
     {
@@ -74,7 +74,7 @@
    "used": false,
    "count": 20,
    "min": 14300,
-   "median": 29300,
+   "median": 24500,
    "max": 94740,
    "items": [
     {
@@ -106,7 +106,7 @@
    "used": false,
    "count": 20,
    "min": 17980,
-   "median": 37382,
+   "median": 40222,
    "max": 77800,
    "items": [
     {
@@ -170,7 +170,7 @@
    "used": false,
    "count": 20,
    "min": 18980,
-   "median": 35946,
+   "median": 34800,
    "max": 217800,
    "items": [
     {
@@ -232,29 +232,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 16,
-   "min": 8500,
-   "median": 11600,
-   "max": 32000,
+   "count": 17,
+   "min": 8000,
+   "median": 10000,
+   "max": 28000,
    "items": [
     {
-     "title": "ASUS ゲーミングモニター 25インチ本体のみ165hz今週末まで",
-     "price": 8500,
-     "url": "https://jp.mercari.com/item/m57826999591",
+     "title": "ASUS モニター 24.5インチ 165hz 0.5ms",
+     "price": 8000,
+     "url": "https://jp.mercari.com/item/m98761301722",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "I-O DATA GigaCrysta ゲーミングモニター 24.5インチ",
+     "title": "DELL S2421HGF ゲーミングモニター本体（144Hz）",
      "price": 9000,
-     "url": "https://jp.mercari.com/item/m72481867922",
+     "url": "https://jp.mercari.com/item/m29241425234",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "180Hz 23.8インチMSI ゲーミングモニター G244PFE2",
-     "price": 9500,
-     "url": "https://jp.mercari.com/item/m91867117763",
+     "title": "BenQ ZOWIE ゲーミングモニター XL2411K本体",
+     "price": 9000,
+     "url": "https://jp.mercari.com/item/m66690899057",
      "shop": "メルカリ",
      "used": true
     }
@@ -264,29 +264,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 6,
-   "min": 10000,
-   "median": 11278,
-   "max": 20000,
+   "count": 5,
+   "min": 8888,
+   "median": 14000,
+   "max": 18000,
    "items": [
     {
-     "title": "MSI MAG251RX FHD 240hz ipsパネル ゲーミングモニター",
-     "price": 10000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z728496240",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "BenQ MOBIUZ EX3210R 31.5インチ 湾曲ゲーミングモニター WQHD 165Hz 2021年製 リモコン付 映像音声確認済",
-     "price": 10500,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/n1252717837",
+     "title": "KOORUI ゲーミングモニター 24インチ ブラック",
+     "price": 8888,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z729838568",
      "shop": "",
      "used": true
     },
     {
      "title": "Dell デル SE2426HG 23.8インチ ゲーミングモニター 液晶モニター PC周辺機器 未使用 N11844139",
-     "price": 11055,
+     "price": 10494,
      "url": "https://auctions.yahoo.co.jp/jp/auction/f1251490438",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "Acer VG271UPbmiipx ゲーミングモニター 27インチ WQHD 144Hz IPS 1ms",
+     "price": 14000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z729783202",
      "shop": "",
      "used": true
     }
@@ -298,16 +298,16 @@
   "minSite": "yahoo_shopping",
   "minLabel": "Yahoo!ショッピング",
   "minTitle": "モニター 23.8インチ 144Hz FHD IPS フリッカーレス MAXZEN pcモニター ゲーミングモニター 23.8型 フルHD ノングレア HDMI MJM24IC01",
-  "median": 35800,
+  "median": 34800,
   "siteCount": 7,
-  "itemCount": 125
+  "itemCount": 126
  },
  "usedSummary": {
-  "min": 8500,
+  "min": 8000,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "ASUS ゲーミングモニター 25インチ本体のみ165hz今週末まで",
-  "median": 11439,
+  "minTitle": "ASUS モニター 24.5インチ 165hz 0.5ms",
+  "median": 12000,
   "siteCount": 2,
   "itemCount": 22
  },
@@ -793,6 +793,24 @@
     "edion": 26800,
     "mercari": 8500,
     "yahoo_auction": 10000
+   }
+  },
+  {
+   "date": "2026-11-23",
+   "newMin": 10980,
+   "newMedian": 34800,
+   "usedMin": 8000,
+   "usedMedian": 12000,
+   "sites": {
+    "yahoo_shopping": 10980,
+    "rakuten": 11999,
+    "yodobashi": 14300,
+    "biccamera": 17980,
+    "joshin": 17980,
+    "sofmap": 18980,
+    "edion": 26800,
+    "mercari": 8000,
+    "yahoo_auction": 8888
    }
   }
  ]

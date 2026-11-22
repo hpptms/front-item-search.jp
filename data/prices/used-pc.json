@@ -1,41 +1,9 @@
 {
  "slug": "used-pc",
  "term": "中古PC",
- "date": "2026-11-22",
- "capturedAt": "2026-11-21T20:10:07.607Z",
+ "date": "2026-11-23",
+ "capturedAt": "2026-11-22T20:10:03.952Z",
  "sites": [
-  {
-   "site": "yahoo_shopping",
-   "label": "Yahoo!ショッピング",
-   "used": false,
-   "count": 16,
-   "min": 12800,
-   "median": 22150,
-   "max": 49830,
-   "items": [
-    {
-     "title": "中古ノートパソコン Windows11 MicrosoftOffice2024 NEC VersaPro VKT16 第8世代 Core i5 メモリ4GB SSD128GB 15.6型 Webカメラ HDMI 無線LAN USB3.0 B",
-     "price": 12800,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Faoshiro%2Fpc-note-nec-vk25lx-15i.html",
-     "shop": "中古パソコンショップ Seihan",
-     "used": true
-    },
-    {
-     "title": "中古パソコン ノート テンキー内蔵可 最大第10世代CPUCorei7可 最大メモリ16GB可 安心の大手メーカー 中古ノートパソコン windows11 office2024 ノートパソコン",
-     "price": 13258,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Feco-stage-japan%2Ffujitsu-fmv002.html",
-     "shop": "Ecostation Store",
-     "used": true
-    },
-    {
-     "title": "ノートパソコン 内蔵テンキー 第11世代 Corei3/モリ16GB/SSD512GB可 富士通A577等 Office搭載 Win11 中古ノートパソコン MS Office2024 HDMI パソコン 爆買",
-     "price": 13299,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fpc-m%2F202102171126.html",
-     "shop": "パソコン専門店PC-M",
-     "used": true
-    }
-   ]
-  },
   {
    "site": "sofmap",
    "label": "ソフマップ",
@@ -62,6 +30,38 @@
    ]
   },
   {
+   "site": "yahoo_shopping",
+   "label": "Yahoo!ショッピング",
+   "used": false,
+   "count": 1,
+   "min": 23980,
+   "median": 23980,
+   "max": 23980,
+   "items": [
+    {
+     "title": "中古ノートパソコン Windows11 MicrosoftOffice2024 NEC VersaPro VKT16 第8世代 Core i5 メモリ4GB SSD128GB 15.6型 Webカメラ HDMI 無線LAN USB3.0 B",
+     "price": 12800,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Faoshiro%2Fpc-note-nec-vk25lx-15i.html",
+     "shop": "中古パソコンショップ Seihan",
+     "used": true
+    },
+    {
+     "title": "中古パソコン ノート テンキー内蔵可 最大第10世代CPUCorei7可 最大メモリ16GB可 安心の大手メーカー 中古ノートパソコン windows11 office2024 ノートパソコン",
+     "price": 13258,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Feco-stage-japan%2Ffujitsu-fmv002.html",
+     "shop": "Ecostation Store",
+     "used": true
+    },
+    {
+     "title": "ノートパソコン 内蔵テンキー 第11世代 Corei3/モリ16GB/SSD512GB可 富士通A577等 Office搭載 Win11 中古ノートパソコン MS Office2024 HDMI パソコン 爆買",
+     "price": 13299,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fpc-m%2F202102171126.html",
+     "shop": "パソコン専門店PC-M",
+     "used": true
+    }
+   ]
+  },
+  {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
@@ -71,25 +71,25 @@
    "max": 29800,
    "items": [
     {
+     "title": "ノートパソコン 15.6インチ SSD512GB メモリ16GB Celeron 第10世代 Microsoft Office付き Windows11 富士通 Lifebook A5510 ノートパソコン 中古 PC パソコン 中古ノート ",
+     "price": 19800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flelib%2Foutlet-pc%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flelib%2Fi%2F10000000%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "L.I.B",
+     "used": true
+    },
+    {
+     "title": "ノートパソコン 中古 パソコン 15.6インチ 最大SSD512GB 最大メモリ16GB Corei5 8世代 Microsoft Office付き Windows11 東芝 dynabook B55 office搭載 中古ノートパソコン ",
+     "price": 22800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flelib%2Fsony-1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flelib%2Fi%2F10000051%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "L.I.B",
+     "used": true
+    },
+    {
      "title": "ポイント10倍｜レビュー投稿 5年保証｜MS Office 2024 H&B 搭載｜中古ノートパソコン Windows11 Core i5 第8世代 メモリ 8GB SSD 256GB 14型 小型 軽量 WEBカメラ 指紋認証 Type-",
      "price": 29800,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fupc1114%2Fcorei5-sale%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fupc1114%2Fi%2F10002905%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "中古パソコン 遼南商店",
      "used": true
-    },
-    {
-     "title": "超得10％OFF＆P10倍｜ノートパソコン 中古｜第8世代 Windows11 office付｜スタンダードランク｜最大3年保証｜楽天1位 三冠獲得｜豪華特典付き｜中古ノートパソコン｜Corei5 第8世代｜15.6型｜Microsoft ",
-     "price": 29800,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpc-smile%2Fnp_omakase_ms%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpc-smile%2Fi%2F10000182%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "PCスマイル",
-     "used": true
-    },
-    {
-     "title": "本日10倍！デスクトップパソコンDELL HP NEC 第8〜10世代CoreI3I5選べる 22インチモニター付き アウトレット 新品SSD最大1TB メモリ32GB Windows11 office付き Microsoftoffice2",
-     "price": 29800,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpc-eco2000%2Fdesktop-display-d583%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpc-eco2000%2Fi%2F10000372%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "パソコン専門店pc-eco",
-     "used": false
     }
    ]
   },
@@ -129,29 +129,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 18,
-   "min": 10000,
-   "median": 17800,
-   "max": 47000,
+   "count": 13,
+   "min": 12000,
+   "median": 18999,
+   "max": 49000,
    "items": [
     {
-     "title": "Panasonic Let's note CF-SZ5 DVDドライブ搭載機",
-     "price": 10000,
-     "url": "https://jp.mercari.com/item/m55148253930",
+     "title": "dynabook S73/FR",
+     "price": 12000,
+     "url": "https://jp.mercari.com/item/m32210367213",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Microsoft Surface Laptop3",
-     "price": 10200,
-     "url": "https://jp.mercari.com/item/m18858008874",
+     "title": "BITECOOL ノートPC 本体",
+     "price": 12800,
+     "url": "https://jp.mercari.com/item/m42970382826",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "NEC LS150 SSD240GB Windows11 Office2024",
-     "price": 11000,
-     "url": "https://jp.mercari.com/item/m68023113530",
+     "title": "dynabook ノートPC 本体",
+     "price": 13000,
+     "url": "https://jp.mercari.com/item/m19625947986",
      "shop": "メルカリ",
      "used": true
     }
@@ -161,22 +161,22 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 11,
-   "min": 14000,
-   "median": 25000,
-   "max": 65000,
+   "count": 10,
+   "min": 14800,
+   "median": 21376,
+   "max": 41000,
    "items": [
-    {
-     "title": "ノートパソコン 中古 Panasonic レッツノート 富士通 LIFEBOOK A577 第7世代 Core i5 メモリ8GB SSD256GB カメラ 10キー",
-     "price": 14000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/n1252148870",
-     "shop": "",
-     "used": true
-    },
     {
      "title": "中古■13.3型 富士通 LIFEBOOK UH90 [i7-8565U/8G/SSD256G/カメラ/SD/Win11] 本体のみ★送料無料",
      "price": 14800,
      "url": "https://auctions.yahoo.co.jp/jp/auction/k1249125483",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "nec versapro PC-VK540CZDB amd ryzen 5 5500U 中古パソコン メモリ8GB Win 11 NVMe SSD 256GB 13.3 フルHD LAPTOP",
+     "price": 15255,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/b1245618278",
      "shop": "",
      "used": true
     },
@@ -195,18 +195,18 @@
   "minSite": "sofmap",
   "minLabel": "ソフマップ",
   "minTitle": "EVICIV HS156PC",
-  "median": 35065,
-  "siteCount": 3,
-  "itemCount": 15
+  "median": 32433,
+  "siteCount": 4,
+  "itemCount": 16
  },
  "usedSummary": {
-  "min": 10000,
+  "min": 12000,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "Panasonic Let's note CF-SZ5 DVDドライブ搭載機",
-  "median": 23575,
+  "minTitle": "dynabook S73/FR",
+  "median": 20588,
   "siteCount": 4,
-  "itemCount": 63
+  "itemCount": 56
  },
  "history": [
   {
@@ -598,6 +598,21 @@
     "yodobashi": 64800,
     "mercari": 10000,
     "yahoo_auction": 14000
+   }
+  },
+  {
+   "date": "2026-11-23",
+   "newMin": 22965,
+   "newMedian": 32433,
+   "usedMin": 12000,
+   "usedMedian": 20588,
+   "sites": {
+    "sofmap": 22965,
+    "yahoo_shopping": 23980,
+    "rakuten": 29800,
+    "yodobashi": 64800,
+    "mercari": 12000,
+    "yahoo_auction": 14800
    }
   }
  ]

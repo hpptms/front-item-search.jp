@@ -1,16 +1,16 @@
 {
  "slug": "zelda-totk",
  "term": "ゼルダの伝説 ティアーズ オブ ザ キングダム",
- "date": "2026-11-22",
- "capturedAt": "2026-11-21T20:10:07.607Z",
+ "date": "2026-11-23",
+ "capturedAt": "2026-11-22T20:10:03.952Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 19,
+   "count": 18,
    "min": 4744,
-   "median": 6890,
+   "median": 6863,
    "max": 8100,
    "items": [
     {
@@ -40,10 +40,10 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 10,
+   "count": 11,
    "min": 4744,
-   "median": 7400,
-   "max": 11259,
+   "median": 7520,
+   "max": 11299,
    "items": [
     {
      "title": "Switch／ゼルダの伝説 ティアーズ オブ ザ キングダム",
@@ -165,29 +165,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 14,
-   "min": 3000,
-   "median": 3903,
-   "max": 6300,
+   "count": 16,
+   "min": 2640,
+   "median": 4240,
+   "max": 6400,
    "items": [
     {
-     "title": "59/R783★ゼルダの伝説 ティアーズ オブ ザ キングダム Nintendo Switch 2 Edition★Nintendo Switch 2 ニンテンドースイッチ2★中古品",
-     "price": 3000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/h1253085820",
+     "title": "Nintendo Switch2 ニンテンドースイッチ2ソフト ゼルダの伝説 ティアーズ オブ ザ キングダム Nintendo Switch2Edition 中古品 1円スタート",
+     "price": 2640,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/k1252935039",
      "shop": "",
      "used": true
     },
     {
-     "title": "59/R780★ゼルダの伝説 ティアーズ オブ ザ キングダム Nintendo Switch 2 Edition★Nintendo Switch 2 ニンテンドースイッチ2★中古品",
-     "price": 3000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/k1253087776",
+     "title": "Switch ゼルダの伝説 ティアーズ オブ ザ キングダム ゲームソフト スイッチ 1A0005-379im/F8",
+     "price": 2739,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/h1253205852",
      "shop": "",
      "used": true
     },
     {
-     "title": "59/R781★ゼルダの伝説 ティアーズ オブ ザ キングダム Nintendo Switch 2 Edition★Nintendo Switch 2 ニンテンドースイッチ2★中古品",
-     "price": 3200,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/o1253088542",
+     "title": "Nintendo Switch ゼルダの伝説 ティアーズ オブ ザ キングダム",
+     "price": 2800,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/b1253292294",
      "shop": "",
      "used": true
     }
@@ -198,10 +198,17 @@
    "label": "メルカリ",
    "used": true,
    "count": 14,
-   "min": 4000,
-   "median": 4500,
-   "max": 6900,
+   "min": 3900,
+   "median": 4485,
+   "max": 6800,
    "items": [
+    {
+     "title": "Switch ゼルダの伝説 ティアーズ オブ ザ キングダム",
+     "price": 3900,
+     "url": "https://jp.mercari.com/item/m51228651782",
+     "shop": "メルカリ",
+     "used": true
+    },
     {
      "title": "ゼルダの伝説 ティアーズ オブ ザ キングダム Switch 海外版",
      "price": 4000,
@@ -210,16 +217,9 @@
      "used": true
     },
     {
-     "title": "ゼルダの伝説 ティアーズ オブ ザ キングダム Switch ソフト",
-     "price": 4000,
-     "url": "https://jp.mercari.com/item/m71272534520",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "ゼルダの伝説 ティアーズ オブ ザ キングダム Switch ソフト",
-     "price": 4099,
-     "url": "https://jp.mercari.com/item/m48689290213",
+     "title": "ゼルダの伝説 ティアーズ オブ ザ キングダム Nintendo Switch",
+     "price": 4200,
+     "url": "https://jp.mercari.com/item/m74653294358",
      "shop": "メルカリ",
      "used": true
     }
@@ -231,18 +231,18 @@
   "minSite": "rakuten",
   "minLabel": "楽天市場",
   "minTitle": "Switch ゼルダの伝説 ティアーズ オブ ザ キングダム (ニンテンドースイッチ)",
-  "median": 7380,
+  "median": 7440,
   "siteCount": 6,
   "itemCount": 37
  },
  "usedSummary": {
-  "min": 3000,
+  "min": 2640,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "59/R783★ゼルダの伝説 ティアーズ オブ ザ キングダム Nintendo Switch 2 Edition★Nintendo Switch 2 ニンテンドースイッチ2★中古品",
-  "median": 4500,
+  "minTitle": "Nintendo Switch2 ニンテンドースイッチ2ソフト ゼルダの伝説 ティアーズ オブ ザ キングダム Nintendo Switch2Edition 中古品 1円スタート",
+  "median": 4485,
   "siteCount": 3,
-  "itemCount": 29
+  "itemCount": 31
  },
  "history": [
   {
@@ -692,6 +692,23 @@
     "biccamera": 8470,
     "yahoo_auction": 3000,
     "mercari": 4000
+   }
+  },
+  {
+   "date": "2026-11-23",
+   "newMin": 4744,
+   "newMedian": 7440,
+   "usedMin": 2640,
+   "usedMedian": 4485,
+   "sites": {
+    "rakuten": 4744,
+    "yahoo_shopping": 4744,
+    "joshin": 6890,
+    "edion": 6910,
+    "yodobashi": 7290,
+    "biccamera": 8470,
+    "yahoo_auction": 2640,
+    "mercari": 3900
    }
   }
  ]

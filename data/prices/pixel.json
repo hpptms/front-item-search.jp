@@ -1,17 +1,17 @@
 {
  "slug": "pixel",
  "term": "Google Pixel",
- "date": "2026-11-22",
- "capturedAt": "2026-11-21T20:10:07.607Z",
+ "date": "2026-11-23",
+ "capturedAt": "2026-11-22T20:10:03.952Z",
  "sites": [
   {
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 15,
+   "count": 14,
    "min": 40980,
-   "median": 79980,
-   "max": 98000,
+   "median": 69485,
+   "max": 82292,
    "items": [
     {
      "title": "Google Pixel 7a 128GB Bランク スマホ 本体 SIMフリー 美品 にこスマ認定整備済み品(リファービッシュ 整備済品)",
@@ -41,9 +41,9 @@
    "label": "楽天市場",
    "used": false,
    "count": 12,
-   "min": 73333,
-   "median": 79789,
-   "max": 122800,
+   "min": 64444,
+   "median": 79720,
+   "max": 124800,
    "items": [
     {
      "title": "最大5000円オフクーポン Google Pixel 7a 128GB 256GB スマホ スマートフォン 本体 SIMフリー docomo au softbank 美品 にこスマ認定整備済み品(リファービッシュ 整備済品) 白ロム",
@@ -73,14 +73,14 @@
    "label": "Yahoo!オークション",
    "used": true,
    "count": 3,
-   "min": 16710,
+   "min": 16501,
    "median": 20000,
-   "max": 106800,
+   "max": 24000,
    "items": [
     {
-     "title": "★ ジャンク SoftBank Google Pixel 6a チャコール 128GB 1円 ! 1スタ !",
-     "price": 16710,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/m1252964229",
+     "title": "★ ジャンク Google Pixel 8 ヘーゼル 128GB SIMフリー 1円 ! 1スタ !",
+     "price": 16501,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/w1253074848",
      "shop": "",
      "used": true
     },
@@ -92,9 +92,9 @@
      "used": true
     },
     {
-     "title": "送料無料■Google Pixel 11 ピスタチオ 256GB SIMフリー",
-     "price": 106800,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/1253156624",
+     "title": "Google Pixel 7 本体 SIMフリー",
+     "price": 24000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z729265614",
      "shop": "",
      "used": true
     }
@@ -104,29 +104,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 16,
-   "min": 17166,
-   "median": 35900,
-   "max": 60000,
+   "count": 17,
+   "min": 20000,
+   "median": 39999,
+   "max": 80000,
    "items": [
     {
-     "title": "Google Pixel 6pro",
-     "price": 17166,
-     "url": "https://jp.mercari.com/item/m81520925316",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "Google Pixel 5 本体",
-     "price": 17500,
-     "url": "https://jp.mercari.com/item/m70728318339",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
      "title": "Google Pixel 6a 本体",
-     "price": 18000,
-     "url": "https://jp.mercari.com/item/m69919351373",
+     "price": 20000,
+     "url": "https://jp.mercari.com/item/m71951252482",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "Google Pixel 5 本体 ブラック 128G B",
+     "price": 20000,
+     "url": "https://jp.mercari.com/item/m57998658599",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "Google Pixel 7a 128GB Snow 箱付き",
+     "price": 22500,
+     "url": "https://jp.mercari.com/item/m14803018038",
      "shop": "メルカリ",
      "used": true
     }
@@ -138,18 +138,18 @@
   "minSite": "yahoo_shopping",
   "minLabel": "Yahoo!ショッピング",
   "minTitle": "Google Pixel 8a 128GB Bay",
-  "median": 79885,
+  "median": 74603,
   "siteCount": 2,
-  "itemCount": 27
+  "itemCount": 26
  },
  "usedSummary": {
-  "min": 16710,
+  "min": 16501,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "★ ジャンク SoftBank Google Pixel 6a チャコール 128GB 1円 ! 1スタ !",
-  "median": 33850,
+  "minTitle": "★ ジャンク Google Pixel 8 ヘーゼル 128GB SIMフリー 1円 ! 1スタ !",
+  "median": 35800,
   "siteCount": 4,
-  "itemCount": 29
+  "itemCount": 30
  },
  "history": [
   {
@@ -497,6 +497,19 @@
     "rakuten": 73333,
     "yahoo_auction": 16710,
     "mercari": 17166
+   }
+  },
+  {
+   "date": "2026-11-23",
+   "newMin": 40980,
+   "newMedian": 74603,
+   "usedMin": 16501,
+   "usedMedian": 35800,
+   "sites": {
+    "yahoo_shopping": 40980,
+    "rakuten": 64444,
+    "yahoo_auction": 16501,
+    "mercari": 20000
    }
   }
  ]

@@ -1,49 +1,17 @@
 {
  "slug": "sumaho",
  "term": "スマホ",
- "date": "2026-11-22",
- "capturedAt": "2026-11-21T20:10:07.607Z",
+ "date": "2026-11-23",
+ "capturedAt": "2026-11-22T20:10:03.952Z",
  "sites": [
-  {
-   "site": "yahoo_shopping",
-   "label": "Yahoo!ショッピング",
-   "used": false,
-   "count": 6,
-   "min": 20680,
-   "median": 39257,
-   "max": 81980,
-   "items": [
-    {
-     "title": "Xperia 10 III 128GB Aランク スマホ 本体 SIMフリー 美品 白ロム",
-     "price": 16800,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnicosuma%2Fxperia10iii-128-a.html",
-     "shop": "にこスマ",
-     "used": true
-    },
-    {
-     "title": "motorola モトローラ moto g05(I) フレッシュラベンダー 本体 SIMフリー PB6N0002JP イオンモバイル",
-     "price": 20680,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Faeonmobile%2F2007943979439.html",
-     "shop": "イオンモバイルオンラインショップ",
-     "used": false
-    },
-    {
-     "title": "iPhone SE 3 第3世代 64GB Aランク スマホ 本体 SIMフリー ミッドナイト レッド スターライト 美品",
-     "price": 26800,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnicosuma%2Fiphonese3-64-a.html",
-     "shop": "にこスマ",
-     "used": true
-    }
-   ]
-  },
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
    "count": 14,
    "min": 20980,
-   "median": 63650,
-   "max": 89760,
+   "median": 36890,
+   "max": 133980,
    "items": [
     {
      "title": "「未開封/未使用/国内版SIMフリー」Galaxy A25 5G 64GB docomo版 au/UQ版 ソフトバンク版 Yモバイル版 SIMフリー版 楽天版 ライトブルー ブルー ブラック 白ロム スマホ 本体 楽天モバイル対応",
@@ -65,6 +33,38 @@
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgojapanshop%2Fgalaxy-a25%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fgojapanshop%2Fi%2F10002537%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "Go Japan 楽天市場店",
      "used": false
+    }
+   ]
+  },
+  {
+   "site": "yahoo_shopping",
+   "label": "Yahoo!ショッピング",
+   "used": false,
+   "count": 5,
+   "min": 37780,
+   "median": 42000,
+   "max": 81980,
+   "items": [
+    {
+     "title": "Xperia 10 III 128GB Aランク スマホ 本体 SIMフリー 美品 白ロム",
+     "price": 16800,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnicosuma%2Fxperia10iii-128-a.html",
+     "shop": "にこスマ",
+     "used": true
+    },
+    {
+     "title": "iPhone SE 3 第3世代 64GB Aランク スマホ 本体 SIMフリー ミッドナイト レッド スターライト 美品",
+     "price": 26800,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnicosuma%2Fiphonese3-64-a.html",
+     "shop": "にこスマ",
+     "used": true
+    },
+    {
+     "title": "Google Pixel 7a 128GB Bランク スマホ 本体 SIMフリー 美品 にこスマ認定整備済み品(リファービッシュ 整備済品)",
+     "price": 28800,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnicosuma%2Fpxl-7a-128-b.html",
+     "shop": "にこスマ",
+     "used": true
     }
    ]
   },
@@ -204,11 +204,18 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 11,
-   "min": 12800,
-   "median": 33000,
-   "max": 70000,
+   "count": 15,
+   "min": 12000,
+   "median": 35600,
+   "max": 85000,
    "items": [
+    {
+     "title": "美品 iPhone8 64GB ゴールド SIMフリー 動作確認済み 本体",
+     "price": 12000,
+     "url": "https://jp.mercari.com/item/m93348827451",
+     "shop": "メルカリ",
+     "used": true
+    },
     {
      "title": "美品 iPhoneX 64GB シルバー SIMフリー 本体",
      "price": 12800,
@@ -217,16 +224,9 @@
      "used": true
     },
     {
-     "title": "Mi 10 Lite 5G XIG01 au版SIMフリー 本体",
-     "price": 14100,
-     "url": "https://jp.mercari.com/item/m28621270968",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "iPhone 12 ブラック 128GB SIMフリー",
-     "price": 22500,
-     "url": "https://jp.mercari.com/item/m93295507410",
+     "title": "iPhone 12 64GB パープル 本体のみ",
+     "price": 15100,
+     "url": "https://jp.mercari.com/item/m56781864223",
      "shop": "メルカリ",
      "used": true
     }
@@ -237,21 +237,21 @@
    "label": "Yahoo!オークション",
    "used": true,
    "count": 2,
-   "min": 14550,
-   "median": 18675,
-   "max": 22800,
+   "min": 15800,
+   "median": 24300,
+   "max": 32800,
    "items": [
     {
-     "title": "OPPO A3 5G 128GB ブラック A402OP SIMフリー 初期化済 M14976RL",
-     "price": 14550,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/h1252833034",
+     "title": "OPPO Reno7 A 128GB SIMフリー スマートフォン 本体 美品",
+     "price": 15800,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z729497832",
      "shop": "",
      "used": true
     },
     {
-     "title": "スマートフォン 本体 Xperia 5 III SO-53B SONY docomo SIMフリー 残債なし 128GB グリーン",
-     "price": 22800,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/j1251224147",
+     "title": "AQUOS wish5 128GB スミ新品未使用 SH-M32 SIMフリーSHARP",
+     "price": 32800,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/j1253349666",
      "shop": "",
      "used": true
     }
@@ -259,22 +259,22 @@
   }
  ],
  "newSummary": {
-  "min": 20680,
-  "minSite": "yahoo_shopping",
-  "minLabel": "Yahoo!ショッピング",
-  "minTitle": "motorola モトローラ moto g05(I) フレッシュラベンダー 本体 SIMフリー PB6N0002JP イオンモバイル",
+  "min": 20980,
+  "minSite": "rakuten",
+  "minLabel": "楽天市場",
+  "minTitle": "「未開封/未使用/国内版SIMフリー」Galaxy A25 5G 64GB docomo版 au/UQ版 ソフトバンク版 Yモバイル版 SIMフリー版 楽天版 ライトブルー ブルー ブラック 白ロム スマホ 本体 楽天モバイル対応",
   "median": 77880,
   "siteCount": 7,
-  "itemCount": 65
+  "itemCount": 64
  },
  "usedSummary": {
-  "min": 12800,
+  "min": 12000,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "美品 iPhoneX 64GB シルバー SIMフリー 本体",
-  "median": 33900,
+  "minTitle": "美品 iPhone8 64GB ゴールド SIMフリー 動作確認済み 本体",
+  "median": 35200,
   "siteCount": 4,
-  "itemCount": 25
+  "itemCount": 31
  },
  "history": [
   {
@@ -757,6 +757,24 @@
     "joshin": 77880,
     "mercari": 12800,
     "yahoo_auction": 14550
+   }
+  },
+  {
+   "date": "2026-11-23",
+   "newMin": 20980,
+   "newMedian": 77880,
+   "usedMin": 12000,
+   "usedMedian": 35200,
+   "sites": {
+    "rakuten": 20980,
+    "yahoo_shopping": 37780,
+    "yodobashi": 54340,
+    "biccamera": 57980,
+    "sofmap": 57980,
+    "edion": 59300,
+    "joshin": 77880,
+    "mercari": 12000,
+    "yahoo_auction": 15800
    }
   }
  ]

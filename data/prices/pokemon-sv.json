@@ -1,8 +1,8 @@
 {
  "slug": "pokemon-sv",
  "term": "ポケモン スカーレット・バイオレット",
- "date": "2026-11-22",
- "capturedAt": "2026-11-21T20:10:07.607Z",
+ "date": "2026-11-23",
+ "capturedAt": "2026-11-22T20:10:03.952Z",
  "sites": [
   {
    "site": "yodobashi",
@@ -65,16 +65,23 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 1,
+   "count": 2,
    "min": 6052,
-   "median": 6052,
-   "max": 6052,
+   "median": 7226,
+   "max": 8400,
    "items": [
     {
      "title": "Game Soft (Nintendo Switch) / ポケットモンスター バイオレット 〔GAME〕",
      "price": 6052,
      "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fhmv%2F13158416.html",
      "shop": "HMV&BOOKS online Yahoo!店",
+     "used": false
+    },
+    {
+     "title": "ポケットモンスター バイオレット -Switch",
+     "price": 8400,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fscarlet2021%2F20240203005543-01747.html",
+     "shop": "スカーレット2021",
      "used": false
     }
    ]
@@ -84,21 +91,21 @@
    "label": "Yahoo!オークション",
    "used": true,
    "count": 5,
-   "min": 3899,
+   "min": 3878,
    "median": 6680,
-   "max": 7297,
+   "max": 7295,
    "items": [
     {
-     "title": "ポケットモンスター スカーレット・バイオレット 追加コンテンツ ゼロの秘宝&ひこうき ２点",
-     "price": 3899,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z728663828",
+     "title": "ポケットモンスター スカーレット・バイオレット ゼロの秘宝 ポケモン",
+     "price": 3878,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z728729672",
      "shop": "",
      "used": true
     },
     {
-     "title": "①Switch ジョイコン ポケモンSV 左右LR ポケットモンスター スカーレット・バイオレットエディション 赤 紫",
-     "price": 6666,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/o1252972198",
+     "title": "ポケットモンスター スカーレット・バイオレット 追加コンテンツ ゼロの秘宝&ひこうき ２点",
+     "price": 3899,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z729484836",
      "shop": "",
      "used": true
     },
@@ -115,9 +122,9 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 5,
+   "count": 4,
    "min": 4000,
-   "median": 7700,
+   "median": 7525,
    "max": 8500,
    "items": [
     {
@@ -135,9 +142,9 @@
      "used": true
     },
     {
-     "title": "05w22526 ポケモン Co. ”ポケットモンスター スカーレット・バイオレット DOUBLE PACK” Nintendo Switch ゲームソフト LA-H-ALZXA-JPN／LA-H-ALZYA-JPN",
-     "price": 7700,
-     "url": "https://jp.mercari.com/shops/product/2JUE3ivPmnG4BXVpm4gKBd",
+     "title": "ポケットモンスター スカーレット・バイオレット Switch ソフト",
+     "price": 7800,
+     "url": "https://jp.mercari.com/item/m22416328244",
      "shop": "メルカリ",
      "used": true
     }
@@ -151,16 +158,16 @@
   "minTitle": "ポケットモンスター スカーレット・バイオレット ゼロの秘宝 [Nintendo Switchソフト ダウンロード版]",
   "median": 5980,
   "siteCount": 3,
-  "itemCount": 8
+  "itemCount": 9
  },
  "usedSummary": {
-  "min": 3899,
+  "min": 3878,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "ポケットモンスター スカーレット・バイオレット 追加コンテンツ ゼロの秘宝&ひこうき ２点",
-  "median": 7190,
+  "minTitle": "ポケットモンスター スカーレット・バイオレット ゼロの秘宝 ポケモン",
+  "median": 7103,
   "siteCount": 2,
-  "itemCount": 10
+  "itemCount": 9
  },
  "history": [
   {
@@ -532,6 +539,20 @@
     "rakuten": 3500,
     "yahoo_shopping": 6052,
     "yahoo_auction": 3899,
+    "mercari": 4000
+   }
+  },
+  {
+   "date": "2026-11-23",
+   "newMin": 3460,
+   "newMedian": 5980,
+   "usedMin": 3878,
+   "usedMedian": 7103,
+   "sites": {
+    "yodobashi": 3460,
+    "rakuten": 3500,
+    "yahoo_shopping": 6052,
+    "yahoo_auction": 3878,
     "mercari": 4000
    }
   }
