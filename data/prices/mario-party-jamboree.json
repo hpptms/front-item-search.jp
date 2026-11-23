@@ -1,17 +1,17 @@
 {
  "slug": "mario-party-jamboree",
  "term": "スーパー マリオパーティ ジャンボリー",
- "date": "2026-11-23",
- "capturedAt": "2026-11-22T20:10:03.952Z",
+ "date": "2026-11-24",
+ "capturedAt": "2026-11-23T20:10:02.290Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 18,
+   "count": 19,
    "min": 5335,
-   "median": 6480,
-   "max": 8170,
+   "median": 6600,
+   "max": 8480,
    "items": [
     {
      "title": "ニンテンドー『スーパー マリオパーティ ジャンボリー』HAC-P-A7HLA Switch ゲームソフト 1週間保証",
@@ -29,7 +29,7 @@
     },
     {
      "title": "スーパー マリオパーティ ジャンボリー Nintendo Switch",
-     "price": 6249,
+     "price": 6259,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flcs-live%2F10016875%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flcs-live%2Fi%2F10016786%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "らいぶshop",
      "used": false
@@ -40,9 +40,9 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 14,
+   "count": 12,
    "min": 6100,
-   "median": 7353,
+   "median": 7923,
    "max": 8670,
    "items": [
     {
@@ -172,29 +172,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 12,
-   "min": 2900,
-   "median": 4525,
-   "max": 5720,
+   "count": 14,
+   "min": 3000,
+   "median": 5240,
+   "max": 6980,
    "items": [
     {
-     "title": "055) Switch2ソフト スイッチ2ソフト スーパー マリオパーティ ジャンボリー NS2 エディション + ジャンボリーTV ①",
-     "price": 2900,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/p1253083740",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "061/X641★未開封★Nintendo Switch スイッチ ソフト 『スーパー マリオパーティ ジャンボリー』",
+     "title": "Nintendo Switch ソフト スーパー マリオパーティ ジャンボリー マリパ ニンテンドースイッチ ソフト 任天堂 動作確認済み 中古品▼1039",
      "price": 3000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/d1253323971",
+     "url": "https://auctions.yahoo.co.jp/jp/auction/r1253463306",
      "shop": "",
      "used": true
     },
     {
-     "title": "054) Switchソフト スイッチソフト スーパー マリオパーティ ジャンボリー ②",
-     "price": 3100,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/g1253102336",
+     "title": "スーパー マリオパーティ ジャンボリー [通常版]",
+     "price": 4649,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z727314654",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "Nintendo Switch スーパー マリオパーティ ジャンボリー 通常版",
+     "price": 4680,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z729245116",
      "shop": "",
      "used": true
     }
@@ -204,11 +204,18 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 19,
-   "min": 4555,
-   "median": 5600,
-   "max": 7000,
+   "count": 18,
+   "min": 4200,
+   "median": 6211,
+   "max": 8000,
    "items": [
+    {
+     "title": "スーパー マリオパーティ ジャンボリー Switch ソフト",
+     "price": 4200,
+     "url": "https://jp.mercari.com/item/m52826564849",
+     "shop": "メルカリ",
+     "used": true
+    },
     {
      "title": "読み込み〇スーパー マリオパーティ ジャンボリー Switch ソフト",
      "price": 4555,
@@ -217,16 +224,9 @@
      "used": true
     },
     {
-     "title": "スーパー マリオパーティ ジャンボリー Switch ソフト",
-     "price": 4700,
-     "url": "https://jp.mercari.com/item/m67031489782",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "Nintendo Switch スーパーマリオパーティ ジャンボリー 完品・美品",
-     "price": 4700,
-     "url": "https://jp.mercari.com/item/m99052379734",
+     "title": "⁠ Nintendo Switch スーパーマリオパーティジャンボリー",
+     "price": 4888,
+     "url": "https://jp.mercari.com/item/m79979870987",
      "shop": "メルカリ",
      "used": true
     }
@@ -240,16 +240,16 @@
   "minTitle": "ニンテンドー『スーパー マリオパーティ ジャンボリー』HAC-P-A7HLA Switch ゲームソフト 1週間保証",
   "median": 7155,
   "siteCount": 6,
-  "itemCount": 41
+  "itemCount": 40
  },
  "usedSummary": {
-  "min": 2900,
+  "min": 3000,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "055) Switch2ソフト スイッチ2ソフト スーパー マリオパーティ ジャンボリー NS2 エディション + ジャンボリーTV ①",
-  "median": 5254,
+  "minTitle": "Nintendo Switch ソフト スーパー マリオパーティ ジャンボリー マリパ ニンテンドースイッチ ソフト 任天堂 動作確認済み 中古品▼1039",
+  "median": 5996,
   "siteCount": 3,
-  "itemCount": 33
+  "itemCount": 36
  },
  "history": [
   {
@@ -710,6 +710,23 @@
     "biccamera": 6770,
     "yahoo_auction": 2900,
     "mercari": 4555
+   }
+  },
+  {
+   "date": "2026-11-24",
+   "newMin": 5335,
+   "newMedian": 7155,
+   "usedMin": 3000,
+   "usedMedian": 5996,
+   "sites": {
+    "rakuten": 5335,
+    "yahoo_shopping": 6100,
+    "joshin": 6260,
+    "edion": 6260,
+    "yodobashi": 6600,
+    "biccamera": 6770,
+    "yahoo_auction": 3000,
+    "mercari": 4200
    }
   }
  ]

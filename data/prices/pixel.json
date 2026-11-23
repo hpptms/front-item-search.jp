@@ -1,8 +1,8 @@
 {
  "slug": "pixel",
  "term": "Google Pixel",
- "date": "2026-11-23",
- "capturedAt": "2026-11-22T20:10:03.952Z",
+ "date": "2026-11-24",
+ "capturedAt": "2026-11-23T20:10:02.290Z",
  "sites": [
   {
    "site": "yahoo_shopping",
@@ -11,7 +11,7 @@
    "count": 14,
    "min": 40980,
    "median": 69485,
-   "max": 82292,
+   "max": 82197,
    "items": [
     {
      "title": "Google Pixel 7a 128GB Bランク スマホ 本体 SIMフリー 美品 にこスマ認定整備済み品(リファービッシュ 整備済品)",
@@ -42,8 +42,8 @@
    "used": false,
    "count": 12,
    "min": 64444,
-   "median": 79720,
-   "max": 124800,
+   "median": 79970,
+   "max": 145800,
    "items": [
     {
      "title": "最大5000円オフクーポン Google Pixel 7a 128GB 256GB スマホ スマートフォン 本体 SIMフリー docomo au softbank 美品 にこスマ認定整備済み品(リファービッシュ 整備済品) 白ロム",
@@ -72,22 +72,15 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 3,
-   "min": 16501,
-   "median": 20000,
-   "max": 24000,
+   "count": 10,
+   "min": 16500,
+   "median": 27528,
+   "max": 40000,
    "items": [
     {
-     "title": "★ ジャンク Google Pixel 8 ヘーゼル 128GB SIMフリー 1円 ! 1スタ !",
-     "price": 16501,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/w1253074848",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "ピクセル7 Pixel7 Android スマートフォン 本体 ブラック Google 128g",
-     "price": 20000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/x1253019005",
+     "title": "■美品■Google Pixel 8 Rose（ローズ）128 GB（SIM フリー）■ディスプレイをgoogle公式修理完了済",
+     "price": 16500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/j1253339411",
      "shop": "",
      "used": true
     },
@@ -97,6 +90,13 @@
      "url": "https://auctions.yahoo.co.jp/jp/auction/z729265614",
      "shop": "",
      "used": true
+    },
+    {
+     "title": "Google Pixel 7 5G 128GB Snow IME1;359099479180449",
+     "price": 25000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/w1253179124",
+     "shop": "",
+     "used": true
     }
    ]
   },
@@ -104,15 +104,15 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 17,
+   "count": 15,
    "min": 20000,
-   "median": 39999,
-   "max": 80000,
+   "median": 30000,
+   "max": 59800,
    "items": [
     {
-     "title": "Google Pixel 6a 本体",
+     "title": "Google Pixel 8 本体 SIMフリー 128GB 縦線あり正常動作",
      "price": 20000,
-     "url": "https://jp.mercari.com/item/m71951252482",
+     "url": "https://jp.mercari.com/item/m24890361229",
      "shop": "メルカリ",
      "used": true
     },
@@ -124,9 +124,9 @@
      "used": true
     },
     {
-     "title": "Google Pixel 7a 128GB Snow 箱付き",
+     "title": "Google Pixel 6a 本体のみ",
      "price": 22500,
-     "url": "https://jp.mercari.com/item/m14803018038",
+     "url": "https://jp.mercari.com/item/m33889935754",
      "shop": "メルカリ",
      "used": true
     }
@@ -138,18 +138,18 @@
   "minSite": "yahoo_shopping",
   "minLabel": "Yahoo!ショッピング",
   "minTitle": "Google Pixel 8a 128GB Bay",
-  "median": 74603,
+  "median": 74728,
   "siteCount": 2,
   "itemCount": 26
  },
  "usedSummary": {
-  "min": 16501,
+  "min": 16500,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "★ ジャンク Google Pixel 8 ヘーゼル 128GB SIMフリー 1円 ! 1スタ !",
-  "median": 35800,
+  "minTitle": "■美品■Google Pixel 8 Rose（ローズ）128 GB（SIM フリー）■ディスプレイをgoogle公式修理完了済",
+  "median": 30900,
   "siteCount": 4,
-  "itemCount": 30
+  "itemCount": 35
  },
  "history": [
   {
@@ -509,6 +509,19 @@
     "yahoo_shopping": 40980,
     "rakuten": 64444,
     "yahoo_auction": 16501,
+    "mercari": 20000
+   }
+  },
+  {
+   "date": "2026-11-24",
+   "newMin": 40980,
+   "newMedian": 74728,
+   "usedMin": 16500,
+   "usedMedian": 30900,
+   "sites": {
+    "yahoo_shopping": 40980,
+    "rakuten": 64444,
+    "yahoo_auction": 16500,
     "mercari": 20000
    }
   }

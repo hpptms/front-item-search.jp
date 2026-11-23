@@ -1,34 +1,9 @@
 {
  "slug": "used-pc",
  "term": "中古PC",
- "date": "2026-11-23",
- "capturedAt": "2026-11-22T20:10:03.952Z",
+ "date": "2026-11-24",
+ "capturedAt": "2026-11-23T20:10:02.290Z",
  "sites": [
-  {
-   "site": "sofmap",
-   "label": "ソフマップ",
-   "used": false,
-   "count": 2,
-   "min": 22965,
-   "median": 35065,
-   "max": 47165,
-   "items": [
-    {
-     "title": "EVICIV HS156PC",
-     "price": 22965,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdtc%2F2133067706320%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdtc%2Fi%2F13167521%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "ソフマップ楽天市場店",
-     "used": false
-    },
-    {
-     "title": "MSI(エムエスアイ) 〔展示品〕 USB-C接続 PCモニター ウェブカメラ搭載 PRO MP275QPDG [27型 ／WQHD(2560×1440) ／ワイド ／60Hz]",
-     "price": 47165,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdtc%2F2133074444864%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdtc%2Fi%2F13178632%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "ソフマップ楽天市場店",
-     "used": false
-    }
-   ]
-  },
   {
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
@@ -94,12 +69,30 @@
    ]
   },
   {
+   "site": "sofmap",
+   "label": "ソフマップ",
+   "used": false,
+   "count": 1,
+   "min": 47165,
+   "median": 47165,
+   "max": 47165,
+   "items": [
+    {
+     "title": "MSI(エムエスアイ) 〔展示品〕 USB-C接続 PCモニター ウェブカメラ搭載 PRO MP275QPDG [27型 ／WQHD(2560×1440) ／ワイド ／60Hz]",
+     "price": 47165,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdtc%2F2133074444864%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdtc%2Fi%2F13178632%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "ソフマップ楽天市場店",
+     "used": false
+    }
+   ]
+  },
+  {
    "site": "yodobashi",
    "label": "ヨドバシ.com",
    "used": false,
    "count": 12,
    "min": 64800,
-   "median": 146940,
+   "median": 101940,
    "max": 250080,
    "items": [
     {
@@ -118,7 +111,7 @@
     },
     {
      "title": "Chromebook CM15/15.6型/Kompanio 540/メモリ 8GB/eMMC 128GB/ChromeOS/ミスティグリーン CM1505CM4A-8128GR",
-     "price": 75810,
+     "price": 79800,
      "url": "https://www.yodobashi.com/product/100000001009946614/",
      "shop": "",
      "used": false
@@ -126,57 +119,18 @@
    ]
   },
   {
-   "site": "mercari",
-   "label": "メルカリ",
-   "used": true,
-   "count": 13,
-   "min": 12000,
-   "median": 18999,
-   "max": 49000,
-   "items": [
-    {
-     "title": "dynabook S73/FR",
-     "price": 12000,
-     "url": "https://jp.mercari.com/item/m32210367213",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "BITECOOL ノートPC 本体",
-     "price": 12800,
-     "url": "https://jp.mercari.com/item/m42970382826",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "dynabook ノートPC 本体",
-     "price": 13000,
-     "url": "https://jp.mercari.com/item/m19625947986",
-     "shop": "メルカリ",
-     "used": true
-    }
-   ]
-  },
-  {
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 10,
-   "min": 14800,
-   "median": 21376,
-   "max": 41000,
+   "count": 9,
+   "min": 11000,
+   "median": 21000,
+   "max": 65000,
    "items": [
     {
-     "title": "中古■13.3型 富士通 LIFEBOOK UH90 [i7-8565U/8G/SSD256G/カメラ/SD/Win11] 本体のみ★送料無料",
-     "price": 14800,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/k1249125483",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "nec versapro PC-VK540CZDB amd ryzen 5 5500U 中古パソコン メモリ8GB Win 11 NVMe SSD 256GB 13.3 フルHD LAPTOP",
-     "price": 15255,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/b1245618278",
+     "title": "1円~ 美品 Wi-Fi有 HP 中古ノートパソコン 450 G9 2022年製 Core i7 1255U 16GB 1TB 高速SSD 無線LAN カメラ Windows11 Office済 即使用可",
+     "price": 11000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/l1253123169",
      "shop": "",
      "used": true
     },
@@ -186,27 +140,66 @@
      "url": "https://auctions.yahoo.co.jp/jp/auction/o1252435136",
      "shop": "",
      "used": true
+    },
+    {
+     "title": "中古パソコンLENOVO ThinkPad L13Gen3/第12世代Core i5-1235U/メモリ16GB/SSD256GB/13.3型/Win11Pro 9",
+     "price": 18500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/q1253322125",
+     "shop": "",
+     "used": true
+    }
+   ]
+  },
+  {
+   "site": "mercari",
+   "label": "メルカリ",
+   "used": true,
+   "count": 12,
+   "min": 12000,
+   "median": 19000,
+   "max": 37500,
+   "items": [
+    {
+     "title": "軽量 Windows11 Pro ノートPC",
+     "price": 12000,
+     "url": "https://jp.mercari.com/item/m45447024835",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "★富士通 LIFEBOOK ノートPC Core i7 SSD512GB 8GB",
+     "price": 12300,
+     "url": "https://jp.mercari.com/item/m73608839310",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "HPノートPC白 Office有 OS更新済み",
+     "price": 14000,
+     "url": "https://jp.mercari.com/item/m99080196281",
+     "shop": "メルカリ",
+     "used": true
     }
    ]
   }
  ],
  "newSummary": {
-  "min": 22965,
-  "minSite": "sofmap",
-  "minLabel": "ソフマップ",
-  "minTitle": "EVICIV HS156PC",
-  "median": 32433,
+  "min": 23980,
+  "minSite": "yahoo_shopping",
+  "minLabel": "Yahoo!ショッピング",
+  "minTitle": "富士通 LIFEBOOK A579シリーズ / 第8世代 Core i5-8265U / メモリ16GB / SSD256GB / DVD / Webカメラ / テンキー / Win11 / 15.6型ノートパソコン Office2021",
+  "median": 38483,
   "siteCount": 4,
-  "itemCount": 16
+  "itemCount": 15
  },
  "usedSummary": {
-  "min": 12000,
-  "minSite": "mercari",
-  "minLabel": "メルカリ",
-  "minTitle": "dynabook S73/FR",
-  "median": 20588,
+  "min": 11000,
+  "minSite": "yahoo_auction",
+  "minLabel": "Yahoo!オークション",
+  "minTitle": "1円~ 美品 Wi-Fi有 HP 中古ノートパソコン 450 G9 2022年製 Core i7 1255U 16GB 1TB 高速SSD 無線LAN カメラ Windows11 Office済 即使用可",
+  "median": 20400,
   "siteCount": 4,
-  "itemCount": 56
+  "itemCount": 55
  },
  "history": [
   {
@@ -613,6 +606,21 @@
     "yodobashi": 64800,
     "mercari": 12000,
     "yahoo_auction": 14800
+   }
+  },
+  {
+   "date": "2026-11-24",
+   "newMin": 23980,
+   "newMedian": 38483,
+   "usedMin": 11000,
+   "usedMedian": 20400,
+   "sites": {
+    "yahoo_shopping": 23980,
+    "rakuten": 29800,
+    "sofmap": 47165,
+    "yodobashi": 64800,
+    "yahoo_auction": 11000,
+    "mercari": 12000
    }
   }
  ]

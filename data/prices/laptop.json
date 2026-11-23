@@ -1,8 +1,8 @@
 {
  "slug": "laptop",
  "term": "ノートパソコン",
- "date": "2026-11-23",
- "capturedAt": "2026-11-22T20:10:03.952Z",
+ "date": "2026-11-24",
+ "capturedAt": "2026-11-23T20:10:02.290Z",
  "sites": [
   {
    "site": "yahoo_shopping",
@@ -97,18 +97,11 @@
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 7,
-   "min": 59800,
-   "median": 149800,
+   "count": 5,
+   "min": 60680,
+   "median": 151980,
    "max": 197500,
    "items": [
-    {
-     "title": "ノートパソコン 11.6インチ タッチパネル搭載 Intel Celeron N4020 2in1 360度回転 タブレットPC Windows 11 Office対応 コンパクト モバイルノートPC タッチ操作 学習 ビジネス Web閲覧",
-     "price": 59800,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmerune88%2Fpc059%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmerune88%2Fi%2F10000520%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "MERUNE",
-     "used": false
-    },
     {
      "title": "2026年モデル ノートパソコン Windows11 第14世代 Intel Core i3/i5/i7 15.6型/16型/17型 メモリ16GB/32GB SSD最大1TB 日本語キーボード フルHD 高性能PC 在宅勤務 テレワーク ",
      "price": 60680,
@@ -122,6 +115,13 @@
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdirectplus%2Fomnibook-713-bg-rai516%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdirectplus%2Fi%2F10003507%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "HP Directplus楽天市場店",
      "used": false
+    },
+    {
+     "title": "2026年モデル ノートパソコン Windows11 Core Ultra5 Ultra7 DDR5 第15世代 14型 メモリ24GB/32GB SSD最大1TB 日本語キーボード フルHD 高性能PC テレワーク 在宅勤務 学習用 オン",
+     "price": 151980,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmerune88%2Fpc002%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmerune88%2Fi%2F10000461%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "MERUNE",
+     "used": false
     }
    ]
   },
@@ -131,8 +131,8 @@
    "used": false,
    "count": 20,
    "min": 66970,
-   "median": 169490,
-   "max": 434280,
+   "median": 163675,
+   "max": 298980,
    "items": [
     {
      "title": "Chromebook DuetGen9/10.95型/Kompanio 838/メモリ 4GB/eMMC 128GB/ChromeOS/ルナグレー 83HH000UJP",
@@ -149,9 +149,9 @@
      "used": false
     },
     {
-     "title": "ノートパソコン/15.6型/Intel N100/メモリ 8GB/SSD 256GB/Windows 11 Pro JA6-LPC1503",
-     "price": 94800,
-     "url": "https://www.yodobashi.com/product/100000001010252237/",
+     "title": "ノートパソコン/Vivobook 16/16型/Snapdragon X/メモリ 8GB/SSD 256GB/Windows 11 Home/クワイエットブルー X1607QA-PU85W",
+     "price": 114800,
+     "url": "https://www.yodobashi.com/product/100000001009938908/",
      "shop": "",
      "used": false
     }
@@ -193,18 +193,11 @@
    "site": "edion",
    "label": "エディオン",
    "used": false,
-   "count": 5,
-   "min": 204800,
-   "median": 224820,
+   "count": 4,
+   "min": 224820,
+   "median": 233820,
    "max": 269800,
    "items": [
-    {
-     "title": "Dynabook ノートパソコン e angle select アッシュゴールド P3C7A3GE [P3C7A3GE]",
-     "price": 204800,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4571588194574%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10919921%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "エディオン 楽天市場店",
-     "used": false
-    },
     {
      "title": "ASUS ノートパソコン Zenbook SORA アイスランドグレー UX3407QA-PU16548GR [UX3407QAPU16548GR]",
      "price": 224820,
@@ -218,6 +211,45 @@
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F0197105887817%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10865810%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "エディオン 楽天市場店",
      "used": false
+    },
+    {
+     "title": "ASUS ノートパソコン Zenbook SORA ザブリスキーベージュ UX3407QA-PU16548BES [UX3407QAPU16548BES]",
+     "price": 242820,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F0197105887831%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fedion%2Fi%2F10865790%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "エディオン 楽天市場店",
+     "used": false
+    }
+   ]
+  },
+  {
+   "site": "yahoo_auction",
+   "label": "Yahoo!オークション",
+   "used": true,
+   "count": 3,
+   "min": 21500,
+   "median": 25000,
+   "max": 26000,
+   "items": [
+    {
+     "title": "MouseComputer ゲーミングノートPC MB-N520",
+     "price": 21500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z730735590",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "ノートパソコン中古HP 250 G7 NOTEBOOK PC i5第10世代 ノートPC Core i5-1035G1 DDR4メモリ8GB SSD 256GB 15.6 i5 10th gen laptop",
+     "price": 25000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/k1253432363",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "DELL LATITUDE 3510 i5第10世代 ノートPC Core i5-10310U ノートパソコン メモリ8GB NVMe SSD 256GBカメラ15.6フルHD LAPTOP",
+     "price": 26000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/c1253301131",
+     "shop": "",
+     "used": true
     }
    ]
   },
@@ -225,22 +257,22 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 9,
-   "min": 20000,
-   "median": 34800,
-   "max": 46000,
+   "count": 5,
+   "min": 22800,
+   "median": 27000,
+   "max": 74000,
    "items": [
     {
-     "title": "HP ノートパソコン 本体 HP Laptop 15s-fq3037T",
-     "price": 20000,
-     "url": "https://jp.mercari.com/item/m28080397801",
+     "title": "Windows 11 Pro ノートパソコン",
+     "price": 22800,
+     "url": "https://jp.mercari.com/item/m58374435727",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Windows 11 Pro ノートパソコン",
-     "price": 23800,
-     "url": "https://jp.mercari.com/item/m58374435727",
+     "title": "NEC corei7 SSD500GB/メモリ16GB オフィス付ノートパソコン",
+     "price": 24500,
+     "url": "https://jp.mercari.com/item/m62872817375",
      "shop": "メルカリ",
      "used": true
     },
@@ -252,38 +284,6 @@
      "used": true
     }
    ]
-  },
-  {
-   "site": "yahoo_auction",
-   "label": "Yahoo!オークション",
-   "used": true,
-   "count": 3,
-   "min": 26730,
-   "median": 29900,
-   "max": 63000,
-   "items": [
-    {
-     "title": "ノートパソコン中古HP 250 G7 NOTEBOOK PC i5第10世代 ノートPC Core i5-1035G1 DDR4メモリ16GB NVMe SSD 240GB 15.6 i5 10th gen laptop",
-     "price": 26730,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/n1253024476",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "ノートパソコン中古HP 250 G7 NOTEBOOK PC i5第10世代 ノートPC Core i5-1035G1 DDR4メモリ16GB NVMe SSD 256GB 15.6 i5 10th gen laptop",
-     "price": 29900,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/l1253211783",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "ノートパソコン中古HP ELITEBOOK 630 G10 i7第13世代 ノートPC Core i7-1355U メモリ16GB NVMe SSD 512GB カメラ 13.3 フルHD LAPTOP",
-     "price": 63000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/k1253204145",
-     "shop": "",
-     "used": true
-    }
-   ]
   }
  ],
  "newSummary": {
@@ -291,18 +291,18 @@
   "minSite": "yahoo_shopping",
   "minLabel": "Yahoo!ショッピング",
   "minTitle": "ノートパソコン ダイナブック 2023年モデル 13世代Corei5 Corei3 dynabook G83/L メモリ16G 8G 256G 13.3FHD Wi-Fi6E office 東芝 爆買",
-  "median": 149800,
+  "median": 151980,
   "siteCount": 7,
-  "itemCount": 48
+  "itemCount": 45
  },
  "usedSummary": {
-  "min": 20000,
-  "minSite": "mercari",
-  "minLabel": "メルカリ",
-  "minTitle": "HP ノートパソコン 本体 HP Laptop 15s-fq3037T",
-  "median": 31800,
+  "min": 21500,
+  "minSite": "yahoo_auction",
+  "minLabel": "Yahoo!オークション",
+  "minTitle": "MouseComputer ゲーミングノートPC MB-N520",
+  "median": 27000,
   "siteCount": 3,
-  "itemCount": 16
+  "itemCount": 12
  },
  "history": [
   {
@@ -803,6 +803,24 @@
     "edion": 204800,
     "mercari": 20000,
     "yahoo_auction": 26730
+   }
+  },
+  {
+   "date": "2026-11-24",
+   "newMin": 42980,
+   "newMedian": 151980,
+   "usedMin": 21500,
+   "usedMedian": 27000,
+   "sites": {
+    "yahoo_shopping": 42980,
+    "biccamera": 51480,
+    "sofmap": 51480,
+    "rakuten": 60680,
+    "yodobashi": 66970,
+    "joshin": 66978,
+    "edion": 224820,
+    "yahoo_auction": 21500,
+    "mercari": 22800
    }
   }
  ]
