@@ -1,8 +1,8 @@
 {
  "slug": "comic-set",
  "term": "コミック 全巻セット",
- "date": "2026-11-24",
- "capturedAt": "2026-11-23T20:10:02.290Z",
+ "date": "2026-11-25",
+ "capturedAt": "2026-11-24T20:10:02.612Z",
  "sites": [
   {
    "site": "rakuten",
@@ -42,8 +42,8 @@
    "used": false,
    "count": 20,
    "min": 5940,
-   "median": 13514,
-   "max": 41225,
+   "median": 14124,
+   "max": 27907,
    "items": [
     {
      "title": "青の花 器の森 1巻〜10巻 コミック全巻セット（新品）",
@@ -60,9 +60,9 @@
      "used": false
     },
     {
-     "title": "新品 / Dr.スランプ [新書版] (1-18巻 全巻) 全巻セット",
-     "price": 8712,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmangazenkan%2Fto-06.html",
+     "title": "新品 / 天上の虹 持統天皇物語 [文庫版] (1-11巻 全巻) 全巻セット",
+     "price": 10890,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmangazenkan%2Fte-61.html",
      "shop": "漫画全巻ドットコム Yahoo!ショッピング店",
      "used": false
     }
@@ -90,29 +90,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 12,
-   "min": 2200,
-   "median": 3321,
-   "max": 12980,
+   "count": 8,
+   "min": 2000,
+   "median": 2480,
+   "max": 3980,
    "items": [
     {
-     "title": "るろうに剣心 明治剣客浪漫譚・北海道編 1-10巻 全巻セット 揃い",
+     "title": "唇役主丞 乾いて候 全巻セット 小池一夫 小島剛夕 送料無料",
+     "price": 2000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/k1252258682",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "状態良♪ 「世界の終わりに柴犬と」 １～４巻（最新） 石原雄 全巻セット 当日発送も！ ＠7927",
+     "price": 2000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/u1253177591",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "ニセコイ 1巻～25巻 古味直志 -送料無料 コミックセット-",
      "price": 2200,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/v1251509873",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "いちご100 初恋限定。全巻セット",
-     "price": 2300,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/d1253391026",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "狂気の山脈にて ラヴクラフト傑作集 1-4巻 全巻セット コミックセット セル品 田辺剛",
-     "price": 2400,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/c1253457907",
+     "url": "https://auctions.yahoo.co.jp/jp/auction/v1252965744",
      "shop": "",
      "used": true
     }
@@ -122,29 +122,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 14,
-   "min": 2590,
-   "median": 5700,
-   "max": 22500,
+   "count": 16,
+   "min": 2500,
+   "median": 5250,
+   "max": 16800,
    "items": [
     {
-     "title": "五等分の花嫁 全巻セット 1巻〜14巻 春場ねぎ",
-     "price": 2590,
-     "url": "https://jp.mercari.com/item/m73583510963",
+     "title": "重版出来! 1〜20巻 全巻セット 松田奈緒子 小学館 ビッグコミックス",
+     "price": 2500,
+     "url": "https://jp.mercari.com/item/m14469978780",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "中古品 実は私は 全巻セット 1-22巻 増田英二",
+     "price": 2611,
+     "url": "https://jp.mercari.com/item/m34065146406",
      "shop": "メルカリ",
      "used": true
     },
     {
      "title": "東京喰種 トーキョーグール 1〜14巻セット 石田スイ",
-     "price": 2800,
+     "price": 2790,
      "url": "https://jp.mercari.com/item/m27981397312",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "ホリミヤ全巻セット 帯付き 初版",
-     "price": 3500,
-     "url": "https://jp.mercari.com/item/m61535815793",
      "shop": "メルカリ",
      "used": true
     }
@@ -156,18 +156,18 @@
   "minSite": "rakuten",
   "minLabel": "楽天市場",
   "minTitle": "封神演義 ＜1〜23巻完結＞ 藤崎竜",
-  "median": 13514,
+  "median": 14124,
   "siteCount": 3,
   "itemCount": 28
  },
  "usedSummary": {
-  "min": 2200,
+  "min": 2000,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "るろうに剣心 明治剣客浪漫譚・北海道編 1-10巻 全巻セット 揃い",
-  "median": 4511,
+  "minTitle": "唇役主丞 乾いて候 全巻セット 小池一夫 小島剛夕 送料無料",
+  "median": 3865,
   "siteCount": 2,
-  "itemCount": 26
+  "itemCount": 24
  },
  "history": [
   {
@@ -583,6 +583,20 @@
     "biccamera": 20900,
     "yahoo_auction": 2200,
     "mercari": 2590
+   }
+  },
+  {
+   "date": "2026-11-25",
+   "newMin": 5850,
+   "newMedian": 14124,
+   "usedMin": 2000,
+   "usedMedian": 3865,
+   "sites": {
+    "rakuten": 5850,
+    "yahoo_shopping": 5940,
+    "biccamera": 20900,
+    "yahoo_auction": 2000,
+    "mercari": 2500
    }
   }
  ]

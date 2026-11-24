@@ -1,8 +1,8 @@
 {
  "slug": "gaming-monitor",
  "term": "ゲーミングモニター",
- "date": "2026-11-24",
- "capturedAt": "2026-11-23T20:10:02.290Z",
+ "date": "2026-11-25",
+ "capturedAt": "2026-11-24T20:10:02.612Z",
  "sites": [
   {
    "site": "yahoo_shopping",
@@ -11,7 +11,7 @@
    "count": 20,
    "min": 10980,
    "median": 21300,
-   "max": 56800,
+   "max": 64800,
    "items": [
     {
      "title": "モニター 23.8インチ 144Hz FHD IPS フリッカーレス MAXZEN pcモニター ゲーミングモニター 23.8型 フルHD ノングレア HDMI MJM24IC01",
@@ -40,9 +40,9 @@
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 20,
+   "count": 18,
    "min": 11999,
-   "median": 26737,
+   "median": 27340,
    "max": 220000,
    "items": [
     {
@@ -74,7 +74,7 @@
    "used": false,
    "count": 20,
    "min": 14300,
-   "median": 24565,
+   "median": 25755,
    "max": 94740,
    "items": [
     {
@@ -101,44 +101,12 @@
    ]
   },
   {
-   "site": "biccamera",
-   "label": "ビックカメラ",
-   "used": false,
-   "count": 20,
-   "min": 16770,
-   "median": 40222,
-   "max": 77800,
-   "items": [
-    {
-     "title": "JAPANNEXT｜ジャパンネクスト ゲーミングモニター JN-IPS238G200F2 [23.8型 /フルHD(1920×1080) /ワイド /200Hz]",
-     "price": 16770,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4589511172353%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F15162759%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "楽天ビック(ビックカメラ×楽天)",
-     "used": false
-    },
-    {
-     "title": "JAPANNEXT｜ジャパンネクスト ゲーミングモニター JN-T215FLG144FHD [21.5型 /フルHD(1920×1080) /ワイド /144Hz]",
-     "price": 17980,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4589511182215%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F13771292%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "楽天ビック(ビックカメラ×楽天)",
-     "used": false
-    },
-    {
-     "title": "I-O DATA｜アイオーデータ ゲーミングモニター GigaCrysta 5年保証 ブラック LCD-GD251SH [24.5型 /フルHD(1920×1080) /ワイド /120Hz]",
-     "price": 19070,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4957180174013%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F14833257%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "楽天ビック(ビックカメラ×楽天)",
-     "used": false
-    }
-   ]
-  },
-  {
    "site": "sofmap",
    "label": "ソフマップ",
    "used": false,
    "count": 20,
    "min": 16979,
-   "median": 33912,
+   "median": 32614,
    "max": 217800,
    "items": [
     {
@@ -197,6 +165,38 @@
    ]
   },
   {
+   "site": "biccamera",
+   "label": "ビックカメラ",
+   "used": false,
+   "count": 20,
+   "min": 19070,
+   "median": 41230,
+   "max": 139800,
+   "items": [
+    {
+     "title": "I-O DATA｜アイオーデータ ゲーミングモニター GigaCrysta 5年保証 ブラック LCD-GD251SH [24.5型 /フルHD(1920×1080) /ワイド /120Hz]",
+     "price": 19070,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4957180174013%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F14833257%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "楽天ビック(ビックカメラ×楽天)",
+     "used": false
+    },
+    {
+     "title": "ACER｜エイサー ゲーミングモニター Nitro VG240YP6bmipx [23.8型 /フルHD(1920×1080) /ワイド /144Hz]",
+     "price": 20800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4515777587839%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F15368573%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "楽天ビック(ビックカメラ×楽天)",
+     "used": false
+    },
+    {
+     "title": "AOC｜エーオーシー ゲーミングモニター ブラック & レッド 27G11ZE2/11 [27型 /フルHD(1920×1080) /ワイド /240Hz]",
+     "price": 22800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F6973985233029%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F15170313%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "楽天ビック(ビックカメラ×楽天)",
+     "used": false
+    }
+   ]
+  },
+  {
    "site": "edion",
    "label": "エディオン",
    "used": false,
@@ -232,29 +232,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 13,
-   "min": 9000,
-   "median": 10000,
-   "max": 15000,
+   "count": 15,
+   "min": 8499,
+   "median": 10100,
+   "max": 18000,
    "items": [
     {
-     "title": "美品ASUS ゲーミングモニター 24.5インチ 165Hz",
-     "price": 9000,
-     "url": "https://jp.mercari.com/item/m24222565175",
+     "title": "DELL ゲーミングモニター S2421HGF/144Hz/1ms",
+     "price": 8499,
+     "url": "https://jp.mercari.com/item/m56752082672",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "DELL S2421HGF ゲーミングモニター本体（144Hz）",
-     "price": 9000,
-     "url": "https://jp.mercari.com/item/m29241425234",
+     "title": "AOC ゲーミングモニター G2490VX 本体",
+     "price": 8500,
+     "url": "https://jp.mercari.com/item/m86347904022",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "KOORUI ゲーミングモニター 24e4",
-     "price": 9400,
-     "url": "https://jp.mercari.com/item/m40831591810",
+     "title": "IODATA 23.6インチゲーミングモニターEX-LDGC242HTB",
+     "price": 9500,
+     "url": "https://jp.mercari.com/item/m69311573690",
      "shop": "メルカリ",
      "used": true
     }
@@ -265,28 +265,28 @@
    "label": "Yahoo!オークション",
    "used": true,
    "count": 4,
-   "min": 10494,
-   "median": 12485,
-   "max": 18000,
+   "min": 9438,
+   "median": 21500,
+   "max": 27999,
    "items": [
     {
      "title": "Dell デル SE2426HG 23.8インチ ゲーミングモニター 液晶モニター PC周辺機器 未使用 N11844139",
-     "price": 10494,
+     "price": 9438,
      "url": "https://auctions.yahoo.co.jp/jp/auction/f1251490438",
      "shop": "",
      "used": true
     },
     {
-     "title": "2025年製 MSI 31.5インチ 湾曲ゲーミングモニター ふ 曲面型 ゲーミングモニター 動作確認済 中古/良品",
-     "price": 11990,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/g1253462287",
+     "title": "ASUS ゲーミングモニター ROG Strix XG279Q 27インチ WQHD IPS 170Hz 1ms HDR G-SYNC",
+     "price": 18000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/t1252973835",
      "shop": "",
      "used": true
     },
     {
-     "title": "REGZA ゲーミングモニター 23.8インチ FHD 180Hz モンスターハンターワイルズ",
-     "price": 12980,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z728155180",
+     "title": "★☆31.5インチ 量子ドット 湾曲ゲーミングモニター MSI MAG 325CQRF QD E2 中古品☆★",
+     "price": 25000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/k1251981710",
      "shop": "",
      "used": true
     }
@@ -298,18 +298,18 @@
   "minSite": "yahoo_shopping",
   "minLabel": "Yahoo!ショッピング",
   "minTitle": "モニター 23.8インチ 144Hz FHD IPS フリッカーレス MAXZEN pcモニター ゲーミングモニター 23.8型 フルHD ノングレア HDMI MJM24IC01",
-  "median": 33912,
+  "median": 32614,
   "siteCount": 7,
-  "itemCount": 126
+  "itemCount": 124
  },
  "usedSummary": {
-  "min": 9000,
+  "min": 8499,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "美品ASUS ゲーミングモニター 24.5インチ 165Hz",
-  "median": 11243,
+  "minTitle": "DELL ゲーミングモニター S2421HGF/144Hz/1ms",
+  "median": 15800,
   "siteCount": 2,
-  "itemCount": 17
+  "itemCount": 19
  },
  "history": [
   {
@@ -829,6 +829,24 @@
     "edion": 26800,
     "mercari": 9000,
     "yahoo_auction": 10494
+   }
+  },
+  {
+   "date": "2026-11-25",
+   "newMin": 10980,
+   "newMedian": 32614,
+   "usedMin": 8499,
+   "usedMedian": 15800,
+   "sites": {
+    "yahoo_shopping": 10980,
+    "rakuten": 11999,
+    "yodobashi": 14300,
+    "sofmap": 16979,
+    "joshin": 17980,
+    "biccamera": 19070,
+    "edion": 26800,
+    "mercari": 8499,
+    "yahoo_auction": 9438
    }
   }
  ]

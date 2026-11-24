@@ -1,17 +1,17 @@
 {
  "slug": "dyson-cleaner",
  "term": "ダイソン 掃除機",
- "date": "2026-11-24",
- "capturedAt": "2026-11-23T20:10:02.290Z",
+ "date": "2026-11-25",
+ "capturedAt": "2026-11-24T20:10:02.612Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 12,
+   "count": 11,
    "min": 27900,
-   "median": 34725,
-   "max": 69900,
+   "median": 37800,
+   "max": 67720,
    "items": [
     {
      "title": "ダイソン Dyson V8 Origin 掃除機 コードレス掃除機 dyson SV25 RD2 ダイソン公式 新品 ダイソン掃除機 スティック掃除機 ハンディクリーナー ハンディ掃除機 コードレス サイクロン 軽量 強力 掃除機ダイソン",
@@ -21,17 +21,17 @@
      "used": false
     },
     {
-     "title": "25日01:59まで！ブラックフライデーSALE ダイソン Dyson Cyclone V10 Fluffy 掃除機 コードレス掃除機 dyson SV58 AD-A NKLCPR ダイソン公式 新品 ダイソン掃除機 スティック掃除機 ハン",
-     "price": 29900,
+     "title": "ダイソン Dyson Cyclone V10 Fluffy 掃除機 コードレス掃除機 dyson SV58 AD-A NKLCPR ダイソン公式 新品 ダイソン掃除機 スティック掃除機 ハンディクリーナー ハンディ掃除機 コードレス サイク",
+     "price": 32800,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F593813-01%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdyson%2Fi%2F10002092%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "Dyson公式 楽天市場店",
      "used": false
     },
     {
-     "title": "25日01:59まで！ブラックフライデー ダイソン Dyson V8 Slim Fluffy 掃除機 コードレス掃除機 dyson SV25SLM ダイソン公式 新品 ダイソン掃除機 スティック掃除機 コードレス サイクロン ハンディクリー",
-     "price": 29900,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F631031-01%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdyson%2Fi%2F10002134%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "Dyson公式 楽天市場店",
+     "title": "ダイソン 掃除機 Dyson V8 Slim Fluffy Extra SV10K EXT BU コードレススティッククリーナー SV10KEXTBU コードレス掃除機",
+     "price": 32980,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fakindo%2Fsv10kextbu%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fakindo%2Fi%2F10189728%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "安心家電販売 PCあきんど",
      "used": false
     }
    ]
@@ -40,11 +40,18 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 17,
-   "min": 29900,
-   "median": 48180,
+   "count": 18,
+   "min": 27900,
+   "median": 45550,
    "max": 82280,
    "items": [
+    {
+     "title": "掃除機 コードレス掃除機 ダイソン Dyson V8 Origin サイクロン式 SV25RD2 ダイソン掃除機",
+     "price": 27900,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fdyson%2F447873-01.html",
+     "shop": "Dyson公式Yahoo!ショッピング店",
+     "used": false
+    },
     {
      "title": "掃除機 コードレス掃除機 ダイソン Dyson Cyclone V10 Fluffy SV58AD-A NKLCPR ダイソン掃除機",
      "price": 29900,
@@ -57,13 +64,6 @@
      "price": 29900,
      "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fdyson%2F631031-01.html",
      "shop": "Dyson公式Yahoo!ショッピング店",
-     "used": false
-    },
-    {
-     "title": "dyson SV25 RD2 V8 Origin 447873-01 dyson ダイソン 掃除機 コードレス掃除機 クリーナー コードレスクリーナー ハンディクリーナー 軽量 サイクロンクリーナー",
-     "price": 30800,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Firisplaza%2F7292094.html",
-     "shop": "アイリスプラザ Yahoo!店",
      "used": false
     }
    ]
@@ -104,29 +104,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 6,
+   "count": 5,
    "min": 15000,
-   "median": 20375,
-   "max": 32000,
+   "median": 32000,
+   "max": 45000,
    "items": [
     {
-     "title": "Dyson ダイソンコードレス掃除機 本体セット",
+     "title": "Dyson V8 fluffy extra VS10 ダイソン スティック掃除機",
      "price": 15000,
-     "url": "https://jp.mercari.com/item/m41500069275",
+     "url": "https://jp.mercari.com/item/m97996728115",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "45 - dyson SV18 2020年製 コードレス掃除機",
-     "price": 15300,
-     "url": "https://jp.mercari.com/item/m58175750887",
+     "title": "Dyson Cyclone DS20 SV55FFBK 掃除機",
+     "price": 29800,
+     "url": "https://jp.mercari.com/item/m17141005614",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "美品 Dyson ダイソン SV19 Omni-glide コードレスクリーナ…",
-     "price": 17800,
-     "url": "https://jp.mercari.com/item/m44864763401",
+     "title": "新品未開封 Dyson PencilVac Fluffy(SV50 FF)",
+     "price": 32000,
+     "url": "https://jp.mercari.com/item/m70922392559",
      "shop": "メルカリ",
      "used": true
     }
@@ -137,14 +137,14 @@
    "label": "Yahoo!オークション",
    "used": true,
    "count": 1,
-   "min": 15000,
-   "median": 15000,
-   "max": 15000,
+   "min": 33143,
+   "median": 33143,
+   "max": 33143,
    "items": [
     {
-     "title": "展示品★新品同様★dyson★ダイソン★コードレスクリーナー★SV18★掃除機★付属品多数★ハンディクリーナー★動作確認済み★サイクロン★",
-     "price": 15000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/r1252863264",
+     "title": "Dyson ダイソン SV52 SU digital slim submarine コードレス掃除機 スティッククリーナー 水拭き掃除機 未開封 未使用 N11873864",
+     "price": 33143,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/h1252212127",
      "shop": "",
      "used": true
     }
@@ -156,7 +156,7 @@
   "minSite": "rakuten",
   "minLabel": "楽天市場",
   "minTitle": "ダイソン Dyson V8 Origin 掃除機 コードレス掃除機 dyson SV25 RD2 ダイソン公式 新品 ダイソン掃除機 スティック掃除機 ハンディクリーナー ハンディ掃除機 コードレス サイクロン 軽量 強力 掃除機ダイソン",
-  "median": 48180,
+  "median": 45550,
   "siteCount": 3,
   "itemCount": 43
  },
@@ -164,10 +164,10 @@
   "min": 15000,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "Dyson ダイソンコードレス掃除機 本体セット",
-  "median": 17688,
+  "minTitle": "Dyson V8 fluffy extra VS10 ダイソン スティック掃除機",
+  "median": 32572,
   "siteCount": 2,
-  "itemCount": 7
+  "itemCount": 6
  },
  "history": [
   {
@@ -557,6 +557,20 @@
     "yodobashi": 32780,
     "mercari": 15000,
     "yahoo_auction": 15000
+   }
+  },
+  {
+   "date": "2026-11-25",
+   "newMin": 27900,
+   "newMedian": 45550,
+   "usedMin": 15000,
+   "usedMedian": 32572,
+   "sites": {
+    "rakuten": 27900,
+    "yahoo_shopping": 27900,
+    "yodobashi": 32780,
+    "mercari": 15000,
+    "yahoo_auction": 33143
    }
   }
  ]

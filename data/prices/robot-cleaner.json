@@ -1,8 +1,8 @@
 {
  "slug": "robot-cleaner",
  "term": "ロボット掃除機",
- "date": "2026-11-24",
- "capturedAt": "2026-11-23T20:10:02.290Z",
+ "date": "2026-11-25",
+ "capturedAt": "2026-11-24T20:10:02.612Z",
  "sites": [
   {
    "site": "joshin",
@@ -28,42 +28,10 @@
      "used": false
     },
     {
-     "title": "iRobot ロボット掃除機 (黒) ルンバMINISLIM(クロ) アイロボット Roomba Mini Slim（ルンバ ミニ スリム) 掃除機＆床拭きロボット + SlimCharge 充電スタンド [ルンバMINISLIMクロ]",
+     "title": "ツカモトエイム ロボット掃除機 (ブラック) AIM-RC71(BK) AiMY ROBOT CLEANER rc71 [AIMRC71BK]",
      "price": 39800,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F0885155053633-21-21986-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14758592%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4571167475131-21-21986-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14668346%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "Joshin web 家電とPCの大型専門店",
-     "used": false
-    }
-   ]
-  },
-  {
-   "site": "rakuten",
-   "label": "楽天市場",
-   "used": false,
-   "count": 19,
-   "min": 19800,
-   "median": 99990,
-   "max": 229900,
-   "items": [
-    {
-     "title": "ロボット掃除機 yeedi mop station / yeediモップステーション 吸引掃除もモップがけもこの1台で充分！全自動水拭き対応 K850+ 音声対応 アプリ対応 powered by ecovacs",
-     "price": 19800,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyeedi%2Fr6972790740548%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fyeedi%2Fi%2F10000001%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "yeedi公式 楽天市場店",
-     "used": false
-    },
-    {
-     "title": "公式 Roomba Mini + AutoEmpty ルンバ ミニ アイロボット ロボット掃除機 ルンバミニ お掃除ロボット 床拭き 拭き掃除 自動ゴミ収集 マッピング 小型 薄型 コードレス irobot roomba 日本 国内 正規品",
-     "price": 43780,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firobotstore%2Ff15%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Firobotstore%2Fi%2F10000580%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "アイロボット公式 楽天市場店",
-     "used": false
-    },
-    {
-     "title": "公式 Roomba Plus 415 Combo + AutoWash ルンバ オンライン限定 アイロボット ロボット掃除機 掃除ロボット 水拭き 床拭き モップ自動洗浄 高性能 小型 iRobot roomba 日本 国内 正規品 メーカ",
-     "price": 49800,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firobotstore%2Fg285060%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Firobotstore%2Fi%2F10000588%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "アイロボット公式 楽天市場店",
      "used": false
     }
    ]
@@ -72,10 +40,10 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 17,
+   "count": 18,
    "min": 22800,
-   "median": 43580,
-   "max": 129800,
+   "median": 44290,
+   "max": 139800,
    "items": [
     {
      "title": "( 期間限定 2,000円OFF! ) ロボット掃除機 ルンバ お掃除ロボ 10/30 新発売 公式 Roomba Vac ロボット アイロボット 掃除ロボ 強力吸引 iRobot メーカー保証",
@@ -106,7 +74,7 @@
    "used": false,
    "count": 13,
    "min": 24178,
-   "median": 53215,
+   "median": 48375,
    "max": 142392,
    "items": [
     {
@@ -133,10 +101,42 @@
    ]
   },
   {
+   "site": "rakuten",
+   "label": "楽天市場",
+   "used": false,
+   "count": 19,
+   "min": 24980,
+   "median": 79800,
+   "max": 229900,
+   "items": [
+    {
+     "title": "Roborock ロボット掃除機 Q7B+ ロボロック お掃除ロボット 水拭き対応 強力吸引 ゴミ収集 静音設計 時短掃除 ペット対応 自動充電 高性能 おすすめモデル",
+     "price": 24980,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Froborockjapandirect%2F6936905903563%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Froborockjapandirect%2Fi%2F10000142%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "ROBOROCK JAPAN DIRECT",
+     "used": false
+    },
+    {
+     "title": "ロボロック Roborock ロボット掃除機 Q10P＋ お掃除ロボット 水拭き対応 強力吸引 ゴミ収集 静音設計 時短掃除 ペット対応 自動充電 高性能 おすすめモデル",
+     "price": 39800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Froborockjapandirect%2F6936905902108%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Froborockjapandirect%2Fi%2F10000141%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "ROBOROCK JAPAN DIRECT",
+     "used": false
+    },
+    {
+     "title": "公式 Roomba Mini + AutoEmpty ルンバ ミニ アイロボット ロボット掃除機 ルンバミニ お掃除ロボット 床拭き 拭き掃除 自動ゴミ収集 マッピング 小型 薄型 コードレス irobot roomba 日本 国内 正規品",
+     "price": 43780,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firobotstore%2Ff15%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Firobotstore%2Fi%2F10000580%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "アイロボット公式 楽天市場店",
+     "used": false
+    }
+   ]
+  },
+  {
    "site": "yodobashi",
    "label": "ヨドバシ.com",
    "used": false,
-   "count": 18,
+   "count": 19,
    "min": 39800,
    "median": 43780,
    "max": 249800,
@@ -156,9 +156,9 @@
      "used": false
     },
     {
-     "title": "ロボット掃除機 Roomba Mini Slim 掃除機＆床拭きロボット＋SlimCharge 充電スタンド 白（SHIRO） F115260",
+     "title": "ロボット掃除機 DEEBOT N30 PRO（ディーボット N30 プロ） 吸引＆水拭き両用 ホワイト YDLX11-31ED",
      "price": 39800,
-     "url": "https://www.yodobashi.com/product/100000001009713090/",
+     "url": "https://www.yodobashi.com/product/100000001009407524/",
      "shop": "",
      "used": false
     }
@@ -234,8 +234,8 @@
    "used": true,
    "count": 8,
    "min": 10000,
-   "median": 13950,
-   "max": 20500,
+   "median": 13250,
+   "max": 30000,
    "items": [
     {
      "title": "ECOVACS DEEBOT ロボット掃除機 本体",
@@ -245,16 +245,16 @@
      "used": true
     },
     {
-     "title": "美品 iRobot Roomba RVG-Y1 ホワイト ルンバ #2",
-     "price": 11000,
-     "url": "https://jp.mercari.com/item/m63507455269",
+     "title": "ECOVACS DEEBOT Y1 PLUSロボット掃除機自動ゴミ収集ドック付き",
+     "price": 11800,
+     "url": "https://jp.mercari.com/item/m27102684866",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Anker Eufy L35 Hybrid+ ロボット掃除機",
-     "price": 12499,
-     "url": "https://jp.mercari.com/item/m29849809298",
+     "title": "iRobot Roomba Essential robot 本体",
+     "price": 12000,
+     "url": "https://jp.mercari.com/item/m98139897719",
      "shop": "メルカリ",
      "used": true
     }
@@ -264,29 +264,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 6,
-   "min": 10000,
-   "median": 20981,
+   "count": 5,
+   "min": 10275,
+   "median": 15500,
    "max": 35000,
    "items": [
     {
      "title": "iRobot ロボット掃除機 ルンバ Plus 505 Combo + AutoWash 充電ステーション アイロボット Roomba N185060 K15482 wa◇106",
-     "price": 10000,
+     "price": 10275,
      "url": "https://auctions.yahoo.co.jp/jp/auction/e1253454121",
      "shop": "",
      "used": true
     },
     {
-     "title": "ロボット掃除機 iRobot ルンバ Roomba Combo Max RCE-Y1",
-     "price": 15000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/m1253310639",
+     "title": "未使用 iRobot ルンバ625 Roomba ロボット掃除機 バーチャルウォール付 箱付き 通電確認済",
+     "price": 10500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/r1252915380",
      "shop": "",
      "used": true
     },
     {
-     "title": "iRobot アイロボット Roomba mini RCH-Y1 ロボット掃除機 未使用 未開封 O11783042",
-     "price": 16962,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/f1251649458",
+     "title": "ロボット掃除機 iRobot ルンバ Roomba Combo Max RCE-Y1",
+     "price": 15500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/m1253310639",
      "shop": "",
      "used": true
     }
@@ -300,16 +300,16 @@
   "minTitle": "クロシオ ロボット掃除機も収納できるクリーナーラック 掃除機ラック 収納 スティッククリーナー キャビネット 掃除機収納庫 幅43.5 奥行42 高さ140cm ブラウン 25236 25236(クロシオ) サイズ(約)：幅43.5×奥行4",
   "median": 44549,
   "siteCount": 7,
-  "itemCount": 108
+  "itemCount": 110
  },
  "usedSummary": {
   "min": 10000,
   "minSite": "mercari",
   "minLabel": "メルカリ",
   "minTitle": "ECOVACS DEEBOT ロボット掃除機 本体",
-  "median": 20981,
+  "median": 15500,
   "siteCount": 3,
-  "itemCount": 15
+  "itemCount": 14
  },
  "history": [
   {
@@ -829,6 +829,24 @@
     "edion": 39800,
     "mercari": 10000,
     "yahoo_auction": 10000
+   }
+  },
+  {
+   "date": "2026-11-25",
+   "newMin": 15610,
+   "newMedian": 44549,
+   "usedMin": 10000,
+   "usedMedian": 15500,
+   "sites": {
+    "joshin": 15610,
+    "yahoo_shopping": 22800,
+    "sofmap": 24178,
+    "rakuten": 24980,
+    "yodobashi": 39800,
+    "biccamera": 39800,
+    "edion": 39800,
+    "mercari": 10000,
+    "yahoo_auction": 10275
    }
   }
  ]

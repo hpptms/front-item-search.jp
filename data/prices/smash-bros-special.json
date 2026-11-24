@@ -1,17 +1,17 @@
 {
  "slug": "smash-bros-special",
  "term": "大乱闘スマッシュブラザーズ SPECIAL",
- "date": "2026-11-24",
- "capturedAt": "2026-11-23T20:10:02.290Z",
+ "date": "2026-11-25",
+ "capturedAt": "2026-11-24T20:10:02.612Z",
  "sites": [
   {
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 10,
+   "count": 9,
    "min": 5200,
-   "median": 6545,
-   "max": 7280,
+   "median": 6980,
+   "max": 7900,
    "items": [
     {
      "title": "Nintendo Switch 大乱闘スマッシュブラザーズ SPECIAL",
@@ -40,30 +40,30 @@
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 14,
-   "min": 5422,
+   "count": 13,
+   "min": 5580,
    "median": 6890,
-   "max": 7524,
+   "max": 7570,
    "items": [
-    {
-     "title": "Switch 大乱闘スマッシュブラザーズ SPECIAL (ニンテンドースイッチ)",
-     "price": 5422,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frenet3%2F0012844120%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frenet3%2Fi%2F11952996%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "ネットオフ楽天市場支店",
-     "used": false
-    },
-    {
-     "title": "Switch 大乱闘スマッシュブラザーズ SPECIAL (ニンテンドースイッチ)",
-     "price": 5422,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frenet20%2Fr0012844120%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frenet20%2Fi%2F10286780%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "ネットオフ 送料がお得店",
-     "used": false
-    },
     {
      "title": "[Switch] 大乱闘スマッシュブラザーズ SPECIAL(スペシャル) 任天堂 (20181207)",
      "price": 5580,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmediaworldkaitoriworld%2F10460193001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmediaworldkaitoriworld%2Fi%2F10237948%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "メディアワールド 販売&買取SHOP",
+     "used": false
+    },
+    {
+     "title": "Nintendo Switchソフト 大乱闘スマッシュブラザーズ SPECIAL",
+     "price": 5800,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fotakarakan%2F07-37-241102game129h%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fotakarakan%2Fi%2F10137170%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "お宝五番街",
+     "used": false
+    },
+    {
+     "title": "大乱闘スマッシュブラザーズ SPECIAL／NintendoSwitch",
+     "price": 6534,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbookoffonline%2F0019164363%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbookoffonline%2Fi%2F15309787%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "ブックオフ 楽天市場店",
      "used": false
     }
    ]
@@ -133,29 +133,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 12,
-   "min": 2530,
-   "median": 3100,
-   "max": 4400,
+   "count": 14,
+   "min": 2900,
+   "median": 3790,
+   "max": 4500,
    "items": [
     {
-     "title": "大乱闘スマッシュブラザーズ SPECIAL/スマブラ/Nintendo switch/ニンテンドースイッチ ソフト",
-     "price": 2530,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/k1253310719",
+     "title": "Nintendo Switch 大乱闘スマッシュブラザーズ SPECIAL ソフトのみ ジャンク",
+     "price": 2900,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z731054848",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "Switch 大乱闘スマッシュブラザーズ SPECIAL ゲームソフト スイッチ 1A0211-024ka/F8",
+     "price": 2970,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/t1253444384",
      "shop": "",
      "used": true
     },
     {
      "title": "Nintendo Switch 大乱闘スマッシュブラザーズ SPECIAL ソフト",
-     "price": 2600,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/c1253296440",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "◎中古品 ゲーム Nintendo switch ニンテンドースイッチ 大乱闘スマッシュブラザーズ SPECIAL",
      "price": 3000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/o1253087223",
+     "url": "https://auctions.yahoo.co.jp/jp/auction/c1253296440",
      "shop": "",
      "used": true
     }
@@ -165,29 +165,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 20,
+   "count": 18,
    "min": 3100,
-   "median": 4300,
-   "max": 5888,
+   "median": 4000,
+   "max": 5000,
    "items": [
     {
-     "title": "大乱闘スマッシュブラザーズ SPECIAL Switch ソフトのみ",
+     "title": "大乱闘スマッシュブラザーズ SPECIAL Nintendo Switch",
      "price": 3100,
-     "url": "https://jp.mercari.com/item/m50262902919",
+     "url": "https://jp.mercari.com/item/m73838393076",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Nintendo Switch 大乱闘スマッシュブラザーズ SPECIAL",
-     "price": 3777,
-     "url": "https://jp.mercari.com/item/m21563566141",
+     "title": "Switch 大乱闘スマッシュブラザーズ SPECIAL",
+     "price": 3500,
+     "url": "https://jp.mercari.com/item/m63954681941",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "大乱闘スマッシュブラザーズ SPECIAL Switch ソフト",
-     "price": 3999,
-     "url": "https://jp.mercari.com/item/m11587835220",
+     "title": "大乱闘スマッシュブラザーズ SPECIAL Nintendo Switch",
+     "price": 3800,
+     "url": "https://jp.mercari.com/item/m98745938604",
      "shop": "メルカリ",
      "used": true
     }
@@ -201,14 +201,14 @@
   "minTitle": "Nintendo Switch 大乱闘スマッシュブラザーズ SPECIAL",
   "median": 6890,
   "siteCount": 5,
-  "itemCount": 28
+  "itemCount": 26
  },
  "usedSummary": {
-  "min": 2530,
+  "min": 2900,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "大乱闘スマッシュブラザーズ SPECIAL/スマブラ/Nintendo switch/ニンテンドースイッチ ソフト",
-  "median": 4300,
+  "minTitle": "Nintendo Switch 大乱闘スマッシュブラザーズ SPECIAL ソフトのみ ジャンク",
+  "median": 4000,
   "siteCount": 3,
   "itemCount": 35
  },
@@ -670,6 +670,22 @@
     "joshin": 6890,
     "yodobashi": 7120,
     "yahoo_auction": 2530,
+    "mercari": 3100
+   }
+  },
+  {
+   "date": "2026-11-25",
+   "newMin": 5200,
+   "newMedian": 6890,
+   "usedMin": 2900,
+   "usedMedian": 4000,
+   "sites": {
+    "yahoo_shopping": 5200,
+    "rakuten": 5580,
+    "edion": 6880,
+    "joshin": 6890,
+    "yodobashi": 7120,
+    "yahoo_auction": 2900,
     "mercari": 3100
    }
   }
