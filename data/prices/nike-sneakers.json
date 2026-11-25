@@ -1,8 +1,8 @@
 {
  "slug": "nike-sneakers",
  "term": "スニーカー ナイキ",
- "date": "2026-11-25",
- "capturedAt": "2026-11-24T20:10:02.612Z",
+ "date": "2026-11-26",
+ "capturedAt": "2026-11-25T20:10:03.668Z",
  "sites": [
   {
    "site": "yahoo_shopping",
@@ -10,7 +10,7 @@
    "used": false,
    "count": 20,
    "min": 4220,
-   "median": 6465,
+   "median": 6020,
    "max": 21780,
    "items": [
     {
@@ -28,9 +28,9 @@
      "used": false
     },
     {
-     "title": "NIKE ナイキ スニーカー メンズ Revolution 8 レボリューション8 HJ9198 003",
-     "price": 4928,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftry-group%2F4-nc-m-hj9198-003.html",
+     "title": "NIKE スニーカー レディース ナイキ レボリューション 8 ワイド HQ1995 Nike Revolution 8 WIDE ランニング",
+     "price": 4504,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftry-group%2F4-nc-w-hq1995-002.html",
      "shop": "つるや 靴のTSURUYA",
      "used": false
     }
@@ -41,29 +41,29 @@
    "label": "楽天市場",
    "used": false,
    "count": 17,
-   "min": 4250,
+   "min": 5489,
    "median": 7689,
    "max": 16390,
    "items": [
     {
-     "title": "11/25 限定★抽選で最大100％Pバック ナイキ ウィメンズ レボリューション 8 イージーオン HQ2415-001 レディース スニーカー : ブラック×ホワイト ハンズフリー NIKE HQ2415 001",
-     "price": 4250,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falpen%2F4053566725%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Falpen%2Fi%2F10501552%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "アルペン楽天市場店",
+     "title": "ナイキ AIRMAX FIRE エア マックス ファイア MIF2621 ABC-MART限定",
+     "price": 5489,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fabc-mart%2F6957850001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fabc-mart%2Fi%2F10143380%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "ABC-MART楽天市場店",
      "used": false
     },
     {
-     "title": "NIKE スニーカー ナイキ メンズ デファイ HM9594 002 Nike Run Defy",
-     "price": 4400,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry%2F4-nc-m-hm9594-002%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftry%2Fi%2F10036071%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "つるや",
+     "title": "ナイキ（NIKE）（レディース）スニーカー スポーツシューズ コート ビジョン LOW ネクスト ネイチャー DH3158-003",
+     "price": 5990,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsupersportsxebio%2F108631613011%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsupersportsxebio%2Fi%2F21170330%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "SuperSportsXEBIO楽天市場支店",
      "used": false
     },
     {
-     "title": "11/25 限定★抽選で最大100％Pバック ナイキ レボリューション 8 イージーオン HQ2414-003 メンズ スニーカー : ブラック×ブラック メンズシューズ ハンズフリー NIKE HQ2414 003",
-     "price": 4490,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falpen%2F4051567615%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Falpen%2Fi%2F10501549%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "アルペン楽天市場店",
+     "title": "ナイキ（NIKE）（メンズ）スニーカー スポーツシューズ コート ビジョン ロー ネクスト ネイチャー DH2987-100 ホワイト 白 通学 学生",
+     "price": 5990,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsupersportsxebio%2F107886344011%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsupersportsxebio%2Fi%2F21033966%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "SuperSportsXEBIO楽天市場支店",
      "used": false
     }
    ]
@@ -104,29 +104,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 19,
+   "count": 13,
    "min": 3000,
-   "median": 5700,
-   "max": 17500,
+   "median": 5000,
+   "max": 15000,
    "items": [
     {
-     "title": "NIKE ナイキ GATO ガト LV8 スニーカー",
+     "title": "NIKE スニーカー ナイキ コートビジョンMIDネクストネイチャー",
      "price": 3000,
-     "url": "https://jp.mercari.com/item/m50367340960",
+     "url": "https://jp.mercari.com/item/m93831559651",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "ナイキスニーカー NIKEスニーカー FZ2093-100 箱なし",
-     "price": 3500,
-     "url": "https://jp.mercari.com/item/m69951913581",
+     "title": "NIKE ナイキ エアフォース1 MID グレー ホワイト スニーカー",
+     "price": 3980,
+     "url": "https://jp.mercari.com/item/m43597893459",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "NIKE ハイカットスニーカー ネイビーホワイト 25センチ ナイキ 黒白",
-     "price": 3500,
-     "url": "https://jp.mercari.com/item/m24985083967",
+     "title": "ナイキ エアマックス ホワイトスニーカー24.5㎝CU4870-102",
+     "price": 4400,
+     "url": "https://jp.mercari.com/item/m23306558586",
      "shop": "メルカリ",
      "used": true
     }
@@ -136,29 +136,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 12,
-   "min": 3000,
-   "median": 8250,
-   "max": 20600,
+   "count": 16,
+   "min": 3300,
+   "median": 4819,
+   "max": 11000,
    "items": [
     {
-     "title": "未使用 NIKE ナイキ スニーカー AIR MAX SC LEA 25.5 白",
-     "price": 3000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/j1253096051",
+     "title": "NIKE ナイキ ブルーホワイト スニーカー26センチ",
+     "price": 3300,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z732193502",
      "shop": "",
      "used": true
     },
     {
-     "title": "NIKE AIR FORCE 1 LOW オールオーバーロゴ レッド スニーカー",
+     "title": "ナイキ NIKE ボメロ18 スニーカー ランニングシューズ 26.5 白 ホワイト /NI ■GY09 メンズ",
      "price": 3800,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/f1252515915",
+     "url": "https://auctions.yahoo.co.jp/jp/auction/p1253726168",
      "shop": "",
      "used": true
     },
     {
-     "title": "新品箱あり 27.5cm ナイキ アストログラバー SE ブラック NIKE ASTRO GRABBER IR5902-010",
-     "price": 3999,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/w1253597264",
+     "title": "ナイキ エスビー NIKE SB DQ5127-300 SB ポゴ プラス プレミアム W SB POGO PLUS PRM スニーカー ロゴ 26.5 緑 グリーン メンズ",
+     "price": 3850,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/o1221585371",
      "shop": "",
      "used": true
     }
@@ -178,10 +178,10 @@
   "min": 3000,
   "minSite": "mercari",
   "minLabel": "メルカリ",
-  "minTitle": "NIKE ナイキ GATO ガト LV8 スニーカー",
-  "median": 6975,
+  "minTitle": "NIKE スニーカー ナイキ コートビジョンMIDネクストネイチャー",
+  "median": 4910,
   "siteCount": 2,
-  "itemCount": 31
+  "itemCount": 29
  },
  "history": [
   {
@@ -599,6 +599,20 @@
     "joshin": 5980,
     "mercari": 3000,
     "yahoo_auction": 3000
+   }
+  },
+  {
+   "date": "2026-11-26",
+   "newMin": 4220,
+   "newMedian": 7689,
+   "usedMin": 3000,
+   "usedMedian": 4910,
+   "sites": {
+    "yahoo_shopping": 4220,
+    "rakuten": 5489,
+    "joshin": 5980,
+    "mercari": 3000,
+    "yahoo_auction": 3300
    }
   }
  ]

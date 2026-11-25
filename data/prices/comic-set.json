@@ -1,8 +1,8 @@
 {
  "slug": "comic-set",
  "term": "コミック 全巻セット",
- "date": "2026-11-25",
- "capturedAt": "2026-11-24T20:10:02.612Z",
+ "date": "2026-11-26",
+ "capturedAt": "2026-11-25T20:10:03.668Z",
  "sites": [
   {
    "site": "rakuten",
@@ -42,7 +42,7 @@
    "used": false,
    "count": 20,
    "min": 5940,
-   "median": 14124,
+   "median": 13514,
    "max": 27907,
    "items": [
     {
@@ -60,10 +60,10 @@
      "used": false
     },
     {
-     "title": "新品 / 天上の虹 持統天皇物語 [文庫版] (1-11巻 全巻) 全巻セット",
-     "price": 10890,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmangazenkan%2Fte-61.html",
-     "shop": "漫画全巻ドットコム Yahoo!ショッピング店",
+     "title": "ホタルの嫁入り コミック 1-13巻セット 小学館",
+     "price": 10076,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fogaki-kobe%2Fz784098548484.html",
+     "shop": "大垣書店Yahoo!店",
      "used": false
     }
    ]
@@ -92,16 +92,9 @@
    "used": true,
    "count": 8,
    "min": 2000,
-   "median": 2480,
-   "max": 3980,
+   "median": 2875,
+   "max": 3300,
    "items": [
-    {
-     "title": "唇役主丞 乾いて候 全巻セット 小池一夫 小島剛夕 送料無料",
-     "price": 2000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/k1252258682",
-     "shop": "",
-     "used": true
-    },
     {
      "title": "状態良♪ 「世界の終わりに柴犬と」 １～４巻（最新） 石原雄 全巻セット 当日発送も！ ＠7927",
      "price": 2000,
@@ -110,9 +103,16 @@
      "used": true
     },
     {
-     "title": "ニセコイ 1巻～25巻 古味直志 -送料無料 コミックセット-",
+     "title": "20世紀少年 1巻～22巻+上下巻 浦沢直樹 -送料無料 コミックセット-",
      "price": 2200,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/v1252965744",
+     "url": "https://auctions.yahoo.co.jp/jp/auction/q1252787979",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "ダブル・フェイス 全巻（ビッグコミックス） 細野 不二彦 著 ダブルフェイス 全巻セット 送料無料",
+     "price": 2400,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/d1253729302",
      "shop": "",
      "used": true
     }
@@ -124,27 +124,27 @@
    "used": true,
    "count": 16,
    "min": 2500,
-   "median": 5250,
-   "max": 16800,
+   "median": 4350,
+   "max": 13500,
    "items": [
     {
-     "title": "重版出来! 1〜20巻 全巻セット 松田奈緒子 小学館 ビッグコミックス",
+     "title": "チェンソーマン 全巻セット 1-11巻漫画",
      "price": 2500,
-     "url": "https://jp.mercari.com/item/m14469978780",
+     "url": "https://jp.mercari.com/item/m36730348872",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "中古品 実は私は 全巻セット 1-22巻 増田英二",
-     "price": 2611,
-     "url": "https://jp.mercari.com/item/m34065146406",
+     "title": "ドラゴンボール全巻セット DRAGONBALL第1刷が10冊！",
+     "price": 2500,
+     "url": "https://jp.mercari.com/item/m42025899371",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "東京喰種 トーキョーグール 1〜14巻セット 石田スイ",
-     "price": 2790,
-     "url": "https://jp.mercari.com/item/m27981397312",
+     "title": "ジャガーン 全巻セット 1〜14巻 金城宗幸 にしだけんすけ",
+     "price": 3300,
+     "url": "https://jp.mercari.com/item/m93939087135",
      "shop": "メルカリ",
      "used": true
     }
@@ -156,7 +156,7 @@
   "minSite": "rakuten",
   "minLabel": "楽天市場",
   "minTitle": "封神演義 ＜1〜23巻完結＞ 藤崎竜",
-  "median": 14124,
+  "median": 13514,
   "siteCount": 3,
   "itemCount": 28
  },
@@ -164,8 +164,8 @@
   "min": 2000,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "唇役主丞 乾いて候 全巻セット 小池一夫 小島剛夕 送料無料",
-  "median": 3865,
+  "minTitle": "状態良♪ 「世界の終わりに柴犬と」 １～４巻（最新） 石原雄 全巻セット 当日発送も！ ＠7927",
+  "median": 3613,
   "siteCount": 2,
   "itemCount": 24
  },
@@ -591,6 +591,20 @@
    "newMedian": 14124,
    "usedMin": 2000,
    "usedMedian": 3865,
+   "sites": {
+    "rakuten": 5850,
+    "yahoo_shopping": 5940,
+    "biccamera": 20900,
+    "yahoo_auction": 2000,
+    "mercari": 2500
+   }
+  },
+  {
+   "date": "2026-11-26",
+   "newMin": 5850,
+   "newMedian": 13514,
+   "usedMin": 2000,
+   "usedMedian": 3613,
    "sites": {
     "rakuten": 5850,
     "yahoo_shopping": 5940,

@@ -1,8 +1,8 @@
 {
  "slug": "kirby-discovery",
  "term": "星のカービィ ディスカバリー",
- "date": "2026-11-25",
- "capturedAt": "2026-11-24T20:10:02.612Z",
+ "date": "2026-11-26",
+ "capturedAt": "2026-11-25T20:10:03.668Z",
  "sites": [
   {
    "site": "rakuten",
@@ -40,9 +40,9 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 14,
+   "count": 15,
    "min": 4292,
-   "median": 7633,
+   "median": 7645,
    "max": 8577,
    "items": [
     {
@@ -144,21 +144,32 @@
    ]
   },
   {
+   "site": "biccamera",
+   "label": "ビックカメラ",
+   "used": false,
+   "count": 1,
+   "min": 8140,
+   "median": 8140,
+   "max": 8140,
+   "items": [
+    {
+     "title": "任天堂｜Nintendo 星のカービィ ディスカバリー Nintendo Switch 2 Edition ＋ スターリーワールド",
+     "price": 8140,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4902370553383%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F15177877%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "楽天ビック(ビックカメラ×楽天)",
+     "used": false
+    }
+   ]
+  },
+  {
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 17,
-   "min": 2660,
-   "median": 3500,
-   "max": 7150,
+   "count": 18,
+   "min": 2800,
+   "median": 3825,
+   "max": 6190,
    "items": [
-    {
-     "title": "現状品 ニンテンドースイッチ 星のカービィ ディスカバリー",
-     "price": 2660,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/h1253050230",
-     "shop": "",
-     "used": true
-    },
     {
      "title": "箱無し ニンテンドースイッチ 星のカービィ ディスカバリー",
      "price": 2800,
@@ -167,9 +178,16 @@
      "used": true
     },
     {
-     "title": "W11224② 1円〜 Nintendo Switch用ソフト 星のカービィ ディスカバリー スイッチ ソフト",
-     "price": 2900,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/c1253314541",
+     "title": "中古＃星のカービィ ディスカバリー ニンテンドースイッチソフト 動作確認済み",
+     "price": 3000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/c1253661406",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "Nintendo Switch 星のカービィ ディスカバリー ニンテンドースイッチ",
+     "price": 3480,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z729861774",
      "shop": "",
      "used": true
     }
@@ -179,10 +197,10 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 19,
+   "count": 20,
    "min": 3399,
-   "median": 3700,
-   "max": 6200,
+   "median": 3750,
+   "max": 6800,
    "items": [
     {
      "title": "★迅速即日発送★星のカービィ ディスカバリー Switch ソフト",
@@ -192,16 +210,16 @@
      "used": true
     },
     {
-     "title": "星のカービィ ディスカバリー NintendoSwitch ソフト",
-     "price": 3499,
-     "url": "https://jp.mercari.com/item/m25328865146",
+     "title": "ニンテンドースイッチソフト 星のカービィ ディスカバリー",
+     "price": 3582,
+     "url": "https://jp.mercari.com/shops/product/FMWFaDJrrmi4m3rh7BzF9X",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Nintendo Switch 星のカービィ ディスカバリー 動作確認済",
-     "price": 3500,
-     "url": "https://jp.mercari.com/item/m77544498910",
+     "title": "星のカービィ ディスカバリー Switch版",
+     "price": 3666,
+     "url": "https://jp.mercari.com/item/m26882279976",
      "shop": "メルカリ",
      "used": true
     }
@@ -213,17 +231,17 @@
   "minSite": "rakuten",
   "minLabel": "楽天市場",
   "minTitle": "任天堂『星のカービィ ディスカバリー』switch ゲームソフト 1週間保証",
-  "median": 6710,
-  "siteCount": 5,
-  "itemCount": 39
+  "median": 6940,
+  "siteCount": 6,
+  "itemCount": 41
  },
  "usedSummary": {
-  "min": 2660,
+  "min": 2800,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "現状品 ニンテンドースイッチ 星のカービィ ディスカバリー",
-  "median": 3700,
-  "siteCount": 3,
+  "minTitle": "箱無し ニンテンドースイッチ 星のカービィ ディスカバリー",
+  "median": 3788,
+  "siteCount": 2,
   "itemCount": 38
  },
  "history": [
@@ -728,6 +746,23 @@
     "edion": 5720,
     "yodobashi": 5740,
     "yahoo_auction": 2660,
+    "mercari": 3399
+   }
+  },
+  {
+   "date": "2026-11-26",
+   "newMin": 3749,
+   "newMedian": 6940,
+   "usedMin": 2800,
+   "usedMedian": 3788,
+   "sites": {
+    "rakuten": 3749,
+    "yahoo_shopping": 4292,
+    "joshin": 5720,
+    "edion": 5720,
+    "yodobashi": 5740,
+    "biccamera": 8140,
+    "yahoo_auction": 2800,
     "mercari": 3399
    }
   }

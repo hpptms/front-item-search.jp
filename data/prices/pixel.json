@@ -1,16 +1,16 @@
 {
  "slug": "pixel",
  "term": "Google Pixel",
- "date": "2026-11-25",
- "capturedAt": "2026-11-24T20:10:02.612Z",
+ "date": "2026-11-26",
+ "capturedAt": "2026-11-25T20:10:03.668Z",
  "sites": [
   {
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 13,
+   "count": 12,
    "min": 42000,
-   "median": 81490,
+   "median": 81442,
    "max": 82412,
    "items": [
     {
@@ -40,10 +40,10 @@
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 12,
+   "count": 13,
    "min": 64444,
-   "median": 79969,
-   "max": 121480,
+   "median": 79799,
+   "max": 119800,
    "items": [
     {
      "title": "最大5000円オフクーポン Google Pixel 7a 128GB 256GB スマホ スマートフォン 本体 SIMフリー docomo au softbank 美品 にこスマ認定整備済み品(リファービッシュ 整備済品) 白ロム",
@@ -69,65 +69,65 @@
    ]
   },
   {
-   "site": "mercari",
-   "label": "メルカリ",
+   "site": "yahoo_auction",
+   "label": "Yahoo!オークション",
    "used": true,
-   "count": 17,
+   "count": 9,
    "min": 15000,
-   "median": 38800,
-   "max": 73999,
+   "median": 23000,
+   "max": 68000,
    "items": [
     {
-     "title": "pixel6 simフリー",
+     "title": "Google Pixel 7a 128GB コーラル 画面ヒビあり 動作確認済み 中古品",
      "price": 15000,
-     "url": "https://jp.mercari.com/item/m61419853383",
-     "shop": "メルカリ",
+     "url": "https://auctions.yahoo.co.jp/jp/auction/o1253362168",
+     "shop": "",
      "used": true
     },
     {
-     "title": "Google Pixel 8 本体 SIMフリー 128GB 縦線あり正常動作",
-     "price": 20200,
-     "url": "https://jp.mercari.com/item/m24890361229",
-     "shop": "メルカリ",
+     "title": "Google pixel5 グーグルフォト無限保存可能最終機 シムフリ 8GB128GB ブラック 少し訳あり ほぼ動作品",
+     "price": 18100,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z732006596",
+     "shop": "",
      "used": true
     },
     {
-     "title": "Google Pixel 本体",
-     "price": 26000,
-     "url": "https://jp.mercari.com/item/m51832439416",
-     "shop": "メルカリ",
+     "title": "中古 Google Pixel 6a 白 128GB SIMフリー",
+     "price": 19399,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z731992816",
+     "shop": "",
      "used": true
     }
    ]
   },
   {
-   "site": "yahoo_auction",
-   "label": "Yahoo!オークション",
+   "site": "mercari",
+   "label": "メルカリ",
    "used": true,
-   "count": 7,
-   "min": 20500,
-   "median": 25000,
-   "max": 52000,
+   "count": 16,
+   "min": 22000,
+   "median": 37000,
+   "max": 73499,
    "items": [
     {
-     "title": "■美品■Google Pixel 8 Rose（ローズ）128 GB（SIM フリー）■ディスプレイをgoogle公式修理完了済",
-     "price": 20500,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/j1253339411",
-     "shop": "",
+     "title": "Google Pixel7a 128GB Charcoal",
+     "price": 22000,
+     "url": "https://jp.mercari.com/item/m44398507421",
+     "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "Google Pixel 7 本体 SIMフリー",
+     "title": "Google pixel 7a グーグル ピクセル 7a 128GB シムフリー",
+     "price": 22888,
+     "url": "https://jp.mercari.com/item/m65420593053",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "Google Pixel 6a 本体 128GB SIMフリー",
      "price": 23000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z729265614",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "Google Pixel 6a Chalk 128GB SIMフリー",
-     "price": 23800,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z731264036",
-     "shop": "",
+     "url": "https://jp.mercari.com/item/m87671292937",
+     "shop": "メルカリ",
      "used": true
     }
    ]
@@ -138,18 +138,18 @@
   "minSite": "yahoo_shopping",
   "minLabel": "Yahoo!ショッピング",
   "minTitle": "爆安セール! 11/29まで! レビューで3,000円クーポン Google Pixel 8a 128GB Porcelain グレードA SIMフリー スマホ 本体 動作確認済み android",
-  "median": 80730,
+  "median": 80621,
   "siteCount": 2,
   "itemCount": 25
  },
  "usedSummary": {
   "min": 15000,
-  "minSite": "mercari",
-  "minLabel": "メルカリ",
-  "minTitle": "pixel6 simフリー",
-  "median": 35300,
+  "minSite": "yahoo_auction",
+  "minLabel": "Yahoo!オークション",
+  "minTitle": "Google Pixel 7a 128GB コーラル 画面ヒビあり 動作確認済み 中古品",
+  "median": 35550,
   "siteCount": 4,
-  "itemCount": 34
+  "itemCount": 35
  },
  "history": [
   {
@@ -536,6 +536,19 @@
     "rakuten": 64444,
     "mercari": 15000,
     "yahoo_auction": 20500
+   }
+  },
+  {
+   "date": "2026-11-26",
+   "newMin": 42000,
+   "newMedian": 80621,
+   "usedMin": 15000,
+   "usedMedian": 35550,
+   "sites": {
+    "yahoo_shopping": 42000,
+    "rakuten": 64444,
+    "yahoo_auction": 15000,
+    "mercari": 22000
    }
   }
  ]
