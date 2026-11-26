@@ -1,8 +1,8 @@
 {
  "slug": "pokemon-sv",
  "term": "ポケモン スカーレット・バイオレット",
- "date": "2026-11-26",
- "capturedAt": "2026-11-25T20:10:03.668Z",
+ "date": "2026-11-27",
+ "capturedAt": "2026-11-26T20:10:02.050Z",
  "sites": [
   {
    "site": "yodobashi",
@@ -87,13 +87,45 @@
    ]
   },
   {
+   "site": "yahoo_auction",
+   "label": "Yahoo!オークション",
+   "used": true,
+   "count": 5,
+   "min": 3600,
+   "median": 7140,
+   "max": 11110,
+   "items": [
+    {
+     "title": "Nintendo Switch ソフト 6点まとめ ポケットモンスター スカーレット バイオレット シャイニングパール ピカチュウ プロモ #hm #53432",
+     "price": 3600,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/o1253720902",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "ポケットモンスター スカーレット・バイオレット ゼロの秘宝 ポケモン",
+     "price": 3878,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z728729672",
+     "shop": "",
+     "used": true
+    },
+    {
+     "title": "2点 ポケットモンスター スカーレット、バイオレット",
+     "price": 7140,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z731032214",
+     "shop": "",
+     "used": true
+    }
+   ]
+  },
+  {
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 4,
+   "count": 3,
    "min": 4000,
-   "median": 7150,
-   "max": 7800,
+   "median": 6800,
+   "max": 7500,
    "items": [
     {
      "title": "ポケットモンスター スカーレット Nintendo Switch ソフト",
@@ -117,31 +149,6 @@
      "used": true
     }
    ]
-  },
-  {
-   "site": "yahoo_auction",
-   "label": "Yahoo!オークション",
-   "used": true,
-   "count": 2,
-   "min": 6780,
-   "median": 7038,
-   "max": 7295,
-   "items": [
-    {
-     "title": "Nintendo Switch ポケットモンスター スカーレット バイオレット ポケモン ソフト",
-     "price": 6780,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z732094942",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "美品 2点 ポケットモンスター スカーレット、バイオレット",
-     "price": 7295,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z730208414",
-     "shop": "",
-     "used": true
-    }
-   ]
   }
  ],
  "newSummary": {
@@ -154,13 +161,13 @@
   "itemCount": 9
  },
  "usedSummary": {
-  "min": 4000,
-  "minSite": "mercari",
-  "minLabel": "メルカリ",
-  "minTitle": "ポケットモンスター スカーレット Nintendo Switch ソフト",
-  "median": 7094,
+  "min": 3600,
+  "minSite": "yahoo_auction",
+  "minLabel": "Yahoo!オークション",
+  "minTitle": "Nintendo Switch ソフト 6点まとめ ポケットモンスター スカーレット バイオレット シャイニングパール ピカチュウ プロモ #hm #53432",
+  "median": 6970,
   "siteCount": 2,
-  "itemCount": 6
+  "itemCount": 8
  },
  "history": [
   {
@@ -589,6 +596,20 @@
     "yahoo_shopping": 6052,
     "mercari": 4000,
     "yahoo_auction": 6780
+   }
+  },
+  {
+   "date": "2026-11-27",
+   "newMin": 3460,
+   "newMedian": 5980,
+   "usedMin": 3600,
+   "usedMedian": 6970,
+   "sites": {
+    "yodobashi": 3460,
+    "rakuten": 3500,
+    "yahoo_shopping": 6052,
+    "yahoo_auction": 3600,
+    "mercari": 4000
    }
   }
  ]

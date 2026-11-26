@@ -1,8 +1,8 @@
 {
  "slug": "nike-sneakers",
  "term": "スニーカー ナイキ",
- "date": "2026-11-26",
- "capturedAt": "2026-11-25T20:10:03.668Z",
+ "date": "2026-11-27",
+ "capturedAt": "2026-11-26T20:10:02.050Z",
  "sites": [
   {
    "site": "yahoo_shopping",
@@ -10,7 +10,7 @@
    "used": false,
    "count": 20,
    "min": 4220,
-   "median": 6020,
+   "median": 6235,
    "max": 21780,
    "items": [
     {
@@ -40,23 +40,23 @@
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 17,
-   "min": 5489,
-   "median": 7689,
+   "count": 18,
+   "min": 4999,
+   "median": 7543,
    "max": 16390,
    "items": [
+    {
+     "title": "ナイキ ウィメンズ コート ヴィジョン LO COURT VISION コートビジョン NN DH3158 100 レディース スニーカー : ホワイト×ホワイト 白 NIKE 白靴 通学靴",
+     "price": 4999,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falpen%2F4023566921%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Falpen%2Fi%2F10377790%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "アルペン楽天市場店",
+     "used": false
+    },
     {
      "title": "ナイキ AIRMAX FIRE エア マックス ファイア MIF2621 ABC-MART限定",
      "price": 5489,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fabc-mart%2F6957850001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fabc-mart%2Fi%2F10143380%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "ABC-MART楽天市場店",
-     "used": false
-    },
-    {
-     "title": "ナイキ（NIKE）（レディース）スニーカー スポーツシューズ コート ビジョン LOW ネクスト ネイチャー DH3158-003",
-     "price": 5990,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsupersportsxebio%2F108631613011%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsupersportsxebio%2Fi%2F21170330%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "SuperSportsXEBIO楽天市場支店",
      "used": false
     },
     {
@@ -85,16 +85,16 @@
      "used": false
     },
     {
-     "title": "フットマーク ナイキ スニーカーエンブロイデッド7ボレーショーツ（ウルフグレー・サイズ：L） NESSF507-N054-L FOOTMARK NIKE SWIM 水着",
+     "title": "フットマーク ナイキ スニーカーエンブロイデッド7ボレーショーツ（ダスティカクタス・サイズ：L） NESSF507-N463-L FOOTMARK NIKE SWIM 水着",
      "price": 5980,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F0032219640265-36-49338-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14887676%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F0032219631171-36-49338-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14839351%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "Joshin web 家電とPCの大型専門店",
      "used": false
     },
     {
-     "title": "フットマーク ナイキ スニーカーエンブロイデッド7ボレーショーツ（ダスティカクタス・サイズ：L） NESSF507-N463-L FOOTMARK NIKE SWIM 水着",
+     "title": "フットマーク ナイキ スニーカーエンブロイデッド7ボレーショーツ（ウルフグレー・サイズ：L） NESSF507-N054-L FOOTMARK NIKE SWIM 水着",
      "price": 5980,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F0032219631171-36-49338-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14839351%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F0032219640265-36-49338-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14887676%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "Joshin web 家電とPCの大型専門店",
      "used": false
     }
@@ -104,10 +104,10 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 13,
+   "count": 17,
    "min": 3000,
    "median": 5000,
-   "max": 15000,
+   "max": 10200,
    "items": [
     {
      "title": "NIKE スニーカー ナイキ コートビジョンMIDネクストネイチャー",
@@ -117,16 +117,16 @@
      "used": true
     },
     {
-     "title": "NIKE ナイキ エアフォース1 MID グレー ホワイト スニーカー",
-     "price": 3980,
-     "url": "https://jp.mercari.com/item/m43597893459",
+     "title": "ナイキスニーカー NIKEスニーカー FZ2093-100 箱なし",
+     "price": 3300,
+     "url": "https://jp.mercari.com/item/m69951913581",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "ナイキ エアマックス ホワイトスニーカー24.5㎝CU4870-102",
-     "price": 4400,
-     "url": "https://jp.mercari.com/item/m23306558586",
+     "title": "NIKE KWAZI ナイキ クワザイ レッド スニーカー 27cm",
+     "price": 3490,
+     "url": "https://jp.mercari.com/item/m29517047925",
      "shop": "メルカリ",
      "used": true
     }
@@ -136,29 +136,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 16,
-   "min": 3300,
-   "median": 4819,
-   "max": 11000,
+   "count": 9,
+   "min": 3000,
+   "median": 5500,
+   "max": 11990,
    "items": [
     {
-     "title": "NIKE ナイキ ブルーホワイト スニーカー26センチ",
-     "price": 3300,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/z732193502",
+     "title": "未使用 NIKE ナイキ スニーカー AIR MAX SC LEA 25.5 白",
+     "price": 3000,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/j1253096051",
      "shop": "",
      "used": true
     },
     {
-     "title": "ナイキ NIKE ボメロ18 スニーカー ランニングシューズ 26.5 白 ホワイト /NI ■GY09 メンズ",
+     "title": "NIKE スニーカー メンズ ナイキ 中古 古着",
      "price": 3800,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/p1253726168",
+     "url": "https://auctions.yahoo.co.jp/jp/auction/k1251310748",
      "shop": "",
      "used": true
     },
     {
-     "title": "ナイキ エスビー NIKE SB DQ5127-300 SB ポゴ プラス プレミアム W SB POGO PLUS PRM スニーカー ロゴ 26.5 緑 グリーン メンズ",
-     "price": 3850,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/o1221585371",
+     "title": "28.0cm NIKE ナイキ エア フォース 1 '07 LV8 AIR FORCE 1 '07 LV8 ミッドナイトネイビー 箱付",
+     "price": 3900,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/r1253765409",
      "shop": "",
      "used": true
     }
@@ -170,18 +170,18 @@
   "minSite": "yahoo_shopping",
   "minLabel": "Yahoo!ショッピング",
   "minTitle": "ナイキ キッズ スニーカー NIKE フレックスランナー 4 PS 子供靴 16.5-22cm スリッポン キッズシューズ スリップオン 子ども ジュニア 男の子 /IF2894-400",
-  "median": 7689,
+  "median": 7543,
   "siteCount": 3,
-  "itemCount": 44
+  "itemCount": 45
  },
  "usedSummary": {
   "min": 3000,
   "minSite": "mercari",
   "minLabel": "メルカリ",
   "minTitle": "NIKE スニーカー ナイキ コートビジョンMIDネクストネイチャー",
-  "median": 4910,
+  "median": 5250,
   "siteCount": 2,
-  "itemCount": 29
+  "itemCount": 26
  },
  "history": [
   {
@@ -613,6 +613,20 @@
     "joshin": 5980,
     "mercari": 3000,
     "yahoo_auction": 3300
+   }
+  },
+  {
+   "date": "2026-11-27",
+   "newMin": 4220,
+   "newMedian": 7543,
+   "usedMin": 3000,
+   "usedMedian": 5250,
+   "sites": {
+    "yahoo_shopping": 4220,
+    "rakuten": 4999,
+    "joshin": 5980,
+    "mercari": 3000,
+    "yahoo_auction": 3000
    }
   }
  ]

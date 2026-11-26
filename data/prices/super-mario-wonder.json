@@ -1,25 +1,18 @@
 {
  "slug": "super-mario-wonder",
  "term": "スーパーマリオ ワンダー",
- "date": "2026-11-26",
- "capturedAt": "2026-11-25T20:10:03.668Z",
+ "date": "2026-11-27",
+ "capturedAt": "2026-11-26T20:10:02.050Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
    "count": 17,
-   "min": 3180,
-   "median": 5580,
+   "min": 3390,
+   "median": 5774,
    "max": 7700,
    "items": [
-    {
-     "title": "Switch ソフト ニンテンドー スーパーマリオブラザーズワンダー ソフト 任天堂",
-     "price": 3180,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fiimoreuse%2F17282%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fiimoreuse%2Fi%2F10011085%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "iimo リユース店",
-     "used": false
-    },
     {
      "title": "Switch スーパーマリオブラザーズ ワンダー (ニンテンドースイッチ)",
      "price": 3390,
@@ -33,6 +26,13 @@
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frenet20%2Fr0013801766%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frenet20%2Fi%2F12052427%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "ネットオフ 送料がお得店",
      "used": false
+    },
+    {
+     "title": "[Switch] スーパーマリオブラザーズ ワンダー(Super Mario Bros. Wonder) 任天堂 (20231020)",
+     "price": 3980,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmediaworldkaitoriworld%2F10461894001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmediaworldkaitoriworld%2Fi%2F10568268%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "メディアワールド 販売&買取SHOP",
+     "used": false
     }
    ]
   },
@@ -40,9 +40,9 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 14,
+   "count": 15,
    "min": 3390,
-   "median": 7621,
+   "median": 6240,
    "max": 8140,
    "items": [
     {
@@ -60,10 +60,10 @@
      "used": false
     },
     {
-     "title": "スーパーマリオブラザーズ ワンダー Switch用ソフト（パッケージ版）",
-     "price": 5579,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Flight-hikari%2F4902370551587.html",
-     "shop": "らいぶshop",
+     "title": "Nintendo Switch スーパーマリオブラザーズ ワンダー[ラッピング不可] R-LOGI",
+     "price": 5578,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsokuteikiya%2F4902370551587.html",
+     "shop": "測定の森Yahoo!ショッピング店",
      "used": false
     }
    ]
@@ -126,6 +126,31 @@
    ]
   },
   {
+   "site": "joshin",
+   "label": "ジョーシン",
+   "used": false,
+   "count": 2,
+   "min": 5880,
+   "median": 6710,
+   "max": 7540,
+   "items": [
+    {
+     "title": "任天堂 スーパーマリオブラザーズ ワンダー [HAC-P-AQMXA NSW ス-パ-マリオブラザ-ズ ワンダ-]",
+     "price": 5880,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4902370551587-54-40560-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F13995612%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "Joshin web 家電とPCの大型専門店",
+     "used": false
+    },
+    {
+     "title": "任天堂 スーパーマリオブラザーズ ワンダー Nintendo Switch 2 Edition ＋ みんなでリンリンパーク [NXS-P-AQMXB NSW2 ス-パ-マリオブラザ-ズ ワンダ- ミンナデリンリンパ-ク]",
+     "price": 7540,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4902370554113-54-73632-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14725357%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "Joshin web 家電とPCの大型専門店",
+     "used": false
+    }
+   ]
+  },
+  {
    "site": "biccamera",
    "label": "ビックカメラ",
    "used": false,
@@ -151,20 +176,34 @@
    ]
   },
   {
-   "site": "joshin",
-   "label": "ジョーシン",
-   "used": false,
-   "count": 1,
-   "min": 7540,
-   "median": 7540,
-   "max": 7540,
+   "site": "mercari",
+   "label": "メルカリ",
+   "used": true,
+   "count": 17,
+   "min": 2555,
+   "median": 3000,
+   "max": 6000,
    "items": [
     {
-     "title": "任天堂 スーパーマリオブラザーズ ワンダー Nintendo Switch 2 Edition ＋ みんなでリンリンパーク [NXS-P-AQMXB NSW2 ス-パ-マリオブラザ-ズ ワンダ- ミンナデリンリンパ-ク]",
-     "price": 7540,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4902370554113-54-73632-n%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjism%2Fi%2F14725357%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "Joshin web 家電とPCの大型専門店",
-     "used": false
+     "title": "スーパーマリオブラザーズ ワンダー Nintendo Switch",
+     "price": 2555,
+     "url": "https://jp.mercari.com/item/m49771434518",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "スーパーマリオブラザーズワンダー Switch ソフトのみ",
+     "price": 2700,
+     "url": "https://jp.mercari.com/item/m25048532091",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "Nintendo Switch スーパーマリオブラザーズ ワンダー",
+     "price": 2800,
+     "url": "https://jp.mercari.com/item/m94897707335",
+     "shop": "メルカリ",
+     "used": true
     }
    ]
   },
@@ -174,8 +213,8 @@
    "used": true,
    "count": 10,
    "min": 2640,
-   "median": 2869,
-   "max": 3500,
+   "median": 3145,
+   "max": 6680,
    "items": [
     {
      "title": "格安 Nintendo Switch ソフトのみ スーパーマリオブラザーズ ワンダー",
@@ -193,63 +232,31 @@
     },
     {
      "title": "Nintendo Switch スーパーマリオブラザーズ ワンダー",
-     "price": 2800,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/d1252981737",
+     "price": 2898,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z731490482",
      "shop": "",
-     "used": true
-    }
-   ]
-  },
-  {
-   "site": "mercari",
-   "label": "メルカリ",
-   "used": true,
-   "count": 15,
-   "min": 2700,
-   "median": 3000,
-   "max": 6000,
-   "items": [
-    {
-     "title": "スーパーマリオブラザーズ ワンダー Nintendo Switch ソフトのみ",
-     "price": 2700,
-     "url": "https://jp.mercari.com/item/m25048532091",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "Nintendo Switch スーパーマリオブラザーズ ワンダー",
-     "price": 2899,
-     "url": "https://jp.mercari.com/item/m30435367577",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "スーパーマリオブラザーズ ワンダー Switch",
-     "price": 2900,
-     "url": "https://jp.mercari.com/item/m15636961810",
-     "shop": "メルカリ",
      "used": true
     }
    ]
   }
  ],
  "newSummary": {
-  "min": 3180,
+  "min": 3390,
   "minSite": "rakuten",
   "minLabel": "楽天市場",
-  "minTitle": "Switch ソフト ニンテンドー スーパーマリオブラザーズワンダー ソフト 任天堂",
-  "median": 7373,
+  "minTitle": "Switch スーパーマリオブラザーズ ワンダー (ニンテンドースイッチ)",
+  "median": 6725,
   "siteCount": 6,
-  "itemCount": 40
+  "itemCount": 42
  },
  "usedSummary": {
-  "min": 2640,
-  "minSite": "yahoo_auction",
-  "minLabel": "Yahoo!オークション",
-  "minTitle": "格安 Nintendo Switch ソフトのみ スーパーマリオブラザーズ ワンダー",
-  "median": 2935,
+  "min": 2555,
+  "minSite": "mercari",
+  "minLabel": "メルカリ",
+  "minTitle": "スーパーマリオブラザーズ ワンダー Nintendo Switch",
+  "median": 3073,
   "siteCount": 2,
-  "itemCount": 25
+  "itemCount": 27
  },
  "history": [
   {
@@ -774,6 +781,23 @@
     "joshin": 7540,
     "yahoo_auction": 2640,
     "mercari": 2700
+   }
+  },
+  {
+   "date": "2026-11-27",
+   "newMin": 3390,
+   "newMedian": 6725,
+   "usedMin": 2555,
+   "usedMedian": 3073,
+   "sites": {
+    "rakuten": 3390,
+    "yahoo_shopping": 3390,
+    "yodobashi": 5550,
+    "edion": 5780,
+    "joshin": 5880,
+    "biccamera": 6240,
+    "mercari": 2555,
+    "yahoo_auction": 2640
    }
   }
  ]
