@@ -1,36 +1,36 @@
 {
  "slug": "nike-sneakers",
  "term": "スニーカー ナイキ",
- "date": "2026-11-27",
- "capturedAt": "2026-11-26T20:10:02.050Z",
+ "date": "2026-11-28",
+ "capturedAt": "2026-11-27T20:10:04.642Z",
  "sites": [
   {
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
    "count": 20,
-   "min": 4220,
-   "median": 6235,
+   "min": 3828,
+   "median": 6589,
    "max": 21780,
    "items": [
     {
-     "title": "ナイキ キッズ スニーカー NIKE フレックスランナー 4 PS 子供靴 16.5-22cm スリッポン キッズシューズ スリップオン 子ども ジュニア 男の子 /IF2894-400",
-     "price": 4220,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fapworld%2Fif2894-400.html",
-     "shop": "APWORLD",
+     "title": "ナイキ（NIKE）（キッズ）ジュニア スポーツシューズ スニーカー コスミック ランナー GS HM4402-001",
+     "price": 3828,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsupersportsxebio%2F10874820301.html",
+     "shop": "SuperSportsXEBIO Yahoo!店",
      "used": false
     },
     {
-     "title": "ナイキ nike スニーカー ナイキ NIKE ナイキ コスミック ランナー GS キッズ 子供 男の子",
-     "price": 4499,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fzozo%2F90475895.html",
-     "shop": "ZOZOTOWN Yahoo!店",
+     "title": "NIKE スニーカー ナイキ デファイ メンズ HM9594 Nike Run Defy",
+     "price": 4790,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftry-group%2F4-nc-m-hm9594-002.html",
+     "shop": "つるや 靴のTSURUYA",
      "used": false
     },
     {
-     "title": "NIKE スニーカー レディース ナイキ レボリューション 8 ワイド HQ1995 Nike Revolution 8 WIDE ランニング",
-     "price": 4504,
-     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftry-group%2F4-nc-w-hq1995-002.html",
+     "title": "NIKE ナイキ スニーカー メンズ Revolution 8 レボリューション8 HJ9198 003",
+     "price": 4928,
+     "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftry-group%2F4-nc-m-hj9198-003.html",
      "shop": "つるや 靴のTSURUYA",
      "used": false
     }
@@ -40,29 +40,29 @@
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
-   "count": 18,
-   "min": 4999,
-   "median": 7543,
-   "max": 16390,
+   "count": 19,
+   "min": 3999,
+   "median": 7590,
+   "max": 16940,
    "items": [
     {
-     "title": "ナイキ ウィメンズ コート ヴィジョン LO COURT VISION コートビジョン NN DH3158 100 レディース スニーカー : ホワイト×ホワイト 白 NIKE 白靴 通学靴",
+     "title": "ナイキ（NIKE）（メンズ）スポーツシューズ ランニングシューズ ラン デファイ ブルー HM9594-401 スニーカー",
+     "price": 3999,
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsupersportsxebio%2F108934361011%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsupersportsxebio%2Fi%2F21265437%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "shop": "SuperSportsXEBIO楽天市場支店",
+     "used": false
+    },
+    {
+     "title": "最大10％OFFクーポン ナイキ ウィメンズ コート ヴィジョン LO COURT VISION コートビジョン NN DH3158 100 レディース スニーカー : ホワイト×ホワイト 白 NIKE 白靴 通学靴",
      "price": 4999,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falpen%2F4023566921%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Falpen%2Fi%2F10377790%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "アルペン楽天市場店",
      "used": false
     },
     {
-     "title": "ナイキ AIRMAX FIRE エア マックス ファイア MIF2621 ABC-MART限定",
-     "price": 5489,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fabc-mart%2F6957850001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fabc-mart%2Fi%2F10143380%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
-     "shop": "ABC-MART楽天市場店",
-     "used": false
-    },
-    {
-     "title": "ナイキ（NIKE）（メンズ）スニーカー スポーツシューズ コート ビジョン ロー ネクスト ネイチャー DH2987-100 ホワイト 白 通学 学生",
+     "title": "ナイキ（NIKE）（レディース）スニーカー スポーツシューズ コート ビジョン LOW ネクスト ネイチャー DH3158-003",
      "price": 5990,
-     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsupersportsxebio%2F107886344011%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsupersportsxebio%2Fi%2F21033966%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
+     "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsupersportsxebio%2F108631613011%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsupersportsxebio%2Fi%2F21170330%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "SuperSportsXEBIO楽天市場支店",
      "used": false
     }
@@ -101,87 +101,87 @@
    ]
   },
   {
-   "site": "mercari",
-   "label": "メルカリ",
+   "site": "yahoo_auction",
+   "label": "Yahoo!オークション",
    "used": true,
-   "count": 17,
+   "count": 13,
    "min": 3000,
-   "median": 5000,
-   "max": 10200,
+   "median": 4990,
+   "max": 7600,
    "items": [
     {
-     "title": "NIKE スニーカー ナイキ コートビジョンMIDネクストネイチャー",
+     "title": "US 9,5 / 27,5cm 2012年製 nike ターミネーター HI シャンパンゴールドx白x黒",
      "price": 3000,
-     "url": "https://jp.mercari.com/item/m93831559651",
-     "shop": "メルカリ",
+     "url": "https://auctions.yahoo.co.jp/jp/auction/f1252576018",
+     "shop": "",
      "used": true
     },
     {
-     "title": "ナイキスニーカー NIKEスニーカー FZ2093-100 箱なし",
-     "price": 3300,
-     "url": "https://jp.mercari.com/item/m69951913581",
-     "shop": "メルカリ",
+     "title": "新品 正規品 NIKE ナイキ AIR MAX DN8 エアマックス ディーエヌ ライトボーン 黒 定価25300円 27.5m US9.5 紙タグ 箱付き",
+     "price": 3100,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/x1253861014",
+     "shop": "",
      "used": true
     },
     {
-     "title": "NIKE KWAZI ナイキ クワザイ レッド スニーカー 27cm",
-     "price": 3490,
-     "url": "https://jp.mercari.com/item/m29517047925",
-     "shop": "メルカリ",
+     "title": "新品 NIKE IB2750 004 26.0cm 送料込み",
+     "price": 3500,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/l1253765696",
+     "shop": "",
      "used": true
     }
    ]
   },
   {
-   "site": "yahoo_auction",
-   "label": "Yahoo!オークション",
+   "site": "mercari",
+   "label": "メルカリ",
    "used": true,
-   "count": 9,
-   "min": 3000,
-   "median": 5500,
-   "max": 11990,
+   "count": 14,
+   "min": 3300,
+   "median": 5111,
+   "max": 12000,
    "items": [
     {
-     "title": "未使用 NIKE ナイキ スニーカー AIR MAX SC LEA 25.5 白",
-     "price": 3000,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/j1253096051",
-     "shop": "",
+     "title": "NIKE ビッグナイキ LOW 355152-018 スニーカー",
+     "price": 3300,
+     "url": "https://jp.mercari.com/item/m43104874868",
+     "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "NIKE スニーカー メンズ ナイキ 中古 古着",
-     "price": 3800,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/k1251310748",
-     "shop": "",
+     "title": "NIKE SB FORCE 58 Premium ナイキ スニーカー",
+     "price": 3300,
+     "url": "https://jp.mercari.com/item/m94848846389",
+     "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "28.0cm NIKE ナイキ エア フォース 1 '07 LV8 AIR FORCE 1 '07 LV8 ミッドナイトネイビー 箱付",
-     "price": 3900,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/r1253765409",
-     "shop": "",
+     "title": "値下げ！ナイキ コートビジョン MIDウィンター スニーカー 26cm",
+     "price": 3500,
+     "url": "https://jp.mercari.com/item/m77067747558",
+     "shop": "メルカリ",
      "used": true
     }
    ]
   }
  ],
  "newSummary": {
-  "min": 4220,
+  "min": 3828,
   "minSite": "yahoo_shopping",
   "minLabel": "Yahoo!ショッピング",
-  "minTitle": "ナイキ キッズ スニーカー NIKE フレックスランナー 4 PS 子供靴 16.5-22cm スリッポン キッズシューズ スリップオン 子ども ジュニア 男の子 /IF2894-400",
-  "median": 7543,
+  "minTitle": "ナイキ（NIKE）（キッズ）ジュニア スポーツシューズ スニーカー コスミック ランナー GS HM4402-001",
+  "median": 7590,
   "siteCount": 3,
-  "itemCount": 45
+  "itemCount": 46
  },
  "usedSummary": {
   "min": 3000,
-  "minSite": "mercari",
-  "minLabel": "メルカリ",
-  "minTitle": "NIKE スニーカー ナイキ コートビジョンMIDネクストネイチャー",
-  "median": 5250,
+  "minSite": "yahoo_auction",
+  "minLabel": "Yahoo!オークション",
+  "minTitle": "US 9,5 / 27,5cm 2012年製 nike ターミネーター HI シャンパンゴールドx白x黒",
+  "median": 5051,
   "siteCount": 2,
-  "itemCount": 26
+  "itemCount": 27
  },
  "history": [
   {
@@ -627,6 +627,20 @@
     "joshin": 5980,
     "mercari": 3000,
     "yahoo_auction": 3000
+   }
+  },
+  {
+   "date": "2026-11-28",
+   "newMin": 3828,
+   "newMedian": 7590,
+   "usedMin": 3000,
+   "usedMedian": 5051,
+   "sites": {
+    "yahoo_shopping": 3828,
+    "rakuten": 3999,
+    "joshin": 5980,
+    "yahoo_auction": 3000,
+    "mercari": 3300
    }
   }
  ]

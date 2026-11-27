@@ -1,8 +1,8 @@
 {
  "slug": "pokemon-sv",
  "term": "ポケモン スカーレット・バイオレット",
- "date": "2026-11-27",
- "capturedAt": "2026-11-26T20:10:02.050Z",
+ "date": "2026-11-28",
+ "capturedAt": "2026-11-27T20:10:04.642Z",
  "sites": [
   {
    "site": "yodobashi",
@@ -90,18 +90,11 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 5,
-   "min": 3600,
-   "median": 7140,
-   "max": 11110,
+   "count": 4,
+   "min": 3878,
+   "median": 6919,
+   "max": 7293,
    "items": [
-    {
-     "title": "Nintendo Switch ソフト 6点まとめ ポケットモンスター スカーレット バイオレット シャイニングパール ピカチュウ プロモ #hm #53432",
-     "price": 3600,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/o1253720902",
-     "shop": "",
-     "used": true
-    },
     {
      "title": "ポケットモンスター スカーレット・バイオレット ゼロの秘宝 ポケモン",
      "price": 3878,
@@ -110,8 +103,15 @@
      "used": true
     },
     {
+     "title": "Switch ポケットモンスター スカーレット バイオレット",
+     "price": 6700,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/z733254690",
+     "shop": "",
+     "used": true
+    },
+    {
      "title": "2点 ポケットモンスター スカーレット、バイオレット",
-     "price": 7140,
+     "price": 7138,
      "url": "https://auctions.yahoo.co.jp/jp/auction/z731032214",
      "shop": "",
      "used": true
@@ -122,10 +122,10 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 3,
+   "count": 4,
    "min": 4000,
-   "median": 6800,
-   "max": 7500,
+   "median": 7150,
+   "max": 7800,
    "items": [
     {
      "title": "ポケットモンスター スカーレット Nintendo Switch ソフト",
@@ -161,11 +161,11 @@
   "itemCount": 9
  },
  "usedSummary": {
-  "min": 3600,
+  "min": 3878,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "Nintendo Switch ソフト 6点まとめ ポケットモンスター スカーレット バイオレット シャイニングパール ピカチュウ プロモ #hm #53432",
-  "median": 6970,
+  "minTitle": "ポケットモンスター スカーレット・バイオレット ゼロの秘宝 ポケモン",
+  "median": 7035,
   "siteCount": 2,
   "itemCount": 8
  },
@@ -609,6 +609,20 @@
     "rakuten": 3500,
     "yahoo_shopping": 6052,
     "yahoo_auction": 3600,
+    "mercari": 4000
+   }
+  },
+  {
+   "date": "2026-11-28",
+   "newMin": 3460,
+   "newMedian": 5980,
+   "usedMin": 3878,
+   "usedMedian": 7035,
+   "sites": {
+    "yodobashi": 3460,
+    "rakuten": 3500,
+    "yahoo_shopping": 6052,
+    "yahoo_auction": 3878,
     "mercari": 4000
    }
   }

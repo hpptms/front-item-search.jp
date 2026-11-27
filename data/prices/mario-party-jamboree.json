@@ -1,21 +1,21 @@
 {
  "slug": "mario-party-jamboree",
  "term": "スーパー マリオパーティ ジャンボリー",
- "date": "2026-11-27",
- "capturedAt": "2026-11-26T20:10:02.050Z",
+ "date": "2026-11-28",
+ "capturedAt": "2026-11-27T20:10:04.642Z",
  "sites": [
   {
    "site": "rakuten",
    "label": "楽天市場",
    "used": false,
    "count": 18,
-   "min": 5480,
+   "min": 5580,
    "median": 6390,
    "max": 8170,
    "items": [
     {
      "title": "[Switch] スーパー マリオパーティ ジャンボリー 任天堂 (20241017)",
-     "price": 5480,
+     "price": 5580,
      "url": "https://hb.afl.rakuten.co.jp/hgc/560e48fa.f59f215f.560e48fb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmediaworldkaitoriworld%2F10463348001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmediaworldkaitoriworld%2Fi%2F10715498%2F&rafcid=wsc_i_is_ad86f3d4-2c57-45ab-b3bf-41339201395d",
      "shop": "メディアワールド 販売&買取SHOP",
      "used": false
@@ -40,21 +40,21 @@
    "site": "yahoo_shopping",
    "label": "Yahoo!ショッピング",
    "used": false,
-   "count": 14,
+   "count": 15,
    "min": 6099,
-   "median": 7935,
+   "median": 7908,
    "max": 8670,
    "items": [
     {
      "title": "『中古即納』{Switch} スーパー マリオパーティ ジャンボリー 任天堂 (20241017)",
-     "price": 5227,
+     "price": 5326,
      "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmediaworld-plus%2F10463348001.html",
      "shop": "メディアワールドプラス",
      "used": true
     },
     {
      "title": "『中古即納』{Switch} スーパー マリオパーティ ジャンボリー 任天堂 (20241017)",
-     "price": 5280,
+     "price": 5380,
      "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3776810&pid=892668131&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmedia-world%2F10463348001.html",
      "shop": "メディアワールド",
      "used": true
@@ -172,29 +172,29 @@
    "site": "yahoo_auction",
    "label": "Yahoo!オークション",
    "used": true,
-   "count": 13,
-   "min": 2900,
-   "median": 4700,
-   "max": 7200,
+   "count": 11,
+   "min": 2701,
+   "median": 4800,
+   "max": 6600,
    "items": [
     {
+     "title": "☆1円スタート新品未開封スーパー マリオパーティ ジャンボリー Nintendo Switch 2 Edition ＋ ジャンボリーTV ☆",
+     "price": 2701,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/g1253841619",
+     "shop": "",
+     "used": true
+    },
+    {
      "title": "tu047 Nitendo Switch ソフト スーパーマリオパーティ ジャンボリー ※中古",
-     "price": 2900,
+     "price": 3300,
      "url": "https://auctions.yahoo.co.jp/jp/auction/o1253451511",
      "shop": "",
      "used": true
     },
     {
-     "title": "新品 Switch スーパー マリオパーティ ジャンボリー Nintendo Switch 2 Edition ＋ ジャンボリーTV ソフト 未開封 1A0001-066fk/F8",
-     "price": 3080,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/d1253859106",
-     "shop": "",
-     "used": true
-    },
-    {
-     "title": "055/K386 ★中古品★ Nintendo Switch 2 ソフト スーパー マリオパーティ ジャンボリー Nintendo Switch 2 Edition ＋ ジャンボリーTV",
-     "price": 3100,
-     "url": "https://auctions.yahoo.co.jp/jp/auction/c1253768699",
+     "title": "スイッチソフト◆任天堂 スイッチ ソフトのみ Nintendo Switch 動作確認済 中古品●Z2010■",
+     "price": 3800,
+     "url": "https://auctions.yahoo.co.jp/jp/auction/k1251203957",
      "shop": "",
      "used": true
     }
@@ -204,29 +204,29 @@
    "site": "mercari",
    "label": "メルカリ",
    "used": true,
-   "count": 19,
+   "count": 18,
    "min": 4500,
-   "median": 5400,
-   "max": 6500,
+   "median": 5000,
+   "max": 6800,
    "items": [
     {
-     "title": "Nintendo Switch スーパー マリオパーティ ジャンボリー",
+     "title": "スーパー マリオパーティ ジャンボリー Switch版",
      "price": 4500,
-     "url": "https://jp.mercari.com/item/m64077912538",
+     "url": "https://jp.mercari.com/item/m89231244614",
      "shop": "メルカリ",
      "used": true
     },
     {
-     "title": "スーパー マリオパーティ ジャンボリー Nintendo Switch ソフト",
+     "title": "スイッチソフト [SUPERMARIOPARTY スーパーマリオパーティジャンボリー] NINTENDO SWITCH",
+     "price": 4500,
+     "url": "https://jp.mercari.com/shops/product/2Ja8HW8A9dVpnJJGah7gFo",
+     "shop": "メルカリ",
+     "used": true
+    },
+    {
+     "title": "スーパー マリオパーティ ジャンボリー Switch ソフト",
      "price": 4600,
-     "url": "https://jp.mercari.com/item/m77401551532",
-     "shop": "メルカリ",
-     "used": true
-    },
-    {
-     "title": "スーパーマリオパーティジャンボリー Nintendo Switch",
-     "price": 4750,
-     "url": "https://jp.mercari.com/item/m20851174707",
+     "url": "https://jp.mercari.com/item/m24571841487",
      "shop": "メルカリ",
      "used": true
     }
@@ -234,22 +234,22 @@
   }
  ],
  "newSummary": {
-  "min": 5480,
+  "min": 5580,
   "minSite": "rakuten",
   "minLabel": "楽天市場",
   "minTitle": "[Switch] スーパー マリオパーティ ジャンボリー 任天堂 (20241017)",
   "median": 7155,
   "siteCount": 6,
-  "itemCount": 41
+  "itemCount": 42
  },
  "usedSummary": {
-  "min": 2900,
+  "min": 2701,
   "minSite": "yahoo_auction",
   "minLabel": "Yahoo!オークション",
-  "minTitle": "tu047 Nitendo Switch ソフト スーパーマリオパーティ ジャンボリー ※中古",
-  "median": 5400,
+  "minTitle": "☆1円スタート新品未開封スーパー マリオパーティ ジャンボリー Nintendo Switch 2 Edition ＋ ジャンボリーTV ☆",
+  "median": 5000,
   "siteCount": 3,
-  "itemCount": 36
+  "itemCount": 32
  },
  "history": [
   {
@@ -776,6 +776,23 @@
     "yodobashi": 6600,
     "biccamera": 6770,
     "yahoo_auction": 2900,
+    "mercari": 4500
+   }
+  },
+  {
+   "date": "2026-11-28",
+   "newMin": 5580,
+   "newMedian": 7155,
+   "usedMin": 2701,
+   "usedMedian": 5000,
+   "sites": {
+    "rakuten": 5580,
+    "yahoo_shopping": 6099,
+    "joshin": 6260,
+    "edion": 6260,
+    "yodobashi": 6600,
+    "biccamera": 6770,
+    "yahoo_auction": 2701,
     "mercari": 4500
    }
   }
